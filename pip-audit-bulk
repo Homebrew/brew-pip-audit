@@ -23,7 +23,7 @@ find "${REQUIREMENTS}" -type f -name '*.txt' -print0 | \
     pip-audit -r "${req}" --require-hashes --format=json > "${output}"
 
     # pip-audit#261: we might produce an empty file; delete it if we do.
-    if [[ -z "${output}" ]]; then
+    if [[ ! -s "${output}" ]]; then
       rm "${output}"
     fi
 
