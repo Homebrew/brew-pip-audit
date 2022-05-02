@@ -1,0 +1,82 @@
+{
+  "dependencies": [
+    {
+      "name": "babel",
+      "version": "2.9.1",
+      "vulns": []
+    },
+    {
+      "name": "certifi",
+      "version": "2021.5.30",
+      "vulns": []
+    },
+    {
+      "name": "chardet",
+      "version": "4.0.0",
+      "vulns": []
+    },
+    {
+      "name": "colorama",
+      "version": "0.4.4",
+      "vulns": []
+    },
+    {
+      "name": "cssselect",
+      "version": "1.1.0",
+      "vulns": []
+    },
+    {
+      "name": "html2text",
+      "version": "2020.1.16",
+      "vulns": []
+    },
+    {
+      "name": "idna",
+      "version": "2.10",
+      "vulns": []
+    },
+    {
+      "name": "lxml",
+      "version": "4.6.3",
+      "vulns": [
+        {
+          "id": "PYSEC-2021-852",
+          "fix_versions": [
+            "4.6.5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.8.1",
+      "vulns": []
+    },
+    {
+      "name": "pytz",
+      "version": "2021.1",
+      "vulns": []
+    },
+    {
+      "name": "pyyaml",
+      "version": "5.4.1",
+      "vulns": []
+    },
+    {
+      "name": "requests",
+      "version": "2.25.1",
+      "vulns": []
+    },
+    {
+      "name": "unidecode",
+      "version": "1.2.0",
+      "vulns": []
+    },
+    {
+      "name": "urllib3",
+      "version": "1.26.6",
+      "vulns": []
+    }
+  ],
+  "fixes": []
+}

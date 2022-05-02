@@ -2,7 +2,8 @@
   "dependencies": [
     {
       "name": "arrow",
-      "skip_reason": "Dependency not found on PyPI and could not be audited: arrow (1.1.0)"
+      "version": "1.1.0",
+      "vulns": []
     },
     {
       "name": "certifi",
