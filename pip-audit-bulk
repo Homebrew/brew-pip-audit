@@ -5,8 +5,10 @@
 HERE="$(dirname "${0}")"
 REQUIREMENTS="${HERE}/requirements"
 OUT="${HERE}/audits"
+FAILURES="${HERE}/failures"
 
 mkdir -p "${OUT}"
+rm -f "${FAILURES}"
 
 if [[ ! -d "${REQUIREMENTS}" ]]; then
   >&2 echo "barf: missing requirements to audit (wrong dir?)"
@@ -25,6 +27,7 @@ find "${REQUIREMENTS}" -type f -name '*.txt' -print0 | \
     # pip-audit#261: we might produce an empty file; delete it if we do.
     if [[ ! -s "${output}" ]]; then
       rm "${output}"
+      echo "${req}" >> "${FAILURES}"
     fi
 
     if [[ "$(jq '.dependencies | any((.vulns | length) > 0)' < "${output}")" = "false" ]]; then
