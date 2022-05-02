@@ -2,8 +2,7 @@
   "dependencies": [
     {
       "name": "anytree",
-      "version": "2.8.0",
-      "vulns": []
+      "skip_reason": "Dependency not found on PyPI and could not be audited: anytree (2.8.0)"
     },
     {
       "name": "lxml",
