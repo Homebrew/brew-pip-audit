@@ -3,6 +3,9 @@
 require "fileutils"
 require "uri"
 
+require "formulary"
+require "formula"
+
 OUT = "#{__dir__}/requirements"
 FileUtils.mkdir_p OUT
 
