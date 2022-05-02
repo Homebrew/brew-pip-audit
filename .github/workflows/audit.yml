@@ -17,7 +17,7 @@ jobs:
         with:
           fetch-depth: 0
       - run: brew update
-      - run: brew install pip-audit
+      - run: pip install pip-audit
       - run: brew ruby formula2requirements.rb
       - run: bash pip-audit-bulk
       - name: Commit and push if it changed
