@@ -6,7 +6,7 @@ require "uri"
 OUT = "#{__dir__}/requirements"
 FileUtils.mkdir_p OUT
 
-Formula.each do |f|
+Formula.all.each do |f|
   # Look for formulae that have PyPI resources; skip those that don't.
   python_resources = f.resources.select { |r| r.url =~ /files\.pythonhosted\.org/ }
   next if python_resources.empty?
