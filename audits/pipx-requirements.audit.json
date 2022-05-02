@@ -1,1 +1,0 @@
-{"dependencies": [{"name": "argcomplete", "version": "2.0.0", "vulns": []}, {"name": "click", "version": "8.0.3", "vulns": []}, {"name": "packaging", "version": "21.3", "vulns": []}, {"name": "pyparsing", "version": "3.0.6", "vulns": []}, {"name": "userpath", "version": "1.7.0", "vulns": []}], "fixes": []}

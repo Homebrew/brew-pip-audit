@@ -1,1 +1,0 @@
-{"dependencies": [{"name": "pytz", "version": "2022.1", "vulns": []}, {"name": "pytz-deprecation-shim", "version": "0.1.0.post0", "vulns": []}, {"name": "tasklib", "version": "2.4.3", "vulns": []}, {"name": "tzdata", "version": "2022.1", "vulns": []}, {"name": "tzlocal", "version": "4.2", "vulns": []}, {"name": "urwid", "version": "2.1.2", "vulns": []}], "fixes": []}

@@ -1,1 +1,48 @@
-{"dependencies": [{"name": "docopt", "version": "0.6.2", "vulns": []}, {"name": "prompt-toolkit", "version": "3.0.5", "vulns": []}, {"name": "pyflakes", "version": "2.2.0", "vulns": []}, {"name": "pygments", "version": "2.6.1", "vulns": [{"id": "PYSEC-2021-140", "fix_versions": ["2.7.4"]}, {"id": "PYSEC-2021-141", "fix_versions": ["2.7.4"]}]}, {"name": "six", "version": "1.14.0", "vulns": []}, {"name": "wcwidth", "version": "0.1.9", "vulns": []}], "fixes": []}
+{
+  "dependencies": [
+    {
+      "name": "docopt",
+      "version": "0.6.2",
+      "vulns": []
+    },
+    {
+      "name": "prompt-toolkit",
+      "version": "3.0.5",
+      "vulns": []
+    },
+    {
+      "name": "pyflakes",
+      "version": "2.2.0",
+      "vulns": []
+    },
+    {
+      "name": "pygments",
+      "version": "2.6.1",
+      "vulns": [
+        {
+          "id": "PYSEC-2021-140",
+          "fix_versions": [
+            "2.7.4"
+          ]
+        },
+        {
+          "id": "PYSEC-2021-141",
+          "fix_versions": [
+            "2.7.4"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "six",
+      "version": "1.14.0",
+      "vulns": []
+    },
+    {
+      "name": "wcwidth",
+      "version": "0.1.9",
+      "vulns": []
+    }
+  ],
+  "fixes": []
+}

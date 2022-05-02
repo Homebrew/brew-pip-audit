@@ -1,1 +1,0 @@
-{"dependencies": [{"name": "cpyparsing", "version": "2.4.7.1.0.0", "vulns": []}, {"name": "prompt-toolkit", "version": "3.0.22", "vulns": []}, {"name": "pygments", "version": "2.10.0", "vulns": []}, {"name": "wcwidth", "version": "0.2.5", "vulns": []}], "fixes": []}

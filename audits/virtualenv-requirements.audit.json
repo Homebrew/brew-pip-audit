@@ -1,1 +1,0 @@
-{"dependencies": [{"name": "distlib", "version": "0.3.4", "vulns": []}, {"name": "filelock", "version": "3.6.0", "vulns": []}, {"name": "platformdirs", "version": "2.5.1", "vulns": []}], "fixes": []}

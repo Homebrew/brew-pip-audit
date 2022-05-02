@@ -1,1 +1,47 @@
-{"dependencies": [{"name": "certifi", "version": "2020.12.5", "vulns": []}, {"name": "chardet", "version": "4.0.0", "vulns": []}, {"name": "idna", "version": "2.10", "vulns": []}, {"name": "requests", "version": "2.25.1", "vulns": []}, {"name": "requests-cache", "version": "0.5.2", "vulns": []}, {"name": "tvdb-api", "version": "3.1.0", "vulns": []}, {"name": "urllib3", "version": "1.26.4", "vulns": [{"id": "PYSEC-2021-108", "fix_versions": ["1.26.5"]}]}], "fixes": []}
+{
+  "dependencies": [
+    {
+      "name": "certifi",
+      "version": "2020.12.5",
+      "vulns": []
+    },
+    {
+      "name": "chardet",
+      "version": "4.0.0",
+      "vulns": []
+    },
+    {
+      "name": "idna",
+      "version": "2.10",
+      "vulns": []
+    },
+    {
+      "name": "requests",
+      "version": "2.25.1",
+      "vulns": []
+    },
+    {
+      "name": "requests-cache",
+      "version": "0.5.2",
+      "vulns": []
+    },
+    {
+      "name": "tvdb-api",
+      "version": "3.1.0",
+      "vulns": []
+    },
+    {
+      "name": "urllib3",
+      "version": "1.26.4",
+      "vulns": [
+        {
+          "id": "PYSEC-2021-108",
+          "fix_versions": [
+            "1.26.5"
+          ]
+        }
+      ]
+    }
+  ],
+  "fixes": []
+}

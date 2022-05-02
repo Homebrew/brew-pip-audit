@@ -1,1 +1,0 @@
-{"dependencies": [{"name": "pygments", "version": "2.12.0", "vulns": []}, {"name": "ruamel-yaml", "version": "0.17.21", "vulns": []}, {"name": "ruamel-yaml-clib", "version": "0.2.6", "vulns": []}, {"name": "xmltodict", "version": "0.12.0", "vulns": []}], "fixes": []}

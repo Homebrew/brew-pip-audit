@@ -1,1 +1,0 @@
-{"dependencies": [{"name": "appdirs", "version": "1.4.4", "vulns": []}, {"name": "astor", "version": "0.8.1", "vulns": []}, {"name": "colorama", "version": "0.4.4", "vulns": []}, {"name": "funcparserlib", "version": "0.3.6", "vulns": []}, {"name": "rply", "version": "0.7.7", "vulns": []}], "fixes": []}

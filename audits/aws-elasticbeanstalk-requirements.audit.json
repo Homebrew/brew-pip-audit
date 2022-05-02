@@ -1,1 +1,182 @@
-{"dependencies": [{"name": "attrs", "version": "21.4.0", "vulns": []}, {"name": "bcrypt", "version": "3.2.0", "vulns": []}, {"name": "blessed", "version": "1.19.1", "vulns": []}, {"name": "botocore", "version": "1.23.48", "vulns": []}, {"name": "cached-property", "version": "1.5.2", "vulns": []}, {"name": "cement", "version": "2.8.2", "vulns": []}, {"name": "certifi", "version": "2021.10.8", "vulns": []}, {"name": "cffi", "version": "1.15.0", "vulns": []}, {"name": "charset-normalizer", "version": "2.0.11", "vulns": []}, {"name": "colorama", "version": "0.4.3", "vulns": []}, {"name": "cryptography", "version": "36.0.1", "vulns": []}, {"name": "docker", "version": "4.4.4", "vulns": []}, {"name": "docker-compose", "version": "1.25.5", "vulns": []}, {"name": "dockerpty", "version": "0.4.1", "vulns": []}, {"name": "docopt", "version": "0.6.2", "vulns": []}, {"name": "future", "version": "0.16.0", "vulns": []}, {"name": "idna", "version": "3.3", "vulns": []}, {"name": "jmespath", "version": "0.10.0", "vulns": []}, {"name": "jsonschema", "version": "3.2.0", "vulns": []}, {"name": "paramiko", "version": "2.9.2", "vulns": [{"id": "PYSEC-2022-166", "fix_versions": ["2.10.1"]}]}, {"name": "pathspec", "version": "0.9.0", "vulns": []}, {"name": "pycparser", "version": "2.21", "vulns": []}, {"name": "pynacl", "version": "1.5.0", "vulns": []}, {"name": "pyrsistent", "version": "0.18.1", "vulns": []}, {"name": "python-dateutil", "version": "2.8.2", "vulns": []}, {"name": "pyyaml", "version": "5.4.1", "vulns": []}, {"name": "requests", "version": "2.26.0", "vulns": []}, {"name": "semantic-version", "version": "2.8.5", "vulns": []}, {"name": "six", "version": "1.14.0", "vulns": []}, {"name": "termcolor", "version": "1.1.0", "vulns": []}, {"name": "texttable", "version": "1.6.4", "vulns": []}, {"name": "urllib3", "version": "1.26.8", "vulns": []}, {"name": "wcwidth", "version": "0.1.9", "vulns": []}, {"name": "websocket-client", "version": "0.59.0", "vulns": []}], "fixes": []}
+{
+  "dependencies": [
+    {
+      "name": "attrs",
+      "version": "21.4.0",
+      "vulns": []
+    },
+    {
+      "name": "bcrypt",
+      "version": "3.2.0",
+      "vulns": []
+    },
+    {
+      "name": "blessed",
+      "version": "1.19.1",
+      "vulns": []
+    },
+    {
+      "name": "botocore",
+      "version": "1.23.48",
+      "vulns": []
+    },
+    {
+      "name": "cached-property",
+      "version": "1.5.2",
+      "vulns": []
+    },
+    {
+      "name": "cement",
+      "version": "2.8.2",
+      "vulns": []
+    },
+    {
+      "name": "certifi",
+      "version": "2021.10.8",
+      "vulns": []
+    },
+    {
+      "name": "cffi",
+      "version": "1.15.0",
+      "vulns": []
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "2.0.11",
+      "vulns": []
+    },
+    {
+      "name": "colorama",
+      "version": "0.4.3",
+      "vulns": []
+    },
+    {
+      "name": "cryptography",
+      "version": "36.0.1",
+      "vulns": []
+    },
+    {
+      "name": "docker",
+      "version": "4.4.4",
+      "vulns": []
+    },
+    {
+      "name": "docker-compose",
+      "version": "1.25.5",
+      "vulns": []
+    },
+    {
+      "name": "dockerpty",
+      "version": "0.4.1",
+      "vulns": []
+    },
+    {
+      "name": "docopt",
+      "version": "0.6.2",
+      "vulns": []
+    },
+    {
+      "name": "future",
+      "version": "0.16.0",
+      "vulns": []
+    },
+    {
+      "name": "idna",
+      "version": "3.3",
+      "vulns": []
+    },
+    {
+      "name": "jmespath",
+      "version": "0.10.0",
+      "vulns": []
+    },
+    {
+      "name": "jsonschema",
+      "version": "3.2.0",
+      "vulns": []
+    },
+    {
+      "name": "paramiko",
+      "version": "2.9.2",
+      "vulns": [
+        {
+          "id": "PYSEC-2022-166",
+          "fix_versions": [
+            "2.10.1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pathspec",
+      "version": "0.9.0",
+      "vulns": []
+    },
+    {
+      "name": "pycparser",
+      "version": "2.21",
+      "vulns": []
+    },
+    {
+      "name": "pynacl",
+      "version": "1.5.0",
+      "vulns": []
+    },
+    {
+      "name": "pyrsistent",
+      "version": "0.18.1",
+      "vulns": []
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.8.2",
+      "vulns": []
+    },
+    {
+      "name": "pyyaml",
+      "version": "5.4.1",
+      "vulns": []
+    },
+    {
+      "name": "requests",
+      "version": "2.26.0",
+      "vulns": []
+    },
+    {
+      "name": "semantic-version",
+      "version": "2.8.5",
+      "vulns": []
+    },
+    {
+      "name": "six",
+      "version": "1.14.0",
+      "vulns": []
+    },
+    {
+      "name": "termcolor",
+      "version": "1.1.0",
+      "vulns": []
+    },
+    {
+      "name": "texttable",
+      "version": "1.6.4",
+      "vulns": []
+    },
+    {
+      "name": "urllib3",
+      "version": "1.26.8",
+      "vulns": []
+    },
+    {
+      "name": "wcwidth",
+      "version": "0.1.9",
+      "vulns": []
+    },
+    {
+      "name": "websocket-client",
+      "version": "0.59.0",
+      "vulns": []
+    }
+  ],
+  "fixes": []
+}

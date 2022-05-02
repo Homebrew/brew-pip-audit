@@ -1,1 +1,0 @@
-{"dependencies": [{"name": "argparse", "version": "1.4.0", "vulns": []}, {"name": "pyyaml", "version": "6.0", "vulns": []}, {"name": "simplejson", "version": "3.17.6", "vulns": []}], "fixes": []}

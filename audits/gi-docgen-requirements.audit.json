@@ -1,1 +1,0 @@
-{"dependencies": [{"name": "jinja2", "version": "3.1.1", "vulns": []}, {"name": "markdown", "version": "3.3.6", "vulns": []}, {"name": "markupsafe", "version": "2.1.1", "vulns": []}, {"name": "pygments", "version": "2.11.2", "vulns": []}, {"name": "toml", "version": "0.10.2", "vulns": []}, {"name": "typogrify", "version": "2.0.7", "vulns": []}], "fixes": []}

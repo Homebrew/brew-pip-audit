@@ -1,1 +1,0 @@
-{"dependencies": [{"name": "beautifulsoup4", "version": "4.10.0", "vulns": []}, {"name": "html5lib", "version": "1.1", "vulns": []}, {"name": "soupsieve", "version": "2.2.1", "vulns": []}, {"name": "webencodings", "version": "0.5.1", "vulns": []}], "fixes": []}

@@ -1,1 +1,0 @@
-{"dependencies": [{"name": "gitdb", "version": "4.0.9", "vulns": []}, {"name": "gitpython", "version": "3.1.27", "vulns": []}, {"name": "pbr", "version": "5.8.1", "vulns": []}, {"name": "pyyaml", "version": "6.0", "vulns": []}, {"name": "smmap", "version": "5.0.0", "vulns": []}, {"name": "stevedore", "version": "3.5.0", "vulns": []}], "fixes": []}

@@ -1,1 +1,0 @@
-{"dependencies": [{"name": "certifi", "version": "2021.10.8", "vulns": []}, {"name": "distlib", "version": "0.3.4", "vulns": []}, {"name": "filelock", "version": "3.6.0", "vulns": []}, {"name": "platformdirs", "version": "2.5.2", "vulns": []}, {"name": "virtualenv", "version": "20.14.1", "vulns": []}, {"name": "virtualenv-clone", "version": "0.5.7", "vulns": []}], "fixes": []}

@@ -1,1 +1,0 @@
-{"dependencies": [{"name": "colorama", "version": "0.4.4", "vulns": []}, {"name": "decorator", "version": "5.1.0", "vulns": []}, {"name": "psutil", "version": "5.9.0", "vulns": []}, {"name": "pyte", "version": "0.8.0", "vulns": []}, {"name": "six", "version": "1.16.0", "vulns": []}, {"name": "wcwidth", "version": "0.2.5", "vulns": []}], "fixes": []}

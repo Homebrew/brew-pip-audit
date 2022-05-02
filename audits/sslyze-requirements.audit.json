@@ -1,1 +1,0 @@
-{"dependencies": [{"name": "cffi", "version": "1.15.0", "vulns": []}, {"name": "cryptography", "version": "36.0.2", "vulns": []}, {"name": "pycparser", "version": "2.21", "vulns": []}, {"name": "pydantic", "version": "1.9.0", "vulns": []}, {"name": "tls-parser", "version": "2.0.0", "vulns": []}, {"name": "typing-extensions", "version": "4.2.0", "vulns": []}], "fixes": []}

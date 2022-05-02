@@ -1,1 +1,0 @@
-{"dependencies": [{"name": "click", "version": "8.1.2", "vulns": []}, {"name": "colorama", "version": "0.4.4", "vulns": []}, {"name": "kaptan", "version": "0.5.12", "vulns": []}, {"name": "libtmux", "version": "0.11.0", "vulns": []}, {"name": "pyyaml", "version": "5.4.1", "vulns": []}], "fixes": []}

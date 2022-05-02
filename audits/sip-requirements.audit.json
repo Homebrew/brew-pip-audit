@@ -1,1 +1,0 @@
-{"dependencies": [{"name": "packaging", "version": "21.3", "vulns": []}, {"name": "ply", "version": "3.11", "vulns": []}, {"name": "pyparsing", "version": "3.0.8", "vulns": []}, {"name": "toml", "version": "0.10.2", "vulns": []}], "fixes": []}

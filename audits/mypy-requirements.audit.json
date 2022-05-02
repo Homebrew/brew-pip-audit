@@ -1,1 +1,0 @@
-{"dependencies": [{"name": "mypy-extensions", "version": "0.4.3", "vulns": []}, {"name": "tomli", "version": "2.0.1", "vulns": []}, {"name": "typing-extensions", "version": "4.2.0", "vulns": []}], "fixes": []}

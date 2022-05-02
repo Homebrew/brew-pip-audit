@@ -1,1 +1,27 @@
-{"dependencies": [{"name": "ansicolor", "version": "0.2.6", "vulns": []}, {"name": "chardet", "version": "3.0.4", "vulns": []}, {"name": "pyyaml", "version": "5.3.1", "vulns": [{"id": "PYSEC-2021-142", "fix_versions": ["5.4"]}]}], "fixes": []}
+{
+  "dependencies": [
+    {
+      "name": "ansicolor",
+      "version": "0.2.6",
+      "vulns": []
+    },
+    {
+      "name": "chardet",
+      "version": "3.0.4",
+      "vulns": []
+    },
+    {
+      "name": "pyyaml",
+      "version": "5.3.1",
+      "vulns": [
+        {
+          "id": "PYSEC-2021-142",
+          "fix_versions": [
+            "5.4"
+          ]
+        }
+      ]
+    }
+  ],
+  "fixes": []
+}

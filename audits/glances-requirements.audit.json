@@ -1,1 +1,0 @@
-{"dependencies": [{"name": "defusedxml", "version": "0.7.1", "vulns": []}, {"name": "future", "version": "0.18.2", "vulns": []}, {"name": "packaging", "version": "21.3", "vulns": []}, {"name": "psutil", "version": "5.8.0", "vulns": []}, {"name": "pyparsing", "version": "3.0.6", "vulns": []}], "fixes": []}

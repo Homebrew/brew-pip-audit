@@ -1,1 +1,0 @@
-{"dependencies": [{"name": "dnspython", "version": "2.2.0", "vulns": []}, {"name": "geoip", "version": "1.3.2", "vulns": []}, {"name": "idna", "version": "3.3", "vulns": []}, {"name": "ppdeep", "version": "20200505", "vulns": []}, {"name": "tld", "version": "0.12.6", "vulns": []}, {"name": "whois", "version": "0.9.13", "vulns": []}], "fixes": []}

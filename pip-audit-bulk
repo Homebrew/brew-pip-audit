@@ -18,7 +18,21 @@ fi
 
 find "${REQUIREMENTS}" -type f -name '*.txt' -print0 | \
   while IFS= read -r -d '' req; do
-    output="$(basename "${req}" .txt).audit.json"
+    output="${OUT}/$(basename "${req}" .txt).audit.json"
 
-    pip-audit -r "${req}" --require-hashes --format=json > "${OUT}/${output}"
+    pip-audit -r "${req}" --require-hashes --format=json > "${output}"
+
+    # pip-audit#261: we might produce an empty file; delete it if we do.
+    if [[ -z "${output}" ]]; then
+      rm "${output}"
+    fi
+
+    if [[ "$(jq '.dependencies | any((.vulns | length) > 0)' < "${output}")" = "false" ]]; then
+      echo "no vulns in ${output}; removing"
+      rm "${output}"
+    else
+      # :-(
+      jq '.' < "${output}" > "${output}.tmp"
+      mv "${output}.tmp" "${output}"
+    fi
   done

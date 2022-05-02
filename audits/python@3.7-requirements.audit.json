@@ -1,1 +1,0 @@
-{"dependencies": [{"name": "setuptools", "version": "60.10.0", "vulns": []}, {"name": "pip", "version": "22.0.4", "vulns": []}, {"name": "wheel", "version": "0.37.1", "vulns": []}, {"name": "importlib-metadata", "version": "3.4.0", "vulns": []}, {"name": "zipp", "version": "3.7.0", "vulns": []}], "fixes": []}

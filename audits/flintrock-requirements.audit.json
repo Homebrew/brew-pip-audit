@@ -1,1 +1,82 @@
-{"dependencies": [{"name": "bcrypt", "version": "3.2.0", "vulns": []}, {"name": "boto3", "version": "1.17.90", "vulns": []}, {"name": "botocore", "version": "1.20.90", "vulns": []}, {"name": "cffi", "version": "1.15.0", "vulns": []}, {"name": "click", "version": "7.0", "vulns": []}, {"name": "cryptography", "version": "36.0.1", "vulns": []}, {"name": "jmespath", "version": "0.10.0", "vulns": []}, {"name": "paramiko", "version": "2.7.2", "vulns": [{"id": "PYSEC-2022-166", "fix_versions": ["2.10.1"]}]}, {"name": "pycparser", "version": "2.21", "vulns": []}, {"name": "pynacl", "version": "1.4.0", "vulns": []}, {"name": "python-dateutil", "version": "2.8.2", "vulns": []}, {"name": "pyyaml", "version": "5.4.1", "vulns": []}, {"name": "s3transfer", "version": "0.4.2", "vulns": []}, {"name": "urllib3", "version": "1.26.7", "vulns": []}], "fixes": []}
+{
+  "dependencies": [
+    {
+      "name": "bcrypt",
+      "version": "3.2.0",
+      "vulns": []
+    },
+    {
+      "name": "boto3",
+      "version": "1.17.90",
+      "vulns": []
+    },
+    {
+      "name": "botocore",
+      "version": "1.20.90",
+      "vulns": []
+    },
+    {
+      "name": "cffi",
+      "version": "1.15.0",
+      "vulns": []
+    },
+    {
+      "name": "click",
+      "version": "7.0",
+      "vulns": []
+    },
+    {
+      "name": "cryptography",
+      "version": "36.0.1",
+      "vulns": []
+    },
+    {
+      "name": "jmespath",
+      "version": "0.10.0",
+      "vulns": []
+    },
+    {
+      "name": "paramiko",
+      "version": "2.7.2",
+      "vulns": [
+        {
+          "id": "PYSEC-2022-166",
+          "fix_versions": [
+            "2.10.1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "pycparser",
+      "version": "2.21",
+      "vulns": []
+    },
+    {
+      "name": "pynacl",
+      "version": "1.4.0",
+      "vulns": []
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.8.2",
+      "vulns": []
+    },
+    {
+      "name": "pyyaml",
+      "version": "5.4.1",
+      "vulns": []
+    },
+    {
+      "name": "s3transfer",
+      "version": "0.4.2",
+      "vulns": []
+    },
+    {
+      "name": "urllib3",
+      "version": "1.26.7",
+      "vulns": []
+    }
+  ],
+  "fixes": []
+}

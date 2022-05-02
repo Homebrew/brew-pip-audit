@@ -1,1 +1,62 @@
-{"dependencies": [{"name": "arrow", "version": "1.1.0", "vulns": []}, {"name": "certifi", "version": "2020.12.5", "vulns": []}, {"name": "chardet", "version": "4.0.0", "vulns": []}, {"name": "click", "version": "7.1.2", "vulns": []}, {"name": "click-didyoumean", "version": "0.0.3", "vulns": []}, {"name": "idna", "version": "2.10", "vulns": []}, {"name": "python-dateutil", "version": "2.8.1", "vulns": []}, {"name": "requests", "version": "2.25.1", "vulns": []}, {"name": "six", "version": "1.16.0", "vulns": []}, {"name": "urllib3", "version": "1.26.4", "vulns": [{"id": "PYSEC-2021-108", "fix_versions": ["1.26.5"]}]}], "fixes": []}
+{
+  "dependencies": [
+    {
+      "name": "arrow",
+      "version": "1.1.0",
+      "vulns": []
+    },
+    {
+      "name": "certifi",
+      "version": "2020.12.5",
+      "vulns": []
+    },
+    {
+      "name": "chardet",
+      "version": "4.0.0",
+      "vulns": []
+    },
+    {
+      "name": "click",
+      "version": "7.1.2",
+      "vulns": []
+    },
+    {
+      "name": "click-didyoumean",
+      "version": "0.0.3",
+      "vulns": []
+    },
+    {
+      "name": "idna",
+      "version": "2.10",
+      "vulns": []
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.8.1",
+      "vulns": []
+    },
+    {
+      "name": "requests",
+      "version": "2.25.1",
+      "vulns": []
+    },
+    {
+      "name": "six",
+      "version": "1.16.0",
+      "vulns": []
+    },
+    {
+      "name": "urllib3",
+      "version": "1.26.4",
+      "vulns": [
+        {
+          "id": "PYSEC-2021-108",
+          "fix_versions": [
+            "1.26.5"
+          ]
+        }
+      ]
+    }
+  ],
+  "fixes": []
+}

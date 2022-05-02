@@ -1,1 +1,0 @@
-{"dependencies": [{"name": "cheetah3", "version": "3.2.6", "vulns": []}, {"name": "click", "version": "8.0.1", "vulns": []}, {"name": "click-plugins", "version": "1.1.1", "vulns": []}, {"name": "mako", "version": "1.1.5", "vulns": []}, {"name": "pyyaml", "version": "5.4.1", "vulns": []}], "fixes": []}
