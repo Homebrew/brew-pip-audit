@@ -1,0 +1,1 @@
+{"dependencies": [{"name": "colorama", "version": "0.4.4", "vulns": []}, {"name": "gitdb", "version": "4.0.5", "vulns": []}, {"name": "gitpython", "version": "3.1.12", "vulns": []}, {"name": "smmap", "version": "3.0.4", "vulns": []}], "fixes": []}

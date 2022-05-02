@@ -1,0 +1,1 @@
+{"dependencies": [{"name": "dnspython", "version": "2.1.0", "vulns": []}, {"name": "m2crypto", "version": "0.38.0", "vulns": []}, {"name": "pygraphviz", "version": "1.7", "vulns": []}], "fixes": []}

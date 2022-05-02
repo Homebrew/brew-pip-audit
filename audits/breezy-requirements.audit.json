@@ -1,0 +1,1 @@
+{"dependencies": [{"name": "certifi", "version": "2021.10.8", "vulns": []}, {"name": "configobj", "version": "5.0.6", "vulns": []}, {"name": "dulwich", "version": "0.20.35", "vulns": []}, {"name": "fastbencode", "version": "0.0.7", "vulns": []}, {"name": "patiencediff", "version": "0.2.2", "vulns": []}, {"name": "urllib3", "version": "1.26.9", "vulns": []}], "fixes": []}

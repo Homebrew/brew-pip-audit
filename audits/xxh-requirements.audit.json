@@ -1,0 +1,1 @@
+{"dependencies": [{"name": "pexpect", "version": "4.8.0", "vulns": []}, {"name": "ptyprocess", "version": "0.7.0", "vulns": []}, {"name": "pyyaml", "version": "6.0", "vulns": []}], "fixes": []}

@@ -1,0 +1,1 @@
+watchdog==2.1.7 --hash=sha256:3fd47815353be9c44eebc94cc28fe26b2b0c5bd889dafc4a5a7cbdf924143480

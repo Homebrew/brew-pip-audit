@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+# pip-audit-bulk: run pip-audit in bulk, saving reports in JSON
+
+HERE="$(dirname "${0}")"
+REQUIREMENTS="${HERE}/requirements"
+OUT="${HERE}/audits"
+
+mkdir -p "${OUT}"
+
+if [[ ! -d "${REQUIREMENTS}" ]]; then
+  >&2 echo "barf: missing requirements to audit (wrong dir?)"
+fi
+
+if [[ -z "$(type -p pip-audit)" ]]; then
+  >&2 echo "barf: missing pip-audit"
+fi
+
+find "${REQUIREMENTS}" -type f -name '*.txt' -print0 | \
+  while IFS= read -r -d '' req; do
+    output="$(basename "${req}" .txt).audit.json"
+
+    pip-audit -r "${req}" --require-hashes --format=json > "${OUT}/${output}"
+  done

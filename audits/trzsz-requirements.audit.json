@@ -1,0 +1,1 @@
+{"dependencies": [{"name": "iterm2", "version": "2.0", "vulns": []}, {"name": "trzsz-iterm2", "version": "1.0.0", "vulns": []}, {"name": "trzsz-libs", "version": "1.0.0", "vulns": []}, {"name": "trzsz-svr", "version": "1.0.0", "vulns": []}, {"name": "websockets", "version": "10.2", "vulns": []}], "fixes": []}

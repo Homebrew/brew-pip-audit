@@ -1,0 +1,1 @@
+{"dependencies": [{"name": "greenlet", "version": "1.1.0", "vulns": []}, {"name": "msgpack", "version": "1.0.2", "vulns": []}, {"name": "psutil", "version": "5.8.0", "vulns": []}, {"name": "pynvim", "version": "0.4.3", "vulns": []}], "fixes": []}

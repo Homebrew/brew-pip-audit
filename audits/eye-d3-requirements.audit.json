@@ -1,0 +1,1 @@
+{"dependencies": [{"name": "coverage", "version": "5.3.1", "vulns": []}, {"name": "deprecation", "version": "2.1.0", "vulns": []}, {"name": "filetype", "version": "1.0.7", "vulns": []}, {"name": "packaging", "version": "20.8", "vulns": []}, {"name": "pyparsing", "version": "2.4.7", "vulns": []}, {"name": "toml", "version": "0.10.2", "vulns": []}], "fixes": []}

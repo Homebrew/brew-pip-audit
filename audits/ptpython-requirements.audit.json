@@ -1,0 +1,1 @@
+{"dependencies": [{"name": "appdirs", "version": "1.4.4", "vulns": []}, {"name": "jedi", "version": "0.18.0", "vulns": []}, {"name": "parso", "version": "0.8.2", "vulns": []}, {"name": "prompt-toolkit", "version": "3.0.20", "vulns": []}, {"name": "pygments", "version": "2.10.0", "vulns": []}, {"name": "wcwidth", "version": "0.2.5", "vulns": []}], "fixes": []}

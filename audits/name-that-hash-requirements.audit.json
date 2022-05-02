@@ -1,0 +1,1 @@
+{"dependencies": [{"name": "click", "version": "8.0.1", "vulns": []}, {"name": "colorama", "version": "0.4.4", "vulns": []}, {"name": "commonmark", "version": "0.9.1", "vulns": []}, {"name": "pygments", "version": "2.9.0", "vulns": []}, {"name": "rich", "version": "10.3.0", "vulns": []}], "fixes": []}

@@ -1,0 +1,1 @@
+{"dependencies": [{"name": "lxml", "version": "4.6.3", "vulns": [{"id": "PYSEC-2021-852", "fix_versions": ["4.6.5"]}]}, {"name": "pyte", "version": "0.8.0", "vulns": []}, {"name": "wcwidth", "version": "0.2.5", "vulns": []}], "fixes": []}

@@ -1,0 +1,1 @@
+{"dependencies": [{"name": "certifi", "version": "2021.5.30", "vulns": []}, {"name": "charset-normalizer", "version": "2.0.4", "vulns": []}, {"name": "idna", "version": "3.2", "vulns": []}, {"name": "requests", "version": "2.26.0", "vulns": []}, {"name": "urllib3", "version": "1.26.6", "vulns": []}], "fixes": []}

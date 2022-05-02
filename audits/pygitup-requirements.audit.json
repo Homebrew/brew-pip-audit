@@ -1,0 +1,1 @@
+{"dependencies": [{"name": "colorama", "version": "0.4.4", "vulns": []}, {"name": "gitdb", "version": "4.0.7", "vulns": []}, {"name": "gitpython", "version": "3.1.24", "vulns": []}, {"name": "smmap", "version": "4.0.0", "vulns": []}, {"name": "termcolor", "version": "1.1.0", "vulns": []}, {"name": "typing-extensions", "version": "3.10.0.2", "vulns": []}], "fixes": []}

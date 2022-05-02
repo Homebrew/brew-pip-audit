@@ -1,0 +1,2 @@
+pyzmq==22.3.0 --hash=sha256:8eddc033e716f8c91c6a2112f0a8ebc5e00532b4a6ae1eb0ccc48e027f9c671c
+tnetstring3==0.3.1 --hash=sha256:5acab57cce3693d119265a8ac019a9bcdc52a9cacb3ba37b5b3a1746a1c14d56

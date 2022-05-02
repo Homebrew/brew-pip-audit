@@ -1,0 +1,1 @@
+{"dependencies": [{"name": "mccabe", "version": "0.6.1", "vulns": []}, {"name": "pycodestyle", "version": "2.8.0", "vulns": []}, {"name": "pyflakes", "version": "2.4.0", "vulns": []}], "fixes": []}

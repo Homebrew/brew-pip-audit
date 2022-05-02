@@ -1,0 +1,1 @@
+{"dependencies": [{"name": "attrs", "version": "21.4.0", "vulns": []}, {"name": "click", "version": "8.1.0", "vulns": []}, {"name": "construct", "version": "2.10.68", "vulns": []}, {"name": "inflection", "version": "0.5.1", "vulns": []}, {"name": "pytz", "version": "2022.1", "vulns": []}], "fixes": []}

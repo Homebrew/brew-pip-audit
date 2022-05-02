@@ -1,0 +1,13 @@
+bcrypt==3.2.0 --hash=sha256:5b93c1726e50a93a033c36e5ca7fdcd29a5c7395af50a6892f5d9e7c6cfbfb29
+cffi==1.15.0 --hash=sha256:920f0d66a896c2d99f0adbb391f990a84091179542c205fa53ce5787aff87954
+cryptography==36.0.2 --hash=sha256:70f8f4f7bb2ac9f340655cbac89d68c527af5bb4387522a8413e841e3e6628c9
+paramiko==2.10.3 --hash=sha256:ddb1977853aef82804b35d72a0e597b244fa326c404c350bd00c5b01dbfee71a
+pycparser==2.21 --hash=sha256:e644fdec12f7872f86c58ff790da456218b10f863970249516d60a5eaca77206
+PyNaCl==1.5.0 --hash=sha256:8ac7448f09ab85811607bdd21ec2464495ac8b7c66d146bf545b0f08fb9220ba
+robotframework-archivelibrary==0.4.1 --hash=sha256:61cfb1d74717cb11862c87d8f44f5b5cc4a2862de42c441859df83fc33dd3dcf
+robotframework-pythonlibcore==3.0.0 --hash=sha256:1bce3b8dfcb7519789ee3a89320f6402e126f6d0a02794184a1ab8cee0e46b5d
+robotframework-selenium2library==3.0.0 --hash=sha256:2a8e942b0788b16ded253039008b34d2b46199283461b294f0f41a579c70fda7
+robotframework-seleniumlibrary==6.0.0 --hash=sha256:ef6d5f1b481513cb6e3d15d78b0dcbabc53aa0866d8d23844b899ac824a0ea82
+robotframework-sshlibrary==3.8.0 --hash=sha256:aedf8a02bcb7344404cf8575d0ada25d6c7dc2fcb65de2113c4e07c63d2446c2
+scp==0.14.4 --hash=sha256:54699b92cb68ae34b5928c48a888eab9722a212502cba89aa795bd56597505bd
+selenium==3.141.0 --hash=sha256:deaf32b60ad91a4611b98d8002757f29e6f2c2d5fcaf202e1c9ad06d6772300d

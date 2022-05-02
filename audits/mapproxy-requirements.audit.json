@@ -1,0 +1,1 @@
+{"dependencies": [{"name": "certifi", "version": "2021.10.8", "vulns": []}, {"name": "pyproj", "version": "3.3.0", "vulns": []}, {"name": "pyyaml", "version": "6.0", "vulns": []}], "fixes": []}

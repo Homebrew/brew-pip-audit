@@ -1,0 +1,1 @@
+{"dependencies": [{"name": "click", "version": "8.0.4", "vulns": []}, {"name": "bashlex", "version": "0.16", "vulns": []}, {"name": "shutilwhich", "version": "1.1.0", "vulns": []}], "fixes": []}
