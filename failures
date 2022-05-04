@@ -1,3 +1,1 @@
 ./requirements/s3ql-requirements.txt
-./requirements/cfn-lint-requirements.txt
-./requirements/aws-google-auth-requirements.txt
