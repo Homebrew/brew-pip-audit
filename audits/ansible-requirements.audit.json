@@ -32,12 +32,12 @@
     },
     {
       "name": "boto3",
-      "version": "1.22.4",
+      "version": "1.22.7",
       "vulns": []
     },
     {
       "name": "botocore",
-      "version": "1.25.4",
+      "version": "1.25.7",
       "vulns": []
     },
     {
@@ -72,7 +72,7 @@
     },
     {
       "name": "cryptography",
-      "version": "37.0.1",
+      "version": "37.0.2",
       "vulns": []
     },
     {
@@ -492,7 +492,7 @@
     },
     {
       "name": "wrapt",
-      "version": "1.14.0",
+      "version": "1.14.1",
       "vulns": []
     },
     {
