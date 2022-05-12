@@ -2,12 +2,12 @@
   "dependencies": [
     {
       "name": "boto3",
-      "version": "1.21.46",
+      "version": "1.22.10",
       "vulns": []
     },
     {
       "name": "botocore",
-      "version": "1.24.46",
+      "version": "1.25.10",
       "vulns": []
     },
     {
@@ -17,7 +17,7 @@
     },
     {
       "name": "click",
-      "version": "8.1.2",
+      "version": "8.1.3",
       "vulns": []
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "name": "pyathena",
-      "version": "2.5.2",
+      "version": "2.6.1",
       "vulns": []
     },
     {
