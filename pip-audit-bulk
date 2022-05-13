@@ -18,7 +18,7 @@ if [[ -z "$(type -p pip-audit)" ]]; then
   >&2 echo "barf: missing pip-audit"
 fi
 
-find "${REQUIREMENTS}" -type f -name '*.txt' -print0 | \
+find -s "${REQUIREMENTS}" -type f -name '*.txt' -print0 | \
   while IFS= read -r -d '' req; do
     output="${OUT}/$(basename "${req}" .txt).audit.json"
 
