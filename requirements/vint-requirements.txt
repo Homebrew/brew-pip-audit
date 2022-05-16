@@ -1,3 +1,3 @@
-ansicolor==0.2.6 --hash=sha256:d17e1b07b9dd7ded31699fbca53ae6cd373584f9b6dcbc124d1f321ebad31f1d
-chardet==3.0.4 --hash=sha256:84ab92ed1c4d4f16916e05906b6b75a6c0fb5db821cc65e70cbd64a3e2a5eaae
-PyYAML==5.3.1 --hash=sha256:b8eac752c5e14d3eca0e6dd9199cd627518cb5ec06add0de9d32baeee6fe645d
+ansicolor==0.3.2 --hash=sha256:3b840a6b1184b5f1568635b1adab28147947522707d41ceba02d5ed0a0877279
+chardet==4.0.0 --hash=sha256:0d6f53a15db4120f2b08c94f11e7d93d2c911ee118b6b30a04ec3ee8310179fa
+PyYAML==6.0 --hash=sha256:68fb519c14306fec9720a2a5b45bc9f0c8d1b9c72adf45c37baedfcd949c35a2
