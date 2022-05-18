@@ -20,6 +20,12 @@
           "fix_versions": [
             "5.4"
           ]
+        },
+        {
+          "id": "GHSA-6757-jp84-gxfx",
+          "fix_versions": [
+            "5.3.1"
+          ]
         }
       ]
     },

@@ -42,6 +42,10 @@
           "fix_versions": [
             "2.3.9"
           ]
+        },
+        {
+          "id": "GHSA-p6h9-gw49-rqm4",
+          "fix_versions": []
         }
       ]
     },
