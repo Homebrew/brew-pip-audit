@@ -32,22 +32,22 @@
     },
     {
       "name": "boto3",
-      "version": "1.22.7",
+      "version": "1.23.3",
       "vulns": []
     },
     {
       "name": "botocore",
-      "version": "1.25.7",
+      "version": "1.26.3",
       "vulns": []
     },
     {
       "name": "cachetools",
-      "version": "5.0.0",
+      "version": "5.1.0",
       "vulns": []
     },
     {
       "name": "certifi",
-      "version": "2021.10.8",
+      "version": "2022.5.18",
       "vulns": []
     },
     {
@@ -167,7 +167,7 @@
     },
     {
       "name": "kubernetes",
-      "version": "23.3.0",
+      "version": "23.6.0",
       "vulns": []
     },
     {
@@ -262,7 +262,7 @@
     },
     {
       "name": "oslo-log",
-      "version": "4.7.0",
+      "version": "4.8.0",
       "vulns": []
     },
     {
@@ -282,7 +282,7 @@
     },
     {
       "name": "paramiko",
-      "version": "2.10.4",
+      "version": "2.11.0",
       "vulns": []
     },
     {
@@ -292,7 +292,7 @@
     },
     {
       "name": "pbr",
-      "version": "5.8.1",
+      "version": "5.9.0",
       "vulns": []
     },
     {
@@ -302,12 +302,12 @@
     },
     {
       "name": "prettytable",
-      "version": "3.2.0",
+      "version": "3.3.0",
       "vulns": []
     },
     {
       "name": "proxmoxer",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "vulns": []
     },
     {
@@ -337,7 +337,7 @@
     },
     {
       "name": "pyparsing",
-      "version": "3.0.8",
+      "version": "3.0.9",
       "vulns": []
     },
     {
@@ -497,7 +497,7 @@
     },
     {
       "name": "xmltodict",
-      "version": "0.12.0",
+      "version": "0.13.0",
       "vulns": []
     },
     {
