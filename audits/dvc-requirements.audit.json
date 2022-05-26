@@ -478,7 +478,14 @@
     {
       "name": "pyjwt",
       "version": "2.3.0",
-      "vulns": []
+      "vulns": [
+        {
+          "id": "GHSA-ffqj-6fqr-9h24",
+          "fix_versions": [
+            "2.4.0"
+          ]
+        }
+      ]
     },
     {
       "name": "pyopenssl",

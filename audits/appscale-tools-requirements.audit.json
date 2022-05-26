@@ -286,7 +286,14 @@
     {
       "name": "pyjwt",
       "version": "1.6.0",
-      "vulns": []
+      "vulns": [
+        {
+          "id": "GHSA-ffqj-6fqr-9h24",
+          "fix_versions": [
+            "2.4.0"
+          ]
+        }
+      ]
     },
     {
       "name": "adal",
