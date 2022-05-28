@@ -2,7 +2,7 @@
   "dependencies": [
     {
       "name": "apache-libcloud",
-      "version": "3.4.1",
+      "version": "3.6.0",
       "vulns": []
     },
     {
@@ -17,32 +17,32 @@
     },
     {
       "name": "autopage",
-      "version": "0.4.0",
+      "version": "0.5.1",
       "vulns": []
     },
     {
       "name": "bcrypt",
-      "version": "3.2.0",
+      "version": "3.2.2",
       "vulns": []
     },
     {
       "name": "boto3",
-      "version": "1.20.26",
+      "version": "1.23.9",
       "vulns": []
     },
     {
       "name": "botocore",
-      "version": "1.23.26",
+      "version": "1.26.9",
       "vulns": []
     },
     {
       "name": "cachetools",
-      "version": "4.2.4",
+      "version": "5.1.0",
       "vulns": []
     },
     {
       "name": "certifi",
-      "version": "2021.10.8",
+      "version": "2022.5.18.1",
       "vulns": []
     },
     {
@@ -52,37 +52,37 @@
     },
     {
       "name": "charset-normalizer",
-      "version": "2.0.9",
+      "version": "2.0.12",
       "vulns": []
     },
     {
       "name": "cliff",
-      "version": "3.10.0",
+      "version": "3.10.1",
       "vulns": []
     },
     {
       "name": "cmd2",
-      "version": "2.3.3",
+      "version": "2.4.1",
       "vulns": []
     },
     {
       "name": "cryptography",
-      "version": "36.0.1",
+      "version": "37.0.2",
       "vulns": []
     },
     {
       "name": "debtcollector",
-      "version": "2.3.0",
+      "version": "2.5.0",
       "vulns": []
     },
     {
       "name": "decorator",
-      "version": "5.1.0",
+      "version": "5.1.1",
       "vulns": []
     },
     {
       "name": "dnspython",
-      "version": "2.1.0",
+      "version": "2.2.1",
       "vulns": []
     },
     {
@@ -97,7 +97,7 @@
     },
     {
       "name": "dogpile-cache",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "vulns": []
     },
     {
@@ -107,7 +107,7 @@
     },
     {
       "name": "google-auth",
-      "version": "2.3.3",
+      "version": "2.6.6",
       "vulns": []
     },
     {
@@ -122,12 +122,12 @@
     },
     {
       "name": "jinja2",
-      "version": "3.0.3",
+      "version": "3.1.2",
       "vulns": []
     },
     {
       "name": "jmespath",
-      "version": "0.10.0",
+      "version": "1.0.0",
       "vulns": []
     },
     {
@@ -137,7 +137,7 @@
     },
     {
       "name": "jsonpointer",
-      "version": "2.2",
+      "version": "2.3",
       "vulns": []
     },
     {
@@ -162,22 +162,22 @@
     },
     {
       "name": "keystoneauth1",
-      "version": "4.4.0",
+      "version": "4.6.0",
       "vulns": []
     },
     {
       "name": "kubernetes",
-      "version": "12.0.1",
+      "version": "23.6.0",
       "vulns": []
     },
     {
       "name": "lxml",
-      "version": "4.7.1",
+      "version": "4.8.0",
       "vulns": []
     },
     {
       "name": "markupsafe",
-      "version": "2.0.1",
+      "version": "2.1.1",
       "vulns": []
     },
     {
@@ -217,17 +217,17 @@
     },
     {
       "name": "oauthlib",
-      "version": "3.1.1",
+      "version": "3.2.0",
       "vulns": []
     },
     {
       "name": "openshift",
-      "version": "0.12.1",
+      "version": "0.13.1",
       "vulns": []
     },
     {
       "name": "openstacksdk",
-      "version": "0.61.0",
+      "version": "0.99.0",
       "vulns": []
     },
     {
@@ -242,17 +242,17 @@
     },
     {
       "name": "osc-lib",
-      "version": "2.4.2",
+      "version": "2.6.0",
       "vulns": []
     },
     {
       "name": "oslo-config",
-      "version": "8.7.1",
+      "version": "8.8.0",
       "vulns": []
     },
     {
       "name": "oslo-context",
-      "version": "3.4.0",
+      "version": "4.1.0",
       "vulns": []
     },
     {
@@ -262,17 +262,17 @@
     },
     {
       "name": "oslo-log",
-      "version": "4.6.1",
+      "version": "5.0.0",
       "vulns": []
     },
     {
       "name": "oslo-serialization",
-      "version": "4.2.0",
+      "version": "4.3.0",
       "vulns": []
     },
     {
       "name": "oslo-utils",
-      "version": "4.12.0",
+      "version": "4.13.0",
       "vulns": []
     },
     {
@@ -282,15 +282,8 @@
     },
     {
       "name": "paramiko",
-      "version": "2.9.1",
-      "vulns": [
-        {
-          "id": "PYSEC-2022-166",
-          "fix_versions": [
-            "2.10.1"
-          ]
-        }
-      ]
+      "version": "2.11.0",
+      "vulns": []
     },
     {
       "name": "passlib",
@@ -299,7 +292,7 @@
     },
     {
       "name": "pbr",
-      "version": "5.8.0",
+      "version": "5.9.0",
       "vulns": []
     },
     {
@@ -309,7 +302,7 @@
     },
     {
       "name": "prettytable",
-      "version": "2.5.0",
+      "version": "3.3.0",
       "vulns": []
     },
     {
@@ -334,17 +327,12 @@
     },
     {
       "name": "pynacl",
-      "version": "1.4.0",
-      "vulns": []
-    },
-    {
-      "name": "pyopenssl",
-      "version": "21.0.0",
+      "version": "1.5.0",
       "vulns": []
     },
     {
       "name": "pyparsing",
-      "version": "3.0.6",
+      "version": "3.0.9",
       "vulns": []
     },
     {
@@ -364,7 +352,7 @@
     },
     {
       "name": "pyspnego",
-      "version": "0.3.1",
+      "version": "0.5.2",
       "vulns": []
     },
     {
@@ -379,12 +367,12 @@
     },
     {
       "name": "python-keystoneclient",
-      "version": "4.3.0",
+      "version": "4.5.0",
       "vulns": []
     },
     {
       "name": "python-neutronclient",
-      "version": "7.7.0",
+      "version": "7.8.0",
       "vulns": []
     },
     {
@@ -394,12 +382,12 @@
     },
     {
       "name": "pytz",
-      "version": "2021.3",
+      "version": "2022.1",
       "vulns": []
     },
     {
       "name": "pywinrm",
-      "version": "0.4.2",
+      "version": "0.4.3",
       "vulns": []
     },
     {
@@ -409,12 +397,12 @@
     },
     {
       "name": "requests",
-      "version": "2.26.0",
+      "version": "2.27.1",
       "vulns": []
     },
     {
       "name": "requests-credssp",
-      "version": "1.3.0",
+      "version": "2.0.0",
       "vulns": []
     },
     {
@@ -424,7 +412,7 @@
     },
     {
       "name": "requests-oauthlib",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "vulns": []
     },
     {
@@ -434,7 +422,7 @@
     },
     {
       "name": "rfc3986",
-      "version": "1.5.0",
+      "version": "2.0.0",
       "vulns": []
     },
     {
@@ -443,23 +431,13 @@
       "vulns": []
     },
     {
-      "name": "ruamel-yaml",
-      "version": "0.17.19",
-      "vulns": []
-    },
-    {
-      "name": "ruamel-yaml-clib",
-      "version": "0.2.6",
-      "vulns": []
-    },
-    {
       "name": "s3transfer",
-      "version": "0.5.0",
+      "version": "0.5.2",
       "vulns": []
     },
     {
       "name": "scp",
-      "version": "0.14.2",
+      "version": "0.14.4",
       "vulns": []
     },
     {
@@ -484,12 +462,12 @@
     },
     {
       "name": "transitions",
-      "version": "0.8.10",
+      "version": "0.8.11",
       "vulns": []
     },
     {
       "name": "urllib3",
-      "version": "1.26.7",
+      "version": "1.26.9",
       "vulns": []
     },
     {
@@ -499,17 +477,17 @@
     },
     {
       "name": "websocket-client",
-      "version": "1.2.3",
+      "version": "1.3.2",
       "vulns": []
     },
     {
       "name": "wrapt",
-      "version": "1.13.3",
+      "version": "1.14.1",
       "vulns": []
     },
     {
       "name": "xmltodict",
-      "version": "0.12.0",
+      "version": "0.13.0",
       "vulns": []
     },
     {
