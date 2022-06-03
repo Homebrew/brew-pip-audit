@@ -329,7 +329,8 @@
     },
     {
       "name": "oslo-i18n",
-      "skip_reason": "Dependency not found on PyPI and could not be audited: oslo-i18n (4.0.1)"
+      "version": "4.0.1",
+      "vulns": []
     },
     {
       "name": "oslo-log",
