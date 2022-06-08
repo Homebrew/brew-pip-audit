@@ -176,7 +176,14 @@
     {
       "name": "werkzeug",
       "version": "1.0.1",
-      "vulns": []
+      "vulns": [
+        {
+          "id": "PYSEC-2022-203",
+          "fix_versions": [
+            "2.1.1"
+          ]
+        }
+      ]
     },
     {
       "name": "xlsxwriter",

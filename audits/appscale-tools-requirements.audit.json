@@ -288,7 +288,7 @@
       "version": "1.6.0",
       "vulns": [
         {
-          "id": "GHSA-ffqj-6fqr-9h24",
+          "id": "PYSEC-2022-202",
           "fix_versions": [
             "2.4.0"
           ]
