@@ -7,17 +7,17 @@
     },
     {
       "name": "arrow",
-      "version": "1.2.1",
+      "version": "1.2.2",
       "vulns": []
     },
     {
       "name": "beautifulsoup4",
-      "version": "4.10.0",
+      "version": "4.11.1",
       "vulns": []
     },
     {
       "name": "certifi",
-      "version": "2021.10.8",
+      "version": "2022.5.18.1",
       "vulns": []
     },
     {
@@ -27,7 +27,7 @@
     },
     {
       "name": "charset-normalizer",
-      "version": "2.0.9",
+      "version": "2.0.12",
       "vulns": []
     },
     {
@@ -37,7 +37,7 @@
     },
     {
       "name": "cryptography",
-      "version": "36.0.1",
+      "version": "37.0.2",
       "vulns": []
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "name": "flask-admin",
-      "version": "1.5.8",
+      "version": "1.6.0",
       "vulns": []
     },
     {
@@ -67,7 +67,7 @@
     },
     {
       "name": "flask-paginate",
-      "version": "2021.10.29",
+      "version": "2022.1.8",
       "vulns": []
     },
     {
@@ -77,7 +77,7 @@
     },
     {
       "name": "flask-wtf",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vulns": []
     },
     {
@@ -122,7 +122,7 @@
     },
     {
       "name": "pyparsing",
-      "version": "3.0.6",
+      "version": "3.0.9",
       "vulns": []
     },
     {
@@ -132,17 +132,17 @@
     },
     {
       "name": "requests",
-      "version": "2.26.0",
+      "version": "2.27.1",
       "vulns": []
     },
     {
       "name": "soupsieve",
-      "version": "2.3.1",
+      "version": "2.3.2.post1",
       "vulns": []
     },
     {
       "name": "urllib3",
-      "version": "1.26.7",
+      "version": "1.26.9",
       "vulns": []
     },
     {
@@ -169,7 +169,7 @@
     },
     {
       "name": "wtforms",
-      "version": "3.0.0",
+      "version": "3.0.1",
       "vulns": []
     }
   ],
