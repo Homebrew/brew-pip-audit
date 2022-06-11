@@ -2,12 +2,12 @@
   "dependencies": [
     {
       "name": "ansible-core",
-      "version": "2.12.5",
+      "version": "2.12.6",
       "vulns": []
     },
     {
       "name": "apache-libcloud",
-      "version": "3.5.1",
+      "version": "3.6.0",
       "vulns": []
     },
     {
@@ -22,7 +22,7 @@
     },
     {
       "name": "autopage",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "vulns": []
     },
     {
@@ -32,22 +32,22 @@
     },
     {
       "name": "boto3",
-      "version": "1.23.3",
+      "version": "1.24.6",
       "vulns": []
     },
     {
       "name": "botocore",
-      "version": "1.26.3",
+      "version": "1.27.6",
       "vulns": []
     },
     {
       "name": "cachetools",
-      "version": "5.1.0",
+      "version": "5.2.0",
       "vulns": []
     },
     {
       "name": "certifi",
-      "version": "2022.5.18",
+      "version": "2022.5.18.1",
       "vulns": []
     },
     {
@@ -107,7 +107,7 @@
     },
     {
       "name": "google-auth",
-      "version": "2.6.6",
+      "version": "2.7.0",
       "vulns": []
     },
     {
@@ -142,7 +142,7 @@
     },
     {
       "name": "junos-eznc",
-      "version": "2.6.3",
+      "version": "2.6.4",
       "vulns": []
     },
     {
@@ -162,7 +162,7 @@
     },
     {
       "name": "keystoneauth1",
-      "version": "4.5.0",
+      "version": "4.6.0",
       "vulns": []
     },
     {
@@ -172,7 +172,7 @@
     },
     {
       "name": "lxml",
-      "version": "4.8.0",
+      "version": "4.9.0",
       "vulns": []
     },
     {
@@ -182,7 +182,7 @@
     },
     {
       "name": "msgpack",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "vulns": []
     },
     {
@@ -192,7 +192,7 @@
     },
     {
       "name": "ncclient",
-      "version": "0.6.9",
+      "version": "0.6.13",
       "vulns": []
     },
     {
@@ -227,7 +227,7 @@
     },
     {
       "name": "openstacksdk",
-      "version": "0.61.0",
+      "version": "0.99.0",
       "vulns": []
     },
     {
@@ -242,7 +242,7 @@
     },
     {
       "name": "osc-lib",
-      "version": "2.5.0",
+      "version": "2.6.0",
       "vulns": []
     },
     {
@@ -262,7 +262,7 @@
     },
     {
       "name": "oslo-log",
-      "version": "4.8.0",
+      "version": "5.0.0",
       "vulns": []
     },
     {
@@ -372,7 +372,7 @@
     },
     {
       "name": "python-keystoneclient",
-      "version": "4.4.0",
+      "version": "4.5.0",
       "vulns": []
     },
     {
@@ -402,7 +402,7 @@
     },
     {
       "name": "requests",
-      "version": "2.27.1",
+      "version": "2.28.0",
       "vulns": []
     },
     {
@@ -442,7 +442,7 @@
     },
     {
       "name": "s3transfer",
-      "version": "0.5.2",
+      "version": "0.6.0",
       "vulns": []
     },
     {
