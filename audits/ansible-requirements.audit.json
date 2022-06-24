@@ -2,7 +2,7 @@
   "dependencies": [
     {
       "name": "ansible-core",
-      "version": "2.12.6",
+      "version": "2.13.1",
       "vulns": []
     },
     {
@@ -32,12 +32,12 @@
     },
     {
       "name": "boto3",
-      "version": "1.24.6",
+      "version": "1.24.14",
       "vulns": []
     },
     {
       "name": "botocore",
-      "version": "1.27.6",
+      "version": "1.27.14",
       "vulns": []
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "name": "certifi",
-      "version": "2022.5.18.1",
+      "version": "2022.6.15",
       "vulns": []
     },
     {
@@ -72,7 +72,7 @@
     },
     {
       "name": "cryptography",
-      "version": "37.0.2",
+      "version": "37.0.3",
       "vulns": []
     },
     {
@@ -97,7 +97,7 @@
     },
     {
       "name": "dogpile-cache",
-      "version": "1.1.5",
+      "version": "1.1.6",
       "vulns": []
     },
     {
@@ -107,7 +107,7 @@
     },
     {
       "name": "google-auth",
-      "version": "2.7.0",
+      "version": "2.8.0",
       "vulns": []
     },
     {
@@ -127,7 +127,7 @@
     },
     {
       "name": "jmespath",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "vulns": []
     },
     {
@@ -272,7 +272,7 @@
     },
     {
       "name": "oslo-utils",
-      "version": "4.13.0",
+      "version": "5.0.0",
       "vulns": []
     },
     {
@@ -427,7 +427,7 @@
     },
     {
       "name": "resolvelib",
-      "version": "0.5.5",
+      "version": "0.8.1",
       "vulns": []
     },
     {
@@ -487,7 +487,7 @@
     },
     {
       "name": "websocket-client",
-      "version": "1.3.2",
+      "version": "1.3.3",
       "vulns": []
     },
     {
