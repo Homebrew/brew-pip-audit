@@ -145,10 +145,9 @@
       "version": "1.15.6",
       "vulns": [
         {
-          "id": "GHSA-q874-g24w-4q9g",
+          "id": "PYSEC-2022-211",
           "fix_versions": [
-            "1.17.1",
-            "2.0.0a1"
+            "1.17.0"
           ]
         }
       ]
@@ -208,7 +207,7 @@
       "version": "6.4.10",
       "vulns": [
         {
-          "id": "GHSA-v7vq-3x77-87vg",
+          "id": "PYSEC-2022-212",
           "fix_versions": [
             "6.4.12"
           ]

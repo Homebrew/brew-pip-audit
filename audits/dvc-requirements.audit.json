@@ -1,0 +1,670 @@
+{
+  "dependencies": [
+    {
+      "name": "adal",
+      "version": "1.2.7",
+      "vulns": []
+    },
+    {
+      "name": "adlfs",
+      "version": "2022.4.0",
+      "vulns": []
+    },
+    {
+      "name": "aiobotocore",
+      "version": "2.3.3",
+      "vulns": []
+    },
+    {
+      "name": "aiohttp",
+      "version": "3.8.1",
+      "vulns": [
+        {
+          "id": "GHSA-rwqr-c348-m5wr",
+          "fix_versions": []
+        }
+      ]
+    },
+    {
+      "name": "aiohttp-retry",
+      "version": "2.4.6",
+      "vulns": []
+    },
+    {
+      "name": "aioitertools",
+      "version": "0.10.0",
+      "vulns": []
+    },
+    {
+      "name": "aiosignal",
+      "version": "1.2.0",
+      "vulns": []
+    },
+    {
+      "name": "aliyun-python-sdk-core",
+      "version": "2.13.36",
+      "vulns": []
+    },
+    {
+      "name": "aliyun-python-sdk-kms",
+      "version": "2.15.0",
+      "vulns": []
+    },
+    {
+      "name": "anyio",
+      "version": "3.6.1",
+      "vulns": []
+    },
+    {
+      "name": "appdirs",
+      "version": "1.4.4",
+      "vulns": []
+    },
+    {
+      "name": "argcomplete",
+      "version": "2.0.0",
+      "vulns": []
+    },
+    {
+      "name": "async-timeout",
+      "version": "4.0.2",
+      "vulns": []
+    },
+    {
+      "name": "asyncssh",
+      "version": "2.11.0",
+      "vulns": []
+    },
+    {
+      "name": "atpublic",
+      "version": "3.0.1",
+      "vulns": []
+    },
+    {
+      "name": "attrs",
+      "version": "21.4.0",
+      "vulns": []
+    },
+    {
+      "name": "azure-core",
+      "version": "1.24.1",
+      "vulns": []
+    },
+    {
+      "name": "azure-datalake-store",
+      "version": "0.0.52",
+      "vulns": []
+    },
+    {
+      "name": "azure-identity",
+      "version": "1.10.0",
+      "vulns": []
+    },
+    {
+      "name": "azure-storage-blob",
+      "version": "12.12.0",
+      "vulns": []
+    },
+    {
+      "name": "bcrypt",
+      "version": "3.2.2",
+      "vulns": []
+    },
+    {
+      "name": "boto3",
+      "version": "1.21.21",
+      "vulns": []
+    },
+    {
+      "name": "botocore",
+      "version": "1.24.21",
+      "vulns": []
+    },
+    {
+      "name": "cachetools",
+      "version": "5.2.0",
+      "vulns": []
+    },
+    {
+      "name": "certifi",
+      "version": "2022.5.18.1",
+      "vulns": []
+    },
+    {
+      "name": "cffi",
+      "version": "1.15.0",
+      "vulns": []
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "2.0.12",
+      "vulns": []
+    },
+    {
+      "name": "colorama",
+      "version": "0.4.4",
+      "vulns": []
+    },
+    {
+      "name": "commonmark",
+      "version": "0.9.1",
+      "vulns": []
+    },
+    {
+      "name": "configobj",
+      "version": "5.0.6",
+      "vulns": []
+    },
+    {
+      "name": "crcmod",
+      "version": "1.7",
+      "vulns": []
+    },
+    {
+      "name": "cryptography",
+      "version": "37.0.2",
+      "vulns": []
+    },
+    {
+      "name": "decorator",
+      "version": "5.1.1",
+      "vulns": []
+    },
+    {
+      "name": "dictdiffer",
+      "version": "0.9.0",
+      "vulns": []
+    },
+    {
+      "name": "diskcache",
+      "version": "5.4.0",
+      "vulns": []
+    },
+    {
+      "name": "distro",
+      "version": "1.7.0",
+      "vulns": []
+    },
+    {
+      "name": "dpath",
+      "version": "2.0.6",
+      "vulns": []
+    },
+    {
+      "name": "dulwich",
+      "version": "0.20.43",
+      "vulns": []
+    },
+    {
+      "name": "dvc-data",
+      "version": "0.0.2",
+      "vulns": []
+    },
+    {
+      "name": "dvc-objects",
+      "version": "0.0.2",
+      "vulns": []
+    },
+    {
+      "name": "dvc-render",
+      "version": "0.0.5",
+      "vulns": []
+    },
+    {
+      "name": "dvclive",
+      "version": "0.8.2",
+      "vulns": []
+    },
+    {
+      "name": "flatten-dict",
+      "version": "0.4.2",
+      "vulns": []
+    },
+    {
+      "name": "flufl-lock",
+      "version": "7.0",
+      "vulns": []
+    },
+    {
+      "name": "frozenlist",
+      "version": "1.3.0",
+      "vulns": []
+    },
+    {
+      "name": "fsspec",
+      "version": "2022.5.0",
+      "vulns": []
+    },
+    {
+      "name": "ftfy",
+      "version": "6.1.1",
+      "vulns": []
+    },
+    {
+      "name": "funcy",
+      "version": "1.17",
+      "vulns": []
+    },
+    {
+      "name": "future",
+      "version": "0.18.2",
+      "vulns": []
+    },
+    {
+      "name": "gcsfs",
+      "version": "2022.5.0",
+      "vulns": []
+    },
+    {
+      "name": "gitdb",
+      "version": "4.0.9",
+      "vulns": []
+    },
+    {
+      "name": "gitpython",
+      "version": "3.1.27",
+      "vulns": []
+    },
+    {
+      "name": "google-api-core",
+      "version": "2.8.1",
+      "vulns": []
+    },
+    {
+      "name": "google-api-python-client",
+      "version": "2.50.0",
+      "vulns": []
+    },
+    {
+      "name": "google-auth",
+      "version": "2.7.0",
+      "vulns": []
+    },
+    {
+      "name": "google-auth-httplib2",
+      "version": "0.1.0",
+      "vulns": []
+    },
+    {
+      "name": "google-auth-oauthlib",
+      "version": "0.5.1",
+      "vulns": []
+    },
+    {
+      "name": "google-cloud-core",
+      "version": "2.3.0",
+      "vulns": []
+    },
+    {
+      "name": "google-cloud-storage",
+      "version": "2.3.0",
+      "vulns": []
+    },
+    {
+      "name": "google-crc32c",
+      "version": "1.3.0",
+      "vulns": []
+    },
+    {
+      "name": "google-resumable-media",
+      "version": "2.3.3",
+      "vulns": []
+    },
+    {
+      "name": "googleapis-common-protos",
+      "version": "1.56.2",
+      "vulns": []
+    },
+    {
+      "name": "grandalf",
+      "version": "0.6",
+      "vulns": []
+    },
+    {
+      "name": "h11",
+      "version": "0.12.0",
+      "vulns": []
+    },
+    {
+      "name": "httpcore",
+      "version": "0.15.0",
+      "vulns": []
+    },
+    {
+      "name": "httplib2",
+      "version": "0.20.4",
+      "vulns": []
+    },
+    {
+      "name": "httpx",
+      "version": "0.23.0",
+      "vulns": []
+    },
+    {
+      "name": "idna",
+      "version": "3.3",
+      "vulns": []
+    },
+    {
+      "name": "isodate",
+      "version": "0.6.1",
+      "vulns": []
+    },
+    {
+      "name": "jmespath",
+      "version": "0.10.0",
+      "vulns": []
+    },
+    {
+      "name": "knack",
+      "version": "0.9.0",
+      "vulns": []
+    },
+    {
+      "name": "mailchecker",
+      "version": "4.1.17",
+      "vulns": []
+    },
+    {
+      "name": "msal",
+      "version": "1.18.0",
+      "vulns": []
+    },
+    {
+      "name": "msal-extensions",
+      "version": "1.0.0",
+      "vulns": []
+    },
+    {
+      "name": "msrest",
+      "version": "0.7.0",
+      "vulns": []
+    },
+    {
+      "name": "multidict",
+      "version": "6.0.2",
+      "vulns": []
+    },
+    {
+      "name": "nanotime",
+      "version": "0.5.2",
+      "vulns": []
+    },
+    {
+      "name": "networkx",
+      "version": "2.8.2",
+      "vulns": []
+    },
+    {
+      "name": "oauth2client",
+      "version": "4.1.3",
+      "vulns": []
+    },
+    {
+      "name": "oauthlib",
+      "version": "3.2.0",
+      "vulns": []
+    },
+    {
+      "name": "oss2",
+      "version": "2.15.0",
+      "vulns": []
+    },
+    {
+      "name": "ossfs",
+      "version": "2021.8.0",
+      "vulns": []
+    },
+    {
+      "name": "packaging",
+      "version": "21.3",
+      "vulns": []
+    },
+    {
+      "name": "pathspec",
+      "version": "0.9.0",
+      "vulns": []
+    },
+    {
+      "name": "phonenumbers",
+      "version": "8.12.49",
+      "vulns": []
+    },
+    {
+      "name": "portalocker",
+      "version": "2.4.0",
+      "vulns": []
+    },
+    {
+      "name": "psutil",
+      "version": "5.9.1",
+      "vulns": []
+    },
+    {
+      "name": "pyasn1",
+      "version": "0.4.8",
+      "vulns": []
+    },
+    {
+      "name": "pyasn1-modules",
+      "version": "0.2.8",
+      "vulns": []
+    },
+    {
+      "name": "pycparser",
+      "version": "2.21",
+      "vulns": []
+    },
+    {
+      "name": "pycryptodome",
+      "version": "3.14.1",
+      "vulns": []
+    },
+    {
+      "name": "pydot",
+      "version": "1.4.2",
+      "vulns": []
+    },
+    {
+      "name": "pydrive2",
+      "version": "1.10.1",
+      "vulns": []
+    },
+    {
+      "name": "pygit2",
+      "version": "1.9.2",
+      "vulns": []
+    },
+    {
+      "name": "pygments",
+      "version": "2.12.0",
+      "vulns": []
+    },
+    {
+      "name": "pygtrie",
+      "version": "2.4.2",
+      "vulns": []
+    },
+    {
+      "name": "pyjwt",
+      "version": "2.4.0",
+      "vulns": []
+    },
+    {
+      "name": "pyopenssl",
+      "version": "22.0.0",
+      "vulns": []
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.0.9",
+      "vulns": []
+    },
+    {
+      "name": "python-benedict",
+      "version": "0.25.1",
+      "vulns": []
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.8.2",
+      "vulns": []
+    },
+    {
+      "name": "python-fsutil",
+      "version": "0.6.1",
+      "vulns": []
+    },
+    {
+      "name": "python-slugify",
+      "version": "6.1.2",
+      "vulns": []
+    },
+    {
+      "name": "pyyaml",
+      "version": "6.0",
+      "vulns": []
+    },
+    {
+      "name": "requests",
+      "version": "2.27.1",
+      "vulns": []
+    },
+    {
+      "name": "requests-oauthlib",
+      "version": "1.3.1",
+      "vulns": []
+    },
+    {
+      "name": "rfc3986",
+      "version": "1.5.0",
+      "vulns": []
+    },
+    {
+      "name": "rich",
+      "version": "12.4.4",
+      "vulns": []
+    },
+    {
+      "name": "rsa",
+      "version": "4.8",
+      "vulns": []
+    },
+    {
+      "name": "ruamel-yaml",
+      "version": "0.17.21",
+      "vulns": []
+    },
+    {
+      "name": "ruamel-yaml-clib",
+      "version": "0.2.6",
+      "vulns": []
+    },
+    {
+      "name": "s3fs",
+      "version": "2022.5.0",
+      "vulns": []
+    },
+    {
+      "name": "s3transfer",
+      "version": "0.5.2",
+      "vulns": []
+    },
+    {
+      "name": "scmrepo",
+      "version": "0.0.24",
+      "vulns": []
+    },
+    {
+      "name": "shortuuid",
+      "version": "1.0.9",
+      "vulns": []
+    },
+    {
+      "name": "shtab",
+      "version": "1.5.4",
+      "vulns": []
+    },
+    {
+      "name": "smmap",
+      "version": "5.0.0",
+      "vulns": []
+    },
+    {
+      "name": "sniffio",
+      "version": "1.2.0",
+      "vulns": []
+    },
+    {
+      "name": "sshfs",
+      "version": "2022.6.0",
+      "vulns": []
+    },
+    {
+      "name": "text-unidecode",
+      "version": "1.3",
+      "vulns": []
+    },
+    {
+      "name": "toml",
+      "version": "0.10.2",
+      "vulns": []
+    },
+    {
+      "name": "tqdm",
+      "version": "4.64.0",
+      "vulns": []
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.2.0",
+      "vulns": []
+    },
+    {
+      "name": "uritemplate",
+      "version": "4.1.1",
+      "vulns": []
+    },
+    {
+      "name": "urllib3",
+      "version": "1.26.9",
+      "vulns": []
+    },
+    {
+      "name": "voluptuous",
+      "version": "0.13.1",
+      "vulns": []
+    },
+    {
+      "name": "wcwidth",
+      "version": "0.2.5",
+      "vulns": []
+    },
+    {
+      "name": "webdav4",
+      "version": "0.9.7",
+      "vulns": []
+    },
+    {
+      "name": "wrapt",
+      "version": "1.14.1",
+      "vulns": []
+    },
+    {
+      "name": "xmltodict",
+      "version": "0.13.0",
+      "vulns": []
+    },
+    {
+      "name": "yarl",
+      "version": "1.7.2",
+      "vulns": []
+    },
+    {
+      "name": "zc-lockfile",
+      "version": "2.0",
+      "vulns": []
+    }
+  ],
+  "fixes": []
+}

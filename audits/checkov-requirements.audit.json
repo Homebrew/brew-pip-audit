@@ -1,0 +1,375 @@
+{
+  "dependencies": [
+    {
+      "name": "aiodns",
+      "version": "3.0.0",
+      "vulns": []
+    },
+    {
+      "name": "aiohttp",
+      "version": "3.8.1",
+      "vulns": [
+        {
+          "id": "GHSA-rwqr-c348-m5wr",
+          "fix_versions": []
+        }
+      ]
+    },
+    {
+      "name": "aiomultiprocess",
+      "version": "0.9.0",
+      "vulns": []
+    },
+    {
+      "name": "aiosignal",
+      "version": "1.2.0",
+      "vulns": []
+    },
+    {
+      "name": "argcomplete",
+      "version": "2.0.0",
+      "vulns": []
+    },
+    {
+      "name": "async-timeout",
+      "version": "4.0.2",
+      "vulns": []
+    },
+    {
+      "name": "attrs",
+      "version": "21.4.0",
+      "vulns": []
+    },
+    {
+      "name": "bc-python-hcl2",
+      "version": "0.3.42",
+      "vulns": []
+    },
+    {
+      "name": "beautifulsoup4",
+      "version": "4.11.1",
+      "vulns": []
+    },
+    {
+      "name": "boto3",
+      "version": "1.24.9",
+      "vulns": []
+    },
+    {
+      "name": "botocore",
+      "version": "1.27.9",
+      "vulns": []
+    },
+    {
+      "name": "cached-property",
+      "version": "1.5.2",
+      "vulns": []
+    },
+    {
+      "name": "cachetools",
+      "version": "5.2.0",
+      "vulns": []
+    },
+    {
+      "name": "certifi",
+      "version": "2022.5.18.1",
+      "vulns": []
+    },
+    {
+      "name": "cffi",
+      "version": "1.15.0",
+      "vulns": []
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "2.0.12",
+      "vulns": []
+    },
+    {
+      "name": "click",
+      "version": "8.1.3",
+      "vulns": []
+    },
+    {
+      "name": "click-option-group",
+      "version": "0.5.3",
+      "vulns": []
+    },
+    {
+      "name": "cloudsplaining",
+      "version": "0.5.0",
+      "vulns": []
+    },
+    {
+      "name": "colorama",
+      "version": "0.4.4",
+      "vulns": []
+    },
+    {
+      "name": "configargparse",
+      "version": "1.5.3",
+      "vulns": []
+    },
+    {
+      "name": "contextlib2",
+      "version": "21.6.0",
+      "vulns": []
+    },
+    {
+      "name": "cyclonedx-python-lib",
+      "version": "2.5.2",
+      "vulns": []
+    },
+    {
+      "name": "decorator",
+      "version": "5.1.1",
+      "vulns": []
+    },
+    {
+      "name": "deep-merge",
+      "version": "0.0.4",
+      "vulns": []
+    },
+    {
+      "name": "detect-secrets",
+      "version": "1.2.0",
+      "vulns": []
+    },
+    {
+      "name": "docker",
+      "version": "5.0.3",
+      "vulns": []
+    },
+    {
+      "name": "dockerfile-parse",
+      "version": "1.2.0",
+      "vulns": []
+    },
+    {
+      "name": "dpath",
+      "version": "1.5.0",
+      "vulns": []
+    },
+    {
+      "name": "frozenlist",
+      "version": "1.3.0",
+      "vulns": []
+    },
+    {
+      "name": "gitdb",
+      "version": "4.0.9",
+      "vulns": []
+    },
+    {
+      "name": "gitpython",
+      "version": "3.1.27",
+      "vulns": []
+    },
+    {
+      "name": "idna",
+      "version": "3.3",
+      "vulns": []
+    },
+    {
+      "name": "jinja2",
+      "version": "3.1.2",
+      "vulns": []
+    },
+    {
+      "name": "jmespath",
+      "version": "1.0.0",
+      "vulns": []
+    },
+    {
+      "name": "jsonpath-ng",
+      "version": "1.5.3",
+      "vulns": []
+    },
+    {
+      "name": "jsonschema",
+      "version": "3.2.0",
+      "vulns": []
+    },
+    {
+      "name": "junit-xml-2",
+      "version": "1.9",
+      "vulns": []
+    },
+    {
+      "name": "lark",
+      "version": "1.1.2",
+      "vulns": []
+    },
+    {
+      "name": "markdown",
+      "version": "3.3.7",
+      "vulns": []
+    },
+    {
+      "name": "markupsafe",
+      "version": "2.1.1",
+      "vulns": []
+    },
+    {
+      "name": "multidict",
+      "version": "6.0.2",
+      "vulns": []
+    },
+    {
+      "name": "networkx",
+      "version": "2.8.4",
+      "vulns": []
+    },
+    {
+      "name": "packageurl-python",
+      "version": "0.9.9",
+      "vulns": []
+    },
+    {
+      "name": "packaging",
+      "version": "21.3",
+      "vulns": []
+    },
+    {
+      "name": "ply",
+      "version": "3.11",
+      "vulns": []
+    },
+    {
+      "name": "policy-sentry",
+      "version": "0.12.3",
+      "vulns": []
+    },
+    {
+      "name": "policyuniverse",
+      "version": "1.5.0.20220523",
+      "vulns": []
+    },
+    {
+      "name": "prettytable",
+      "version": "3.3.0",
+      "vulns": []
+    },
+    {
+      "name": "pycares",
+      "version": "4.1.2",
+      "vulns": []
+    },
+    {
+      "name": "pycep-parser",
+      "version": "0.3.7",
+      "vulns": []
+    },
+    {
+      "name": "pycparser",
+      "version": "2.21",
+      "vulns": []
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.0.9",
+      "vulns": []
+    },
+    {
+      "name": "pyrsistent",
+      "version": "0.18.1",
+      "vulns": []
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.8.2",
+      "vulns": []
+    },
+    {
+      "name": "pyyaml",
+      "version": "6.0",
+      "vulns": []
+    },
+    {
+      "name": "regex",
+      "version": "2022.6.2",
+      "vulns": []
+    },
+    {
+      "name": "requests",
+      "version": "2.28.0",
+      "vulns": []
+    },
+    {
+      "name": "s3transfer",
+      "version": "0.6.0",
+      "vulns": []
+    },
+    {
+      "name": "schema",
+      "version": "0.7.5",
+      "vulns": []
+    },
+    {
+      "name": "semantic-version",
+      "version": "2.10.0",
+      "vulns": []
+    },
+    {
+      "name": "smmap",
+      "version": "5.0.0",
+      "vulns": []
+    },
+    {
+      "name": "sortedcontainers",
+      "version": "2.4.0",
+      "vulns": []
+    },
+    {
+      "name": "soupsieve",
+      "version": "2.3.2.post1",
+      "vulns": []
+    },
+    {
+      "name": "termcolor",
+      "version": "1.1.0",
+      "vulns": []
+    },
+    {
+      "name": "toml",
+      "version": "0.10.2",
+      "vulns": []
+    },
+    {
+      "name": "tqdm",
+      "version": "4.64.0",
+      "vulns": []
+    },
+    {
+      "name": "typing-extensions",
+      "version": "4.2.0",
+      "vulns": []
+    },
+    {
+      "name": "update-checker",
+      "version": "0.18.0",
+      "vulns": []
+    },
+    {
+      "name": "urllib3",
+      "version": "1.26.9",
+      "vulns": []
+    },
+    {
+      "name": "wcwidth",
+      "version": "0.2.5",
+      "vulns": []
+    },
+    {
+      "name": "websocket-client",
+      "version": "1.3.2",
+      "vulns": []
+    },
+    {
+      "name": "yarl",
+      "version": "1.7.2",
+      "vulns": []
+    }
+  ],
+  "fixes": []
+}
