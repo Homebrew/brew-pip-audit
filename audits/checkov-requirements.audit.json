@@ -52,12 +52,12 @@
     },
     {
       "name": "boto3",
-      "version": "1.24.17",
+      "version": "1.24.18",
       "vulns": []
     },
     {
       "name": "botocore",
-      "version": "1.27.17",
+      "version": "1.27.18",
       "vulns": []
     },
     {
@@ -227,7 +227,7 @@
     },
     {
       "name": "packageurl-python",
-      "version": "0.9.9",
+      "version": "0.10.0",
       "vulns": []
     },
     {
@@ -247,7 +247,7 @@
     },
     {
       "name": "policyuniverse",
-      "version": "1.5.0.20220523",
+      "version": "1.5.0.20220613",
       "vulns": []
     },
     {
@@ -257,7 +257,7 @@
     },
     {
       "name": "pycares",
-      "version": "4.2.0",
+      "version": "4.2.1",
       "vulns": []
     },
     {

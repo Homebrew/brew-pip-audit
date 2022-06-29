@@ -9,10 +9,6 @@
           "fix_versions": [
             "3.7.4"
           ]
-        },
-        {
-          "id": "GHSA-rwqr-c348-m5wr",
-          "fix_versions": []
         }
       ]
     },
