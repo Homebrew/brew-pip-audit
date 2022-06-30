@@ -13,12 +13,7 @@
     {
       "name": "aiohttp",
       "version": "3.8.1",
-      "vulns": [
-        {
-          "id": "GHSA-rwqr-c348-m5wr",
-          "fix_versions": []
-        }
-      ]
+      "vulns": []
     },
     {
       "name": "aiomultiprocess",
