@@ -1,1 +1,1 @@
-classify-imports==4.0.1 --hash=sha256:cfee9a3145b9bb4a772ed91047e1710da81e8befa135fdea4bb19c5469a3d5da
+classify-imports==4.0.2 --hash=sha256:a1880ba36cca1a3e6efc338698685c3c93019c92ecb7cc246636abb42c621e7f
