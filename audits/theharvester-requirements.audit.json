@@ -195,7 +195,14 @@
     {
       "name": "pycares",
       "version": "4.1.2",
-      "vulns": []
+      "vulns": [
+        {
+          "id": "GHSA-c58j-88f5-h53f",
+          "fix_versions": [
+            "4.2.0"
+          ]
+        }
+      ]
     },
     {
       "name": "pycparser",
@@ -315,6 +322,18 @@
         {
           "id": "OSV-2021-955",
           "fix_versions": []
+        },
+        {
+          "id": "GHSA-wpqr-jcpx-745r",
+          "fix_versions": [
+            "5.4.0"
+          ]
+        },
+        {
+          "id": "GHSA-fm67-cv37-96ff",
+          "fix_versions": [
+            "5.4.0"
+          ]
         }
       ]
     },
