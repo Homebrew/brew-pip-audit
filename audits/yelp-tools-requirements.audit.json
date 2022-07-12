@@ -1,0 +1,17 @@
+{
+  "dependencies": [
+    {
+      "name": "lxml",
+      "version": "4.8.0",
+      "vulns": [
+        {
+          "id": "GHSA-wrxv-2j5q-m38w",
+          "fix_versions": [
+            "4.9.1"
+          ]
+        }
+      ]
+    }
+  ],
+  "fixes": []
+}

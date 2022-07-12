@@ -89,6 +89,12 @@
           "fix_versions": [
             "4.6.5"
           ]
+        },
+        {
+          "id": "GHSA-wrxv-2j5q-m38w",
+          "fix_versions": [
+            "4.9.1"
+          ]
         }
       ]
     },

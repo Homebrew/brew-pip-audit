@@ -1,0 +1,122 @@
+{
+  "dependencies": [
+    {
+      "name": "beautifulsoup4",
+      "version": "4.11.1",
+      "vulns": []
+    },
+    {
+      "name": "boto3",
+      "version": "1.22.5",
+      "vulns": []
+    },
+    {
+      "name": "botocore",
+      "version": "1.25.5",
+      "vulns": []
+    },
+    {
+      "name": "certifi",
+      "version": "2021.10.8",
+      "vulns": []
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "2.0.12",
+      "vulns": []
+    },
+    {
+      "name": "configparser",
+      "version": "5.2.0",
+      "vulns": []
+    },
+    {
+      "name": "filelock",
+      "version": "3.6.0",
+      "vulns": []
+    },
+    {
+      "name": "idna",
+      "version": "3.3",
+      "vulns": []
+    },
+    {
+      "name": "importlib-metadata",
+      "version": "4.11.3",
+      "vulns": []
+    },
+    {
+      "name": "jmespath",
+      "version": "1.0.0",
+      "vulns": []
+    },
+    {
+      "name": "keyring",
+      "version": "23.5.0",
+      "vulns": []
+    },
+    {
+      "name": "keyrings-alt",
+      "version": "4.1.0",
+      "vulns": []
+    },
+    {
+      "name": "lxml",
+      "version": "4.8.0",
+      "vulns": [
+        {
+          "id": "GHSA-wrxv-2j5q-m38w",
+          "fix_versions": [
+            "4.9.1"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.8.2",
+      "vulns": []
+    },
+    {
+      "name": "pytz-deprecation-shim",
+      "version": "0.1.0.post0",
+      "vulns": []
+    },
+    {
+      "name": "requests",
+      "version": "2.27.1",
+      "vulns": []
+    },
+    {
+      "name": "s3transfer",
+      "version": "0.5.2",
+      "vulns": []
+    },
+    {
+      "name": "soupsieve",
+      "version": "2.3.2.post1",
+      "vulns": []
+    },
+    {
+      "name": "tzdata",
+      "version": "2022.1",
+      "vulns": []
+    },
+    {
+      "name": "tzlocal",
+      "version": "4.2",
+      "vulns": []
+    },
+    {
+      "name": "urllib3",
+      "version": "1.26.9",
+      "vulns": []
+    },
+    {
+      "name": "zipp",
+      "version": "3.8.0",
+      "vulns": []
+    }
+  ],
+  "fixes": []
+}
