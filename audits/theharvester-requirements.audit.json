@@ -166,7 +166,7 @@
           ]
         },
         {
-          "id": "GHSA-wrxv-2j5q-m38w",
+          "id": "PYSEC-2022-230",
           "fix_versions": [
             "4.9.1"
           ]
