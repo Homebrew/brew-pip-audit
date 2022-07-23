@@ -130,15 +130,15 @@
       "version": "1.26.3",
       "vulns": [
         {
-          "id": "PYSEC-2021-108",
-          "fix_versions": [
-            "1.26.5"
-          ]
-        },
-        {
           "id": "PYSEC-2021-59",
           "fix_versions": [
             "1.26.4"
+          ]
+        },
+        {
+          "id": "PYSEC-2021-108",
+          "fix_versions": [
+            "1.26.5"
           ]
         }
       ]
