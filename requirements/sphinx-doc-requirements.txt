@@ -20,4 +20,4 @@ sphinxcontrib-htmlhelp==2.0.0 --hash=sha256:f5f8bb2d0d629f398bf47d0d69c07bc13b65
 sphinxcontrib-jsmath==1.0.1 --hash=sha256:a9925e4a4587247ed2191a22df5f6970656cb8ca2bd6284309578f2153e0c4b8
 sphinxcontrib-qthelp==1.0.3 --hash=sha256:4c33767ee058b70dba89a6fc5c1892c0d57a54be67ddd3e7875a18d14cba5a72
 sphinxcontrib-serializinghtml==1.1.5 --hash=sha256:aa5f6de5dfdf809ef505c4895e51ef5c9eac17d0f287933eb49ec495280b6952
-urllib3==1.26.10 --hash=sha256:879ba4d1e89654d9769ce13121e0f94310ea32e8d2f8cf587b77c08bbcdb30d6
+urllib3==1.26.11 --hash=sha256:ea6e8fb210b19d950fab93b60c9009226c63a28808bc8386e05301e25883ac0a
