@@ -2,7 +2,7 @@
   "dependencies": [
     {
       "name": "ansible-core",
-      "version": "2.13.1",
+      "version": "2.13.2",
       "vulns": []
     },
     {
@@ -17,7 +17,7 @@
     },
     {
       "name": "attrs",
-      "version": "21.4.0",
+      "version": "22.1.0",
       "vulns": []
     },
     {
@@ -32,12 +32,12 @@
     },
     {
       "name": "boto3",
-      "version": "1.24.28",
+      "version": "1.24.44",
       "vulns": []
     },
     {
       "name": "botocore",
-      "version": "1.27.28",
+      "version": "1.27.44",
       "vulns": []
     },
     {
@@ -67,7 +67,7 @@
     },
     {
       "name": "cmd2",
-      "version": "2.4.1",
+      "version": "2.4.2",
       "vulns": []
     },
     {
@@ -142,7 +142,7 @@
     },
     {
       "name": "junos-eznc",
-      "version": "2.6.4",
+      "version": "2.6.5",
       "vulns": []
     },
     {
@@ -162,7 +162,7 @@
     },
     {
       "name": "keystoneauth1",
-      "version": "4.6.0",
+      "version": "5.0.0",
       "vulns": []
     },
     {
@@ -227,7 +227,7 @@
     },
     {
       "name": "openstacksdk",
-      "version": "0.99.0",
+      "version": "0.100.0",
       "vulns": []
     },
     {
@@ -242,7 +242,7 @@
     },
     {
       "name": "osc-lib",
-      "version": "2.6.0",
+      "version": "2.6.1",
       "vulns": []
     },
     {
@@ -372,12 +372,12 @@
     },
     {
       "name": "python-keystoneclient",
-      "version": "4.5.0",
+      "version": "5.0.0",
       "vulns": []
     },
     {
       "name": "python-neutronclient",
-      "version": "7.8.0",
+      "version": "8.0.0",
       "vulns": []
     },
     {
@@ -437,7 +437,7 @@
     },
     {
       "name": "rsa",
-      "version": "4.8",
+      "version": "4.9",
       "vulns": []
     },
     {
@@ -477,7 +477,7 @@
     },
     {
       "name": "urllib3",
-      "version": "1.26.10",
+      "version": "1.26.11",
       "vulns": []
     },
     {
