@@ -148,7 +148,14 @@
     {
       "name": "nbconvert",
       "version": "6.2.0",
-      "vulns": []
+      "vulns": [
+        {
+          "id": "GHSA-9jmq-rx5f-8jwq",
+          "fix_versions": [
+            "6.3"
+          ]
+        }
+      ]
     },
     {
       "name": "nbformat",
