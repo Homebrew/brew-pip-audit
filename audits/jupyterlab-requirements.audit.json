@@ -22,12 +22,12 @@
     },
     {
       "name": "asttokens",
-      "version": "2.0.5",
+      "version": "2.0.7",
       "vulns": []
     },
     {
       "name": "attrs",
-      "version": "21.4.0",
+      "version": "22.1.0",
       "vulns": []
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "name": "bleach",
-      "version": "5.0.0",
+      "version": "5.0.1",
       "vulns": []
     },
     {
@@ -57,17 +57,17 @@
     },
     {
       "name": "cffi",
-      "version": "1.15.0",
+      "version": "1.15.1",
       "vulns": []
     },
     {
       "name": "charset-normalizer",
-      "version": "2.0.12",
+      "version": "2.1.0",
       "vulns": []
     },
     {
       "name": "debugpy",
-      "version": "1.6.0",
+      "version": "1.6.2",
       "vulns": []
     },
     {
@@ -87,12 +87,12 @@
     },
     {
       "name": "executing",
-      "version": "0.8.3",
+      "version": "0.9.1",
       "vulns": []
     },
     {
       "name": "fastjsonschema",
-      "version": "2.15.3",
+      "version": "2.16.1",
       "vulns": []
     },
     {
@@ -102,7 +102,7 @@
     },
     {
       "name": "ipykernel",
-      "version": "6.15.0",
+      "version": "6.15.1",
       "vulns": []
     },
     {
@@ -127,12 +127,12 @@
     },
     {
       "name": "json5",
-      "version": "0.9.8",
+      "version": "0.9.9",
       "vulns": []
     },
     {
       "name": "jsonschema",
-      "version": "4.6.0",
+      "version": "4.9.1",
       "vulns": []
     },
     {
@@ -142,12 +142,12 @@
     },
     {
       "name": "jupyter-core",
-      "version": "4.10.0",
+      "version": "4.11.1",
       "vulns": []
     },
     {
       "name": "jupyter-server",
-      "version": "1.17.1",
+      "version": "1.18.1",
       "vulns": []
     },
     {
@@ -157,7 +157,12 @@
     },
     {
       "name": "jupyterlab-server",
-      "version": "2.14.0",
+      "version": "2.15.0",
+      "vulns": []
+    },
+    {
+      "name": "lxml",
+      "version": "4.9.1",
       "vulns": []
     },
     {
@@ -184,17 +189,17 @@
     },
     {
       "name": "nbclassic",
-      "version": "0.3.7",
+      "version": "0.4.3",
       "vulns": []
     },
     {
       "name": "nbclient",
-      "version": "0.6.4",
+      "version": "0.6.6",
       "vulns": []
     },
     {
       "name": "nbconvert",
-      "version": "6.5.0",
+      "version": "6.5.3",
       "vulns": []
     },
     {
@@ -249,7 +254,7 @@
     },
     {
       "name": "prompt-toolkit",
-      "version": "3.0.29",
+      "version": "3.0.30",
       "vulns": []
     },
     {
@@ -294,7 +299,7 @@
     },
     {
       "name": "pytz",
-      "version": "2022.1",
+      "version": "2022.2",
       "vulns": []
     },
     {
@@ -304,7 +309,7 @@
     },
     {
       "name": "requests",
-      "version": "2.28.0",
+      "version": "2.28.1",
       "vulns": []
     },
     {
@@ -339,7 +344,7 @@
     },
     {
       "name": "tornado",
-      "version": "6.1",
+      "version": "6.2",
       "vulns": []
     },
     {
@@ -349,7 +354,7 @@
     },
     {
       "name": "urllib3",
-      "version": "1.26.9",
+      "version": "1.26.11",
       "vulns": []
     },
     {
