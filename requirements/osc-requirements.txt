@@ -1,2 +1,2 @@
-chardet==4.0.0 --hash=sha256:0d6f53a15db4120f2b08c94f11e7d93d2c911ee118b6b30a04ec3ee8310179fa
+chardet==5.0.0 --hash=sha256:0368df2bfd78b5fc20572bb4e9bb7fb53e2c094f60ae9993339e8671d0afb8aa
 M2Crypto==0.38.0 --hash=sha256:99f2260a30901c949a8dc6d5f82cd5312ffb8abc92e76633baf231bbbcb2decb
