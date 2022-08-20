@@ -150,9 +150,9 @@
       "version": "6.2.0",
       "vulns": [
         {
-          "id": "GHSA-9jmq-rx5f-8jwq",
+          "id": "PYSEC-2022-249",
           "fix_versions": [
-            "6.3"
+            "6.3.0a0"
           ]
         }
       ]
