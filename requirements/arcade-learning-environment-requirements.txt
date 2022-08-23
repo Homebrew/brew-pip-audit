@@ -1,2 +1,1 @@
-setuptools==62.3.2 --hash=sha256:a43bdedf853c670e5fed28e5623403bad2f73cf02f9a2774e91def6bda8265a7
 importlib-resources==5.7.1 --hash=sha256:b6062987dfc51f0fcb809187cffbd60f35df7acb4589091f154214af6d0d49d3
