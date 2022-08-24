@@ -2,7 +2,7 @@
   "dependencies": [
     {
       "name": "ansible-core",
-      "version": "2.13.2",
+      "version": "2.13.3",
       "vulns": []
     },
     {
@@ -32,12 +32,12 @@
     },
     {
       "name": "boto3",
-      "version": "1.24.44",
+      "version": "1.24.58",
       "vulns": []
     },
     {
       "name": "botocore",
-      "version": "1.27.44",
+      "version": "1.27.58",
       "vulns": []
     },
     {
@@ -57,12 +57,12 @@
     },
     {
       "name": "charset-normalizer",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "vulns": []
     },
     {
       "name": "cliff",
-      "version": "3.10.1",
+      "version": "4.0.0",
       "vulns": []
     },
     {
@@ -92,7 +92,7 @@
     },
     {
       "name": "docker",
-      "version": "5.0.3",
+      "version": "6.0.0",
       "vulns": []
     },
     {
@@ -107,12 +107,17 @@
     },
     {
       "name": "google-auth",
-      "version": "2.9.1",
+      "version": "2.11.0",
       "vulns": []
     },
     {
       "name": "idna",
       "version": "3.3",
+      "vulns": []
+    },
+    {
+      "name": "importlib-metadata",
+      "version": "4.12.0",
       "vulns": []
     },
     {
@@ -207,7 +212,7 @@
     },
     {
       "name": "ntc-templates",
-      "version": "3.0.0",
+      "version": "3.1.0",
       "vulns": []
     },
     {
@@ -292,7 +297,7 @@
     },
     {
       "name": "pbr",
-      "version": "5.9.0",
+      "version": "5.10.0",
       "vulns": []
     },
     {
@@ -357,7 +362,7 @@
     },
     {
       "name": "pyspnego",
-      "version": "0.5.3",
+      "version": "0.6.0",
       "vulns": []
     },
     {
@@ -387,7 +392,7 @@
     },
     {
       "name": "pytz",
-      "version": "2022.1",
+      "version": "2022.2.1",
       "vulns": []
     },
     {
@@ -477,7 +482,7 @@
     },
     {
       "name": "urllib3",
-      "version": "1.26.11",
+      "version": "1.26.12",
       "vulns": []
     },
     {
@@ -508,6 +513,11 @@
     {
       "name": "zabbix-api",
       "version": "0.5.4",
+      "vulns": []
+    },
+    {
+      "name": "zipp",
+      "version": "3.8.1",
       "vulns": []
     }
   ],
