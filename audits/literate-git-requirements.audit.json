@@ -1,13 +1,8 @@
 {
   "dependencies": [
     {
-      "name": "cached-property",
-      "version": "1.5.1",
-      "vulns": []
-    },
-    {
       "name": "cffi",
-      "version": "1.14.4",
+      "version": "1.15.1",
       "vulns": []
     },
     {
@@ -17,33 +12,13 @@
     },
     {
       "name": "jinja2",
-      "version": "2.11.1",
-      "vulns": [
-        {
-          "id": "PYSEC-2021-66",
-          "fix_versions": [
-            "2.11.3"
-          ]
-        }
-      ]
+      "version": "2.11.3",
+      "vulns": []
     },
     {
       "name": "markdown2",
-      "version": "2.3.8",
-      "vulns": [
-        {
-          "id": "PYSEC-2021-20",
-          "fix_versions": [
-            "2.4.0"
-          ]
-        },
-        {
-          "id": "PYSEC-2020-65",
-          "fix_versions": [
-            "2.3.9"
-          ]
-        }
-      ]
+      "version": "2.4.3",
+      "vulns": []
     },
     {
       "name": "markupsafe",
@@ -52,7 +27,7 @@
     },
     {
       "name": "pycparser",
-      "version": "2.19",
+      "version": "2.21",
       "vulns": []
     },
     {
