@@ -1,1 +1,1 @@
-importlib-resources==5.7.1 --hash=sha256:b6062987dfc51f0fcb809187cffbd60f35df7acb4589091f154214af6d0d49d3
+importlib-resources==5.9.0 --hash=sha256:5481e97fb45af8dcf2f798952625591c58fe599d0735d86b10f54de086a61681
