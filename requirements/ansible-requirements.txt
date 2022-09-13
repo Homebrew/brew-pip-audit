@@ -77,7 +77,6 @@ python-neutronclient==8.0.0 --hash=sha256:f54cbfde73406a80aae540921c045408faccbd
 python-string-utils==1.0.0 --hash=sha256:dcf9060b03f07647c0a603408dc8b03f807f3b54a05c6e19eb14460256fac0cb
 pytz==2022.2.1 --hash=sha256:cea221417204f2d1a2aa03ddae3e867921971d0d76f14d87abb4414415bbdcf5
 pywinrm==0.4.3 --hash=sha256:995674bf5ac64b2562c9c56540473109e530d36bde10c262d5a5296121ad5565
-PyYAML==6.0 --hash=sha256:68fb519c14306fec9720a2a5b45bc9f0c8d1b9c72adf45c37baedfcd949c35a2
 requests==2.28.1 --hash=sha256:7c5599b102feddaa661c826c56ab4fee28bfd17f5abca1ebbe3e7f19d7c97983
 requests-credssp==2.0.0 --hash=sha256:229afe2f6e1c9fabef64fc2bdf2a10e794ca6c4a0c00a687d53fbfaf7b8ee71d
 requests_ntlm==1.1.0 --hash=sha256:9189c92e8c61ae91402a64b972c4802b2457ce6a799d658256ebf084d5c7eb71

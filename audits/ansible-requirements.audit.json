@@ -401,11 +401,6 @@
       "vulns": []
     },
     {
-      "name": "pyyaml",
-      "version": "6.0",
-      "vulns": []
-    },
-    {
       "name": "requests",
       "version": "2.28.1",
       "vulns": []
