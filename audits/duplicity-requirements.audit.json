@@ -314,7 +314,7 @@
     },
     {
       "name": "pbr",
-      "version": "1.10.0",
+      "version": "5.10.0",
       "vulns": []
     },
     {
@@ -422,11 +422,6 @@
     {
       "name": "pytz",
       "version": "2022.1",
-      "vulns": []
-    },
-    {
-      "name": "pyyaml",
-      "version": "6.0",
       "vulns": []
     },
     {

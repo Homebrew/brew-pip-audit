@@ -59,7 +59,7 @@ oslo.i18n==3.12.0 --hash=sha256:6add28cbbe8254838f7f131de0cf0f3761786d57e5fe5716
 oslo.serialization==2.16.1 --hash=sha256:306d9982eae272fff05db7637971fd07d2b9b818306c9e3af87aea7f452b4844
 oslo.utils==3.22.3 --hash=sha256:70473be975412407d43ef04b0de34c4d21c567bdcab608caeb8f0fcd4138f4f2
 paramiko==2.10.3 --hash=sha256:ddb1977853aef82804b35d72a0e597b244fa326c404c350bd00c5b01dbfee71a
-pbr==1.10.0 --hash=sha256:186428c270309e6fdfe2d5ab0949ab21ae5f7dea831eab96701b86bd666af39c
+pbr==5.10.0 --hash=sha256:cfcc4ff8e698256fc17ea3ff796478b050852585aa5bae79ecd05b2ab7b39b9a
 pexpect==4.8.0 --hash=sha256:fc65a43959d153d0114afe13997d439c22823a27cefceb5ff35c2178c6784c0c
 ply==3.11 --hash=sha256:00c7c1aaa88358b9c765b6d3000c6eec0ba42abca5351b095321aef446081da3
 positional==1.2.1 --hash=sha256:cf48ea169f6c39486d5efa0ce7126a97bed979a52af6261cf255a41f9a74453a
@@ -80,7 +80,6 @@ python-keystoneclient==3.10.0 --hash=sha256:c65fa56791ec02dc942ad08e5c3634b8dca9
 python-novaclient==2.27.0 --hash=sha256:d1279d5c2857cf8c56cb953639b36225bc1fec7fa30ee632940823506a7638ef
 python-swiftclient==3.13.1 --hash=sha256:2d26c90b6392f6befa7fbb16fcda7be44aa26e2ae8a5bee2705d1d1c813833f0
 pytz==2022.1 --hash=sha256:1e760e2fe6a8163bc0b3d9a19c4f84342afa0a2affebfaa84b01b978a02ecaa7
-PyYAML==6.0 --hash=sha256:68fb519c14306fec9720a2a5b45bc9f0c8d1b9c72adf45c37baedfcd949c35a2
 rackspace-auth-openstack==1.3 --hash=sha256:c4c069eeb1924ea492c50144d8a4f5f1eb0ece945e0c0d60157cabcadff651cd
 rackspace-novaclient==2.1 --hash=sha256:22fc44f623bae0feb32986ec4630abee904e4c96fba5849386a87e88c450eae7
 rax_default_network_flags_python_novaclient_ext==0.4.0 --hash=sha256:852bf49d90e7a1bc16aa0b25b46a45ba5654069f7321a363c8d94c5496666001
