@@ -2,7 +2,7 @@
   "dependencies": [
     {
       "name": "ansible-core",
-      "version": "2.13.3",
+      "version": "2.13.4",
       "vulns": []
     },
     {
@@ -27,17 +27,17 @@
     },
     {
       "name": "bcrypt",
-      "version": "3.2.2",
+      "version": "4.0.0",
       "vulns": []
     },
     {
       "name": "boto3",
-      "version": "1.24.58",
+      "version": "1.24.73",
       "vulns": []
     },
     {
       "name": "botocore",
-      "version": "1.27.58",
+      "version": "1.27.73",
       "vulns": []
     },
     {
@@ -47,7 +47,7 @@
     },
     {
       "name": "certifi",
-      "version": "2022.6.15",
+      "version": "2022.9.14",
       "vulns": []
     },
     {
@@ -72,7 +72,7 @@
     },
     {
       "name": "cryptography",
-      "version": "37.0.4",
+      "version": "38.0.1",
       "vulns": []
     },
     {
@@ -112,7 +112,7 @@
     },
     {
       "name": "idna",
-      "version": "3.3",
+      "version": "3.4",
       "vulns": []
     },
     {
@@ -222,7 +222,7 @@
     },
     {
       "name": "oauthlib",
-      "version": "3.2.0",
+      "version": "3.2.1",
       "vulns": []
     },
     {
@@ -232,7 +232,7 @@
     },
     {
       "name": "openstacksdk",
-      "version": "0.100.0",
+      "version": "0.101.0",
       "vulns": []
     },
     {
@@ -247,7 +247,7 @@
     },
     {
       "name": "osc-lib",
-      "version": "2.6.1",
+      "version": "2.6.2",
       "vulns": []
     },
     {
@@ -277,7 +277,7 @@
     },
     {
       "name": "oslo-utils",
-      "version": "6.0.0",
+      "version": "6.0.1",
       "vulns": []
     },
     {
@@ -307,7 +307,7 @@
     },
     {
       "name": "prettytable",
-      "version": "3.3.0",
+      "version": "3.4.1",
       "vulns": []
     },
     {
@@ -377,12 +377,12 @@
     },
     {
       "name": "python-keystoneclient",
-      "version": "5.0.0",
+      "version": "5.0.1",
       "vulns": []
     },
     {
       "name": "python-neutronclient",
-      "version": "8.0.0",
+      "version": "8.1.0",
       "vulns": []
     },
     {
@@ -472,7 +472,7 @@
     },
     {
       "name": "transitions",
-      "version": "0.8.11",
+      "version": "0.9.0",
       "vulns": []
     },
     {
@@ -487,7 +487,7 @@
     },
     {
       "name": "websocket-client",
-      "version": "1.3.3",
+      "version": "1.4.1",
       "vulns": []
     },
     {
