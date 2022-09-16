@@ -1,0 +1,1 @@
+[{"name": "paramiko", "version": "2.7.2", "vulns": [{"id": "PYSEC-2022-166", "fix_versions": ["2.10.1"]}]}]

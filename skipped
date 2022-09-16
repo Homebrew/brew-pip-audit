@@ -1,0 +1,5 @@
+3d @ pyqt-requirements.txt
+charts @ pyqt-requirements.txt
+datavis @ pyqt-requirements.txt
+networkauth @ pyqt-requirements.txt
+webengine @ pyqt-requirements.txt

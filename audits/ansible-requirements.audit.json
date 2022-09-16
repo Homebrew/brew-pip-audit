@@ -1,520 +1,517 @@
-{
-  "dependencies": [
+[
     {
-      "name": "ansible-core",
-      "version": "2.13.4",
-      "vulns": []
+        "name": "ansible-core",
+        "version": "2.13.4",
+        "vulns": []
     },
     {
-      "name": "apache-libcloud",
-      "version": "3.6.0",
-      "vulns": []
+        "name": "apache-libcloud",
+        "version": "3.6.0",
+        "vulns": []
     },
     {
-      "name": "appdirs",
-      "version": "1.4.4",
-      "vulns": []
+        "name": "appdirs",
+        "version": "1.4.4",
+        "vulns": []
     },
     {
-      "name": "attrs",
-      "version": "22.1.0",
-      "vulns": []
+        "name": "attrs",
+        "version": "22.1.0",
+        "vulns": []
     },
     {
-      "name": "autopage",
-      "version": "0.5.1",
-      "vulns": []
+        "name": "autopage",
+        "version": "0.5.1",
+        "vulns": []
     },
     {
-      "name": "bcrypt",
-      "version": "4.0.0",
-      "vulns": []
+        "name": "bcrypt",
+        "version": "4.0.0",
+        "vulns": []
     },
     {
-      "name": "boto3",
-      "version": "1.24.73",
-      "vulns": []
+        "name": "boto3",
+        "version": "1.24.73",
+        "vulns": []
     },
     {
-      "name": "botocore",
-      "version": "1.27.73",
-      "vulns": []
+        "name": "botocore",
+        "version": "1.27.73",
+        "vulns": []
     },
     {
-      "name": "cachetools",
-      "version": "5.2.0",
-      "vulns": []
+        "name": "cachetools",
+        "version": "5.2.0",
+        "vulns": []
     },
     {
-      "name": "certifi",
-      "version": "2022.9.14",
-      "vulns": []
+        "name": "certifi",
+        "version": "2022.9.14",
+        "vulns": []
     },
     {
-      "name": "cffi",
-      "version": "1.15.1",
-      "vulns": []
+        "name": "cffi",
+        "version": "1.15.1",
+        "vulns": []
     },
     {
-      "name": "charset-normalizer",
-      "version": "2.1.1",
-      "vulns": []
+        "name": "charset-normalizer",
+        "version": "2.1.1",
+        "vulns": []
     },
     {
-      "name": "cliff",
-      "version": "4.0.0",
-      "vulns": []
+        "name": "cliff",
+        "version": "4.0.0",
+        "vulns": []
     },
     {
-      "name": "cmd2",
-      "version": "2.4.2",
-      "vulns": []
+        "name": "cmd2",
+        "version": "2.4.2",
+        "vulns": []
     },
     {
-      "name": "cryptography",
-      "version": "38.0.1",
-      "vulns": []
+        "name": "cryptography",
+        "version": "38.0.1",
+        "vulns": []
     },
     {
-      "name": "debtcollector",
-      "version": "2.5.0",
-      "vulns": []
+        "name": "debtcollector",
+        "version": "2.5.0",
+        "vulns": []
     },
     {
-      "name": "decorator",
-      "version": "5.1.1",
-      "vulns": []
+        "name": "decorator",
+        "version": "5.1.1",
+        "vulns": []
     },
     {
-      "name": "dnspython",
-      "version": "2.2.1",
-      "vulns": []
+        "name": "dnspython",
+        "version": "2.2.1",
+        "vulns": []
     },
     {
-      "name": "docker",
-      "version": "6.0.0",
-      "vulns": []
+        "name": "docker",
+        "version": "6.0.0",
+        "vulns": []
     },
     {
-      "name": "dogpile-cache",
-      "version": "1.1.8",
-      "vulns": []
+        "name": "dogpile-cache",
+        "version": "1.1.8",
+        "vulns": []
     },
     {
-      "name": "future",
-      "version": "0.18.2",
-      "vulns": []
+        "name": "future",
+        "version": "0.18.2",
+        "vulns": []
     },
     {
-      "name": "google-auth",
-      "version": "2.11.0",
-      "vulns": []
+        "name": "google-auth",
+        "version": "2.11.0",
+        "vulns": []
     },
     {
-      "name": "idna",
-      "version": "3.4",
-      "vulns": []
+        "name": "idna",
+        "version": "3.4",
+        "vulns": []
     },
     {
-      "name": "importlib-metadata",
-      "version": "4.12.0",
-      "vulns": []
+        "name": "importlib-metadata",
+        "version": "4.12.0",
+        "vulns": []
     },
     {
-      "name": "iso8601",
-      "version": "1.0.2",
-      "vulns": []
+        "name": "iso8601",
+        "version": "1.0.2",
+        "vulns": []
     },
     {
-      "name": "jinja2",
-      "version": "3.1.2",
-      "vulns": []
+        "name": "jinja2",
+        "version": "3.1.2",
+        "vulns": []
     },
     {
-      "name": "jmespath",
-      "version": "1.0.1",
-      "vulns": []
+        "name": "jmespath",
+        "version": "1.0.1",
+        "vulns": []
     },
     {
-      "name": "jsonpatch",
-      "version": "1.32",
-      "vulns": []
+        "name": "jsonpatch",
+        "version": "1.32",
+        "vulns": []
     },
     {
-      "name": "jsonpointer",
-      "version": "2.3",
-      "vulns": []
+        "name": "jsonpointer",
+        "version": "2.3",
+        "vulns": []
     },
     {
-      "name": "junos-eznc",
-      "version": "2.6.5",
-      "vulns": []
+        "name": "junos-eznc",
+        "version": "2.6.5",
+        "vulns": []
     },
     {
-      "name": "jxmlease",
-      "version": "1.0.3",
-      "vulns": []
+        "name": "jxmlease",
+        "version": "1.0.3",
+        "vulns": []
     },
     {
-      "name": "kerberos",
-      "version": "1.3.1",
-      "vulns": [
-        {
-          "id": "PYSEC-2017-49",
-          "fix_versions": []
-        }
-      ]
+        "name": "kerberos",
+        "version": "1.3.1",
+        "vulns": [
+            {
+                "id": "PYSEC-2017-49",
+                "fix_versions": []
+            }
+        ]
     },
     {
-      "name": "keystoneauth1",
-      "version": "5.0.0",
-      "vulns": []
+        "name": "keystoneauth1",
+        "version": "5.0.0",
+        "vulns": []
     },
     {
-      "name": "kubernetes",
-      "version": "24.2.0",
-      "vulns": []
+        "name": "kubernetes",
+        "version": "24.2.0",
+        "vulns": []
     },
     {
-      "name": "lxml",
-      "version": "4.9.1",
-      "vulns": []
+        "name": "lxml",
+        "version": "4.9.1",
+        "vulns": []
     },
     {
-      "name": "markupsafe",
-      "version": "2.1.1",
-      "vulns": []
+        "name": "markupsafe",
+        "version": "2.1.1",
+        "vulns": []
     },
     {
-      "name": "msgpack",
-      "version": "1.0.4",
-      "vulns": []
+        "name": "msgpack",
+        "version": "1.0.4",
+        "vulns": []
     },
     {
-      "name": "munch",
-      "version": "2.5.0",
-      "vulns": []
+        "name": "munch",
+        "version": "2.5.0",
+        "vulns": []
     },
     {
-      "name": "ncclient",
-      "version": "0.6.13",
-      "vulns": []
+        "name": "ncclient",
+        "version": "0.6.13",
+        "vulns": []
     },
     {
-      "name": "netaddr",
-      "version": "0.8.0",
-      "vulns": []
+        "name": "netaddr",
+        "version": "0.8.0",
+        "vulns": []
     },
     {
-      "name": "netifaces",
-      "version": "0.11.0",
-      "vulns": []
+        "name": "netifaces",
+        "version": "0.11.0",
+        "vulns": []
     },
     {
-      "name": "ntc-templates",
-      "version": "3.1.0",
-      "vulns": []
+        "name": "ntc-templates",
+        "version": "3.1.0",
+        "vulns": []
     },
     {
-      "name": "ntlm-auth",
-      "version": "1.5.0",
-      "vulns": []
+        "name": "ntlm-auth",
+        "version": "1.5.0",
+        "vulns": []
     },
     {
-      "name": "oauthlib",
-      "version": "3.2.1",
-      "vulns": []
+        "name": "oauthlib",
+        "version": "3.2.1",
+        "vulns": []
     },
     {
-      "name": "openshift",
-      "version": "0.13.1",
-      "vulns": []
+        "name": "openshift",
+        "version": "0.13.1",
+        "vulns": []
     },
     {
-      "name": "openstacksdk",
-      "version": "0.101.0",
-      "vulns": []
+        "name": "openstacksdk",
+        "version": "0.101.0",
+        "vulns": []
     },
     {
-      "name": "os-client-config",
-      "version": "2.1.0",
-      "vulns": []
+        "name": "os-client-config",
+        "version": "2.1.0",
+        "vulns": []
     },
     {
-      "name": "os-service-types",
-      "version": "1.7.0",
-      "vulns": []
+        "name": "os-service-types",
+        "version": "1.7.0",
+        "vulns": []
     },
     {
-      "name": "osc-lib",
-      "version": "2.6.2",
-      "vulns": []
+        "name": "osc-lib",
+        "version": "2.6.2",
+        "vulns": []
     },
     {
-      "name": "oslo-config",
-      "version": "9.0.0",
-      "vulns": []
+        "name": "oslo-config",
+        "version": "9.0.0",
+        "vulns": []
     },
     {
-      "name": "oslo-context",
-      "version": "5.0.0",
-      "vulns": []
+        "name": "oslo-context",
+        "version": "5.0.0",
+        "vulns": []
     },
     {
-      "name": "oslo-i18n",
-      "version": "5.1.0",
-      "vulns": []
+        "name": "oslo-i18n",
+        "version": "5.1.0",
+        "vulns": []
     },
     {
-      "name": "oslo-log",
-      "version": "5.0.0",
-      "vulns": []
+        "name": "oslo-log",
+        "version": "5.0.0",
+        "vulns": []
     },
     {
-      "name": "oslo-serialization",
-      "version": "5.0.0",
-      "vulns": []
+        "name": "oslo-serialization",
+        "version": "5.0.0",
+        "vulns": []
     },
     {
-      "name": "oslo-utils",
-      "version": "6.0.1",
-      "vulns": []
+        "name": "oslo-utils",
+        "version": "6.0.1",
+        "vulns": []
     },
     {
-      "name": "packaging",
-      "version": "21.3",
-      "vulns": []
+        "name": "packaging",
+        "version": "21.3",
+        "vulns": []
     },
     {
-      "name": "paramiko",
-      "version": "2.11.0",
-      "vulns": []
+        "name": "paramiko",
+        "version": "2.11.0",
+        "vulns": []
     },
     {
-      "name": "passlib",
-      "version": "1.7.4",
-      "vulns": []
+        "name": "passlib",
+        "version": "1.7.4",
+        "vulns": []
     },
     {
-      "name": "pbr",
-      "version": "5.10.0",
-      "vulns": []
+        "name": "pbr",
+        "version": "5.10.0",
+        "vulns": []
     },
     {
-      "name": "pexpect",
-      "version": "4.8.0",
-      "vulns": []
+        "name": "pexpect",
+        "version": "4.8.0",
+        "vulns": []
     },
     {
-      "name": "prettytable",
-      "version": "3.4.1",
-      "vulns": []
+        "name": "prettytable",
+        "version": "3.4.1",
+        "vulns": []
     },
     {
-      "name": "proxmoxer",
-      "version": "1.3.1",
-      "vulns": []
+        "name": "proxmoxer",
+        "version": "1.3.1",
+        "vulns": []
     },
     {
-      "name": "ptyprocess",
-      "version": "0.7.0",
-      "vulns": []
+        "name": "ptyprocess",
+        "version": "0.7.0",
+        "vulns": []
     },
     {
-      "name": "pyasn1",
-      "version": "0.4.8",
-      "vulns": []
+        "name": "pyasn1",
+        "version": "0.4.8",
+        "vulns": []
     },
     {
-      "name": "pyasn1-modules",
-      "version": "0.2.8",
-      "vulns": []
+        "name": "pyasn1-modules",
+        "version": "0.2.8",
+        "vulns": []
     },
     {
-      "name": "pycparser",
-      "version": "2.21",
-      "vulns": []
+        "name": "pycparser",
+        "version": "2.21",
+        "vulns": []
     },
     {
-      "name": "pynacl",
-      "version": "1.5.0",
-      "vulns": []
+        "name": "pynacl",
+        "version": "1.5.0",
+        "vulns": []
     },
     {
-      "name": "pyparsing",
-      "version": "3.0.9",
-      "vulns": []
+        "name": "pyparsing",
+        "version": "3.0.9",
+        "vulns": []
     },
     {
-      "name": "pyperclip",
-      "version": "1.8.2",
-      "vulns": []
+        "name": "pyperclip",
+        "version": "1.8.2",
+        "vulns": []
     },
     {
-      "name": "pyserial",
-      "version": "3.5",
-      "vulns": []
+        "name": "pyserial",
+        "version": "3.5",
+        "vulns": []
     },
     {
-      "name": "pysphere3",
-      "version": "0.1.8",
-      "vulns": []
+        "name": "pysphere3",
+        "version": "0.1.8",
+        "vulns": []
     },
     {
-      "name": "pyspnego",
-      "version": "0.6.0",
-      "vulns": []
+        "name": "pyspnego",
+        "version": "0.6.0",
+        "vulns": []
     },
     {
-      "name": "python-consul",
-      "version": "1.1.0",
-      "vulns": []
+        "name": "python-consul",
+        "version": "1.1.0",
+        "vulns": []
     },
     {
-      "name": "python-dateutil",
-      "version": "2.8.2",
-      "vulns": []
+        "name": "python-dateutil",
+        "version": "2.8.2",
+        "vulns": []
     },
     {
-      "name": "python-keystoneclient",
-      "version": "5.0.1",
-      "vulns": []
+        "name": "python-keystoneclient",
+        "version": "5.0.1",
+        "vulns": []
     },
     {
-      "name": "python-neutronclient",
-      "version": "8.1.0",
-      "vulns": []
+        "name": "python-neutronclient",
+        "version": "8.1.0",
+        "vulns": []
     },
     {
-      "name": "python-string-utils",
-      "version": "1.0.0",
-      "vulns": []
+        "name": "python-string-utils",
+        "version": "1.0.0",
+        "vulns": []
     },
     {
-      "name": "pytz",
-      "version": "2022.2.1",
-      "vulns": []
+        "name": "pytz",
+        "version": "2022.2.1",
+        "vulns": []
     },
     {
-      "name": "pywinrm",
-      "version": "0.4.3",
-      "vulns": []
+        "name": "pywinrm",
+        "version": "0.4.3",
+        "vulns": []
     },
     {
-      "name": "requests",
-      "version": "2.28.1",
-      "vulns": []
+        "name": "requests",
+        "version": "2.28.1",
+        "vulns": []
     },
     {
-      "name": "requests-credssp",
-      "version": "2.0.0",
-      "vulns": []
+        "name": "requests-credssp",
+        "version": "2.0.0",
+        "vulns": []
     },
     {
-      "name": "requests-ntlm",
-      "version": "1.1.0",
-      "vulns": []
+        "name": "requests-ntlm",
+        "version": "1.1.0",
+        "vulns": []
     },
     {
-      "name": "requests-oauthlib",
-      "version": "1.3.1",
-      "vulns": []
+        "name": "requests-oauthlib",
+        "version": "1.3.1",
+        "vulns": []
     },
     {
-      "name": "requestsexceptions",
-      "version": "1.4.0",
-      "vulns": []
+        "name": "requestsexceptions",
+        "version": "1.4.0",
+        "vulns": []
     },
     {
-      "name": "resolvelib",
-      "version": "0.8.1",
-      "vulns": []
+        "name": "resolvelib",
+        "version": "0.8.1",
+        "vulns": []
     },
     {
-      "name": "rfc3986",
-      "version": "2.0.0",
-      "vulns": []
+        "name": "rfc3986",
+        "version": "2.0.0",
+        "vulns": []
     },
     {
-      "name": "rsa",
-      "version": "4.9",
-      "vulns": []
+        "name": "rsa",
+        "version": "4.9",
+        "vulns": []
     },
     {
-      "name": "s3transfer",
-      "version": "0.6.0",
-      "vulns": []
+        "name": "s3transfer",
+        "version": "0.6.0",
+        "vulns": []
     },
     {
-      "name": "scp",
-      "version": "0.14.4",
-      "vulns": []
+        "name": "scp",
+        "version": "0.14.4",
+        "vulns": []
     },
     {
-      "name": "shade",
-      "version": "1.33.0",
-      "vulns": []
+        "name": "shade",
+        "version": "1.33.0",
+        "vulns": []
     },
     {
-      "name": "simplejson",
-      "version": "3.17.6",
-      "vulns": []
+        "name": "simplejson",
+        "version": "3.17.6",
+        "vulns": []
     },
     {
-      "name": "stevedore",
-      "version": "4.0.0",
-      "vulns": []
+        "name": "stevedore",
+        "version": "4.0.0",
+        "vulns": []
     },
     {
-      "name": "textfsm",
-      "version": "1.1.3",
-      "vulns": []
+        "name": "textfsm",
+        "version": "1.1.3",
+        "vulns": []
     },
     {
-      "name": "transitions",
-      "version": "0.9.0",
-      "vulns": []
+        "name": "transitions",
+        "version": "0.9.0",
+        "vulns": []
     },
     {
-      "name": "urllib3",
-      "version": "1.26.12",
-      "vulns": []
+        "name": "urllib3",
+        "version": "1.26.12",
+        "vulns": []
     },
     {
-      "name": "wcwidth",
-      "version": "0.2.5",
-      "vulns": []
+        "name": "wcwidth",
+        "version": "0.2.5",
+        "vulns": []
     },
     {
-      "name": "websocket-client",
-      "version": "1.4.1",
-      "vulns": []
+        "name": "websocket-client",
+        "version": "1.4.1",
+        "vulns": []
     },
     {
-      "name": "wrapt",
-      "version": "1.14.1",
-      "vulns": []
+        "name": "wrapt",
+        "version": "1.14.1",
+        "vulns": []
     },
     {
-      "name": "xmltodict",
-      "version": "0.13.0",
-      "vulns": []
+        "name": "xmltodict",
+        "version": "0.13.0",
+        "vulns": []
     },
     {
-      "name": "yamlordereddictloader",
-      "version": "0.4.0",
-      "vulns": []
+        "name": "yamlordereddictloader",
+        "version": "0.4.0",
+        "vulns": []
     },
     {
-      "name": "zabbix-api",
-      "version": "0.5.4",
-      "vulns": []
+        "name": "zabbix-api",
+        "version": "0.5.4",
+        "vulns": []
     },
     {
-      "name": "zipp",
-      "version": "3.8.1",
-      "vulns": []
+        "name": "zipp",
+        "version": "3.8.1",
+        "vulns": []
     }
-  ],
-  "fixes": []
-}
+]
