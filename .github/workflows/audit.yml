@@ -20,7 +20,7 @@ jobs:
       - run: brew update
       - run: pip install pip-audit
       - run: brew ruby formula2requirements.rb
-      - run: bash pip-audit-bulk
+      - run: python pip-audit-bulk
       - name: Commit and push if it changed
         run: |-
           git config user.name "github.actions"
