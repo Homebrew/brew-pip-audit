@@ -1,0 +1,1 @@
+[{"name": "jupyter-server", "version": "1.11.1", "vulns": [{"id": "PYSEC-2022-179", "fix_versions": ["1.15.4"]}, {"id": "PYSEC-2022-211", "fix_versions": ["1.17.0"]}]}, {"name": "mistune", "version": "0.8.4", "vulns": [{"id": "PYSEC-2022-237", "fix_versions": ["2.0.3"]}]}, {"name": "nbconvert", "version": "6.2.0", "vulns": [{"id": "PYSEC-2022-249", "fix_versions": ["6.3.0a0"]}]}]

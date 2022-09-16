@@ -1,17 +1,14 @@
-{
-  "dependencies": [
-    {
-      "name": "lxml",
-      "version": "4.8.0",
-      "vulns": [
-        {
-          "id": "PYSEC-2022-230",
-          "fix_versions": [
-            "4.9.1"
-          ]
-        }
-      ]
-    }
-  ],
-  "fixes": []
-}
+[
+  {
+    "name": "lxml",
+    "version": "4.8.0",
+    "vulns": [
+      {
+        "id": "PYSEC-2022-230",
+        "fix_versions": [
+          "4.9.1"
+        ]
+      }
+    ]
+  }
+]

@@ -1,58 +1,20 @@
-{
-  "dependencies": [
-    {
-      "name": "cffi",
-      "version": "1.15.1",
-      "vulns": []
-    },
-    {
-      "name": "docopt",
-      "version": "0.6.2",
-      "vulns": []
-    },
-    {
-      "name": "jinja2",
-      "version": "2.11.3",
-      "vulns": []
-    },
-    {
-      "name": "markdown2",
-      "version": "2.4.3",
-      "vulns": []
-    },
-    {
-      "name": "markupsafe",
-      "version": "1.1.1",
-      "vulns": []
-    },
-    {
-      "name": "pycparser",
-      "version": "2.21",
-      "vulns": []
-    },
-    {
-      "name": "pygit2",
-      "version": "1.10.0",
-      "vulns": []
-    },
-    {
-      "name": "pygments",
-      "version": "2.5.2",
-      "vulns": [
-        {
-          "id": "PYSEC-2021-140",
-          "fix_versions": [
-            "2.7.4"
-          ]
-        },
-        {
-          "id": "PYSEC-2021-141",
-          "fix_versions": [
-            "2.7.4"
-          ]
-        }
-      ]
-    }
-  ],
-  "fixes": []
-}
+[
+  {
+    "name": "pygments",
+    "version": "2.5.2",
+    "vulns": [
+      {
+        "id": "PYSEC-2021-140",
+        "fix_versions": [
+          "2.7.4"
+        ]
+      },
+      {
+        "id": "PYSEC-2021-141",
+        "fix_versions": [
+          "2.7.4"
+        ]
+      }
+    ]
+  }
+]

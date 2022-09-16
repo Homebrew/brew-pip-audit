@@ -1,62 +1,44 @@
-{
-  "dependencies": [
-    {
-      "name": "docopt",
-      "version": "0.6.2",
-      "vulns": []
-    },
-    {
-      "name": "markdown",
-      "version": "2.6.7",
-      "vulns": []
-    },
-    {
-      "name": "pygments",
-      "version": "2.1.3",
-      "vulns": [
-        {
-          "id": "PYSEC-2021-140",
-          "fix_versions": [
-            "2.7.4"
-          ]
-        },
-        {
-          "id": "PYSEC-2021-141",
-          "fix_versions": [
-            "2.7.4"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "pyyaml",
-      "version": "3.13",
-      "vulns": [
-        {
-          "id": "PYSEC-2018-49",
-          "fix_versions": [
-            "5.1"
-          ]
-        },
-        {
-          "id": "PYSEC-2021-142",
-          "fix_versions": [
-            "5.4"
-          ]
-        },
-        {
-          "id": "GHSA-6757-jp84-gxfx",
-          "fix_versions": [
-            "5.3.1"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "tabulate",
-      "version": "0.8.7",
-      "vulns": []
-    }
-  ],
-  "fixes": []
-}
+[
+  {
+    "name": "pygments",
+    "version": "2.1.3",
+    "vulns": [
+      {
+        "id": "PYSEC-2021-140",
+        "fix_versions": [
+          "2.7.4"
+        ]
+      },
+      {
+        "id": "PYSEC-2021-141",
+        "fix_versions": [
+          "2.7.4"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "pyyaml",
+    "version": "3.13",
+    "vulns": [
+      {
+        "id": "PYSEC-2018-49",
+        "fix_versions": [
+          "5.1"
+        ]
+      },
+      {
+        "id": "PYSEC-2021-142",
+        "fix_versions": [
+          "5.4"
+        ]
+      },
+      {
+        "id": "GHSA-6757-jp84-gxfx",
+        "fix_versions": [
+          "5.3.1"
+        ]
+      }
+    ]
+  }
+]

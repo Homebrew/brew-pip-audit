@@ -1,0 +1,1 @@
+[{"name": "urllib3", "version": "1.26.4", "vulns": [{"id": "PYSEC-2021-108", "fix_versions": ["1.26.5"]}]}]

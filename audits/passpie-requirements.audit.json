@@ -1,49 +1,26 @@
-{
-  "dependencies": [
-    {
-      "name": "click",
-      "version": "6.6",
-      "vulns": []
-    },
-    {
-      "name": "pyyaml",
-      "version": "3.13",
-      "vulns": [
-        {
-          "id": "PYSEC-2018-49",
-          "fix_versions": [
-            "5.1"
-          ]
-        },
-        {
-          "id": "PYSEC-2021-142",
-          "fix_versions": [
-            "5.4"
-          ]
-        },
-        {
-          "id": "GHSA-6757-jp84-gxfx",
-          "fix_versions": [
-            "5.3.1"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "rstr",
-      "version": "2.2.4",
-      "vulns": []
-    },
-    {
-      "name": "tabulate",
-      "version": "0.7.5",
-      "vulns": []
-    },
-    {
-      "name": "tinydb",
-      "version": "3.2.1",
-      "vulns": []
-    }
-  ],
-  "fixes": []
-}
+[
+  {
+    "name": "pyyaml",
+    "version": "3.13",
+    "vulns": [
+      {
+        "id": "PYSEC-2018-49",
+        "fix_versions": [
+          "5.1"
+        ]
+      },
+      {
+        "id": "PYSEC-2021-142",
+        "fix_versions": [
+          "5.4"
+        ]
+      },
+      {
+        "id": "GHSA-6757-jp84-gxfx",
+        "fix_versions": [
+          "5.3.1"
+        ]
+      }
+    ]
+  }
+]

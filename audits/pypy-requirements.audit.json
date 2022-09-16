@@ -1,22 +1,14 @@
-{
-  "dependencies": [
-    {
-      "name": "setuptools",
-      "version": "44.1.1",
-      "vulns": []
-    },
-    {
-      "name": "pip",
-      "version": "20.3.4",
-      "vulns": [
-        {
-          "id": "PYSEC-2021-437",
-          "fix_versions": [
-            "21.1"
-          ]
-        }
-      ]
-    }
-  ],
-  "fixes": []
-}
+[
+  {
+    "name": "pip",
+    "version": "20.3.4",
+    "vulns": [
+      {
+        "id": "PYSEC-2021-437",
+        "fix_versions": [
+          "21.1"
+        ]
+      }
+    ]
+  }
+]
