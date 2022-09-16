@@ -1,59 +1,14 @@
 [
-    {
-        "name": "aiohttp",
-        "version": "2.3.10",
-        "vulns": [
-            {
-                "id": "PYSEC-2021-76",
-                "fix_versions": [
-                    "3.7.4"
-                ]
-            }
+  {
+    "name": "aiohttp",
+    "version": "2.3.10",
+    "vulns": [
+      {
+        "id": "PYSEC-2021-76",
+        "fix_versions": [
+          "3.7.4"
         ]
-    },
-    {
-        "name": "async-timeout",
-        "version": "3.0.1",
-        "vulns": []
-    },
-    {
-        "name": "chardet",
-        "version": "4.0.0",
-        "vulns": []
-    },
-    {
-        "name": "click",
-        "version": "6.7",
-        "vulns": []
-    },
-    {
-        "name": "humanize",
-        "version": "0.5.1",
-        "vulns": []
-    },
-    {
-        "name": "idna",
-        "version": "3.3",
-        "vulns": []
-    },
-    {
-        "name": "idna-ssl",
-        "version": "1.1.0",
-        "vulns": []
-    },
-    {
-        "name": "multidict",
-        "version": "6.0.2",
-        "vulns": []
-    },
-    {
-        "name": "python-dateutil",
-        "version": "2.8.2",
-        "vulns": []
-    },
-    {
-        "name": "yarl",
-        "version": "1.7.2",
-        "vulns": []
-    }
+      }
+    ]
+  }
 ]

@@ -1,79 +1,14 @@
 [
-    {
-        "name": "bidict",
-        "version": "0.21.2",
-        "vulns": []
-    },
-    {
-        "name": "brotli",
-        "version": "1.0.9",
-        "vulns": []
-    },
-    {
-        "name": "click",
-        "version": "8.0.1",
-        "vulns": []
-    },
-    {
-        "name": "flask",
-        "version": "2.0.1",
-        "vulns": []
-    },
-    {
-        "name": "flask-compress",
-        "version": "1.10.1",
-        "vulns": []
-    },
-    {
-        "name": "flask-socketio",
-        "version": "5.1.1",
-        "vulns": []
-    },
-    {
-        "name": "itsdangerous",
-        "version": "2.0.1",
-        "vulns": []
-    },
-    {
-        "name": "jinja2",
-        "version": "3.0.1",
-        "vulns": []
-    },
-    {
-        "name": "markupsafe",
-        "version": "2.0.1",
-        "vulns": []
-    },
-    {
-        "name": "pygdbmi",
-        "version": "0.10.0.1",
-        "vulns": []
-    },
-    {
-        "name": "pygments",
-        "version": "2.10.0",
-        "vulns": []
-    },
-    {
-        "name": "python-engineio",
-        "version": "4.2.1",
-        "vulns": []
-    },
-    {
-        "name": "python-socketio",
-        "version": "5.4.0",
-        "vulns": []
-    },
-    {
-        "name": "werkzeug",
-        "version": "2.0.1",
-        "vulns": [
-            {
-                "id": "PYSEC-2022-203",
-                "fix_versions": [
-                    "2.1.1"
-                ]
-            }
+  {
+    "name": "werkzeug",
+    "version": "2.0.1",
+    "vulns": [
+      {
+        "id": "PYSEC-2022-203",
+        "fix_versions": [
+          "2.1.1"
         ]
-    }
+      }
+    ]
+  }
 ]
