@@ -1,2 +1,1 @@
-PyYAML==6.0 --hash=sha256:68fb519c14306fec9720a2a5b45bc9f0c8d1b9c72adf45c37baedfcd949c35a2
 cassandra-driver==3.22.0 --hash=sha256:df825ee4ebb7f7fa33ab028d673530184fe0ee41ea66b2f9ddd478db56145a31
