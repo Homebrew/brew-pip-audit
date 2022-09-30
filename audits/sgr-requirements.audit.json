@@ -1,0 +1,14 @@
+[
+  {
+    "name": "joblib",
+    "version": "1.1.0",
+    "vulns": [
+      {
+        "id": "GHSA-6hrg-qmvc-2xh8",
+        "fix_versions": [
+          "1.2.0"
+        ]
+      }
+    ]
+  }
+]
