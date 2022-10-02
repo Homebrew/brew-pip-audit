@@ -62,9 +62,10 @@ for req in _REQUIREMENTS.glob("*.txt"):
             filtered_deps.append(dep)
 
     # If we're left with anything, dump it as a result.
+    out = _OUT / req.with_suffix(".audit.json").name
     if filtered_deps:
         print(f"\t:-( found {len(filtered_deps)} vulnerabilities in {req.name}", file=sys.stderr)
-        out = _OUT / req.with_suffix(".audit.json").name
         out.write_text(json.dumps(filtered_deps, indent=2))
     else:
+        out.unlink(missing_ok=True)
         print(f"\t:-) no vulnerabilities found in {req.name}", file=sys.stderr)
