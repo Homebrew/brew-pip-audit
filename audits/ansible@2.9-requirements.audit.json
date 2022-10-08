@@ -20,5 +20,17 @@
         ]
       }
     ]
+  },
+  {
+    "name": "oauthlib",
+    "version": "3.2.0",
+    "vulns": [
+      {
+        "id": "GHSA-3pgj-pg6c-r5p7",
+        "fix_versions": [
+          "3.2.1"
+        ]
+      }
+    ]
   }
 ]
