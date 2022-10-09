@@ -8,29 +8,5 @@
         "fix_versions": []
       }
     ]
-  },
-  {
-    "name": "lxml",
-    "version": "4.8.0",
-    "vulns": [
-      {
-        "id": "PYSEC-2022-230",
-        "fix_versions": [
-          "4.9.1"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "oauthlib",
-    "version": "3.2.0",
-    "vulns": [
-      {
-        "id": "GHSA-3pgj-pg6c-r5p7",
-        "fix_versions": [
-          "3.2.1"
-        ]
-      }
-    ]
   }
 ]
