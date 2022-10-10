@@ -38,6 +38,5 @@ semver==2.13.0 --hash=sha256:fa0fe2722ee1c3f57eac478820c3a5ae2f624af8264cbdf9000
 setuptools-rust==1.5.2 --hash=sha256:d8daccb14dc0eae1b6b6eb3ecef79675bd37b4065369f79c35393dd5c55652c7
 snap-helpers==0.2.0 --hash=sha256:e72c810af32a0126bfcb7d5c39dda5ca2037889ca2fe2ee5aa543a25b9ca670b
 types-Deprecated==1.2.9 --hash=sha256:e04ce58929509865359e91dcc38720123262b4cd68fa2a8a90312d50390bb6fa
-typing-extensions==4.3.0 --hash=sha256:e6d2677a32f47fc7eb2795db1dd15c1f34eff616bcaf2cfb5e997f854fa1c4a6
 urllib3==1.26.12 --hash=sha256:3fa96cf423e6987997fc326ae8df396db2a8b7c667747d47ddd8ecba91f4a74e
 wrapt==1.14.1 --hash=sha256:380a85cf89e0e69b7cfbe2ea9f765f004ff419f34194018a6827ac0e3edfed4d
