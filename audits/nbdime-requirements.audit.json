@@ -1,5 +1,17 @@
 [
   {
+    "name": "jupyter-core",
+    "version": "4.8.1",
+    "vulns": [
+      {
+        "id": "GHSA-m678-f26j-3hrp",
+        "fix_versions": [
+          "4.11.2"
+        ]
+      }
+    ]
+  },
+  {
     "name": "jupyter-server",
     "version": "1.11.1",
     "vulns": [
