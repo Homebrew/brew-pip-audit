@@ -29,6 +29,5 @@ requests-toolbelt==0.9.1 --hash=sha256:968089d4584ad4ad7c171454f0a5c6dac23971e94
 shellingham==1.5.0 --hash=sha256:72fb7f5c63103ca2cb91b23dee0c71fe8ad6fbfd46418ef17dbe40db51592dad
 tomlkit==0.11.5 --hash=sha256:571854ebbb5eac89abcb4a2e47d7ea27b89bf29e09c35395da6f03dd4ae23d1c
 urllib3==1.26.12 --hash=sha256:3fa96cf423e6987997fc326ae8df396db2a8b7c667747d47ddd8ecba91f4a74e
-virtualenv==20.16.5 --hash=sha256:227ea1b9994fdc5ea31977ba3383ef296d7472ea85be9d6732e42a91c04e80da
 webencodings==0.5.1 --hash=sha256:b36a1c245f2d304965eb4e0a82848379241dc04b865afcc4aab16748587e1923
 xattr==0.9.9 --hash=sha256:09cb7e1efb3aa1b4991d6be4eb25b73dc518b4fe894f0915f5b0dcede972f346
