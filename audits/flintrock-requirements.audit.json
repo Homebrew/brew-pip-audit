@@ -1,17 +1,5 @@
 [
   {
-    "name": "cryptography",
-    "version": "37.0.2",
-    "vulns": [
-      {
-        "id": "GHSA-39hc-v87j-747x",
-        "fix_versions": [
-          "38.0.3"
-        ]
-      }
-    ]
-  },
-  {
     "name": "paramiko",
     "version": "2.7.2",
     "vulns": [

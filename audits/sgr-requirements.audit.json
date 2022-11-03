@@ -1,17 +1,5 @@
 [
   {
-    "name": "cryptography",
-    "version": "37.0.4",
-    "vulns": [
-      {
-        "id": "GHSA-39hc-v87j-747x",
-        "fix_versions": [
-          "38.0.3"
-        ]
-      }
-    ]
-  },
-  {
     "name": "joblib",
     "version": "1.1.0",
     "vulns": [
