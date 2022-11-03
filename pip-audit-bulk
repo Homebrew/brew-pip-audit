@@ -28,7 +28,7 @@ assert shutil.which("pip-audit"), "missing pip-audit"
 for req in _REQUIREMENTS.glob("*.txt"):
     print(f"[+] auditing: {req.name}", file=sys.stderr)
     result = subprocess.run(
-        ["pip-audit", "--requirement", str(req), "--require-hashes", "--format=json"],
+        ["pip-audit", "--requirement", str(req), "--require-hashes", "--format=json", "--ignore-vuln=GHSA-39hc-v87j-747x"],
         capture_output=True,
         text=True,
     )
