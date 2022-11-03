@@ -1,0 +1,14 @@
+[
+  {
+    "name": "cryptography",
+    "version": "37.0.1",
+    "vulns": [
+      {
+        "id": "GHSA-39hc-v87j-747x",
+        "fix_versions": [
+          "38.0.3"
+        ]
+      }
+    ]
+  }
+]
