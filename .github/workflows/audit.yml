@@ -17,6 +17,8 @@ jobs:
         with:
           fetch-depth: 0
       - uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
       - run: brew update
       - run: pip install pip-audit
       - run: brew ruby formula2requirements.rb
