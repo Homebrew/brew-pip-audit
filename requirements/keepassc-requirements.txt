@@ -1,2 +1,2 @@
 kppy==1.5.2 --hash=sha256:08fc48462541a891debe8254208fe162bcc1cd40aba3f4ca98286401faf65f28
-pycryptodomex==3.9.9 --hash=sha256:7b5b7c5896f8172ea0beb283f7f9428e0ab88ec248ce0a5b8c98d73e26267d51
+pycryptodomex==3.15.0 --hash=sha256:7341f1bb2dadb0d1a0047f34c3a58208a92423cdbd3244d998e4b28df5eac0ed
