@@ -4,7 +4,7 @@
     "version": "1.11.0",
     "vulns": [
       {
-        "id": "GHSA-w596-4wvx-j9j6",
+        "id": "PYSEC-2022-42969",
         "fix_versions": []
       }
     ]
