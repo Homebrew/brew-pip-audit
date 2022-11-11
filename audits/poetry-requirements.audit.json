@@ -1,0 +1,12 @@
+[
+  {
+    "name": "cleo",
+    "version": "1.0.0a5",
+    "vulns": [
+      {
+        "id": "GHSA-2p9h-ccw7-33gf",
+        "fix_versions": []
+      }
+    ]
+  }
+]

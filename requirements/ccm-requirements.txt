@@ -1,1 +1,3 @@
-cassandra-driver==3.22.0 --hash=sha256:df825ee4ebb7f7fa33ab028d673530184fe0ee41ea66b2f9ddd478db56145a31
+cassandra-driver==3.25.0 --hash=sha256:8ad7d7c090eb1cac6110b3bfc1fd2d334ac62f415aac09350ebb8d241b7aa7ee
+click==8.1.3 --hash=sha256:7682dc8afb30297001674575ea00d1814d808d6a36af415a82bd481d37ba7b8e
+geomet==0.2.1.post1 --hash=sha256:91d754f7c298cbfcabd3befdb69c641c27fe75e808b27aa55028605761d17e95
