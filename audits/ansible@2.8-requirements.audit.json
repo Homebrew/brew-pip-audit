@@ -34,6 +34,18 @@
     ]
   },
   {
+    "name": "oslo-utils",
+    "version": "4.1.1",
+    "vulns": [
+      {
+        "id": "GHSA-wmqq-r32m-87c5",
+        "fix_versions": [
+          "4.10.1"
+        ]
+      }
+    ]
+  },
+  {
     "name": "paramiko",
     "version": "2.7.1",
     "vulns": [

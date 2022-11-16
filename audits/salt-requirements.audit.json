@@ -1,0 +1,14 @@
+[
+  {
+    "name": "mako",
+    "version": "1.1.4",
+    "vulns": [
+      {
+        "id": "GHSA-v973-fxgf-6xhp",
+        "fix_versions": [
+          "1.2.2"
+        ]
+      }
+    ]
+  }
+]
