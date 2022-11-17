@@ -1,1 +1,1 @@
-python-dotenv==0.20.0 --hash=sha256:b7e3b04a59693c42c36f9ab1cc2acc46fa5df8c78e178fc33a8d4cd05c8d498f
+python-dotenv==0.21.0 --hash=sha256:b77d08274639e3d34145dfa6c7008e66df0f04b7be7a75fd0d5292c191d79045
