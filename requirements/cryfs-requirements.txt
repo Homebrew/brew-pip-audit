@@ -1,1 +1,1 @@
-versioneer==0.22 --hash=sha256:9f0e9a2cb5ef521cbfd104d43a208dd9124dfb4accfa72d694e0d0430a0142bc
+versioneer==0.28 --hash=sha256:7175ca8e7bb4dd0e3c9779dd2745e5b4a6036304af3f5e50bd896f10196586d6
