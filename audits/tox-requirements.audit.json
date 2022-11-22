@@ -5,7 +5,8 @@
     "vulns": [
       {
         "id": "PYSEC-2022-42969",
-        "fix_versions": []
+        "fix_versions": [],
+        "description": "The py library through 1.11.0 for Python allows remote attackers to conduct a ReDoS (Regular expression Denial of Service) attack via a Subversion repository with crafted info data, because the InfoSvnCommand argument is mishandled."
       }
     ]
   }

@@ -7,7 +7,8 @@
         "id": "PYSEC-2021-62",
         "fix_versions": [
           "3.2.1"
-        ]
+        ],
+        "description": "python-cryptography 3.2 is vulnerable to Bleichenbacher timing attacks in the RSA decryption API, via timed processing of valid PKCS#1 v1.5 ciphertext."
       }
     ]
   },
@@ -19,7 +20,8 @@
         "id": "PYSEC-2021-66",
         "fix_versions": [
           "2.11.3"
-        ]
+        ],
+        "description": "This affects the package jinja2 from 0.0.0 and before 2.11.3. The ReDoS vulnerability is mainly due to the `_punctuation_re regex` operator and its use of multiple wildcards. The last wildcard is the most exploitable as it searches for trailing punctuation. This issue can be mitigated by Markdown to format user content instead of the urlize filter, or by implementing request timeouts and limiting process memory."
       }
     ]
   },
@@ -31,7 +33,8 @@
         "id": "PYSEC-2022-166",
         "fix_versions": [
           "2.10.1"
-        ]
+        ],
+        "description": "In Paramiko before 2.10.1, a race condition (between creation and chmod) in the write_private_key_file function could allow unauthorized information disclosure."
       }
     ]
   },
@@ -43,7 +46,8 @@
         "id": "PYSEC-2021-142",
         "fix_versions": [
           "5.4"
-        ]
+        ],
+        "description": "A vulnerability was discovered in the PyYAML library in versions before 5.4, where it is susceptible to arbitrary code execution when it processes untrusted YAML files through the full_load method or with the FullLoader loader. Applications that use the library to process untrusted input may be vulnerable to this flaw. This flaw allows an attacker to execute arbitrary code on the system by abusing the python/object/new constructor. This flaw is due to an incomplete fix for CVE-2020-1747."
       }
     ]
   },
@@ -55,7 +59,8 @@
         "id": "PYSEC-2021-108",
         "fix_versions": [
           "1.26.5"
-        ]
+        ],
+        "description": "An issue was discovered in urllib3 before 1.26.5. When provided with a URL containing many @ characters in the authority component, the authority regular expression exhibits catastrophic backtracking, causing a denial of service if a URL were passed as a parameter or redirected to via an HTTP redirect."
       }
     ]
   }

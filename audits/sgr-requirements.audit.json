@@ -7,7 +7,8 @@
         "id": "PYSEC-2022-288",
         "fix_versions": [
           "1.2.0"
-        ]
+        ],
+        "description": "The package joblib from 0 and before 1.2.0 are vulnerable to Arbitrary Code Execution via the pre_dispatch flag in Parallel() class due to the eval() statement."
       }
     ]
   }

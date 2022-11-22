@@ -5,7 +5,8 @@
     "vulns": [
       {
         "id": "PYSEC-2017-49",
-        "fix_versions": []
+        "fix_versions": [],
+        "description": "The checkPassword function in python-kerberos does not authenticate the KDC it attempts to communicate with, which allows remote attackers to cause a denial of service (bad response), or have other unspecified impact by performing a man-in-the-middle attack."
       }
     ]
   }

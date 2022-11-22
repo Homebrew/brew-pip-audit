@@ -7,13 +7,15 @@
         "id": "PYSEC-2021-140",
         "fix_versions": [
           "2.7.4"
-        ]
+        ],
+        "description": "An infinite loop in SMLLexer in Pygments versions 1.5 to 2.7.3 may lead to denial of service when performing syntax highlighting of a Standard ML (SML) source file, as demonstrated by input that only contains the \"exception\" keyword."
       },
       {
         "id": "PYSEC-2021-141",
         "fix_versions": [
           "2.7.4"
-        ]
+        ],
+        "description": "In pygments 1.1+, fixed in 2.7.4, the lexers used to parse programming languages rely heavily on regular expressions. Some of the regular expressions have exponential or cubic worst-case complexity and are vulnerable to ReDoS. By crafting malicious input, an attacker can cause a denial of service."
       }
     ]
   },
@@ -25,19 +27,22 @@
         "id": "PYSEC-2018-49",
         "fix_versions": [
           "5.1"
-        ]
+        ],
+        "description": "In PyYAML before 5.1, the yaml.load() API could execute arbitrary code if used with untrusted data. The load() function has been deprecated in version 5.1 and the 'UnsafeLoader' has been introduced for backward compatibility with the function."
       },
       {
         "id": "PYSEC-2021-142",
         "fix_versions": [
           "5.4"
-        ]
+        ],
+        "description": "A vulnerability was discovered in the PyYAML library in versions before 5.4, where it is susceptible to arbitrary code execution when it processes untrusted YAML files through the full_load method or with the FullLoader loader. Applications that use the library to process untrusted input may be vulnerable to this flaw. This flaw allows an attacker to execute arbitrary code on the system by abusing the python/object/new constructor. This flaw is due to an incomplete fix for CVE-2020-1747."
       },
       {
         "id": "GHSA-6757-jp84-gxfx",
         "fix_versions": [
           "5.3.1"
-        ]
+        ],
+        "description": "A vulnerability was discovered in the PyYAML library in versions before 5.3.1, where it is susceptible to arbitrary code execution when it processes untrusted YAML files through the full_load method or with the FullLoader loader. Applications that use the library to process untrusted input may be vulnerable to this flaw. An attacker could use this flaw to execute arbitrary code on the system by abusing the python/object/new constructor."
       }
     ]
   }

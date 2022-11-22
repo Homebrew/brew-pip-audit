@@ -7,7 +7,8 @@
         "id": "PYSEC-2021-437",
         "fix_versions": [
           "21.1"
-        ]
+        ],
+        "description": "A flaw was found in python-pip in the way it handled Unicode separators in git references. A remote attacker could possibly use this issue to install a different revision on a repository. The highest threat from this vulnerability is to data integrity. This is fixed in python-pip version 21.1."
       }
     ]
   }

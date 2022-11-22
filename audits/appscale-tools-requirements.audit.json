@@ -7,19 +7,22 @@
         "id": "PYSEC-2018-49",
         "fix_versions": [
           "5.1"
-        ]
+        ],
+        "description": "In PyYAML before 5.1, the yaml.load() API could execute arbitrary code if used with untrusted data. The load() function has been deprecated in version 5.1 and the 'UnsafeLoader' has been introduced for backward compatibility with the function."
       },
       {
         "id": "PYSEC-2021-142",
         "fix_versions": [
           "5.4"
-        ]
+        ],
+        "description": "A vulnerability was discovered in the PyYAML library in versions before 5.4, where it is susceptible to arbitrary code execution when it processes untrusted YAML files through the full_load method or with the FullLoader loader. Applications that use the library to process untrusted input may be vulnerable to this flaw. This flaw allows an attacker to execute arbitrary code on the system by abusing the python/object/new constructor. This flaw is due to an incomplete fix for CVE-2020-1747."
       },
       {
         "id": "GHSA-6757-jp84-gxfx",
         "fix_versions": [
           "5.3.1"
-        ]
+        ],
+        "description": "A vulnerability was discovered in the PyYAML library in versions before 5.3.1, where it is susceptible to arbitrary code execution when it processes untrusted YAML files through the full_load method or with the FullLoader loader. Applications that use the library to process untrusted input may be vulnerable to this flaw. An attacker could use this flaw to execute arbitrary code on the system by abusing the python/object/new constructor."
       }
     ]
   },
@@ -31,13 +34,15 @@
         "id": "PYSEC-2020-100",
         "fix_versions": [
           "4.7"
-        ]
+        ],
+        "description": "It was found that python-rsa is vulnerable to Bleichenbacher timing attacks. An attacker can use this flaw via the RSA decryption API to decrypt parts of the cipher text encrypted with RSA."
       },
       {
         "id": "PYSEC-2020-99",
         "fix_versions": [
           "4.1"
-        ]
+        ],
+        "description": "Python-RSA before 4.1 ignores leading '\\0' bytes during decryption of ciphertext. This could conceivably have a security-relevant impact, e.g., by helping an attacker to infer that an application uses Python-RSA, or if the length of accepted ciphertext affects application behavior (such as by causing excessive memory allocation)."
       }
     ]
   },
@@ -49,13 +54,15 @@
         "id": "PYSEC-2020-46",
         "fix_versions": [
           "0.18.0"
-        ]
+        ],
+        "description": "In httplib2 before version 0.18.0, an attacker controlling unescaped part of uri for `httplib2.Http.request()` could change request headers and body, send additional hidden requests to same server. This vulnerability impacts software that uses httplib2 with uri constructed by string concatenation, as opposed to proper urllib building with escaping. This has been fixed in 0.18.0."
       },
       {
         "id": "PYSEC-2021-16",
         "fix_versions": [
           "0.19.0"
-        ]
+        ],
+        "description": "httplib2 is a comprehensive HTTP client library for Python. In httplib2 before version 0.19.0, a malicious server which responds with long series of \"\\xa0\" characters in the \"www-authenticate\" header may cause Denial of Service (CPU burn while parsing header) of the httplib2 client accessing said server. This is fixed in version 0.19.0 which contains a new implementation of auth headers parsing using the pyparsing library."
       }
     ]
   },
@@ -67,13 +74,15 @@
         "id": "PYSEC-2021-62",
         "fix_versions": [
           "3.2.1"
-        ]
+        ],
+        "description": "python-cryptography 3.2 is vulnerable to Bleichenbacher timing attacks in the RSA decryption API, via timed processing of valid PKCS#1 v1.5 ciphertext."
       },
       {
         "id": "PYSEC-2018-52",
         "fix_versions": [
           "2.3"
-        ]
+        ],
+        "description": "A flaw was found in python-cryptography versions between >=1.9.0 and <2.3. The finalize_with_tag API did not enforce a minimum tag length. If a user did not validate the input length prior to passing it to finalize_with_tag an attacker could craft an invalid payload with a shortened tag (e.g. 1 byte) such that they would have a 1 in 256 chance of passing the MAC check. GCM tag forgeries can cause key leakage."
       }
     ]
   },
@@ -85,7 +94,8 @@
         "id": "PYSEC-2022-202",
         "fix_versions": [
           "2.4.0"
-        ]
+        ],
+        "description": "PyJWT is a Python implementation of RFC 7519. PyJWT supports multiple different JWT signing algorithms. With JWT, an attacker submitting the JWT token can choose the used signing algorithm. The PyJWT library requires that the application chooses what algorithms are supported. The application can specify `jwt.algorithms.get_default_algorithms()` to get support for all algorithms, or specify a single algorithm. The issue is not that big as `algorithms=jwt.algorithms.get_default_algorithms()` has to be used. Users should upgrade to v2.4.0 to receive a patch for this issue. As a workaround, always be explicit with the algorithms that are accepted and expected when decoding."
       }
     ]
   },
@@ -97,7 +107,8 @@
         "id": "PYSEC-2018-28",
         "fix_versions": [
           "2.20.0"
-        ]
+        ],
+        "description": "The Requests package before 2.20.0 for Python sends an HTTP Authorization header to an http URI upon receiving a same-hostname https-to-http redirect, which makes it easier for remote attackers to discover credentials by sniffing the network."
       }
     ]
   }

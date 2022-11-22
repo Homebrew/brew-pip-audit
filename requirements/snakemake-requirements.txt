@@ -4,7 +4,6 @@ charset-normalizer==2.1.1 --hash=sha256:5a3d016c7c547f69d6f81fb0db9449ce888b418b
 ConfigArgParse==1.5.3 --hash=sha256:1b0b3cbf664ab59dada57123c81eff3d9737e0d11d8cf79e3d6eb10823f1739f
 connection_pool==0.0.3 --hash=sha256:bf429e7aef65921c69b4ed48f3d48d3eac1383b05d2df91884705842d974d0dc
 datrie==0.8.2 --hash=sha256:525b08f638d5cf6115df6ccd818e5a01298cd230b2dac91c8ff2e6499d18765d
-docutils==0.19 --hash=sha256:33995a6753c30b7f577febfc2c50411fec6aac7f7ffeb7c4cfe5991072dcf9e6
 dpath==2.0.6 --hash=sha256:5a1ddae52233fbc8ef81b15fb85073a81126bb43698d3f3a1b6aaf561a46cdc0
 fastjsonschema==2.16.2 --hash=sha256:01e366f25d9047816fe3d288cbfc3e10541daf0af2044763f3d0ade42476da18
 gitdb==4.0.9 --hash=sha256:bac2fd45c0a1c9cf619e63a90d62bdc63892ef92387424b855792a6cabe789aa

@@ -7,13 +7,15 @@
         "id": "PYSEC-2021-108",
         "fix_versions": [
           "1.26.5"
-        ]
+        ],
+        "description": "An issue was discovered in urllib3 before 1.26.5. When provided with a URL containing many @ characters in the authority component, the authority regular expression exhibits catastrophic backtracking, causing a denial of service if a URL were passed as a parameter or redirected to via an HTTP redirect."
       },
       {
         "id": "PYSEC-2021-59",
         "fix_versions": [
           "1.26.4"
-        ]
+        ],
+        "description": "The urllib3 library 1.26.x before 1.26.4 for Python omits SSL certificate validation in some cases involving HTTPS to HTTPS proxies. The initial connection to the HTTPS proxy (if an SSLContext isn't given via proxy_config) doesn't verify the hostname of the certificate. This means certificates for different servers that still validate properly with the default urllib3 SSLContext will be silently accepted."
       }
     ]
   }

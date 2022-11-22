@@ -8,7 +8,6 @@ ConfigArgParse==1.5.3 --hash=sha256:1b0b3cbf664ab59dada57123c81eff3d9737e0d11d8c
 construct==2.10.68 --hash=sha256:7b2a3fd8e5f597a5aa1d614c3bd516fa065db01704c72a1efaaeec6ef23d8b45
 construct-classes==0.1.2 --hash=sha256:72ac1abbae5bddb4918688713f991f5a7fb6c9b593646a82f4bf3ac53de7eeb5
 cryptography==38.0.3 --hash=sha256:bfbe6ee19615b07a98b1d2287d6a6073f734735b49ee45b11324d85efc4d5cbd
-docutils==0.19 --hash=sha256:33995a6753c30b7f577febfc2c50411fec6aac7f7ffeb7c4cfe5991072dcf9e6
 ecdsa==0.18.0 --hash=sha256:190348041559e21b22a1d65cee485282ca11a6f81d503fddb84d5017e9ed1e49
 ECPy==1.2.5 --hash=sha256:9635cffb9b6ecf7fd7f72aea1665829ac74a1d272006d0057d45a621aae20228
 future==0.18.2 --hash=sha256:b1bead90b70cf6ec3f0710ae53a525360fa360d306a86583adc6bf83a4db537d
