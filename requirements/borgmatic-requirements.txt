@@ -7,4 +7,4 @@ jsonschema==4.17.1 --hash=sha256:05b2d22c83640cde0b7e0aa329ca7754fbd98ea66ad8ae2
 pyrsistent==0.19.2 --hash=sha256:bfa0351be89c9fcbcb8c9879b826f4353be10f58f8a677efab0c017bf7137ec2
 requests==2.28.1 --hash=sha256:7c5599b102feddaa661c826c56ab4fee28bfd17f5abca1ebbe3e7f19d7c97983
 ruamel.yaml==0.17.21 --hash=sha256:8b7ce697a2f212752a35c1ac414471dc16c424c9573be4926b56ff3f5d23b7af
-urllib3==1.26.12 --hash=sha256:3fa96cf423e6987997fc326ae8df396db2a8b7c667747d47ddd8ecba91f4a74e
+urllib3==1.26.13 --hash=sha256:c083dd0dce68dbfbe1129d5271cb90f9447dea7d52097c6e0126120c521ddea8
