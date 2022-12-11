@@ -4,7 +4,7 @@ require "utils/pypi"
 
 SKIP_FORMULA = []
 # TODO: remove once we're confident this works
-ONLY_FORMULA = ["hatch"]
+ONLY_FORMULA = ["grokmirror"]
 
 for path in Dir.entries("audits")
   if !path.end_with?("-requirements.audit.json")
