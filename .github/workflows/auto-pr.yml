@@ -1,0 +1,21 @@
+name: Submit PRs for audit results
+
+on:
+  workflow_dispatch:
+  # TODO: enable once we're confidence this works
+  # workflow_run:
+  #   workflows: ["pip-audit brew packages"]
+  #   types: [completed]
+
+jobs:
+  auto-pr:
+    runs-on: macos-latest
+    steps:
+      - name: Check out this repo
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Set up Homebrew
+        uses: Homebrew/actions/setup-homebrew@master
+
+      - run: brew ruby generate-prs.rb
