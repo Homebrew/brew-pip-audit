@@ -20,9 +20,11 @@ for path in Dir.entries("audits")
   PyPI.update_python_resources!(formula,
                                 ignore_non_pypi_packages: true)
 
+  args = OpenStruct.new(force?: false, quiet?: false)
   GitHub.check_for_duplicate_pull_requests(formula.name, formula.tap.remote_repo,
                                            state: "open",
-                                           file: formula.path.relative_path_from(formula.tap.path).to_s)
+                                           file: formula.path.relative_path_from(formula.tap.path).to_s
+                                           args: args)
 
   # TODO: consider re-running pip-audit to verify at least one vuln was fixed.
   GitHub.create_bump_pr({
