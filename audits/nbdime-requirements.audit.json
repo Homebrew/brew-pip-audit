@@ -1,7 +1,7 @@
 [
   {
     "name": "gitpython",
-    "version": "3.1.29",
+    "version": "3.1.24",
     "vulns": [
       {
         "id": "GHSA-hcpj-qp55-gfph",
