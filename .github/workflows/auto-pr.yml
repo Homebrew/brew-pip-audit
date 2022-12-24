@@ -7,6 +7,9 @@ on:
   #   workflows: ["pip-audit brew packages"]
   #   types: [completed]
 
+env:
+  HOMEBREW_NO_AUTO_UPDATE: 1
+
 jobs:
   auto-pr:
     runs-on: macos-latest
@@ -17,8 +20,6 @@ jobs:
           fetch-depth: 0
       - name: Set up Homebrew
         uses: Homebrew/actions/setup-homebrew@master
-
-      - run: brew upgrade --force
 
       - run: brew install pipgrip
 
