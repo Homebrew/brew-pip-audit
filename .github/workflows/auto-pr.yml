@@ -18,6 +18,9 @@ jobs:
       - name: Set up Homebrew
         uses: Homebrew/actions/setup-homebrew@master
 
+      - run: brew upgrade
+      - run: brew install pipgrip
+
       - name: Generate Pull Requests
         run: brew ruby generate-prs.rb
         env:
