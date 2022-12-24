@@ -18,13 +18,13 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: Set up Homebrew
-        uses: Homebrew/actions/setup-homebrew@master
+      # - name: Set up Homebrew
+      #   uses: Homebrew/actions/setup-homebrew@master
 
-      - run: |
-          brew link --overwrite python@3.10
-          brew install python@3.10
-          brew link --overwrite python@3.10
+      # - run: |
+      #     brew link --overwrite python@3.10
+      #     brew install python@3.10
+      #     brew link --overwrite python@3.10
 
       - run: brew install pipgrip
 
