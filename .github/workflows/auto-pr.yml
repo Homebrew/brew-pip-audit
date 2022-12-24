@@ -18,7 +18,8 @@ jobs:
       - name: Set up Homebrew
         uses: Homebrew/actions/setup-homebrew@master
 
-      - run: brew upgrade
+      - run: brew upgrade --force
+
       - run: brew install pipgrip
 
       - name: Generate Pull Requests
