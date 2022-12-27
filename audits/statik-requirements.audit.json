@@ -76,5 +76,18 @@
         "description": "An issue was discovered in urllib3 before 1.26.5. When provided with a URL containing many @ characters in the authority component, the authority regular expression exhibits catastrophic backtracking, causing a denial of service if a URL were passed as a parameter or redirected to via an HTTP redirect."
       }
     ]
+  },
+  {
+    "name": "wheel",
+    "version": "0.34.2",
+    "vulns": [
+      {
+        "id": "GHSA-qwmp-2cf2-g9g6",
+        "fix_versions": [
+          "0.38.1"
+        ],
+        "description": "Python Packaging Authority (PyPA) Wheel is a reference implementation of the Python wheel packaging standard. Wheel 0.37.1 and earlier are vulnerable to a Regular Expression denial of service via attacker controlled input to the wheel cli. The vulnerable regex is used to verify the validity of Wheel file names. This has been patched in version 0.38.1."
+      }
+    ]
   }
 ]
