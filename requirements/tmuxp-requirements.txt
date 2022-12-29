@@ -1,2 +1,2 @@
 colorama==0.4.6 --hash=sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44
-libtmux==0.18.0 --hash=sha256:c51ccd5ef5ff18232fd56a72cadddd36bf3ad79e0dbd34cdad4a06d821a2af84
+libtmux==0.18.1 --hash=sha256:212cff87ec679a269ae430125c636221d2e2458f7626bd5ba00dceb68f02db91
