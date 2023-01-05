@@ -1,5 +1,16 @@
 [
   {
+    "name": "future",
+    "version": "0.18.2",
+    "vulns": [
+      {
+        "id": "GHSA-v3c5-jqr6-7qm8",
+        "fix_versions": [],
+        "description": "An issue discovered in Python Charmers Future 0.18.2 and earlier allows remote attackers to cause a denial of service via crafted Set-Cookie header from malicious web server."
+      }
+    ]
+  },
+  {
     "name": "gitpython",
     "version": "3.1.29",
     "vulns": [
