@@ -8,6 +8,11 @@ import subprocess
 import sys
 from pathlib import Path
 
+IGNORED_VULNS = [
+    # Only impacts wheels, which homebrew doesn't use.
+    "GHSA-39hc-v87j-747x",
+]
+
 # This entire script is path-sensitive.
 _HERE = Path(__file__).resolve().parent
 
@@ -28,7 +33,8 @@ assert shutil.which("pip-audit"), "missing pip-audit"
 for req in _REQUIREMENTS.glob("*.txt"):
     print(f"[+] auditing: {req.name}", file=sys.stderr)
     result = subprocess.run(
-        ["pip-audit", "--requirement", str(req), "--require-hashes", "--format=json", "--ignore-vuln=GHSA-39hc-v87j-747x"],
+        ["pip-audit", "--requirement", str(req), "--require-hashes", "--format=json"]
+        + [f"--ignore-vuln={v}" for v in IGNORED_VULNS],
         capture_output=True,
         text=True,
     )
@@ -64,7 +70,10 @@ for req in _REQUIREMENTS.glob("*.txt"):
     # If we're left with anything, dump it as a result.
     out = _OUT / req.with_suffix(".audit.json").name
     if filtered_deps:
-        print(f"\t:-( found {len(filtered_deps)} vulnerabilities in {req.name}", file=sys.stderr)
+        print(
+            f"\t:-( found {len(filtered_deps)} vulnerabilities in {req.name}",
+            file=sys.stderr,
+        )
         out.write_text(json.dumps(filtered_deps, indent=2))
     else:
         out.unlink(missing_ok=True)
