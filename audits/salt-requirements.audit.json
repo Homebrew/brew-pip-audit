@@ -28,7 +28,7 @@
     "version": "1.1.4",
     "vulns": [
       {
-        "id": "GHSA-v973-fxgf-6xhp",
+        "id": "PYSEC-2022-260",
         "fix_versions": [
           "1.2.2"
         ],
