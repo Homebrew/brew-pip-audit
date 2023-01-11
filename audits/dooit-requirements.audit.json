@@ -18,7 +18,9 @@
     "vulns": [
       {
         "id": "GHSA-2p9h-ccw7-33gf",
-        "fix_versions": [],
+        "fix_versions": [
+          "1.0.0"
+        ],
         "description": "An exponential ReDoS (Regular Expression Denial of Service) can be triggered in the cleo PyPI package, when an attacker is able to supply arbitrary input to the Table.set_rows method."
       }
     ]
