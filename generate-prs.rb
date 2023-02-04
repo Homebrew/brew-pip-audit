@@ -2,16 +2,14 @@ require "formula"
 require "utils/pypi"
 
 
-SKIP_FORMULA = []
-# TODO: remove once we're confident this works
-ONLY_FORMULA = ["grokmirror"]
+SKIP_FORMULA = ["grokmirror"]
 
 for path in Dir.entries("audits")
   if !path.end_with?("-requirements.audit.json")
     next
   end
   formula = Formula[path.delete_suffix("-requirements.audit.json")]
-  if SKIP_FORMULA.include?(formula.name) || !ONLY_FORMULA.include?(formula.name)
+  if SKIP_FORMULA.include?(formula.name)
     puts "Skipping #{formula.name}"
     next
   end
