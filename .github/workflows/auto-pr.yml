@@ -14,9 +14,6 @@ jobs:
   auto-pr:
     runs-on: macos-latest
 
-    permissions:
-      pull-requests: write
-
     steps:
       - name: Check out this repo
         uses: actions/checkout@v3
