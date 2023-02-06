@@ -7,11 +7,11 @@ imagesize==1.4.1 --hash=sha256:69150444affb9cb0d5cc5a92b3676f0b2fb7cd9ae39e947a5
 Jinja2==3.1.2 --hash=sha256:31351a702a408a9e7595a8fc6150fc3f43bb6bf7e319770cbc0db9df9437e852
 MarkupSafe==2.1.1 --hash=sha256:7f91197cc9e48f989d12e4e6fbc46495c446636dfc81b9ccf50bb0ec74b91d4b
 numpydoc==1.5.0 --hash=sha256:b0db7b75a32367a0e25c23b397842c65e344a1206524d16c8069f0a1c91b5f4c
-packaging==22.0 --hash=sha256:2198ec20bd4c017b8f9717e00f0c8714076fc2fd93816750ab48e2c41de2cfd3
+packaging==23.0 --hash=sha256:b6ad297f8907de0fa2fe1ccbd26fdaf387f5f47c7275fedf8cce89f99446cf97
 pytz==2022.7 --hash=sha256:7ccfae7b4b2c067464a6733c6261673fdb8fd1be905460396b97a073e9fa683a
 requests==2.28.1 --hash=sha256:7c5599b102feddaa661c826c56ab4fee28bfd17f5abca1ebbe3e7f19d7c97983
 snowballstemmer==2.2.0 --hash=sha256:09b16deb8547d3412ad7b590689584cd0fe25ec8db3be37788be3810cbf19cb1
-sphinxcontrib-applehelp==1.0.2 --hash=sha256:a072735ec80e7675e3f432fcae8610ecf509c5f1869d17e2eecff44389cdbc58
+sphinxcontrib.applehelp==1.0.3 --hash=sha256:83749f09f6ac843b8cb685277dbc818a8bf2d76cc19602699094fe9a74db529e
 sphinxcontrib-devhelp==1.0.2 --hash=sha256:ff7f1afa7b9642e7060379360a67e9c41e8f3121f2ce9164266f61b9f4b338e4
 sphinxcontrib-htmlhelp==2.0.0 --hash=sha256:f5f8bb2d0d629f398bf47d0d69c07bc13b65f75a81ad9e2f71a63d4b7a2f6db2
 sphinxcontrib-jsmath==1.0.1 --hash=sha256:a9925e4a4587247ed2191a22df5f6970656cb8ca2bd6284309578f2153e0c4b8

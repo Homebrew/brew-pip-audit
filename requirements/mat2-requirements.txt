@@ -1,1 +1,1 @@
-mutagen==1.45.1 --hash=sha256:6397602efb3c2d7baebd2166ed85731ae1c1d475abca22090b7141ff5034b3e1
+mutagen==1.46.0 --hash=sha256:6e5f8ba84836b99fe60be5fb27f84be4ad919bbb6b49caa6ae81e70584b55e58

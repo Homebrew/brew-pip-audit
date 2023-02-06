@@ -45,6 +45,7 @@
       {
         "id": "PYSEC-2022-166",
         "fix_versions": [
+          "2.9.3",
           "2.10.1"
         ],
         "description": "In Paramiko before 2.10.1, a race condition (between creation and chmod) in the write_private_key_file function could allow unauthorized information disclosure."
@@ -70,7 +71,7 @@
           "3.20.2",
           "4.21.6"
         ],
-        "description": "### Summary  A message parsing and memory management vulnerability in ProtocolBuffer\u2019s C++ and Python implementations can trigger an out of memory (OOM) failure when processing a specially crafted message, which could lead to a denial of service (DoS) on services using the libraries.  Reporter: [ClusterFuzz](https://google.github.io/clusterfuzz/)  Affected versions: All versions of C++ Protobufs (including Python) prior to the versions listed below.  ### Severity & Impact  **Medium 5.7** - [CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H)  A small (~500 KB) malicious payload can be constructed which causes the running service to allocate more than 3GB of RAM.  ### Proof of Concept  For reproduction details, please refer to the unit test that identifies the specific inputs that exercise this parsing weakness.  ### Mitigation / Patching  Please update to the latest available versions of the following packages: - protobuf-cpp (3.18.3, 3.19.5, 3.20.2, 3.21.6) - protobuf-python (3.18.3, 3.19.5, 3.20.2, 4.21.6)"
+        "description": "### Summary  A message parsing and memory management vulnerability in ProtocolBuffer\u2019s C++ and Python implementations can trigger an out of memory (OOM) failure when processing a specially crafted message, which could lead to a denial of service (DoS) on services using the libraries.  Reporter: [ClusterFuzz](https://google.github.io/clusterfuzz/)  Affected versions: All versions of C++ Protobufs (including Python) prior to the versions listed below.  ### Severity & Impact As scored by google   **Medium 5.7** - [CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H)   Asscored byt NIST   **High 7.5** - [CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H](https://www.first.org/cvss/calculator/3.1#CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H)  A small (~500 KB) malicious payload can be constructed which causes the running service to allocate more than 3GB of RAM.  ### Proof of Concept  For reproduction details, please refer to the unit test that identifies the specific inputs that exercise this parsing weakness.  ### Mitigation / Patching  Please update to the latest available versions of the following packages: - protobuf-cpp (3.18.3, 3.19.5, 3.20.2, 3.21.6) - protobuf-python (3.18.3, 3.19.5, 3.20.2, 4.21.6)"
       }
     ]
   },

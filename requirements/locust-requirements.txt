@@ -20,5 +20,5 @@ requests==2.28.1 --hash=sha256:7c5599b102feddaa661c826c56ab4fee28bfd17f5abca1ebb
 roundrobin==0.0.4 --hash=sha256:7e9d19a5bd6123d99993fb935fa86d25c88bb2096e493885f61737ed0f5e9abd
 urllib3==1.26.13 --hash=sha256:c083dd0dce68dbfbe1129d5271cb90f9447dea7d52097c6e0126120c521ddea8
 Werkzeug==2.2.2 --hash=sha256:7ea2d48322cc7c0f8b3a215ed73eabd7b5d75d0b50e31ab006286ccff9e00b8f
-zope.event==4.5.0 --hash=sha256:5e76517f5b9b119acf37ca8819781db6c16ea433f7e2062c4afc2b6fbedb1330
+zope.event==4.6 --hash=sha256:81d98813046fc86cc4136e3698fee628a3282f9c320db18658c21749235fce80
 zope.interface==5.5.2 --hash=sha256:bfee1f3ff62143819499e348f5b8a7f3aa0259f9aca5e0ddae7391d059dce671
