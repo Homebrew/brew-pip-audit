@@ -40,7 +40,7 @@ for path in Dir.entries("audits")
   formula.path.parent.cd do
     # HACK: `create_bump_pr` fails if the path is unchanged, which sometimes
     # happens for reasons I haven't debugged yet.
-    `git diff --exit-code #{formula.path}`
+    `git diff --exit-code -- #{formula.path}`
     next if $?.success?
   end
 
