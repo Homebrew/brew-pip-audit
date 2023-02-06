@@ -2,7 +2,7 @@ require "formula"
 require "utils/pypi"
 
 
-SKIP_FORMULA = ["grokmirror"]
+SKIP_FORMULA = []
 
 for path in Dir.entries("audits")
   if !path.end_with?("-requirements.audit.json")
