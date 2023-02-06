@@ -14,6 +14,9 @@ Formula.all.each do |f|
   python_resources = f.resources.select { |r| r.url =~ /files\.pythonhosted\.org/ }
   next if python_resources.empty?
 
+  # Skip deprecated and disabled formulae.
+  next if f.deprecated? || f.disabled?
+
   requirement_file = "#{OUT}/#{f.name}-requirements.txt"
 
   puts f.name
