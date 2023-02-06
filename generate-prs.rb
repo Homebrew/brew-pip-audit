@@ -14,6 +14,11 @@ for path in Dir.entries("audits")
     next
   end
 
+  # HACK: Clean up the last step's update.
+  formula.path.parent.cd do
+    `git reset --hard HEAD`
+  end
+
   ohai "Updating resources for #{formula.name}"
   # TODO: Updating Python resources automatically can fail for myriad reasons;
   # we should try and handle some of them.
@@ -40,7 +45,7 @@ for path in Dir.entries("audits")
   formula.path.parent.cd do
     # HACK: `create_bump_pr` fails if the path is unchanged, which sometimes
     # happens for reasons I haven't debugged yet.
-    `git diff --exit-code -- #{formula.path}`
+    `git diff --quiet -- #{formula.path}`
     next if $?.success?
   end
 
