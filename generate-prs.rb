@@ -20,7 +20,8 @@ for path in Dir.entries("audits")
   begin
     PyPI.update_python_resources!(formula,
                                   ignore_non_pypi_packages: true)
-  rescue SystemExit
+  rescue SystemExit => e
+    opoo e.message
     next
   end
 
