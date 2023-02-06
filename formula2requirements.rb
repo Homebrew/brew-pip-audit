@@ -14,10 +14,15 @@ Formula.all.each do |f|
   python_resources = f.resources.select { |r| r.url =~ /files\.pythonhosted\.org/ }
   next if python_resources.empty?
 
-  # Skip deprecated and disabled formulae.
-  next if f.deprecated? || f.disabled?
-
   requirement_file = "#{OUT}/#{f.name}-requirements.txt"
+
+  # Skip deprecated and disabled formulae but not before removing any
+  # previously generated requirements, if present.
+  if f.deprecated? || f.disabled?
+    FileUtils.rm_f requirement_file
+    next
+  end
+
 
   puts f.name
   File.open requirement_file, "w" do |io|
