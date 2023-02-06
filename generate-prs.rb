@@ -25,11 +25,17 @@ for path in Dir.entries("audits")
     next
   end
 
-  args = OpenStruct.new(force?: false, quiet?: false)
-  GitHub.check_for_duplicate_pull_requests(formula.name, formula.tap.remote_repo,
-                                           state: "open",
-                                           file: formula.path.relative_path_from(formula.tap.path).to_s,
-                                           args: args)
+
+  begin
+    args = OpenStruct.new(force?: false, quiet?: false)
+    GitHub.check_for_duplicate_pull_requests(formula.name, formula.tap.remote_repo,
+                                            state: "open",
+                                            file: formula.path.relative_path_from(formula.tap.path).to_s,
+                                            args: args)
+  rescue SystemExit => e
+    opoo e.message
+    next
+  end
 
   # TODO: consider re-running pip-audit to verify at least one vuln was fixed.
   info = {
