@@ -20,6 +20,7 @@ jobs:
         with:
           fetch-depth: 0
 
+      - run: brew update
       - run: brew install pipgrip
 
       - name: Generate Pull Requests
