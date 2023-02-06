@@ -10,18 +10,18 @@ for path in Dir.entries("audits")
   end
   formula = Formula[path.delete_suffix("-requirements.audit.json")]
   if SKIP_FORMULA.include?(formula.name)
-    puts "Skipping #{formula.name}"
+    ohai "Skipping #{formula.name}"
     next
   end
 
-  puts "Updating resources for #{formula.name}"
+  ohai "Updating resources for #{formula.name}"
   # TODO: Updating Python resources automatically can fail for myriad reasons;
   # we should try and handle some of them.
   begin
     PyPI.update_python_resources!(formula,
                                   ignore_non_pypi_packages: true)
   rescue SystemExit => e
-    opoo e.message
+    opoo "generate-prs: suppressing the previous exit"
     next
   end
 
@@ -33,7 +33,7 @@ for path in Dir.entries("audits")
                                             file: formula.path.relative_path_from(formula.tap.path).to_s,
                                             args: args)
   rescue SystemExit => e
-    opoo e.message
+    opoo "generate-prs: suppressing the previous exit"
     next
   end
 
