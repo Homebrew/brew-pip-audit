@@ -18,7 +18,7 @@ for path in Dir.entries("audits")
   # TODO: Updating Python resources automatically can fail for myriad reasons;
   # we should try and handle some of them.
   PyPI.update_python_resources!(formula,
-                                ignore_non_pypi_packages: true) rescue next
+                                ignore_non_pypi_packages: true) rescue SystemExit next
 
   args = OpenStruct.new(force?: false, quiet?: false)
   GitHub.check_for_duplicate_pull_requests(formula.name, formula.tap.remote_repo,
