@@ -20,6 +20,11 @@ for path in Dir.entries("audits")
     next
   end
 
+  if formula.deprecated? || formula.disabled?
+    opoo "Skipping deprecated/disabled formula: #{formula.name}"
+    next
+  end
+
   # HACK: Clean up the last step's update.
   formula.path.parent.cd do
     `git reset --hard HEAD`
