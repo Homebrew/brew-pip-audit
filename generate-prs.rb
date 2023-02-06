@@ -41,7 +41,7 @@ for path in Dir.entries("audits")
     # HACK: `create_bump_pr` fails if the path is unchanged, which sometimes
     # happens for reasons I haven't debugged yet.
     `git diff --exit-code #{formula.path}`
-    next unless $?.success?
+    next if $?.success?
   end
 
   # TODO: consider re-running pip-audit to verify at least one vuln was fixed.
