@@ -4,6 +4,12 @@ require "utils/pypi"
 
 SKIP_FORMULA = []
 
+PR_MESSAGE = <<~MSG
+  Created by [`brew-pip-audit`](https://github.com/Homebrew/brew-pip-audit).
+
+  On errors/problems, please ping `@woodruffw` or `@alex`.
+MSG
+
 for path in Dir.entries("audits")
   if !path.end_with?("-requirements.audit.json")
     next
@@ -55,7 +61,7 @@ for path in Dir.entries("audits")
     branch_name:      "bump-python-resources-#{formula.name}",
     commit_message:   "#{formula.name}: bump python resources",
     tap:              formula.tap,
-    pr_message:       "Created by https://github.com/Homebrew/brew-pip-audit",
+    pr_message:       PR_MESSAGE,
   }
   GitHub.create_bump_pr(info, args: OpenStruct.new)
 end
