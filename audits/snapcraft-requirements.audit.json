@@ -11,5 +11,18 @@
         "description": "Certifi 2022.12.07 removes root certificates from \"TrustCor\" from the root store. These are in the process of being removed from Mozilla's trust store.  TrustCor's root certificates are being removed pursuant to an investigation prompted by media reporting that TrustCor's ownership also operated a business that produced spyware. Conclusions of Mozilla's investigation can be found [here](https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/oxX69KFvsm4/m/yLohoVqtCgAJ)."
       }
     ]
+  },
+  {
+    "name": "oauthlib",
+    "version": "3.2.1",
+    "vulns": [
+      {
+        "id": "GHSA-3pgj-pg6c-r5p7",
+        "fix_versions": [
+          "3.2.2"
+        ],
+        "description": "### Impact - Attacker providing malicious redirect uri can cause DoS to oauthlib's web application. - Attacker can also leverage usage of `uri_validate` functions depending where it is used.  _What kind of vulnerability is it? Who is impacted?_  Oauthlib applications using OAuth2.0 provider support or use directly `uri_validate` function.  ### Patches _Has the problem been patched? What versions should users upgrade to?_  Issue fixed in 3.2.2 release.  ### Workarounds _Is there a way for users to fix or remediate the vulnerability without upgrading?_  The `redirect_uri` can be verified in web toolkit (i.e `bottle-oauthlib`, `django-oauth-toolkit`, ...) before oauthlib is called. A sample check if `:` is present to reject the request can prevent the DoS, assuming no port or IPv6 is fundamentally required.  ### References Attack Vector: - Attacker providing malicious redirect uri: https://github.com/oauthlib/oauthlib/blob/d4bafd9f1d0eba3766e933b1ac598cbbf37b8914/oauthlib/oauth2/rfc6749/grant_types/base.py#L232 - Vulnerable `uri_validate` functions: https://github.com/oauthlib/oauthlib/blob/2b8a44855a51ad5a5b0c348a08c2564a2e197ea2/oauthlib/uri_validate.py  ### PoC ```python is_absolute_uri(\"http://[:::::::::::::::::::::::::::::::::::::::]/path\") ```  ### Acknowledgement Special thanks to Sebastian Chnelik - PyUp.io"
+      }
+    ]
   }
 ]
