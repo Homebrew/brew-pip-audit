@@ -63,7 +63,7 @@ for path in Dir.entries("audits")
   # TODO: consider re-running pip-audit to verify at least one vuln was fixed.
   info = {
     sourcefile_path:  formula.path,
-    branch_name:      "bump-python-resources-#{formula.name}",
+    branch_name:      "bump-python-resources-#{formula.name}-#{Time.now.to_i}",
     commit_message:   "#{formula.name}: bump python resources",
     tap:              formula.tap,
     pr_message:       PR_MESSAGE,
