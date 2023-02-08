@@ -1,5 +1,18 @@
 [
   {
+    "name": "cryptography",
+    "version": "38.0.4",
+    "vulns": [
+      {
+        "id": "GHSA-w7pp-m8wf-vj6r",
+        "fix_versions": [
+          "39.0.1"
+        ],
+        "description": "Previously, `Cipher.update_into` would accept Python objects which implement the buffer protocol, but provide only immutable buffers:  ```pycon >>> outbuf = b\"\\x00\" * 32 >>> c = ciphers.Cipher(AES(b\"\\x00\" * 32), modes.ECB()).encryptor() >>> c.update_into(b\"\\x00\" * 16, outbuf) 16 >>> outbuf b'\\xdc\\x95\\xc0x\\xa2@\\x89\\x89\\xadH\\xa2\\x14\\x92\\x84 \\x87\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00' ```  This would allow immutable objects (such as `bytes`) to be mutated, thus violating fundamental rules of Python. This is a soundness bug -- it allows programmers to misuse an API, it cannot be exploited by attacker controlled data alone.  This now correctly raises an exception.  This issue has been present since `update_into` was originally introduced in cryptography 1.8."
+      }
+    ]
+  },
+  {
     "name": "future",
     "version": "0.18.2",
     "vulns": [
