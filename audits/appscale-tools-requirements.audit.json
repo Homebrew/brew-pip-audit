@@ -96,6 +96,13 @@
           "2.3"
         ],
         "description": "A flaw was found in python-cryptography versions between >=1.9.0 and <2.3. The finalize_with_tag API did not enforce a minimum tag length. If a user did not validate the input length prior to passing it to finalize_with_tag an attacker could craft an invalid payload with a shortened tag (e.g. 1 byte) such that they would have a 1 in 256 chance of passing the MAC check. GCM tag forgeries can cause key leakage."
+      },
+      {
+        "id": "GHSA-w7pp-m8wf-vj6r",
+        "fix_versions": [
+          "39.0.1"
+        ],
+        "description": "Previously, `Cipher.update_into` would accept Python objects which implement the buffer protocol, but provide only immutable buffers:  ```pycon >>> outbuf = b\"\\x00\" * 32 >>> c = ciphers.Cipher(AES(b\"\\x00\" * 32), modes.ECB()).encryptor() >>> c.update_into(b\"\\x00\" * 16, outbuf) 16 >>> outbuf b'\\xdc\\x95\\xc0x\\xa2@\\x89\\x89\\xadH\\xa2\\x14\\x92\\x84 \\x87\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00' ```  This would allow immutable objects (such as `bytes`) to be mutated, thus violating fundamental rules of Python. This is a soundness bug -- it allows programmers to misuse an API, it cannot be exploited by attacker controlled data alone.  This now correctly raises an exception.  This issue has been present since `update_into` was originally introduced in cryptography 1.8."
       }
     ]
   },
