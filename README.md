@@ -38,6 +38,12 @@ out by:
 
 - Looking at the `skipped` file, and trying to figure out why a particular
   dependency's audit was skipped.
-- Looking at the incoming PRs against `Homebrew/homebrew-core`, and helping
+- Looking at the [incoming PRs] against `Homebrew/homebrew-core`, and helping
   debug ones that fail.
 - Improving the performance of our automation (it's currently very slow).
+- Looking at the [action logs] for the PR automation, and helping debug/fix
+  formulae and dependencies that can't be auto-updated.
+
+[incoming PRs]: https://github.com/Homebrew/homebrew-core/pulls?q=is%3Aopen+is%3Apr+author%3ABrewTestBot+%22bump+python+resources%22+in%3Atitle
+
+[action logs]: https://github.com/Homebrew/brew-pip-audit/actions/workflows/auto-pr.yml
