@@ -9,8 +9,9 @@ import sys
 from pathlib import Path
 
 IGNORED_VULNS = [
-    # Only impacts wheels, which homebrew doesn't use.
+    # These only impact wheels, which homebrew doesn't use.
     "GHSA-39hc-v87j-747x",
+    "GHSA-x4qr-2fvf-3mr5",
 ]
 
 # This entire script is path-sensitive.
