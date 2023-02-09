@@ -7,21 +7,23 @@ on:
   #   workflows: ["pip-audit brew packages"]
   #   types: [completed]
 
+env:
+  HOMEBREW_NO_AUTO_UPDATE: 1
+
 jobs:
   auto-pr:
     runs-on: macos-latest
+
     steps:
       - name: Check out this repo
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: Set up Homebrew
-        uses: Homebrew/actions/setup-homebrew@master
 
-      - run: brew upgrade
+      - run: brew update
       - run: brew install pipgrip
 
       - name: Generate Pull Requests
         run: brew ruby generate-prs.rb
         env:
-          HOMEBREW_GITHUB_API_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          HOMEBREW_GITHUB_API_TOKEN: ${{ secrets.BREW_PIP_AUDIT_GH_TOKEN }}

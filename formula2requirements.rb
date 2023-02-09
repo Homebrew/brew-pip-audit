@@ -16,6 +16,14 @@ Formula.all.each do |f|
 
   requirement_file = "#{OUT}/#{f.name}-requirements.txt"
 
+  # Skip deprecated and disabled formulae but not before removing any
+  # previously generated requirements, if present.
+  if f.deprecated? || f.disabled?
+    FileUtils.rm_f requirement_file
+    next
+  end
+
+
   puts f.name
   File.open requirement_file, "w" do |io|
     python_resources.each do |pr|

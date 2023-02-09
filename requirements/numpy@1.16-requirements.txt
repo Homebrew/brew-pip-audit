@@ -1,2 +1,0 @@
-Cython==0.29.15 --hash=sha256:60d859e1efa5cc80436d58aecd3718ff2e74b987db0518376046adedba97ac30
-nose==1.3.7 --hash=sha256:f1bffef9cbc82628f6e7d7b40d7e255aefaa1adb6a1b1d26c69a8b79e6208a98
