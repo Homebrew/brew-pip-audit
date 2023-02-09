@@ -22,13 +22,6 @@
           "39.0.1"
         ],
         "description": "Previously, `Cipher.update_into` would accept Python objects which implement the buffer protocol, but provide only immutable buffers:  ```pycon >>> outbuf = b\"\\x00\" * 32 >>> c = ciphers.Cipher(AES(b\"\\x00\" * 32), modes.ECB()).encryptor() >>> c.update_into(b\"\\x00\" * 16, outbuf) 16 >>> outbuf b'\\xdc\\x95\\xc0x\\xa2@\\x89\\x89\\xadH\\xa2\\x14\\x92\\x84 \\x87\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00' ```  This would allow immutable objects (such as `bytes`) to be mutated, thus violating fundamental rules of Python. This is a soundness bug -- it allows programmers to misuse an API, it cannot be exploited by attacker controlled data alone.  This now correctly raises an exception.  This issue has been present since `update_into` was originally introduced in cryptography 1.8."
-      },
-      {
-        "id": "GHSA-x4qr-2fvf-3mr5",
-        "fix_versions": [
-          "39.0.1"
-        ],
-        "description": "pyca/cryptography's wheels include a statically linked copy of OpenSSL. The versions of OpenSSL included in cryptography 0.8.1-39.0.0  are vulnerable to a security issue. More details about the vulnerabilities themselves can be found in https://www.openssl.org/news/secadv/20221213.txt and https://www.openssl.org/news/secadv/20230207.txt.  If you are building cryptography source (\"sdist\") then you are responsible for upgrading your copy of OpenSSL. Only users installing from wheels built by the cryptography project (i.e., those distributed on PyPI) need to update their cryptography versions.  "
       }
     ]
   }
