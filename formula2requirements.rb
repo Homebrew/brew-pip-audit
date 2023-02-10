@@ -10,11 +10,14 @@ OUT = "#{__dir__}/requirements"
 FileUtils.mkdir_p OUT
 
 Formula.all.each do |f|
+  requirement_file = "#{OUT}/#{f.name}-requirements.txt"
+
   # Look for formulae that have PyPI resources; skip those that don't.
   python_resources = f.resources.select { |r| r.url =~ /files\.pythonhosted\.org/ }
-  next if python_resources.empty?
-
-  requirement_file = "#{OUT}/#{f.name}-requirements.txt"
+  if python_resources.empty?
+    FileUtils.rm_f requirement_file
+    next
+  end
 
   # Skip deprecated and disabled formulae but not before removing any
   # previously generated requirements, if present.
