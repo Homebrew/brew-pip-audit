@@ -3,6 +3,7 @@ require "utils/pypi"
 
 
 SKIP_FORMULA = []
+PR_LIMIT = 25
 
 PR_MESSAGE = <<~MSG
   Created by [`brew-pip-audit`](https://github.com/Homebrew/brew-pip-audit).
@@ -10,6 +11,7 @@ PR_MESSAGE = <<~MSG
   On errors/problems, please ping `@woodruffw` or `@alex`.
 MSG
 
+prs_sent = 0
 for path in Dir.entries("audits").sort
   if !path.end_with?("-requirements.audit.json")
     next
@@ -69,4 +71,9 @@ for path in Dir.entries("audits").sort
     pr_message:       PR_MESSAGE,
   }
   GitHub.create_bump_pr(info, args: OpenStruct.new)
+  prs_sent += 1
+  if prs_sent == PR_LIMIT
+    ohai "generate-prs: Reached maximum limit of #{PR_LIMIT} PRs sent per run"
+    return
+  end
 end
