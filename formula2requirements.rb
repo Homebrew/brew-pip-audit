@@ -7,6 +7,11 @@ require "formulary"
 require "formula"
 
 OUT = "#{__dir__}/requirements"
+
+# Completely blow away the existing requirements dir, and then re-create it:
+# this clears out any requirements files that have been orphaned by upstream
+# formula deletion.
+FileUtils.rm_rf OUT
 FileUtils.mkdir_p OUT
 
 Formula.all.each do |f|
