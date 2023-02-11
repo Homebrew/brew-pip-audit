@@ -19,18 +19,11 @@ Formula.all.each do |f|
 
   # Look for formulae that have PyPI resources; skip those that don't.
   python_resources = f.resources.select { |r| r.url =~ /files\.pythonhosted\.org/ }
-  if python_resources.empty?
-    FileUtils.rm_f requirement_file
-    next
-  end
+  next if python_resources.empty?
 
   # Skip deprecated and disabled formulae but not before removing any
   # previously generated requirements, if present.
-  if f.deprecated? || f.disabled?
-    FileUtils.rm_f requirement_file
-    next
-  end
-
+  next if f.deprecated? || f.disabled?
 
   puts f.name
   File.open requirement_file, "w" do |io|
