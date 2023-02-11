@@ -31,6 +31,7 @@ _SKIPPED.unlink(missing_ok=True)
 
 assert shutil.which("pip-audit"), "missing pip-audit"
 
+# First pass: actually run the audits.
 for req in _REQUIREMENTS.glob("*.txt"):
     print(f"[+] auditing: {req.name}", file=sys.stderr)
     result = subprocess.run(
@@ -79,3 +80,13 @@ for req in _REQUIREMENTS.glob("*.txt"):
     else:
         out.unlink(missing_ok=True)
         print(f"\t:-) no vulnerabilities found in {req.name}", file=sys.stderr)
+
+
+# Second pass: clean up any audits that don't have corresponding
+# requirement files, from a previous run of this script.
+# This is nasty, and should probably go somewhere else.
+for audit in _OUT.glob("*.json"):
+    req = _REQUIREMENTS / audit.with_suffix("").with_suffix(".txt").name
+    if not req.is_file():
+        print(f":-O {audit.name} orphaned ({req.name}), deleting")
+        audit.unlink()
