@@ -7,6 +7,11 @@ require "formulary"
 require "formula"
 
 OUT = "#{__dir__}/requirements"
+
+# Completely blow away the existing requirements dir, and then re-create it:
+# this clears out any requirements files that have been orphaned by upstream
+# formula deletion.
+FileUtils.rm_rf OUT
 FileUtils.mkdir_p OUT
 
 Formula.all.sort.each do |f|
@@ -14,18 +19,10 @@ Formula.all.sort.each do |f|
 
   # Look for formulae that have PyPI resources; skip those that don't.
   python_resources = f.resources.select { |r| r.url =~ /files\.pythonhosted\.org/ }
-  if python_resources.empty?
-    FileUtils.rm_f requirement_file
-    next
-  end
+  next if python_resources.empty?
 
-  # Skip deprecated and disabled formulae but not before removing any
-  # previously generated requirements, if present.
-  if f.deprecated? || f.disabled?
-    FileUtils.rm_f requirement_file
-    next
-  end
-
+  # Skip deprecated and disabled formulae.
+  next if f.deprecated? || f.disabled?
 
   puts f.name
   File.open requirement_file, "w" do |io|
