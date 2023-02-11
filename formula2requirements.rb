@@ -9,7 +9,7 @@ require "formula"
 OUT = "#{__dir__}/requirements"
 FileUtils.mkdir_p OUT
 
-Formula.all.each do |f|
+Formula.all.sort.each do |f|
   requirement_file = "#{OUT}/#{f.name}-requirements.txt"
 
   # Look for formulae that have PyPI resources; skip those that don't.

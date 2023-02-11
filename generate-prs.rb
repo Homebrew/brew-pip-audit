@@ -10,7 +10,7 @@ PR_MESSAGE = <<~MSG
   On errors/problems, please ping `@woodruffw` or `@alex`.
 MSG
 
-for path in Dir.entries("audits")
+for path in Dir.entries("audits").sort
   if !path.end_with?("-requirements.audit.json")
     next
   end

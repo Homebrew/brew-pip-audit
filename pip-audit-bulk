@@ -32,7 +32,7 @@ _SKIPPED.unlink(missing_ok=True)
 assert shutil.which("pip-audit"), "missing pip-audit"
 
 # First pass: actually run the audits.
-for req in _REQUIREMENTS.glob("*.txt"):
+for req in sorted(_REQUIREMENTS.glob("*.txt")):
     print(f"[+] auditing: {req.name}", file=sys.stderr)
     result = subprocess.run(
         ["pip-audit", "--requirement", str(req), "--require-hashes", "--format=json"]
