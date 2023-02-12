@@ -1,7 +1,7 @@
 [
   {
     "name": "werkzeug",
-    "version": "2.0.1",
+    "version": "2.0.3",
     "vulns": [
       {
         "id": "PYSEC-2022-203",
