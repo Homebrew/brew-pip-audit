@@ -1,15 +1,8 @@
 [
   {
     "name": "werkzeug",
-    "version": "2.0.3",
+    "version": "2.2.2",
     "vulns": [
-      {
-        "id": "PYSEC-2022-203",
-        "fix_versions": [
-          "2.1.1"
-        ],
-        "description": "** DISPUTED ** Improper parsing of HTTP requests in Pallets Werkzeug v2.1.0 and below allows attackers to perform HTTP Request Smuggling using a crafted HTTP request with multiple requests included inside the body. NOTE: the vendor's position is that this behavior can only occur in unsupported configurations involving development mode and an HTTP server from outside the Werkzeug project."
-      },
       {
         "id": "GHSA-px8h-6qxv-m22q",
         "fix_versions": [

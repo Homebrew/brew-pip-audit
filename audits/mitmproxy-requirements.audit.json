@@ -24,5 +24,25 @@
         "description": "Previously, `Cipher.update_into` would accept Python objects which implement the buffer protocol, but provide only immutable buffers:  ```pycon >>> outbuf = b\"\\x00\" * 32 >>> c = ciphers.Cipher(AES(b\"\\x00\" * 32), modes.ECB()).encryptor() >>> c.update_into(b\"\\x00\" * 16, outbuf) 16 >>> outbuf b'\\xdc\\x95\\xc0x\\xa2@\\x89\\x89\\xadH\\xa2\\x14\\x92\\x84 \\x87\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00' ```  This would allow immutable objects (such as `bytes`) to be mutated, thus violating fundamental rules of Python. This is a soundness bug -- it allows programmers to misuse an API, it cannot be exploited by attacker controlled data alone.  This now correctly raises an exception.  This issue has been present since `update_into` was originally introduced in cryptography 1.8."
       }
     ]
+  },
+  {
+    "name": "werkzeug",
+    "version": "2.2.2",
+    "vulns": [
+      {
+        "id": "GHSA-px8h-6qxv-m22q",
+        "fix_versions": [
+          "2.2.3"
+        ],
+        "description": "Browsers may allow \"nameless\" cookies that look like `=value` instead of `key=value`. A vulnerable browser may allow a compromised application on an adjacent subdomain to exploit this to set a cookie like `=__Host-test=bad` for another subdomain.  Werkzeug <= 2.2.2 will parse the cookie `=__Host-test=bad` as `__Host-test=bad`. If a Werkzeug application is running next to a vulnerable or malicious subdomain which sets such a cookie using a vulnerable browser, the Werkzeug application will see the bad cookie value but the valid cookie key."
+      },
+      {
+        "id": "GHSA-xg9f-g7g7-2323",
+        "fix_versions": [
+          "2.2.3"
+        ],
+        "description": "Werkzeug's multipart form data parser will parse an unlimited number of parts, including file parts. Parts can be a small amount of bytes, but each requires CPU time to parse and may use more memory as Python data. If a request can be made to an endpoint that accesses `request.data`, `request.form`, `request.files`, or `request.get_data(parse_form_data=False)`, it can cause unexpectedly high resource usage.  This allows an attacker to cause a denial of service by sending crafted multipart data to an endpoint that will parse it. The amount of CPU time required can block worker processes from handling legitimate requests. The amount of RAM required can trigger an out of memory kill of the process. Unlimited file parts can use up memory and file handles. If many concurrent requests are sent continuously, this can exhaust or kill all available workers."
+      }
+    ]
   }
 ]
