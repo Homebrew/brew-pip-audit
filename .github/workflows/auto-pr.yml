@@ -25,6 +25,7 @@ jobs:
           username: BrewTestBot
 
       - run: brew update
+      - run: brew --version
       - run: brew install pipgrip
 
       - name: Generate Pull Requests
