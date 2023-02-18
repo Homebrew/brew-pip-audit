@@ -2,9 +2,9 @@ name: Submit PRs for audit results
 
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows: ["pip-audit brew packages"]
-    types: [completed]
+#  workflow_run:
+#    workflows: ["pip-audit brew packages"]
+#    types: [completed]
 
 env:
   HOMEBREW_NO_AUTO_UPDATE: 1
