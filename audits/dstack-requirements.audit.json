@@ -1,5 +1,25 @@
 [
   {
+    "name": "markdown-it-py",
+    "version": "2.1.0",
+    "vulns": [
+      {
+        "id": "GHSA-jrwr-5x3p-hvc3",
+        "fix_versions": [
+          "2.2.0"
+        ],
+        "description": "Denial of service could be caused to the command line interface of markdown-it-py, before v2.2.0, if an attacker was allowed to use invalid UTF-8 characters as input."
+      },
+      {
+        "id": "GHSA-vrjv-mxr7-vjf8",
+        "fix_versions": [
+          "2.2.0"
+        ],
+        "description": "Denial of service could be caused to markdown-it-py, before v2.2.0, if an attacker was allowed to force null assertions with specially crafted input."
+      }
+    ]
+  },
+  {
     "name": "starlette",
     "version": "0.24.0",
     "vulns": [
