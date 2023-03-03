@@ -1,2 +1,2 @@
-psutil==5.9.3 --hash=sha256:7ccfcdfea4fc4b0a02ca2c31de7fcd186beb9cff8207800e14ab66f79c773af6
-configobj==5.0.6 --hash=sha256:a2f5650770e1c87fb335af19a9b7eb73fc05ccf22144eb68db7d00cd2bcb0902
+psutil==5.9.4 --hash=sha256:3d7f9739eb435d4b1338944abe23f49584bde5395f27487d2ee25ad9a8774a62
+configobj==5.0.8 --hash=sha256:6f704434a07dc4f4dc7c9a745172c1cad449feb548febd9f7fe362629c627a97
