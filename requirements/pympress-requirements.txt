@@ -1,1 +1,1 @@
-watchdog==2.1.7 --hash=sha256:3fd47815353be9c44eebc94cc28fe26b2b0c5bd889dafc4a5a7cbdf924143480
+watchdog==2.3.1 --hash=sha256:d9f9ed26ed22a9d331820a8432c3680707ea8b54121ddcc9dc7d9f2ceeb36906
