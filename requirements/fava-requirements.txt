@@ -12,8 +12,8 @@ click==8.1.3 --hash=sha256:7682dc8afb30297001674575ea00d1814d808d6a36af415a82bd4
 Flask==2.2.3 --hash=sha256:7eb373984bf1c770023fce9db164ed0c3353cd0b53f130f4693da0ca756a2e6d
 flask-babel==3.0.1 --hash=sha256:d408cace25514bea8b92e898fd7e55877fbac79b71bc230e266ff515408eba38
 google-api-core==2.11.0 --hash=sha256:4b9bb5d5a380a0befa0573b302651b8a9a89262c1730e37bf423cec511804c22
-google-api-python-client==2.82.0 --hash=sha256:22933a821bd46055b29fdf82aab96b13a9e33ff082dec2fc51cfc2efad9b0eea
-google-auth==2.16.3 --hash=sha256:611779ce33a3aee265b94b74d4bb8c188f33010f5814761250a0ebbde94cc745
+google-api-python-client==2.83.0 --hash=sha256:d07509f1b2d2b2427363b454db996f7a15e1751a48cfcaf28427050560dd51cf
+google-auth==2.17.1 --hash=sha256:8f379b46bad381ad2a0b989dfb0c13ad28d3c2a79f27348213f8946a1d15d55a
 google-auth-httplib2==0.1.0 --hash=sha256:a07c39fd632becacd3f07718dfd6021bf396978f03ad3ce4321d060015cc30ac
 googleapis-common-protos==1.59.0 --hash=sha256:4168fcb568a826a52f23510412da405abd93f4d23ba544bb68d943b14ba3cb44
 httplib2==0.22.0 --hash=sha256:d7a10bc5ef5ab08322488bde8c726eeee5c8618723fdb399597ec58f3d82df81
