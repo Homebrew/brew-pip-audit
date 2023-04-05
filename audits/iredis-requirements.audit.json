@@ -1,5 +1,16 @@
 [
   {
+    "name": "configobj",
+    "version": "5.0.6",
+    "vulns": [
+      {
+        "id": "GHSA-c33w-24p9-8m24",
+        "fix_versions": [],
+        "description": "All versions of the package configobj are vulnerable to Regular Expression Denial of Service (ReDoS) via the validate function, using (.+?)\\((.*)\\). **Note:** This is only exploitable in the case of a developer, putting the offending value in a server side configuration file."
+      }
+    ]
+  },
+  {
     "name": "redis",
     "version": "4.4.0",
     "vulns": [
