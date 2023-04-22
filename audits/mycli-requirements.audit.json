@@ -22,5 +22,18 @@
         "description": "Previously, `Cipher.update_into` would accept Python objects which implement the buffer protocol, but provide only immutable buffers:  ```pycon >>> outbuf = b\"\\x00\" * 32 >>> c = ciphers.Cipher(AES(b\"\\x00\" * 32), modes.ECB()).encryptor() >>> c.update_into(b\"\\x00\" * 16, outbuf) 16 >>> outbuf b'\\xdc\\x95\\xc0x\\xa2@\\x89\\x89\\xadH\\xa2\\x14\\x92\\x84 \\x87\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00' ```  This would allow immutable objects (such as `bytes`) to be mutated, thus violating fundamental rules of Python. This is a soundness bug -- it allows programmers to misuse an API, it cannot be exploited by attacker controlled data alone.  This now correctly raises an exception.  This issue has been present since `update_into` was originally introduced in cryptography 1.8."
       }
     ]
+  },
+  {
+    "name": "sqlparse",
+    "version": "0.4.3",
+    "vulns": [
+      {
+        "id": "GHSA-rrm6-wvj7-cwh2",
+        "fix_versions": [
+          "0.4.4"
+        ],
+        "description": "### Impact The SQL parser contains a regular expression that is vulnerable to [ReDoS](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS) (Regular Expression Denial of Service). The vulnerability may lead to Denial of Service (DoS).  ### Patches This issues has been fixed in sqlparse 0.4.4.  ### Workarounds None.   ### References This issue was discovered and reported by GHSL team member [@erik-krogh (Erik Krogh Kristensen)](https://github.com/erik-krogh). - Commit that introduced the vulnerability: e75e35869473832a1eb67772b1adfee2db11b85a "
+      }
+    ]
   }
 ]

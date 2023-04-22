@@ -9,5 +9,18 @@
         "description": "All versions of the package configobj are vulnerable to Regular Expression Denial of Service (ReDoS) via the validate function, using (.+?)\\((.*)\\). **Note:** This is only exploitable in the case of a developer, putting the offending value in a server side configuration file."
       }
     ]
+  },
+  {
+    "name": "sqlparse",
+    "version": "0.4.3",
+    "vulns": [
+      {
+        "id": "GHSA-rrm6-wvj7-cwh2",
+        "fix_versions": [
+          "0.4.4"
+        ],
+        "description": "### Impact The SQL parser contains a regular expression that is vulnerable to [ReDoS](https://owasp.org/www-community/attacks/Regular_expression_Denial_of_Service_-_ReDoS) (Regular Expression Denial of Service). The vulnerability may lead to Denial of Service (DoS).  ### Patches This issues has been fixed in sqlparse 0.4.4.  ### Workarounds None.   ### References This issue was discovered and reported by GHSL team member [@erik-krogh (Erik Krogh Kristensen)](https://github.com/erik-krogh). - Commit that introduced the vulnerability: e75e35869473832a1eb67772b1adfee2db11b85a "
+      }
+    ]
   }
 ]

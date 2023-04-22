@@ -45,6 +45,13 @@
           "0.25.0"
         ],
         "description": "### Impact  The `MultipartParser` using the package `python-multipart` accepts an unlimited number of multipart parts (form fields or files).  Processing too many parts results in high CPU usage and high memory usage, eventually leading to an <abbr title=\"out of memory\">OOM</abbr> process kill.  This can be triggered by sending too many small form fields with no content, or too many empty files.  For this to take effect application code has to:  * Have `python-multipart` installed and * call `request.form()`   * or via another framework like FastAPI, using form field parameters or `UploadFile` parameters, which in turn calls `request.form()`.  ### Patches  The vulnerability is solved in Starlette 0.25.0 by making the maximum fields and files customizable and with a sensible default (1000).   Applications will be secure by just upgrading their Starlette version to 0.25.0 (or FastAPI to 0.92.0).  If application code needs to customize the new max field and file number, there are new `request.form()` parameters (with the default values):  * `max_files=1000` * `max_fields=1000`  ### Workarounds  Applications that don't install `python-multipart` or that don't use form fields are safe.  In older versions, it's also possible to instead of calling `request.form()` call `request.stream()` and parse the form data in internal code.  In most cases, the best solution is to upgrade the Starlette version.  ### References  This was reported in private by @das7pad via internal email. He also coordinated the fix across multiple frameworks and parsers.  The details about how `multipart/form-data` is structured and parsed are in the [RFC 7578](https://www.rfc-editor.org/rfc/rfc7578). "
+      },
+      {
+        "id": "GHSA-3qj8-93xh-pwh2",
+        "fix_versions": [
+          "0.25.0"
+        ],
+        "description": "There MultipartParser usage in Encode's Starlette python framework before versions 0.25.0 allows an unauthenticated and remote attacker to specify any number of form fields or files which can cause excessive memory usage resulting in denial of service of the HTTP service."
       }
     ]
   }
