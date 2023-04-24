@@ -2,6 +2,7 @@ require "formula"
 require "utils/pypi"
 
 
+ONLY_FORMULA = ["flintrock"]
 SKIP_FORMULA = []
 PR_LIMIT = 25
 
@@ -17,7 +18,7 @@ for path in Dir.entries("audits").sort
     next
   end
   formula = Formula[path.delete_suffix("-requirements.audit.json")]
-  if SKIP_FORMULA.include?(formula.name)
+  if SKIP_FORMULA.include?(formula.name) || (!ONLY_FORMULA.empty? && !ONLY_FORMULA.include?(formula.name))
     ohai "Skipping #{formula.name}"
     next
   end
