@@ -8,7 +8,7 @@ argcomplete==2.0.0 --hash=sha256:6372ad78c89d662035101418ae253668445b391755cfe94
 azure-appconfiguration==1.1.1 --hash=sha256:b83cd2cb63d93225de84e27abbfc059212f8de27766f4c58dd3abb839dff0be4
 azure-batch==13.0.0 --hash=sha256:e9295de70404d276eda0dd2253d76397439abe5d8f18c1fca199c49b8d6ae30a
 azure-common==1.1.22 --hash=sha256:c8e4a7bf15f139f779a415d2d3c371738b1e9f5e14abd9c18af6b9bed3babf35
-azure-core==1.24.0 --hash=sha256:345b1b041faad7d0205b20d5697f1d0df344302e7aaa8501905580ff87bd0be5
+azure-core==1.26.0 --hash=sha256:b0036a0d256329e08d1278dff7df36be30031d2ec9b16c691bc61e4732f71fe0
 azure-cosmos==3.2.0 --hash=sha256:4f77cc558fecffac04377ba758ac4e23f076dc1c54e2cf2515f85bc15cbde5c6
 azure-data-tables==12.4.0 --hash=sha256:dd5fc8de91e2f8908efa4c64ca7f63cf83b3068a9ba426298de3b54139e9665c
 azure-datalake-store==0.0.49 --hash=sha256:3fcede6255cc9cd083d498c3a399b422f35f804c561bb369a7150ff1f2f07da9
@@ -65,7 +65,7 @@ azure-mgmt-netapp==9.0.1 --hash=sha256:3d844c396689517ad182a5b7fa92c163e2fa1ef53
 azure-mgmt-nspkg==3.0.2 --hash=sha256:8b2287f671529505b296005e6de9150b074344c2c7d1c805b3f053d081d58c52
 azure-mgmt-policyinsights==1.1.0b2 --hash=sha256:7be23931d6db5fb5a1c470a3d44af2df3d9652b26da56183d5b84b6ea45e6f9f
 azure-mgmt-privatedns==1.0.0 --hash=sha256:b60f16e43f7b291582c5f57bae1b083096d8303e9d9958e2c29227a55cc27c45
-azure-mgmt-rdbms==10.2.0b6 --hash=sha256:fe0c7aa87ae5cc6cc33164c0dd1ff2da53d3feea86312511db66308bc5d15bef
+azure-mgmt-rdbms==10.2.0b7 --hash=sha256:f6e921796da5fa2df1bd8bc371f313d4342b53d0a2ca6011ed074f954e138a3a
 azure-mgmt-recoveryservices==2.2.0 --hash=sha256:dab53931ce6d7121c469e8f82de889fd6c168e4ddf64575decc230aa61e046cb
 azure-mgmt-recoveryservicesbackup==5.1.0 --hash=sha256:c65f8a6cd19c789585bc9287f00c34d87a3ec0c031bf13d9e13d3d4229a7ece5
 azure-mgmt-redhatopenshift==1.2.0 --hash=sha256:654e26293ce7cbdb6c283ac5494fa5965e6fea80e2bd82655c3ae25892c061e7
@@ -79,13 +79,13 @@ azure-mgmt-servicefabric==1.0.0 --hash=sha256:de35e117912832c1a9e93109a8d24cab94
 azure-mgmt-servicefabricmanagedclusters==1.0.0 --hash=sha256:109ca3a251ebb7ddb35a0f8829614a4daa7065a16bc13b52c8422ee7f9995ce8
 azure-mgmt-servicelinker==1.2.0b1 --hash=sha256:44ad50e75434c001b9e682ab166bfae7fd8050a97e811769dbbb7f11cb8c38d9
 azure-mgmt-signalr==1.1.0 --hash=sha256:9543480f23f95bef1a217ee66a77cca9a3b6209266ffed8ef81baff818781191
-azure-mgmt-sql==4.0.0b8 --hash=sha256:525cfe76ff10e4ff9dafdd032b8bcc9a2d9346011d8556246ab7d12f7ac053b3
+azure-mgmt-sql==4.0.0b10 --hash=sha256:407bdb3ba4e887941f94c21a3589b15c1cb40e6c3ef9155d8a6dc7103b4b06b4
 azure-mgmt-sqlvirtualmachine==1.0.0b5 --hash=sha256:6458097e58329d14b1a3e07e56ca38797d4985e5a50d08df27d426ba95f2a4c7
 azure-mgmt-storage==21.0.0 --hash=sha256:6eb13eeecf89195b2b5f47be0679e3f27888efd7bd2132eec7ebcbce75cb1377
 azure-mgmt-synapse==2.1.0b5 --hash=sha256:e44e987f51a03723558ddf927850db843c67380e9f3801baa288f1b423f89be9
 azure-mgmt-trafficmanager==1.0.0 --hash=sha256:4741761e80346c4edd4cb3f271368ea98063f804d015e245c2fe048ed2b596a8
 azure-mgmt-web==7.0.0 --hash=sha256:5afc8d81f8a5884b7aa9ac2acbc2def1e89f871bac324a196dfe987326354810
-azure-multiapi-storage==1.0.0 --hash=sha256:c79bf77b7fe9a129be24cb7449623595c33a60051c3fea364a7f1396e5cec888
+azure-multiapi-storage==1.1.0 --hash=sha256:56f348fa6862da70850405d410be69877c63fdc05131fd8ca36b97220282fa87
 azure-nspkg==3.0.2 --hash=sha256:e7d3cea6af63e667d87ba1ca4f8cd7cb4dfca678e4c55fc1cedb320760e39dd0
 azure-storage-common==1.4.2 --hash=sha256:4ec87c7537d457ec95252e0e46477e2c1ccf33774ffefd05d8544682cb0ae401
 azure-synapse-accesscontrol==0.5.0 --hash=sha256:835e324a2072a8f824246447f049c84493bd43a1f6bac4b914e78c090894bb04
@@ -120,7 +120,7 @@ pkginfo==1.8.2 --hash=sha256:542e0d0b6750e2e21c20179803e40ab50598d8066d51097a0e3
 portalocker==2.3.2 --hash=sha256:75cfe02f702737f1726d83e04eedfa0bda2cc5b974b1ceafb8d6b42377efbd5f
 psutil==5.9.0 --hash=sha256:869842dbd66bb80c3217158e629d6fceaecc3a3166d3d1faee515b05dd26ca25
 pycparser==2.19 --hash=sha256:a988718abfad80b6b157acce7bf130a30876d27603738ac39f140993246b25b3
-Pygments==2.14.0 --hash=sha256:b3ed06a9e8ac9a9aae5a6f5dbe78a8a58655d17b43b93c078f094ddc476ae297
+Pygments==2.15.1 --hash=sha256:8ace4d3c1dd481894b2005f560ead0f9f19ee64fe983366be1a21e171d12775c
 PyJWT==2.4.0 --hash=sha256:d42908208c699b3b973cbeb01a969ba6a96c821eefb1c5bfe4c390c01d67abba
 PyNaCl==1.5.0 --hash=sha256:8ac7448f09ab85811607bdd21ec2464495ac8b7c66d146bf545b0f08fb9220ba
 pyOpenSSL==22.1.0 --hash=sha256:7a83b7b272dd595222d672f5ce29aa030f1fb837630ef229f62e72e395ce8968
