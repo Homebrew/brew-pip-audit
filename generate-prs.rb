@@ -2,9 +2,9 @@ require "formula"
 require "utils/pypi"
 
 
-ONLY_FORMULA = ["flintrock"]
+ONLY_FORMULA = []
 SKIP_FORMULA = []
-PR_LIMIT = 25
+PR_LIMIT = 5
 
 PR_MESSAGE = <<~MSG
   Created by [`brew-pip-audit`](https://github.com/Homebrew/brew-pip-audit).
