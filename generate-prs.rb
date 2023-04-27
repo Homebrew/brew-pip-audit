@@ -2,11 +2,20 @@ require "json"
 require "formula"
 require "utils/pypi"
 
+# Don't buffer stdout; with buffering, some of our stdout/stderr
+# logging below gets interleaved incorrectly.
+$stdout.sync = true
 
+# TODO: Support grabbing these from the environment.
 ONLY_FORMULA = []
 SKIP_FORMULA = []
+
 PR_LIMIT = ENV.fetch("AUTO_PR_LIMIT", 5).to_i
-DRY_RUN = !!ENV.fetch("AUTO_PR_DRY_RUN", false)
+
+# NOTE: The dry-run default here is the opposite of the workflow_dispatch
+# default, since the latter's default makes more sense for manually
+# triggered runs.
+DRY_RUN = !!ENV.fetch("AUTO_PR_DRY_RUN", true)
 
 ohai "generate-prs running with DRY_RUN=#{DRY_RUN} and PR_LIMIT=#{PR_LIMIT}"
 
@@ -72,7 +81,7 @@ for path in Dir.entries("audits").sort
     PyPI.update_python_resources!(formula,
                                   ignore_non_pypi_packages: true)
   rescue SystemExit => e
-    opoo "generate-prs: suppressing the previous exit"
+    opoo "update_python_resources! for #{formula_name}: suppressing the previous exit and skipping"
     next
   end
 
@@ -92,14 +101,14 @@ for path in Dir.entries("audits").sort
   # of updating non-vulnerable dependencies.
   vulns_patched = old_resource_urls - new_resource_urls
   if vulns_patched.empty?
-    opoo "no vulnerabilities patched; skipping this PR"
+    opoo "#{formula_name}: no vulnerabilities patched; skipping this PR"
     next
   else
-    ohai "patched: #{vulns_patched.join(", ")}"
+    ohai "#{formula_name}: patched: #{vulns_patched.join(", ")}"
   end
 
   if DRY_RUN
-    ohai "not issuing PR due to dry run"
+    ohai "#{formula_name}: not issuing PR due to dry run"
     next
   end
 
@@ -110,7 +119,7 @@ for path in Dir.entries("audits").sort
                                             file: formula.path.relative_path_from(formula.tap.path).to_s,
                                             args: args)
   rescue SystemExit => e
-    opoo "generate-prs: suppressing the previous exit"
+    opoo "PR dupe check for #{formula_name}: suppressing the previous exit and skipping"
     next
   end
 
