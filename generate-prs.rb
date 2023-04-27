@@ -15,7 +15,7 @@ PR_LIMIT = ENV.fetch("AUTO_PR_LIMIT", 5).to_i
 # NOTE: The dry-run default here is the opposite of the workflow_dispatch
 # default, since the latter's default makes more sense for manually
 # triggered runs.
-DRY_RUN = !!ENV.fetch("AUTO_PR_DRY_RUN", true)
+DRY_RUN = !!ENV.fetch("AUTO_PR_DRY_RUN", false)
 
 ohai "generate-prs running with DRY_RUN=#{DRY_RUN} and PR_LIMIT=#{PR_LIMIT}"
 
