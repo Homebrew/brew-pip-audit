@@ -19,13 +19,16 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Set up Homebrew
+        id: set-up-homebrew
+        uses: Homebrew/actions/setup-homebrew@master
+        with:
+          test-bot: false
+
       - name: Configure git
         uses: Homebrew/actions/git-user-config@master
         with:
           username: BrewTestBot
-
-      - run: brew update
-      - run: brew --version
 
       - name: Generate Pull Requests
         run: brew ruby generate-prs.rb
