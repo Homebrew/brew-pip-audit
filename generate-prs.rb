@@ -68,9 +68,12 @@ for path in Dir.entries("audits").sort
   # update only updated non-vulnerable dependencies.
   # We skip the pull request in this case, since we're not in the business
   # of updating non-vulnerable dependencies.
-  if (old_resource_urls - new_resource_urls).empty?
+  vulns_patched = old_resource_urls - new_resource_urls
+  if vulns_patched.empty?
     opoo "no vulnerabilities patched; skipping this PR"
     next
+  else
+    ohai "patched: #{vulns_patched.join(", ")}"
   end
 
   if ENV["AUTO_PR_DRY_RUN"] == "true"
