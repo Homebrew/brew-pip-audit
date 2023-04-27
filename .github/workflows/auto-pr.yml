@@ -9,11 +9,8 @@ on:
         type: number
       dry-run:
         required: true
-        default: "true"
-        type: choice
-        options:
-          - "true"
-          - "false"
+        default: true
+        type: boolean
   workflow_run:
     workflows: ["pip-audit brew packages"]
     types: [completed]
