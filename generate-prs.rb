@@ -54,12 +54,12 @@ for path in Dir.entries("audits").sort
 
   formula = Formula[path.delete_suffix("-requirements.audit.json")]
   if SKIP_FORMULA.include?(formula.name) || (!ONLY_FORMULA.empty? && !ONLY_FORMULA.include?(formula.name))
-    ohai "Skipping #{formula.name}"
+    ohai "#{formula.name}: skipping"
     next
   end
 
   if formula.deprecated? || formula.disabled?
-    opoo "Skipping deprecated/disabled formula: #{formula.name}"
+    opoo "#{formula.name}: skipping deprecated/disabled formula"
     next
   end
 
@@ -67,7 +67,7 @@ for path in Dir.entries("audits").sort
     r.url if vulnerable_deps.include?(PyPI.normalize_python_package r.name) && r.url =~ /files\.pythonhosted\.org/
   end.compact
 
-  ohai "vulnerable dist URLs: #{old_resource_urls.join(", ")}"
+  ohai "#{formula_name}: vulnerable dist URLs: #{old_resource_urls.join(", ")}"
 
   # HACK: Clean up the last step's update.
   formula.path.parent.cd do
@@ -81,7 +81,7 @@ for path in Dir.entries("audits").sort
     PyPI.update_python_resources!(formula,
                                   ignore_non_pypi_packages: true)
   rescue SystemExit => e
-    opoo "update_python_resources! for #{formula_name}: suppressing the previous exit and skipping"
+    opoo "#{formula_name} update_python_resources! failed: suppressing the previous exit and skipping"
     next
   end
 
@@ -93,7 +93,7 @@ for path in Dir.entries("audits").sort
     r.url if vulnerable_deps.include?(PyPI.normalize_python_package r.name) && r.url =~ /files\.pythonhosted\.org/
   end.compact
 
-  ohai "patched dist URLs: #{new_resource_urls.join(", ")}"
+  ohai "#{formula_name}: patched dist URLs: #{new_resource_urls.join(", ")}"
 
   # If we haven't changed any of the relevant resource URLs, then our resource
   # update only updated non-vulnerable dependencies.
@@ -119,7 +119,7 @@ for path in Dir.entries("audits").sort
                                             file: formula.path.relative_path_from(formula.tap.path).to_s,
                                             args: args)
   rescue SystemExit => e
-    opoo "PR dupe check for #{formula_name}: suppressing the previous exit and skipping"
+    opoo "#{formula_name} PR dupe check failed: suppressing the previous exit and skipping"
     next
   end
 
