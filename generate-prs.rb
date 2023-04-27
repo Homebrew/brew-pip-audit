@@ -5,10 +5,25 @@ require "utils/pypi"
 
 ONLY_FORMULA = []
 SKIP_FORMULA = []
-PR_LIMIT = 5
+PR_LIMIT = ENV.fetch("AUTO_PR_LIMIT", 5).to_i
+DRY_RUN = !!ENV.fetch("AUTO_PR_DRY_RUN", false)
+
+ohai "generate-prs running with DRY_RUN=#{DRY_RUN} and PR_LIMIT=#{PR_LIMIT}"
 
 PR_MESSAGE = <<~MSG
   Created by [`brew-pip-audit`](https://github.com/Homebrew/brew-pip-audit).
+
+  The following resources have known vulnerabilities:
+
+  ```console
+  %{old_urls}
+  ```
+
+  Of those, the following were patched:
+
+  ```console
+  %{new_urls}
+  ```
 
   On errors/problems, please ping `@woodruffw` or `@alex`.
 MSG
@@ -19,11 +34,14 @@ for path in Dir.entries("audits").sort
     next
   end
 
+  formula_name = path.delete_suffix("-requirements.audit.json")
   vulnerable_deps = begin
     audit = JSON.parse File.read("audits/#{path}")
 
     audit.map { |dep| dep["name"] }
   end
+
+  ohai "attempting to patch deps in #{formula_name}: #{vulnerable_deps.join(", ")}"
 
   formula = Formula[path.delete_suffix("-requirements.audit.json")]
   if SKIP_FORMULA.include?(formula.name) || (!ONLY_FORMULA.empty? && !ONLY_FORMULA.include?(formula.name))
@@ -39,6 +57,8 @@ for path in Dir.entries("audits").sort
   old_resource_urls = formula.resources.map do |r|
     r.url if vulnerable_deps.include?(PyPI.normalize_python_package r.name) && r.url =~ /files\.pythonhosted\.org/
   end.compact
+
+  ohai "vulnerable dist URLs: #{old_resource_urls.join(", ")}"
 
   # HACK: Clean up the last step's update.
   formula.path.parent.cd do
@@ -64,6 +84,8 @@ for path in Dir.entries("audits").sort
     r.url if vulnerable_deps.include?(PyPI.normalize_python_package r.name) && r.url =~ /files\.pythonhosted\.org/
   end.compact
 
+  ohai "patched dist URLs: #{new_resource_urls.join(", ")}"
+
   # If we haven't changed any of the relevant resource URLs, then our resource
   # update only updated non-vulnerable dependencies.
   # We skip the pull request in this case, since we're not in the business
@@ -76,7 +98,7 @@ for path in Dir.entries("audits").sort
     ohai "patched: #{vulns_patched.join(", ")}"
   end
 
-  if ENV["AUTO_PR_DRY_RUN"] == "true"
+  if DRY_RUN
     ohai "not issuing PR due to dry run"
     next
   end
@@ -104,7 +126,7 @@ for path in Dir.entries("audits").sort
     branch_name:      "brew-pip-audit-#{formula.name}-#{Time.now.to_i}",
     commit_message:   "#{formula.name}: bump python resources",
     tap:              formula.tap,
-    pr_message:       PR_MESSAGE,
+    pr_message:       PR_MESSAGE % {old_urls: old_resource_urls.join("\n"), new_urls: vulns_patched.join("\n")},
   }
   GitHub.create_bump_pr(info, args: OpenStruct.new)
   prs_sent += 1
