@@ -50,7 +50,7 @@ for path in Dir.entries("audits").sort
     audit.map { |dep| dep["name"] }
   end
 
-  ohai "attempting to patch deps in #{formula_name}: #{vulnerable_deps.join(", ")}"
+  ohai "#{formula_name}: attempting to patch deps: #{vulnerable_deps.join(", ")}"
 
   formula = Formula[path.delete_suffix("-requirements.audit.json")]
   if SKIP_FORMULA.include?(formula.name) || (!ONLY_FORMULA.empty? && !ONLY_FORMULA.include?(formula.name))
