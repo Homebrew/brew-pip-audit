@@ -26,6 +26,14 @@ jobs:
     timeout-minutes: 60
 
     steps:
+      - name: Display inputs
+        run: |
+          echo "AUTO_PR_DRY_RUN: ${AUTO_PR_DRY_RUN}"
+          echo "AUTO_PR_LIMIT: ${AUTO_PR_LIMIT}"
+        env:
+          AUTO_PR_DRY_RUN: ${{ inputs.dry-run }}
+          AUTO_PR_LIMIT: ${{ inputs.pr-limit }}
+
       - name: Check out this repo
         uses: actions/checkout@v3
         with:
