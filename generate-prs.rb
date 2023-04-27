@@ -19,7 +19,7 @@ for path in Dir.entries("audits").sort
     next
   end
 
-  vulnerable_deps = do
+  vulnerable_deps = begin
     audit = JSON.parse File.read(path)
 
     audit.map { |dep| dep["name"] }
