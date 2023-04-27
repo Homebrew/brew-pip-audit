@@ -1,3 +1,4 @@
+require "json"
 require "formula"
 require "utils/pypi"
 
@@ -17,6 +18,13 @@ for path in Dir.entries("audits").sort
   if !path.end_with?("-requirements.audit.json")
     next
   end
+
+  vulnerable_deps = do
+    audit = JSON.parse File.read(path)
+
+    audit.map { |dep| dep["name"] }
+  end
+
   formula = Formula[path.delete_suffix("-requirements.audit.json")]
   if SKIP_FORMULA.include?(formula.name) || (!ONLY_FORMULA.empty? && !ONLY_FORMULA.include?(formula.name))
     ohai "Skipping #{formula.name}"
@@ -27,6 +35,10 @@ for path in Dir.entries("audits").sort
     opoo "Skipping deprecated/disabled formula: #{formula.name}"
     next
   end
+
+  old_resource_urls = formula.resources.map do |r|
+    r.url if vulnerable_deps.include?(PyPI.normalize_python_package r.name) && r.url =~ /files\.pythonhosted\.org/
+  end.compact
 
   # HACK: Clean up the last step's update.
   formula.path.parent.cd do
@@ -44,6 +56,27 @@ for path in Dir.entries("audits").sort
     next
   end
 
+  # Re-load the formula to have the newly updated Python resources take effect.
+  Formulary.clear_cache
+  formula = Formula[formula.name]
+
+  new_resource_urls = formula.resources.map do |r|
+    r.url if vulnerable_deps.include?(PyPI.normalize_python_package r.name) && r.url =~ /files\.pythonhosted\.org/
+  end.compact
+
+  # If we haven't changed any of the relevant resource URLs, then our resource
+  # update only updated non-vulnerable dependencies.
+  # We skip the pull request in this case, since we're not in the business
+  # of updating non-vulnerable dependencies.
+  if (old_resource_urls - new_resource_urls).empty?
+    opoo "no vulnerabilities patched; skipping this PR"
+    next
+  end
+
+  if ENV["AUTO_PR_DRY_RUN"] == "true"
+    ohai "not issuing PR due to dry run"
+    next
+  end
 
   begin
     args = OpenStruct.new(force?: false, quiet?: false)
@@ -63,7 +96,6 @@ for path in Dir.entries("audits").sort
     $?.success?
   end
 
-  # TODO: consider re-running pip-audit to verify at least one vuln was fixed.
   info = {
     sourcefile_path:  formula.path,
     branch_name:      "brew-pip-audit-#{formula.name}-#{Time.now.to_i}",
