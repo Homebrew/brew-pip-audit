@@ -1,7 +1,7 @@
 [
   {
     "name": "configobj",
-    "version": "5.0.6",
+    "version": "5.0.8",
     "vulns": [
       {
         "id": "GHSA-c33w-24p9-8m24",
