@@ -2,11 +2,20 @@ require "json"
 require "formula"
 require "utils/pypi"
 
+# Don't buffer stdout; with buffering, some of our stdout/stderr
+# logging below gets interleaved incorrectly.
+$stdout.sync = true
 
+# TODO: Support grabbing these from the environment.
 ONLY_FORMULA = []
 SKIP_FORMULA = []
+
 PR_LIMIT = ENV.fetch("AUTO_PR_LIMIT", 5).to_i
-DRY_RUN = !!ENV.fetch("AUTO_PR_DRY_RUN", false)
+
+# NOTE: The dry-run default here is the opposite of the workflow_dispatch
+# default, since the latter's default makes more sense for manually
+# triggered runs.
+DRY_RUN = ENV.fetch("AUTO_PR_DRY_RUN", "false") == "true"
 
 ohai "generate-prs running with DRY_RUN=#{DRY_RUN} and PR_LIMIT=#{PR_LIMIT}"
 
@@ -41,16 +50,16 @@ for path in Dir.entries("audits").sort
     audit.map { |dep| dep["name"] }
   end
 
-  ohai "attempting to patch deps in #{formula_name}: #{vulnerable_deps.join(", ")}"
+  ohai "#{formula_name}: attempting to patch deps: #{vulnerable_deps.join(", ")}"
 
   formula = Formula[path.delete_suffix("-requirements.audit.json")]
   if SKIP_FORMULA.include?(formula.name) || (!ONLY_FORMULA.empty? && !ONLY_FORMULA.include?(formula.name))
-    ohai "Skipping #{formula.name}"
+    ohai "#{formula.name}: skipping"
     next
   end
 
   if formula.deprecated? || formula.disabled?
-    opoo "Skipping deprecated/disabled formula: #{formula.name}"
+    opoo "#{formula.name}: skipping deprecated/disabled formula"
     next
   end
 
@@ -58,7 +67,7 @@ for path in Dir.entries("audits").sort
     r.url if vulnerable_deps.include?(PyPI.normalize_python_package r.name) && r.url =~ /files\.pythonhosted\.org/
   end.compact
 
-  ohai "vulnerable dist URLs: #{old_resource_urls.join(", ")}"
+  ohai "#{formula_name}: vulnerable dist URLs: #{old_resource_urls.join(", ")}"
 
   # HACK: Clean up the last step's update.
   formula.path.parent.cd do
@@ -72,7 +81,7 @@ for path in Dir.entries("audits").sort
     PyPI.update_python_resources!(formula,
                                   ignore_non_pypi_packages: true)
   rescue SystemExit => e
-    opoo "generate-prs: suppressing the previous exit"
+    opoo "#{formula_name} update_python_resources! failed: suppressing the previous exit and skipping"
     next
   end
 
@@ -84,7 +93,7 @@ for path in Dir.entries("audits").sort
     r.url if vulnerable_deps.include?(PyPI.normalize_python_package r.name) && r.url =~ /files\.pythonhosted\.org/
   end.compact
 
-  ohai "patched dist URLs: #{new_resource_urls.join(", ")}"
+  ohai "#{formula_name}: patched dist URLs: #{new_resource_urls.join(", ")}"
 
   # If we haven't changed any of the relevant resource URLs, then our resource
   # update only updated non-vulnerable dependencies.
@@ -92,14 +101,14 @@ for path in Dir.entries("audits").sort
   # of updating non-vulnerable dependencies.
   vulns_patched = old_resource_urls - new_resource_urls
   if vulns_patched.empty?
-    opoo "no vulnerabilities patched; skipping this PR"
+    opoo "#{formula_name}: no vulnerabilities patched; skipping this PR"
     next
   else
-    ohai "patched: #{vulns_patched.join(", ")}"
+    ohai "#{formula_name}: patched: #{vulns_patched.join(", ")}"
   end
 
   if DRY_RUN
-    ohai "not issuing PR due to dry run"
+    ohai "#{formula_name}: not issuing PR due to dry run"
     next
   end
 
@@ -110,7 +119,7 @@ for path in Dir.entries("audits").sort
                                             file: formula.path.relative_path_from(formula.tap.path).to_s,
                                             args: args)
   rescue SystemExit => e
-    opoo "generate-prs: suppressing the previous exit"
+    opoo "#{formula_name} PR dupe check failed: suppressing the previous exit and skipping"
     next
   end
 
