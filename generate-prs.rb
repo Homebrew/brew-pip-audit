@@ -10,14 +10,16 @@ $stdout.sync = true
 ONLY_FORMULA = []
 SKIP_FORMULA = []
 
-PR_LIMIT = ENV.fetch("AUTO_PR_LIMIT", 10).to_i
+PR_LIMIT = ENV.fetch("HOMEBREW_AUTO_PR_LIMIT", 10).to_i
 
 # NOTE: The dry-run default here is the opposite of the workflow_dispatch
 # default, since the latter's default makes more sense for manually
 # triggered runs.
-DRY_RUN = ENV.fetch("AUTO_PR_DRY_RUN", "false") == "true"
+DRY_RUN = ENV.fetch("HOMEBREW_AUTO_PR_DRY_RUN", "false") == "true"
 
-ohai "generate-prs running with DRY_RUN=#{DRY_RUN} and PR_LIMIT=#{PR_LIMIT}"
+SUMMARY_PATH = ENV.fetch("GITHUB_STEP_SUMMARY", nil)
+
+ohai "generate-prs running with DRY_RUN=#{DRY_RUN}, PR_LIMIT=#{PR_LIMIT}, SUMMARY_PATH=#{SUMMARY_PATH}"
 
 PR_MESSAGE = <<~MSG
   Created by [`brew-pip-audit`](https://github.com/Homebrew/brew-pip-audit).
@@ -38,6 +40,8 @@ PR_MESSAGE = <<~MSG
 MSG
 
 prs_sent = 0
+results = []
+
 for path in Dir.entries("audits").sort
   if !path.end_with?("-requirements.audit.json")
     next
@@ -55,11 +59,13 @@ for path in Dir.entries("audits").sort
   formula = Formula[path.delete_suffix("-requirements.audit.json")]
   if SKIP_FORMULA.include?(formula.name) || (!ONLY_FORMULA.empty? && !ONLY_FORMULA.include?(formula.name))
     ohai "#{formula.name}: skipping"
+    results.push({formula: formula_name, updated: false, reason: "Skipped because of SKIP_FORMULA/ONLY_FORMULA"})
     next
   end
 
   if formula.deprecated? || formula.disabled?
     opoo "#{formula.name}: skipping deprecated/disabled formula"
+    results.push({formula: formula_name, updated: false, reason: "Skipped because deprecated or disabled"})
     next
   end
 
@@ -82,6 +88,7 @@ for path in Dir.entries("audits").sort
                                   ignore_non_pypi_packages: true)
   rescue SystemExit => e
     opoo "#{formula_name} update_python_resources! failed: suppressing the previous exit and skipping"
+    results.push({formula: formula_name, updated: false, reason: "`update_python_resources!` failed"})
     next
   end
 
@@ -102,6 +109,7 @@ for path in Dir.entries("audits").sort
   vulns_patched = old_resource_urls - new_resource_urls
   if vulns_patched.empty?
     opoo "#{formula_name}: no vulnerabilities patched; skipping this PR"
+    results.push({formula: formula_name, updated: false, reason: "No vulnerabilities patched. Vulnerable dependencies: #{old_resource_urls.map { |s| "`#{s}`" }.join(", ") }"})
     next
   else
     ohai "#{formula_name}: patched: #{vulns_patched.join(", ")}"
@@ -109,6 +117,7 @@ for path in Dir.entries("audits").sort
 
   if DRY_RUN
     ohai "#{formula_name}: not issuing PR due to dry run"
+    results.push({formula: formula_name, updated: false, reason: "Dry run"})
     next
   end
 
@@ -120,6 +129,7 @@ for path in Dir.entries("audits").sort
                                             args: args)
   rescue SystemExit => e
     opoo "#{formula_name} PR dupe check failed: suppressing the previous exit and skipping"
+    results.push({formula: formula_name, updated: false, reason: "Existing PR for this formula"})
     next
   end
 
@@ -139,8 +149,19 @@ for path in Dir.entries("audits").sort
   }
   GitHub.create_bump_pr(info, args: OpenStruct.new)
   prs_sent += 1
+  results.push({formula: formula_name, updated: true, reason: ""})
   if prs_sent == PR_LIMIT
     ohai "generate-prs: Reached maximum limit of #{PR_LIMIT} PRs sent per run"
-    return
+    break
+  end
+end
+
+if SUMMARY_PATH
+  File.open(SUMMARY_PATH, "a") do |f|
+    f.write("| Formula | Updated? | Reason |\n")
+    f.write("| ------- | -------- | ------ |\n")
+    results.each do |r|
+      f.write("| #{r[:formula]} | #{r[:updated]} | #{r[:reason]} |\n")
+    end
   end
 end
