@@ -4,7 +4,7 @@
     "version": "3.1.27",
     "vulns": [
       {
-        "id": "GHSA-hcpj-qp55-gfph",
+        "id": "PYSEC-2022-42992",
         "fix_versions": [
           "3.1.30"
         ],

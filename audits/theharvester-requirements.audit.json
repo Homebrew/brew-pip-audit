@@ -4,11 +4,11 @@
     "version": "2022.6.15",
     "vulns": [
       {
-        "id": "GHSA-43fp-rhv2-5gv8",
+        "id": "PYSEC-2022-42986",
         "fix_versions": [
           "2022.12.7"
         ],
-        "description": "Certifi 2022.12.07 removes root certificates from \"TrustCor\" from the root store. These are in the process of being removed from Mozilla's trust store.  TrustCor's root certificates are being removed pursuant to an investigation prompted by media reporting that TrustCor's ownership also operated a business that produced spyware. Conclusions of Mozilla's investigation can be found [here](https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/oxX69KFvsm4/m/yLohoVqtCgAJ)."
+        "description": "Certifi is a curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. Certifi 2022.12.07 removes root certificates from \"TrustCor\" from the root store. These are in the process of being removed from Mozilla's trust store. TrustCor's root certificates are being removed pursuant to an investigation prompted by media reporting that TrustCor's ownership also operated a business that produced spyware. Conclusions of Mozilla's investigation can be found in the linked google group discussion."
       }
     ]
   },
@@ -17,21 +17,18 @@
     "version": "3.5.3",
     "vulns": [
       {
-        "id": "GHSA-24wv-mv5m-xv4h",
+        "id": "PYSEC-2023-46",
         "fix_versions": [
-          "4.3.6",
-          "4.4.3",
-          "4.5.3"
+          "5.0.0b1"
         ],
-        "description": "redis-py before 4.5.3, as used in ChatGPT and other products, leaves a connection open after canceling an async Redis command at an inopportune time (in the case of a pipeline operation), and can send response data to the client of an unrelated request in an off-by-one manner. The fixed versions for this CVE Record are 4.3.6, 4.4.3, and 4.5.3, but [are believed to be incomplete](https://github.com/redis/redis-py/issues/2665). CVE-2023-28859 has been assigned the issues caused by the incomplete fixes."
+        "description": "redis-py through 4.5.3 leaves a connection open after canceling an async Redis command at an inopportune time (in the case of a non-pipeline operation), and can send response data to the client of an unrelated request. NOTE: this issue exists because of an incomplete fix for CVE-2023-28858."
       },
       {
-        "id": "GHSA-8fww-64cx-x8p5",
+        "id": "PYSEC-2023-45",
         "fix_versions": [
-          "4.4.4",
-          "4.5.4"
+          "4.5.3"
         ],
-        "description": "redis-py through 4.5.3 and 4.4.3 leaves a connection open after canceling an async Redis command at an inopportune time (in the case of a non-pipeline operation), and can send response data to the client of an unrelated request. NOTE: this issue exists because of an incomplete fix for CVE-2023-28858."
+        "description": "redis-py before 4.5.3, as used in ChatGPT and other products, leaves a connection open after canceling an async Redis command at an inopportune time (in the case of a pipeline operation), and can send response data to the client of an unrelated request in an off-by-one manner. The fixed versions for this CVE Record are 4.3.6, 4.4.3, and 4.5.3; however, CVE-2023-28859 is a separate vulnerability."
       }
     ]
   },
@@ -40,14 +37,7 @@
     "version": "0.19.1",
     "vulns": [
       {
-        "id": "GHSA-74m5-2c7w-9w3x",
-        "fix_versions": [
-          "0.25.0"
-        ],
-        "description": "### Impact  The `MultipartParser` using the package `python-multipart` accepts an unlimited number of multipart parts (form fields or files).  Processing too many parts results in high CPU usage and high memory usage, eventually leading to an <abbr title=\"out of memory\">OOM</abbr> process kill.  This can be triggered by sending too many small form fields with no content, or too many empty files.  For this to take effect application code has to:  * Have `python-multipart` installed and * call `request.form()`   * or via another framework like FastAPI, using form field parameters or `UploadFile` parameters, which in turn calls `request.form()`.  ### Patches  The vulnerability is solved in Starlette 0.25.0 by making the maximum fields and files customizable and with a sensible default (1000).   Applications will be secure by just upgrading their Starlette version to 0.25.0 (or FastAPI to 0.92.0).  If application code needs to customize the new max field and file number, there are new `request.form()` parameters (with the default values):  * `max_files=1000` * `max_fields=1000`  ### Workarounds  Applications that don't install `python-multipart` or that don't use form fields are safe.  In older versions, it's also possible to instead of calling `request.form()` call `request.stream()` and parse the form data in internal code.  In most cases, the best solution is to upgrade the Starlette version.  ### References  This was reported in private by @das7pad via internal email. He also coordinated the fix across multiple frameworks and parsers.  The details about how `multipart/form-data` is structured and parsed are in the [RFC 7578](https://www.rfc-editor.org/rfc/rfc7578). "
-      },
-      {
-        "id": "GHSA-3qj8-93xh-pwh2",
+        "id": "PYSEC-2023-48",
         "fix_versions": [
           "0.25.0"
         ],
