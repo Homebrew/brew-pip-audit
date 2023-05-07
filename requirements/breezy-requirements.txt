@@ -1,6 +1,6 @@
-configobj==5.0.8 --hash=sha256:6f704434a07dc4f4dc7c9a745172c1cad449feb548febd9f7fe362629c627a97
-dulwich==0.21.3 --hash=sha256:7ca3b453d767eb83b3ec58f0cfcdc934875a341cdfdb0dc55c1431c96608cf83
-fastbencode==0.2 --hash=sha256:578eb9c4700d6705d71fbc8d7d57bca2cd987eca2cec1d9e77b9e0702db1e56f
-merge3==0.0.13 --hash=sha256:8abda1d2d49776323d23d09bfdd80d943a57d43d28d6152ffd2c87956a9b6b54
-patiencediff==0.2.13 --hash=sha256:01d642d876186a8f0dd08e77ef1da1940ce49df295477e0713bdc66368e9d8d1
-urllib3==2.0.0 --hash=sha256:da21131828d290d6331d0d93a18f062ead1ec4fe0cfebbcefc95ee5368f7188a
+configobj==5.0.8
+dulwich==0.21.3
+fastbencode==0.2
+merge3==0.0.13
+patiencediff==0.2.13
+urllib3==2.0.0

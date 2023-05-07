@@ -1,20 +1,20 @@
-aiohttp==3.8.4 --hash=sha256:bf2e1a9162c1e441bf805a1fd166e249d574ca04e03b34f97e2928769e91ab5c
-aiosignal==1.3.1 --hash=sha256:54cd96e15e1649b75d6c87526a6ff0b6c1b0dd3459f43d9ca11d48c339b68cfc
-async-timeout==4.0.2 --hash=sha256:2163e1640ddb52b7a8c80d0a67a08587e5d245cc9c553a74a847056bc2976b15
-attrs==23.1.0 --hash=sha256:6279836d581513a26f1bf235f9acd333bc9115683f14f7e8fae46c98fc50e015
-certifi==2022.12.7 --hash=sha256:35824b4c3a97115964b408844d64aa14db1cc518f6562e8d7261699d1350a9e3
-charset-normalizer==3.1.0 --hash=sha256:34e0a2f9c370eb95597aae63bf85eb5e96826d81e3dcf88b8886012906f509b5
-frozenlist==1.3.3 --hash=sha256:58bcc55721e8a90b88332d6cd441261ebb22342e238296bb330968952fbb3a6a
-idna==3.4 --hash=sha256:814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4
-markdown-it-py==2.2.0 --hash=sha256:7c9a5e412688bc771c67432cbfebcdd686c93ce6484913dccf06cb5a0bea35a1
-mdurl==0.1.2 --hash=sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba
-multidict==6.0.4 --hash=sha256:3666906492efb76453c0e7b97f2cf459b0682e7402c0489a95484965dbc1da49
-openai==0.27.6 --hash=sha256:63ca9f6ac619daef8c1ddec6d987fe6aa1c87a9bfdce31ff253204d077222375
-platformdirs==3.5.0 --hash=sha256:7954a68d0ba23558d753f73437c55f89027cf8f5108c19844d4b82e5af396335
-regex==2023.5.4 --hash=sha256:9e1b4b0b4baff934ef3c0ac56578a6b773f7f90ad1db3ff843ee40d83bdae09f
-requests==2.29.0 --hash=sha256:f2e34a75f4749019bb0e3effb66683630e4ffeaf75819fb51bebef1bf5aef059
-rich==13.3.5 --hash=sha256:2d11b9b8dd03868f09b4fffadc84a6a8cda574e40dc90821bd845720ebb8e89c
-tiktoken==0.3.3 --hash=sha256:97b58b7bfda945791ec855e53d166e8ec20c6378942b93851a6c919ddf9d0496
-tqdm==4.65.0 --hash=sha256:1871fb68a86b8fb3b59ca4cdd3dcccbc7e6d613eeed31f4c332531977b89beb5
-urllib3==1.26.15 --hash=sha256:8a388717b9476f934a21484e8c8e61875ab60644d29b9b39e11e4b9dc1c6b305
-yarl==1.9.2 --hash=sha256:04ab9d4b9f587c06d801c2abfe9317b77cdf996c65a90d5e84ecc45010823571
+aiohttp==3.8.4
+aiosignal==1.3.1
+async-timeout==4.0.2
+attrs==23.1.0
+certifi==2022.12.7
+charset-normalizer==3.1.0
+frozenlist==1.3.3
+idna==3.4
+markdown-it-py==2.2.0
+mdurl==0.1.2
+multidict==6.0.4
+openai==0.27.6
+platformdirs==3.5.0
+regex==2023.5.4
+requests==2.29.0
+rich==13.3.5
+tiktoken==0.3.3
+tqdm==4.65.0
+urllib3==1.26.15
+yarl==1.9.2

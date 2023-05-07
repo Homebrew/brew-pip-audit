@@ -1,2 +1,2 @@
-psutil==5.9.4 --hash=sha256:3d7f9739eb435d4b1338944abe23f49584bde5395f27487d2ee25ad9a8774a62
-configobj==5.0.8 --hash=sha256:6f704434a07dc4f4dc7c9a745172c1cad449feb548febd9f7fe362629c627a97
+psutil==5.9.4
+configobj==5.0.8

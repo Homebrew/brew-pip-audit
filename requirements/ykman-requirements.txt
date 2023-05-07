@@ -1,13 +1,13 @@
-cffi==1.15.1 --hash=sha256:d400bfb9a37b1351253cb402671cea7e89bdecc294e8016a707f6d1d8ac934f9
-click==8.1.3 --hash=sha256:7682dc8afb30297001674575ea00d1814d808d6a36af415a82bd481d37ba7b8e
-cryptography==40.0.2 --hash=sha256:c33c0d32b8594fa647d2e01dbccc303478e16fdd7cf98652d5b3ed11aa5e5c99
-fido2==1.1.1 --hash=sha256:5dc495ca8c59c1c337383b4b8c314d46b92d5c6fc650e71984c6d7f954079fc3
-importlib-metadata==6.6.0 --hash=sha256:92501cdf9cc66ebd3e612f1b4f0c0765dfa42f0fa38ffb319b6bd84dd675d705
-jaraco.classes==3.2.3 --hash=sha256:89559fa5c1d3c34eff6f631ad80bb21f378dbcbb35dd161fd2c6b93f5be2f98a
-jeepney==0.8.0 --hash=sha256:5efe48d255973902f6badc3ce55e2aa6c5c3b3bc642059ef3a91247bcfcc5806
-keyring==23.13.1 --hash=sha256:ba2e15a9b35e21908d0aaf4e0a47acc52d6ae33444df0da2b49d41a46ef6d678
-more-itertools==9.1.0 --hash=sha256:cabaa341ad0389ea83c17a94566a53ae4c9d07349861ecb14dc6d0345cf9ac5d
-pycparser==2.21 --hash=sha256:e644fdec12f7872f86c58ff790da456218b10f863970249516d60a5eaca77206
-pyscard==2.0.7 --hash=sha256:278054525fa75fbe8b10460d87edcd03a70ad94d688b11345e4739987f85c1bf
-SecretStorage==3.3.3 --hash=sha256:2403533ef369eca6d2ba81718576c5e0f564d5cca1b58f73a8b23e7d4eeebd77
-zipp==3.15.0 --hash=sha256:112929ad649da941c23de50f356a2b5570c954b65150642bccdd66bf194d224b
+cffi==1.15.1
+click==8.1.3
+cryptography==40.0.2
+fido2==1.1.1
+importlib-metadata==6.6.0
+jaraco.classes==3.2.3
+jeepney==0.8.0
+keyring==23.13.1
+more-itertools==9.1.0
+pycparser==2.21
+pyscard==2.0.7
+SecretStorage==3.3.3
+zipp==3.15.0

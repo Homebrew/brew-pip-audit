@@ -1,10 +1,10 @@
-beautifulsoup4==4.12.1 --hash=sha256:c7bdbfb20a0dbe09518b96a809d93351b2e2bcb8046c0809466fa6632a10c257
-graphviz==0.20.1 --hash=sha256:8c58f14adaa3b947daf26c19bc1e98c4e0702cdc31cf99153e6f06904d492bf8
-Jinja2==3.1.2 --hash=sha256:31351a702a408a9e7595a8fc6150fc3f43bb6bf7e319770cbc0db9df9437e852
-Markdown==3.4.3 --hash=sha256:8bf101198e004dc93e84a12a7395e31aac6a9c9942848ae1d99b9d72cf9b3520
-markdown-include==0.7.2 --hash=sha256:84070d0244367f99bdf9bbdd49ff7b9f51517bbee7582ad7aa8ff363e30d8157
-MarkupSafe==2.1.2 --hash=sha256:abcabc8c2b26036d62d4c746381a6f7cf60aafcc653198ad678306986b09450d
-python-markdown-math==0.8 --hash=sha256:8564212af679fc18d53f38681f16080fcd3d186073f23825c7ce86fadd3e3635
-soupsieve==2.4 --hash=sha256:e28dba9ca6c7c00173e34e4ba57448f0688bb681b7c5e8bf4971daafc093d69a
-toposort==1.7 --hash=sha256:ddc2182c42912a440511bd7ff5d3e6a1cabc3accbc674a3258c8c41cbfbb2125
-tqdm==4.64.1 --hash=sha256:5f4f682a004951c1b450bc753c710e9280c5746ce6ffedee253ddbcbf54cf1e4
+beautifulsoup4==4.12.1
+graphviz==0.20.1
+Jinja2==3.1.2
+Markdown==3.4.3
+markdown-include==0.7.2
+MarkupSafe==2.1.2
+python-markdown-math==0.8
+soupsieve==2.4
+toposort==1.7
+tqdm==4.64.1

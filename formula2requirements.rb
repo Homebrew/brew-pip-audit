@@ -46,7 +46,7 @@ Formula.all.sort.each do |f|
 
       version = path.rpartition("-").last.delete_suffix suffix
 
-      io.puts "#{pr.name}==#{version} --hash=sha256:#{pr.checksum.hexdigest}"
+      io.puts "#{pr.name}==#{version}"
     end
   end
 end

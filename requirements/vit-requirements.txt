@@ -1,2 +1,2 @@
-tasklib==2.5.1 --hash=sha256:5ccd731b52636dd10457a8b8d858cb0d026ffaab1e3e751baf791bf803e37d7b
-urwid==2.1.2 --hash=sha256:588bee9c1cb208d0906a9f73c613d2bd32c3ed3702012f51efe318a3f2127eae
+tasklib==2.5.1
+urwid==2.1.2

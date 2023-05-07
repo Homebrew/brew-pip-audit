@@ -1,6 +1,6 @@
-PyQt6-3D==6.5.0 --hash=sha256:f8ef3e2965a518367eb4cc693fd9f23698fcbeb909c7dcb7269737b8d877f68b
-PyQt6-Charts==6.5.0 --hash=sha256:6ff00f65b2517f99bf106ddd28c76f3ca344f91ecf5ba68191e20a2d90024962
-PyQt6-DataVisualization==6.5.0 --hash=sha256:19b949abcc315b1fa9293ba5b8b66bbf694d2d3f84585edc78167473328df212
-PyQt6-NetworkAuth==6.5.0 --hash=sha256:7170db3f99e13aef855d9d52a00a8baa2dea92d12f9b441fed9c6dec57f83e09
-PyQt6-sip==13.5.0 --hash=sha256:61c702b7f81796a27c294ba76f1cba3408161f06deb801373c42670ed36f722a
-PyQt6-WebEngine==6.5.0 --hash=sha256:8ba9db56c4c181a2a2fab1673ca35e5b63dc69113f085027ddc43c710b6d6ee9
+PyQt6-3D==6.5.0
+PyQt6-Charts==6.5.0
+PyQt6-DataVisualization==6.5.0
+PyQt6-NetworkAuth==6.5.0
+PyQt6-sip==13.5.0
+PyQt6-WebEngine==6.5.0

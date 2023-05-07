@@ -1,2 +1,2 @@
-ansicolor==0.3.2 --hash=sha256:3b840a6b1184b5f1568635b1adab28147947522707d41ceba02d5ed0a0877279
-chardet==5.0.0 --hash=sha256:0368df2bfd78b5fc20572bb4e9bb7fb53e2c094f60ae9993339e8671d0afb8aa
+ansicolor==0.3.2
+chardet==5.0.0

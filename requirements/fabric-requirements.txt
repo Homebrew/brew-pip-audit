@@ -1,7 +1,7 @@
-bcrypt==4.0.1 --hash=sha256:27d375903ac8261cfe4047f6709d16f7d18d39b1ec92aaf72af989552a650ebd
-cffi==1.15.1 --hash=sha256:d400bfb9a37b1351253cb402671cea7e89bdecc294e8016a707f6d1d8ac934f9
-cryptography==40.0.2 --hash=sha256:c33c0d32b8594fa647d2e01dbccc303478e16fdd7cf98652d5b3ed11aa5e5c99
-decorator==5.1.1 --hash=sha256:637996211036b6385ef91435e4fae22989472f9d571faba8927ba8253acbc330
-paramiko==3.1.0 --hash=sha256:6950faca6819acd3219d4ae694a23c7a87ee38d084f70c1724b0c0dbb8b75769
-pycparser==2.21 --hash=sha256:e644fdec12f7872f86c58ff790da456218b10f863970249516d60a5eaca77206
-pynacl==1.5.0 --hash=sha256:8ac7448f09ab85811607bdd21ec2464495ac8b7c66d146bf545b0f08fb9220ba
+bcrypt==4.0.1
+cffi==1.15.1
+cryptography==40.0.2
+decorator==5.1.1
+paramiko==3.1.0
+pycparser==2.21
+pynacl==1.5.0

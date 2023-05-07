@@ -1,2 +1,2 @@
-anytree==2.8.0 --hash=sha256:3f0f93f355a91bc3e6245319bf4c1d50e3416cc7a35cc1133c1ff38306bbccab
-lxml==4.9.2 --hash=sha256:2455cfaeb7ac70338b3257f41e21f0724f4b5b0c0e7702da67ee6c3640835b67
+anytree==2.8.0
+lxml==4.9.2

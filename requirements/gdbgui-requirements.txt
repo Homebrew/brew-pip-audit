@@ -1,17 +1,17 @@
-bidict==0.22.1 --hash=sha256:1e0f7f74e4860e6d0943a05d4134c63a2fad86f3d4732fb265bd79e4e856d81d
-Brotli==1.0.9 --hash=sha256:4d1b810aa0ed773f81dceda2cc7b403d01057458730e309856356d4ef4188438
-click==8.0.1 --hash=sha256:8c04c11192119b1ef78ea049e0a6f0463e4c48ef00a30160c704337586f3ad7a
-dnspython==2.3.0 --hash=sha256:224e32b03eb46be70e12ef6d64e0be123a64e621ab4c0822ff6d450d52a540b9
-eventlet==0.33.3 --hash=sha256:722803e7eadff295347539da363d68ae155b8b26ae6a634474d0a920be73cfda
-Flask==2.2.2 --hash=sha256:642c450d19c4ad482f96729bd2a8f6d32554aa1e231f4f6b4e7e5264b16cca2b
-Flask-Compress==1.10.1 --hash=sha256:28352387efbbe772cfb307570019f81957a13ff718d994a9125fa705efb73680
-Flask-SocketIO==5.1.1 --hash=sha256:1efdaacc7a26e94f2b197a80079b1058f6aa644a6094c0a322349e2b9c41f6b1
-greenlet==2.0.2 --hash=sha256:e7c8dc13af7db097bed64a051d2dd49e9f0af495c26995c00a9ee842690d34c0
-itsdangerous==2.1.2 --hash=sha256:5dbbc68b317e5e42f327f9021763545dc3fc3bfe22e6deb96aaf1fc38874156a
-Jinja2==3.1.2 --hash=sha256:31351a702a408a9e7595a8fc6150fc3f43bb6bf7e319770cbc0db9df9437e852
-MarkupSafe==2.1.2 --hash=sha256:abcabc8c2b26036d62d4c746381a6f7cf60aafcc653198ad678306986b09450d
-pygdbmi==0.10.0.2 --hash=sha256:81dfc9e7ffd49f5006685a243905cee72216303e5ea42f6588793dfb8c8407ab
-Pygments==2.14.0 --hash=sha256:b3ed06a9e8ac9a9aae5a6f5dbe78a8a58655d17b43b93c078f094ddc476ae297
-python-engineio==4.3.4 --hash=sha256:d8d8b072799c36cadcdcc2b40d2a560ce09797ab3d2d596b2ad519a5e4df19ae
-python-socketio==5.7.2 --hash=sha256:92395062d9db3c13d30e7cdedaa0e1330bba78505645db695415f9a3c628d097
-Werkzeug==2.2.2 --hash=sha256:7ea2d48322cc7c0f8b3a215ed73eabd7b5d75d0b50e31ab006286ccff9e00b8f
+bidict==0.22.1
+Brotli==1.0.9
+click==8.0.1
+dnspython==2.3.0
+eventlet==0.33.3
+Flask==2.2.2
+Flask-Compress==1.10.1
+Flask-SocketIO==5.1.1
+greenlet==2.0.2
+itsdangerous==2.1.2
+Jinja2==3.1.2
+MarkupSafe==2.1.2
+pygdbmi==0.10.0.2
+Pygments==2.14.0
+python-engineio==4.3.4
+python-socketio==5.7.2
+Werkzeug==2.2.2

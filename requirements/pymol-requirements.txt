@@ -1,2 +1,2 @@
-msgpack==1.0.3 --hash=sha256:51fdc7fb93615286428ee7758cecc2f374d5ff363bdd884c7ea622a7a327a81e
-mmtf-python==1.1.2 --hash=sha256:a5caa7fcd2c1eaa16638b5b1da2d3276cbd3ed3513f0c2322957912003b6a8df
+msgpack==1.0.3
+mmtf-python==1.1.2

@@ -1,0 +1,7 @@
+[[IgnoredVulns]]
+id = "GHSA-39hc-v87j-747x"
+reason = "Only impacts wheels, which homebrew doesn't use"
+
+[[IgnoredVulns]]
+id = "GHSA-x4qr-2fvf-3mr5"
+reason = "Only impacts wheels, which homebrew doesn't use"

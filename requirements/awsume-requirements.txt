@@ -1,9 +1,9 @@
-boto3==1.26.4 --hash=sha256:244fd0776fc1f69c3ed34f359db7a90a6108372486abc999ce8515a79bbfc86e
-botocore==1.29.4 --hash=sha256:fa86747f5092723c0dc7f201a48cdfac3ad8d03dd6cb7abc189abc708be43269
-colorama==0.4.6 --hash=sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44
-jmespath==1.0.1 --hash=sha256:90261b206d6defd58fdd5e85f478bf633a2901798906be2ad389150c5c60edbe
-pluggy==1.0.0 --hash=sha256:4224373bacce55f955a878bf9cfa763c1e360858e330072059e10bad68531159
-psutil==5.9.4 --hash=sha256:3d7f9739eb435d4b1338944abe23f49584bde5395f27487d2ee25ad9a8774a62
-python-dateutil==2.8.2 --hash=sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86
-s3transfer==0.6.0 --hash=sha256:2ed07d3866f523cc561bf4a00fc5535827981b117dd7876f036b0c1aca42c947
-urllib3==1.26.12 --hash=sha256:3fa96cf423e6987997fc326ae8df396db2a8b7c667747d47ddd8ecba91f4a74e
+boto3==1.26.4
+botocore==1.29.4
+colorama==0.4.6
+jmespath==1.0.1
+pluggy==1.0.0
+psutil==5.9.4
+python-dateutil==2.8.2
+s3transfer==0.6.0
+urllib3==1.26.12

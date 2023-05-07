@@ -1,7 +1,7 @@
-cryptography==39.0.2 --hash=sha256:bc5b871e977c8ee5a1bbc42fa8d19bcc08baf0c51cbf1586b0e87a2694dde42f
-importlib-metadata==6.0.0 --hash=sha256:e354bedeb60efa6affdcc8ae121b73544a7aa74156d047311948f6d711cd378d
-jaraco.classes==3.2.3 --hash=sha256:89559fa5c1d3c34eff6f631ad80bb21f378dbcbb35dd161fd2c6b93f5be2f98a
-jeepney==0.8.0 --hash=sha256:5efe48d255973902f6badc3ce55e2aa6c5c3b3bc642059ef3a91247bcfcc5806
-more-itertools==9.1.0 --hash=sha256:cabaa341ad0389ea83c17a94566a53ae4c9d07349861ecb14dc6d0345cf9ac5d
-SecretStorage==3.3.3 --hash=sha256:2403533ef369eca6d2ba81718576c5e0f564d5cca1b58f73a8b23e7d4eeebd77
-zipp==3.15.0 --hash=sha256:112929ad649da941c23de50f356a2b5570c954b65150642bccdd66bf194d224b
+cryptography==39.0.2
+importlib-metadata==6.0.0
+jaraco.classes==3.2.3
+jeepney==0.8.0
+more-itertools==9.1.0
+SecretStorage==3.3.3
+zipp==3.15.0

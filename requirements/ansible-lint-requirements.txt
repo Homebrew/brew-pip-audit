@@ -1,12 +1,12 @@
-attrs==23.1.0 --hash=sha256:6279836d581513a26f1bf235f9acd333bc9115683f14f7e8fae46c98fc50e015
-bracex==2.3.post1 --hash=sha256:e7b23fc8b2cd06d3dec0692baabecb249dda94e06a617901ff03a6c56fd71693
-filelock==3.12.0 --hash=sha256:fc03ae43288c013d2ea83c8597001b1129db351aad9c57fe2409327916b8e718
-jsonschema==4.17.3 --hash=sha256:0f864437ab8b6076ba6707453ef8f98a6a0d512a80e93f8abdb676f737ecb60d
-markdown-it-py==2.2.0 --hash=sha256:7c9a5e412688bc771c67432cbfebcdd686c93ce6484913dccf06cb5a0bea35a1
-mdurl==0.1.2 --hash=sha256:bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba
-packaging==23.1 --hash=sha256:a392980d2b6cffa644431898be54b0045151319d1e7ec34f0cfed48767dd334f
-pyrsistent==0.19.3 --hash=sha256:1a2994773706bbb4995c31a97bc94f1418314923bd1048c6d964837040376440
-rich==13.3.4 --hash=sha256:b5d573e13605423ec80bdd0cd5f8541f7844a0e71a13f74cf454ccb2f490708b
-ruamel.yaml==0.17.21 --hash=sha256:8b7ce697a2f212752a35c1ac414471dc16c424c9573be4926b56ff3f5d23b7af
-subprocess-tee==0.4.1 --hash=sha256:b3c124993f8b88d1eb1c2fde0bc2069787eac720ba88771cba17e8c93324825d
-wcmatch==8.4.1 --hash=sha256:b1f042a899ea4c458b7321da1b5e3331e3e0ec781583434de1301946ceadb943
+attrs==23.1.0
+bracex==2.3.post1
+filelock==3.12.0
+jsonschema==4.17.3
+markdown-it-py==2.2.0
+mdurl==0.1.2
+packaging==23.1
+pyrsistent==0.19.3
+rich==13.3.4
+ruamel.yaml==0.17.21
+subprocess-tee==0.4.1
+wcmatch==8.4.1

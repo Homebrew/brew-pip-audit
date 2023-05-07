@@ -1,4 +1,4 @@
-cpyparsing==2.4.7.1.2.1 --hash=sha256:6a13dbfed649bf07d59fd1b8d99b5d3351a8622ded959118fc19eb8b88399bcd
-prompt-toolkit==3.0.38 --hash=sha256:23ac5d50538a9a38c8bde05fecb47d0b403ecd0662857a86f886f798563d5b9b
-psutil==5.9.5 --hash=sha256:5410638e4df39c54d957fc51ce03048acd8e6d60abc0f5107af51e5fb566eb3c
-wcwidth==0.2.6 --hash=sha256:a5220780a404dbe3353789870978e472cfe477761f06ee55077256e509b156d0
+cpyparsing==2.4.7.1.2.1
+prompt-toolkit==3.0.38
+psutil==5.9.5
+wcwidth==0.2.6

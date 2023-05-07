@@ -1,7 +1,7 @@
-bitstring==4.0.1 --hash=sha256:7719f08f6df89ce28453a5e580d4a8ec1d1bda892dbb033466da0ccd9bdcb706
-cffi==1.15.1 --hash=sha256:d400bfb9a37b1351253cb402671cea7e89bdecc294e8016a707f6d1d8ac934f9
-cryptography==39.0.1 --hash=sha256:d1f6198ee6d9148405e49887803907fe8962a23e6c6f83ea7d98f1c0de375695
-ecdsa==0.18.0 --hash=sha256:190348041559e21b22a1d65cee485282ca11a6f81d503fddb84d5017e9ed1e49
-pycparser==2.21 --hash=sha256:e644fdec12f7872f86c58ff790da456218b10f863970249516d60a5eaca77206
-pyserial==3.5 --hash=sha256:3c77e014170dfffbd816e6ffc205e9842efb10be9f58ec16d3e8675b4925cddb
-reedsolo==1.6.0 --hash=sha256:4e290d3b0a7207ac7aac186790766c752b5fcdf5e0b04dfd260349579052bbac
+bitstring==4.0.1
+cffi==1.15.1
+cryptography==39.0.1
+ecdsa==0.18.0
+pycparser==2.21
+pyserial==3.5
+reedsolo==1.6.0

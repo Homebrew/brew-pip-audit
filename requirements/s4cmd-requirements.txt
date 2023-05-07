@@ -1,7 +1,7 @@
-boto3==1.26.3 --hash=sha256:b81e4aa16891eac7532ce6cc9eb690a8d2e0ceea3bcf44b5c5a1309c2500d35f
-botocore==1.29.3 --hash=sha256:ac7986fefe1b9c6323d381c4fdee3845c67fa53eb6c9cf586a8e8a07270dbcfe
-jmespath==1.0.1 --hash=sha256:90261b206d6defd58fdd5e85f478bf633a2901798906be2ad389150c5c60edbe
-python-dateutil==2.8.2 --hash=sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86
-pytz==2022.6 --hash=sha256:e89512406b793ca39f5971bc999cc538ce125c0e51c27941bef4568b460095e2
-s3transfer==0.6.0 --hash=sha256:2ed07d3866f523cc561bf4a00fc5535827981b117dd7876f036b0c1aca42c947
-urllib3==1.26.12 --hash=sha256:3fa96cf423e6987997fc326ae8df396db2a8b7c667747d47ddd8ecba91f4a74e
+boto3==1.26.3
+botocore==1.29.3
+jmespath==1.0.1
+python-dateutil==2.8.2
+pytz==2022.6
+s3transfer==0.6.0
+urllib3==1.26.12

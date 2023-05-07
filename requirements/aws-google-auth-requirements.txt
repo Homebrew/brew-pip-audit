@@ -1,24 +1,24 @@
-beautifulsoup4==4.11.1 --hash=sha256:ad9aa55b65ef2808eb405f46cf74df7fcb7044d5cbc26487f96eb2ef2e436693
-boto3==1.26.25 --hash=sha256:e0ba3620feb430e31926270ea3dc0bb94df55a0fd2b209bd91f7904f2f2166ef
-botocore==1.29.25 --hash=sha256:a204140c9d7adadf3919d8024d79278f1865a20c869e4f216eaea599ca3a1743
-certifi==2022.12.7 --hash=sha256:35824b4c3a97115964b408844d64aa14db1cc518f6562e8d7261699d1350a9e3
-charset-normalizer==2.1.1 --hash=sha256:5a3d016c7c547f69d6f81fb0db9449ce888b418b5b9952cc5e6e66843e9dd845
-configparser==5.3.0 --hash=sha256:8be267824b541c09b08db124917f48ab525a6c3e837011f3130781a224c57090
-filelock==3.8.2 --hash=sha256:7565f628ea56bfcd8e54e42bdc55da899c85c1abfe1b5bcfd147e9188cebb3b2
-idna==3.4 --hash=sha256:814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4
-importlib-metadata==5.1.0 --hash=sha256:d5059f9f1e8e41f80e9c56c2ee58811450c31984dfa625329ffd7c0dad88a73b
-jaraco.classes==3.2.3 --hash=sha256:89559fa5c1d3c34eff6f631ad80bb21f378dbcbb35dd161fd2c6b93f5be2f98a
-jmespath==1.0.1 --hash=sha256:90261b206d6defd58fdd5e85f478bf633a2901798906be2ad389150c5c60edbe
-keyring==23.11.0 --hash=sha256:ad192263e2cdd5f12875dedc2da13534359a7e760e77f8d04b50968a821c2361
-keyrings.alt==4.2.0 --hash=sha256:2ba3d56441ba0637f5f9c096068f67010ac0453f9d0b626de2aa3019353b6431
-lxml==4.9.1 --hash=sha256:fe749b052bb7233fe5d072fcb549221a8cb1a16725c47c37e42b0b9cb3ff2c3f
-more-itertools==9.0.0 --hash=sha256:5a6257e40878ef0520b1803990e3e22303a41b5714006c32a3fd8304b26ea1ab
-python-dateutil==2.8.2 --hash=sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86
-pytz-deprecation-shim==0.1.0.post0 --hash=sha256:af097bae1b616dde5c5744441e2ddc69e74dfdcb0c263129610d85b87445a59d
-requests==2.28.1 --hash=sha256:7c5599b102feddaa661c826c56ab4fee28bfd17f5abca1ebbe3e7f19d7c97983
-s3transfer==0.6.0 --hash=sha256:2ed07d3866f523cc561bf4a00fc5535827981b117dd7876f036b0c1aca42c947
-soupsieve==2.3.2.post1 --hash=sha256:fc53893b3da2c33de295667a0e19f078c14bf86544af307354de5fcf12a3f30d
-tzdata==2022.7 --hash=sha256:fe5f866eddd8b96e9fcba978f8e503c909b19ea7efda11e52e39494bad3a7bfa
-tzlocal==4.2 --hash=sha256:ee5842fa3a795f023514ac2d801c4a81d1743bbe642e3940143326b3a00addd7
-urllib3==1.26.13 --hash=sha256:c083dd0dce68dbfbe1129d5271cb90f9447dea7d52097c6e0126120c521ddea8
-zipp==3.11.0 --hash=sha256:a7a22e05929290a67401440b39690ae6563279bced5f314609d9d03798f56766
+beautifulsoup4==4.11.1
+boto3==1.26.25
+botocore==1.29.25
+certifi==2022.12.7
+charset-normalizer==2.1.1
+configparser==5.3.0
+filelock==3.8.2
+idna==3.4
+importlib-metadata==5.1.0
+jaraco.classes==3.2.3
+jmespath==1.0.1
+keyring==23.11.0
+keyrings.alt==4.2.0
+lxml==4.9.1
+more-itertools==9.0.0
+python-dateutil==2.8.2
+pytz-deprecation-shim==0.1.0.post0
+requests==2.28.1
+s3transfer==0.6.0
+soupsieve==2.3.2.post1
+tzdata==2022.7
+tzlocal==4.2
+urllib3==1.26.13
+zipp==3.11.0

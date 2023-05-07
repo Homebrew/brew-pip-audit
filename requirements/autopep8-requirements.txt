@@ -1,1 +1,1 @@
-pycodestyle==2.10.0 --hash=sha256:347187bdb476329d98f695c213d7295a846d1152ff4fe9bacb8a9590b8ee7053
+pycodestyle==2.10.0

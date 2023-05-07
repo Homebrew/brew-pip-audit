@@ -1,10 +1,10 @@
-atomicwrites==1.4.1 --hash=sha256:81b2c9071a49367a7f770170e5eec8cb66567cfbbc8c73d20ce5ca4a8d71cf11
-click==8.1.3 --hash=sha256:7682dc8afb30297001674575ea00d1814d808d6a36af415a82bd481d37ba7b8e
-click-log==0.4.0 --hash=sha256:3970f8570ac54491237bcdb3d8ab5e3eef6c057df29f8c3d1151a51a9c23b975
-humanize==4.6.0 --hash=sha256:5f1f22bc65911eb1a6ffe7659bd6598e33dcfeeb904eb16ee1e705a09bf75916
-icalendar==5.0.4 --hash=sha256:f0aa86d6f5bc110ed3b91e96c48c70351d7a09fbed25366f673dc0b799c83975
-parsedatetime==2.6 --hash=sha256:4cb368fbb18a0b7231f4d76119165451c8d2e35951455dfee97c62a87b04d455
-python-dateutil==2.8.2 --hash=sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86
-pytz==2023.2 --hash=sha256:a27dcf612c05d2ebde626f7d506555f10dfc815b3eddccfaadfc7d99b11c9a07
-pyxdg==0.28 --hash=sha256:3267bb3074e934df202af2ee0868575484108581e6f3cb006af1da35395e88b4
-urwid==2.1.2 --hash=sha256:588bee9c1cb208d0906a9f73c613d2bd32c3ed3702012f51efe318a3f2127eae
+atomicwrites==1.4.1
+click==8.1.3
+click-log==0.4.0
+humanize==4.6.0
+icalendar==5.0.4
+parsedatetime==2.6
+python-dateutil==2.8.2
+pytz==2023.2
+pyxdg==0.28
+urwid==2.1.2

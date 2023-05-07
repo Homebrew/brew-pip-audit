@@ -1,57 +1,57 @@
-appdirs==1.4.4 --hash=sha256:7d5d0167b2b1ba821647616af46a749d1c653740dd0d2415100fe26e27afdf41
-attrs==22.2.0 --hash=sha256:c9227bfc2f01993c03f68db37d1d15c9690188323c067c641f1a35ca58185f99
-autopage==0.5.1 --hash=sha256:01be3ee61bb714e9090fcc5c10f4cf546c396331c620c6ae50a2321b28ed3199
-Babel==2.12.1 --hash=sha256:cc2d99999cd01d44420ae725a21c9e3711b3aadc7976d6147f622d8581963455
-certifi==2022.12.7 --hash=sha256:35824b4c3a97115964b408844d64aa14db1cc518f6562e8d7261699d1350a9e3
-cffi==1.15.1 --hash=sha256:d400bfb9a37b1351253cb402671cea7e89bdecc294e8016a707f6d1d8ac934f9
-charset-normalizer==3.1.0 --hash=sha256:34e0a2f9c370eb95597aae63bf85eb5e96826d81e3dcf88b8886012906f509b5
-cliff==4.2.0 --hash=sha256:97fc31e93552e3bec664be9d55ad7f90dc2ab42aad8df29a5b985b644c9b8cf2
-cmd2==2.4.3 --hash=sha256:71873c11f72bd19e2b1db578214716f0d4f7c8fa250093c601265a9a717dee52
-cryptography==39.0.2 --hash=sha256:bc5b871e977c8ee5a1bbc42fa8d19bcc08baf0c51cbf1586b0e87a2694dde42f
-debtcollector==2.5.0 --hash=sha256:dc9d1ad3f745c43f4bbedbca30f9ffe8905a8c028c9926e61077847d5ea257ab
-decorator==5.1.1 --hash=sha256:637996211036b6385ef91435e4fae22989472f9d571faba8927ba8253acbc330
-dogpile.cache==1.1.8 --hash=sha256:d844e8bb638cc4f544a4c89a834dfd36fe935400b71a16cbd744ebdfb720fd4e
-idna==3.4 --hash=sha256:814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4
-importlib-metadata==6.0.0 --hash=sha256:e354bedeb60efa6affdcc8ae121b73544a7aa74156d047311948f6d711cd378d
-iso8601==1.1.0 --hash=sha256:32811e7b81deee2063ea6d2e94f8819a86d1f3811e49d23623a41fa832bef03f
-jmespath==1.0.1 --hash=sha256:90261b206d6defd58fdd5e85f478bf633a2901798906be2ad389150c5c60edbe
-jsonpatch==1.32 --hash=sha256:b6ddfe6c3db30d81a96aaeceb6baf916094ffa23d7dd5fa2c13e13f8b6e600c2
-jsonpointer==2.3 --hash=sha256:97cba51526c829282218feb99dab1b1e6bdf8efd1c43dc9d57be093c0d69c99a
-keystoneauth1==5.1.2 --hash=sha256:d9f7484ad5fc9b0bbb7ecc3cbf3795a170694fbd848251331e54ba48bbeecc72
-msgpack==1.0.5 --hash=sha256:c075544284eadc5cddc70f4757331d99dcbc16b2bbd4849d15f8aae4cf36d31c
-netaddr==0.8.0 --hash=sha256:d6cc57c7a07b1d9d2e917aa8b36ae8ce61c35ba3fcd1b83ca31c5a0ee2b5a243
-netifaces==0.11.0 --hash=sha256:043a79146eb2907edf439899f262b3dfe41717d34124298ed281139a8b93ca32
-openstacksdk==1.0.1 --hash=sha256:365e5dcca64e16e74a4f9f9d2a1f2207970e946d9a5c482549cfa5ec02ca2c98
-os-client-config==2.1.0 --hash=sha256:abc38a351f8c006d34f7ee5f3f648de5e3ecf6455cc5d76cfd889d291cdf3f4e
-os-service-types==1.7.0 --hash=sha256:31800299a82239363995b91f1ebf9106ac7758542a1e4ef6dc737a5932878c6c
-osc-lib==2.7.0 --hash=sha256:b6263ff5d03b47f243fafc96a02b0a9558dc706bc609d7e52a7070cd6a27b000
-oslo.config==9.1.1 --hash=sha256:b07654b53d87792ae8e739962ad729c529c9938a118d891ece9ee31d59716bc9
-oslo.context==5.1.1 --hash=sha256:2f2e79171044efd1807c55713ed2c7f4068b18d73d027819165c4819b287cfaf
-oslo.i18n==6.0.0 --hash=sha256:ed10686b75f7c607825177a669155f4e259ce39f6143a375f6359bbcaa4a35cd
-oslo.log==5.1.0 --hash=sha256:f6ac37af95918e05d7a1dd7d0b0552ba8b22b2e430862eb336de592d25c84f29
-oslo.serialization==5.1.1 --hash=sha256:8abbda8b1763a06071fc28c5d8a9be547ba285f4830e68a70ff88fe11f16bf43
-oslo.utils==6.1.0 --hash=sha256:76bc0108d50aca972b68fec8298e791b5fbcbeb9a51a27c6986b41b0a6a62eeb
-packaging==23.0 --hash=sha256:b6ad297f8907de0fa2fe1ccbd26fdaf387f5f47c7275fedf8cce89f99446cf97
-pbr==5.11.1 --hash=sha256:aefc51675b0b533d56bb5fd1c8c6c0522fe31896679882e1c4c63d5e4a0fccb3
-prettytable==3.6.0 --hash=sha256:2e0026af955b4ea67b22122f310b90eae890738c08cb0458693a49b6221530ac
-pycparser==2.21 --hash=sha256:e644fdec12f7872f86c58ff790da456218b10f863970249516d60a5eaca77206
-pyparsing==3.0.9 --hash=sha256:2b020ecf7d21b687f219b71ecad3631f644a47f01403fa1d1036b0c6416d70fb
-pyperclip==1.8.2 --hash=sha256:105254a8b04934f0bc84e9c24eb360a591aaf6535c9def5f29d92af107a9bf57
-python-cinderclient==9.3.0 --hash=sha256:9a6aa30feff48c0c0fd188e6d5150dbdd91e3fd5b10d2db9d78b9812ab14af88
-python-dateutil==2.8.2 --hash=sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86
-python-heatclient==3.2.0 --hash=sha256:2d88d18c3799a7b2d07901572e88321b2e0b1206b04d0103fb9a91bbbf7db563
-python-keystoneclient==5.1.0 --hash=sha256:ba09bdfeafa2a2196450a327cd3f46f2a8a9dd9d21b838f8cb9b17a99740c6a1
-python-neutronclient==9.0.0 --hash=sha256:a4062d10052940b31dbeb4479c99de4281b32f343998177195a36860e2eb04db
-python-novaclient==18.3.0 --hash=sha256:50f7587c7a2b2528f73505817f9437ac5c1d04d576e9be264d2deeffdb745a76
-python-octaviaclient==3.4.0 --hash=sha256:da96e0a9c746ec707cfab8292bb1e7d98d2ca6e970dd17b4864b8d76189e1997
-python-swiftclient==4.2.0 --hash=sha256:a3f627ce9fb54b57d30fdb41dc305bd5e60533eeb69ae79e496ad4ec5e848c85
-pytz==2022.7.1 --hash=sha256:01a0681c4b9684a28304615eba55d1ab31ae00bf68ec157ec3708a8182dbbcd0
-requests==2.28.2 --hash=sha256:98b1b2782e3c6c4904938b84c0eb932721069dfdb9134313beff7c83c2df24bf
-requestsexceptions==1.4.0 --hash=sha256:b095cbc77618f066d459a02b137b020c37da9f46d9b057704019c9f77dba3065
-rfc3986==2.0.0 --hash=sha256:97aacf9dbd4bfd829baad6e6309fa6573aaf1be3f6fa735c8ab05e46cecb261c
-simplejson==3.18.3 --hash=sha256:ebb53837c5ffcb6100646018565d3f1afed6f4b185b14b2c9cbccf874fe40157
-stevedore==5.0.0 --hash=sha256:2c428d2338976279e8eb2196f7a94910960d9f7ba2f41f3988511e95ca447021
-urllib3==1.26.14 --hash=sha256:076907bf8fd355cde77728471316625a4d2f7e713c125f51953bb5b3eecf4f72
-wcwidth==0.2.6 --hash=sha256:a5220780a404dbe3353789870978e472cfe477761f06ee55077256e509b156d0
-wrapt==1.15.0 --hash=sha256:d06730c6aed78cee4126234cf2d071e01b44b915e725a6cb439a879ec9754a3a
-zipp==3.15.0 --hash=sha256:112929ad649da941c23de50f356a2b5570c954b65150642bccdd66bf194d224b
+appdirs==1.4.4
+attrs==22.2.0
+autopage==0.5.1
+Babel==2.12.1
+certifi==2022.12.7
+cffi==1.15.1
+charset-normalizer==3.1.0
+cliff==4.2.0
+cmd2==2.4.3
+cryptography==39.0.2
+debtcollector==2.5.0
+decorator==5.1.1
+dogpile.cache==1.1.8
+idna==3.4
+importlib-metadata==6.0.0
+iso8601==1.1.0
+jmespath==1.0.1
+jsonpatch==1.32
+jsonpointer==2.3
+keystoneauth1==5.1.2
+msgpack==1.0.5
+netaddr==0.8.0
+netifaces==0.11.0
+openstacksdk==1.0.1
+os-client-config==2.1.0
+os-service-types==1.7.0
+osc-lib==2.7.0
+oslo.config==9.1.1
+oslo.context==5.1.1
+oslo.i18n==6.0.0
+oslo.log==5.1.0
+oslo.serialization==5.1.1
+oslo.utils==6.1.0
+packaging==23.0
+pbr==5.11.1
+prettytable==3.6.0
+pycparser==2.21
+pyparsing==3.0.9
+pyperclip==1.8.2
+python-cinderclient==9.3.0
+python-dateutil==2.8.2
+python-heatclient==3.2.0
+python-keystoneclient==5.1.0
+python-neutronclient==9.0.0
+python-novaclient==18.3.0
+python-octaviaclient==3.4.0
+python-swiftclient==4.2.0
+pytz==2022.7.1
+requests==2.28.2
+requestsexceptions==1.4.0
+rfc3986==2.0.0
+simplejson==3.18.3
+stevedore==5.0.0
+urllib3==1.26.14
+wcwidth==0.2.6
+wrapt==1.15.0
+zipp==3.15.0

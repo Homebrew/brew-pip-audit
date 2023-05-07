@@ -1,1 +1,1 @@
-fitsio==1.1.8 --hash=sha256:61f569b2682a0cadce52c9653f0c9b81f951d000522cef645ce1cb49f78300f9
+fitsio==1.1.8

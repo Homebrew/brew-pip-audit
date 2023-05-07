@@ -1,2 +1,2 @@
-packaging==23.1 --hash=sha256:a392980d2b6cffa644431898be54b0045151319d1e7ec34f0cfed48767dd334f
-ply==3.11 --hash=sha256:00c7c1aaa88358b9c765b6d3000c6eec0ba42abca5351b095321aef446081da3
+packaging==23.1
+ply==3.11
