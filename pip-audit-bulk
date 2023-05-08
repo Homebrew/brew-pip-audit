@@ -101,7 +101,7 @@ for audit in _OUT.glob("*.json"):
 
 success_render = ""
 for name, vuln_count in _SUMMARY_RESULTS["success"]:
-    success_render += _SUMMARY_SUCCESS_TEMPLATE(name=name, vuln_count=vuln_count)
+    success_render += _SUMMARY_SUCCESS_TEMPLATE.format(name=name, vuln_count=vuln_count)
 
 
 failure_render = ""
