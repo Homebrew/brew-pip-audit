@@ -1,4 +1,4 @@
-greenlet==2.0.1 --hash=sha256:42e602564460da0e8ee67cb6d7236363ee5e131aa15943b6670e44e5c2ed0f67
-msgpack==1.0.4 --hash=sha256:f5d869c18f030202eb412f08b28d2afeea553d6613aee89e200d7aca7ef01f5f
-psutil==5.9.4 --hash=sha256:3d7f9739eb435d4b1338944abe23f49584bde5395f27487d2ee25ad9a8774a62
-pynvim==0.4.3 --hash=sha256:3a795378bde5e8092fbeb3a1a99be9c613d2685542f1db0e5c6fd467eed56dff
+greenlet==2.0.1
+msgpack==1.0.4
+psutil==5.9.4
+pynvim==0.4.3

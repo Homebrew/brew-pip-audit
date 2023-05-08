@@ -1,6 +1,6 @@
-ffmpeg-python==0.2.0 --hash=sha256:65225db34627c578ef0e11c8b1eb528bb35e024752f6f10b78c011f6f64c4127
-future==0.18.3 --hash=sha256:34a17436ed1e96697a86f9de3d15a3b0be01d8bc8de9c1dffd59fb8234ed5307
-llvmlite==0.40.0rc1 --hash=sha256:f87877f4703bbc73b2c1a872a5487f4720031b9ad7bc8e2bf3dc5fe616db6b15
-numba==0.57.0rc1 --hash=sha256:3cd0510f3557524010338e65e395eeb035345fa4bf8cd2375023145334ddcf00
-regex==2023.3.23 --hash=sha256:dc80df325b43ffea5cdea2e3eaa97a44f3dd298262b1c7fe9dbb2a9522b956a7
-tiktoken==0.3.1 --hash=sha256:8295912429374f5f3c6c6bf053a091ce1de8c1792a62e3b30d4ad36f47fa8b52
+ffmpeg-python==0.2.0
+future==0.18.3
+llvmlite==0.40.0rc1
+numba==0.57.0rc1
+regex==2023.3.23
+tiktoken==0.3.1

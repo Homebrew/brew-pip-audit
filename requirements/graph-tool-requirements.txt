@@ -1,8 +1,8 @@
-contourpy==1.0.7 --hash=sha256:d8165a088d31798b59e91117d1f5fc3df8168d8b48c4acc10fc0df0d0bdbcc5e
-cycler==0.11.0 --hash=sha256:9c87405839a19696e837b3b818fed3f5f69f16f1eec1a1ad77e043dcea9c772f
-kiwisolver==1.4.4 --hash=sha256:d41997519fcba4a1e46eb4a2fe31bc12f0ff957b2b81bac28db24744f333e955
-matplotlib==3.7.1 --hash=sha256:7b73305f25eab4541bd7ee0b96d87e53ae9c9f1823be5659b806cd85786fe882
-packaging==23.1 --hash=sha256:a392980d2b6cffa644431898be54b0045151319d1e7ec34f0cfed48767dd334f
-pyparsing==3.0.9 --hash=sha256:2b020ecf7d21b687f219b71ecad3631f644a47f01403fa1d1036b0c6416d70fb
-python-dateutil==2.8.2 --hash=sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86
-zstandard==0.21.0 --hash=sha256:f08e3a10d01a247877e4cb61a82a319ea746c356a3786558bed2481e6c405546
+contourpy==1.0.7
+cycler==0.11.0
+kiwisolver==1.4.4
+matplotlib==3.7.1
+packaging==23.1
+pyparsing==3.0.9
+python-dateutil==2.8.2
+zstandard==0.21.0

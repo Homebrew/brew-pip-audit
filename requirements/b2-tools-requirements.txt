@@ -1,14 +1,14 @@
-arrow==1.2.3 --hash=sha256:3934b30ca1b9f292376d9db15b19446088d12ec58629bc3f0da28fd55fb633a1
-b2sdk==1.19.0 --hash=sha256:689a52b7e7578f0e12df774188c91a47ac31cf02ebbbe8ec7ae3ca163d91dfa6
-certifi==2022.12.7 --hash=sha256:35824b4c3a97115964b408844d64aa14db1cc518f6562e8d7261699d1350a9e3
-charset-normalizer==3.0.1 --hash=sha256:ebea339af930f8ca5d7a699b921106c6e29c617fe9606fa7baa043c1cdae326f
-docutils==0.19 --hash=sha256:33995a6753c30b7f577febfc2c50411fec6aac7f7ffeb7c4cfe5991072dcf9e6
-idna==3.4 --hash=sha256:814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4
-logfury==1.0.1 --hash=sha256:130a5daceab9ad534924252ddf70482aa2c96662b3a3825a7d30981d03b76a26
-phx-class-registry==4.0.5 --hash=sha256:1901bdaea34d9cfefa4d149b2f20217e7e024492f7e247797e7c4d36d96cdb5b
-python-dateutil==2.8.2 --hash=sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86
-requests==2.28.2 --hash=sha256:98b1b2782e3c6c4904938b84c0eb932721069dfdb9134313beff7c83c2df24bf
-rst2ansi==0.1.5 --hash=sha256:1b17fb9a628d40f57933ad1a3aa952346444be069469508e73e95060da33fe6f
-tabulate==0.9.0 --hash=sha256:0095b12bf5966de529c0feb1fa08671671b3368eec77d7ef7ab114be2c068b3c
-tqdm==4.64.1 --hash=sha256:5f4f682a004951c1b450bc753c710e9280c5746ce6ffedee253ddbcbf54cf1e4
-urllib3==1.26.14 --hash=sha256:076907bf8fd355cde77728471316625a4d2f7e713c125f51953bb5b3eecf4f72
+arrow==1.2.3
+b2sdk==1.19.0
+certifi==2022.12.7
+charset-normalizer==3.0.1
+docutils==0.19
+idna==3.4
+logfury==1.0.1
+phx-class-registry==4.0.5
+python-dateutil==2.8.2
+requests==2.28.2
+rst2ansi==0.1.5
+tabulate==0.9.0
+tqdm==4.64.1
+urllib3==1.26.14

@@ -1,14 +1,14 @@
-argcomplete==3.0.8 --hash=sha256:b9ca96448e14fa459d7450a4ab5a22bbf9cee4ba7adddf03e65c398b5daeea28
-charset-normalizer==3.1.0 --hash=sha256:34e0a2f9c370eb95597aae63bf85eb5e96826d81e3dcf88b8886012906f509b5
-colorama==0.4.6 --hash=sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44
-decli==0.6.0 --hash=sha256:2915a55525ef2b1a0ce88b8ccba62ac22df5b6ff3ed2094448e0f951f08e7ba5
-importlib-metadata==6.6.0 --hash=sha256:92501cdf9cc66ebd3e612f1b4f0c0765dfa42f0fa38ffb319b6bd84dd675d705
-jinja2==3.1.2 --hash=sha256:31351a702a408a9e7595a8fc6150fc3f43bb6bf7e319770cbc0db9df9437e852
-markupsafe==2.1.2 --hash=sha256:abcabc8c2b26036d62d4c746381a6f7cf60aafcc653198ad678306986b09450d
-packaging==23.1 --hash=sha256:a392980d2b6cffa644431898be54b0045151319d1e7ec34f0cfed48767dd334f
-prompt-toolkit==3.0.38 --hash=sha256:23ac5d50538a9a38c8bde05fecb47d0b403ecd0662857a86f886f798563d5b9b
-questionary==1.10.0 --hash=sha256:600d3aefecce26d48d97eee936fdb66e4bc27f934c3ab6dd1e292c4f43946d90
-termcolor==2.3.0 --hash=sha256:b5b08f68937f138fe92f6c089b99f1e2da0ae56c52b78bf7075fd95420fd9a5a
-tomlkit==0.11.8 --hash=sha256:9330fc7faa1db67b541b28e62018c17d20be733177d290a13b24c62d1614e0c3
-wcwidth==0.2.6 --hash=sha256:a5220780a404dbe3353789870978e472cfe477761f06ee55077256e509b156d0
-zipp==3.15.0 --hash=sha256:112929ad649da941c23de50f356a2b5570c954b65150642bccdd66bf194d224b
+argcomplete==3.0.8
+charset-normalizer==3.1.0
+colorama==0.4.6
+decli==0.6.0
+importlib-metadata==6.6.0
+jinja2==3.1.2
+markupsafe==2.1.2
+packaging==23.1
+prompt-toolkit==3.0.38
+questionary==1.10.0
+termcolor==2.3.0
+tomlkit==0.11.8
+wcwidth==0.2.6
+zipp==3.15.0

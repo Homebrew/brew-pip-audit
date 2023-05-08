@@ -51,7 +51,7 @@ for path in Dir.entries("audits").sort
   vulnerable_deps = begin
     audit = JSON.parse File.read("audits/#{path}")
 
-    audit.map { |dep| dep["name"] }
+    audit.map { |dep| dep["package"]["name"] }
   end
 
   ohai "#{formula_name}: attempting to patch deps: #{vulnerable_deps.join(", ")}"

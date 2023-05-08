@@ -1,6 +1,6 @@
-cli-helpers==2.3.0 --hash=sha256:e7174d003a2b58fd3e31a73fbbc45d5aa513de62cbd42d437f78b9658bd5f967
-click==8.1.3 --hash=sha256:7682dc8afb30297001674575ea00d1814d808d6a36af415a82bd481d37ba7b8e
-configobj==5.0.8 --hash=sha256:6f704434a07dc4f4dc7c9a745172c1cad449feb548febd9f7fe362629c627a97
-prompt-toolkit==3.0.38 --hash=sha256:23ac5d50538a9a38c8bde05fecb47d0b403ecd0662857a86f886f798563d5b9b
-sqlparse==0.4.4 --hash=sha256:d446183e84b8349fa3061f0fe7f06ca94ba65b426946ffebe6e3e8295332420c
-wcwidth==0.2.6 --hash=sha256:a5220780a404dbe3353789870978e472cfe477761f06ee55077256e509b156d0
+cli-helpers==2.3.0
+click==8.1.3
+configobj==5.0.8
+prompt-toolkit==3.0.38
+sqlparse==0.4.4
+wcwidth==0.2.6

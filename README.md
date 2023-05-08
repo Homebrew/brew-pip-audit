@@ -1,17 +1,21 @@
-# brew-pip-audit: Bulk auditing Python dependencies in Homebrew with pip-audit
+# brew-pip-audit: Bulk auditing Python dependencies in Homebrew with osv-scanner
 
 [Homebrew](https://brew.sh/) is a popular package manager for macOS.
 Many of the projects it packages are written in Python. In order to ensure
 reproducible builds, Homebrew precisely pins the version of each Python package
 a Homebrew formula depends on.
 
-[`pip-audit`](https://pypi.org/project/pip-audit/) is a tool for checking a
-Python project's dependencies against vulnerability databases in order to
-determine if there are any known vulnerabilities.
+[`osv-scanner`](https://google.github.io/osv-scanner/) is a tool for checking
+a project's dependencies against vulnerability databases in order to determine
+if there are any known vulnerabilities.
 
 This project takes all of the Python packages depended on by Homebrew formulas
-and runs them through `pip-audit`. It then takes those audit results and uses
+and runs them through `osv-scanner`. It then takes those audit results and uses
 them to submit patches to Homebrew.
+
+This project previously used
+[`pip-audit`](https://pypi.org/project/pip-audit/), instead of `osv-scanner`,
+hence the name.
 
 ## The repo
 
@@ -19,13 +23,13 @@ The following things can be found in this repository:
 
 - `formula2requirements.rb`: Extracts the Python dependencies from Homebrew
   and writes them out in the `requirements.txt` format.
-- `pip-audit-bulk`: Runs `pip-audit` over a directory of `requirements.txt`
+- `pip-audit-bulk`: Runs `osv-scanner` over a directory of `requirements.txt`
   files.
 - `generate-prs.rb`: Automatically generates PRs against
   `Homebrew/homebrew-core` for formulae with vulnerable dependencies.
 - `requirements/`: The extracted `requirements.txt` file for each Homebrew
   formula.
-- `audits/`: The result of `pip-audit` for each Homebrew formula. There will
+- `audits/`: The result of `osv-scanner` for each Homebrew formula. There will
   only be a file present if vulnerabilities were found.
 
 `requirements/` and `audits/` are automatically refreshed on a daily basis by

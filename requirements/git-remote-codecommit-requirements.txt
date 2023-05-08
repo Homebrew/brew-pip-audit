@@ -1,4 +1,4 @@
-botocore==1.29.36 --hash=sha256:5cb1fb381c427fe12274eb866f2ff739169e0e1f33c2481a474ba2ff8ca43f75
-jmespath==1.0.1 --hash=sha256:90261b206d6defd58fdd5e85f478bf633a2901798906be2ad389150c5c60edbe
-python-dateutil==2.8.2 --hash=sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86
-urllib3==1.26.13 --hash=sha256:c083dd0dce68dbfbe1129d5271cb90f9447dea7d52097c6e0126120c521ddea8
+botocore==1.29.36
+jmespath==1.0.1
+python-dateutil==2.8.2
+urllib3==1.26.13

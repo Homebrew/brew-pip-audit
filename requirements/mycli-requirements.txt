@@ -1,14 +1,14 @@
-cffi==1.15.1 --hash=sha256:d400bfb9a37b1351253cb402671cea7e89bdecc294e8016a707f6d1d8ac934f9
-cli-helpers==2.3.0 --hash=sha256:e7174d003a2b58fd3e31a73fbbc45d5aa513de62cbd42d437f78b9658bd5f967
-click==8.1.3 --hash=sha256:7682dc8afb30297001674575ea00d1814d808d6a36af415a82bd481d37ba7b8e
-configobj==5.0.8 --hash=sha256:6f704434a07dc4f4dc7c9a745172c1cad449feb548febd9f7fe362629c627a97
-cryptography==36.0.2 --hash=sha256:70f8f4f7bb2ac9f340655cbac89d68c527af5bb4387522a8413e841e3e6628c9
-importlib-resources==5.12.0 --hash=sha256:4be82589bf5c1d7999aedf2a45159d10cb3ca4f19b2271f8792bc8e6da7b22f6
-prompt-toolkit==3.0.38 --hash=sha256:23ac5d50538a9a38c8bde05fecb47d0b403ecd0662857a86f886f798563d5b9b
-pyaes==1.6.1 --hash=sha256:02c1b1405c38d3c370b085fb952dd8bea3fadcee6411ad99f312cc129c536d8f
-pycparser==2.21 --hash=sha256:e644fdec12f7872f86c58ff790da456218b10f863970249516d60a5eaca77206
-pymysql==1.0.3 --hash=sha256:3dda943ef3694068a75d69d071755dbecacee1adf9a1fc5b206830d2b67d25e8
-pyperclip==1.8.2 --hash=sha256:105254a8b04934f0bc84e9c24eb360a591aaf6535c9def5f29d92af107a9bf57
-sqlglot==11.6.0 --hash=sha256:c7e6cb1f70b51a8fc167536cbe2abe3ac120e500905d8fc9be5dc89a20cbd006
-sqlparse==0.4.4 --hash=sha256:d446183e84b8349fa3061f0fe7f06ca94ba65b426946ffebe6e3e8295332420c
-wcwidth==0.2.6 --hash=sha256:a5220780a404dbe3353789870978e472cfe477761f06ee55077256e509b156d0
+cffi==1.15.1
+cli-helpers==2.3.0
+click==8.1.3
+configobj==5.0.8
+cryptography==36.0.2
+importlib-resources==5.12.0
+prompt-toolkit==3.0.38
+pyaes==1.6.1
+pycparser==2.21
+pymysql==1.0.3
+pyperclip==1.8.2
+sqlglot==11.6.0
+sqlparse==0.4.4
+wcwidth==0.2.6

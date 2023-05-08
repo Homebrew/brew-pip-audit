@@ -1,10 +1,10 @@
-blessed==1.20.0 --hash=sha256:2cdd67f8746e048f00df47a2880f4d6acbcdb399031b604e34ba8f71d5787680
-click==8.1.3 --hash=sha256:7682dc8afb30297001674575ea00d1814d808d6a36af415a82bd481d37ba7b8e
-colorama==0.4.6 --hash=sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44
-gitdb==4.0.10 --hash=sha256:6eb990b69df4e15bad899ea868dc46572c3f75339735663b81de79b06f17eb9a
-GitPython==3.1.30 --hash=sha256:769c2d83e13f5d938b7688479da374c4e3d49f71549aaf462b646db9602ea6f8
-inquirer==3.1.2 --hash=sha256:d5b4dafe5cbb9edf5991b77bd08053b683e13b600bf9174c0bda5a35b3e88ec5
-python-editor==1.0.4 --hash=sha256:51fda6bcc5ddbbb7063b2af7509e43bd84bfc32a4ff71349ec7847713882327b
-readchar==4.0.3 --hash=sha256:1d920d0e9ab76ec5d42192a68d15af2562663b5dfbf4a67cf9eba520e1ca57e6
-smmap==5.0.0 --hash=sha256:c840e62059cd3be204b0c9c9f74be2c09d5648eddd4580d9314c3ecde0b30936
-wcwidth==0.2.6 --hash=sha256:a5220780a404dbe3353789870978e472cfe477761f06ee55077256e509b156d0
+blessed==1.20.0
+click==8.1.3
+colorama==0.4.6
+gitdb==4.0.10
+GitPython==3.1.30
+inquirer==3.1.2
+python-editor==1.0.4
+readchar==4.0.3
+smmap==5.0.0
+wcwidth==0.2.6

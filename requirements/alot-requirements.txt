@@ -1,13 +1,13 @@
-attrs==22.1.0 --hash=sha256:29adc2665447e5191d0e7c568fde78b21f9672d344281d0c6e1ab085429b22b6
-Automat==22.10.0 --hash=sha256:e56beb84edad19dcc11d30e8d9b895f75deeb5ef5e96b84a467066b3b84bb04e
-configobj==5.0.6 --hash=sha256:a2f5650770e1c87fb335af19a9b7eb73fc05ccf22144eb68db7d00cd2bcb0902
-constantly==15.1.0 --hash=sha256:586372eb92059873e29eba4f9dec8381541b4d3834660707faf8ba59146dfc35
-hyperlink==21.0.0 --hash=sha256:427af957daa58bc909471c6c40f74c5450fa123dd093fc53efd2e91d2705a56b
-idna==3.4 --hash=sha256:814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4
-incremental==22.10.0 --hash=sha256:912feeb5e0f7e0188e6f42241d2f450002e11bbc0937c65865045854c24c0bd0
-mock==4.0.3 --hash=sha256:7d3fbbde18228f4ff2f1f119a45cdffa458b4c0dee32eb4d2bb2f82554bac7bc
-python-magic==0.4.27 --hash=sha256:c1ba14b08e4a5f5c31a302b7721239695b2f0f058d125bd5ce1ee36b9d9d3c3b
-Twisted==22.10.0 --hash=sha256:32acbd40a94f5f46e7b42c109bfae2b302250945561783a8b7a059048f2d4d31
-urwid==2.1.2 --hash=sha256:588bee9c1cb208d0906a9f73c613d2bd32c3ed3702012f51efe318a3f2127eae
-urwidtrees==1.0.3 --hash=sha256:50b19c06b03a5a73e561757a26d449cfe0c08afabe5c0f3cd4435596bdddaae9
-zope.interface==5.5.2 --hash=sha256:bfee1f3ff62143819499e348f5b8a7f3aa0259f9aca5e0ddae7391d059dce671
+attrs==22.1.0
+Automat==22.10.0
+configobj==5.0.6
+constantly==15.1.0
+hyperlink==21.0.0
+idna==3.4
+incremental==22.10.0
+mock==4.0.3
+python-magic==0.4.27
+Twisted==22.10.0
+urwid==2.1.2
+urwidtrees==1.0.3
+zope.interface==5.5.2

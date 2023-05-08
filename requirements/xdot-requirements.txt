@@ -1,1 +1,1 @@
-graphviz==0.20 --hash=sha256:76bdfb73f42e72564ffe9c7299482f9d72f8e6cb8d54bce7b48ab323755e9ba5
+graphviz==0.20

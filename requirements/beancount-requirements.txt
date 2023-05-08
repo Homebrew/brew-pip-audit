@@ -1,31 +1,31 @@
-attrs==22.1.0 --hash=sha256:29adc2665447e5191d0e7c568fde78b21f9672d344281d0c6e1ab085429b22b6
-beautifulsoup4==4.11.1 --hash=sha256:ad9aa55b65ef2808eb405f46cf74df7fcb7044d5cbc26487f96eb2ef2e436693
-bottle==0.12.23 --hash=sha256:683de3aa399fb26e87b274dbcf70b1a651385d459131716387abdc3792e04167
-cachetools==5.2.0 --hash=sha256:6a94c6402995a99c3970cc7e4884bb60b4a8639938157eeed436098bf9831757
-certifi==2022.12.7 --hash=sha256:35824b4c3a97115964b408844d64aa14db1cc518f6562e8d7261699d1350a9e3
-chardet==5.1.0 --hash=sha256:0d62712b956bc154f85fb0a266e2a3c5913c2967e00348701b32411d6def31e5
-charset-normalizer==2.1.1 --hash=sha256:5a3d016c7c547f69d6f81fb0db9449ce888b418b5b9952cc5e6e66843e9dd845
-google-api-core==2.11.0 --hash=sha256:4b9bb5d5a380a0befa0573b302651b8a9a89262c1730e37bf423cec511804c22
-google-api-python-client==2.69.0 --hash=sha256:03624a28b5ba94f3c3d44761081f5dbf8cabaa20c5c3a96c046457c5713efb9b
-google-auth==2.15.0 --hash=sha256:72f12a6cfc968d754d7bdab369c5c5c16032106e52d32c6dfd8484e4c01a6d1f
-google-auth-httplib2==0.1.0 --hash=sha256:a07c39fd632becacd3f07718dfd6021bf396978f03ad3ce4321d060015cc30ac
-googleapis-common-protos==1.57.0 --hash=sha256:27a849d6205838fb6cc3c1c21cb9800707a661bb21c6ce7fb13e99eb1f8a0c46
-httplib2==0.21.0 --hash=sha256:fc144f091c7286b82bec71bdbd9b27323ba709cc612568d3000893bfd9cb4b34
-idna==3.4 --hash=sha256:814f528e8dead7d329833b91c5faa87d60bf71824cd12a7530b5526063d02cb4
-iniconfig==1.1.1 --hash=sha256:bc3af051d7d14b2ee5ef9969666def0cd1a000e121eaea580d4a313df4b37f32
-lxml==4.9.1 --hash=sha256:fe749b052bb7233fe5d072fcb549221a8cb1a16725c47c37e42b0b9cb3ff2c3f
-packaging==22.0 --hash=sha256:2198ec20bd4c017b8f9717e00f0c8714076fc2fd93816750ab48e2c41de2cfd3
-pluggy==1.0.0 --hash=sha256:4224373bacce55f955a878bf9cfa763c1e360858e330072059e10bad68531159
-ply==3.11 --hash=sha256:00c7c1aaa88358b9c765b6d3000c6eec0ba42abca5351b095321aef446081da3
-protobuf==4.21.11 --hash=sha256:2c6a4d13732d9b094db31b3841986c38b17ac61a3fe05ee26a779d94c4c3fb43
-pyasn1==0.4.8 --hash=sha256:aef77c9fb94a3ac588e87841208bdec464471d9871bd5050a287cc9a475cd0ba
-pyasn1-modules==0.2.8 --hash=sha256:905f84c712230b2c592c19470d3ca8d552de726050d1d1716282a1f6146be65e
-pyparsing==3.0.9 --hash=sha256:2b020ecf7d21b687f219b71ecad3631f644a47f01403fa1d1036b0c6416d70fb
-pytest==7.2.0 --hash=sha256:c4014eb40e10f11f355ad4e3c2fb2c6c6d1919c73f3b5a433de4708202cade59
-python-dateutil==2.8.2 --hash=sha256:0123cacc1627ae19ddf3c27a5de5bd67ee4586fbdd6440d9748f8abb483d3e86
-python-magic==0.4.27 --hash=sha256:c1ba14b08e4a5f5c31a302b7721239695b2f0f058d125bd5ce1ee36b9d9d3c3b
-requests==2.28.1 --hash=sha256:7c5599b102feddaa661c826c56ab4fee28bfd17f5abca1ebbe3e7f19d7c97983
-rsa==4.9 --hash=sha256:e38464a49c6c85d7f1351b0126661487a7e0a14a50f1675ec50eb34d4f20ef21
-soupsieve==2.3.2.post1 --hash=sha256:fc53893b3da2c33de295667a0e19f078c14bf86544af307354de5fcf12a3f30d
-uritemplate==4.1.1 --hash=sha256:4346edfc5c3b79f694bccd6d6099a322bbeb628dbf2cd86eea55a456ce5124f0
-urllib3==1.26.13 --hash=sha256:c083dd0dce68dbfbe1129d5271cb90f9447dea7d52097c6e0126120c521ddea8
+attrs==22.1.0
+beautifulsoup4==4.11.1
+bottle==0.12.23
+cachetools==5.2.0
+certifi==2022.12.7
+chardet==5.1.0
+charset-normalizer==2.1.1
+google-api-core==2.11.0
+google-api-python-client==2.69.0
+google-auth==2.15.0
+google-auth-httplib2==0.1.0
+googleapis-common-protos==1.57.0
+httplib2==0.21.0
+idna==3.4
+iniconfig==1.1.1
+lxml==4.9.1
+packaging==22.0
+pluggy==1.0.0
+ply==3.11
+protobuf==4.21.11
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pyparsing==3.0.9
+pytest==7.2.0
+python-dateutil==2.8.2
+python-magic==0.4.27
+requests==2.28.1
+rsa==4.9
+soupsieve==2.3.2.post1
+uritemplate==4.1.1
+urllib3==1.26.13

@@ -1,4 +1,4 @@
-flit-core==3.8.0 --hash=sha256:b305b30c99526df5e63d6022dd2310a0a941a187bd3884f4c8ef0418df6c39f3
-pip==23.0.1 --hash=sha256:cd015ea1bfb0fcef59d8a286c1f8bebcb983f6317719d415dc5351efb7cd7024
-setuptools==67.6.1 --hash=sha256:257de92a9d50a60b8e22abfcbb771571fde0dbf3ec234463212027a4eeecbe9a
-wheel==0.40.0 --hash=sha256:cd1196f3faee2b31968d626e1731c94f99cbdb67cf5a46e4f5656cbee7738873
+flit-core==3.8.0
+pip==23.0.1
+setuptools==67.6.1
+wheel==0.40.0

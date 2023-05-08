@@ -1,2 +1,2 @@
-lxml==4.9.2 --hash=sha256:2455cfaeb7ac70338b3257f41e21f0724f4b5b0c0e7702da67ee6c3640835b67
-webrtcvad-wheels==2.0.11.post1 --hash=sha256:aa1f749b5ea5ce209df9bdef7be9f4844007e630ac87ab9dbc25dda73fd5d2b7
+lxml==4.9.2
+webrtcvad-wheels==2.0.11.post1

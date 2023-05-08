@@ -1,5 +1,5 @@
-colorama==0.4.6 --hash=sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44
-decorator==5.1.1 --hash=sha256:637996211036b6385ef91435e4fae22989472f9d571faba8927ba8253acbc330
-psutil==5.9.3 --hash=sha256:7ccfcdfea4fc4b0a02ca2c31de7fcd186beb9cff8207800e14ab66f79c773af6
-pyte==0.8.1 --hash=sha256:b9bfd1b781759e7572a6e553c010cc93eef58a19d8d1590446d84c19b1b097b0
-wcwidth==0.2.5 --hash=sha256:c4d647b99872929fdb7bdcaa4fbe7f01413ed3d98077df798530e5b04f116c83
+colorama==0.4.6
+decorator==5.1.1
+psutil==5.9.3
+pyte==0.8.1
+wcwidth==0.2.5
