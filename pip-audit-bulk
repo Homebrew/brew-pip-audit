@@ -28,9 +28,7 @@ _SUMMARY_RESULTS = {
     "success": [],
     "failure": [],
 }
-_SUMMARY_SUCCESS_TEMPLATE = """
-| `{name}` | {vuln_count} |
-"""
+_SUMMARY_SUCCESS_TEMPLATE = "| `{name}` | {vuln_count} |\n"
 _SUMMARY_FAILURE_TEMPLATE = """
 `{name}` failed with:
 
