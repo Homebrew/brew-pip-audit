@@ -1,12 +1,10 @@
 certifi==2022.12.7
-cffi==1.15.1
 charset-normalizer==3.1.0
-ConfigArgParse==1.5.3
+configargparse==1.5.3
 configparser==5.3.0
 cryptography==40.0.2
 idna==3.4
-pycparser==2.21
-pyOpenSSL==23.1.1
-requests==2.28.2
-urllib3==1.26.15
+pyopenssl==23.1.1
+requests==2.30.0
+urllib3==2.0.2
 urllib3-secure-extra==0.1.0
