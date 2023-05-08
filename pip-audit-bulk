@@ -3,6 +3,7 @@
 # pip-audit-bulk: run pip-audit in bulk, saving (reduced) reports in JSON
 
 import json
+import os
 import shutil
 import subprocess
 import sys
@@ -22,6 +23,22 @@ _FAILURES.unlink(missing_ok=True)
 
 _SKIPPED = _HERE / "skipped"
 _SKIPPED.unlink(missing_ok=True)
+
+_SUMMARY_RESULTS = {
+    "success": [],
+    "failure": [],
+}
+_SUMMARY_SUCCESS_TEMPLATE = """
+| `{name}` | {vuln_count} |
+"""
+_SUMMARY_FAILURE_TEMPLATE = """
+`{name}` failed with:
+
+```console
+{stderr}
+```
+"""
+_SUMMARY = Path(os.environ["GITHUB_STEP_SUMMARY"])
 
 assert shutil.which("osv-scanner"), "missing osv-scanner"
 
@@ -46,6 +63,7 @@ for req in sorted(_REQUIREMENTS.glob("*.txt")):
         print(f"\t>:( pip-audit failed: {result.stderr}")
         with _FAILURES.open(mode="at") as failures:
             print(req.name, file=failures)
+        _SUMMARY_RESULTS["failure"].append((req.name, result.stderr))
         continue
 
     # Reduce the audit to only dependencies that include vulnerabilities
@@ -54,17 +72,21 @@ for req in sorted(_REQUIREMENTS.glob("*.txt")):
 
     # If we're left with anything, dump it as a result.
     out = _OUT / req.with_suffix(".audit.json").name
+    vuln_count = 0
     if results:
         assert len(results) == 1
         vulns = results[0]["packages"]
+        vuln_count = len(vulns)
         print(
-            f"\t:-( found {len(vulns)} vulnerabilities in {req.name}",
+            f"\t:-( found {vuln_count} vulnerabilities in {req.name}",
             file=sys.stderr,
         )
         out.write_text(json.dumps(vulns, indent=2))
     else:
         out.unlink(missing_ok=True)
         print(f"\t:-) no vulnerabilities found in {req.name}", file=sys.stderr)
+
+    _SUMMARY_RESULTS["success"].append((req.name, vuln_count))
 
 
 # Second pass: clean up any audits that don't have corresponding
@@ -75,3 +97,29 @@ for audit in _OUT.glob("*.json"):
     if not req.is_file():
         print(f":-O {audit.name} orphaned ({req.name}), deleting")
         audit.unlink()
+
+
+success_render = ""
+for name, vuln_count in _SUMMARY_RESULTS["success"]:
+    success_render += _SUMMARY_SUCCESS_TEMPLATE(name=name, vuln_count=vuln_count)
+
+
+failure_render = ""
+for name, stderr in _SUMMARY_RESULTS["failure"]:
+    failure_render += _SUMMARY_FAILURE_TEMPLATE.format(name=name, stderr=stderr)
+
+render = f"""
+The following audits completed successfully:
+
+| Input | Vulnerabilities found |
+| ----- | --------------------- |
+{success_render}
+
+
+The following audits failed, and should be manually inspected:
+
+{failure_render}
+"""
+
+with _SUMMARY.open(mode="a") as io:
+    print(render, file=io)
