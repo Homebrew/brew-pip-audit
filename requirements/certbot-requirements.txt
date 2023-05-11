@@ -1,11 +1,11 @@
-acme==2.5.0
-certbot-apache==2.5.0
-certbot-nginx==2.5.0
-certifi==2022.12.7
+acme==2.6.0
+certbot-apache==2.6.0
+certbot-nginx==2.6.0
+certifi==2023.5.7
 charset-normalizer==3.1.0
 ConfigArgParse==1.5.3
 configobj==5.0.8
-cryptography==40.0.1
+cryptography==40.0.2
 distro==1.8.0
 idna==3.4
 josepy==1.13.0
@@ -15,5 +15,5 @@ pyparsing==3.0.9
 pyRFC3339==1.1
 python-augeas==1.1.0
 pytz==2023.3
-requests==2.28.2
-urllib3==1.26.15
+requests==2.30.0
+urllib3==2.0.2
