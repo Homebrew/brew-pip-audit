@@ -5,10 +5,10 @@ anyio==3.6.2
 apscheduler==3.10.1
 attrs==23.1.0
 bcrypt==4.0.1
-boto3==1.26.129
-botocore==1.29.129
+boto3==1.26.133
+botocore==1.29.133
 cachetools==5.3.0
-certifi==2022.12.7
+certifi==2023.5.7
 charset-normalizer==3.1.0
 click==8.1.3
 cryptography==40.0.2
@@ -19,7 +19,7 @@ git-url-parse==1.2.2
 gitdb==4.0.10
 gitpython==3.1.31
 google-api-core==2.11.0
-google-auth==2.17.3
+google-auth==2.18.0
 google-cloud-appengine-logging==1.3.0
 google-cloud-audit-log==0.2.5
 google-cloud-compute==1.11.0
@@ -31,8 +31,8 @@ google-crc32c==1.5.0
 google-resumable-media==2.5.0
 googleapis-common-protos==1.59.0
 grpc-google-iam-v1==0.12.6
-grpcio==1.54.0
-grpcio-status==1.54.0
+grpcio==1.54.2
+grpcio-status==1.54.2
 h11==0.14.0
 idna==3.4
 jinja2==3.1.2
@@ -46,7 +46,7 @@ packaging==23.1
 paramiko==3.1.0
 pbr==5.11.1
 proto-plus==1.22.2
-protobuf==4.22.4
+protobuf==4.23.0
 psutil==5.9.5
 py-cpuinfo==9.0.0
 pyasn1==0.5.0
@@ -67,7 +67,7 @@ s3transfer==0.6.1
 simple-term-menu==1.6.1
 smmap==5.0.0
 sniffio==1.3.0
-sqlalchemy==2.0.12
+sqlalchemy==2.0.13
 starlette==0.26.1
 tqdm==4.65.0
 tzdata==2023.3
