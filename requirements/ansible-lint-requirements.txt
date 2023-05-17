@@ -7,7 +7,7 @@ mdurl==0.1.2
 packaging==23.1
 pyrsistent==0.19.3
 rich==13.3.5
-ruamel-yaml==0.17.24
+ruamel-yaml==0.17.26
 ruamel-yaml-clib==0.2.7
 subprocess-tee==0.4.1
 wcmatch==8.4.1

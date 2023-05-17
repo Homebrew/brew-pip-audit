@@ -3,8 +3,8 @@ attrs==23.1.0
 aws-lambda-builders==1.31.0
 aws-sam-translator==1.66.0
 binaryornot==0.4.4
-boto3==1.26.133
-botocore==1.29.133
+boto3==1.26.135
+botocore==1.29.135
 certifi==2023.5.7
 cffi==1.15.1
 cfn-lint==0.77.5
@@ -16,7 +16,7 @@ cookiecutter==2.1.1
 cryptography==39.0.2
 dateparser==1.1.8
 docker==4.2.2
-flask==2.0.3
+flask==2.2.5
 idna==3.4
 itsdangerous==2.1.2
 jinja2==3.1.2
