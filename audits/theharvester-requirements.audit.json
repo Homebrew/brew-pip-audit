@@ -202,7 +202,7 @@
       {
         "schema_version": "1.4.0",
         "id": "GHSA-24wv-mv5m-xv4h",
-        "modified": "2023-04-11T01:43:17.434555Z",
+        "modified": "2023-05-17T19:00:50.578037Z",
         "published": "2023-03-26T21:30:23Z",
         "aliases": [
           "CVE-2023-28858"
@@ -384,6 +384,12 @@
             }
           }
         ],
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N"
+          }
+        ],
         "references": [
           {
             "type": "ADVISORY",
@@ -427,11 +433,13 @@
           }
         ],
         "database_specific": {
-          "cwe_ids": [],
+          "cwe_ids": [
+            "CWE-193"
+          ],
           "github_reviewed": true,
           "github_reviewed_at": "2023-03-27T21:31:45Z",
           "nvd_published_at": "2023-03-26T19:15:00Z",
-          "severity": "HIGH"
+          "severity": "LOW"
         }
       },
       {
