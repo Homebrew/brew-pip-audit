@@ -1,4 +1,4 @@
-certifi==2022.12.7
+certifi==2023.5.7
 charset-normalizer==3.1.0
 defusedxml==0.7.1
 idna==3.4
@@ -6,7 +6,7 @@ markdown-it-py==2.2.0
 mdurl==0.1.2
 multidict==6.0.4
 pysocks==1.7.1
-requests==2.29.0
+requests==2.30.0
 requests-toolbelt==1.0.0
 rich==13.3.5
-urllib3==1.26.15
+urllib3==2.0.2
