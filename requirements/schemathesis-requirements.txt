@@ -8,8 +8,8 @@ colorama==0.4.6
 curlify==2.2.1
 graphql-core==3.2.3
 h11==0.14.0
-httpcore==0.17.0
-httpx==0.24.0
+httpcore==0.17.1
+httpx==0.24.1
 hypothesis==6.75.3
 hypothesis-graphql==0.10.0
 hypothesis-jsonschema==0.22.1
