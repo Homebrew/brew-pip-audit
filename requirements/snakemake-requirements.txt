@@ -5,8 +5,8 @@ charset-normalizer==3.1.0
 configargparse==1.5.3
 connection-pool==0.0.3
 datrie==0.8.2
-dpath==2.1.5
-fastjsonschema==2.16.3
+dpath==2.1.6
+fastjsonschema==2.17.1
 gitdb==4.0.10
 gitpython==3.1.31
 humanfriendly==10.0
