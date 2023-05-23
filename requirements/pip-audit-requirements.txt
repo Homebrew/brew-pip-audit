@@ -1,5 +1,5 @@
 cachecontrol==0.12.11
-certifi==2022.12.7
+certifi==2023.5.7
 charset-normalizer==3.1.0
 cyclonedx-python-lib==2.7.1
 html5lib==1.1
@@ -13,7 +13,7 @@ packaging==23.1
 pip-api==0.0.30
 pip-requirements-parser==32.0.1
 pyparsing==3.0.9
-requests==2.29.0
+requests==2.31.0
 rich==13.3.5
 sortedcontainers==2.4.0
 toml==0.10.2
