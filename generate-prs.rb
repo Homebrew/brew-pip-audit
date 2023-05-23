@@ -10,7 +10,7 @@ $stdout.sync = true
 ONLY_FORMULA = []
 SKIP_FORMULA = []
 
-PR_LIMIT = ENV.fetch("HOMEBREW_AUTO_PR_LIMIT", 10).to_i
+PR_LIMIT = ENV.fetch("HOMEBREW_AUTO_PR_LIMIT", 25).to_i
 
 # NOTE: The dry-run default here is the opposite of the workflow_dispatch
 # default, since the latter's default makes more sense for manually
