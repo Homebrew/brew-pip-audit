@@ -1,7 +1,6 @@
 bcrypt==4.0.1
 capstone==5.0.0rc2
 certifi==2023.5.7
-cffi==1.15.1
 charset-normalizer==3.1.0
 colored-traceback==0.3.0
 cryptography==40.0.2
@@ -13,13 +12,12 @@ packaging==23.1
 paramiko==3.1.0
 plumbum==1.8.1
 psutil==5.9.5
-pycparser==2.21
 pyelftools==0.29
 pynacl==1.5.0
 pyserial==3.5
 pysocks==1.7.1
 python-dateutil==2.8.2
-requests==2.30.0
+requests==2.31.0
 ropgadget==7.3
 rpyc==5.3.1
 sortedcontainers==2.4.0

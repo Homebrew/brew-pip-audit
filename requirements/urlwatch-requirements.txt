@@ -1,5 +1,5 @@
 appdirs==1.4.4
-certifi==2022.12.7
+certifi==2023.5.7
 charset-normalizer==3.1.0
 cssselect==1.2.0
 idna==3.4
@@ -9,6 +9,6 @@ keyring==23.13.1
 lxml==4.9.2
 minidb==2.0.7
 more-itertools==9.1.0
-requests==2.29.0
-urllib3==1.26.15
+requests==2.31.0
+urllib3==2.0.2
 zipp==3.15.0

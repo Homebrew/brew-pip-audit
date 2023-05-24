@@ -1,9 +1,9 @@
-beautifulsoup4==4.11.2
-certifi==2022.12.7
+beautifulsoup4==4.12.2
+certifi==2023.5.7
 charset-normalizer==3.1.0
 idna==3.4
-requests==2.28.2
-soupsieve==2.4
-urllib3==1.26.14
+requests==2.31.0
+soupsieve==2.4.1
+urllib3==2.0.2
 urwid==2.1.2
 wcwidth==0.2.6

@@ -21,7 +21,7 @@ platformdirs==3.5.1
 psutil==5.9.5
 pulp==2.7.0
 pyrsistent==0.19.3
-requests==2.30.0
+requests==2.31.0
 reretry==0.11.8
 smart-open==6.3.0
 smmap==5.0.0
