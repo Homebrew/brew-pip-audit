@@ -5,7 +5,7 @@ docopt==0.6.2
 idna==3.4
 jsonpatch==1.32
 jsonpointer==2.3
-requests==2.30.0
+requests==2.31.0
 schema==0.7.5
 tqdm==4.65.0
 urllib3==2.0.2
