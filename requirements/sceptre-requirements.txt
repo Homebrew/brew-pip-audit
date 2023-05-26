@@ -1,11 +1,11 @@
 attrs==23.1.0
-boto3==1.26.139
-botocore==1.29.139
+boto3==1.26.141
+botocore==1.29.141
 certifi==2023.5.7
 cfn-flip==1.3.0
 charset-normalizer==3.1.0
 click==8.1.3
-colorama==0.4.6
+colorama==0.4.3
 deepdiff==5.8.1
 deprecation==2.1.0
 idna==3.4
