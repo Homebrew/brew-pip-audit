@@ -9,7 +9,7 @@
       {
         "schema_version": "1.4.0",
         "id": "GHSA-4xqq-73wg-5mjp",
-        "modified": "2023-05-15T21:04:19.238247Z",
+        "modified": "2023-05-26T22:05:29.353885Z",
         "published": "2023-05-15T06:30:19Z",
         "aliases": [
           "CVE-2023-32758"
@@ -50,6 +50,12 @@
             }
           }
         ],
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          }
+        ],
         "references": [
           {
             "type": "ADVISORY",
@@ -73,11 +79,13 @@
           }
         ],
         "database_specific": {
-          "cwe_ids": [],
+          "cwe_ids": [
+            "CWE-1333"
+          ],
           "github_reviewed": true,
           "github_reviewed_at": "2023-05-15T20:51:51Z",
           "nvd_published_at": null,
-          "severity": "MODERATE"
+          "severity": "HIGH"
         }
       }
     ],

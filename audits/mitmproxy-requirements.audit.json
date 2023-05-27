@@ -349,7 +349,7 @@
       {
         "schema_version": "1.4.0",
         "id": "GHSA-hj3f-6gcp-jg8j",
-        "modified": "2023-05-25T17:19:07.555068Z",
+        "modified": "2023-05-26T21:34:14.886146Z",
         "published": "2023-05-25T12:30:16Z",
         "aliases": [
           "CVE-2023-28370"
@@ -456,6 +456,12 @@
             }
           }
         ],
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+          }
+        ],
         "references": [
           {
             "type": "ADVISORY",
@@ -464,6 +470,10 @@
           {
             "type": "WEB",
             "url": "https://github.com/tornadoweb/tornado/commit/32ad07c54e607839273b4e1819c347f5c8976b2f"
+          },
+          {
+            "type": "PACKAGE",
+            "url": "https://github.com/tornadoweb/tornado"
           },
           {
             "type": "WEB",
@@ -481,7 +491,7 @@
           "github_reviewed": true,
           "github_reviewed_at": "2023-05-25T17:00:25Z",
           "nvd_published_at": null,
-          "severity": "HIGH"
+          "severity": "MODERATE"
         }
       }
     ],
