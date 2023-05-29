@@ -1,7 +1,5 @@
-bitstring==4.0.1
-cffi==1.15.1
-cryptography==39.0.1
+bitstring==4.0.2
+cryptography==40.0.2
 ecdsa==0.18.0
-pycparser==2.21
 pyserial==3.5
 reedsolo==1.6.0
