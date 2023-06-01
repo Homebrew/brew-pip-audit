@@ -35,8 +35,6 @@ PR_MESSAGE = <<~MSG
   ```console
   %{new_urls}
   ```
-
-  On errors/problems, please ping `@woodruffw` or `@alex`.
 MSG
 
 prs_sent = 0
