@@ -1,6 +1,6 @@
 certifi==2023.5.7
 charset-normalizer==3.1.0
-cryptography==40.0.2
+cryptography==41.0.1
 idna==3.4
 pysocks==1.7.1
 requests==2.31.0
