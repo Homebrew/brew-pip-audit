@@ -1,5 +1,5 @@
 anytree==2.8.0
-cachetools==5.3.0
+cachetools==5.3.1
 oyaml==1.0
 packaging==23.1
 structlog==23.1.0
