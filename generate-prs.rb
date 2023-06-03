@@ -7,6 +7,9 @@ require "utils/pypi"
 # logging below gets interleaved incorrectly.
 $stdout.sync = true
 
+# Needed for revision bumping (due to AST manipulation).
+Homebrew.install_bundler_gems!
+
 # TODO: Support grabbing these from the environment.
 ONLY_FORMULA = []
 SKIP_FORMULA = []
