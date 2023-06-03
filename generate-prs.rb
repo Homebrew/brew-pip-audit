@@ -1,5 +1,6 @@
 require "json"
 require "formula"
+require "utils/ast"
 require "utils/pypi"
 
 # Don't buffer stdout; with buffering, some of our stdout/stderr
@@ -112,6 +113,20 @@ for path in Dir.entries("audits").sort
   else
     ohai "#{formula_name}: patched: #{vulns_patched.join(", ")}"
   end
+
+  # Bump the formula's revision as well; adapted from `brew bump-revision`.
+  current_revision = formula.revision
+  next_revision = current_revision + 1
+  ohai "#{formula_name}: marking as revision #{next_revision}"
+
+  formula_ast = Utils::AST::FormulaAST.new(formula.path.read)
+  if current_revision.zero?
+    formula_ast.add_stanza(:revision, new_revision)
+  else
+    formula_ast.replace_stanza(:revision, new_revision)
+  end
+  formula_ast.remove_stanza(:bottle) if args.remove_bottle_block?
+  formula.path.atomic_write(formula_ast.process)
 
   if DRY_RUN
     ohai "#{formula_name}: not issuing PR due to dry run"
