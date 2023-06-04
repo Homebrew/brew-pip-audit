@@ -86,9 +86,9 @@ for path in Dir.entries("audits").sort
 
   formula_ast = Utils::AST::FormulaAST.new(formula.path.read)
   if current_revision.zero?
-    formula_ast.add_stanza(:revision, new_revision)
+    formula_ast.add_stanza(:revision, next_revision)
   else
-    formula_ast.replace_stanza(:revision, new_revision)
+    formula_ast.replace_stanza(:revision, next_revision)
   end
   formula_ast.remove_stanza(:bottle) if args.remove_bottle_block?
   formula.path.atomic_write(formula_ast.process)
