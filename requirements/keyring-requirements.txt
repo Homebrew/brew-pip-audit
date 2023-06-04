@@ -1,7 +1,4 @@
-cryptography==39.0.2
-importlib-metadata==6.0.0
-jaraco.classes==3.2.3
-jeepney==0.8.0
+importlib-metadata==6.6.0
+jaraco-classes==3.2.3
 more-itertools==9.1.0
-SecretStorage==3.3.3
 zipp==3.15.0

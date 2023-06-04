@@ -1,9 +1,9 @@
 ansible-compat==3.0.2
-ansible-core==2.14.5
+ansible-core==2.15.0
 attrs==23.1.0
 cffi==1.15.1
 click-help-colors==0.9.1
-cryptography==40.0.2
+cryptography==41.0.1
 distro==1.8.0
 docker-py==1.10.6
 docker-pycreds==0.4.0
@@ -17,8 +17,8 @@ pluggy==1.0.0
 pycparser==2.21
 pyrsistent==0.19.3
 python-vagrant==1.0.0
-resolvelib==0.8.1
-rich==13.3.5
+resolvelib==1.0.1
+rich==13.4.1
 selinux==0.3.0
 subprocess-tee==0.4.1
-websocket-client==1.5.1
+websocket-client==1.5.2
