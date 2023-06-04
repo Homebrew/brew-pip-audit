@@ -1,5 +1,6 @@
 require "json"
 require "formula"
+require "utils/ast"
 require "utils/pypi"
 
 # Don't buffer stdout; with buffering, some of our stdout/stderr
@@ -78,7 +79,21 @@ for path in Dir.entries("audits").sort
     `git reset --hard HEAD`
   end
 
-  ohai "Updating resources for #{formula.name}"
+  # Bump the formula's revision as well; adapted from `brew bump-revision`.
+  current_revision = formula.revision
+  next_revision = current_revision + 1
+  ohai "#{formula_name}: marking as revision #{next_revision}"
+
+  formula_ast = Utils::AST::FormulaAST.new(formula.path.read)
+  if current_revision.zero?
+    formula_ast.add_stanza(:revision, next_revision)
+  else
+    formula_ast.replace_stanza(:revision, next_revision)
+  end
+  formula_ast.remove_stanza(:bottle)
+  formula.path.atomic_write(formula_ast.process)
+
+  ohai "#{formula.name}: updating Python resources"
   # TODO: Updating Python resources automatically can fail for myriad reasons;
   # we should try and handle some of them.
   begin
