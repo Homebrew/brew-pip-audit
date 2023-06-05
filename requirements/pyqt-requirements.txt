@@ -1,6 +1,6 @@
-PyQt6-3D==6.5.0
-PyQt6-Charts==6.5.0
-PyQt6-DataVisualization==6.5.0
-PyQt6-NetworkAuth==6.5.0
-PyQt6-sip==13.5.0
-PyQt6-WebEngine==6.5.0
+pyqt6-3d==6.5.0
+pyqt6-charts==6.5.0
+pyqt6-datavisualization==6.5.0
+pyqt6-networkauth==6.5.0
+pyqt6-sip==13.5.1
+pyqt6-webengine==6.5.0
