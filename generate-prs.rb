@@ -90,7 +90,6 @@ for path in Dir.entries("audits").sort
   else
     formula_ast.replace_stanza(:revision, next_revision)
   end
-  formula_ast.remove_stanza(:bottle)
   formula.path.atomic_write(formula_ast.process)
 
   ohai "#{formula.name}: updating Python resources"
