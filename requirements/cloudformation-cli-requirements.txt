@@ -1,7 +1,7 @@
 attrs==23.1.0
 aws-sam-translator==1.68.0
-boto3==1.26.144
-botocore==1.29.144
+boto3==1.26.147
+botocore==1.29.147
 certifi==2023.5.7
 cfn-flip==1.3.0
 cfn-lint==0.72.10
@@ -11,8 +11,8 @@ cloudformation-cli-go-plugin==2.0.4
 cloudformation-cli-java-plugin==2.0.16
 cloudformation-cli-python-plugin==2.1.8
 colorama==0.4.6
-docker==6.1.2
-hypothesis==6.75.9
+docker==6.1.3
+hypothesis==6.76.0
 idna==3.4
 iniconfig==2.0.0
 jinja2==3.1.2
@@ -23,7 +23,7 @@ jsonpickle==3.0.1
 jsonpointer==2.3
 jsonschema==3.2.0
 junit-xml==1.9
-markupsafe==2.1.2
+markupsafe==2.1.3
 nested-lookup==0.2.25
 networkx==2.8.8
 ordered-set==4.1.0
@@ -43,7 +43,7 @@ sarif-om==1.0.4
 semver==3.0.0
 sortedcontainers==2.4.0
 types-dataclasses==0.6.6
-typing-extensions==4.6.2
+typing-extensions==4.6.3
 urllib3==1.26.16
 websocket-client==1.5.2
 werkzeug==2.3.4
