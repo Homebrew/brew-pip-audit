@@ -825,7 +825,7 @@
       {
         "schema_version": "1.4.0",
         "id": "GHSA-hj3f-6gcp-jg8j",
-        "modified": "2023-05-26T21:34:14.886146Z",
+        "modified": "2023-06-06T18:56:29.353941Z",
         "published": "2023-05-25T12:30:16Z",
         "aliases": [
           "CVE-2023-28370"
@@ -946,6 +946,10 @@
           {
             "type": "WEB",
             "url": "https://github.com/tornadoweb/tornado/commit/32ad07c54e607839273b4e1819c347f5c8976b2f"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/pypa/advisory-database/tree/main/vulns/tornado/PYSEC-2023-75.yaml"
           },
           {
             "type": "PACKAGE",

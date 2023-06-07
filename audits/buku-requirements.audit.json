@@ -9,7 +9,7 @@
       {
         "schema_version": "1.4.0",
         "id": "GHSA-m2qf-hxjv-5gpq",
-        "modified": "2023-05-02T19:13:49.116297Z",
+        "modified": "2023-06-06T18:33:17.151768Z",
         "published": "2023-05-01T19:22:20Z",
         "aliases": [
           "CVE-2023-30861"
@@ -165,6 +165,10 @@
           {
             "type": "WEB",
             "url": "https://github.com/pallets/flask/releases/tag/2.3.2"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/pypa/advisory-database/tree/main/vulns/flask/PYSEC-2023-62.yaml"
           }
         ],
         "database_specific": {
