@@ -4,7 +4,6 @@ idna==3.4
 markdown-it-py==2.2.0
 mdurl==0.1.2
 packaging==23.1
-pygments==2.15.1
 requests==2.31.0
 rich==13.3.5
 urllib3==1.26.15

@@ -15,7 +15,6 @@ markdown-it-py==2.2.0
 mdurl==0.1.2
 packaging==23.1
 peewee==3.16.2
-pygments==2.15.1
 pyrsistent==0.19.3
 python-lsp-jsonrpc==1.0.0
 requests==2.31.0

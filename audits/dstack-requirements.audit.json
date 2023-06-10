@@ -9,7 +9,7 @@
       {
         "schema_version": "1.4.0",
         "id": "GHSA-4xqq-73wg-5mjp",
-        "modified": "2023-06-06T19:00:46.554597Z",
+        "modified": "2023-06-09T22:19:10.110066Z",
         "published": "2023-05-15T06:30:19Z",
         "aliases": [
           "CVE-2023-32758"
@@ -64,6 +64,14 @@
           {
             "type": "WEB",
             "url": "https://github.com/returntocorp/semgrep/pull/7611"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/returntocorp/semgrep/pull/7943"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/returntocorp/semgrep/pull/7955"
           },
           {
             "type": "PACKAGE",
