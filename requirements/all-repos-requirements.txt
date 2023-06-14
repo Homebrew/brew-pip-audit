@@ -1,2 +1,2 @@
-identify==2.5.17
-packaging==23.0
+identify==2.5.24
+packaging==23.1
