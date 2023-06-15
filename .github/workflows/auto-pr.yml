@@ -52,6 +52,8 @@ jobs:
 
       - name: Install Homebrew's bundler gems
         run: brew ruby -e "Homebrew.install_bundler_gems!"
+    
+      - run: brew install python
 
       - name: Generate Pull Requests
         run: brew ruby generate-prs.rb
