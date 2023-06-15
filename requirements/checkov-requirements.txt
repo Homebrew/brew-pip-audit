@@ -15,7 +15,6 @@ botocore==1.29.150
 cached-property==1.5.2
 cachetools==5.3.1
 certifi==2023.5.7
-cffi==1.15.1
 charset-normalizer==3.1.0
 click==8.1.3
 click-option-group==0.5.5
@@ -55,7 +54,6 @@ policyuniverse==1.5.1.20230608
 prettytable==3.7.0
 pycares==4.3.0
 pycep-parser==0.4.0
-pycparser==2.21
 pyparsing==3.0.9
 pyrsistent==0.19.3
 python-dateutil==2.8.2

@@ -1,7 +1,5 @@
-cffi==1.15.1
 cssselect2==0.7.0
 html5lib==1.1
-pycparser==2.21
 pydyf==0.6.0
 pyphen==0.14.0
 tinycss2==1.2.1
