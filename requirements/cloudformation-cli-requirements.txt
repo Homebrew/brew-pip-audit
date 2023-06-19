@@ -43,7 +43,6 @@ sarif-om==1.0.4
 semver==3.0.0
 sortedcontainers==2.4.0
 types-dataclasses==0.6.6
-typing-extensions==4.6.3
 urllib3==1.26.16
 websocket-client==1.5.2
 werkzeug==2.3.4
