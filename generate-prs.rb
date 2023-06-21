@@ -9,7 +9,13 @@ $stdout.sync = true
 
 # TODO: Support grabbing these from the environment.
 ONLY_FORMULA = []
-SKIP_FORMULA = []
+SKIP_FORMULA = [
+  # Requires setuptools pin to be removed:
+  # https://opendev.org/jjb/jenkins-job-builder/src/branch/master/requirements.txt#L4
+  "jenkins-job-builder",
+  # PRs don't work due to a bug where we use pre-release dependencies
+  "androguard",
+]
 
 PR_LIMIT = ENV.fetch("HOMEBREW_AUTO_PR_LIMIT", 25).to_i
 
