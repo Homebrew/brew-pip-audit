@@ -4,7 +4,7 @@ circuitbreaker==1.4.0
 click==8.0.4
 cryptography==39.0.2
 jmespath==0.10.0
-oci==2.104.2
+oci==2.104.3
 prompt-toolkit==3.0.29
 pyopenssl==23.2.0
 python-dateutil==2.8.2
