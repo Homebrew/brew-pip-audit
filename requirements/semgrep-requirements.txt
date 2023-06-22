@@ -19,7 +19,7 @@ pyrsistent==0.19.3
 python-lsp-jsonrpc==1.0.0
 requests==2.31.0
 rich==13.4.2
-ruamel-yaml==0.17.31
+ruamel-yaml==0.17.32
 ruamel-yaml-clib==0.2.7
 tomli==2.0.1
 ujson==5.8.0
