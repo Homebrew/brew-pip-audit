@@ -16,8 +16,9 @@ jsonschema==4.17.3
 jupyter-core==5.3.1
 markupsafe==2.1.3
 nbformat==5.9.0
+packaging==23.1
 plac==1.3.5
-platformdirs==3.5.3
+platformdirs==3.7.0
 psutil==5.9.5
 pulp==2.7.0
 pyrsistent==0.19.3
