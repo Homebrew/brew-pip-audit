@@ -1,7 +1,7 @@
 ffmpeg-python==0.2.0
 future==0.18.3
 llvmlite==0.40.0rc1
-numba==0.57.0rc1
+numba==0.57.1
 numpy==1.24.3
 regex==2023.3.23
 tiktoken==0.3.1
