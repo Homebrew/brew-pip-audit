@@ -1,2 +1,2 @@
-packaging==23.0
-pycryptodome==3.17
+packaging==23.1
+pycryptodome==3.18.0

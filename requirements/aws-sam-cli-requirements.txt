@@ -1,10 +1,10 @@
 arrow==1.2.3
 attrs==23.1.0
 aws-lambda-builders==1.34.0
-aws-sam-translator==1.69.0
+aws-sam-translator==1.70.0
 binaryornot==0.4.4
-boto3==1.26.159
-botocore==1.29.159
+boto3==1.26.161
+botocore==1.29.161
 certifi==2023.5.7
 cfn-lint==0.77.10
 chardet==5.1.0
@@ -22,9 +22,9 @@ jinja2==3.1.2
 jinja2-time==0.2.0
 jmespath==1.0.1
 jschema-to-python==1.2.3
-jsonpatch==1.32
+jsonpatch==1.33
 jsonpickle==3.0.1
-jsonpointer==2.3
+jsonpointer==2.4
 jsonschema==4.17.3
 junit-xml==1.9
 markdown-it-py==2.2.0
@@ -55,6 +55,6 @@ tomlkit==0.11.8
 tzlocal==3.0
 urllib3==1.26.16
 watchdog==2.1.2
-websocket-client==1.6.0
+websocket-client==1.6.1
 werkzeug==2.3.6
 wheel==0.40.0
