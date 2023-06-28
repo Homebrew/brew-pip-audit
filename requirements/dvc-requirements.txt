@@ -12,7 +12,7 @@ anyio==3.7.0
 appdirs==1.4.4
 argcomplete==3.1.1
 async-timeout==4.0.2
-asyncssh==2.13.1
+asyncssh==2.13.2
 atpublic==4.0
 attrs==23.1.0
 azure-core==1.27.1
@@ -41,9 +41,9 @@ diskcache==5.6.1
 distro==1.8.0
 dpath==2.1.6
 dulwich==0.21.5
-dvc-azure==2.21.2
-dvc-data==2.0.2
-dvc-gdrive==2.19.2
+dvc-azure==2.22.0
+dvc-data==2.3.0
+dvc-gdrive==2.20.0
 dvc-gs==2.22.1
 dvc-hdfs==2.19.0
 dvc-http==2.30.2
@@ -58,7 +58,7 @@ dvc-webdav==2.19.1
 dvc-webhdfs==2.19.0
 filelock==3.12.2
 flatten-dict==0.4.2
-flufl-lock==7.1.1
+flufl-lock==8.0.1
 frozenlist==1.3.3
 fsspec==2023.6.0
 funcy==2.0
@@ -66,12 +66,12 @@ gcsfs==2023.6.0
 gitdb==4.0.10
 gitpython==3.1.31
 google-api-core==2.11.1
-google-api-python-client==2.89.0
-google-auth==2.20.0
+google-api-python-client==2.90.0
+google-auth==2.21.0
 google-auth-httplib2==0.1.0
 google-auth-oauthlib==1.0.0
 google-cloud-core==2.3.2
-google-cloud-storage==2.9.0
+google-cloud-storage==2.10.0
 google-crc32c==1.5.0
 google-resumable-media==2.5.0
 googleapis-common-protos==1.59.1
@@ -102,7 +102,7 @@ oss2==2.18.0
 ossfs==2021.8.0
 packaging==23.1
 pathspec==0.11.1
-platformdirs==3.6.0
+platformdirs==3.8.0
 portalocker==2.7.0
 prompt-toolkit==3.0.38
 psutil==5.9.5
@@ -110,7 +110,7 @@ pyasn1==0.5.0
 pyasn1-modules==0.3.0
 pycryptodome==3.18.0
 pydot==1.4.2
-pydrive2==1.15.4
+pydrive2==1.16.0
 pygtrie==2.5.0
 pyjwt==2.7.0
 pyopenssl==23.2.0
@@ -124,7 +124,7 @@ ruamel-yaml==0.17.32
 ruamel-yaml-clib==0.2.7
 s3fs==2023.6.0
 s3transfer==0.6.1
-scmrepo==1.0.3
+scmrepo==1.0.4
 shortuuid==1.0.11
 shtab==1.6.2
 smmap==5.0.0
