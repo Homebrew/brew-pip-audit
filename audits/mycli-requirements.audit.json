@@ -7,10 +7,10 @@
     },
     "vulnerabilities": [
       {
+        "modified": "2023-04-11T01:48:23Z",
+        "published": "2023-04-03T06:30:19Z",
         "schema_version": "1.4.0",
         "id": "GHSA-c33w-24p9-8m24",
-        "modified": "2023-04-11T01:48:23.947967Z",
-        "published": "2023-04-03T06:30:19Z",
         "aliases": [
           "CVE-2023-26112"
         ],
@@ -112,10 +112,10 @@
     },
     "vulnerabilities": [
       {
+        "modified": "2023-04-11T01:24:54Z",
+        "published": "2023-02-07T20:54:10Z",
         "schema_version": "1.4.0",
         "id": "GHSA-w7pp-m8wf-vj6r",
-        "modified": "2023-04-11T01:24:54.974872Z",
-        "published": "2023-02-07T20:54:10Z",
         "aliases": [
           "CVE-2023-23931"
         ],

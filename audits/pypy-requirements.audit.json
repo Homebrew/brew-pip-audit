@@ -7,10 +7,10 @@
     },
     "vulnerabilities": [
       {
+        "modified": "2023-04-11T01:15:33Z",
+        "published": "2021-11-15T17:45:01Z",
         "schema_version": "1.4.0",
         "id": "GHSA-5xp3-jfq3-5q8x",
-        "modified": "2023-04-11T01:15:33.260872Z",
-        "published": "2021-11-15T17:45:01Z",
         "aliases": [
           "CVE-2021-3572"
         ],
@@ -200,15 +200,14 @@
         }
       },
       {
+        "modified": "2021-11-29T23:42:09Z",
+        "published": "2021-11-10T18:15:00Z",
         "schema_version": "1.4.0",
         "id": "PYSEC-2021-437",
-        "modified": "2021-11-29T23:42:09.374676Z",
-        "published": "2021-11-10T18:15:00Z",
         "aliases": [
           "CVE-2021-3572",
           "GHSA-5xp3-jfq3-5q8x"
         ],
-        "summary": "",
         "details": "A flaw was found in python-pip in the way it handled Unicode separators in git references. A remote attacker could possibly use this issue to install a different revision on a repository. The highest threat from this vulnerability is to data integrity. This is fixed in python-pip version 21.1.",
         "affected": [
           {
@@ -368,10 +367,10 @@
     },
     "vulnerabilities": [
       {
+        "modified": "2023-05-01T14:02:28Z",
+        "published": "2022-12-23T00:30:23Z",
         "schema_version": "1.4.0",
         "id": "GHSA-r9hx-vwmv-q579",
-        "modified": "2023-05-01T14:02:28.094765Z",
-        "published": "2022-12-23T00:30:23Z",
         "aliases": [
           "CVE-2022-40897"
         ],
@@ -985,14 +984,13 @@
         }
       },
       {
+        "modified": "2023-05-04T04:29:29Z",
+        "published": "2022-12-23T00:15:00Z",
         "schema_version": "1.4.0",
         "id": "PYSEC-2022-43012",
-        "modified": "2023-05-04T04:29:29.797493Z",
-        "published": "2022-12-23T00:15:00Z",
         "aliases": [
           "CVE-2022-40897"
         ],
-        "summary": "",
         "details": "Python Packaging Authority (PyPA) setuptools before 65.5.1 allows remote attackers to cause a denial of service via HTML in a crafted package or custom PackageIndex page. There is a Regular Expression Denial of Service (ReDoS) in package_index.py.",
         "affected": [
           {
@@ -1011,7 +1009,8 @@
                   {
                     "fixed": "43a9c9bfa6aa626ec2a22540bea28d2ca77964be"
                   }
-                ]
+                ],
+                "repo": "https://github.com/pypa/setuptools"
               },
               {
                 "type": "ECOSYSTEM",

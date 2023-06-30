@@ -7,10 +7,10 @@
     },
     "vulnerabilities": [
       {
+        "modified": "2023-04-11T01:23:07Z",
+        "published": "2022-12-07T23:05:18Z",
         "schema_version": "1.4.0",
         "id": "GHSA-43fp-rhv2-5gv8",
-        "modified": "2023-04-11T01:23:07.367883Z",
-        "published": "2022-12-07T23:05:18Z",
         "aliases": [
           "CVE-2022-23491"
         ],
@@ -108,15 +108,14 @@
         }
       },
       {
+        "modified": "2023-05-04T03:49:45Z",
+        "published": "2022-12-07T22:15:00Z",
         "schema_version": "1.4.0",
         "id": "PYSEC-2022-42986",
-        "modified": "2023-05-04T03:49:45.039819Z",
-        "published": "2022-12-07T22:15:00Z",
         "aliases": [
           "CVE-2022-23491",
           "GHSA-43fp-rhv2-5gv8"
         ],
-        "summary": "",
         "details": "Certifi is a curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. Certifi 2022.12.07 removes root certificates from \"TrustCor\" from the root store. These are in the process of being removed from Mozilla's trust store. TrustCor's root certificates are being removed pursuant to an investigation prompted by media reporting that TrustCor's ownership also operated a business that produced spyware. Conclusions of Mozilla's investigation can be found in the linked google group discussion.",
         "affected": [
           {
@@ -200,10 +199,10 @@
     },
     "vulnerabilities": [
       {
+        "modified": "2023-06-20T14:40:07Z",
+        "published": "2023-05-22T20:36:32Z",
         "schema_version": "1.4.0",
         "id": "GHSA-j8r2-6x86-q33q",
-        "modified": "2023-06-20T14:40:07.441939Z",
-        "published": "2023-05-22T20:36:32Z",
         "aliases": [
           "CVE-2023-32681"
         ],
@@ -362,15 +361,14 @@
         }
       },
       {
+        "modified": "2023-06-05T01:13:00Z",
+        "published": "2023-05-26T18:15:00Z",
         "schema_version": "1.4.0",
         "id": "PYSEC-2023-74",
-        "modified": "2023-06-05T01:13:00.534973Z",
-        "published": "2023-05-26T18:15:00Z",
         "aliases": [
           "CVE-2023-32681",
           "GHSA-j8r2-6x86-q33q"
         ],
-        "summary": "",
         "details": "Requests is a HTTP library. Since Requests 2.3.0, Requests has been leaking Proxy-Authorization headers to destination servers when redirected to an HTTPS endpoint. This is a product of how we use `rebuild_proxies` to reattach the `Proxy-Authorization` header to requests. For HTTP connections sent through the tunnel, the proxy will identify the header in the request itself and remove it prior to forwarding to the destination server. However when sent over HTTPS, the `Proxy-Authorization` header must be sent in the CONNECT request as the proxy has no visibility into the tunneled request. This results in Requests forwarding proxy credentials to the destination server unintentionally, allowing a malicious actor to potentially exfiltrate sensitive information. This issue has been patched in version 2.31.0.\n\n",
         "affected": [
           {
@@ -389,7 +387,8 @@
                   {
                     "fixed": "74ea7cf7a6a27a4eeb2ae24e162bcc942a6706d5"
                   }
-                ]
+                ],
+                "repo": "https://github.com/psf/requests"
               },
               {
                 "type": "ECOSYSTEM",

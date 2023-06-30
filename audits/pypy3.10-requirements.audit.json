@@ -7,10 +7,10 @@
     },
     "vulnerabilities": [
       {
+        "modified": "2023-05-01T14:02:28Z",
+        "published": "2022-12-23T00:30:23Z",
         "schema_version": "1.4.0",
         "id": "GHSA-r9hx-vwmv-q579",
-        "modified": "2023-05-01T14:02:28.094765Z",
-        "published": "2022-12-23T00:30:23Z",
         "aliases": [
           "CVE-2022-40897"
         ],
@@ -624,14 +624,13 @@
         }
       },
       {
+        "modified": "2023-05-04T04:29:29Z",
+        "published": "2022-12-23T00:15:00Z",
         "schema_version": "1.4.0",
         "id": "PYSEC-2022-43012",
-        "modified": "2023-05-04T04:29:29.797493Z",
-        "published": "2022-12-23T00:15:00Z",
         "aliases": [
           "CVE-2022-40897"
         ],
-        "summary": "",
         "details": "Python Packaging Authority (PyPA) setuptools before 65.5.1 allows remote attackers to cause a denial of service via HTML in a crafted package or custom PackageIndex page. There is a Regular Expression Denial of Service (ReDoS) in package_index.py.",
         "affected": [
           {
@@ -650,7 +649,8 @@
                   {
                     "fixed": "43a9c9bfa6aa626ec2a22540bea28d2ca77964be"
                   }
-                ]
+                ],
+                "repo": "https://github.com/pypa/setuptools"
               },
               {
                 "type": "ECOSYSTEM",

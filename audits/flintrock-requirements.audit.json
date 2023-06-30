@@ -7,15 +7,14 @@
     },
     "vulnerabilities": [
       {
+        "modified": "2022-05-17T03:06:38Z",
+        "published": "2022-03-17T22:15:00Z",
         "schema_version": "1.4.0",
         "id": "PYSEC-2022-166",
-        "modified": "2022-05-17T03:06:38.700744Z",
-        "published": "2022-03-17T22:15:00Z",
         "aliases": [
           "CVE-2022-24302",
           "GHSA-f8q4-jwww-x3wv"
         ],
-        "summary": "",
         "details": "In Paramiko before 2.10.1, a race condition (between creation and chmod) in the write_private_key_file function could allow unauthorized information disclosure.",
         "affected": [
           {

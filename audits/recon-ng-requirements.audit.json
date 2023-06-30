@@ -7,10 +7,10 @@
     },
     "vulnerabilities": [
       {
+        "modified": "2023-06-06T18:33:17Z",
+        "published": "2023-05-01T19:22:20Z",
         "schema_version": "1.4.0",
         "id": "GHSA-m2qf-hxjv-5gpq",
-        "modified": "2023-06-06T18:33:17.151768Z",
-        "published": "2023-05-01T19:22:20Z",
         "aliases": [
           "CVE-2023-30861"
         ],
@@ -182,15 +182,14 @@
         }
       },
       {
+        "modified": "2023-06-05T01:12:52Z",
+        "published": "2023-05-02T18:15:00Z",
         "schema_version": "1.4.0",
         "id": "PYSEC-2023-62",
-        "modified": "2023-06-05T01:12:52.229549Z",
-        "published": "2023-05-02T18:15:00Z",
         "aliases": [
           "CVE-2023-30861",
           "GHSA-m2qf-hxjv-5gpq"
         ],
-        "summary": "",
         "details": "Flask is a lightweight WSGI web application framework. When all of the following conditions are met, a response containing data intended for one client may be cached and subsequently sent by the proxy to other clients. If the proxy also caches `Set-Cookie` headers, it may send one client's `session` cookie to other clients. The severity depends on the application's use of the session and the proxy's behavior regarding cookies. The risk depends on all these conditions being met.\n\n1. The application must be hosted behind a caching proxy that does not strip cookies or ignore responses with cookies.\n2. The application sets `session.permanent = True`\n3. The application does not access or modify the session at any point during a request.\n4. `SESSION_REFRESH_EACH_REQUEST` enabled (the default).\n5. The application does not set a `Cache-Control` header to indicate that a page is private or should not be cached.\n\nThis happens because vulnerable versions of Flask only set the `Vary: Cookie` header when the session is accessed or modified, not when it is refreshed (re-sent to update the expiration) without being accessed or modified. This issue has been fixed in versions 2.3.2 and 2.2.5.",
         "affected": [
           {
@@ -212,7 +211,8 @@
                   {
                     "fixed": "afd63b16170b7c047f5758eb910c416511e9c965"
                   }
-                ]
+                ],
+                "repo": "https://github.com/pallets/flask"
               },
               {
                 "type": "ECOSYSTEM",
@@ -333,10 +333,10 @@
     },
     "vulnerabilities": [
       {
+        "modified": "2023-06-06T18:18:13Z",
+        "published": "2023-03-26T21:30:23Z",
         "schema_version": "1.4.0",
         "id": "GHSA-24wv-mv5m-xv4h",
-        "modified": "2023-06-06T18:18:13.224815Z",
-        "published": "2023-03-26T21:30:23Z",
         "aliases": [
           "CVE-2023-28858"
         ],
@@ -501,10 +501,10 @@
         }
       },
       {
+        "modified": "2023-05-31T18:33:13Z",
+        "published": "2023-03-26T21:30:23Z",
         "schema_version": "1.4.0",
         "id": "GHSA-8fww-64cx-x8p5",
-        "modified": "2023-05-31T18:33:13.861939Z",
-        "published": "2023-03-26T21:30:23Z",
         "aliases": [
           "CVE-2023-28859"
         ],
@@ -643,14 +643,13 @@
         }
       },
       {
+        "modified": "2023-06-05T01:13:00Z",
+        "published": "2023-03-26T19:15:00Z",
         "schema_version": "1.4.0",
         "id": "PYSEC-2023-45",
-        "modified": "2023-06-05T01:13:00.293462Z",
-        "published": "2023-03-26T19:15:00Z",
         "aliases": [
           "CVE-2023-28858"
         ],
-        "summary": "",
         "details": "redis-py before 4.5.3, as used in ChatGPT and other products, leaves a connection open after canceling an async Redis command at an inopportune time (in the case of a pipeline operation), and can send response data to the client of an unrelated request in an off-by-one manner. The fixed versions for this CVE Record are 4.3.6, 4.4.3, and 4.5.3; however, CVE-2023-28859 is a separate vulnerability.",
         "affected": [
           {
@@ -734,14 +733,13 @@
         ]
       },
       {
+        "modified": "2023-06-05T01:13:00Z",
+        "published": "2023-03-26T19:15:00Z",
         "schema_version": "1.4.0",
         "id": "PYSEC-2023-46",
-        "modified": "2023-06-05T01:13:00.432606Z",
-        "published": "2023-03-26T19:15:00Z",
         "aliases": [
           "CVE-2023-28859"
         ],
-        "summary": "",
         "details": "redis-py through 4.5.3 leaves a connection open after canceling an async Redis command at an inopportune time (in the case of a non-pipeline operation), and can send response data to the client of an unrelated request. NOTE: this issue exists because of an incomplete fix for CVE-2023-28858.",
         "affected": [
           {
@@ -833,10 +831,10 @@
     },
     "vulnerabilities": [
       {
+        "modified": "2023-06-20T14:40:07Z",
+        "published": "2023-05-22T20:36:32Z",
         "schema_version": "1.4.0",
         "id": "GHSA-j8r2-6x86-q33q",
-        "modified": "2023-06-20T14:40:07.441939Z",
-        "published": "2023-05-22T20:36:32Z",
         "aliases": [
           "CVE-2023-32681"
         ],
@@ -995,15 +993,14 @@
         }
       },
       {
+        "modified": "2023-06-05T01:13:00Z",
+        "published": "2023-05-26T18:15:00Z",
         "schema_version": "1.4.0",
         "id": "PYSEC-2023-74",
-        "modified": "2023-06-05T01:13:00.534973Z",
-        "published": "2023-05-26T18:15:00Z",
         "aliases": [
           "CVE-2023-32681",
           "GHSA-j8r2-6x86-q33q"
         ],
-        "summary": "",
         "details": "Requests is a HTTP library. Since Requests 2.3.0, Requests has been leaking Proxy-Authorization headers to destination servers when redirected to an HTTPS endpoint. This is a product of how we use `rebuild_proxies` to reattach the `Proxy-Authorization` header to requests. For HTTP connections sent through the tunnel, the proxy will identify the header in the request itself and remove it prior to forwarding to the destination server. However when sent over HTTPS, the `Proxy-Authorization` header must be sent in the CONNECT request as the proxy has no visibility into the tunneled request. This results in Requests forwarding proxy credentials to the destination server unintentionally, allowing a malicious actor to potentially exfiltrate sensitive information. This issue has been patched in version 2.31.0.\n\n",
         "affected": [
           {
@@ -1022,7 +1019,8 @@
                   {
                     "fixed": "74ea7cf7a6a27a4eeb2ae24e162bcc942a6706d5"
                   }
-                ]
+                ],
+                "repo": "https://github.com/psf/requests"
               },
               {
                 "type": "ECOSYSTEM",
@@ -1146,10 +1144,10 @@
     },
     "vulnerabilities": [
       {
+        "modified": "2023-04-11T01:48:25Z",
+        "published": "2023-02-15T15:37:03Z",
         "schema_version": "1.4.0",
         "id": "GHSA-px8h-6qxv-m22q",
-        "modified": "2023-04-11T01:48:25.804041Z",
-        "published": "2023-02-15T15:37:03Z",
         "aliases": [
           "CVE-2023-23934"
         ],
@@ -1299,10 +1297,10 @@
         }
       },
       {
+        "modified": "2023-04-11T01:18:51Z",
+        "published": "2023-02-15T15:36:26Z",
         "schema_version": "1.4.0",
         "id": "GHSA-xg9f-g7g7-2323",
-        "modified": "2023-04-11T01:18:51.835564Z",
-        "published": "2023-02-15T15:36:26Z",
         "aliases": [
           "CVE-2023-25577"
         ],
@@ -1455,15 +1453,14 @@
         }
       },
       {
+        "modified": "2023-05-04T03:49:48Z",
+        "published": "2023-02-14T20:15:00Z",
         "schema_version": "1.4.0",
         "id": "PYSEC-2023-57",
-        "modified": "2023-05-04T03:49:48.931463Z",
-        "published": "2023-02-14T20:15:00Z",
         "aliases": [
           "CVE-2023-23934",
           "GHSA-px8h-6qxv-m22q"
         ],
-        "summary": "",
         "details": "Werkzeug is a comprehensive WSGI web application library. Browsers may allow \"nameless\" cookies that look like `=value` instead of `key=value`. A vulnerable browser may allow a compromised application on an adjacent subdomain to exploit this to set a cookie like `=__Host-test=bad` for another subdomain. Werkzeug prior to 2.2.3 will parse the cookie `=__Host-test=bad` as __Host-test=bad`. If a Werkzeug application is running next to a vulnerable or malicious subdomain which sets such a cookie using a vulnerable browser, the Werkzeug application will see the bad cookie value but the valid cookie key. The issue is fixed in Werkzeug 2.2.3.",
         "affected": [
           {
@@ -1482,7 +1479,8 @@
                   {
                     "fixed": "cf275f42acad1b5950c50ffe8ef58fe62cdce028"
                   }
-                ]
+                ],
+                "repo": "https://github.com/pallets/werkzeug"
               },
               {
                 "type": "ECOSYSTEM",
@@ -1599,15 +1597,14 @@
         ]
       },
       {
+        "modified": "2023-05-04T03:49:48Z",
+        "published": "2023-02-14T20:15:00Z",
         "schema_version": "1.4.0",
         "id": "PYSEC-2023-58",
-        "modified": "2023-05-04T03:49:48.987713Z",
-        "published": "2023-02-14T20:15:00Z",
         "aliases": [
           "CVE-2023-25577",
           "GHSA-xg9f-g7g7-2323"
         ],
-        "summary": "",
         "details": "Werkzeug is a comprehensive WSGI web application library. Prior to version 2.2.3, Werkzeug's multipart form data parser will parse an unlimited number of parts, including file parts. Parts can be a small amount of bytes, but each requires CPU time to parse and may use more memory as Python data. If a request can be made to an endpoint that accesses `request.data`, `request.form`, `request.files`, or `request.get_data(parse_form_data=False)`, it can cause unexpectedly high resource usage. This allows an attacker to cause a denial of service by sending crafted multipart data to an endpoint that will parse it. The amount of CPU time required can block worker processes from handling legitimate requests. The amount of RAM required can trigger an out of memory kill of the process. Unlimited file parts can use up memory and file handles. If many concurrent requests are sent continuously, this can exhaust or kill all available workers. Version 2.2.3 contains a patch for this issue.",
         "affected": [
           {
@@ -1626,7 +1623,8 @@
                   {
                     "fixed": "517cac5a804e8c4dc4ed038bb20dacd038e7a9f1"
                   }
-                ]
+                ],
+                "repo": "https://github.com/pallets/werkzeug"
               },
               {
                 "type": "ECOSYSTEM",

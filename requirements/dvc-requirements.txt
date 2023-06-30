@@ -1,5 +1,5 @@
 adlfs==2023.4.0
-aiobotocore==2.5.0
+aiobotocore==2.5.1
 aiohttp==3.8.4
 aiohttp-retry==2.8.3
 aioitertools==0.11.0
@@ -21,8 +21,8 @@ azure-identity==1.13.0
 azure-storage-blob==12.16.0
 bcrypt==4.0.1
 billiard==4.1.0
-boto3==1.26.76
-botocore==1.29.76
+boto3==1.26.161
+botocore==1.29.161
 cachetools==5.3.1
 celery==5.3.1
 certifi==2023.5.7
@@ -42,7 +42,7 @@ distro==1.8.0
 dpath==2.1.6
 dulwich==0.21.5
 dvc-azure==2.22.0
-dvc-data==2.3.0
+dvc-data==2.3.1
 dvc-gdrive==2.20.0
 dvc-gs==2.22.1
 dvc-hdfs==2.19.0
@@ -66,7 +66,7 @@ gcsfs==2023.6.0
 gitdb==4.0.10
 gitpython==3.1.31
 google-api-core==2.11.1
-google-api-python-client==2.90.0
+google-api-python-client==2.91.0
 google-auth==2.21.0
 google-auth-httplib2==0.1.0
 google-auth-oauthlib==1.0.0

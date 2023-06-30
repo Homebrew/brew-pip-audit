@@ -7,10 +7,10 @@
     },
     "vulnerabilities": [
       {
+        "modified": "2023-04-11T01:49:22Z",
+        "published": "2021-04-20T16:35:47Z",
         "schema_version": "1.4.0",
         "id": "GHSA-9w8r-397f-prfh",
-        "modified": "2023-04-11T01:49:22.905937Z",
-        "published": "2021-04-20T16:35:47Z",
         "aliases": [
           "CVE-2021-20270"
         ],
@@ -111,10 +111,10 @@
         }
       },
       {
+        "modified": "2023-04-11T01:33:30Z",
+        "published": "2021-03-29T16:33:03Z",
         "schema_version": "1.4.0",
         "id": "GHSA-pq64-v7f5-gqh8",
-        "modified": "2023-04-11T01:33:30.51909Z",
-        "published": "2021-03-29T16:33:03Z",
         "aliases": [
           "CVE-2021-27291"
         ],
@@ -243,15 +243,14 @@
         }
       },
       {
+        "modified": "2021-08-27T03:22:17Z",
+        "published": "2021-03-23T17:15:00Z",
         "schema_version": "1.4.0",
         "id": "PYSEC-2021-140",
-        "modified": "2021-08-27T03:22:17.263376Z",
-        "published": "2021-03-23T17:15:00Z",
         "aliases": [
           "CVE-2021-20270",
           "GHSA-9w8r-397f-prfh"
         ],
-        "summary": "",
         "details": "An infinite loop in SMLLexer in Pygments versions 1.5 to 2.7.3 may lead to denial of service when performing syntax highlighting of a Standard ML (SML) source file, as demonstrated by input that only contains the \"exception\" keyword.",
         "affected": [
           {
@@ -329,15 +328,14 @@
         ]
       },
       {
+        "modified": "2021-08-27T03:22:17Z",
+        "published": "2021-03-17T13:15:00Z",
         "schema_version": "1.4.0",
         "id": "PYSEC-2021-141",
-        "modified": "2021-08-27T03:22:17.331175Z",
-        "published": "2021-03-17T13:15:00Z",
         "aliases": [
           "CVE-2021-27291",
           "GHSA-pq64-v7f5-gqh8"
         ],
-        "summary": "",
         "details": "In pygments 1.1+, fixed in 2.7.4, the lexers used to parse programming languages rely heavily on regular expressions. Some of the regular expressions have exponential or cubic worst-case complexity and are vulnerable to ReDoS. By crafting malicious input, an attacker can cause a denial of service.",
         "affected": [
           {
@@ -356,7 +354,8 @@
                   {
                     "fixed": "2e7e8c4a7b318f4032493773732754e418279a14"
                   }
-                ]
+                ],
+                "repo": "https://github.com/pygments/pygments"
               },
               {
                 "type": "ECOSYSTEM",

@@ -7,10 +7,10 @@
     },
     "vulnerabilities": [
       {
+        "modified": "2023-04-11T01:24:54Z",
+        "published": "2023-02-07T20:54:10Z",
         "schema_version": "1.4.0",
         "id": "GHSA-w7pp-m8wf-vj6r",
-        "modified": "2023-04-11T01:24:54.974872Z",
-        "published": "2023-02-07T20:54:10Z",
         "aliases": [
           "CVE-2023-23931"
         ],
@@ -160,10 +160,10 @@
     },
     "vulnerabilities": [
       {
+        "modified": "2023-06-06T18:33:17Z",
+        "published": "2023-05-01T19:22:20Z",
         "schema_version": "1.4.0",
         "id": "GHSA-m2qf-hxjv-5gpq",
-        "modified": "2023-06-06T18:33:17.151768Z",
-        "published": "2023-05-01T19:22:20Z",
         "aliases": [
           "CVE-2023-30861"
         ],
@@ -335,15 +335,14 @@
         }
       },
       {
+        "modified": "2023-06-05T01:12:52Z",
+        "published": "2023-05-02T18:15:00Z",
         "schema_version": "1.4.0",
         "id": "PYSEC-2023-62",
-        "modified": "2023-06-05T01:12:52.229549Z",
-        "published": "2023-05-02T18:15:00Z",
         "aliases": [
           "CVE-2023-30861",
           "GHSA-m2qf-hxjv-5gpq"
         ],
-        "summary": "",
         "details": "Flask is a lightweight WSGI web application framework. When all of the following conditions are met, a response containing data intended for one client may be cached and subsequently sent by the proxy to other clients. If the proxy also caches `Set-Cookie` headers, it may send one client's `session` cookie to other clients. The severity depends on the application's use of the session and the proxy's behavior regarding cookies. The risk depends on all these conditions being met.\n\n1. The application must be hosted behind a caching proxy that does not strip cookies or ignore responses with cookies.\n2. The application sets `session.permanent = True`\n3. The application does not access or modify the session at any point during a request.\n4. `SESSION_REFRESH_EACH_REQUEST` enabled (the default).\n5. The application does not set a `Cache-Control` header to indicate that a page is private or should not be cached.\n\nThis happens because vulnerable versions of Flask only set the `Vary: Cookie` header when the session is accessed or modified, not when it is refreshed (re-sent to update the expiration) without being accessed or modified. This issue has been fixed in versions 2.3.2 and 2.2.5.",
         "affected": [
           {
@@ -365,7 +364,8 @@
                   {
                     "fixed": "afd63b16170b7c047f5758eb910c416511e9c965"
                   }
-                ]
+                ],
+                "repo": "https://github.com/pallets/flask"
               },
               {
                 "type": "ECOSYSTEM",
@@ -486,10 +486,10 @@
     },
     "vulnerabilities": [
       {
+        "modified": "2023-06-06T18:56:29Z",
+        "published": "2023-05-25T12:30:16Z",
         "schema_version": "1.4.0",
         "id": "GHSA-hj3f-6gcp-jg8j",
-        "modified": "2023-06-06T18:56:29.353941Z",
-        "published": "2023-05-25T12:30:16Z",
         "aliases": [
           "CVE-2023-28370"
         ],
@@ -638,14 +638,13 @@
         }
       },
       {
+        "modified": "2023-06-05T01:13:01Z",
+        "published": "2023-05-25T10:15:00Z",
         "schema_version": "1.4.0",
         "id": "PYSEC-2023-75",
-        "modified": "2023-06-05T01:13:01.694311Z",
-        "published": "2023-05-25T10:15:00Z",
         "aliases": [
           "CVE-2023-28370"
         ],
-        "summary": "",
         "details": "Open redirect vulnerability in Tornado versions 6.3.1 and earlier allows a remote unauthenticated attacker to redirect a user to an arbitrary web site and conduct a phishing attack by having user access a specially crafted URL.",
         "affected": [
           {

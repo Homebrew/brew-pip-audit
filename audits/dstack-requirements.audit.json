@@ -7,10 +7,10 @@
     },
     "vulnerabilities": [
       {
+        "modified": "2023-06-09T22:19:10Z",
+        "published": "2023-05-15T06:30:19Z",
         "schema_version": "1.4.0",
         "id": "GHSA-4xqq-73wg-5mjp",
-        "modified": "2023-06-09T22:19:10.110066Z",
-        "published": "2023-05-15T06:30:19Z",
         "aliases": [
           "CVE-2023-32758"
         ],

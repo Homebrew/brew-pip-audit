@@ -7,10 +7,10 @@
     },
     "vulnerabilities": [
       {
+        "modified": "2023-06-12T17:01:23Z",
+        "published": "2023-05-17T03:49:14Z",
         "schema_version": "1.4.0",
         "id": "GHSA-v5gw-mw7f-84px",
-        "modified": "2023-06-12T17:01:23.1865Z",
-        "published": "2023-05-17T03:49:14Z",
         "aliases": [
           "CVE-2023-29159"
         ],
@@ -127,15 +127,14 @@
         }
       },
       {
+        "modified": "2023-06-08T05:25:54Z",
+        "published": "2023-06-01T02:15:00Z",
         "schema_version": "1.4.0",
         "id": "PYSEC-2023-83",
-        "modified": "2023-06-08T05:25:54.818459Z",
-        "published": "2023-06-01T02:15:00Z",
         "aliases": [
           "CVE-2023-29159",
           "GHSA-v5gw-mw7f-84px"
         ],
-        "summary": "",
         "details": "Directory traversal vulnerability in Starlette versions 0.13.5 and later and prior to 0.27.0 allows a remote unauthenticated attacker to view files in a web service which was built using Starlette.",
         "affected": [
           {
