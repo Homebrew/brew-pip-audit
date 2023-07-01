@@ -160,7 +160,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-06-06T18:33:17Z",
+        "modified": "2023-06-30T20:34:44Z",
         "published": "2023-05-01T19:22:20Z",
         "schema_version": "1.4.0",
         "id": "GHSA-m2qf-hxjv-5gpq",
@@ -322,6 +322,10 @@
           {
             "type": "WEB",
             "url": "https://github.com/pypa/advisory-database/tree/main/vulns/flask/PYSEC-2023-62.yaml"
+          },
+          {
+            "type": "WEB",
+            "url": "https://www.debian.org/security/2023/dsa-5442"
           }
         ],
         "database_specific": {
