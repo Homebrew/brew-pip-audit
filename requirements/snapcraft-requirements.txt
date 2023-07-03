@@ -1,3 +1,4 @@
+setuptools==65.7.0
 attrs==22.2.0
 catkin-pkg==0.5.2
 certifi==2022.9.24
