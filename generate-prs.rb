@@ -22,6 +22,8 @@ SKIP_FORMULA = [
   "offlineimap",
   # Not a Python package
   "pypy", "pypy3.9", "pypy3.10",
+  # No setup.py.
+  "recon-ng",
 ]
 
 PR_LIMIT = ENV.fetch("HOMEBREW_AUTO_PR_LIMIT", 25).to_i
