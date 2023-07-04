@@ -15,7 +15,8 @@ FileUtils.rm_rf OUT
 FileUtils.mkdir_p OUT
 
 Formula.all.sort.each do |f|
-  requirement_file = "#{OUT}/#{f.name}-requirements.txt"
+  # Skip formulae that aren't in homebrew/core.
+  next unless f.tap.name == "homebrew/core"
 
   # Look for formulae that have PyPI resources; skip those that don't.
   python_resources = f.resources.select { |r| r.url =~ /files\.pythonhosted\.org/ }
@@ -23,6 +24,8 @@ Formula.all.sort.each do |f|
 
   # Skip deprecated and disabled formulae.
   next if f.deprecated? || f.disabled?
+
+  requirement_file = "#{OUT}/#{f.name}-requirements.txt"
 
   puts f.name
   File.open requirement_file, "w" do |io|
