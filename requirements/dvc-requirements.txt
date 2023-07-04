@@ -52,7 +52,7 @@ dvc-oss==2.19.0
 dvc-render==0.5.3
 dvc-s3==2.23.0
 dvc-ssh==2.22.1
-dvc-studio-client==0.10.0
+dvc-studio-client==0.11.0
 dvc-task==0.3.0
 dvc-webdav==2.19.1
 dvc-webhdfs==2.19.0
