@@ -15,6 +15,9 @@ SKIP_FORMULA = [
   "jenkins-job-builder",
   # PRs don't work due to a bug where we use pre-release dependencies
   "androguard",
+  # Has a weird PyInstaller-based install that `pip` can't handle
+  # https://github.com/Homebrew/homebrew-core/blob/5eb7ab4f78c012514871011fd1ab80fb0911809f/Formula/gyb.rb#L151-L160
+  "gyb",
 ]
 
 PR_LIMIT = ENV.fetch("HOMEBREW_AUTO_PR_LIMIT", 25).to_i
