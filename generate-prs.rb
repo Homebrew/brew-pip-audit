@@ -20,6 +20,9 @@ SKIP_FORMULA = [
   "gyb",
   # setup.py requires another package to be pre-installed. Should really use pyproject.toml.
   "offlineimap",
+  # Not really a Python package; has Python resources because it uses setuptools,
+  # pip, etc.
+  "pypy",
 ]
 
 PR_LIMIT = ENV.fetch("HOMEBREW_AUTO_PR_LIMIT", 25).to_i
