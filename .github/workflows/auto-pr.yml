@@ -15,11 +15,6 @@ on:
     workflows: ["pip-audit brew packages"]
     types: [completed]
 
-env:
-  HOMEBREW_NO_AUTO_UPDATE: 1
-  HOMEBREW_NO_INSTALL_FROM_API: 1
-  HOMEBREW_EVAL_ALL: 1
-
 jobs:
   auto-pr:
     runs-on: macos-latest
@@ -44,6 +39,7 @@ jobs:
         id: set-up-homebrew
         uses: Homebrew/actions/setup-homebrew@master
         with:
+          core: true
           cask: false
           test-bot: false
 
@@ -54,7 +50,7 @@ jobs:
 
       - name: Install Homebrew's bundler gems
         run: brew ruby -e "Homebrew.install_bundler_gems!"
-    
+
       - run: brew install --overwrite python
 
       - name: Generate Pull Requests
@@ -63,3 +59,6 @@ jobs:
           HOMEBREW_GITHUB_API_TOKEN: ${{ secrets.BREW_PIP_AUDIT_GH_TOKEN }}
           HOMEBREW_AUTO_PR_DRY_RUN: ${{ inputs.dry-run }}
           HOMEBREW_AUTO_PR_LIMIT: ${{ inputs.pr-limit }}
+          HOMEBREW_NO_AUTO_UPDATE: 1
+          HOMEBREW_NO_INSTALL_FROM_API: 1
+          HOMEBREW_EVAL_ALL: 1
