@@ -1,4 +1,0 @@
-flit-core==3.8.0
-pip==23.0.1
-setuptools==67.6.1
-wheel==0.40.0

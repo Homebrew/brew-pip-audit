@@ -1,9 +1,0 @@
-certifi==2023.5.7
-charset-normalizer==3.1.0
-click-plugins==1.1.1
-click==8.1.3
-colorama==0.4.6
-idna==3.4
-requests==2.31.0
-urllib3==2.0.2
-xlsxwriter==3.1.1

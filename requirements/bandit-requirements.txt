@@ -1,8 +1,0 @@
-gitdb==4.0.10
-GitPython==3.1.31
-markdown-it-py==2.2.0
-mdurl==0.1.2
-pbr==5.11.1
-rich==13.3.2
-smmap==5.0.0
-stevedore==5.0.0

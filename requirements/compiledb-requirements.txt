@@ -1,3 +1,0 @@
-bashlex==0.16
-click==8.1.3
-shutilwhich==1.1.0

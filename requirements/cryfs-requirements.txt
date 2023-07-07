@@ -1,1 +1,0 @@
-versioneer==0.28

@@ -1,3 +1,0 @@
-distlib==0.3.6
-filelock==3.12.2
-platformdirs==3.5.3

@@ -1,4 +1,0 @@
-cpyparsing==2.4.7.1.2.1
-prompt-toolkit==3.0.38
-psutil==5.9.5
-wcwidth==0.2.6
