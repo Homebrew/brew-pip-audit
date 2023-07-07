@@ -1,0 +1,2 @@
+packaging==23.0
+pyproject_hooks==1.0.0

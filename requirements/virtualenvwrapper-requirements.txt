@@ -1,0 +1,4 @@
+appdirs==1.4.4
+pbr==5.5.1
+stevedore==3.3.0
+virtualenv-clone==0.5.4

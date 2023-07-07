@@ -1,0 +1,507 @@
+[
+  {
+    "package": {
+      "name": "certifi",
+      "version": "2022.9.24",
+      "ecosystem": "PyPI"
+    },
+    "vulnerabilities": [
+      {
+        "modified": "2023-04-11T01:23:07Z",
+        "published": "2022-12-07T23:05:18Z",
+        "schema_version": "1.4.0",
+        "id": "GHSA-43fp-rhv2-5gv8",
+        "aliases": [
+          "CVE-2022-23491"
+        ],
+        "summary": "Certifi removing TrustCor root certificate",
+        "details": "Certifi 2022.12.07 removes root certificates from \"TrustCor\" from the root store. These are in the process of being removed from Mozilla's trust store.\n\nTrustCor's root certificates are being removed pursuant to an investigation prompted by media reporting that TrustCor's ownership also operated a business that produced spyware. Conclusions of Mozilla's investigation can be found [here](https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/oxX69KFvsm4/m/yLohoVqtCgAJ).",
+        "affected": [
+          {
+            "package": {
+              "ecosystem": "PyPI",
+              "name": "certifi",
+              "purl": "pkg:pypi/certifi"
+            },
+            "ranges": [
+              {
+                "type": "ECOSYSTEM",
+                "events": [
+                  {
+                    "introduced": "2017.11.05"
+                  },
+                  {
+                    "fixed": "2022.12.07"
+                  }
+                ]
+              }
+            ],
+            "versions": [
+              "2017.11.5",
+              "2018.1.18",
+              "2018.10.15",
+              "2018.11.29",
+              "2018.4.16",
+              "2018.8.13",
+              "2018.8.24",
+              "2019.11.28",
+              "2019.3.9",
+              "2019.6.16",
+              "2019.9.11",
+              "2020.11.8",
+              "2020.12.5",
+              "2020.4.5",
+              "2020.4.5.1",
+              "2020.4.5.2",
+              "2020.6.20",
+              "2021.10.8",
+              "2021.5.30",
+              "2022.5.18",
+              "2022.5.18.1",
+              "2022.6.15",
+              "2022.6.15.1",
+              "2022.6.15.2",
+              "2022.9.14",
+              "2022.9.24"
+            ],
+            "database_specific": {
+              "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/12/GHSA-43fp-rhv2-5gv8/GHSA-43fp-rhv2-5gv8.json"
+            }
+          }
+        ],
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:H/A:N"
+          }
+        ],
+        "references": [
+          {
+            "type": "WEB",
+            "url": "https://github.com/certifi/python-certifi/security/advisories/GHSA-43fp-rhv2-5gv8"
+          },
+          {
+            "type": "ADVISORY",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-23491"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/certifi/python-certifi/commit/9e9e840925d7b8e76c76fdac1fab7e6e88c1c3b8"
+          },
+          {
+            "type": "PACKAGE",
+            "url": "https://github.com/certifi/python-certifi"
+          },
+          {
+            "type": "WEB",
+            "url": "https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/oxX69KFvsm4/m/yLohoVqtCgAJ"
+          }
+        ],
+        "database_specific": {
+          "cwe_ids": [
+            "CWE-345"
+          ],
+          "github_reviewed": true,
+          "github_reviewed_at": "2022-12-07T23:05:18Z",
+          "nvd_published_at": "2022-12-07T22:15:00Z",
+          "severity": "MODERATE"
+        }
+      },
+      {
+        "modified": "2023-05-04T03:49:45Z",
+        "published": "2022-12-07T22:15:00Z",
+        "schema_version": "1.4.0",
+        "id": "PYSEC-2022-42986",
+        "aliases": [
+          "CVE-2022-23491",
+          "GHSA-43fp-rhv2-5gv8"
+        ],
+        "details": "Certifi is a curated collection of Root Certificates for validating the trustworthiness of SSL certificates while verifying the identity of TLS hosts. Certifi 2022.12.07 removes root certificates from \"TrustCor\" from the root store. These are in the process of being removed from Mozilla's trust store. TrustCor's root certificates are being removed pursuant to an investigation prompted by media reporting that TrustCor's ownership also operated a business that produced spyware. Conclusions of Mozilla's investigation can be found in the linked google group discussion.",
+        "affected": [
+          {
+            "package": {
+              "ecosystem": "PyPI",
+              "name": "certifi",
+              "purl": "pkg:pypi/certifi"
+            },
+            "ranges": [
+              {
+                "type": "ECOSYSTEM",
+                "events": [
+                  {
+                    "introduced": "2017.11.5"
+                  },
+                  {
+                    "fixed": "2022.12.7"
+                  }
+                ]
+              }
+            ],
+            "versions": [
+              "2017.11.5",
+              "2018.1.18",
+              "2018.10.15",
+              "2018.11.29",
+              "2018.4.16",
+              "2018.8.13",
+              "2018.8.24",
+              "2019.11.28",
+              "2019.3.9",
+              "2019.6.16",
+              "2019.9.11",
+              "2020.11.8",
+              "2020.12.5",
+              "2020.4.5",
+              "2020.4.5.1",
+              "2020.4.5.2",
+              "2020.6.20",
+              "2021.10.8",
+              "2021.5.30",
+              "2022.5.18",
+              "2022.5.18.1",
+              "2022.6.15",
+              "2022.6.15.1",
+              "2022.6.15.2",
+              "2022.9.14",
+              "2022.9.24"
+            ],
+            "database_specific": {
+              "source": "https://github.com/pypa/advisory-database/blob/main/vulns/certifi/PYSEC-2022-42986.yaml"
+            }
+          }
+        ],
+        "references": [
+          {
+            "type": "WEB",
+            "url": "https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/oxX69KFvsm4/m/yLohoVqtCgAJ"
+          },
+          {
+            "type": "ADVISORY",
+            "url": "https://github.com/certifi/python-certifi/security/advisories/GHSA-43fp-rhv2-5gv8"
+          }
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "ids": [
+          "GHSA-43fp-rhv2-5gv8",
+          "PYSEC-2022-42986"
+        ]
+      }
+    ]
+  },
+  {
+    "package": {
+      "name": "requests",
+      "version": "2.28.1",
+      "ecosystem": "PyPI"
+    },
+    "vulnerabilities": [
+      {
+        "modified": "2023-06-20T14:40:07Z",
+        "published": "2023-05-22T20:36:32Z",
+        "schema_version": "1.4.0",
+        "id": "GHSA-j8r2-6x86-q33q",
+        "aliases": [
+          "CVE-2023-32681"
+        ],
+        "summary": "Unintended leak of Proxy-Authorization header in requests",
+        "details": "### Impact\n\nSince Requests v2.3.0, Requests has been vulnerable to potentially leaking `Proxy-Authorization` headers to destination servers, specifically during redirects to an HTTPS origin. This is a product of how `rebuild_proxies` is used to recompute and [reattach the `Proxy-Authorization` header](https://github.com/psf/requests/blob/f2629e9e3c7ce3c3c8c025bcd8db551101cbc773/requests/sessions.py#L319-L328) to requests when redirected. Note this behavior has _only_ been observed to affect proxied requests when credentials are supplied in the URL user information component (e.g. `https://username:password@proxy:8080`).\n\n**Current vulnerable behavior(s):**\n\n1. HTTP \u2192 HTTPS: **leak**\n2. HTTPS \u2192 HTTP: **no leak**\n3. HTTPS \u2192 HTTPS: **leak**\n4. HTTP \u2192 HTTP: **no leak**\n\nFor HTTP connections sent through the proxy, the proxy will identify the header in the request itself and remove it prior to forwarding to the destination server. However when sent over HTTPS, the `Proxy-Authorization` header must be sent in the CONNECT request as the proxy has no visibility into further tunneled requests. This results in Requests forwarding the header to the destination server unintentionally, allowing a malicious actor to potentially exfiltrate those credentials.\n\nThe reason this currently works for HTTPS connections in Requests is the `Proxy-Authorization` header is also handled by urllib3 with our usage of the ProxyManager in adapters.py with [`proxy_manager_for`](https://github.com/psf/requests/blob/f2629e9e3c7ce3c3c8c025bcd8db551101cbc773/requests/adapters.py#L199-L235). This will compute the required proxy headers in `proxy_headers` and pass them to the Proxy Manager, avoiding attaching them directly to the Request object. This will be our preferred option going forward for default usage.\n\n### Patches\nStarting in Requests v2.31.0, Requests will no longer attach this header to redirects with an HTTPS destination. This should have no negative impacts on the default behavior of the library as the proxy credentials are already properly being handled by urllib3's ProxyManager.\n\nFor users with custom adapters, this _may_ be potentially breaking if you were already working around this behavior. The previous functionality of `rebuild_proxies` doesn't make sense in any case, so we would encourage any users impacted to migrate any handling of Proxy-Authorization directly into their custom adapter.\n\n### Workarounds\nFor users who are not able to update Requests immediately, there is one potential workaround.\n\nYou may disable redirects by setting `allow_redirects` to `False` on all calls through Requests top-level APIs. Note that if you're currently relying on redirect behaviors, you will need to capture the 3xx response codes and ensure a new request is made to the redirect destination.\n```\nimport requests\nr = requests.get('http://github.com/', allow_redirects=False)\n```\n\n### Credits\n\nThis vulnerability was discovered and disclosed by the following individuals.\n\nDennis Brinkrolf, Haxolot (https://haxolot.com/)\nTobias Funke, (tobiasfunke93@gmail.com)",
+        "affected": [
+          {
+            "package": {
+              "ecosystem": "PyPI",
+              "name": "requests",
+              "purl": "pkg:pypi/requests"
+            },
+            "ranges": [
+              {
+                "type": "ECOSYSTEM",
+                "events": [
+                  {
+                    "introduced": "2.3.0"
+                  },
+                  {
+                    "fixed": "2.31.0"
+                  }
+                ]
+              }
+            ],
+            "versions": [
+              "2.10.0",
+              "2.11.0",
+              "2.11.1",
+              "2.12.0",
+              "2.12.1",
+              "2.12.2",
+              "2.12.3",
+              "2.12.4",
+              "2.12.5",
+              "2.13.0",
+              "2.14.0",
+              "2.14.1",
+              "2.14.2",
+              "2.15.0",
+              "2.15.1",
+              "2.16.0",
+              "2.16.1",
+              "2.16.2",
+              "2.16.3",
+              "2.16.4",
+              "2.16.5",
+              "2.17.0",
+              "2.17.1",
+              "2.17.2",
+              "2.17.3",
+              "2.18.0",
+              "2.18.1",
+              "2.18.2",
+              "2.18.3",
+              "2.18.4",
+              "2.19.0",
+              "2.19.1",
+              "2.20.0",
+              "2.20.1",
+              "2.21.0",
+              "2.22.0",
+              "2.23.0",
+              "2.24.0",
+              "2.25.0",
+              "2.25.1",
+              "2.26.0",
+              "2.27.0",
+              "2.27.1",
+              "2.28.0",
+              "2.28.1",
+              "2.28.2",
+              "2.29.0",
+              "2.3.0",
+              "2.30.0",
+              "2.4.0",
+              "2.4.1",
+              "2.4.2",
+              "2.4.3",
+              "2.5.0",
+              "2.5.1",
+              "2.5.2",
+              "2.5.3",
+              "2.6.0",
+              "2.6.1",
+              "2.6.2",
+              "2.7.0",
+              "2.8.0",
+              "2.8.1",
+              "2.9.0",
+              "2.9.1",
+              "2.9.2"
+            ],
+            "database_specific": {
+              "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/05/GHSA-j8r2-6x86-q33q/GHSA-j8r2-6x86-q33q.json"
+            },
+            "ecosystem_specific": {
+              "affected_functions": [
+                "requests.sessions.SessionRedirectMixin.rebuild_proxies"
+              ]
+            }
+          }
+        ],
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:N/A:N"
+          }
+        ],
+        "references": [
+          {
+            "type": "WEB",
+            "url": "https://github.com/psf/requests/security/advisories/GHSA-j8r2-6x86-q33q"
+          },
+          {
+            "type": "ADVISORY",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-32681"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/psf/requests/commit/74ea7cf7a6a27a4eeb2ae24e162bcc942a6706d5"
+          },
+          {
+            "type": "PACKAGE",
+            "url": "https://github.com/psf/requests"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/psf/requests/releases/tag/v2.31.0"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/pypa/advisory-database/tree/main/vulns/requests/PYSEC-2023-74.yaml"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.debian.org/debian-lts-announce/2023/06/msg00018.html"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AW7HNFGYP44RT3DUDQXG2QT3OEV2PJ7Y/"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KOYASTZDGQG2BWLSNBPL3TQRL2G7QYNZ/"
+          }
+        ],
+        "database_specific": {
+          "cwe_ids": [
+            "CWE-200"
+          ],
+          "github_reviewed": true,
+          "github_reviewed_at": "2023-05-22T20:36:32Z",
+          "nvd_published_at": null,
+          "severity": "MODERATE"
+        }
+      },
+      {
+        "modified": "2023-06-05T01:13:00Z",
+        "published": "2023-05-26T18:15:00Z",
+        "schema_version": "1.4.0",
+        "id": "PYSEC-2023-74",
+        "aliases": [
+          "CVE-2023-32681",
+          "GHSA-j8r2-6x86-q33q"
+        ],
+        "details": "Requests is a HTTP library. Since Requests 2.3.0, Requests has been leaking Proxy-Authorization headers to destination servers when redirected to an HTTPS endpoint. This is a product of how we use `rebuild_proxies` to reattach the `Proxy-Authorization` header to requests. For HTTP connections sent through the tunnel, the proxy will identify the header in the request itself and remove it prior to forwarding to the destination server. However when sent over HTTPS, the `Proxy-Authorization` header must be sent in the CONNECT request as the proxy has no visibility into the tunneled request. This results in Requests forwarding proxy credentials to the destination server unintentionally, allowing a malicious actor to potentially exfiltrate sensitive information. This issue has been patched in version 2.31.0.\n\n",
+        "affected": [
+          {
+            "package": {
+              "ecosystem": "PyPI",
+              "name": "requests",
+              "purl": "pkg:pypi/requests"
+            },
+            "ranges": [
+              {
+                "type": "GIT",
+                "events": [
+                  {
+                    "introduced": "0"
+                  },
+                  {
+                    "fixed": "74ea7cf7a6a27a4eeb2ae24e162bcc942a6706d5"
+                  }
+                ],
+                "repo": "https://github.com/psf/requests"
+              },
+              {
+                "type": "ECOSYSTEM",
+                "events": [
+                  {
+                    "introduced": "2.3.0"
+                  },
+                  {
+                    "fixed": "2.31.0"
+                  }
+                ]
+              }
+            ],
+            "versions": [
+              "2.10.0",
+              "2.11.0",
+              "2.11.1",
+              "2.12.0",
+              "2.12.1",
+              "2.12.2",
+              "2.12.3",
+              "2.12.4",
+              "2.12.5",
+              "2.13.0",
+              "2.14.0",
+              "2.14.1",
+              "2.14.2",
+              "2.15.0",
+              "2.15.1",
+              "2.16.0",
+              "2.16.1",
+              "2.16.2",
+              "2.16.3",
+              "2.16.4",
+              "2.16.5",
+              "2.17.0",
+              "2.17.1",
+              "2.17.2",
+              "2.17.3",
+              "2.18.0",
+              "2.18.1",
+              "2.18.2",
+              "2.18.3",
+              "2.18.4",
+              "2.19.0",
+              "2.19.1",
+              "2.20.0",
+              "2.20.1",
+              "2.21.0",
+              "2.22.0",
+              "2.23.0",
+              "2.24.0",
+              "2.25.0",
+              "2.25.1",
+              "2.26.0",
+              "2.27.0",
+              "2.27.1",
+              "2.28.0",
+              "2.28.1",
+              "2.28.2",
+              "2.29.0",
+              "2.3.0",
+              "2.30.0",
+              "2.4.0",
+              "2.4.1",
+              "2.4.2",
+              "2.4.3",
+              "2.5.0",
+              "2.5.1",
+              "2.5.2",
+              "2.5.3",
+              "2.6.0",
+              "2.6.1",
+              "2.6.2",
+              "2.7.0",
+              "2.8.0",
+              "2.8.1",
+              "2.9.0",
+              "2.9.1",
+              "2.9.2"
+            ],
+            "database_specific": {
+              "source": "https://github.com/pypa/advisory-database/blob/main/vulns/requests/PYSEC-2023-74.yaml"
+            }
+          }
+        ],
+        "references": [
+          {
+            "type": "ADVISORY",
+            "url": "https://github.com/psf/requests/security/advisories/GHSA-j8r2-6x86-q33q"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/psf/requests/releases/tag/v2.31.0"
+          },
+          {
+            "type": "FIX",
+            "url": "https://github.com/psf/requests/commit/74ea7cf7a6a27a4eeb2ae24e162bcc942a6706d5"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/AW7HNFGYP44RT3DUDQXG2QT3OEV2PJ7Y/"
+          }
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "ids": [
+          "GHSA-j8r2-6x86-q33q",
+          "PYSEC-2023-74"
+        ]
+      }
+    ]
+  }
+]

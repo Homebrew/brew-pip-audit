@@ -1,0 +1,5 @@
+certifi==2023.5.7
+colorama==0.4.6
+pydiffx==1.1
+texttable==1.6.7
+tqdm==4.65.0

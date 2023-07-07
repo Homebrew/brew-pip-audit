@@ -1,0 +1,6 @@
+certifi==2022.12.7
+commonmark==0.9.1
+flatbuffers==23.1.21
+rich==12.6.0
+touca-fbs==0.0.3
+urllib3==1.26.14

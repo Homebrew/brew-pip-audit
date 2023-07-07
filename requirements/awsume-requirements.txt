@@ -1,0 +1,9 @@
+boto3==1.26.4
+botocore==1.29.4
+colorama==0.4.6
+jmespath==1.0.1
+pluggy==1.0.0
+psutil==5.9.4
+python-dateutil==2.8.2
+s3transfer==0.6.0
+urllib3==1.26.12
