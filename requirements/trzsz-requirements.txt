@@ -1,0 +1,5 @@
+iterm2==2.7
+trzsz-iterm2==1.1.2
+trzsz-libs==1.1.2
+trzsz-svr==1.1.2
+websockets==10.4

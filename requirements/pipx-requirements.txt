@@ -1,0 +1,4 @@
+argcomplete==2.1.1
+click==8.1.3
+packaging==23.0
+userpath==1.8.0

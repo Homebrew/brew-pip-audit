@@ -1,0 +1,2 @@
+ansicolor==0.3.2
+chardet==5.0.0

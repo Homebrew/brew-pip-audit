@@ -1,0 +1,14 @@
+boto3==1.26.5
+botocore==1.29.5
+cachetools==5.2.0
+diagrams==0.23.1
+diskcache==5.4.0
+graphviz==0.19.2
+ipaddress==1.0.23
+Jinja2==2.11.3
+jmespath==1.0.1
+MarkupSafe==2.0.1
+python-dateutil==2.8.2
+pytz==2022.6
+s3transfer==0.6.0
+urllib3==1.26.12

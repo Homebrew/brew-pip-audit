@@ -1,0 +1,2 @@
+pyzmq==25.1.0
+tnetstring3==0.3.1

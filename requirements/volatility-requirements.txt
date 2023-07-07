@@ -1,0 +1,8 @@
+attrs==22.2.0
+capstone==4.0.2
+future==0.18.3
+jsonschema==4.17.3
+pefile==2023.2.7
+pycryptodome==3.17
+pyrsistent==0.19.3
+yara-python==4.3.0

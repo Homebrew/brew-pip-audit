@@ -1,0 +1,10 @@
+atomicwrites==1.4.1
+click==8.1.3
+click-log==0.4.0
+humanize==4.6.0
+icalendar==5.0.4
+parsedatetime==2.6
+python-dateutil==2.8.2
+pytz==2023.2
+pyxdg==0.28
+urwid==2.1.2

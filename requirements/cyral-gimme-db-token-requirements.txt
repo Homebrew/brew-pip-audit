@@ -1,0 +1,17 @@
+awscli==1.27.138
+botocore==1.29.138
+certifi==2023.5.7
+charset-normalizer==3.1.0
+click==8.1.3
+colorama==0.4.4
+cryptography==39.0.2
+docutils==0.16
+idna==3.4
+jmespath==1.0.1
+pyasn1==0.5.0
+python-dateutil==2.8.2
+pyyaml==5.4.1
+requests==2.31.0
+rsa==4.7.2
+s3transfer==0.6.1
+urllib3==1.26.15

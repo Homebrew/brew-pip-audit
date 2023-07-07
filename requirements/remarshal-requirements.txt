@@ -1,0 +1,4 @@
+cbor2==5.4.3
+python-dateutil==2.8.2
+tomlkit==0.7.2
+u-msgpack-python==2.7.2

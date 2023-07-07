@@ -1,0 +1,14 @@
+appdirs==1.4.4
+certifi==2023.5.7
+charset-normalizer==3.1.0
+cloudscraper==1.2.71
+colorama==0.4.6
+coloredlogs==15.0.1
+humanfriendly==10.0
+idna==3.4
+loguru==0.5.3
+pyparsing==3.0.9
+requests==2.31.0
+requests-toolbelt==1.0.0
+toml==0.10.2
+urllib3==2.0.2

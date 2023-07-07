@@ -25,14 +25,20 @@ jobs:
         id: set-up-homebrew
         uses: Homebrew/actions/setup-homebrew@master
         with:
+          core: true
           cask: false
           test-bot: false
 
-      - run: brew install osv-scanner
+      - name: Configure Homebrew, install dependencies
+        run: |
+          brew developer on
+          brew install osv-scanner
 
       - run: brew ruby formula2requirements.rb
         env:
-          HOMEBREW_EVAL_ALL: true
+          HOMEBREW_NO_AUTO_UPDATE: 1
+          HOMEBREW_NO_INSTALL_FROM_API: 1
+          HOMEBREW_EVAL_ALL: 1
 
       - run: python3 pip-audit-bulk
 

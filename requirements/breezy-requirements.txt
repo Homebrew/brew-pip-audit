@@ -1,0 +1,6 @@
+configobj==5.0.8
+dulwich==0.21.5
+fastbencode==0.2
+merge3==0.0.13
+patiencediff==0.2.13
+urllib3==2.0.2
