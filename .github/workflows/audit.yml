@@ -5,11 +5,6 @@ on:
   schedule:
     - cron: '0 8 * * *'
 
-env:
-  HOMEBREW_NO_AUTO_UPDATE: 1
-  HOMEBREW_NO_INSTALL_FROM_API: 1
-  HOMEBREW_EVAL_ALL: 1
-
 jobs:
   audit:
     runs-on: macos-latest
@@ -40,6 +35,10 @@ jobs:
           brew install osv-scanner
 
       - run: brew ruby formula2requirements.rb
+        env:
+          HOMEBREW_NO_AUTO_UPDATE: 1
+          HOMEBREW_NO_INSTALL_FROM_API: 1
+          HOMEBREW_EVAL_ALL: 1
 
       - run: python3 pip-audit-bulk
 
