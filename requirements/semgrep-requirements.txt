@@ -2,7 +2,7 @@ attrs==23.1.0
 boltons==21.0.0
 bracex==2.3.post1
 certifi==2023.5.7
-charset-normalizer==3.1.0
+charset-normalizer==3.2.0
 click==8.1.4
 click-option-group==0.5.6
 colorama==0.4.6
