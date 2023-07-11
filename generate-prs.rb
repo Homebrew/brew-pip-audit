@@ -20,11 +20,14 @@ SKIP_FORMULA = [
   # https://github.com/Homebrew/homebrew-core/blob/5eb7ab4f78c012514871011fd1ab80fb0911809f/Formula/gyb.rb#L151-L160
   "gyb",
   # setup.py requires another package to be pre-installed. Should really use pyproject.toml.
+  # https://github.com/OfflineIMAP/offlineimap3/pull/157
   "offlineimap",
   # Not a Python package
   "pypy", "pypy3.9", "pypy3.10",
   # No setup.py.
   "recon-ng",
+  # update_python_resources! doesn't handle git root resources
+  "snapcraft",
 ]
 
 PR_LIMIT = ENV.fetch("HOMEBREW_AUTO_PR_LIMIT", 25).to_i
