@@ -28,6 +28,8 @@ SKIP_FORMULA = [
   "recon-ng",
   # update_python_resources! doesn't handle git root resources
   "snapcraft",
+  # https://github.com/Homebrew/homebrew-core/blob/master/Formula/theharvester.rb#L33-L38
+  "theharvester",
 ]
 
 PR_LIMIT = ENV.fetch("HOMEBREW_AUTO_PR_LIMIT", 25).to_i
