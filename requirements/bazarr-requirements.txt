@@ -1,2 +1,2 @@
-lxml==4.9.2
+lxml==4.9.3
 webrtcvad-wheels==2.0.11.post1
