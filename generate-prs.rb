@@ -30,6 +30,8 @@ SKIP_FORMULA = [
   "snapcraft",
   # https://github.com/Homebrew/homebrew-core/blob/master/Formula/theharvester.rb#L33-L38
   "theharvester",
+  # Installable packages are in a sub-directory
+  "azure-cli",
 ]
 
 PR_LIMIT = ENV.fetch("HOMEBREW_AUTO_PR_LIMIT", 25).to_i
