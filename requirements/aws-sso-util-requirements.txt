@@ -1,8 +1,8 @@
 attrs==23.1.0
 aws-error-utils==2.7.0
 aws-sso-lib==1.14.0
-boto3==1.28.5
-botocore==1.31.5
+boto3==1.28.6
+botocore==1.31.6
 certifi==2023.5.7
 charset-normalizer==3.2.0
 click==8.1.6

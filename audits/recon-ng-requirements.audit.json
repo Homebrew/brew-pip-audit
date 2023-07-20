@@ -505,7 +505,7 @@
         }
       },
       {
-        "modified": "2023-05-31T18:33:13Z",
+        "modified": "2023-07-19T22:49:04Z",
         "published": "2023-03-26T21:30:23Z",
         "schema_version": "1.4.0",
         "id": "GHSA-8fww-64cx-x8p5",
@@ -542,6 +542,11 @@
             ],
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/03/GHSA-8fww-64cx-x8p5/GHSA-8fww-64cx-x8p5.json"
+            },
+            "ecosystem_specific": {
+              "affected_functions": [
+                "redis.asyncio.client.Pipeline"
+              ]
             }
           },
           {
@@ -585,6 +590,11 @@
             ],
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/03/GHSA-8fww-64cx-x8p5/GHSA-8fww-64cx-x8p5.json"
+            },
+            "ecosystem_specific": {
+              "affected_functions": [
+                "redis.asyncio.client.Pipeline"
+              ]
             }
           }
         ],
@@ -618,6 +628,14 @@
           {
             "type": "WEB",
             "url": "https://github.com/redis/redis-py/pull/2671"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/redis/redis-py/commit/66a4d6b2a493dd3a20cc299ab5fef3c14baad965"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/redis/redis-py/commit/b3c89acd0ffe8303649ad8207bc911b1d6a033eb"
           },
           {
             "type": "WEB",
@@ -1148,7 +1166,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-04-11T01:48:25Z",
+        "modified": "2023-07-19T22:19:28Z",
         "published": "2023-02-15T15:37:03Z",
         "schema_version": "1.4.0",
         "id": "GHSA-px8h-6qxv-m22q",
@@ -1261,6 +1279,11 @@
             ],
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/02/GHSA-px8h-6qxv-m22q/GHSA-px8h-6qxv-m22q.json"
+            },
+            "ecosystem_specific": {
+              "affected_functions": [
+                "werkzeug.http.parse_cookie"
+              ]
             }
           }
         ],
@@ -1301,7 +1324,7 @@
         }
       },
       {
-        "modified": "2023-04-11T01:18:51Z",
+        "modified": "2023-07-19T22:34:18Z",
         "published": "2023-02-15T15:36:26Z",
         "schema_version": "1.4.0",
         "id": "GHSA-xg9f-g7g7-2323",
@@ -1414,6 +1437,11 @@
             ],
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/02/GHSA-xg9f-g7g7-2323/GHSA-xg9f-g7g7-2323.json"
+            },
+            "ecosystem_specific": {
+              "affected_functions": [
+                "werkzeug.Request.from_values"
+              ]
             }
           }
         ],
