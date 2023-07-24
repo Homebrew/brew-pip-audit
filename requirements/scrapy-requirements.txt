@@ -1,7 +1,6 @@
 attrs==23.1.0
 automat==22.10.0
 certifi==2023.5.7
-cffi==1.15.1
 charset-normalizer==3.2.0
 constantly==15.1.0
 cryptography==41.0.2
@@ -19,17 +18,14 @@ parsel==1.8.1
 protego==0.2.1
 pyasn1==0.5.0
 pyasn1-modules==0.3.0
-pycparser==2.21
 pydispatcher==2.0.7
 pyopenssl==23.2.0
 queuelib==1.6.2
 requests==2.31.0
 requests-file==1.5.1
 service-identity==23.1.0
-six==1.16.0
 tldextract==3.4.4
 twisted==22.10.0
-typing-extensions==4.7.1
 urllib3==2.0.3
 w3lib==2.1.1
 zope-interface==6.0
