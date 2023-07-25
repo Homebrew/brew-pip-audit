@@ -1,6 +1,6 @@
 cachecontrol==0.13.1
-certifi==2023.5.7
-charset-normalizer==3.1.0
+certifi==2023.7.22
+charset-normalizer==3.2.0
 cyclonedx-python-lib==4.0.1
 defusedxml==0.7.1
 filelock==3.12.2
@@ -19,5 +19,5 @@ requests==2.31.0
 rich==13.4.2
 sortedcontainers==2.4.0
 toml==0.10.2
-urllib3==2.0.3
+urllib3==2.0.4
 webencodings==0.5.1

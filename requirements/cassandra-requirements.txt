@@ -1,5 +1,3 @@
-thrift==0.16.0
-cql==1.4.0
-cassandra-driver==3.25.0
-click==8.1.3
-geomet==0.3.0
+cassandra-driver==3.28.0
+click==8.1.6
+geomet==1.0.0

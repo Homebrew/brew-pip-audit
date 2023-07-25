@@ -5,7 +5,7 @@ attrs==23.1.0
 bitarray==2.7.6
 certifi==2023.5.7
 charset-normalizer==3.1.0
-cytoolz==0.12.1
+cytoolz==0.12.2
 eth-abi==4.1.0
 eth-account==0.9.0
 eth-hash==0.5.2
