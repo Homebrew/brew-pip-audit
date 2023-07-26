@@ -1,10 +1,10 @@
-certifi==2023.5.7
+certifi==2023.7.22
 charset-normalizer==3.2.0
-configargparse==1.5.5
+configargparse==1.7
 configparser==6.0.0
 cryptography==41.0.2
 idna==3.4
 pyopenssl==23.2.0
 requests==2.31.0
-urllib3==2.0.3
+urllib3==2.0.4
 urllib3-secure-extra==0.1.0

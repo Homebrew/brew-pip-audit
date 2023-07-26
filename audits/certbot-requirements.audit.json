@@ -7,7 +7,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-07-25T14:59:28Z",
+        "modified": "2023-07-25T23:34:15Z",
         "published": "2023-07-25T14:43:53Z",
         "schema_version": "1.4.0",
         "id": "GHSA-xqr8-7jwr-rhp7",
@@ -92,16 +92,26 @@
             "url": "https://github.com/certifi/python-certifi/security/advisories/GHSA-xqr8-7jwr-rhp7"
           },
           {
+            "type": "ADVISORY",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-37920"
+          },
+          {
             "type": "WEB",
             "url": "https://github.com/certifi/python-certifi/commit/8fb96ed81f71e7097ed11bc4d9b19afd7ea5c909"
           },
           {
             "type": "PACKAGE",
             "url": "https://github.com/certifi/python-certifi"
+          },
+          {
+            "type": "WEB",
+            "url": "https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/C-HrP1SEq1A"
           }
         ],
         "database_specific": {
-          "cwe_ids": [],
+          "cwe_ids": [
+            "CWE-345"
+          ],
           "github_reviewed": true,
           "github_reviewed_at": "2023-07-25T14:43:53Z",
           "nvd_published_at": null,

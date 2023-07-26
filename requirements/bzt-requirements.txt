@@ -5,11 +5,11 @@ astunparse==1.6.3
 async-timeout==4.0.2
 attrs==23.1.0
 bidict==0.22.1
-certifi==2023.5.7
+certifi==2023.7.22
 charset-normalizer==3.2.0
 colorlog==6.7.0
 cssselect==1.2.0
-dill==0.3.6
+dill==0.3.7
 frozenlist==1.4.0
 fuzzyset2==0.2.2
 hdrpy==0.3.3
@@ -20,7 +20,7 @@ lxml==4.9.3
 molotov==2.6
 msgpack==1.0.5
 multidict==6.0.4
-multiprocess==0.70.14
+multiprocess==0.70.15
 progressbar33==2.4
 prompt-toolkit==3.0.39
 psutil==5.9.5
@@ -36,5 +36,5 @@ urllib3==2.0.4
 urwid==2.1.2
 wcwidth==0.2.6
 websocket-client==1.6.1
-wheel==0.40.0
+wheel==0.41.0
 yarl==1.9.2

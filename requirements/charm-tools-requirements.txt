@@ -25,7 +25,6 @@ path==16.7.1
 path-py==12.5.0
 pathspec==0.10.3
 platformdirs==3.8.1
-pyyaml==5.4.1
 referencing==0.29.1
 requests==2.31.0
 requirements-parser==0.5.0
