@@ -1,11 +1,11 @@
-certifi==2023.5.7
-charset-normalizer==3.1.0
+certifi==2023.7.22
+charset-normalizer==3.2.0
 contextlib2==21.6.0
 docopt==0.6.2
 idna==3.4
-jsonpatch==1.32
-jsonpointer==2.3
+jsonpatch==1.33
+jsonpointer==2.4
 requests==2.31.0
 schema==0.7.5
 tqdm==4.65.0
-urllib3==2.0.2
+urllib3==2.0.4

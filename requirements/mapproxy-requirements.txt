@@ -1,2 +1,2 @@
-certifi==2022.12.7
-pyproj==3.5.0
+certifi==2023.7.22
+pyproj==3.6.0
