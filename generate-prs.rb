@@ -46,7 +46,7 @@ SUMMARY_PATH = ENV.fetch("GITHUB_STEP_SUMMARY", nil)
 ohai "generate-prs running with DRY_RUN=#{DRY_RUN}, PR_LIMIT=#{PR_LIMIT}, SUMMARY_PATH=#{SUMMARY_PATH}"
 
 PR_MESSAGE = <<~MSG
-  Created by [`brew-pip-audit`](https://github.com/Homebrew/brew-pip-audit).
+  Created by `brew-pip-audit`.
 
   The following resources have known vulnerabilities:
 
