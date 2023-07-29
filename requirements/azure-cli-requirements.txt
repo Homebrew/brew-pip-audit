@@ -127,7 +127,7 @@ PyJWT==2.4.0
 PyNaCl==1.5.0
 pyOpenSSL==23.2.0
 python-dateutil==2.8.0
-PyYAML==6.0
+PyYAML==6.0.1
 requests==2.31.0
 requests-oauthlib==1.2.0
 scp==0.13.2
