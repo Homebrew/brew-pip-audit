@@ -7,15 +7,11 @@ click==8.1.6
 colorama==0.4.6
 gitdb==4.0.10
 gitpython==3.1.32
-halo==0.0.31
 idna==3.4
-log-symbols==0.0.14
 marshmallow==3.8.0
-pathspec==0.8.1
+pathspec==0.11.2
 python-dateutil==2.8.2
 requests==2.31.0
 smmap==5.0.0
-spinners==0.0.24
-termcolor==2.3.0
 texttable==1.6.7
-urllib3==2.0.4
+urllib3==1.26.16
