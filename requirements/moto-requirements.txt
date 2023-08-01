@@ -1,9 +1,9 @@
 attrs==23.1.0
-aws-sam-translator==1.71.0
+aws-sam-translator==1.72.0
 aws-xray-sdk==2.12.0
 blinker==1.6.2
-boto3==1.28.11
-botocore==1.31.11
+boto3==1.28.15
+botocore==1.31.15
 certifi==2023.7.22
 charset-normalizer==3.2.0
 click==8.1.6
@@ -34,10 +34,10 @@ openapi-spec-validator==0.5.7
 packaging==23.1
 pathable==0.4.3
 pbr==5.11.1
-py-partiql-parser==0.3.3
+py-partiql-parser==0.3.6
 pyasn1==0.5.0
 pydantic==1.10.12
-pyparsing==3.1.0
+pyparsing==3.1.1
 pyrsistent==0.19.3
 python-dateutil==2.8.2
 python-jose==3.3.0
