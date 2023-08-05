@@ -42,7 +42,7 @@ distro==1.8.0
 dpath==2.1.6
 dulwich==0.21.5
 dvc-azure==2.22.0
-dvc-data==2.8.1
+dvc-data==2.11.0
 dvc-gdrive==2.20.0
 dvc-gs==2.22.1
 dvc-hdfs==2.19.0
