@@ -1,6 +1,5 @@
 blinker==1.6.2
 brotli==1.0.9
-certifi==2023.7.22
 charset-normalizer==3.2.0
 click==8.1.6
 configargparse==1.7

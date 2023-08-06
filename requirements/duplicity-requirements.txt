@@ -9,7 +9,6 @@ boto3==1.26.154
 botocore==1.29.154
 boxsdk==3.7.2
 cachetools==5.3.1
-certifi==2023.5.7
 chardet==5.1.0
 charset-normalizer==3.1.0
 clint==0.5.1

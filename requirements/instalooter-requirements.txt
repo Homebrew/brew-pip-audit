@@ -1,5 +1,4 @@
 appdirs==1.4.4
-certifi==2023.7.22
 charset-normalizer==3.2.0
 coloredlogs==14.3
 docopt==0.6.2

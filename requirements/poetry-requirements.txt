@@ -1,7 +1,6 @@
 attrs==23.1.0
 build==0.10.0
 cachecontrol==0.12.14
-certifi==2023.7.22
 charset-normalizer==3.2.0
 cleo==2.0.1
 crashtest==0.4.1
