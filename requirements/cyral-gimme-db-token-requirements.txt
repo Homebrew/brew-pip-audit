@@ -1,6 +1,5 @@
 awscli==1.27.138
 botocore==1.29.138
-certifi==2023.5.7
 charset-normalizer==3.1.0
 click==8.1.3
 colorama==0.4.4

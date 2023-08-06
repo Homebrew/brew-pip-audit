@@ -1,6 +1,5 @@
 arrow==1.2.3
 binaryornot==0.4.4
-certifi==2023.7.22
 chardet==5.2.0
 charset-normalizer==3.2.0
 click==8.1.6

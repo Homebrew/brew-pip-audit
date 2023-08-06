@@ -1,5 +1,4 @@
 cachetools==5.3.1
-certifi==2023.7.22
 charset-normalizer==3.2.0
 google-api-core==2.11.1
 google-api-python-client==2.95.0

@@ -1,7 +1,6 @@
 pip==22.3.1
 attrs==23.1.0
 blessings==1.7
-certifi==2023.5.7
 charset-normalizer==3.2.0
 cheetah3==3.2.6.post1
 colander==1.8.3

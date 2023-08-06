@@ -2,7 +2,6 @@ annotated-types==0.5.0
 appdirs==1.4.4
 cachecontrol==0.13.1
 cachy==0.3.0
-certifi==2023.7.22
 charset-normalizer==3.2.0
 click==8.1.6
 click-default-group==1.2.2
