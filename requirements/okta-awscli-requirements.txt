@@ -2,7 +2,6 @@ beautifulsoup4==4.12.2
 boto3==1.28.11
 botocore==1.31.11
 bs4==0.0.1
-certifi==2023.7.22
 charset-normalizer==3.2.0
 click==8.1.6
 configparser==6.0.0

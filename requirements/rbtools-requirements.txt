@@ -1,4 +1,3 @@
-certifi==2023.7.22
 colorama==0.4.6
 pydiffx==1.1
 texttable==1.6.7

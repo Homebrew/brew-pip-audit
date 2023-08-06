@@ -1,5 +1,4 @@
 appdirs==1.4.4
-certifi==2023.7.22
 charset-normalizer==3.2.0
 cssselect==1.2.0
 idna==3.4

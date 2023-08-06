@@ -1,5 +1,4 @@
 appdirs==1.4.4
-certifi==2023.7.22
 charset-normalizer==3.2.0
 cloudscraper==1.2.71
 colorama==0.4.6

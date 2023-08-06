@@ -5,7 +5,6 @@ aiostream==0.4.5
 async-timeout==4.0.2
 atomicwrites==1.4.1
 attrs==23.1.0
-certifi==2023.7.22
 charset-normalizer==3.2.0
 click==8.1.6
 click-log==0.4.0

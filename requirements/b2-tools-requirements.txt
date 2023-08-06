@@ -1,9 +1,7 @@
 argcomplete==3.1.1
 arrow==1.2.3
 b2sdk==1.22.1
-certifi==2023.7.22
 charset-normalizer==3.2.0
-docutils==0.19
 idna==3.4
 logfury==1.0.1
 phx-class-registry==4.0.6

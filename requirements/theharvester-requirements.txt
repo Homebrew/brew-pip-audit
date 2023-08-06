@@ -13,7 +13,6 @@ attrs==23.1.0
 backoff==2.2.1
 beautifulsoup4==4.12.2
 censys==2.2.4
-certifi==2023.7.22
 charset-normalizer==3.2.0
 click==8.1.6
 click-plugins==1.1.1

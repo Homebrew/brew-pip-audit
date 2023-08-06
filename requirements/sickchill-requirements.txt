@@ -4,7 +4,6 @@ beautifulsoup4==4.12.2
 beekeeper-alt==2022.9.3
 bencode.py==4.0.0
 cacheyou==23.3
-certifi==2023.5.7
 chardet==5.1.0
 charset-normalizer==3.2.0
 cinemagoer==2023.5.1

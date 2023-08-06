@@ -1,5 +1,4 @@
 bottle==0.12.25
-certifi==2023.7.22
 charset-normalizer==3.2.0
 cheroot==10.0.0
 dnspython==2.4.1

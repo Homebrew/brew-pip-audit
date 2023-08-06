@@ -1,6 +1,5 @@
 adb-shell==0.4.3
 appdirs==1.4.4
-certifi==2023.7.22
 charset-normalizer==3.2.0
 click==8.1.6
 cryptography==41.0.2

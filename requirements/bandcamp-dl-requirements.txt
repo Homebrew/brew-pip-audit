@@ -1,5 +1,4 @@
 beautifulsoup4==4.12.2
-certifi==2023.7.22
 chardet==5.1.0
 charset-normalizer==3.2.0
 demjson3==3.0.6

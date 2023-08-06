@@ -3,7 +3,6 @@ babel==2.12.1
 beautifulsoup4==4.12.2
 boltons==23.0.0
 bracex==2.3.post1
-certifi==2023.7.22
 charset-normalizer==3.2.0
 click==8.1.6
 click-extra==3.10.0

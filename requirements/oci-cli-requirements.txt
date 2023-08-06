@@ -1,5 +1,4 @@
 arrow==1.2.3
-certifi==2023.7.22
 circuitbreaker==1.4.0
 click==8.0.4
 cryptography==41.0.3

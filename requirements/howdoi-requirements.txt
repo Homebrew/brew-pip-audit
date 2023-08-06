@@ -1,6 +1,5 @@
 appdirs==1.4.4
 cachelib==0.10.2
-certifi==2023.7.22
 charset-normalizer==3.2.0
 click==8.1.6
 colorama==0.4.6

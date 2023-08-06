@@ -1,7 +1,6 @@
 backports-shutil-which==3.5.2
 bech32==1.2.0
 bleak==0.20.2
-certifi==2023.5.7
 charset-normalizer==3.2.0
 click==8.1.5
 configargparse==1.5.5
