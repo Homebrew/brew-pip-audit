@@ -2,7 +2,6 @@ beautifulsoup4==4.12.2
 boto3==1.28.17
 botocore==1.31.17
 charset-normalizer==3.2.0
-cryptography==41.0.3
 ctap-keyring-device==1.0.6
 fido2==0.9.3
 idna==3.4

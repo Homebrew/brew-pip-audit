@@ -1,5 +1,4 @@
 click==8.1.5
-cryptography==41.0.2
 fido2==1.1.2
 importlib-metadata==6.8.0
 jaraco-classes==3.3.0

@@ -1,6 +1,5 @@
 charset-normalizer==3.2.0
 coloredlogs==15.0.1
-cryptography==41.0.3
 deprecation==2.1.0
 humanfriendly==10.0
 img2pdf==0.4.4

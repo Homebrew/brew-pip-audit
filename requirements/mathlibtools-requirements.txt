@@ -1,7 +1,6 @@
 atomicwrites==1.4.1
 charset-normalizer==3.2.0
 click==8.1.6
-cryptography==41.0.3
 deprecated==1.2.14
 gitdb==4.0.10
 gitpython==3.1.32

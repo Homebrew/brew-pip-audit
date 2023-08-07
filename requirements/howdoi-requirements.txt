@@ -3,7 +3,6 @@ cachelib==0.10.2
 charset-normalizer==3.2.0
 click==8.1.6
 colorama==0.4.6
-cryptography==41.0.3
 cssselect==1.2.0
 deprecated==1.2.14
 idna==3.4

@@ -4,7 +4,6 @@ bech32==1.2.0
 charset-normalizer==3.2.0
 click==8.1.6
 configargparse==1.5.5
-cryptography==41.0.2
 ecdsa==0.18.0
 fido2==0.9.3
 hidapi==0.14.0

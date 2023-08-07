@@ -1,9 +1,6 @@
 asgiref==3.5.2
 brotli==1.0.9
-certifi==2023.7.22
-cffi==1.15.1
 click==8.1.6
-cryptography==38.0.4
 flask==2.2.5
 h11==0.14.0
 h2==4.1.0

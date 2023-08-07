@@ -2,7 +2,6 @@ adb-shell==0.4.3
 appdirs==1.4.4
 charset-normalizer==3.2.0
 click==8.1.6
-cryptography==41.0.2
 idna==3.4
 libusb1==3.0.0
 markdown-it-py==3.0.0

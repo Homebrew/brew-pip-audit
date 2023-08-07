@@ -12,7 +12,6 @@ cachetools==5.3.1
 chardet==5.1.0
 charset-normalizer==3.1.0
 clint==0.5.1
-cryptography==41.0.1
 debtcollector==2.5.0
 dropbox==11.36.2
 ecdsa==0.18.0

@@ -19,7 +19,6 @@ click==8.1.6
 click-plugins==1.1.1
 colorama==0.4.6
 contextlib2==21.6.0
-cryptography==41.0.3
 detect-secrets==1.4.0
 google-api-core==2.11.1
 google-api-python-client==2.95.0

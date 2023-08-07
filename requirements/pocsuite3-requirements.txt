@@ -2,7 +2,6 @@ chardet==5.1.0
 charset-normalizer==3.2.0
 colorama==0.4.6
 colorlog==6.7.0
-cryptography==41.0.2
 dacite==1.8.0
 faker==19.2.0
 idna==3.4

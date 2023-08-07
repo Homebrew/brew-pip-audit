@@ -4,7 +4,6 @@ blessings==1.7
 charset-normalizer==3.2.0
 cheetah3==3.2.6.post1
 colander==1.8.3
-cryptography==41.0.2
 dict2colander==0.2
 distlib==0.3.6
 filelock==3.12.2
