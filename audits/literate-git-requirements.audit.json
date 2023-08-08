@@ -7,7 +7,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-04-11T01:49:22Z",
+        "modified": "2023-08-07T11:31:32Z",
         "published": "2021-04-20T16:35:47Z",
         "schema_version": "1.4.0",
         "id": "GHSA-9w8r-397f-prfh",
@@ -65,6 +65,11 @@
             ],
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/04/GHSA-9w8r-397f-prfh/GHSA-9w8r-397f-prfh.json"
+            },
+            "ecosystem_specific": {
+              "affected_functions": [
+                ""
+              ]
             }
           }
         ],
@@ -81,7 +86,15 @@
           },
           {
             "type": "WEB",
+            "url": "https://github.com/pygments/pygments/commit/f91804ff4772e3ab41f46e28d370f57898700333"
+          },
+          {
+            "type": "WEB",
             "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1922136"
+          },
+          {
+            "type": "PACKAGE",
+            "url": "https://github.com/pygments/pygments"
           },
           {
             "type": "WEB",
@@ -265,14 +278,14 @@
         }
       },
       {
-        "modified": "2023-04-11T01:33:30Z",
+        "modified": "2023-08-07T11:45:47Z",
         "published": "2021-03-29T16:33:03Z",
         "schema_version": "1.4.0",
         "id": "GHSA-pq64-v7f5-gqh8",
         "aliases": [
           "CVE-2021-27291"
         ],
-        "summary": "Regular Expression Denial of Service (ReDoS) in Pygments",
+        "summary": "Pygments vulnerable to Regular Expression Denial of Service (ReDoS)",
         "details": "In pygments 1.1+, fixed in 2.7.4, the lexers used to parse programming languages rely heavily on regular expressions. Some of the regular expressions have exponential or cubic worst-case complexity and are vulnerable to ReDoS. By crafting malicious input, an attacker can cause a denial of service.",
         "affected": [
           {
@@ -331,6 +344,11 @@
             ],
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/03/GHSA-pq64-v7f5-gqh8/GHSA-pq64-v7f5-gqh8.json"
+            },
+            "ecosystem_specific": {
+              "affected_functions": [
+                ""
+              ]
             }
           }
         ],
