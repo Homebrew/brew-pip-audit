@@ -28,12 +28,12 @@ python-engineio==4.5.1
 python-socketio==5.8.0
 pytz==2023.3
 pyvirtualdisplay==3.0
-rapidfuzz==3.1.2
+rapidfuzz==3.2.0
 requests==2.31.0
 terminaltables==3.1.10
-urllib3==2.0.4
+urllib3==1.26.16
 urwid==2.1.2
 wcwidth==0.2.6
 websocket-client==1.6.1
-wheel==0.41.0
+wheel==0.41.1
 yarl==1.9.2

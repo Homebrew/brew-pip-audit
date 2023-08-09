@@ -1166,7 +1166,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-07-19T22:19:28Z",
+        "modified": "2023-08-08T19:33:06Z",
         "published": "2023-02-15T15:37:03Z",
         "schema_version": "1.4.0",
         "id": "GHSA-px8h-6qxv-m22q",
@@ -1313,10 +1313,16 @@
           {
             "type": "WEB",
             "url": "https://github.com/pallets/werkzeug/releases/tag/2.2.3"
+          },
+          {
+            "type": "WEB",
+            "url": "https://www.debian.org/security/2023/dsa-5470"
           }
         ],
         "database_specific": {
-          "cwe_ids": [],
+          "cwe_ids": [
+            "CWE-20"
+          ],
           "github_reviewed": true,
           "github_reviewed_at": "2023-02-15T15:37:03Z",
           "nvd_published_at": "2023-02-14T20:15:00Z",
@@ -1324,7 +1330,7 @@
         }
       },
       {
-        "modified": "2023-07-19T22:34:18Z",
+        "modified": "2023-08-08T19:33:22Z",
         "published": "2023-02-15T15:36:26Z",
         "schema_version": "1.4.0",
         "id": "GHSA-xg9f-g7g7-2323",
@@ -1471,6 +1477,10 @@
           {
             "type": "WEB",
             "url": "https://github.com/pallets/werkzeug/releases/tag/2.2.3"
+          },
+          {
+            "type": "WEB",
+            "url": "https://www.debian.org/security/2023/dsa-5470"
           }
         ],
         "database_specific": {

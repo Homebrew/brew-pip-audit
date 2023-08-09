@@ -7,7 +7,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-08-04T21:16:28Z",
+        "modified": "2023-08-08T19:18:12Z",
         "published": "2023-07-25T14:43:53Z",
         "schema_version": "1.4.0",
         "id": "GHSA-xqr8-7jwr-rhp7",
@@ -83,6 +83,11 @@
             ],
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/07/GHSA-xqr8-7jwr-rhp7/GHSA-xqr8-7jwr-rhp7.json"
+            },
+            "ecosystem_specific": {
+              "affected_functions": [
+                ""
+              ]
             }
           }
         ],
@@ -108,6 +113,10 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/certifi/python-certifi"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/pypa/advisory-database/tree/main/vulns/certifi/PYSEC-2023-135.yaml"
           },
           {
             "type": "WEB",

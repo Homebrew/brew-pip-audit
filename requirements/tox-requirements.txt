@@ -1,10 +1,10 @@
 cachetools==5.3.1
-chardet==5.1.0
+chardet==5.2.0
 colorama==0.4.6
-distlib==0.3.6
+distlib==0.3.7
 filelock==3.12.2
 packaging==23.1
-platformdirs==3.8.0
+platformdirs==3.10.0
 pluggy==1.2.0
 pyproject-api==1.5.3
-virtualenv==20.23.1
+virtualenv==20.24.2
