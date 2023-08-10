@@ -1,0 +1,4 @@
+deprecation==2.1.0
+lxml==4.9.3
+packaging==23.1
+pikepdf==8.2.3
