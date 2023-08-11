@@ -10,7 +10,7 @@ cattrs==23.1.2
 charset-normalizer==3.2.0
 cloudcheck==2.0.0.36
 deepdiff==6.3.1
-dnspython==2.4.1
+dnspython==2.4.2
 filelock==3.12.2
 h11==0.14.0
 h2==4.1.0
