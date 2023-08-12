@@ -1,5 +1,4 @@
 anytree==2.9.0
 click==8.1.6
 packaging==23.1
-pkginfo==1.7.1
 wheel==0.41.1
