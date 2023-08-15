@@ -7,7 +7,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-08-08T19:18:12Z",
+        "modified": "2023-08-14T13:32:03Z",
         "published": "2023-07-25T14:43:53Z",
         "schema_version": "1.4.0",
         "id": "GHSA-xqr8-7jwr-rhp7",
@@ -121,6 +121,10 @@
           {
             "type": "WEB",
             "url": "https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/C-HrP1SEq1A"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5EX6NG7WUFNUKGFHLM35KHHU3GAKXRTG/"
           }
         ],
         "database_specific": {
