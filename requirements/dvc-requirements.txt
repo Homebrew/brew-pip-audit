@@ -15,7 +15,7 @@ async-timeout==4.0.3
 asyncssh==2.13.2
 atpublic==4.0
 attrs==23.1.0
-azure-core==1.29.1
+azure-core==1.29.2
 azure-datalake-store==0.0.53
 azure-identity==1.14.0
 azure-storage-blob==12.17.0
@@ -40,12 +40,12 @@ distro==1.8.0
 dpath==2.1.6
 dulwich==0.21.5
 dvc-azure==2.22.1
-dvc-data==2.13.1
+dvc-data==2.14.0
 dvc-gdrive==2.20.0
 dvc-gs==2.22.1
 dvc-hdfs==2.19.0
 dvc-http==2.30.2
-dvc-objects==0.25.0
+dvc-objects==1.0.0
 dvc-oss==2.19.0
 dvc-render==0.5.3
 dvc-s3==2.23.0
@@ -64,7 +64,7 @@ gcsfs==2023.6.0
 gitdb==4.0.10
 gitpython==3.1.32
 google-api-core==2.11.1
-google-api-python-client==2.96.0
+google-api-python-client==2.97.0
 google-auth==2.22.0
 google-auth-httplib2==0.1.0
 google-auth-oauthlib==1.0.0
@@ -107,7 +107,7 @@ pyasn1==0.5.0
 pyasn1-modules==0.3.0
 pycryptodome==3.18.0
 pydot==1.4.2
-pydrive2==1.16.1
+pydrive2==1.17.0
 pygtrie==2.5.0
 pyjwt==2.8.0
 pyopenssl==23.2.0
@@ -120,7 +120,7 @@ rsa==4.9
 ruamel-yaml==0.17.32
 ruamel-yaml-clib==0.2.7
 s3fs==2023.6.0
-s3transfer==0.6.1
+s3transfer==0.6.2
 scmrepo==1.2.1
 shortuuid==1.0.11
 shtab==1.6.4
