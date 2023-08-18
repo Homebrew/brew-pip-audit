@@ -3,7 +3,8 @@ aiofiles==23.2.1
 ajsonrpc==1.2.0
 anyio==3.7.1
 async-timeout==4.0.3
-bitstring==4.0.2
+bitarray==2.8.0
+bitstring==4.1.0
 bottle==0.12.25
 charset-normalizer==3.2.0
 click==8.1.6
