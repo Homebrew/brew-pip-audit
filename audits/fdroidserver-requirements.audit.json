@@ -7,7 +7,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-08-17T15:28:35Z",
+        "modified": "2023-08-18T16:01:15Z",
         "published": "2023-08-11T09:30:36Z",
         "schema_version": "1.4.0",
         "id": "GHSA-pr76-5cm5-w9cj",
@@ -128,6 +128,12 @@
             }
           }
         ],
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+          }
+        ],
         "references": [
           {
             "type": "ADVISORY",
@@ -157,7 +163,7 @@
           "github_reviewed": true,
           "github_reviewed_at": "2023-08-11T19:48:27Z",
           "nvd_published_at": null,
-          "severity": "MODERATE"
+          "severity": "CRITICAL"
         }
       },
       {
