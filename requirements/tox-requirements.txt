@@ -6,5 +6,5 @@ filelock==3.12.2
 packaging==23.1
 platformdirs==3.10.0
 pluggy==1.2.0
-pyproject-api==1.5.3
+pyproject-api==1.5.4
 virtualenv==20.24.3
