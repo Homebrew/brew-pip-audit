@@ -1,0 +1,16 @@
+annotated-types==0.5.0
+charset-normalizer==3.2.0
+click==8.1.7
+click-plugins==1.1.1
+colorama==0.4.6
+idna==3.4
+markdown-it-py==3.0.0
+mdurl==0.1.2
+pydantic==2.0.3
+pydantic-core==2.3.0
+python-dotenv==1.0.0
+requests==2.31.0
+rich==13.4.2
+shodan==1.29.1
+urllib3==2.0.4
+xlsxwriter==3.1.2

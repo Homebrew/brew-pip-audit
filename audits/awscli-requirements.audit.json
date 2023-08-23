@@ -7,7 +7,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-08-21T21:47:47Z",
+        "modified": "2023-08-22T22:19:13Z",
         "published": "2023-07-14T21:31:08Z",
         "schema_version": "1.4.0",
         "id": "GHSA-cf7p-gm2m-833m",
@@ -91,6 +91,10 @@
           {
             "type": "WEB",
             "url": "https://github.com/pypa/advisory-database/tree/main/vulns/cryptography/PYSEC-2023-112.yaml"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NMCCTYY3CSNQBFFYYC5DAV6KATHWCUZK/"
           },
           {
             "type": "WEB",
