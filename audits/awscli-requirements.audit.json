@@ -7,7 +7,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-08-22T22:19:13Z",
+        "modified": "2023-08-24T22:16:11Z",
         "published": "2023-07-14T21:31:08Z",
         "schema_version": "1.4.0",
         "id": "GHSA-cf7p-gm2m-833m",
@@ -45,11 +45,6 @@
             ],
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/07/GHSA-cf7p-gm2m-833m/GHSA-cf7p-gm2m-833m.json"
-            },
-            "ecosystem_specific": {
-              "affected_functions": [
-                "cryptography.hazmat.primitives.serialization.ssh.SSHCertificateBuilder.sign"
-              ]
             }
           }
         ],
@@ -99,6 +94,10 @@
           {
             "type": "WEB",
             "url": "https://pypi.org/project/cryptography/#history"
+          },
+          {
+            "type": "WEB",
+            "url": "https://security.netapp.com/advisory/ntap-20230824-0010/"
           }
         ],
         "database_specific": {

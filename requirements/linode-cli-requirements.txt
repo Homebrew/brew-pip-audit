@@ -2,7 +2,8 @@ charset-normalizer==3.2.0
 idna==3.4
 markdown-it-py==3.0.0
 mdurl==0.1.2
+openapi3==1.8.1
 packaging==23.1
 requests==2.31.0
-rich==13.4.2
+rich==13.5.2
 urllib3==2.0.4
