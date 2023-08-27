@@ -1,1 +1,1 @@
-packaging==23.1
+pycodestyle==2.11.0
