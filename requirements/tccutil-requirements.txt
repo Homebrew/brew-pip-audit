@@ -1,2 +1,0 @@
-flit-core==3.9.0
-packaging==23.1
