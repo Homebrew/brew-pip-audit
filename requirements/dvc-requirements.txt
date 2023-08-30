@@ -47,7 +47,7 @@ dvc-gs==2.22.1
 dvc-hdfs==2.19.0
 dvc-http==2.30.2
 dvc-objects==1.0.1
-dvc-oss==2.19.0
+dvc-oss==2.21.0
 dvc-render==0.5.3
 dvc-s3==2.23.0
 dvc-ssh==2.22.2
@@ -55,7 +55,7 @@ dvc-studio-client==0.13.0
 dvc-task==0.3.0
 dvc-webdav==2.19.1
 dvc-webhdfs==2.19.0
-filelock==3.12.2
+filelock==3.12.3
 flatten-dict==0.4.2
 flufl-lock==7.1.1
 frozenlist==1.4.0

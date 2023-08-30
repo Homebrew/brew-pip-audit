@@ -2,7 +2,7 @@ arrow==1.2.3
 circuitbreaker==1.4.0
 click==8.0.4
 jmespath==0.10.0
-oci==2.110.2
+oci==2.111.0
 prompt-toolkit==3.0.29
 pyopenssl==23.2.0
 python-dateutil==2.8.2

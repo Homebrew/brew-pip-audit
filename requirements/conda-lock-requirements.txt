@@ -3,13 +3,11 @@ appdirs==1.4.4
 cachecontrol==0.13.1
 cachy==0.3.0
 charset-normalizer==3.2.0
-click==8.1.6
+click==8.1.7
 click-default-group==1.2.4
 clikit==0.6.2
 crashtest==0.3.1
-distlib==0.3.7
 ensureconda==1.4.3
-filelock==3.12.2
 gitdb==4.0.10
 gitpython==3.1.32
 html5lib==1.1
@@ -20,9 +18,8 @@ msgpack==1.0.5
 packaging==23.1
 pastel==0.2.1
 pkginfo==1.9.6
-platformdirs==3.10.0
-pydantic==2.1.1
-pydantic-core==2.4.0
+pydantic==2.3.0
+pydantic-core==2.6.3
 pylev==1.4.0
 requests==2.31.0
 ruamel-yaml==0.17.32
