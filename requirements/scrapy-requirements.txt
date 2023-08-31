@@ -3,7 +3,7 @@ automat==22.10.0
 charset-normalizer==3.2.0
 constantly==15.1.0
 cssselect==1.2.0
-filelock==3.12.2
+filelock==3.12.3
 hyperlink==21.0.0
 idna==3.4
 incremental==22.10.0
@@ -13,7 +13,7 @@ jmespath==1.0.1
 lxml==4.9.3
 packaging==23.1
 parsel==1.8.1
-protego==0.2.1
+protego==0.3.0
 pyasn1==0.5.0
 pyasn1-modules==0.3.0
 pydispatcher==2.0.7
