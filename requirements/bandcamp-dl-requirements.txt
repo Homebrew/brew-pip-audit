@@ -1,10 +1,9 @@
 beautifulsoup4==4.12.2
-chardet==5.1.0
+chardet==5.2.0
 charset-normalizer==3.2.0
 demjson3==3.0.6
 docopt==0.6.2
 idna==3.4
-lxml==4.9.3
 mock==5.1.0
 mutagen==1.46.0
 requests==2.31.0

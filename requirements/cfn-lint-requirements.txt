@@ -1,7 +1,7 @@
 attrs==23.1.0
 aws-sam-translator==1.73.0
-boto3==1.28.25
-botocore==1.31.25
+boto3==1.28.38
+botocore==1.31.38
 jmespath==1.0.1
 jschema-to-python==1.2.3
 jsonpatch==1.33
@@ -16,7 +16,7 @@ pydantic==1.10.12
 pyrsistent==0.19.3
 python-dateutil==2.8.2
 regex==2023.8.8
-s3transfer==0.6.1
+s3transfer==0.6.2
 sarif-om==1.0.4
 sympy==1.12
 urllib3==1.26.16

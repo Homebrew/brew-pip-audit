@@ -1,0 +1,2 @@
+pyproject-metadata==0.7.1
+tomli==2.0.1
