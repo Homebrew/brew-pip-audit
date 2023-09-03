@@ -9,7 +9,7 @@ clikit==0.6.2
 crashtest==0.3.1
 ensureconda==1.4.3
 gitdb==4.0.10
-gitpython==3.1.32
+gitpython==3.1.33
 html5lib==1.1
 idna==3.4
 jinja2==3.1.2

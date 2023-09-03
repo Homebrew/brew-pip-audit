@@ -1,8 +1,8 @@
 args==0.1.0
-click==8.1.6
+click==8.1.7
 clint==0.5.1
 colorama==0.4.6
 crayons==0.4.0
 gitdb==4.0.10
-gitpython==3.1.32
+gitpython==3.1.33
 smmap==5.0.0

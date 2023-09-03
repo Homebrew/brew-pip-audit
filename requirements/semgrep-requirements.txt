@@ -1,6 +1,6 @@
 attrs==23.1.0
 boltons==21.0.0
-bracex==2.3.post1
+bracex==2.4
 charset-normalizer==3.2.0
 click==8.1.7
 click-option-group==0.5.6

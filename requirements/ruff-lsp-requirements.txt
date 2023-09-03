@@ -1,5 +1,5 @@
 attrs==23.1.0
 cattrs==23.1.2
-lsprotocol==2023.0.0a2
+lsprotocol==2023.0.0a3
 pygls==1.0.2
 typeguard==3.0.2

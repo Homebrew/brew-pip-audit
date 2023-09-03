@@ -9,7 +9,7 @@ aliyun-python-sdk-core==2.13.36
 aliyun-python-sdk-kms==2.16.1
 amqp==5.1.1
 antlr4-python3-runtime==4.9.3
-anyio==3.7.1
+anyio==4.0.0
 appdirs==1.4.4
 argcomplete==3.1.1
 async-timeout==4.0.3
@@ -25,7 +25,7 @@ billiard==4.1.0
 boto3==1.28.17
 botocore==1.31.17
 cachetools==5.3.1
-celery==5.3.1
+celery==5.3.3
 charset-normalizer==3.2.0
 click==8.1.7
 click-didyoumean==0.3.0
@@ -36,7 +36,7 @@ configobj==5.0.8
 crcmod==1.7
 decorator==5.1.1
 dictdiffer==0.9.0
-diskcache==5.6.1
+diskcache==5.6.3
 distro==1.8.0
 dpath==2.1.6
 dulwich==0.21.5
@@ -51,7 +51,7 @@ dvc-oss==2.21.0
 dvc-render==0.5.3
 dvc-s3==2.23.0
 dvc-ssh==2.22.2
-dvc-studio-client==0.13.0
+dvc-studio-client==0.15.0
 dvc-task==0.3.0
 dvc-webdav==2.19.1
 dvc-webhdfs==2.19.0
@@ -63,7 +63,7 @@ fsspec==2023.6.0
 funcy==2.0
 gcsfs==2023.6.0
 gitdb==4.0.10
-gitpython==3.1.32
+gitpython==3.1.33
 google-api-core==2.11.1
 google-api-python-client==2.97.0
 google-auth==2.22.0
@@ -85,7 +85,7 @@ isodate==0.6.1
 iterative-telemetry==0.0.8
 jmespath==0.10.0
 knack==0.11.0
-kombu==5.3.1
+kombu==5.3.2
 markdown-it-py==3.0.0
 mdurl==0.1.2
 msal==1.23.0
