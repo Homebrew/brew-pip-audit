@@ -2,7 +2,7 @@ blinker==1.6.2
 cachecontrol==0.13.1
 charset-normalizer==3.2.0
 distlib==0.3.7
-filelock==3.12.2
+filelock==3.12.3
 findpython==0.3.1
 idna==3.4
 installer==0.7.0
@@ -16,10 +16,11 @@ python-dotenv==1.0.0
 requests==2.31.0
 requests-toolbelt==1.0.0
 resolvelib==1.0.1
-rich==13.5.0
-shellingham==1.5.0.post1
+rich==13.5.2
+shellingham==1.5.3
 tomlkit==0.12.1
+truststore==0.7.0
 unearth==0.10.0
 urllib3==2.0.4
-virtualenv==20.24.2
-wheel==0.41.0
+virtualenv==20.24.4
+wheel==0.41.2
