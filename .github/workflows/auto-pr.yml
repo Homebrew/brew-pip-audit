@@ -31,7 +31,7 @@ jobs:
           AUTO_PR_LIMIT: ${{ inputs.pr-limit }}
 
       - name: Check out this repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
