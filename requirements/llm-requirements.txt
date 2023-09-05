@@ -17,6 +17,7 @@ python-dateutil==2.8.2
 python-ulid==1.1.0
 requests==2.31.0
 sqlite-fts4==1.0.3
+sqlite-migrate==0.1a2
 sqlite-utils==3.35
 tqdm==4.66.1
 urllib3==2.0.4

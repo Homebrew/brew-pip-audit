@@ -46,7 +46,6 @@ python-dateutil==2.8.2
 python-slugify==8.0.1
 python-twitter==3.5
 python3-fanart==2.0.0
-pytz==2023.3
 qbittorrent-api==2023.6.50
 rarfile==4.0
 rebulk==3.2.0
