@@ -1,10 +1,10 @@
 aioesphomeapi==15.0.0
 aiofiles==23.2.1
 ajsonrpc==1.2.0
-anyio==3.7.1
+anyio==4.0.0
 async-timeout==4.0.3
-bitarray==2.8.0
-bitstring==4.1.0
+bitarray==2.8.1
+bitstring==4.1.1
 bottle==0.12.25
 charset-normalizer==3.2.0
 click==8.1.6

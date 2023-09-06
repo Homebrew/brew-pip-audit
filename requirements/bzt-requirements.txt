@@ -2,7 +2,7 @@ aiodogstatsd==0.16.0.post0
 aiohttp==3.8.5
 aiosignal==1.3.1
 astunparse==1.6.3
-async-timeout==4.0.2
+async-timeout==4.0.3
 attrs==23.1.0
 bidict==0.22.1
 charset-normalizer==3.2.0
@@ -12,7 +12,7 @@ dill==0.3.7
 frozenlist==1.4.0
 fuzzyset2==0.2.2
 hdrpy==0.3.3
-humanize==4.7.0
+humanize==4.8.0
 idna==3.4
 influxdb==5.3.1
 lxml==4.9.3
@@ -24,8 +24,8 @@ progressbar33==2.4
 prompt-toolkit==3.0.39
 psutil==5.9.5
 python-dateutil==2.8.2
-python-engineio==4.5.1
-python-socketio==5.8.0
+python-engineio==4.7.0
+python-socketio==5.9.0
 pyvirtualdisplay==3.0
 rapidfuzz==3.2.0
 requests==2.31.0
@@ -33,6 +33,6 @@ terminaltables==3.1.10
 urllib3==1.26.16
 urwid==2.1.2
 wcwidth==0.2.6
-websocket-client==1.6.1
-wheel==0.41.1
+websocket-client==1.6.2
+wheel==0.41.2
 yarl==1.9.2
