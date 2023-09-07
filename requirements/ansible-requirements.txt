@@ -67,7 +67,6 @@ python-dateutil==2.8.2
 python-keystoneclient==5.1.0
 python-neutronclient==11.0.0
 python-string-utils==1.0.0
-pytz==2023.3
 pywinrm==0.4.3
 requests==2.31.0
 requests-credssp==2.0.0

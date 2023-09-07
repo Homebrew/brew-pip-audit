@@ -17,7 +17,6 @@ multidict==6.0.4
 netdisco==3.0.0
 ply==3.11
 python-dateutil==2.8.2
-pytz==2023.3
 regex==2023.6.3
 requests==2.31.0
 ruamel-yaml==0.17.32
