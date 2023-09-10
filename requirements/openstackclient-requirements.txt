@@ -41,7 +41,6 @@ python-neutronclient==11.0.0
 python-novaclient==18.3.0
 python-octaviaclient==3.4.0
 python-swiftclient==4.3.0
-pytz==2023.3
 requests==2.31.0
 requestsexceptions==1.4.0
 rfc3986==2.0.0

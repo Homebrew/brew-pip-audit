@@ -1,0 +1,6 @@
+beautifulsoup4==4.12.2
+bracex==2.4
+html5lib==1.1
+soupsieve==2.5
+wcmatch==8.5
+webencodings==0.5.1
