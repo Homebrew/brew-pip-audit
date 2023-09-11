@@ -6,7 +6,6 @@ mdit-py-plugins==0.4.0
 mdurl==0.1.2
 parsedatetime==2.6
 pyperclip==1.8.2
-pytz==2023.3
 rich==13.5.2
 textual==0.34.0
 tzlocal==2.1
