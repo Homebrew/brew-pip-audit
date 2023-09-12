@@ -9,4 +9,4 @@ python-magic==0.4.27
 Twisted==22.10.0
 urwid==2.1.2
 urwidtrees==1.0.3
-zope.interface==5.5.2
+zope-interface==5.5.2

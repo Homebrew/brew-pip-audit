@@ -39,7 +39,6 @@ nest-asyncio==1.5.7
 notebook==7.0.3
 notebook-shim==0.2.3
 overrides==7.4.0
-packaging==23.1
 pandocfilters==1.5.0
 platformdirs==3.10.0
 prometheus-client==0.17.1
