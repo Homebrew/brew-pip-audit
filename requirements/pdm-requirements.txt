@@ -19,8 +19,8 @@ resolvelib==1.0.1
 rich==13.5.2
 shellingham==1.5.3
 tomlkit==0.12.1
-truststore==0.7.0
+truststore==0.8.0
 unearth==0.10.0
 urllib3==2.0.4
-virtualenv==20.24.4
+virtualenv==20.24.5
 wheel==0.41.2

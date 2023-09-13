@@ -1,11 +1,11 @@
-ansible-core==2.15.3
+ansible-core==2.15.4
 apache-libcloud==3.8.0
 appdirs==1.4.4
 attrs==23.1.0
 autopage==0.5.1
 bcrypt==4.0.1
-boto3==1.28.38
-botocore==1.31.38
+boto3==1.28.45
+botocore==1.31.45
 cachetools==5.3.1
 charset-normalizer==3.2.0
 cliff==4.3.0
@@ -16,7 +16,7 @@ dnspython==2.4.2
 docker==6.1.3
 dogpile-cache==1.2.2
 future==0.18.3
-google-auth==2.22.0
+google-auth==2.23.0
 idna==3.4
 importlib-metadata==6.8.0
 iso8601==2.0.0
@@ -36,7 +36,7 @@ netifaces==0.11.0
 ntc-templates==3.5.0
 oauthlib==3.2.2
 openshift==0.13.2
-openstacksdk==1.4.0
+openstacksdk==1.5.0
 os-client-config==2.1.0
 os-service-types==1.7.0
 osc-lib==2.8.1
@@ -51,7 +51,7 @@ paramiko==3.3.1
 passlib==1.7.4
 pbr==5.11.1
 pexpect==4.8.0
-prettytable==3.8.0
+prettytable==3.9.0
 proxmoxer==2.0.1
 ptyprocess==0.7.0
 pyasn1==0.5.0
@@ -86,7 +86,7 @@ transitions==0.9.0
 tzdata==2023.3
 urllib3==1.26.16
 wcwidth==0.2.6
-websocket-client==1.6.2
+websocket-client==1.6.3
 wrapt==1.15.0
 xmltodict==0.13.0
 yamlordereddictloader==0.4.0
