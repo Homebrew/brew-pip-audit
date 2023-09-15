@@ -3,7 +3,8 @@
     "package": {
       "name": "requests",
       "version": "2.30.0",
-      "ecosystem": "PyPI"
+      "ecosystem": "PyPI",
+      "commit": ""
     },
     "vulnerabilities": [
       {

@@ -3,7 +3,8 @@
     "package": {
       "name": "setuptools",
       "version": "59.8.0",
-      "ecosystem": "PyPI"
+      "ecosystem": "PyPI",
+      "commit": ""
     },
     "vulnerabilities": [
       {

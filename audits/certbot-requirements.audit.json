@@ -3,7 +3,8 @@
     "package": {
       "name": "configobj",
       "version": "5.0.8",
-      "ecosystem": "PyPI"
+      "ecosystem": "PyPI",
+      "commit": ""
     },
     "vulnerabilities": [
       {

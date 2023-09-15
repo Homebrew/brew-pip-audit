@@ -3,7 +3,8 @@
     "package": {
       "name": "keep",
       "version": "2.10.1",
-      "ecosystem": "PyPI"
+      "ecosystem": "PyPI",
+      "commit": ""
     },
     "vulnerabilities": [
       {

@@ -3,7 +3,8 @@
     "package": {
       "name": "git-url-parse",
       "version": "1.2.2",
-      "ecosystem": "PyPI"
+      "ecosystem": "PyPI",
+      "commit": ""
     },
     "vulnerabilities": [
       {
@@ -109,7 +110,8 @@
     "package": {
       "name": "gitpython",
       "version": "3.1.32",
-      "ecosystem": "PyPI"
+      "ecosystem": "PyPI",
+      "commit": ""
     },
     "vulnerabilities": [
       {

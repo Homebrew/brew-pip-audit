@@ -8,7 +8,6 @@ frozenlist==1.4.0
 idna==3.4
 multidict==6.0.4
 mypy-extensions==1.0.0
-packaging==23.1
 pathspec==0.11.2
 platformdirs==3.10.0
 yarl==1.9.2

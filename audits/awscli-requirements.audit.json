@@ -3,7 +3,8 @@
     "package": {
       "name": "cryptography",
       "version": "40.0.1",
-      "ecosystem": "PyPI"
+      "ecosystem": "PyPI",
+      "commit": ""
     },
     "vulnerabilities": [
       {

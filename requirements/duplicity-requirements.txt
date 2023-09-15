@@ -46,7 +46,6 @@ oslo-config==9.2.0
 oslo-i18n==6.1.0
 oslo-serialization==5.2.0
 oslo-utils==6.2.1
-packaging==23.1
 paramiko==3.3.1
 pbr==5.11.1
 pexpect==4.8.0

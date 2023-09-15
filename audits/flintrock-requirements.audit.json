@@ -3,7 +3,8 @@
     "package": {
       "name": "paramiko",
       "version": "2.7.2",
-      "ecosystem": "PyPI"
+      "ecosystem": "PyPI",
+      "commit": ""
     },
     "vulnerabilities": [
       {

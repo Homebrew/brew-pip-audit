@@ -19,7 +19,7 @@ python-lsp-jsonrpc==1.0.0
 referencing==0.30.2
 requests==2.31.0
 rich==13.5.2
-rpds-py==0.10.2
+rpds-py==0.10.3
 ruamel-yaml==0.17.32
 ruamel-yaml-clib==0.2.7
 tomli==2.0.1

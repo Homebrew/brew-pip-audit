@@ -3,7 +3,8 @@
     "package": {
       "name": "tornado",
       "version": "6.3.2",
-      "ecosystem": "PyPI"
+      "ecosystem": "PyPI",
+      "commit": ""
     },
     "vulnerabilities": [
       {

@@ -3,7 +3,8 @@
     "package": {
       "name": "aiohttp",
       "version": "3.8.4",
-      "ecosystem": "PyPI"
+      "ecosystem": "PyPI",
+      "commit": ""
     },
     "vulnerabilities": [
       {

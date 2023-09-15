@@ -3,7 +3,8 @@
     "package": {
       "name": "flask",
       "version": "2.2.2",
-      "ecosystem": "PyPI"
+      "ecosystem": "PyPI",
+      "commit": ""
     },
     "vulnerabilities": [
       {
@@ -341,7 +342,8 @@
     "package": {
       "name": "redis",
       "version": "4.4.0",
-      "ecosystem": "PyPI"
+      "ecosystem": "PyPI",
+      "commit": ""
     },
     "vulnerabilities": [
       {
@@ -857,7 +859,8 @@
     "package": {
       "name": "requests",
       "version": "2.28.1",
-      "ecosystem": "PyPI"
+      "ecosystem": "PyPI",
+      "commit": ""
     },
     "vulnerabilities": [
       {
@@ -1170,7 +1173,8 @@
     "package": {
       "name": "werkzeug",
       "version": "2.2.2",
-      "ecosystem": "PyPI"
+      "ecosystem": "PyPI",
+      "commit": ""
     },
     "vulnerabilities": [
       {

@@ -3,7 +3,8 @@
     "package": {
       "name": "pygments",
       "version": "2.5.2",
-      "ecosystem": "PyPI"
+      "ecosystem": "PyPI",
+      "commit": ""
     },
     "vulnerabilities": [
       {

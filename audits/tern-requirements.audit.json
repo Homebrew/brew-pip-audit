@@ -3,7 +3,8 @@
     "package": {
       "name": "gitpython",
       "version": "3.1.32",
-      "ecosystem": "PyPI"
+      "ecosystem": "PyPI",
+      "commit": ""
     },
     "vulnerabilities": [
       {

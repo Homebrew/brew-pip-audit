@@ -3,7 +3,8 @@
     "package": {
       "name": "configobj",
       "version": "5.0.8",
-      "ecosystem": "PyPI"
+      "ecosystem": "PyPI",
+      "commit": ""
     },
     "vulnerabilities": [
       {
@@ -108,7 +109,8 @@
     "package": {
       "name": "tornado",
       "version": "6.3.2",
-      "ecosystem": "PyPI"
+      "ecosystem": "PyPI",
+      "commit": ""
     },
     "vulnerabilities": [
       {
