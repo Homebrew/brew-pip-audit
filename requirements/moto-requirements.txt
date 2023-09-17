@@ -18,7 +18,7 @@ openapi-schema-validator==0.4.4
 openapi-spec-validator==0.5.7
 packaging==23.1
 pathable==0.4.3
-py-partiql-parser==0.3.6
+py-partiql-parser==0.3.7
 pyasn1==0.5.0
 pyparsing==3.1.1
 python-jose==3.3.0
@@ -28,7 +28,7 @@ rfc3339-validator==0.1.4
 rsa==4.9
 sshpubkeys==3.3.1
 types-pyyaml==6.0.12.11
-websocket-client==1.6.2
+websocket-client==1.6.3
 werkzeug==2.3.7
 wrapt==1.15.0
 xmltodict==0.13.0
