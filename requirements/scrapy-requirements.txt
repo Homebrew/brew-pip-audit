@@ -3,7 +3,7 @@ automat==22.10.0
 charset-normalizer==3.2.0
 constantly==15.1.0
 cssselect==1.2.0
-filelock==3.12.3
+filelock==3.12.4
 hyperlink==21.0.0
 idna==3.4
 incremental==22.10.0
@@ -22,7 +22,7 @@ queuelib==1.6.2
 requests==2.31.0
 requests-file==1.5.1
 service-identity==23.1.0
-tldextract==3.4.4
+tldextract==3.5.0
 twisted==22.10.0
 urllib3==2.0.4
 w3lib==2.1.2
