@@ -2,7 +2,7 @@ ansible-compat==4.1.10
 attrs==23.1.0
 bracex==2.4
 charset-normalizer==3.2.0
-filelock==3.12.3
+filelock==3.12.4
 idna==3.4
 jsonschema==4.19.0
 jsonschema-specifications==2023.7.1
@@ -10,8 +10,8 @@ markdown-it-py==3.0.0
 mdurl==0.1.2
 referencing==0.30.2
 requests==2.31.0
-rich==13.5.2
-rpds-py==0.10.2
+rich==13.5.3
+rpds-py==0.10.3
 ruamel-yaml==0.17.32
 ruamel-yaml-clib==0.2.7
 subprocess-tee==0.4.1

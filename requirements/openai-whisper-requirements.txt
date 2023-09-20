@@ -1,7 +1,11 @@
-ffmpeg-python==0.2.0
-future==0.18.3
-llvmlite==0.40.0rc1
+charset-normalizer==3.2.0
+idna==3.4
+llvmlite==0.40.1
+more-itertools==10.1.0
 numba==0.57.1
-numpy==1.24.3
-regex==2023.3.23
-tiktoken==0.3.1
+numpy==1.24.4
+regex==2023.8.8
+requests==2.31.0
+tiktoken==0.3.3
+tqdm==4.66.1
+urllib3==2.0.4
