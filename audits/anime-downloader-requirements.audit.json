@@ -8,7 +8,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-06-20T14:40:07Z",
+        "modified": "2023-09-20T19:34:14Z",
         "published": "2023-05-22T20:36:32Z",
         "schema_version": "1.4.0",
         "id": "GHSA-j8r2-6x86-q33q",
@@ -157,6 +157,10 @@
           {
             "type": "WEB",
             "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/KOYASTZDGQG2BWLSNBPL3TQRL2G7QYNZ/"
+          },
+          {
+            "type": "WEB",
+            "url": "https://security.gentoo.org/glsa/202309-08"
           }
         ],
         "database_specific": {
