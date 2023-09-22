@@ -13,3 +13,7 @@ reason = "Only impacts wheels, which homebrew doesn't use"
 [[IgnoredVulns]]
 id = "GHSA-jm77-qphf-c4w8"
 reason = "Only impacts wheels, which homebrew doesn't use"
+
+[[IgnoredVulns]]
+id = "GHSA-v8gr-m533-ghj9"
+reason = "Only impacts wheels, which homebrew doesn't use"
