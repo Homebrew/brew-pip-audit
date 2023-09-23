@@ -45,7 +45,6 @@ mypy-boto3-stepfunctions==1.28.36
 mypy-boto3-sts==1.28.37
 mypy-boto3-xray==1.28.36
 networkx==3.1
-packaging==23.1
 pbr==5.11.1
 pydantic==1.10.12
 pyopenssl==23.2.0

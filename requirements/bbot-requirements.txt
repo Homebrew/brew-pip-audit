@@ -24,7 +24,6 @@ lockfile==0.12.2
 markupsafe==2.1.3
 omegaconf==2.3.0
 ordered-set==4.1.0
-packaging==23.1
 pexpect==4.8.0
 psutil==5.9.5
 ptyprocess==0.7.0

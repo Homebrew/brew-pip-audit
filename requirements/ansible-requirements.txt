@@ -46,7 +46,6 @@ oslo-i18n==6.1.0
 oslo-log==5.3.0
 oslo-serialization==5.2.0
 oslo-utils==6.2.1
-packaging==23.1
 paramiko==3.3.1
 passlib==1.7.4
 pbr==5.11.1
