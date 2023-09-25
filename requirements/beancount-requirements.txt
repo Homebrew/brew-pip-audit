@@ -12,7 +12,6 @@ httplib2==0.22.0
 idna==3.4
 iniconfig==2.0.0
 lxml==4.9.3
-packaging==23.1
 pluggy==1.2.0
 ply==3.11
 protobuf==4.23.4

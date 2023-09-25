@@ -11,7 +11,6 @@ itemadapter==0.8.0
 itemloaders==1.1.0
 jmespath==1.0.1
 lxml==4.9.3
-packaging==23.1
 parsel==1.8.1
 protego==0.3.0
 pyasn1==0.5.0

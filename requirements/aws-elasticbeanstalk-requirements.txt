@@ -13,7 +13,6 @@ docopt==0.6.2
 idna==3.4
 jmespath==1.0.1
 jsonschema==3.2.0
-packaging==23.1
 paramiko==3.3.1
 pathspec==0.10.1
 pynacl==1.5.0
