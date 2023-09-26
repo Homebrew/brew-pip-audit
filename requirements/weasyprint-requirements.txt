@@ -1,7 +1,7 @@
 cssselect2==0.7.0
 html5lib==1.1
-pydyf==0.6.0
+pydyf==0.8.0
 pyphen==0.14.0
 tinycss2==1.2.1
 webencodings==0.5.1
-zopfli==0.2.2
+zopfli==0.2.3
