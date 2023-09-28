@@ -49,7 +49,7 @@ jobs:
           username: BrewTestBot
 
       - name: Install Homebrew's bundler gems
-        run: brew ruby -e "Homebrew.install_bundler_gems!"
+        run: brew install-bundler-gems --groups=all
 
       - run: brew install --overwrite python
 
