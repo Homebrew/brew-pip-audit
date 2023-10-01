@@ -47,7 +47,6 @@ multidict==6.0.4
 networkx==2.6.3
 openai==0.28.1
 packageurl-python==0.11.2
-packaging==23.1
 ply==3.11
 policy-sentry==0.12.10
 policyuniverse==1.5.1.20230817

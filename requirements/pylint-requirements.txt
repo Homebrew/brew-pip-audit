@@ -1,4 +1,4 @@
-astroid==2.15.7
+astroid==2.15.8
 dill==0.3.7
 lazy-object-proxy==1.9.0
 mccabe==0.7.0

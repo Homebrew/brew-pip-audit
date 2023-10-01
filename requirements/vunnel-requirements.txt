@@ -7,6 +7,7 @@ dataclass-wizard==0.22.2
 defusedxml==0.7.1
 docformatter==1.7.5
 future==0.18.3
+greenlet==2.0.2
 idna==3.4
 ijson==2.6.1
 importlib-metadata==6.8.0
