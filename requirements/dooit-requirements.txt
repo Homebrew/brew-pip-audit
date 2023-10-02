@@ -4,10 +4,10 @@ linkify-it-py==2.0.2
 markdown-it-py==3.0.0
 mdit-py-plugins==0.4.0
 mdurl==0.1.2
-parsedatetime==2.6
 pyperclip==1.8.2
-rich==13.5.2
+python-dateutil==2.8.2
+rich==13.6.0
 textual==0.34.0
 tzlocal==2.1
 uc-micro-py==1.0.2
-zipp==3.16.2
+zipp==3.17.0

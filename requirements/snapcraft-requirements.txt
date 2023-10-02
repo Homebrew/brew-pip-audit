@@ -30,7 +30,6 @@ more-itertools==10.1.0
 mypy-extensions==1.0.0
 oauthlib==3.2.2
 overrides==7.4.0
-packaging==23.1
 platformdirs==3.10.0
 progressbar==2.5
 protobuf==3.20.3

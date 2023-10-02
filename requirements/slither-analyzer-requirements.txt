@@ -20,7 +20,6 @@ jsonschema==4.18.0
 jsonschema-specifications==2023.6.1
 lru-dict==1.2.0
 multidict==6.0.4
-packaging==23.1
 parsimonious==0.9.0
 prettytable==3.8.0
 protobuf==4.23.4
