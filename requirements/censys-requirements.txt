@@ -1,9 +1,9 @@
-argcomplete==3.1.1
+argcomplete==3.1.2
 backoff==2.2.1
-charset-normalizer==3.2.0
+charset-normalizer==3.3.0
 idna==3.4
 markdown-it-py==3.0.0
 mdurl==0.1.2
 requests==2.31.0
-rich==13.5.2
-urllib3==2.0.4
+rich==13.6.0
+urllib3==2.0.5
