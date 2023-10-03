@@ -31,8 +31,8 @@ starlette==0.31.1
 tornado==6.3.3
 tzdata==2023.3
 tzlocal==5.0.1
-urllib3==2.0.5
+urllib3==2.0.6
 uvicorn==0.23.2
 voluptuous==0.13.1
 wsproto==1.2.0
-zeroconf==0.112.0
+zeroconf==0.115.1

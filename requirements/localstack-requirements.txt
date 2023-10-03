@@ -1,12 +1,12 @@
 cachetools==5.0.0
-charset-normalizer==3.2.0
+charset-normalizer==3.3.0
 dill==0.3.6
 dnslib==0.9.23
 dnspython==2.4.2
 ecdsa==0.18.0
 idna==3.4
-localstack-core==2.3.1
-localstack-ext==2.3.1
+localstack-core==2.3.2
+localstack-ext==2.3.2
 markdown-it-py==3.0.0
 mdurl==0.1.2
 pbr==5.11.1
@@ -18,9 +18,9 @@ python-dateutil==2.8.2
 python-dotenv==1.0.0
 python-jose==3.3.0
 requests==2.31.0
-rich==13.5.3
+rich==13.6.0
 rsa==4.9
 semver==3.0.1
 stevedore==5.1.0
 tailer==0.4.1
-urllib3==2.0.5
+urllib3==2.0.6

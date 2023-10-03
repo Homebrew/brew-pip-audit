@@ -1,5 +1,5 @@
-charset-normalizer==3.2.0
+charset-normalizer==3.3.0
 dicttoxml==1.7.16
 idna==3.4
 requests==2.31.0
-urllib3==2.0.4
+urllib3==2.0.6

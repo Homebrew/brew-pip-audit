@@ -1,8 +1,8 @@
-charset-normalizer==3.2.0
+charset-normalizer==3.3.0
 configargparse==1.7
 configparser==6.0.0
 idna==3.4
 pyopenssl==23.2.0
 requests==2.31.0
-urllib3==2.0.4
+urllib3==2.0.6
 urllib3-secure-extra==0.1.0
