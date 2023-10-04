@@ -210,7 +210,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-10-02T23:30:48Z",
+        "modified": "2023-10-04T19:48:40Z",
         "published": "2023-10-02T23:27:05Z",
         "schema_version": "1.6.0",
         "id": "GHSA-v845-jxx5-vc9f",
@@ -376,6 +376,10 @@
           {
             "type": "WEB",
             "url": "https://github.com/urllib3/urllib3/security/advisories/GHSA-v845-jxx5-vc9f"
+          },
+          {
+            "type": "ADVISORY",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-43804"
           },
           {
             "type": "WEB",
