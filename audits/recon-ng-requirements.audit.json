@@ -10,7 +10,7 @@
       {
         "modified": "2023-08-21T18:29:55Z",
         "published": "2023-05-01T19:22:20Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "GHSA-m2qf-hxjv-5gpq",
         "aliases": [
           "CVE-2023-30861"
@@ -197,7 +197,7 @@
       {
         "modified": "2023-06-05T01:12:52Z",
         "published": "2023-05-02T18:15:00Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "PYSEC-2023-62",
         "aliases": [
           "CVE-2023-30861",
@@ -349,7 +349,7 @@
       {
         "modified": "2023-06-06T18:18:13Z",
         "published": "2023-03-26T21:30:23Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "GHSA-24wv-mv5m-xv4h",
         "aliases": [
           "CVE-2023-28858"
@@ -517,7 +517,7 @@
       {
         "modified": "2023-07-19T22:49:04Z",
         "published": "2023-03-26T21:30:23Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "GHSA-8fww-64cx-x8p5",
         "aliases": [
           "CVE-2023-28859"
@@ -677,7 +677,7 @@
       {
         "modified": "2023-06-05T01:13:00Z",
         "published": "2023-03-26T19:15:00Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "PYSEC-2023-45",
         "aliases": [
           "CVE-2023-28858"
@@ -767,7 +767,7 @@
       {
         "modified": "2023-06-05T01:13:00Z",
         "published": "2023-03-26T19:15:00Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "PYSEC-2023-46",
         "aliases": [
           "CVE-2023-28859"
@@ -866,7 +866,7 @@
       {
         "modified": "2023-09-20T19:34:14Z",
         "published": "2023-05-22T20:36:32Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "GHSA-j8r2-6x86-q33q",
         "aliases": [
           "CVE-2023-32681"
@@ -1032,7 +1032,7 @@
       {
         "modified": "2023-06-05T01:13:00Z",
         "published": "2023-05-26T18:15:00Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "PYSEC-2023-74",
         "aliases": [
           "CVE-2023-32681",
@@ -1184,7 +1184,7 @@
       {
         "modified": "2023-10-02T23:30:48Z",
         "published": "2023-10-02T23:27:05Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "GHSA-v845-jxx5-vc9f",
         "aliases": [
           "CVE-2023-43804"
@@ -1392,7 +1392,7 @@
       {
         "modified": "2023-08-18T16:01:11Z",
         "published": "2023-02-15T15:37:03Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "GHSA-px8h-6qxv-m22q",
         "aliases": [
           "CVE-2023-23934"
@@ -1560,7 +1560,7 @@
       {
         "modified": "2023-08-18T16:01:28Z",
         "published": "2023-02-15T15:36:26Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "GHSA-xg9f-g7g7-2323",
         "aliases": [
           "CVE-2023-25577"
@@ -1729,7 +1729,7 @@
       {
         "modified": "2023-05-04T03:49:48Z",
         "published": "2023-02-14T20:15:00Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "PYSEC-2023-57",
         "aliases": [
           "CVE-2023-23934",
@@ -1873,7 +1873,7 @@
       {
         "modified": "2023-05-04T03:49:48Z",
         "published": "2023-02-14T20:15:00Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "PYSEC-2023-58",
         "aliases": [
           "CVE-2023-25577",

@@ -10,7 +10,7 @@
       {
         "modified": "2023-05-01T14:02:28Z",
         "published": "2022-12-23T00:30:23Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "GHSA-r9hx-vwmv-q579",
         "aliases": [
           "CVE-2022-40897"
@@ -627,7 +627,7 @@
       {
         "modified": "2023-05-04T04:29:29Z",
         "published": "2022-12-23T00:15:00Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "PYSEC-2022-43012",
         "aliases": [
           "CVE-2022-40897"

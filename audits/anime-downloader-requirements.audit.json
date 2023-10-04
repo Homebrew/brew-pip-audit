@@ -10,7 +10,7 @@
       {
         "modified": "2023-09-20T19:34:14Z",
         "published": "2023-05-22T20:36:32Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "GHSA-j8r2-6x86-q33q",
         "aliases": [
           "CVE-2023-32681"
@@ -176,7 +176,7 @@
       {
         "modified": "2023-06-05T01:13:00Z",
         "published": "2023-05-26T18:15:00Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "PYSEC-2023-74",
         "aliases": [
           "CVE-2023-32681",
@@ -328,7 +328,7 @@
       {
         "modified": "2023-10-02T23:30:48Z",
         "published": "2023-10-02T23:27:05Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "GHSA-v845-jxx5-vc9f",
         "aliases": [
           "CVE-2023-43804"

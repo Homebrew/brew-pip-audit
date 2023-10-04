@@ -10,7 +10,7 @@
       {
         "modified": "2023-08-24T22:16:11Z",
         "published": "2023-07-14T21:31:08Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "GHSA-cf7p-gm2m-833m",
         "aliases": [
           "CVE-2023-38325"
@@ -114,7 +114,7 @@
       {
         "modified": "2023-08-21T15:28:13Z",
         "published": "2023-07-14T20:15:00Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "PYSEC-2023-112",
         "aliases": [
           "CVE-2023-38325"

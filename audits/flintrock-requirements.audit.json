@@ -10,7 +10,7 @@
       {
         "modified": "2022-05-17T03:06:38Z",
         "published": "2022-03-17T22:15:00Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "PYSEC-2022-166",
         "aliases": [
           "CVE-2022-24302",
@@ -212,7 +212,7 @@
       {
         "modified": "2023-10-02T23:30:48Z",
         "published": "2023-10-02T23:27:05Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "GHSA-v845-jxx5-vc9f",
         "aliases": [
           "CVE-2023-43804"

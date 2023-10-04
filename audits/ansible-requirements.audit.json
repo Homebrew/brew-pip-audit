@@ -10,7 +10,7 @@
       {
         "modified": "2021-07-25T23:34:38Z",
         "published": "2017-08-25T18:29:00Z",
-        "schema_version": "1.4.0",
+        "schema_version": "1.6.0",
         "id": "PYSEC-2017-49",
         "aliases": [
           "CVE-2015-3206"
