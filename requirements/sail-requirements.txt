@@ -1,4 +1,4 @@
-charset-normalizer==3.2.0
+charset-normalizer==3.3.0
 click==8.1.7
 filelock==3.12.4
 idna==3.4
@@ -10,4 +10,4 @@ python-digitalocean==1.17.0
 requests==2.31.0
 requests-file==1.5.1
 tldextract==3.6.0
-urllib3==2.0.5
+urllib3==2.0.6
