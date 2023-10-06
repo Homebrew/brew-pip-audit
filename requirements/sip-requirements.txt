@@ -1,2 +1,1 @@
-packaging==23.1
 ply==3.11

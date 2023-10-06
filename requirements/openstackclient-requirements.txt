@@ -28,7 +28,6 @@ oslo-i18n==6.1.0
 oslo-log==5.3.0
 oslo-serialization==5.2.0
 oslo-utils==6.2.1
-packaging==23.1
 pbr==5.11.1
 prettytable==3.9.0
 pyparsing==3.1.1

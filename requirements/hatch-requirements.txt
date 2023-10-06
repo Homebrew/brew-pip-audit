@@ -9,12 +9,8 @@ httpcore==0.16.3
 httpx==0.23.3
 hyperlink==21.0.0
 idna==3.4
-importlib-metadata==6.1.0
-jaraco-classes==3.2.3
-keyring==23.13.1
 markdown-it-py==2.2.0
 mdurl==0.1.2
-more-itertools==9.1.0
 pathspec==0.11.1
 pexpect==4.8.0
 platformdirs==3.2.0
@@ -29,4 +25,3 @@ tomli-w==1.0.0
 tomlkit==0.11.7
 trove-classifiers==2023.3.9
 userpath==1.8.0
-zipp==3.15.0

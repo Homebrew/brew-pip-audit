@@ -1,3 +1,2 @@
 argcomplete==3.0.6
 colorlog==6.7.0
-packaging==23.1
