@@ -1,8 +1,8 @@
-charset-normalizer==3.2.0
+charset-normalizer==3.3.0
 colorama==0.4.6
 gitdb==4.0.10
-gitpython==3.1.35
+gitpython==3.1.37
 jupyter-server-mathjax==0.2.6
 requests==2.31.0
-smmap==5.0.0
-urllib3==2.0.4
+smmap==5.0.1
+urllib3==2.0.6

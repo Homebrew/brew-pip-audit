@@ -1,5 +1,5 @@
-charset-normalizer==3.2.0
-click==8.1.6
+charset-normalizer==3.3.0
+click==8.1.7
 defusedxml==0.7.1
 httpie==3.2.2
 idna==3.4
@@ -9,9 +9,9 @@ multidict==6.0.4
 parsimonious==0.10.0
 prompt-toolkit==1.0.18
 pysocks==1.7.1
-regex==2023.6.3
+regex==2023.10.3
 requests==2.31.0
 requests-toolbelt==1.0.0
-rich==13.4.2
-urllib3==2.0.4
-wcwidth==0.2.6
+rich==13.6.0
+urllib3==2.0.6
+wcwidth==0.2.8

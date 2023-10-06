@@ -1,7 +1,7 @@
 attrs==23.1.0
 beautifulsoup4==4.12.2
-boto3==1.28.57
-botocore==1.31.57
+boto3==1.28.61
+botocore==1.31.61
 charset-normalizer==3.3.0
 circuitbreaker==1.4.0
 click==8.1.7
@@ -14,8 +14,8 @@ localzone==0.9.8
 lxml==4.9.3
 markdown-it-py==3.0.0
 mdurl==0.1.2
-oci==2.112.2
-platformdirs==3.10.0
+oci==2.112.3
+platformdirs==3.11.0
 prettytable==3.9.0
 prompt-toolkit==3.0.39
 pyopenssl==23.2.0
@@ -29,6 +29,6 @@ s3transfer==0.7.0
 softlayer==6.1.9
 soupsieve==2.5
 tldextract==3.6.0
-urllib3==1.26.16
+urllib3==1.26.17
 wcwidth==0.2.8
 zeep==4.2.1

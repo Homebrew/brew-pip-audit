@@ -4,4 +4,4 @@ prometheus-client==0.17.1
 pysocks==1.7.1
 requests==2.31.0
 stem==1.8.2
-urllib3==2.0.5
+urllib3==2.0.6

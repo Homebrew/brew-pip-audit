@@ -1,10 +1,10 @@
 bottle==0.12.25
-charset-normalizer==3.2.0
+charset-normalizer==3.3.0
 cheroot==10.0.0
-dnspython==2.4.1
+dnspython==2.4.2
 idna==3.4
-jaraco-functools==3.8.0
-more-itertools==10.0.0
-pymongo==4.4.1
+jaraco-functools==3.9.0
+more-itertools==10.1.0
+pymongo==4.5.0
 requests==2.31.0
-urllib3==2.0.4
+urllib3==2.0.6
