@@ -2,6 +2,7 @@
 
 # pip-audit-bulk: run pip-audit in bulk, saving (reduced) reports in JSON
 
+import collections
 import json
 import os
 import shutil
@@ -24,19 +25,9 @@ _FAILURES.unlink(missing_ok=True)
 _SKIPPED = _HERE / "skipped"
 _SKIPPED.unlink(missing_ok=True)
 
-_SUMMARY_RESULTS = {
-    "success": [],
-    "failure": [],
-}
-_SUMMARY_SUCCESS_TEMPLATE = "| `{name}` | {vuln_count} |\n"
-_SUMMARY_FAILURE_TEMPLATE = """
-`{name}` failed with:
-
-```console
-{stderr}
-```
-"""
 _SUMMARY = Path(os.environ["GITHUB_STEP_SUMMARY"])
+# {(dependency, CVE): [list of formula]}
+_SUMMARY_RESULTS = collections.defaultdict(list)
 
 assert shutil.which("osv-scanner"), "missing osv-scanner"
 
@@ -49,7 +40,7 @@ for req in sorted(_REQUIREMENTS.glob("*.txt")):
             "--lockfile",
             f"requirements.txt:{req}",
             "--format=json",
-            f"--config=osv-scanner-config.toml",
+            "--config=osv-scanner-config.toml",
         ],
         capture_output=True,
         text=True,
@@ -61,7 +52,6 @@ for req in sorted(_REQUIREMENTS.glob("*.txt")):
         print(f"\t>:( pip-audit failed: {result.stderr}")
         with _FAILURES.open(mode="at") as failures:
             print(req.name, file=failures)
-        _SUMMARY_RESULTS["failure"].append((req.name, result.stderr))
         continue
 
     # Reduce the audit to only dependencies that include vulnerabilities
@@ -75,6 +65,10 @@ for req in sorted(_REQUIREMENTS.glob("*.txt")):
         assert len(results) == 1
         vulns = results[0]["packages"]
         vuln_count = len(vulns)
+        for v in vulns:
+            _SUMMARY_RESULTS[(v["package"]["name"], v["groups"][0]["ids"][0])].append(
+                req.name.rsplit("-", 1)[0]
+            )
         print(
             f"\t:-( found {vuln_count} vulnerabilities in {req.name}",
             file=sys.stderr,
@@ -83,8 +77,6 @@ for req in sorted(_REQUIREMENTS.glob("*.txt")):
     else:
         out.unlink(missing_ok=True)
         print(f"\t:-) no vulnerabilities found in {req.name}", file=sys.stderr)
-
-    _SUMMARY_RESULTS["success"].append((req.name, vuln_count))
 
 
 # Second pass: clean up any audits that don't have corresponding
@@ -97,27 +89,15 @@ for audit in _OUT.glob("*.json"):
         audit.unlink()
 
 
-success_render = ""
-for name, vuln_count in _SUMMARY_RESULTS["success"]:
-    success_render += _SUMMARY_SUCCESS_TEMPLATE.format(name=name, vuln_count=vuln_count)
+render = """Identified the following vulnerabilities:
 
-
-failure_render = ""
-for name, stderr in _SUMMARY_RESULTS["failure"]:
-    failure_render += _SUMMARY_FAILURE_TEMPLATE.format(name=name, stderr=stderr)
-
-render = f"""
-The following audits completed successfully:
-
-| Input | Vulnerabilities found |
-| ----- | --------------------- |
-{success_render}
-
-
-The following audits failed, and should be manually inspected:
-
-{failure_render}
+| Dependency | Vulnerability | Formula |
+| ---------- | ------------- | ------- |
 """
+
+for (dep, vuln), formulas in sorted(_SUMMARY_RESULTS.items()):
+    formulas_rendered = ", ".join(f"`{f}`" for f in formulas)
+    render += f"| `{dep}` | `{vuln}` | {formulas_rendered} |\n"
 
 with _SUMMARY.open(mode="a") as io:
     print(render, file=io)
