@@ -1,4 +1,4 @@
-charset-normalizer==3.2.0
+charset-normalizer==3.3.0
 click==8.1.7
 click-default-group==1.2.4
 colorlog==6.7.0
@@ -7,7 +7,7 @@ dataclass-wizard==0.22.2
 defusedxml==0.7.1
 docformatter==1.7.5
 future==0.18.3
-greenlet==2.0.2
+greenlet==3.0.0
 idna==3.4
 ijson==2.6.1
 importlib-metadata==6.8.0
@@ -22,7 +22,7 @@ rfc3339==6.2
 sqlalchemy==1.4.49
 toposort==1.10
 untokenize==0.1.1
-urllib3==2.0.5
+urllib3==2.0.6
 xsdata==23.8
-xxhash==3.3.0
+xxhash==3.4.1
 zipp==3.17.0

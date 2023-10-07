@@ -1,4 +1,4 @@
-charset-normalizer==3.2.0
+charset-normalizer==3.3.0
 courlan==0.9.4
 dateparser==1.1.8
 htmldate==1.5.1
@@ -6,7 +6,7 @@ justext==3.0.0
 langcodes==3.3.0
 python-dateutil==2.8.2
 pytz==2023.3.post1
-regex==2023.8.8
+regex==2023.10.3
 tld==0.13
-tzlocal==5.0.1
-urllib3==2.0.5
+tzlocal==5.1
+urllib3==2.0.6
