@@ -6,7 +6,6 @@ markdown-it-py==3.0.0
 mdit-py-plugins==0.4.0
 mdurl==0.1.2
 myloginpath==0.0.4
-packaging==23.2
 plotext==5.2.8
 pymysql==1.1.0
 requests==2.31.0
