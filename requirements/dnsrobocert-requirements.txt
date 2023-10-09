@@ -13,7 +13,6 @@ jmespath==1.0.1
 jsonschema==4.19.0
 jsonschema-specifications==2023.7.1
 localzone==0.9.8
-lxml==4.9.3
 markdown-it-py==3.0.0
 mdurl==0.1.2
 oci==2.112.1

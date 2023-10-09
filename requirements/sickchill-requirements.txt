@@ -25,7 +25,6 @@ IMDbPY==2022.7.9
 ipaddress==1.0.23
 jsonrpclib-pelix==0.4.3.2
 kodipydent-alt==2022.9.3
-lxml==4.9.3
 Mako==1.2.4
 markdown2==2.4.9
 MarkupSafe==2.1.3

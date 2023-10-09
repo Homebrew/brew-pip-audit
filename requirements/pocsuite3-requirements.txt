@@ -6,7 +6,6 @@ dacite==1.8.0
 faker==19.2.0
 idna==3.4
 jq==1.4.1
-lxml==4.9.3
 mmh3==4.0.1
 prettytable==3.8.0
 pycryptodomex==3.18.0

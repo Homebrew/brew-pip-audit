@@ -16,7 +16,6 @@ hdrpy==0.3.3
 humanize==4.8.0
 idna==3.4
 influxdb==5.3.1
-lxml==4.9.3
 molotov==2.6
 msgpack==1.0.6
 multidict==6.0.4
