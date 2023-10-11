@@ -1,4 +1,4 @@
-arrow==0.17.0
+arrow==1.2.3
 binaryornot==0.4.4
 chardet==5.2.0
 charset-normalizer==3.3.0
@@ -7,10 +7,11 @@ colorama==0.4.6
 gitdb==4.0.10
 gitpython==3.1.37
 idna==3.4
-marshmallow==3.8.0
+marshmallow==3.20.1
+packaging==23.2
 pathspec==0.11.2
 python-dateutil==2.8.2
 requests==2.31.0
 smmap==5.0.1
-texttable==1.6.7
+texttable==1.7.0
 urllib3==1.26.17

@@ -1,6 +1,223 @@
 [
   {
     "package": {
+      "name": "ansible-core",
+      "version": "2.14.9",
+      "ecosystem": "PyPI",
+      "commit": ""
+    },
+    "vulnerabilities": [
+      {
+        "modified": "2023-10-10T23:00:06Z",
+        "published": "2023-10-04T15:30:35Z",
+        "schema_version": "1.6.0",
+        "id": "GHSA-ww3m-ffrm-qvqv",
+        "aliases": [
+          "CVE-2023-4237"
+        ],
+        "summary": "Ansible may expose private key",
+        "details": "A flaw was found in the Ansible Automation Platform. When creating a new keypair, the ec2_key module prints out the private key directly to the standard output. This flaw allows an attacker to fetch those keys from the log files, compromising the system's confidentiality, integrity, and availability.",
+        "affected": [
+          {
+            "package": {
+              "ecosystem": "PyPI",
+              "name": "ansible-core",
+              "purl": "pkg:pypi/ansible-core"
+            },
+            "ranges": [
+              {
+                "type": "ECOSYSTEM",
+                "events": [
+                  {
+                    "introduced": "2.8.0"
+                  },
+                  {
+                    "last_affected": "2.15.2"
+                  }
+                ]
+              }
+            ],
+            "versions": [
+              "2.11.0",
+              "2.11.0b1",
+              "2.11.0b2",
+              "2.11.0b3",
+              "2.11.0b4",
+              "2.11.0rc1",
+              "2.11.0rc2",
+              "2.11.1",
+              "2.11.10",
+              "2.11.10rc1",
+              "2.11.11",
+              "2.11.11rc1",
+              "2.11.12",
+              "2.11.12rc1",
+              "2.11.1rc1",
+              "2.11.2",
+              "2.11.2rc1",
+              "2.11.3",
+              "2.11.3rc1",
+              "2.11.4",
+              "2.11.4rc1",
+              "2.11.5",
+              "2.11.5rc1",
+              "2.11.6",
+              "2.11.6rc1",
+              "2.11.7",
+              "2.11.7rc1",
+              "2.11.8",
+              "2.11.8rc1",
+              "2.11.9",
+              "2.11.9rc1",
+              "2.12.0",
+              "2.12.0b1",
+              "2.12.0b2",
+              "2.12.0rc1",
+              "2.12.1",
+              "2.12.10",
+              "2.12.10rc1",
+              "2.12.1rc1",
+              "2.12.2",
+              "2.12.2rc1",
+              "2.12.3",
+              "2.12.3rc1",
+              "2.12.4",
+              "2.12.4rc1",
+              "2.12.5",
+              "2.12.5rc1",
+              "2.12.6",
+              "2.12.6rc1",
+              "2.12.7",
+              "2.12.7rc1",
+              "2.12.8",
+              "2.12.8rc1",
+              "2.12.9",
+              "2.12.9rc1",
+              "2.13.0",
+              "2.13.0b0",
+              "2.13.0b1",
+              "2.13.0rc1",
+              "2.13.1",
+              "2.13.10",
+              "2.13.10rc1",
+              "2.13.11",
+              "2.13.11rc1",
+              "2.13.12",
+              "2.13.12rc1",
+              "2.13.13",
+              "2.13.13rc1",
+              "2.13.1rc1",
+              "2.13.2",
+              "2.13.2rc1",
+              "2.13.3",
+              "2.13.3rc1",
+              "2.13.4",
+              "2.13.4rc1",
+              "2.13.5",
+              "2.13.5rc1",
+              "2.13.6",
+              "2.13.6rc1",
+              "2.13.7",
+              "2.13.7rc1",
+              "2.13.8",
+              "2.13.8rc1",
+              "2.13.9",
+              "2.13.9rc1",
+              "2.14.0",
+              "2.14.0b1",
+              "2.14.0b2",
+              "2.14.0b3",
+              "2.14.0rc1",
+              "2.14.0rc1.post0",
+              "2.14.0rc2",
+              "2.14.1",
+              "2.14.10",
+              "2.14.10rc1",
+              "2.14.11",
+              "2.14.11rc1",
+              "2.14.1rc1",
+              "2.14.2",
+              "2.14.2rc1",
+              "2.14.3",
+              "2.14.3rc1",
+              "2.14.4",
+              "2.14.4rc1",
+              "2.14.5",
+              "2.14.5rc1",
+              "2.14.6",
+              "2.14.6rc1",
+              "2.14.7",
+              "2.14.7rc1",
+              "2.14.8",
+              "2.14.8rc1",
+              "2.14.9",
+              "2.14.9rc1",
+              "2.15.0",
+              "2.15.0b1",
+              "2.15.0b2",
+              "2.15.0b3",
+              "2.15.0rc1",
+              "2.15.0rc2",
+              "2.15.1",
+              "2.15.1rc1",
+              "2.15.2",
+              "2.15.2rc1"
+            ],
+            "database_specific": {
+              "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/10/GHSA-ww3m-ffrm-qvqv/GHSA-ww3m-ffrm-qvqv.json"
+            },
+            "ecosystem_specific": {
+              "affected_functions": [
+                ""
+              ]
+            }
+          }
+        ],
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:H"
+          }
+        ],
+        "references": [
+          {
+            "type": "ADVISORY",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4237"
+          },
+          {
+            "type": "WEB",
+            "url": "https://access.redhat.com/security/cve/CVE-2023-4237"
+          },
+          {
+            "type": "WEB",
+            "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2229979"
+          },
+          {
+            "type": "PACKAGE",
+            "url": "https://github.com/ansible/ansible"
+          }
+        ],
+        "database_specific": {
+          "cwe_ids": [
+            "CWE-497"
+          ],
+          "github_reviewed": true,
+          "github_reviewed_at": "2023-10-10T22:29:26Z",
+          "nvd_published_at": null,
+          "severity": "MODERATE"
+        }
+      }
+    ],
+    "groups": [
+      {
+        "ids": [
+          "GHSA-ww3m-ffrm-qvqv"
+        ]
+      }
+    ]
+  },
+  {
+    "package": {
       "name": "urllib3",
       "version": "2.0.4",
       "ecosystem": "PyPI",
@@ -8,7 +225,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-10-10T05:34:57Z",
+        "modified": "2023-10-10T22:01:41Z",
         "published": "2023-10-02T23:27:05Z",
         "schema_version": "1.6.0",
         "id": "GHSA-v845-jxx5-vc9f",
@@ -188,6 +405,10 @@
             "url": "https://github.com/urllib3/urllib3/commit/644124ecd0b6e417c527191f866daa05a5a2056d"
           },
           {
+            "type": "WEB",
+            "url": "https://github.com/pypa/advisory-database/tree/main/vulns/urllib3/PYSEC-2023-192.yaml"
+          },
+          {
             "type": "PACKAGE",
             "url": "https://github.com/urllib3/urllib3"
           },
@@ -205,12 +426,181 @@
           "nvd_published_at": null,
           "severity": "MODERATE"
         }
+      },
+      {
+        "modified": "2023-10-10T14:28:19Z",
+        "published": "2023-10-04T17:15:00Z",
+        "schema_version": "1.6.0",
+        "id": "PYSEC-2023-192",
+        "aliases": [
+          "CVE-2023-43804",
+          "GHSA-v845-jxx5-vc9f"
+        ],
+        "details": "urllib3 is a user-friendly HTTP client library for Python. urllib3 doesn't treat the `Cookie` HTTP header special or provide any helpers for managing cookies over HTTP, that is the responsibility of the user. However, it is possible for a user to specify a `Cookie` header and unknowingly leak information via HTTP redirects to a different origin if that user doesn't disable redirects explicitly. This issue has been patched in urllib3 version 1.26.17 or 2.0.5.",
+        "affected": [
+          {
+            "package": {
+              "ecosystem": "PyPI",
+              "name": "urllib3",
+              "purl": "pkg:pypi/urllib3"
+            },
+            "ranges": [
+              {
+                "type": "GIT",
+                "events": [
+                  {
+                    "introduced": "0"
+                  },
+                  {
+                    "fixed": "644124ecd0b6e417c527191f866daa05a5a2056d"
+                  },
+                  {
+                    "fixed": "01220354d389cd05474713f8c982d05c9b17aafb"
+                  }
+                ],
+                "repo": "https://github.com/urllib3/urllib3"
+              },
+              {
+                "type": "ECOSYSTEM",
+                "events": [
+                  {
+                    "introduced": "2.0.0"
+                  },
+                  {
+                    "fixed": "2.0.6"
+                  },
+                  {
+                    "introduced": "0"
+                  },
+                  {
+                    "fixed": "1.26.17"
+                  }
+                ]
+              }
+            ],
+            "versions": [
+              "0.2",
+              "0.3",
+              "0.3.1",
+              "0.4.0",
+              "0.4.1",
+              "1.0",
+              "1.0.1",
+              "1.0.2",
+              "1.1",
+              "1.10",
+              "1.10.1",
+              "1.10.2",
+              "1.10.3",
+              "1.10.4",
+              "1.11",
+              "1.12",
+              "1.13",
+              "1.13.1",
+              "1.14",
+              "1.15",
+              "1.15.1",
+              "1.16",
+              "1.17",
+              "1.18",
+              "1.18.1",
+              "1.19",
+              "1.19.1",
+              "1.2",
+              "1.2.1",
+              "1.2.2",
+              "1.20",
+              "1.21",
+              "1.21.1",
+              "1.22",
+              "1.23",
+              "1.24",
+              "1.24.1",
+              "1.24.2",
+              "1.24.3",
+              "1.25",
+              "1.25.1",
+              "1.25.10",
+              "1.25.11",
+              "1.25.2",
+              "1.25.3",
+              "1.25.4",
+              "1.25.5",
+              "1.25.6",
+              "1.25.7",
+              "1.25.8",
+              "1.25.9",
+              "1.26.0",
+              "1.26.1",
+              "1.26.10",
+              "1.26.11",
+              "1.26.12",
+              "1.26.13",
+              "1.26.14",
+              "1.26.15",
+              "1.26.16",
+              "1.26.2",
+              "1.26.3",
+              "1.26.4",
+              "1.26.5",
+              "1.26.6",
+              "1.26.7",
+              "1.26.8",
+              "1.26.9",
+              "1.3",
+              "1.4",
+              "1.5",
+              "1.6",
+              "1.7",
+              "1.7.1",
+              "1.8",
+              "1.8.2",
+              "1.8.3",
+              "1.9",
+              "1.9.1",
+              "2.0.0",
+              "2.0.1",
+              "2.0.2",
+              "2.0.3",
+              "2.0.4",
+              "2.0.5"
+            ],
+            "database_specific": {
+              "source": "https://github.com/pypa/advisory-database/blob/main/vulns/urllib3/PYSEC-2023-192.yaml"
+            }
+          }
+        ],
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"
+          }
+        ],
+        "references": [
+          {
+            "type": "FIX",
+            "url": "https://github.com/urllib3/urllib3/commit/644124ecd0b6e417c527191f866daa05a5a2056d"
+          },
+          {
+            "type": "ADVISORY",
+            "url": "https://github.com/urllib3/urllib3/security/advisories/GHSA-v845-jxx5-vc9f"
+          },
+          {
+            "type": "FIX",
+            "url": "https://github.com/urllib3/urllib3/commit/01220354d389cd05474713f8c982d05c9b17aafb"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.debian.org/debian-lts-announce/2023/10/msg00012.html"
+          }
+        ]
       }
     ],
     "groups": [
       {
         "ids": [
-          "GHSA-v845-jxx5-vc9f"
+          "GHSA-v845-jxx5-vc9f",
+          "PYSEC-2023-192"
         ]
       }
     ]
