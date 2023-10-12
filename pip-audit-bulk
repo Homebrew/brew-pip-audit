@@ -97,7 +97,7 @@ render = """Identified the following vulnerabilities:
 
 for (dep, vuln), formulas in sorted(_SUMMARY_RESULTS.items()):
     formulas_rendered = ", ".join(f"`{f}`" for f in formulas)
-    render += f"| `{dep}` | [`{vuln}`](https://osv.dev/vulnerability/{vuln}/) | {formulas_rendered} |\n"
+    render += f"| `{dep}` | [`{vuln}`](https://osv.dev/vulnerability/{vuln}) | {formulas_rendered} |\n"
 
 with _SUMMARY.open(mode="a") as io:
     print(render, file=io)
