@@ -1,5 +1,5 @@
 ansible==7.7.0
-ansible-core==2.14.9
+ansible-core==2.14.11
 ansible-runner==2.3.4
 antlr4-python3-runtime==4.9.3
 anyio==4.0.0rc1
@@ -7,11 +7,11 @@ appdirs==1.4.4
 attrs==23.1.0
 beautifulsoup4==4.12.2
 cattrs==23.1.2
-charset-normalizer==3.2.0
+charset-normalizer==3.3.0
 cloudcheck==2.0.0.36
-deepdiff==6.4.1
+deepdiff==6.6.0
 dnspython==2.4.2
-filelock==3.12.3
+filelock==3.12.4
 h11==0.14.0
 h2==4.1.0
 hpack==4.0.0
@@ -27,8 +27,8 @@ ordered-set==4.1.0
 pexpect==4.8.0
 psutil==5.9.5
 ptyprocess==0.7.0
-pycryptodome==3.18.0
-pydantic==1.10.12
+pycryptodome==3.19.0
+pydantic==1.10.13
 pyjwt==2.8.0
 python-daemon==3.0.1
 requests==2.31.0
@@ -38,9 +38,9 @@ resolvelib==0.8.1
 sniffio==1.3.0
 soupsieve==2.5
 tabulate==0.8.10
-tldextract==3.4.4
+tldextract==3.5.0
 url-normalize==1.4.3
-urllib3==2.0.4
+urllib3==2.0.6
 websockets==11.0.3
 wordninja==2.0.0
 xmltodict==0.12.0
