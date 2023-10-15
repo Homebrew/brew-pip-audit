@@ -1,4 +1,4 @@
-charset-normalizer==3.2.0
+charset-normalizer==3.3.0
 colorama==0.4.6
 decli==0.6.1
 importlib-metadata==6.8.0
@@ -8,5 +8,5 @@ prompt-toolkit==3.0.36
 questionary==2.0.1
 termcolor==2.3.0
 tomlkit==0.12.1
-wcwidth==0.2.6
+wcwidth==0.2.8
 zipp==3.17.0

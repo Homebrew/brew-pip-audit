@@ -1,4 +1,5 @@
 attrs==23.1.0
+build==0.10.0
 cachecontrol==0.13.1
 charset-normalizer==3.3.0
 cleo==2.0.1
@@ -13,8 +14,9 @@ pkginfo==1.9.6
 poetry-core==1.7.0
 poetry-plugin-export==1.5.0
 ptyprocess==0.7.0
+pyproject-hooks==1.0.0
 pyrsistent==0.19.3
-rapidfuzz==2.15.1
+rapidfuzz==2.15.2
 requests==2.31.0
 requests-toolbelt==1.0.0
 shellingham==1.5.3
