@@ -1,5 +1,4 @@
 charset-normalizer==3.3.0
-click==8.1.7
 defusedxml==0.7.1
 httpie==3.2.2
 idna==3.4
