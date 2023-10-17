@@ -3,7 +3,7 @@ b2sdk==1.24.1
 charset-normalizer==3.3.0
 idna==3.4
 logfury==1.0.1
-phx-class-registry==4.0.6
+phx-class-registry==4.1.0
 python-dateutil==2.8.2
 requests==2.31.0
 rst2ansi==0.1.5

@@ -6,7 +6,7 @@ jsonschema==4.19.1
 jsonschema-specifications==2023.7.1
 referencing==0.30.2
 requests==2.31.0
-rpds-py==0.10.3
-ruamel-yaml==0.17.33
-ruamel-yaml-clib==0.2.7
+rpds-py==0.10.6
+ruamel-yaml==0.17.35
+ruamel-yaml-clib==0.2.8
 urllib3==2.0.6
