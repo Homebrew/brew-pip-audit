@@ -6,7 +6,7 @@ marshmallow==3.18.0
 marshmallow-dataclass==8.5.14
 mypy-extensions==1.0.0
 oauthlib==3.2.2
-pygitguardian==1.10.0
+pygitguardian==1.11.0
 pyjwt==2.6.0
 python-dotenv==0.21.1
 requests==2.31.0

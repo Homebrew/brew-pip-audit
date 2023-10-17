@@ -1,5 +1,4 @@
 charset-normalizer==3.3.0
-flit-core==3.9.0
 idna==3.4
 requests==2.31.0
 tomli-w==1.0.0

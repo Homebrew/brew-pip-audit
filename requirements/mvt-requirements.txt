@@ -1,7 +1,6 @@
 adb-shell==0.4.4
 appdirs==1.4.4
-charset-normalizer==3.2.0
-click==8.1.7
+charset-normalizer==3.3.0
 idna==3.4
 libusb1==3.0.0
 markdown-it-py==3.0.0
@@ -9,11 +8,11 @@ mdurl==0.1.2
 nskeyedunarchiver==1.5
 pyahocorasick==2.0.0
 pyasn1==0.5.0
-pycryptodome==3.18.0
+pycryptodome==3.19.0
 requests==2.31.0
-rich==13.5.2
+rich==13.6.0
 rsa==4.9
-simplejson==3.19.1
+simplejson==3.19.2
 tld==0.13
-urllib3==2.0.4
+urllib3==2.0.6
 iosbackup==0.9.925
