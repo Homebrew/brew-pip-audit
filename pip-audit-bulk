@@ -60,20 +60,21 @@ for req in sorted(_REQUIREMENTS.glob("*.txt")):
 
     # If we're left with anything, dump it as a result.
     out = _OUT / req.with_suffix(".audit.json").name
-    vuln_count = 0
     if results:
         assert len(results) == 1
-        vulns = results[0]["packages"]
-        vuln_count = len(vulns)
-        for v in vulns:
-            _SUMMARY_RESULTS[(v["package"]["name"], v["groups"][0]["ids"][0])].append(
-                req.name.rsplit("-", 1)[0]
-            )
+        vulnerable_packages = results[0]["packages"]
+        vuln_count = 0
+        for p in vulnerable_packages:
+            vuln_count += len(p["groups"])
+            for v in p["groups"]:
+                _SUMMARY_RESULTS[(p["package"]["name"], v["ids"][0])].append(
+                    req.name.rsplit("-", 1)[0]
+                )
         print(
             f"\t:-( found {vuln_count} vulnerabilities in {req.name}",
             file=sys.stderr,
         )
-        out.write_text(json.dumps(vulns, indent=2))
+        out.write_text(json.dumps(vulnerable_packages, indent=2))
     else:
         out.unlink(missing_ok=True)
         print(f"\t:-) no vulnerabilities found in {req.name}", file=sys.stderr)
