@@ -1,6 +1,6 @@
 aioesphomeapi==15.0.0
 async-timeout==4.0.3
-bitarray==2.8.1
+bitarray==2.8.2
 bitstring==4.1.2
 ecdsa==0.18.0
 esphome-dashboard==20230904.0
