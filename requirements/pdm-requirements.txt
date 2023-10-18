@@ -1,4 +1,4 @@
-blinker==1.6.2
+blinker==1.6.3
 cachecontrol==0.13.1
 charset-normalizer==3.3.0
 findpython==0.4.0
@@ -15,6 +15,6 @@ rich==13.6.0
 shellingham==1.5.3
 tomlkit==0.12.1
 truststore==0.8.0
-unearth==0.11.0
-urllib3==2.0.6
+unearth==0.11.2
+urllib3==2.0.7
 wheel==0.41.2

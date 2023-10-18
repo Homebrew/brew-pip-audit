@@ -20,8 +20,8 @@ queuelib==1.6.2
 requests==2.31.0
 requests-file==1.5.1
 service-identity==23.1.0
-tldextract==3.6.0
+tldextract==5.0.1
 twisted==22.10.0
-urllib3==2.0.6
+urllib3==2.0.7
 w3lib==2.1.2
 zope-interface==6.1
