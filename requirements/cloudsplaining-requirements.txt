@@ -1,6 +1,6 @@
 beautifulsoup4==4.12.2
-boto3==1.28.63
-botocore==1.31.63
+boto3==1.28.65
+botocore==1.31.65
 cached-property==1.5.2
 charset-normalizer==3.3.0
 click-option-group==0.5.6
@@ -14,4 +14,4 @@ requests==2.31.0
 s3transfer==0.7.0
 schema==0.7.5
 soupsieve==2.5
-urllib3==2.0.6
+urllib3==2.0.7
