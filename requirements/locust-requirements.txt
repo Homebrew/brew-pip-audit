@@ -1,4 +1,4 @@
-blinker==1.6.2
+blinker==1.6.3
 brotli==1.1.0
 charset-normalizer==3.3.0
 configargparse==1.7
@@ -15,7 +15,7 @@ msgpack==1.0.7
 pyzmq==25.1.1
 requests==2.31.0
 roundrobin==0.0.4
-urllib3==2.0.6
+urllib3==2.0.7
 werkzeug==3.0.0
 zope-event==5.0
 zope-interface==6.1

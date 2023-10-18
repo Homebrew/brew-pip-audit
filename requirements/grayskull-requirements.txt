@@ -6,14 +6,14 @@ idna==3.4
 pkginfo==1.9.6
 progressbar2==4.2.0
 python-utils==3.8.1
-rapidfuzz==3.3.1
+rapidfuzz==3.4.0
 requests==2.31.0
 ruamel-yaml==0.17.35
 ruamel-yaml-clib==0.2.8
 ruamel-yaml-jinja2==0.2.7
-semver==3.0.1
+semver==3.0.2
 soupsieve==2.5
 stdlib-list==0.9.0
 tomli==2.0.1
 tomli-w==1.0.0
-urllib3==2.0.6
+urllib3==2.0.7

@@ -8,7 +8,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-04-11T01:48:23Z",
+        "modified": "2023-10-18T15:45:07Z",
         "published": "2023-04-03T06:30:19Z",
         "schema_version": "1.6.0",
         "id": "GHSA-c33w-24p9-8m24",
@@ -80,6 +80,14 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/DiffSK/configobj"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/6BO4RLMYEJODCNUE3DJIIUUFVTPAG6VN/"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NZHY7B33EFY4LESP2NI4APQUPRROTAZK/"
           },
           {
             "type": "WEB",

@@ -1,5 +1,5 @@
 ansible-compat==4.1.10
-ansible-core==2.15.4
+ansible-core==2.15.5
 attrs==23.1.0
 bracex==2.4
 certifi==2023.7.22
@@ -24,9 +24,9 @@ referencing==0.30.2
 requests==2.31.0
 resolvelib==1.0.1
 rich==13.6.0
-rpds-py==0.10.4
+rpds-py==0.10.6
 selinux==0.3.0
 subprocess-tee==0.4.1
-urllib3==2.0.6
+urllib3==2.0.7
 wcmatch==8.5
-websocket-client==1.6.3
+websocket-client==1.6.4

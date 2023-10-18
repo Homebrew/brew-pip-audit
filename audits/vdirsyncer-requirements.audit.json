@@ -8,7 +8,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-10-17T20:34:07Z",
+        "modified": "2023-10-18T14:41:54Z",
         "published": "2023-10-17T20:15:25Z",
         "schema_version": "1.6.0",
         "id": "GHSA-g4mx-q9vg-27p4",
@@ -180,8 +180,16 @@
             "url": "https://github.com/urllib3/urllib3/security/advisories/GHSA-g4mx-q9vg-27p4"
           },
           {
+            "type": "ADVISORY",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-45803"
+          },
+          {
             "type": "WEB",
             "url": "https://github.com/urllib3/urllib3/commit/4e50fbc5db74e32cabd5ccc1ab81fc103adfe0b3"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/urllib3/urllib3/commit/4e98d57809dacab1cbe625fddeec1a290c478ea9"
           },
           {
             "type": "WEB",
@@ -198,6 +206,10 @@
           {
             "type": "WEB",
             "url": "https://github.com/urllib3/urllib3/releases/tag/2.0.7"
+          },
+          {
+            "type": "WEB",
+            "url": "https://www.rfc-editor.org/rfc/rfc9110.html#name-get"
           }
         ],
         "database_specific": {
