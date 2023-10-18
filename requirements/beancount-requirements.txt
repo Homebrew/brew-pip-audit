@@ -4,10 +4,10 @@ cachetools==5.3.1
 chardet==5.2.0
 charset-normalizer==3.3.0
 google-api-core==2.12.0
-google-api-python-client==2.102.0
-google-auth==2.23.2
+google-api-python-client==2.104.0
+google-auth==2.23.3
 google-auth-httplib2==0.1.1
-googleapis-common-protos==1.60.0
+googleapis-common-protos==1.61.0
 httplib2==0.22.0
 idna==3.4
 iniconfig==2.0.0
@@ -24,4 +24,4 @@ requests==2.31.0
 rsa==4.9
 soupsieve==2.5
 uritemplate==4.1.1
-urllib3==2.0.6
+urllib3==2.0.7

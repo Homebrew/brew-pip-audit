@@ -3,4 +3,4 @@ dulwich==0.21.6
 fastbencode==0.2
 merge3==0.0.14
 patiencediff==0.2.14
-urllib3==2.0.6
+urllib3==2.0.7

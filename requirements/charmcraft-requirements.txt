@@ -1,7 +1,7 @@
 appdirs==1.4.4
 attrs==23.1.0
 charset-normalizer==3.3.0
-craft-cli==2.1.0
+craft-cli==2.2.0
 craft-parts==1.25.1
 craft-providers==1.18.0
 craft-store==2.4.0
@@ -37,6 +37,6 @@ setuptools-rust==1.7.0
 snap-helpers==0.4.2
 types-deprecated==1.2.9.3
 types-pyyaml==6.0.12.12
-urllib3==1.26.17
+urllib3==1.26.18
 wrapt==1.15.0
 zipp==3.17.0
