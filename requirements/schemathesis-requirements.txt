@@ -3,14 +3,13 @@ attrs==23.1.0
 backoff==2.2.1
 charset-normalizer==3.3.0
 colorama==0.4.6
-curlify==2.2.1
 graphql-core==3.2.3
 h11==0.14.0
 httpcore==0.18.0
 httpx==0.25.0
 hypothesis==6.88.1
 hypothesis-graphql==0.10.0
-hypothesis-jsonschema==0.23.0
+hypothesis-jsonschema==0.22.1
 idna==3.4
 iniconfig==2.0.0
 jsonschema==4.19.1
