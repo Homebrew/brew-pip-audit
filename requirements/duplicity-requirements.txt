@@ -32,6 +32,7 @@ isodate==0.6.1
 jaraco-classes==3.3.0
 jmespath==1.0.1
 jottalib==0.5.1
+keyring==24.2.0
 keystoneauth1==5.3.0
 logfury==1.0.1
 megatools==0.0.4

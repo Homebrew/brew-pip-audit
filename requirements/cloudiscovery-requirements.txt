@@ -1,5 +1,5 @@
-boto3==1.28.61
-botocore==1.31.61
+boto3==1.28.66
+botocore==1.31.66
 cachetools==5.3.1
 diagrams==0.23.3
 diskcache==5.6.3
@@ -11,4 +11,4 @@ markupsafe==2.0.1
 python-dateutil==2.8.2
 s3transfer==0.7.0
 typed-ast==1.5.5
-urllib3==1.26.17
+urllib3==2.0.7
