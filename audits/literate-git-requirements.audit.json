@@ -8,7 +8,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-08-07T11:31:32Z",
+        "modified": "2023-10-22T05:32:34Z",
         "published": "2021-04-20T16:35:47Z",
         "schema_version": "1.6.0",
         "id": "GHSA-9w8r-397f-prfh",
@@ -66,11 +66,6 @@
             ],
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/04/GHSA-9w8r-397f-prfh/GHSA-9w8r-397f-prfh.json"
-            },
-            "ecosystem_specific": {
-              "affected_functions": [
-                ""
-              ]
             }
           }
         ],
@@ -279,7 +274,7 @@
         }
       },
       {
-        "modified": "2023-08-07T11:45:47Z",
+        "modified": "2023-10-22T05:32:03Z",
         "published": "2021-03-29T16:33:03Z",
         "schema_version": "1.6.0",
         "id": "GHSA-pq64-v7f5-gqh8",
@@ -345,11 +340,6 @@
             ],
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2021/03/GHSA-pq64-v7f5-gqh8/GHSA-pq64-v7f5-gqh8.json"
-            },
-            "ecosystem_specific": {
-              "affected_functions": [
-                ""
-              ]
             }
           }
         ],

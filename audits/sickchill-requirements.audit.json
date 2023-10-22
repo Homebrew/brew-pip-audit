@@ -481,7 +481,7 @@
         }
       },
       {
-        "modified": "2023-10-13T22:03:00Z",
+        "modified": "2023-10-22T05:29:54Z",
         "published": "2023-10-02T23:27:05Z",
         "schema_version": "1.6.0",
         "id": "GHSA-v845-jxx5-vc9f",
@@ -520,11 +520,6 @@
             ],
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/10/GHSA-v845-jxx5-vc9f/GHSA-v845-jxx5-vc9f.json"
-            },
-            "ecosystem_specific": {
-              "affected_functions": [
-                ""
-              ]
             }
           },
           {
@@ -629,11 +624,6 @@
             ],
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/10/GHSA-v845-jxx5-vc9f/GHSA-v845-jxx5-vc9f.json"
-            },
-            "ecosystem_specific": {
-              "affected_functions": [
-                ""
-              ]
             }
           }
         ],
