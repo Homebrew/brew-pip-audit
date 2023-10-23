@@ -1,4 +1,4 @@
-astroid==3.0.0
+astroid==3.0.1
 dill==0.3.7
 mccabe==0.7.0
 platformdirs==3.11.0
