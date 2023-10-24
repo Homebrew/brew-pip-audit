@@ -1,5 +1,5 @@
 certifi==2023.7.22
-charset-normalizer==3.3.0
+charset-normalizer==3.3.1
 click==8.1.7
 colorama==0.4.6
 halo==0.0.31
@@ -21,5 +21,5 @@ textual==0.34.0
 typer==0.9.0
 typing-extensions==4.8.0
 uc-micro-py==1.0.2
-urllib3==2.0.6
+urllib3==2.0.7
 zipp==3.17.0

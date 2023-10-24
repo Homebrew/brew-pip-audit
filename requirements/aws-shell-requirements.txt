@@ -1,6 +1,6 @@
-awscli==1.29.58
-boto3==1.28.58
-botocore==1.31.58
+awscli==1.29.68
+boto3==1.28.68
+botocore==1.31.68
 colorama==0.4.4
 configobj==5.0.8
 jmespath==1.0.1
@@ -10,5 +10,5 @@ python-dateutil==2.8.2
 pyyaml==6.0.1
 rsa==4.7.2
 s3transfer==0.7.0
-urllib3==1.26.17
+urllib3==2.0.7
 wcwidth==0.2.8

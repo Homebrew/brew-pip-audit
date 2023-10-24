@@ -679,7 +679,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-10-18T14:41:54Z",
+        "modified": "2023-10-23T19:32:56Z",
         "published": "2023-10-17T20:15:25Z",
         "schema_version": "1.6.0",
         "id": "GHSA-g4mx-q9vg-27p4",
@@ -720,11 +720,6 @@
             "database_specific": {
               "last_known_affected_version_range": "<= 2.0.6",
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/10/GHSA-g4mx-q9vg-27p4/GHSA-g4mx-q9vg-27p4.json"
-            },
-            "ecosystem_specific": {
-              "affected_functions": [
-                ""
-              ]
             }
           },
           {
@@ -831,11 +826,6 @@
             "database_specific": {
               "last_known_affected_version_range": "<= 1.26.17",
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/10/GHSA-g4mx-q9vg-27p4/GHSA-g4mx-q9vg-27p4.json"
-            },
-            "ecosystem_specific": {
-              "affected_functions": [
-                ""
-              ]
             }
           }
         ],
@@ -877,6 +867,10 @@
           {
             "type": "WEB",
             "url": "https://github.com/urllib3/urllib3/releases/tag/2.0.7"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PPDPLM6UUMN55ESPQWJFLLIZY4ZKCNRX/"
           },
           {
             "type": "WEB",

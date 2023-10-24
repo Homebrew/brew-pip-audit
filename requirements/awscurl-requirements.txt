@@ -1,4 +1,4 @@
-charset-normalizer==3.3.0
+charset-normalizer==3.3.1
 configargparse==1.7
 configparser==6.0.0
 idna==3.4
