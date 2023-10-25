@@ -1,7 +1,7 @@
 attrs==23.1.0
 boltons==21.0.0
 bracex==2.4
-charset-normalizer==3.3.0
+charset-normalizer==3.3.1
 click==8.1.7
 click-option-group==0.5.6
 colorama==0.4.6
@@ -19,7 +19,7 @@ referencing==0.30.2
 requests==2.31.0
 rich==13.6.0
 rpds-py==0.10.6
-ruamel-yaml==0.17.35
+ruamel-yaml==0.17.40
 ruamel-yaml-clib==0.2.8
 tomli==2.0.1
 ujson==5.8.0

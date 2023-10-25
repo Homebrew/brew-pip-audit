@@ -1,5 +1,0 @@
-cffi==1.15.1
-cryptography==39.0.2
-pydantic==1.10.6
-pyOpenSSL==23.0.0
-tls-parser==2.0.0

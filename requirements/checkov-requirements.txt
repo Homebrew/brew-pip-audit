@@ -46,10 +46,10 @@ openai==0.28.1
 packageurl-python==0.11.2
 ply==3.11
 policy-sentry==0.12.10
-policyuniverse==1.5.1.20230817
 prettytable==3.9.0
 pycares==4.4.0
 pycep-parser==0.4.1
+pydantic==1.10.13
 python-dateutil==2.8.2
 rdflib==7.0.0
 referencing==0.30.2
