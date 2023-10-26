@@ -1,7 +1,7 @@
-acme==2.7.2
-certbot-apache==2.7.2
-certbot-nginx==2.7.2
-charset-normalizer==3.3.0
+acme==2.7.3
+certbot-apache==2.7.3
+certbot-nginx==2.7.3
+charset-normalizer==3.3.1
 configargparse==1.7
 configobj==5.0.8
 distro==1.8.0

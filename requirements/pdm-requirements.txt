@@ -1,6 +1,6 @@
 blinker==1.6.3
 cachecontrol==0.13.1
-charset-normalizer==3.3.0
+charset-normalizer==3.3.1
 findpython==0.4.0
 idna==3.4
 installer==0.7.0
@@ -12,9 +12,9 @@ requests==2.31.0
 requests-toolbelt==1.0.0
 resolvelib==1.0.1
 rich==13.6.0
-shellingham==1.5.3
+shellingham==1.5.4
 tomlkit==0.12.1
 truststore==0.8.0
-unearth==0.11.2
+unearth==0.12.1
 urllib3==2.0.7
 wheel==0.41.2
