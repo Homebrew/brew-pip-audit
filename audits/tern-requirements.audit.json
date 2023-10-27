@@ -190,7 +190,7 @@
         }
       },
       {
-        "modified": "2023-09-06T15:40:53Z",
+        "modified": "2023-10-27T05:31:48Z",
         "published": "2023-08-29T23:33:53Z",
         "schema_version": "1.6.0",
         "id": "GHSA-wfm5-v35h-vwf4",
@@ -310,11 +310,6 @@
             "database_specific": {
               "last_known_affected_version_range": "<= 3.1.32",
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/08/GHSA-wfm5-v35h-vwf4/GHSA-wfm5-v35h-vwf4.json"
-            },
-            "ecosystem_specific": {
-              "affected_functions": [
-                ""
-              ]
             }
           }
         ],
@@ -679,7 +674,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-10-23T19:32:56Z",
+        "modified": "2023-10-26T14:47:11Z",
         "published": "2023-10-17T20:15:25Z",
         "schema_version": "1.6.0",
         "id": "GHSA-g4mx-q9vg-27p4",
@@ -718,7 +713,6 @@
               "2.0.6"
             ],
             "database_specific": {
-              "last_known_affected_version_range": "<= 2.0.6",
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/10/GHSA-g4mx-q9vg-27p4/GHSA-g4mx-q9vg-27p4.json"
             }
           },
@@ -824,7 +818,6 @@
               "1.9.1"
             ],
             "database_specific": {
-              "last_known_affected_version_range": "<= 1.26.17",
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/10/GHSA-g4mx-q9vg-27p4/GHSA-g4mx-q9vg-27p4.json"
             }
           }
@@ -855,6 +848,10 @@
           {
             "type": "WEB",
             "url": "https://github.com/urllib3/urllib3/commit/b594c5ceaca38e1ac215f916538fb128e3526a36"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/pypa/advisory-database/tree/main/vulns/urllib3/PYSEC-2023-212.yaml"
           },
           {
             "type": "PACKAGE",

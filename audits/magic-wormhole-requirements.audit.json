@@ -2,7 +2,7 @@
   {
     "package": {
       "name": "twisted",
-      "version": "22.10.0",
+      "version": "23.8.0",
       "ecosystem": "PyPI",
       "commit": ""
     },

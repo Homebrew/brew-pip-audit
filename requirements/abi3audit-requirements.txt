@@ -1,0 +1,16 @@
+abi3info==2023.10.22
+appdirs==1.4.4
+attrs==23.1.0
+cattrs==23.1.2
+charset-normalizer==3.3.1
+idna==3.4
+kaitaistruct==0.10
+markdown-it-py==2.2.0
+mdurl==0.1.2
+pefile==2023.2.7
+pyelftools==0.30
+requests==2.28.2
+requests-cache==0.9.8
+rich==13.3.5
+url-normalize==1.4.3
+urllib3==1.26.18

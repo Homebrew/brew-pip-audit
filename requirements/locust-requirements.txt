@@ -1,13 +1,13 @@
 blinker==1.6.3
 brotli==1.1.0
-charset-normalizer==3.3.0
+charset-normalizer==3.3.1
 configargparse==1.7
 flask==3.0.0
 flask-basicauth==0.2.0
 flask-cors==4.0.0
 gevent==23.9.1
 geventhttpclient==2.0.11
-greenlet==3.0.0
+greenlet==3.0.1
 idna==3.4
 itsdangerous==2.1.2
 jinja2==3.1.2
@@ -16,6 +16,6 @@ pyzmq==25.1.1
 requests==2.31.0
 roundrobin==0.0.4
 urllib3==2.0.7
-werkzeug==3.0.0
+werkzeug==3.0.1
 zope-event==5.0
 zope-interface==6.1

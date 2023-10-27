@@ -1,5 +1,5 @@
 blinker==1.6.3
-charset-normalizer==3.3.0
+charset-normalizer==3.3.1
 click==8.1.7
 docopt==0.6.2
 flask==3.0.0
@@ -9,4 +9,4 @@ jinja2==3.1.2
 path-and-address==2.0.1
 requests==2.31.0
 urllib3==2.0.7
-werkzeug==3.0.0
+werkzeug==3.0.1
