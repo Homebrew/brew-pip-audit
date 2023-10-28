@@ -2,7 +2,7 @@ annotated-types==0.6.0
 appdirs==1.4.4
 cachecontrol==0.13.1
 cachy==0.3.0
-charset-normalizer==3.3.0
+charset-normalizer==3.3.1
 click==8.1.7
 click-default-group==1.2.4
 clikit==0.6.2
@@ -21,7 +21,7 @@ pydantic==2.4.2
 pydantic-core==2.10.1
 pylev==1.4.0
 requests==2.31.0
-ruamel-yaml==0.17.40
+ruamel-yaml==0.18.2
 ruamel-yaml-clib==0.2.8
 smmap==5.0.1
 tomlkit==0.12.1
