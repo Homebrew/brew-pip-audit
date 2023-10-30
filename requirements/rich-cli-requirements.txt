@@ -1,5 +1,4 @@
 charset-normalizer==3.3.0
-click==8.1.7
 commonmark==0.9.1
 idna==3.4
 requests==2.31.0

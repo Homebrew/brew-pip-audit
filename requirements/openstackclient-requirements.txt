@@ -30,7 +30,6 @@ oslo-serialization==5.2.0
 oslo-utils==6.2.1
 pbr==5.11.1
 prettytable==3.9.0
-pyparsing==3.1.1
 pyperclip==1.8.2
 python-cinderclient==9.4.0
 python-dateutil==2.8.2

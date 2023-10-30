@@ -9,7 +9,6 @@ ifaddr==0.2.0
 kconfiglib==13.7.1
 noiseprotocol==0.3.1
 paho-mqtt==1.6.1
-pyparsing==3.1.1
 reedsolo==1.7.0
 tornado==6.3.3
 tzdata==2023.3
