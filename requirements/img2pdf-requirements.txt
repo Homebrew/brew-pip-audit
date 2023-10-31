@@ -1,2 +1,2 @@
 deprecation==2.1.0
-pikepdf==8.2.3
+pikepdf==8.5.3

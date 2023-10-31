@@ -2,7 +2,7 @@
   {
     "package": {
       "name": "configobj",
-      "version": "5.0.6",
+      "version": "5.0.8",
       "ecosystem": "PyPI",
       "commit": ""
     },
@@ -116,7 +116,7 @@
   {
     "package": {
       "name": "twisted",
-      "version": "22.10.0",
+      "version": "23.8.0",
       "ecosystem": "PyPI",
       "commit": ""
     },
