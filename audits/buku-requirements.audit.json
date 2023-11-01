@@ -779,7 +779,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-10-25T14:42:34Z",
+        "modified": "2023-10-31T21:31:25Z",
         "published": "2023-10-25T14:22:59Z",
         "schema_version": "1.6.0",
         "id": "GHSA-hrfv-mqp8-q5rw",
@@ -911,14 +911,28 @@
             }
           }
         ],
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+          }
+        ],
         "references": [
           {
             "type": "WEB",
             "url": "https://github.com/pallets/werkzeug/security/advisories/GHSA-hrfv-mqp8-q5rw"
           },
           {
+            "type": "ADVISORY",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-46136"
+          },
+          {
             "type": "WEB",
             "url": "https://github.com/pallets/werkzeug/commit/b1916c0c083e0be1c9d887ee2f3d696922bfc5c1"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/pallets/werkzeug/commit/f3c803b3ade485a45f12b6d6617595350c0f03e2"
           },
           {
             "type": "PACKAGE",
@@ -932,7 +946,7 @@
           "github_reviewed": true,
           "github_reviewed_at": "2023-10-25T14:22:59Z",
           "nvd_published_at": null,
-          "severity": "MODERATE"
+          "severity": "HIGH"
         }
       }
     ],

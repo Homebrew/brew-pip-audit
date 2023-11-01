@@ -1,0 +1,14 @@
+apsw==3.43.2.0
+async-generator==1.10
+attrs==23.1.0
+defusedxml==0.7.1
+dugong==3.8.2
+google-auth==2.23.3
+google-auth-oauthlib==1.1.0
+idna==3.4
+outcome==1.3.0.post0
+pyfuse3==3.3.0
+requests==2.31.0
+trio==0.22.2
+sniffio==1.3.0
+sortedcontainers==2.4.0

@@ -21,11 +21,9 @@ hyperframe==6.0.1
 idna==3.4
 jinja2==3.1.2
 lockfile==0.12.2
-markupsafe==2.1.3
 omegaconf==2.3.0
 ordered-set==4.1.0
 pexpect==4.8.0
-psutil==5.9.5
 ptyprocess==0.7.0
 pycryptodome==3.19.0
 pydantic==1.10.13
@@ -37,7 +35,6 @@ requests-file==1.5.1
 resolvelib==0.8.1
 sniffio==1.3.0
 soupsieve==2.5
-tabulate==0.8.10
 tldextract==3.5.0
 url-normalize==1.4.3
 urllib3==2.0.6
