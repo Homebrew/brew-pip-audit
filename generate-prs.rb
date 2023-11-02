@@ -23,7 +23,7 @@ SKIP_FORMULA = [
   # https://github.com/OfflineIMAP/offlineimap3/pull/157
   "offlineimap",
   # Not a Python package
-  "pypy", "pypy3.9", "pypy3.10",
+  "pypy", "pypy3.9", "pypy3.10", "python@3.12",
   # No setup.py.
   "recon-ng",
   # update_python_resources! doesn't handle git root resources
