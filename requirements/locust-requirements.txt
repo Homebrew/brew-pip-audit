@@ -1,6 +1,6 @@
 blinker==1.6.3
 brotli==1.1.0
-charset-normalizer==3.3.1
+charset-normalizer==3.3.2
 configargparse==1.7
 flask==3.0.0
 flask-basicauth==0.2.0
