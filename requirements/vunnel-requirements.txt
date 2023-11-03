@@ -1,4 +1,4 @@
-charset-normalizer==3.3.1
+charset-normalizer==3.3.2
 click-default-group==1.2.4
 colorlog==6.7.0
 cvss==2.6

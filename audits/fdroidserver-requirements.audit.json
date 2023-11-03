@@ -350,7 +350,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-10-26T14:47:11Z",
+        "modified": "2023-11-03T03:46:08Z",
         "published": "2023-10-17T20:15:25Z",
         "schema_version": "1.6.0",
         "id": "GHSA-g4mx-q9vg-27p4",
@@ -540,6 +540,10 @@
           {
             "type": "WEB",
             "url": "https://github.com/urllib3/urllib3/releases/tag/2.0.7"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4R2Y5XK3WALSR3FNAGN7JBYV2B343ZKB/"
           },
           {
             "type": "WEB",

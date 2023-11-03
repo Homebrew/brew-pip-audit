@@ -8,7 +8,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-10-26T14:47:11Z",
+        "modified": "2023-11-03T03:46:08Z",
         "published": "2023-10-17T20:15:25Z",
         "schema_version": "1.6.0",
         "id": "GHSA-g4mx-q9vg-27p4",
@@ -198,6 +198,10 @@
           {
             "type": "WEB",
             "url": "https://github.com/urllib3/urllib3/releases/tag/2.0.7"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4R2Y5XK3WALSR3FNAGN7JBYV2B343ZKB/"
           },
           {
             "type": "WEB",
@@ -779,7 +783,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-10-31T21:31:25Z",
+        "modified": "2023-11-02T17:16:00Z",
         "published": "2023-10-25T14:22:59Z",
         "schema_version": "1.6.0",
         "id": "GHSA-hrfv-mqp8-q5rw",
@@ -937,11 +941,16 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/pallets/werkzeug"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/pypa/advisory-database/tree/main/vulns/werkzeug/PYSEC-2023-221.yaml"
           }
         ],
         "database_specific": {
           "cwe_ids": [
-            "CWE-400"
+            "CWE-400",
+            "CWE-787"
           ],
           "github_reviewed": true,
           "github_reviewed_at": "2023-10-25T14:22:59Z",
