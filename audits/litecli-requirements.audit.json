@@ -8,7 +8,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-10-18T15:45:07Z",
+        "modified": "2023-11-03T21:48:20Z",
         "published": "2023-04-03T06:30:19Z",
         "schema_version": "1.6.0",
         "id": "GHSA-c33w-24p9-8m24",
@@ -88,6 +88,10 @@
           {
             "type": "WEB",
             "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NZHY7B33EFY4LESP2NI4APQUPRROTAZK/"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PYU4IHVLOTYMFPH7KDOJGKZQR4GKWPFK/"
           },
           {
             "type": "WEB",
