@@ -120,7 +120,7 @@
         }
       },
       {
-        "modified": "2023-07-26T21:46:26Z",
+        "modified": "2023-11-05T05:23:57Z",
         "published": "2023-07-19T15:30:26Z",
         "schema_version": "1.6.0",
         "id": "GHSA-mrwq-x4v8-fh7p",
@@ -269,7 +269,7 @@
           ],
           "github_reviewed": true,
           "github_reviewed_at": "2023-07-20T11:00:04Z",
-          "nvd_published_at": null,
+          "nvd_published_at": "2023-07-19T15:15:10Z",
           "severity": "MODERATE"
         }
       },
