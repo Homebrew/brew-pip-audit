@@ -210,7 +210,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-11-03T03:46:08Z",
+        "modified": "2023-11-06T16:43:34Z",
         "published": "2023-10-17T20:15:25Z",
         "schema_version": "1.6.0",
         "id": "GHSA-g4mx-q9vg-27p4",
@@ -407,6 +407,10 @@
           },
           {
             "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5F5CUBAN5XMEBVBZPHFITBLMJV5FIJJ5/"
+          },
+          {
+            "type": "WEB",
             "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PPDPLM6UUMN55ESPQWJFLLIZY4ZKCNRX/"
           },
           {
@@ -420,7 +424,7 @@
           ],
           "github_reviewed": true,
           "github_reviewed_at": "2023-10-17T20:15:25Z",
-          "nvd_published_at": null,
+          "nvd_published_at": "2023-10-17T20:15:10Z",
           "severity": "MODERATE"
         }
       },

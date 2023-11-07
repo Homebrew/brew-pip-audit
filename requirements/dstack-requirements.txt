@@ -66,7 +66,6 @@ isodate==0.6.1
 jmespath==1.0.1
 jsonschema==4.19.2
 jsonschema-specifications==2023.7.1
-mako==1.2.4
 markdown-it-py==3.0.0
 mdurl==0.1.2
 msal==1.24.1
