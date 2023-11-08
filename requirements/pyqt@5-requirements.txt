@@ -1,4 +1,4 @@
-PyQt5-sip==12.12.1
+PyQt5-sip==12.13.0
 PyQt3D==5.15.6
 PyQtChart==5.15.6
 PyQtDataVisualization==5.15.5

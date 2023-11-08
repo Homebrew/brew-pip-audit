@@ -1,6 +1,4 @@
-certifi==2023.7.22
 charset-normalizer==3.3.1
-click==8.1.7
 colorama==0.4.6
 halo==0.0.31
 idna==3.4
@@ -11,15 +9,12 @@ markdown-it-py==3.0.0
 mdit-py-plugins==0.4.0
 mdurl==0.1.2
 plotext==5.2.8
-pygments==2.16.1
 requests==2.31.0
 rich==13.6.0
-six==1.16.0
 spinners==0.0.24
 termcolor==2.3.0
 textual==0.34.0
 typer==0.9.0
-typing-extensions==4.8.0
 uc-micro-py==1.0.2
 urllib3==2.0.7
 zipp==3.17.0
