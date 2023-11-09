@@ -1,6 +1,6 @@
-charset-normalizer==3.3.0
-filelock==3.12.4
-fsspec==2023.9.2
+charset-normalizer==3.3.2
+filelock==3.13.1
+fsspec==2023.10.0
 idna==3.4
 requests==2.31.0
 tqdm==4.66.1
