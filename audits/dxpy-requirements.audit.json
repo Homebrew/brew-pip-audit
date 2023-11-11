@@ -8,7 +8,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-09-20T19:34:14Z",
+        "modified": "2023-11-11T05:29:19Z",
         "published": "2023-05-22T20:36:32Z",
         "schema_version": "1.6.0",
         "id": "GHSA-j8r2-6x86-q33q",
@@ -169,7 +169,7 @@
           ],
           "github_reviewed": true,
           "github_reviewed_at": "2023-05-22T20:36:32Z",
-          "nvd_published_at": null,
+          "nvd_published_at": "2023-05-26T18:15:14Z",
           "severity": "MODERATE"
         }
       },
