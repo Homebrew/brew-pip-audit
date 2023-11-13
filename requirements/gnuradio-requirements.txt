@@ -1,5 +1,2 @@
 cheetah3==3.2.6
-click==8.1.5
 click-plugins==1.1.1
-mako==1.2.4
-markupsafe==2.1.3
