@@ -22,7 +22,7 @@ rfc3339==6.2
 sqlalchemy==1.4.50
 toposort==1.10
 untokenize==0.1.1
-urllib3==2.0.7
+urllib3==2.1.0
 xsdata==23.8
 xxhash==3.4.1
 zipp==3.17.0
