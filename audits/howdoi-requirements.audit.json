@@ -8,7 +8,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-08-17T03:22:31Z",
+        "modified": "2023-11-08T04:09:20Z",
         "published": "2022-06-08T18:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2022-43056",

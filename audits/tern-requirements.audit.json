@@ -8,12 +8,13 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-11-05T05:24:11Z",
+        "modified": "2023-11-08T04:13:23Z",
         "published": "2023-08-30T20:09:36Z",
         "schema_version": "1.6.0",
         "id": "GHSA-cwvm-v4w8-q58c",
         "aliases": [
-          "CVE-2023-41040"
+          "CVE-2023-41040",
+          "PYSEC-2023-165"
         ],
         "summary": "Blind local file inclusion",
         "details": "### Summary\n\nIn order to resolve some git references, GitPython reads files from the `.git` directory, in some places the name of the file being read is provided by the user, GitPython doesn't check if this file is located outside the `.git` directory. This allows an attacker to make GitPython read any file from the system.\n\n### Details\n\nThis vulnerability is present in\n\nhttps://github.com/gitpython-developers/GitPython/blob/1c8310d7cae144f74a671cbe17e51f63a830adbf/git/refs/symbolic.py#L174-L175\n\nThat code joins the base directory with a user given string without checking if the final path is located outside the base directory.\n\nI was able to exploit it from three places, but there may be more code paths that lead to it:\n\nhttps://github.com/gitpython-developers/GitPython/blob/1c8310d7cae144f74a671cbe17e51f63a830adbf/git/repo/base.py#L605\n\nhttps://github.com/gitpython-developers/GitPython/blob/1c8310d7cae144f74a671cbe17e51f63a830adbf/git/repo/base.py#L620\n\nhttps://github.com/gitpython-developers/GitPython/blob/1c8310d7cae144f74a671cbe17e51f63a830adbf/git/index/base.py#L1353\n\n### PoC\n\nRunning GitPython within any repo should work, here is an example with the GitPython repo.\n\n```python\nimport git\n\nr = git.Repo(\".\")\n\n# This will make GitPython read the README.md file from the root of the repo\nr.commit(\"../README.md\")\nr.tree(\"../README.md\")\nr.index.diff(\"../README.md\")\n\n# Reading /etc/random\n# WARNING: this will probably halt your system, run with caution\n# r.commit(\"../../../../../../../../../dev/random\")\n```\n\n### Impact\n\nI wasn't able to show the contents of the files (that's why \"blind\" local file inclusion), depending on how GitPython is being used, this can be used by an attacker for something _inoffensive_ as checking if a file exits, or cause a DoS by making GitPython read a big/infinite file (like `/dev/random` on Linux systems).\n\n### Possible solutions\n\nA solution would be to check that the final path isn't located outside the `repodir` path (maybe even after resolving symlinks). Maybe there could be other checks in place to make sure that the reference names are valid.\n\n---\n\n> [!NOTE]\n> This vulnerability was reported via email, and it was decided to publish it here and make it public, so the community is aware of it, and a fix can be provided.",
@@ -190,12 +191,13 @@
         }
       },
       {
-        "modified": "2023-11-05T05:27:28Z",
+        "modified": "2023-11-08T04:13:22Z",
         "published": "2023-08-29T23:33:53Z",
         "schema_version": "1.6.0",
         "id": "GHSA-wfm5-v35h-vwf4",
         "aliases": [
-          "CVE-2023-40590"
+          "CVE-2023-40590",
+          "PYSEC-2023-161"
         ],
         "summary": "GitPython untrusted search path on Windows systems leading to arbitrary code execution",
         "details": "### Summary\n\nWhen resolving a program, Python/Windows look for the current working directory, and after that the PATH environment (see big warning in https://docs.python.org/3/library/subprocess.html#popen-constructor). GitPython defaults to use the `git` command, if a user runs GitPython from a repo has a `git.exe` or `git` executable, that program will be run instead of the one in the user's `PATH`.\n\n### Details\n\nThis is more of a problem on how Python interacts with Windows systems, Linux and any other OS aren't affected by this. But probably people using GitPython usually run it from the CWD of a repo.\n\nThe execution of the `git` command happens in\n\nhttps://github.com/gitpython-developers/GitPython/blob/1c8310d7cae144f74a671cbe17e51f63a830adbf/git/cmd.py#L277 \n\nhttps://github.com/gitpython-developers/GitPython/blob/1c8310d7cae144f74a671cbe17e51f63a830adbf/git/cmd.py#L983-L996\n\nAnd there are other commands executed that should probably be aware of this problem.\n\n### PoC\n\nOn a Windows system, create a `git.exe` or `git` executable in any directory, and import or run GitPython from that directory\n\n```\npython -c \"import git\"\n```\n\nThe git executable from the current directory will be run.\n\n### Impact\n\nAn attacker can trick a user to download a repository with a malicious `git` executable, if the user runs/imports GitPython from that directory, it allows the attacker to run any arbitrary commands.\n\n### Possible solutions\n \n- Default to an absolute path for the git program on Windows, like `C:\\\\Program Files\\\\Git\\\\cmd\\\\git.EXE` (default git path installation).\n- Require users to set the `GIT_PYTHON_GIT_EXECUTABLE` environment variable on Windows systems.\n- Make this problem prominent in the documentation and advise users to never run GitPython from an untrusted repo, or set the `GIT_PYTHON_GIT_EXECUTABLE` env var to an absolute path.\n- Resolve the executable manually by only looking into the `PATH` environment variable (suggested by @Byron)\n\n---\n\n> [!NOTE]\n> This vulnerability was reported via email, and it was decided to publish it here and make it public, so the community is aware of it, and a fix can be provided.",
@@ -368,7 +370,7 @@
         }
       },
       {
-        "modified": "2023-09-05T22:26:14Z",
+        "modified": "2023-11-08T04:13:22Z",
         "published": "2023-08-28T18:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2023-161",
@@ -508,7 +510,7 @@
         ]
       },
       {
-        "modified": "2023-09-07T14:33:25Z",
+        "modified": "2023-11-08T04:13:23Z",
         "published": "2023-08-30T22:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2023-165",
@@ -674,12 +676,13 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-11-06T16:43:34Z",
+        "modified": "2023-11-08T04:13:39Z",
         "published": "2023-10-17T20:15:25Z",
         "schema_version": "1.6.0",
         "id": "GHSA-g4mx-q9vg-27p4",
         "aliases": [
-          "CVE-2023-45803"
+          "CVE-2023-45803",
+          "PYSEC-2023-212"
         ],
         "summary": "urllib3's request body not stripped after redirect from 303 status changes request method to GET",
         "details": "urllib3 previously wouldn't remove the HTTP request body when an HTTP redirect response using status 303 \"See Other\" after the request had its method changed from one that could accept a request body (like `POST`) to `GET` as is required by HTTP RFCs. Although the behavior of removing the request body is not specified in the section for redirects, it can be inferred by piecing together information from different sections and we have observed the behavior in other major HTTP client implementations like curl and web browsers.\n\nFrom [RFC 9110 Section 9.3.1](https://www.rfc-editor.org/rfc/rfc9110.html#name-get):\n\n> A client SHOULD NOT generate content in a GET request unless it is made directly to an origin server that has previously indicated, in or out of band, that such a request has a purpose and will be adequately supported.\n\n## Affected usages\n\nBecause the vulnerability requires a previously trusted service to become compromised in order to have an impact on confidentiality we believe the exploitability of this vulnerability is low. Additionally, many users aren't putting sensitive data in HTTP request bodies, if this is the case then this vulnerability isn't exploitable.\n\nBoth of the following conditions must be true to be affected by this vulnerability:\n\n* If you're using urllib3 and submitting sensitive information in the HTTP request body (such as form data or JSON)\n* The origin service is compromised and starts redirecting using 303 to a malicious peer or the redirected-to service becomes compromised.\n\n## Remediation\n\nYou can remediate this vulnerability with any of the following steps:\n\n* Upgrade to a patched version of urllib3 (v1.26.18 or v2.0.7)\n* Disable redirects for services that you aren't expecting to respond with redirects with `redirects=False`.\n* Disable automatic redirects with `redirects=False` and handle 303 redirects manually by stripping the HTTP request body.\n",
@@ -893,12 +896,13 @@
         }
       },
       {
-        "modified": "2023-11-04T00:48:52Z",
+        "modified": "2023-11-08T04:13:33Z",
         "published": "2023-10-02T23:27:05Z",
         "schema_version": "1.6.0",
         "id": "GHSA-v845-jxx5-vc9f",
         "aliases": [
-          "CVE-2023-43804"
+          "CVE-2023-43804",
+          "PYSEC-2023-192"
         ],
         "summary": "`Cookie` HTTP header isn't stripped on cross-origin redirects",
         "details": "urllib3 doesn't treat the `Cookie` HTTP header special or provide any helpers for managing cookies over HTTP, that is the responsibility of the user. However, it is possible for a user to specify a `Cookie` header and unknowingly leak information via HTTP redirects to a different origin if that user doesn't disable redirects explicitly.\n\nUsers **must** handle redirects themselves instead of relying on urllib3's automatic redirects to achieve safe processing of the `Cookie` header, thus we decided to strip the header by default in order to further protect users who aren't using the correct approach.\n\n## Affected usages\n\nWe believe the number of usages affected by this advisory is low. It requires all of the following to be true to be exploited:\n\n* Using an affected version of urllib3 (patched in v1.26.17 and v2.0.6)\n* Using the `Cookie` header on requests, which is mostly typical for impersonating a browser.\n* Not disabling HTTP redirects\n* Either not using HTTPS or for the origin server to redirect to a malicious origin.\n\n## Remediation\n\n* Upgrading to at least urllib3 v1.26.17 or v2.0.6\n* Disabling HTTP redirects using `redirects=False` when sending requests.\n* Not using the `Cookie` header.",
@@ -1098,7 +1102,7 @@
         }
       },
       {
-        "modified": "2023-10-10T14:28:19Z",
+        "modified": "2023-11-08T04:13:33Z",
         "published": "2023-10-04T17:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2023-192",
@@ -1266,7 +1270,7 @@
         ]
       },
       {
-        "modified": "2023-10-25T18:28:34Z",
+        "modified": "2023-11-08T04:13:39Z",
         "published": "2023-10-17T20:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2023-212",

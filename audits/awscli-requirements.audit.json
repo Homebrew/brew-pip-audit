@@ -13,7 +13,8 @@
         "schema_version": "1.6.0",
         "id": "GHSA-cf7p-gm2m-833m",
         "aliases": [
-          "CVE-2023-38325"
+          "CVE-2023-38325",
+          "PYSEC-2023-112"
         ],
         "summary": "cryptography mishandles SSH certificates",
         "details": "The cryptography package before 41.0.2 for Python mishandles SSH certificates that have critical options.",
@@ -112,12 +113,13 @@
         }
       },
       {
-        "modified": "2023-08-21T15:28:13Z",
+        "modified": "2023-11-08T04:13:07Z",
         "published": "2023-07-14T20:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2023-112",
         "aliases": [
-          "CVE-2023-38325"
+          "CVE-2023-38325",
+          "GHSA-cf7p-gm2m-833m"
         ],
         "details": "The cryptography package before 41.0.2 for Python mishandles SSH certificates that have critical options.",
         "affected": [

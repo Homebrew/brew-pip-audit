@@ -8,12 +8,13 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-11-06T05:23:02Z",
+        "modified": "2023-11-08T04:12:28Z",
         "published": "2023-05-01T19:22:20Z",
         "schema_version": "1.6.0",
         "id": "GHSA-m2qf-hxjv-5gpq",
         "aliases": [
-          "CVE-2023-30861"
+          "CVE-2023-30861",
+          "PYSEC-2023-62"
         ],
         "summary": "Flask vulnerable to possible disclosure of permanent session cookie due to missing Vary: Cookie header",
         "details": "When all of the following conditions are met, a response containing data intended for one client may be cached and subsequently sent by a proxy to other clients. If the proxy also caches `Set-Cookie` headers, it may send one client's `session` cookie to other clients. The severity depends on the application's use of the session, and the proxy's behavior regarding cookies. The risk depends on _all_ these conditions being met.\n\n1. The application must be hosted behind a caching proxy that does not strip cookies or ignore responses with cookies.\n2. The application sets [`session.permanent = True`](https://flask.palletsprojects.com/en/2.3.x/api/#flask.session.permanent).\n2. The application does not access or modify the session at any point during a request.\n4. [`SESSION_REFRESH_EACH_REQUEST`](https://flask.palletsprojects.com/en/2.3.x/config/#SESSION_REFRESH_EACH_REQUEST) is enabled (the default).\n5. The application does not set a `Cache-Control` header to indicate that a page is private or should not be cached.\n\nThis happens because vulnerable versions of Flask only set the `Vary: Cookie` header when the session is accessed or modified, not when it is refreshed (re-sent to update the expiration) without being accessed or modified.",
@@ -195,7 +196,7 @@
         }
       },
       {
-        "modified": "2023-06-05T01:12:52Z",
+        "modified": "2023-11-08T04:12:28Z",
         "published": "2023-05-02T18:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2023-62",
@@ -347,12 +348,13 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-06-06T18:18:13Z",
+        "modified": "2023-11-08T04:12:15Z",
         "published": "2023-03-26T21:30:23Z",
         "schema_version": "1.6.0",
         "id": "GHSA-24wv-mv5m-xv4h",
         "aliases": [
-          "CVE-2023-28858"
+          "CVE-2023-28858",
+          "PYSEC-2023-45"
         ],
         "summary": "redis-py Race Condition vulnerability",
         "details": "redis-py before 4.5.3, as used in ChatGPT and other products, leaves a connection open after canceling an async Redis command at an inopportune time (in the case of a pipeline operation), and can send response data to the client of an unrelated request in an off-by-one manner. The fixed versions for this CVE Record are 4.3.6, 4.4.3, and 4.5.3, but [are believed to be incomplete](https://github.com/redis/redis-py/issues/2665). CVE-2023-28859 has been assigned the issues caused by the incomplete fixes.",
@@ -515,12 +517,13 @@
         }
       },
       {
-        "modified": "2023-07-19T22:49:04Z",
+        "modified": "2023-11-08T04:12:15Z",
         "published": "2023-03-26T21:30:23Z",
         "schema_version": "1.6.0",
         "id": "GHSA-8fww-64cx-x8p5",
         "aliases": [
-          "CVE-2023-28859"
+          "CVE-2023-28859",
+          "PYSEC-2023-46"
         ],
         "summary": "redis-py Race Condition due to incomplete fix",
         "details": "redis-py through 4.5.3 and 4.4.3 leaves a connection open after canceling an async Redis command at an inopportune time (in the case of a non-pipeline operation), and can send response data to the client of an unrelated request. NOTE: this issue exists because of an incomplete fix for CVE-2023-28858.",
@@ -675,12 +678,13 @@
         }
       },
       {
-        "modified": "2023-06-05T01:13:00Z",
+        "modified": "2023-11-08T04:12:15Z",
         "published": "2023-03-26T19:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2023-45",
         "aliases": [
-          "CVE-2023-28858"
+          "CVE-2023-28858",
+          "GHSA-24wv-mv5m-xv4h"
         ],
         "details": "redis-py before 4.5.3, as used in ChatGPT and other products, leaves a connection open after canceling an async Redis command at an inopportune time (in the case of a pipeline operation), and can send response data to the client of an unrelated request in an off-by-one manner. The fixed versions for this CVE Record are 4.3.6, 4.4.3, and 4.5.3; however, CVE-2023-28859 is a separate vulnerability.",
         "affected": [
@@ -765,12 +769,13 @@
         ]
       },
       {
-        "modified": "2023-06-05T01:13:00Z",
+        "modified": "2023-11-08T04:12:15Z",
         "published": "2023-03-26T19:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2023-46",
         "aliases": [
-          "CVE-2023-28859"
+          "CVE-2023-28859",
+          "GHSA-8fww-64cx-x8p5"
         ],
         "details": "redis-py through 4.5.3 leaves a connection open after canceling an async Redis command at an inopportune time (in the case of a non-pipeline operation), and can send response data to the client of an unrelated request. NOTE: this issue exists because of an incomplete fix for CVE-2023-28858.",
         "affected": [
@@ -869,7 +874,8 @@
         "schema_version": "1.6.0",
         "id": "GHSA-j8r2-6x86-q33q",
         "aliases": [
-          "CVE-2023-32681"
+          "CVE-2023-32681",
+          "PYSEC-2023-74"
         ],
         "summary": "Unintended leak of Proxy-Authorization header in requests",
         "details": "### Impact\n\nSince Requests v2.3.0, Requests has been vulnerable to potentially leaking `Proxy-Authorization` headers to destination servers, specifically during redirects to an HTTPS origin. This is a product of how `rebuild_proxies` is used to recompute and [reattach the `Proxy-Authorization` header](https://github.com/psf/requests/blob/f2629e9e3c7ce3c3c8c025bcd8db551101cbc773/requests/sessions.py#L319-L328) to requests when redirected. Note this behavior has _only_ been observed to affect proxied requests when credentials are supplied in the URL user information component (e.g. `https://username:password@proxy:8080`).\n\n**Current vulnerable behavior(s):**\n\n1. HTTP \u2192 HTTPS: **leak**\n2. HTTPS \u2192 HTTP: **no leak**\n3. HTTPS \u2192 HTTPS: **leak**\n4. HTTP \u2192 HTTP: **no leak**\n\nFor HTTP connections sent through the proxy, the proxy will identify the header in the request itself and remove it prior to forwarding to the destination server. However when sent over HTTPS, the `Proxy-Authorization` header must be sent in the CONNECT request as the proxy has no visibility into further tunneled requests. This results in Requests forwarding the header to the destination server unintentionally, allowing a malicious actor to potentially exfiltrate those credentials.\n\nThe reason this currently works for HTTPS connections in Requests is the `Proxy-Authorization` header is also handled by urllib3 with our usage of the ProxyManager in adapters.py with [`proxy_manager_for`](https://github.com/psf/requests/blob/f2629e9e3c7ce3c3c8c025bcd8db551101cbc773/requests/adapters.py#L199-L235). This will compute the required proxy headers in `proxy_headers` and pass them to the Proxy Manager, avoiding attaching them directly to the Request object. This will be our preferred option going forward for default usage.\n\n### Patches\nStarting in Requests v2.31.0, Requests will no longer attach this header to redirects with an HTTPS destination. This should have no negative impacts on the default behavior of the library as the proxy credentials are already properly being handled by urllib3's ProxyManager.\n\nFor users with custom adapters, this _may_ be potentially breaking if you were already working around this behavior. The previous functionality of `rebuild_proxies` doesn't make sense in any case, so we would encourage any users impacted to migrate any handling of Proxy-Authorization directly into their custom adapter.\n\n### Workarounds\nFor users who are not able to update Requests immediately, there is one potential workaround.\n\nYou may disable redirects by setting `allow_redirects` to `False` on all calls through Requests top-level APIs. Note that if you're currently relying on redirect behaviors, you will need to capture the 3xx response codes and ensure a new request is made to the redirect destination.\n```\nimport requests\nr = requests.get('http://github.com/', allow_redirects=False)\n```\n\n### Credits\n\nThis vulnerability was discovered and disclosed by the following individuals.\n\nDennis Brinkrolf, Haxolot (https://haxolot.com/)\nTobias Funke, (tobiasfunke93@gmail.com)",
@@ -1030,7 +1036,7 @@
         }
       },
       {
-        "modified": "2023-06-05T01:13:00Z",
+        "modified": "2023-11-08T04:12:35Z",
         "published": "2023-05-26T18:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2023-74",
@@ -1182,12 +1188,13 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-11-06T16:43:34Z",
+        "modified": "2023-11-08T04:13:39Z",
         "published": "2023-10-17T20:15:25Z",
         "schema_version": "1.6.0",
         "id": "GHSA-g4mx-q9vg-27p4",
         "aliases": [
-          "CVE-2023-45803"
+          "CVE-2023-45803",
+          "PYSEC-2023-212"
         ],
         "summary": "urllib3's request body not stripped after redirect from 303 status changes request method to GET",
         "details": "urllib3 previously wouldn't remove the HTTP request body when an HTTP redirect response using status 303 \"See Other\" after the request had its method changed from one that could accept a request body (like `POST`) to `GET` as is required by HTTP RFCs. Although the behavior of removing the request body is not specified in the section for redirects, it can be inferred by piecing together information from different sections and we have observed the behavior in other major HTTP client implementations like curl and web browsers.\n\nFrom [RFC 9110 Section 9.3.1](https://www.rfc-editor.org/rfc/rfc9110.html#name-get):\n\n> A client SHOULD NOT generate content in a GET request unless it is made directly to an origin server that has previously indicated, in or out of band, that such a request has a purpose and will be adequately supported.\n\n## Affected usages\n\nBecause the vulnerability requires a previously trusted service to become compromised in order to have an impact on confidentiality we believe the exploitability of this vulnerability is low. Additionally, many users aren't putting sensitive data in HTTP request bodies, if this is the case then this vulnerability isn't exploitable.\n\nBoth of the following conditions must be true to be affected by this vulnerability:\n\n* If you're using urllib3 and submitting sensitive information in the HTTP request body (such as form data or JSON)\n* The origin service is compromised and starts redirecting using 303 to a malicious peer or the redirected-to service becomes compromised.\n\n## Remediation\n\nYou can remediate this vulnerability with any of the following steps:\n\n* Upgrade to a patched version of urllib3 (v1.26.18 or v2.0.7)\n* Disable redirects for services that you aren't expecting to respond with redirects with `redirects=False`.\n* Disable automatic redirects with `redirects=False` and handle 303 redirects manually by stripping the HTTP request body.\n",
@@ -1401,12 +1408,13 @@
         }
       },
       {
-        "modified": "2023-11-04T00:48:52Z",
+        "modified": "2023-11-08T04:13:33Z",
         "published": "2023-10-02T23:27:05Z",
         "schema_version": "1.6.0",
         "id": "GHSA-v845-jxx5-vc9f",
         "aliases": [
-          "CVE-2023-43804"
+          "CVE-2023-43804",
+          "PYSEC-2023-192"
         ],
         "summary": "`Cookie` HTTP header isn't stripped on cross-origin redirects",
         "details": "urllib3 doesn't treat the `Cookie` HTTP header special or provide any helpers for managing cookies over HTTP, that is the responsibility of the user. However, it is possible for a user to specify a `Cookie` header and unknowingly leak information via HTTP redirects to a different origin if that user doesn't disable redirects explicitly.\n\nUsers **must** handle redirects themselves instead of relying on urllib3's automatic redirects to achieve safe processing of the `Cookie` header, thus we decided to strip the header by default in order to further protect users who aren't using the correct approach.\n\n## Affected usages\n\nWe believe the number of usages affected by this advisory is low. It requires all of the following to be true to be exploited:\n\n* Using an affected version of urllib3 (patched in v1.26.17 and v2.0.6)\n* Using the `Cookie` header on requests, which is mostly typical for impersonating a browser.\n* Not disabling HTTP redirects\n* Either not using HTTPS or for the origin server to redirect to a malicious origin.\n\n## Remediation\n\n* Upgrading to at least urllib3 v1.26.17 or v2.0.6\n* Disabling HTTP redirects using `redirects=False` when sending requests.\n* Not using the `Cookie` header.",
@@ -1606,7 +1614,7 @@
         }
       },
       {
-        "modified": "2023-10-10T14:28:19Z",
+        "modified": "2023-11-08T04:13:33Z",
         "published": "2023-10-04T17:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2023-192",
@@ -1774,7 +1782,7 @@
         ]
       },
       {
-        "modified": "2023-10-25T18:28:34Z",
+        "modified": "2023-11-08T04:13:39Z",
         "published": "2023-10-17T20:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2023-212",
@@ -1970,7 +1978,8 @@
         "schema_version": "1.6.0",
         "id": "GHSA-hrfv-mqp8-q5rw",
         "aliases": [
-          "CVE-2023-46136"
+          "CVE-2023-46136",
+          "PYSEC-2023-221"
         ],
         "summary": "Werkzeug DoS: High resource usage when parsing multipart/form-data containing a large part with CR/LF character at the beginning",
         "details": "Werkzeug multipart data parser needs to find a boundary that may be between consecutive chunks. That's why parsing is based on looking for newline characters. Unfortunately, code looking for partial boundary in the buffer is written inefficiently, so if we upload a file that starts with CR or LF and then is followed by megabytes of data without these characters: all of these bytes are appended chunk by chunk into internal bytearray and lookup for boundary is performed on growing buffer.\n\nThis allows an attacker to cause a denial of service by sending crafted multipart data to an endpoint that will parse it. The amount of CPU time required can block worker processes from handling legitimate requests. The amount of RAM required can trigger an out of memory kill of the process. If many concurrent requests are sent continuously, this can exhaust or kill all available workers.\n",
@@ -2174,12 +2183,13 @@
         }
       },
       {
-        "modified": "2023-08-18T16:01:11Z",
+        "modified": "2023-11-08T04:11:43Z",
         "published": "2023-02-15T15:37:03Z",
         "schema_version": "1.6.0",
         "id": "GHSA-px8h-6qxv-m22q",
         "aliases": [
-          "CVE-2023-23934"
+          "CVE-2023-23934",
+          "PYSEC-2023-57"
         ],
         "summary": "Incorrect parsing of nameless cookies leads to __Host- cookies bypass",
         "details": "Browsers may allow \"nameless\" cookies that look like `=value` instead of `key=value`. A vulnerable browser may allow a compromised application on an adjacent subdomain to exploit this to set a cookie like `=__Host-test=bad` for another subdomain.\n\nWerkzeug <= 2.2.2 will parse the cookie `=__Host-test=bad` as `__Host-test=bad`. If a Werkzeug application is running next to a vulnerable or malicious subdomain which sets such a cookie using a vulnerable browser, the Werkzeug application will see the bad cookie value but the valid cookie key.",
@@ -2342,12 +2352,13 @@
         }
       },
       {
-        "modified": "2023-08-18T16:01:28Z",
+        "modified": "2023-11-08T04:11:52Z",
         "published": "2023-02-15T15:36:26Z",
         "schema_version": "1.6.0",
         "id": "GHSA-xg9f-g7g7-2323",
         "aliases": [
-          "CVE-2023-25577"
+          "CVE-2023-25577",
+          "PYSEC-2023-58"
         ],
         "summary": "High resource usage when parsing multipart form data with many fields",
         "details": "Werkzeug's multipart form data parser will parse an unlimited number of parts, including file parts. Parts can be a small amount of bytes, but each requires CPU time to parse and may use more memory as Python data. If a request can be made to an endpoint that accesses `request.data`, `request.form`, `request.files`, or `request.get_data(parse_form_data=False)`, it can cause unexpectedly high resource usage.\n\nThis allows an attacker to cause a denial of service by sending crafted multipart data to an endpoint that will parse it. The amount of CPU time required can block worker processes from handling legitimate requests. The amount of RAM required can trigger an out of memory kill of the process. Unlimited file parts can use up memory and file handles. If many concurrent requests are sent continuously, this can exhaust or kill all available workers.",
@@ -2676,7 +2687,7 @@
         ]
       },
       {
-        "modified": "2023-05-04T03:49:48Z",
+        "modified": "2023-11-08T04:11:43Z",
         "published": "2023-02-14T20:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2023-57",
@@ -2820,7 +2831,7 @@
         ]
       },
       {
-        "modified": "2023-05-04T03:49:48Z",
+        "modified": "2023-11-08T04:11:52Z",
         "published": "2023-02-14T20:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2023-58",

@@ -8,7 +8,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-11-06T05:19:57Z",
+        "modified": "2023-11-08T04:12:36Z",
         "published": "2023-05-15T06:30:19Z",
         "schema_version": "1.6.0",
         "id": "GHSA-4xqq-73wg-5mjp",

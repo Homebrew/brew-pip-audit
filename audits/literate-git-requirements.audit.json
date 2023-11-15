@@ -8,12 +8,13 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-10-22T05:32:34Z",
+        "modified": "2023-11-08T04:04:36Z",
         "published": "2021-04-20T16:35:47Z",
         "schema_version": "1.6.0",
         "id": "GHSA-9w8r-397f-prfh",
         "aliases": [
-          "CVE-2021-20270"
+          "CVE-2021-20270",
+          "PYSEC-2021-140"
         ],
         "summary": "Infinite Loop in Pygments",
         "details": "An infinite loop in SMLLexer in Pygments versions 1.5 to 2.7.3 may lead to denial of service when performing syntax highlighting of a Standard ML (SML) source file, as demonstrated by input that only contains the \"exception\" keyword.",
@@ -120,12 +121,13 @@
         }
       },
       {
-        "modified": "2023-11-05T05:23:57Z",
+        "modified": "2023-11-08T04:10:25Z",
         "published": "2023-07-19T15:30:26Z",
         "schema_version": "1.6.0",
         "id": "GHSA-mrwq-x4v8-fh7p",
         "aliases": [
-          "CVE-2022-40896"
+          "CVE-2022-40896",
+          "PYSEC-2023-117"
         ],
         "summary": "Pygments vulnerable to ReDoS",
         "details": "A ReDoS issue was discovered in `pygments/lexers/smithy.py` in Pygments until 2.15.0 via SmithyLexer.",
@@ -274,12 +276,13 @@
         }
       },
       {
-        "modified": "2023-10-22T05:32:03Z",
+        "modified": "2023-11-08T04:05:24Z",
         "published": "2021-03-29T16:33:03Z",
         "schema_version": "1.6.0",
         "id": "GHSA-pq64-v7f5-gqh8",
         "aliases": [
-          "CVE-2021-27291"
+          "CVE-2021-27291",
+          "PYSEC-2021-141"
         ],
         "summary": "Pygments vulnerable to Regular Expression Denial of Service (ReDoS)",
         "details": "In pygments 1.1+, fixed in 2.7.4, the lexers used to parse programming languages rely heavily on regular expressions. Some of the regular expressions have exponential or cubic worst-case complexity and are vulnerable to ReDoS. By crafting malicious input, an attacker can cause a denial of service.",
@@ -406,7 +409,7 @@
         }
       },
       {
-        "modified": "2021-08-27T03:22:17Z",
+        "modified": "2023-11-08T04:04:36Z",
         "published": "2021-03-23T17:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2021-140",
@@ -491,7 +494,7 @@
         ]
       },
       {
-        "modified": "2021-08-27T03:22:17Z",
+        "modified": "2023-11-08T04:05:24Z",
         "published": "2021-03-17T13:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2021-141",
@@ -616,12 +619,13 @@
         ]
       },
       {
-        "modified": "2023-07-19T17:26:16Z",
+        "modified": "2023-11-08T04:10:25Z",
         "published": "2023-07-19T15:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2023-117",
         "aliases": [
-          "CVE-2022-40896"
+          "CVE-2022-40896",
+          "GHSA-mrwq-x4v8-fh7p"
         ],
         "details": "A ReDoS issue was discovered in pygments/lexers/smithy.py in pygments through 2.15.0 via SmithyLexer.",
         "affected": [

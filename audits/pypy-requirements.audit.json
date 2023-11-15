@@ -8,12 +8,15 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-04-11T01:15:33Z",
+        "modified": "2023-11-08T04:06:10Z",
         "published": "2021-11-15T17:45:01Z",
         "schema_version": "1.6.0",
         "id": "GHSA-5xp3-jfq3-5q8x",
         "aliases": [
-          "CVE-2021-3572"
+          "BIT-2021-3572",
+          "BIT-pip-2021-3572",
+          "CVE-2021-3572",
+          "PYSEC-2021-437"
         ],
         "summary": "Improper Input Validation in pip",
         "details": "A flaw was found in python-pip in the way it handled Unicode separators in git references. A remote attacker could possibly use this issue to install a different revision on a repository. The highest threat from this vulnerability is to data integrity. This is fixed in python-pip version 21.1.",
@@ -201,12 +204,15 @@
         }
       },
       {
-        "modified": "2023-11-06T16:34:35Z",
+        "modified": "2023-11-08T04:13:48Z",
         "published": "2023-10-25T18:32:26Z",
         "schema_version": "1.6.0",
         "id": "GHSA-mq26-g339-26xf",
         "aliases": [
-          "CVE-2023-5752"
+          "BIT-2023-5752",
+          "BIT-pip-2023-5752",
+          "CVE-2023-5752",
+          "PYSEC-2023-228"
         ],
         "summary": "Command Injection in pip when used with Mercurial",
         "details": "When installing a package from a Mercurial VCS URL, e.g. `pip install hg+...`, with pip prior to v23.3, the specified Mercurial revision could be used to inject arbitrary configuration options to the `hg clone` call (e.g. `--config`). Controlling the Mercurial configuration can modify how and which repository is installed. This vulnerability does not affect users who aren't installing from Mercurial.",
@@ -414,11 +420,13 @@
         }
       },
       {
-        "modified": "2021-11-29T23:42:09Z",
+        "modified": "2023-11-08T04:06:10Z",
         "published": "2021-11-10T18:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2021-437",
         "aliases": [
+          "BIT-2021-3572",
+          "BIT-pip-2021-3572",
           "CVE-2021-3572",
           "GHSA-5xp3-jfq3-5q8x"
         ],
@@ -564,12 +572,15 @@
         ]
       },
       {
-        "modified": "2023-11-03T16:28:41Z",
+        "modified": "2023-11-08T04:13:48Z",
         "published": "2023-10-25T18:17:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2023-228",
         "aliases": [
-          "CVE-2023-5752"
+          "BIT-2023-5752",
+          "BIT-pip-2023-5752",
+          "CVE-2023-5752",
+          "GHSA-mq26-g339-26xf"
         ],
         "details": "When installing a package from a Mercurial VCS URL  (ie \"pip install \nhg+...\") with pip prior to v23.3, the specified Mercurial revision could\n be used to inject arbitrary configuration options to the \"hg clone\" \ncall (ie \"--config\"). Controlling the Mercurial configuration can modify\n how and which repository is installed. This vulnerability does not \naffect users who aren't installing from Mercurial.\n",
         "affected": [
@@ -775,12 +786,15 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-05-01T14:02:28Z",
+        "modified": "2023-11-08T04:10:26Z",
         "published": "2022-12-23T00:30:23Z",
         "schema_version": "1.6.0",
         "id": "GHSA-r9hx-vwmv-q579",
         "aliases": [
-          "CVE-2022-40897"
+          "BIT-2022-40897",
+          "BIT-setuptools-2022-40897",
+          "CVE-2022-40897",
+          "PYSEC-2022-43012"
         ],
         "summary": "pypa/setuptools vulnerable to Regular Expression Denial of Service (ReDoS)",
         "details": "Python Packaging Authority (PyPA)'s setuptools is a library designed to facilitate packaging Python projects. Setuptools version 65.5.0 and earlier could allow remote attackers to cause a denial of service by fetching malicious HTML from a PyPI package or custom PackageIndex page due to a vulnerable Regular Expression in `package_index`. This has been patched in version 65.5.1.",
@@ -1392,12 +1406,15 @@
         }
       },
       {
-        "modified": "2023-05-04T04:29:29Z",
+        "modified": "2023-11-08T04:10:26Z",
         "published": "2022-12-23T00:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2022-43012",
         "aliases": [
-          "CVE-2022-40897"
+          "BIT-2022-40897",
+          "BIT-setuptools-2022-40897",
+          "CVE-2022-40897",
+          "GHSA-r9hx-vwmv-q579"
         ],
         "details": "Python Packaging Authority (PyPA) setuptools before 65.5.1 allows remote attackers to cause a denial of service via HTML in a crafted package or custom PackageIndex page. There is a Regular Expression Denial of Service (ReDoS) in package_index.py.",
         "affected": [

@@ -8,7 +8,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2022-05-17T03:06:38Z",
+        "modified": "2023-11-08T04:08:30Z",
         "published": "2022-03-17T22:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2022-166",
@@ -210,12 +210,13 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-11-06T16:43:34Z",
+        "modified": "2023-11-08T04:13:39Z",
         "published": "2023-10-17T20:15:25Z",
         "schema_version": "1.6.0",
         "id": "GHSA-g4mx-q9vg-27p4",
         "aliases": [
-          "CVE-2023-45803"
+          "CVE-2023-45803",
+          "PYSEC-2023-212"
         ],
         "summary": "urllib3's request body not stripped after redirect from 303 status changes request method to GET",
         "details": "urllib3 previously wouldn't remove the HTTP request body when an HTTP redirect response using status 303 \"See Other\" after the request had its method changed from one that could accept a request body (like `POST`) to `GET` as is required by HTTP RFCs. Although the behavior of removing the request body is not specified in the section for redirects, it can be inferred by piecing together information from different sections and we have observed the behavior in other major HTTP client implementations like curl and web browsers.\n\nFrom [RFC 9110 Section 9.3.1](https://www.rfc-editor.org/rfc/rfc9110.html#name-get):\n\n> A client SHOULD NOT generate content in a GET request unless it is made directly to an origin server that has previously indicated, in or out of band, that such a request has a purpose and will be adequately supported.\n\n## Affected usages\n\nBecause the vulnerability requires a previously trusted service to become compromised in order to have an impact on confidentiality we believe the exploitability of this vulnerability is low. Additionally, many users aren't putting sensitive data in HTTP request bodies, if this is the case then this vulnerability isn't exploitable.\n\nBoth of the following conditions must be true to be affected by this vulnerability:\n\n* If you're using urllib3 and submitting sensitive information in the HTTP request body (such as form data or JSON)\n* The origin service is compromised and starts redirecting using 303 to a malicious peer or the redirected-to service becomes compromised.\n\n## Remediation\n\nYou can remediate this vulnerability with any of the following steps:\n\n* Upgrade to a patched version of urllib3 (v1.26.18 or v2.0.7)\n* Disable redirects for services that you aren't expecting to respond with redirects with `redirects=False`.\n* Disable automatic redirects with `redirects=False` and handle 303 redirects manually by stripping the HTTP request body.\n",
@@ -429,12 +430,13 @@
         }
       },
       {
-        "modified": "2023-11-04T00:48:52Z",
+        "modified": "2023-11-08T04:13:33Z",
         "published": "2023-10-02T23:27:05Z",
         "schema_version": "1.6.0",
         "id": "GHSA-v845-jxx5-vc9f",
         "aliases": [
-          "CVE-2023-43804"
+          "CVE-2023-43804",
+          "PYSEC-2023-192"
         ],
         "summary": "`Cookie` HTTP header isn't stripped on cross-origin redirects",
         "details": "urllib3 doesn't treat the `Cookie` HTTP header special or provide any helpers for managing cookies over HTTP, that is the responsibility of the user. However, it is possible for a user to specify a `Cookie` header and unknowingly leak information via HTTP redirects to a different origin if that user doesn't disable redirects explicitly.\n\nUsers **must** handle redirects themselves instead of relying on urllib3's automatic redirects to achieve safe processing of the `Cookie` header, thus we decided to strip the header by default in order to further protect users who aren't using the correct approach.\n\n## Affected usages\n\nWe believe the number of usages affected by this advisory is low. It requires all of the following to be true to be exploited:\n\n* Using an affected version of urllib3 (patched in v1.26.17 and v2.0.6)\n* Using the `Cookie` header on requests, which is mostly typical for impersonating a browser.\n* Not disabling HTTP redirects\n* Either not using HTTPS or for the origin server to redirect to a malicious origin.\n\n## Remediation\n\n* Upgrading to at least urllib3 v1.26.17 or v2.0.6\n* Disabling HTTP redirects using `redirects=False` when sending requests.\n* Not using the `Cookie` header.",
@@ -634,7 +636,7 @@
         }
       },
       {
-        "modified": "2023-10-10T14:28:19Z",
+        "modified": "2023-11-08T04:13:33Z",
         "published": "2023-10-04T17:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2023-192",
@@ -802,7 +804,7 @@
         ]
       },
       {
-        "modified": "2023-10-25T18:28:34Z",
+        "modified": "2023-11-08T04:13:39Z",
         "published": "2023-10-17T20:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2023-212",
