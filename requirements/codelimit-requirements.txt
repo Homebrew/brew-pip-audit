@@ -1,4 +1,4 @@
-charset-normalizer==3.3.1
+charset-normalizer==3.3.2
 colorama==0.4.6
 halo==0.0.31
 idna==3.4
@@ -10,11 +10,11 @@ mdit-py-plugins==0.4.0
 mdurl==0.1.2
 plotext==5.2.8
 requests==2.31.0
-rich==13.6.0
+rich==13.7.0
 spinners==0.0.24
 termcolor==2.3.0
 textual==0.34.0
 typer==0.9.0
 uc-micro-py==1.0.2
-urllib3==2.0.7
+urllib3==2.1.0
 zipp==3.17.0

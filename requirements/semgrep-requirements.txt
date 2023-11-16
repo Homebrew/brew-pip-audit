@@ -9,11 +9,11 @@ face==22.0.0
 glom==22.1.0
 idna==3.4
 jsonschema==4.19.2
-jsonschema-specifications==2023.7.1
+jsonschema-specifications==2023.11.1
 markdown-it-py==3.0.0
 mdurl==0.1.2
 peewee==3.17.0
-referencing==0.30.2
+referencing==0.31.0
 requests==2.31.0
 rich==13.6.0
 rpds-py==0.12.0
