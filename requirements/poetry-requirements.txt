@@ -4,7 +4,7 @@ charset-normalizer==3.3.2
 cleo==2.1.0
 crashtest==0.4.1
 dulwich==0.21.6
-fastjsonschema==2.18.1
+fastjsonschema==2.19.0
 idna==3.4
 installer==0.7.0
 msgpack==1.0.7
@@ -18,7 +18,7 @@ rapidfuzz==3.5.2
 requests==2.31.0
 requests-toolbelt==1.0.0
 shellingham==1.5.4
-tomlkit==0.12.2
-trove-classifiers==2023.10.18
-urllib3==2.0.7
+tomlkit==0.12.3
+trove-classifiers==2023.11.14
+urllib3==2.1.0
 xattr==0.10.1
