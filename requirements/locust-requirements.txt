@@ -1,5 +1,4 @@
 blinker==1.7.0
-brotli==1.1.0
 charset-normalizer==3.3.2
 configargparse==1.7
 flask==3.0.0
