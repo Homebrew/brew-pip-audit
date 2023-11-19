@@ -1,9 +1,9 @@
-aioesphomeapi==15.0.0
-async-timeout==4.0.3
-bitarray==2.8.2
+aioesphomeapi==18.5.2
+bitarray==2.8.3
 bitstring==4.1.2
+chacha20poly1305-reuseable==0.11.0
 ecdsa==0.18.0
-esphome-dashboard==20230904.0
+esphome-dashboard==20231107.0
 esptool==4.6.2
 ifaddr==0.2.0
 kconfiglib==13.7.1
@@ -12,6 +12,6 @@ paho-mqtt==1.6.1
 reedsolo==1.7.0
 tornado==6.3.3
 tzdata==2023.3
-tzlocal==5.0.1
+tzlocal==5.2
 voluptuous==0.13.1
-zeroconf==0.115.1
+zeroconf==0.123.0

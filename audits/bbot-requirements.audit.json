@@ -8,7 +8,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-11-08T04:13:27Z",
+        "modified": "2023-11-18T12:46:01Z",
         "published": "2023-10-04T15:30:35Z",
         "schema_version": "1.6.0",
         "id": "GHSA-ww3m-ffrm-qvqv",
@@ -178,6 +178,14 @@
           {
             "type": "ADVISORY",
             "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-4237"
+          },
+          {
+            "type": "WEB",
+            "url": "https://access.redhat.com/errata/RHBA-2023:5653"
+          },
+          {
+            "type": "WEB",
+            "url": "https://access.redhat.com/errata/RHBA-2023:5666"
           },
           {
             "type": "WEB",
