@@ -1,2 +1,1 @@
-python-dateutil==2.8.2
 python-magic==0.4.27
