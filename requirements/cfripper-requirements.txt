@@ -1,9 +1,9 @@
-boto3==1.29.3
-botocore==1.32.3
+boto3==1.29.4
+botocore==1.32.4
 cfn-flip==1.3.0
 jmespath==1.0.1
 pluggy==0.13.1
-pycfmodel==0.21.0
+pycfmodel==0.21.1
 pydantic==1.10.13
 pydash==7.0.6
 python-dateutil==2.8.2

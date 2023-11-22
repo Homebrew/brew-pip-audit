@@ -19,7 +19,6 @@ google-auth==2.23.4
 idna==3.4
 importlib-metadata==6.8.0
 iso8601==2.1.0
-jinja2==3.1.2
 jmespath==1.0.1
 jsonpatch==1.33
 jsonpointer==2.4
@@ -56,13 +55,11 @@ ptyprocess==0.7.0
 pyasn1==0.5.0
 pyasn1-modules==0.3.0
 pynacl==1.5.0
-pyparsing==3.1.1
 pyperclip==1.8.2
 pyserial==3.5
 pysphere3==0.1.8
 pyspnego==0.10.2
 python-consul==1.1.0
-python-dateutil==2.8.2
 python-keystoneclient==5.2.0
 python-neutronclient==11.0.0
 python-string-utils==1.0.0
