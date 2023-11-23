@@ -23,5 +23,5 @@ termcolor==2.3.0
 tiktoken==0.4.0
 tqdm==4.66.1
 urllib3==2.1.0
-wcwidth==0.2.10
-yarl==1.9.2
+wcwidth==0.2.12
+yarl==1.9.3

@@ -8,7 +8,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-11-22T03:11:27Z",
+        "modified": "2023-11-22T18:19:11Z",
         "published": "2023-11-16T18:30:31Z",
         "schema_version": "1.6.0",
         "id": "GHSA-8r96-8889-qg2x",
@@ -98,6 +98,12 @@
             }
           }
         ],
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N"
+          }
+        ],
         "references": [
           {
             "type": "ADVISORY",
@@ -117,15 +123,21 @@
           },
           {
             "type": "WEB",
+            "url": "https://github.com/pypa/advisory-database/tree/main/vulns/httpie/PYSEC-2023-242.yaml"
+          },
+          {
+            "type": "WEB",
             "url": "https://gxx777.github.io/HTTPie_3.2.2_Cryptographic_API_Misuse_Vulnerability.md"
           }
         ],
         "database_specific": {
-          "cwe_ids": [],
+          "cwe_ids": [
+            "CWE-295"
+          ],
           "github_reviewed": true,
           "github_reviewed_at": "2023-11-16T22:16:44Z",
           "nvd_published_at": "2023-11-16T18:15:07Z",
-          "severity": "MODERATE"
+          "severity": "HIGH"
         }
       },
       {
