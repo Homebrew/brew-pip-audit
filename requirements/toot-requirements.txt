@@ -6,4 +6,4 @@ soupsieve==2.5
 tomlkit==0.12.3
 urllib3==2.1.0
 urwid==2.2.3
-wcwidth==0.2.10
+wcwidth==0.2.12

@@ -1,2 +1,2 @@
 colorama==0.4.6
-libtmux==0.24.0
+libtmux==0.24.1

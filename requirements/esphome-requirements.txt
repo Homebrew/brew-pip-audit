@@ -1,6 +1,6 @@
 aioesphomeapi==18.5.2
 bitarray==2.8.3
-bitstring==4.1.2
+bitstring==4.1.3
 chacha20poly1305-reuseable==0.11.0
 ecdsa==0.18.0
 esphome-dashboard==20231107.0
@@ -9,6 +9,7 @@ ifaddr==0.2.0
 kconfiglib==13.7.1
 noiseprotocol==0.3.1
 paho-mqtt==1.6.1
+python-magic==0.4.27
 reedsolo==1.7.0
 tornado==6.3.3
 tzdata==2023.3
