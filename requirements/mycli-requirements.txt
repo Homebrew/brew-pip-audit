@@ -5,5 +5,4 @@ pyaes==1.6.1
 pymysql==1.1.0
 pyperclip==1.8.2
 sqlglot==18.14.0
-sqlparse==0.4.4
 wcwidth==0.2.8

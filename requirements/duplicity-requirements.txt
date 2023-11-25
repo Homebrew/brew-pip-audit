@@ -30,7 +30,6 @@ iso8601==2.1.0
 isodate==0.6.1
 jmespath==1.0.1
 jottalib==0.5.1
-keyring==24.2.0
 keystoneauth1==5.3.0
 logfury==1.0.1
 megatools==0.0.4
@@ -47,7 +46,6 @@ oslo-utils==6.2.1
 paramiko==3.3.1
 pbr==5.11.1
 pexpect==4.8.0
-ply==3.11
 ptyprocess==0.7.0
 pyasn1==0.5.0
 pyasn1-modules==0.3.0
@@ -55,7 +53,6 @@ pydrive2==1.17.0
 pyjwt==2.8.0
 pynacl==1.5.0
 pyopenssl==23.3.0
-python-dateutil==2.8.2
 python-keystoneclient==5.2.0
 python-swiftclient==4.4.0
 requests==2.31.0

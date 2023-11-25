@@ -1973,7 +1973,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-11-13T21:16:00Z",
+        "modified": "2023-11-24T09:49:21Z",
         "published": "2023-10-25T14:22:59Z",
         "schema_version": "1.6.0",
         "id": "GHSA-hrfv-mqp8-q5rw",
@@ -2169,6 +2169,10 @@
           {
             "type": "WEB",
             "url": "https://github.com/pypa/advisory-database/tree/main/vulns/werkzeug/PYSEC-2023-221.yaml"
+          },
+          {
+            "type": "WEB",
+            "url": "https://security.netapp.com/advisory/ntap-20231124-0008/"
           }
         ],
         "database_specific": {

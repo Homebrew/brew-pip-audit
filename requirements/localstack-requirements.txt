@@ -5,14 +5,14 @@ dnslib==0.9.23
 dnspython==2.4.2
 ecdsa==0.18.0
 idna==3.4
-localstack-core==3.0.0
-localstack-ext==3.0.0
+localstack-core==3.0.1
+localstack-ext==3.0.1
 markdown-it-py==3.0.0
 mdurl==0.1.2
 pbr==6.0.0
 plux==1.5.0
 pyaes==1.6.1
-pyasn1==0.5.0
+pyasn1==0.5.1
 python-dateutil==2.8.2
 python-dotenv==1.0.0
 python-jose==3.3.0

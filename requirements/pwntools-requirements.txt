@@ -1,8 +1,6 @@
 bcrypt==4.0.1
 capstone==5.0.1
-charset-normalizer==3.3.2
 colored-traceback==0.3.0
-idna==3.4
 intervaltree==3.1.0
 paramiko==3.3.1
 plumbum==1.8.2
@@ -10,10 +8,7 @@ pyelftools==0.30
 pynacl==1.5.0
 pyserial==3.5
 pysocks==1.7.1
-python-dateutil==2.8.2
-requests==2.31.0
 ropgadget==7.4
 rpyc==5.3.1
 sortedcontainers==2.4.0
 unicorn==2.0.1.post1
-urllib3==2.1.0
