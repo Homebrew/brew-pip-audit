@@ -4,7 +4,7 @@ executing==2.0.1
 jedi==0.19.1
 matplotlib-inline==0.1.6
 parso==0.8.3
-pexpect==4.8.0
+pexpect==4.9.0
 prompt-toolkit==3.0.41
 ptyprocess==0.7.0
 pure-eval==0.2.2

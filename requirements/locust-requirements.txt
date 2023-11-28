@@ -7,7 +7,7 @@ flask-cors==4.0.0
 gevent==23.9.1
 geventhttpclient==2.0.11
 greenlet==3.0.1
-idna==3.4
+idna==3.6
 itsdangerous==2.1.2
 jinja2==3.1.2
 msgpack==1.0.7

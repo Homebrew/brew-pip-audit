@@ -1,4 +1,4 @@
-awscrt==0.19.12
+awscrt==0.19.16
 colorama==0.4.6
 cryptography==40.0.1
 distro==1.8.0
