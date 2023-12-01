@@ -8,7 +8,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-11-27T23:41:43Z",
+        "modified": "2023-11-30T15:30:58Z",
         "published": "2023-11-27T23:17:42Z",
         "schema_version": "1.6.0",
         "id": "GHSA-q3qx-c6g2-7pw2",
@@ -268,10 +268,20 @@
             }
           }
         ],
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N"
+          }
+        ],
         "references": [
           {
             "type": "WEB",
             "url": "https://github.com/aio-libs/aiohttp/security/advisories/GHSA-q3qx-c6g2-7pw2"
+          },
+          {
+            "type": "ADVISORY",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-49081"
           },
           {
             "type": "WEB",
@@ -283,11 +293,13 @@
           }
         ],
         "database_specific": {
-          "cwe_ids": [],
+          "cwe_ids": [
+            "CWE-20"
+          ],
           "github_reviewed": true,
           "github_reviewed_at": "2023-11-27T23:17:42Z",
-          "nvd_published_at": null,
-          "severity": "LOW"
+          "nvd_published_at": "2023-11-30T07:15:08Z",
+          "severity": "HIGH"
         }
       },
       {
