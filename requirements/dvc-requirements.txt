@@ -43,7 +43,7 @@ dvc-gdrive==2.20.0
 dvc-gs==2.22.1
 dvc-hdfs==2.19.0
 dvc-http==2.30.2
-dvc-objects==1.1.0
+dvc-objects==1.2.0
 dvc-oss==2.20.0
 dvc-render==0.6.0
 dvc-s3==2.23.0
@@ -64,7 +64,7 @@ gitdb==4.0.11
 gitpython==3.1.40
 google-api-core==2.14.0
 google-api-python-client==2.109.0
-google-auth==2.23.4
+google-auth==2.24.0
 google-auth-httplib2==0.1.1
 google-auth-oauthlib==1.1.0
 google-cloud-core==2.3.3
