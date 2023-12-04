@@ -1,6 +1,6 @@
-anytree==2.10.0
-cachetools==5.3.1
+anytree==2.12.1
+cachetools==5.3.2
 oyaml==1.0
 structlog==23.2.0
-wheel==0.41.2
+wheel==0.42.0
 wimpy==0.6
