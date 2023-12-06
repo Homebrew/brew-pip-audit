@@ -8,12 +8,11 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-11-08T04:06:10Z",
+        "modified": "2023-12-06T01:01:18Z",
         "published": "2021-11-15T17:45:01Z",
         "schema_version": "1.6.0",
         "id": "GHSA-5xp3-jfq3-5q8x",
         "aliases": [
-          "BIT-2021-3572",
           "BIT-pip-2021-3572",
           "CVE-2021-3572",
           "PYSEC-2021-437"
@@ -204,12 +203,11 @@
         }
       },
       {
-        "modified": "2023-11-08T04:13:48Z",
+        "modified": "2023-12-06T01:03:17Z",
         "published": "2023-10-25T18:32:26Z",
         "schema_version": "1.6.0",
         "id": "GHSA-mq26-g339-26xf",
         "aliases": [
-          "BIT-2023-5752",
           "BIT-pip-2023-5752",
           "CVE-2023-5752",
           "PYSEC-2023-228"
@@ -420,12 +418,11 @@
         }
       },
       {
-        "modified": "2023-11-08T04:06:10Z",
+        "modified": "2023-12-06T01:01:18Z",
         "published": "2021-11-10T18:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2021-437",
         "aliases": [
-          "BIT-2021-3572",
           "BIT-pip-2021-3572",
           "CVE-2021-3572",
           "GHSA-5xp3-jfq3-5q8x"
@@ -572,12 +569,11 @@
         ]
       },
       {
-        "modified": "2023-11-08T04:13:48Z",
+        "modified": "2023-12-06T01:03:17Z",
         "published": "2023-10-25T18:17:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2023-228",
         "aliases": [
-          "BIT-2023-5752",
           "BIT-pip-2023-5752",
           "CVE-2023-5752",
           "GHSA-mq26-g339-26xf"
@@ -786,12 +782,11 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-11-08T04:10:26Z",
+        "modified": "2023-12-06T01:02:35Z",
         "published": "2022-12-23T00:30:23Z",
         "schema_version": "1.6.0",
         "id": "GHSA-r9hx-vwmv-q579",
         "aliases": [
-          "BIT-2022-40897",
           "BIT-setuptools-2022-40897",
           "CVE-2022-40897",
           "PYSEC-2022-43012"
@@ -1406,12 +1401,11 @@
         }
       },
       {
-        "modified": "2023-11-08T04:10:26Z",
+        "modified": "2023-12-06T01:02:35Z",
         "published": "2022-12-23T00:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2022-43012",
         "aliases": [
-          "BIT-2022-40897",
           "BIT-setuptools-2022-40897",
           "CVE-2022-40897",
           "GHSA-r9hx-vwmv-q579"
