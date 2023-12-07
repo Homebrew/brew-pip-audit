@@ -3,8 +3,7 @@
     "package": {
       "name": "configobj",
       "version": "5.0.8",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -112,6 +111,10 @@
     "groups": [
       {
         "ids": [
+          "GHSA-c33w-24p9-8m24"
+        ],
+        "aliases": [
+          "CVE-2023-26112",
           "GHSA-c33w-24p9-8m24"
         ]
       }

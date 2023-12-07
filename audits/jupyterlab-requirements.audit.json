@@ -3,8 +3,7 @@
     "package": {
       "name": "jupyter-server",
       "version": "2.10.1",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -223,6 +222,10 @@
     "groups": [
       {
         "ids": [
+          "GHSA-h56g-gq9v-vc8r"
+        ],
+        "aliases": [
+          "CVE-2023-49080",
           "GHSA-h56g-gq9v-vc8r"
         ]
       }

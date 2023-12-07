@@ -3,8 +3,7 @@
     "package": {
       "name": "werkzeug",
       "version": "2.3.6",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -390,6 +389,11 @@
     "groups": [
       {
         "ids": [
+          "GHSA-hrfv-mqp8-q5rw",
+          "PYSEC-2023-221"
+        ],
+        "aliases": [
+          "CVE-2023-46136",
           "GHSA-hrfv-mqp8-q5rw",
           "PYSEC-2023-221"
         ]

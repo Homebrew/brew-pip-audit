@@ -3,8 +3,7 @@
     "package": {
       "name": "keep",
       "version": "2.10.1",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -89,6 +88,10 @@
     "groups": [
       {
         "ids": [
+          "PYSEC-2022-43056"
+        ],
+        "aliases": [
+          "CVE-2022-30877",
           "PYSEC-2022-43056"
         ]
       }

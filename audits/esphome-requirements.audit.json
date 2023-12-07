@@ -3,8 +3,7 @@
     "package": {
       "name": "esptool",
       "version": "4.6.2",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -221,6 +220,11 @@
     "groups": [
       {
         "ids": [
+          "GHSA-3f38-96qm-r3fw",
+          "PYSEC-2023-234"
+        ],
+        "aliases": [
+          "CVE-2023-46894",
           "GHSA-3f38-96qm-r3fw",
           "PYSEC-2023-234"
         ]

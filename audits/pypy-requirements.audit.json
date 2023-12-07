@@ -3,8 +3,7 @@
     "package": {
       "name": "pip",
       "version": "20.3.4",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -763,10 +762,22 @@
         "ids": [
           "GHSA-5xp3-jfq3-5q8x",
           "PYSEC-2021-437"
+        ],
+        "aliases": [
+          "BIT-pip-2021-3572",
+          "CVE-2021-3572",
+          "GHSA-5xp3-jfq3-5q8x",
+          "PYSEC-2021-437"
         ]
       },
       {
         "ids": [
+          "GHSA-mq26-g339-26xf",
+          "PYSEC-2023-228"
+        ],
+        "aliases": [
+          "BIT-pip-2023-5752",
+          "CVE-2023-5752",
           "GHSA-mq26-g339-26xf",
           "PYSEC-2023-228"
         ]
@@ -777,8 +788,7 @@
     "package": {
       "name": "setuptools",
       "version": "44.1.1",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -1991,6 +2001,12 @@
     "groups": [
       {
         "ids": [
+          "GHSA-r9hx-vwmv-q579",
+          "PYSEC-2022-43012"
+        ],
+        "aliases": [
+          "BIT-setuptools-2022-40897",
+          "CVE-2022-40897",
           "GHSA-r9hx-vwmv-q579",
           "PYSEC-2022-43012"
         ]

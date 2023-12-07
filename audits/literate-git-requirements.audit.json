@@ -3,8 +3,7 @@
     "package": {
       "name": "pygments",
       "version": "2.5.2",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -733,16 +732,31 @@
         "ids": [
           "GHSA-9w8r-397f-prfh",
           "PYSEC-2021-140"
+        ],
+        "aliases": [
+          "CVE-2021-20270",
+          "GHSA-9w8r-397f-prfh",
+          "PYSEC-2021-140"
         ]
       },
       {
         "ids": [
           "GHSA-mrwq-x4v8-fh7p",
           "PYSEC-2023-117"
+        ],
+        "aliases": [
+          "CVE-2022-40896",
+          "GHSA-mrwq-x4v8-fh7p",
+          "PYSEC-2023-117"
         ]
       },
       {
         "ids": [
+          "GHSA-pq64-v7f5-gqh8",
+          "PYSEC-2021-141"
+        ],
+        "aliases": [
+          "CVE-2021-27291",
           "GHSA-pq64-v7f5-gqh8",
           "PYSEC-2021-141"
         ]

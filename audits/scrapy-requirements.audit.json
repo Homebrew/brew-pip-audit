@@ -3,8 +3,7 @@
     "package": {
       "name": "twisted",
       "version": "22.10.0",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -324,6 +323,11 @@
     "groups": [
       {
         "ids": [
+          "GHSA-xc8x-vp79-p3wm",
+          "PYSEC-2023-224"
+        ],
+        "aliases": [
+          "CVE-2023-46137",
           "GHSA-xc8x-vp79-p3wm",
           "PYSEC-2023-224"
         ]

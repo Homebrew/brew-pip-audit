@@ -3,8 +3,7 @@
     "package": {
       "name": "ansible-core",
       "version": "2.14.11",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -214,6 +213,10 @@
     "groups": [
       {
         "ids": [
+          "GHSA-ww3m-ffrm-qvqv"
+        ],
+        "aliases": [
+          "CVE-2023-4237",
           "GHSA-ww3m-ffrm-qvqv"
         ]
       }

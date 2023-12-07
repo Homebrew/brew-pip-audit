@@ -3,8 +3,7 @@
     "package": {
       "name": "gitpython",
       "version": "3.1.32",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -657,10 +656,20 @@
         "ids": [
           "GHSA-cwvm-v4w8-q58c",
           "PYSEC-2023-165"
+        ],
+        "aliases": [
+          "CVE-2023-41040",
+          "GHSA-cwvm-v4w8-q58c",
+          "PYSEC-2023-165"
         ]
       },
       {
         "ids": [
+          "GHSA-wfm5-v35h-vwf4",
+          "PYSEC-2023-161"
+        ],
+        "aliases": [
+          "CVE-2023-40590",
           "GHSA-wfm5-v35h-vwf4",
           "PYSEC-2023-161"
         ]
@@ -671,8 +680,7 @@
     "package": {
       "name": "urllib3",
       "version": "2.0.3",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -1442,10 +1450,20 @@
         "ids": [
           "GHSA-g4mx-q9vg-27p4",
           "PYSEC-2023-212"
+        ],
+        "aliases": [
+          "CVE-2023-45803",
+          "GHSA-g4mx-q9vg-27p4",
+          "PYSEC-2023-212"
         ]
       },
       {
         "ids": [
+          "GHSA-v845-jxx5-vc9f",
+          "PYSEC-2023-192"
+        ],
+        "aliases": [
+          "CVE-2023-43804",
           "GHSA-v845-jxx5-vc9f",
           "PYSEC-2023-192"
         ]

@@ -3,8 +3,7 @@
     "package": {
       "name": "httpie",
       "version": "3.2.2",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -244,6 +243,11 @@
     "groups": [
       {
         "ids": [
+          "GHSA-8r96-8889-qg2x",
+          "PYSEC-2023-242"
+        ],
+        "aliases": [
+          "CVE-2023-48052",
           "GHSA-8r96-8889-qg2x",
           "PYSEC-2023-242"
         ]

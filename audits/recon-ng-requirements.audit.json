@@ -3,8 +3,7 @@
     "package": {
       "name": "flask",
       "version": "2.2.2",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -335,6 +334,11 @@
         "ids": [
           "GHSA-m2qf-hxjv-5gpq",
           "PYSEC-2023-62"
+        ],
+        "aliases": [
+          "CVE-2023-30861",
+          "GHSA-m2qf-hxjv-5gpq",
+          "PYSEC-2023-62"
         ]
       }
     ]
@@ -343,8 +347,7 @@
     "package": {
       "name": "redis",
       "version": "4.4.0",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -850,10 +853,20 @@
         "ids": [
           "GHSA-24wv-mv5m-xv4h",
           "PYSEC-2023-45"
+        ],
+        "aliases": [
+          "CVE-2023-28858",
+          "GHSA-24wv-mv5m-xv4h",
+          "PYSEC-2023-45"
         ]
       },
       {
         "ids": [
+          "GHSA-8fww-64cx-x8p5",
+          "PYSEC-2023-46"
+        ],
+        "aliases": [
+          "CVE-2023-28859",
           "GHSA-8fww-64cx-x8p5",
           "PYSEC-2023-46"
         ]
@@ -864,8 +877,7 @@
     "package": {
       "name": "requests",
       "version": "2.28.1",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -1175,6 +1187,11 @@
         "ids": [
           "GHSA-j8r2-6x86-q33q",
           "PYSEC-2023-74"
+        ],
+        "aliases": [
+          "CVE-2023-32681",
+          "GHSA-j8r2-6x86-q33q",
+          "PYSEC-2023-74"
         ]
       }
     ]
@@ -1183,8 +1200,7 @@
     "package": {
       "name": "urllib3",
       "version": "1.26.13",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -1954,10 +1970,20 @@
         "ids": [
           "GHSA-g4mx-q9vg-27p4",
           "PYSEC-2023-212"
+        ],
+        "aliases": [
+          "CVE-2023-45803",
+          "GHSA-g4mx-q9vg-27p4",
+          "PYSEC-2023-212"
         ]
       },
       {
         "ids": [
+          "GHSA-v845-jxx5-vc9f",
+          "PYSEC-2023-192"
+        ],
+        "aliases": [
+          "CVE-2023-43804",
           "GHSA-v845-jxx5-vc9f",
           "PYSEC-2023-192"
         ]
@@ -1968,8 +1994,7 @@
     "package": {
       "name": "werkzeug",
       "version": "2.2.2",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -2984,16 +3009,31 @@
         "ids": [
           "GHSA-hrfv-mqp8-q5rw",
           "PYSEC-2023-221"
+        ],
+        "aliases": [
+          "CVE-2023-46136",
+          "GHSA-hrfv-mqp8-q5rw",
+          "PYSEC-2023-221"
         ]
       },
       {
         "ids": [
           "GHSA-px8h-6qxv-m22q",
           "PYSEC-2023-57"
+        ],
+        "aliases": [
+          "CVE-2023-23934",
+          "GHSA-px8h-6qxv-m22q",
+          "PYSEC-2023-57"
         ]
       },
       {
         "ids": [
+          "GHSA-xg9f-g7g7-2323",
+          "PYSEC-2023-58"
+        ],
+        "aliases": [
+          "CVE-2023-25577",
           "GHSA-xg9f-g7g7-2323",
           "PYSEC-2023-58"
         ]

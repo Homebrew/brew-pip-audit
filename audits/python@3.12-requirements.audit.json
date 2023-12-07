@@ -3,8 +3,7 @@
     "package": {
       "name": "pip",
       "version": "23.2.1",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -415,6 +414,12 @@
     "groups": [
       {
         "ids": [
+          "GHSA-mq26-g339-26xf",
+          "PYSEC-2023-228"
+        ],
+        "aliases": [
+          "BIT-pip-2023-5752",
+          "CVE-2023-5752",
           "GHSA-mq26-g339-26xf",
           "PYSEC-2023-228"
         ]

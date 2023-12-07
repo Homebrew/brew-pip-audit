@@ -3,8 +3,7 @@
     "package": {
       "name": "pip",
       "version": "22.3.1",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -417,6 +416,12 @@
         "ids": [
           "GHSA-mq26-g339-26xf",
           "PYSEC-2023-228"
+        ],
+        "aliases": [
+          "BIT-pip-2023-5752",
+          "CVE-2023-5752",
+          "GHSA-mq26-g339-26xf",
+          "PYSEC-2023-228"
         ]
       }
     ]
@@ -425,8 +430,7 @@
     "package": {
       "name": "urllib3",
       "version": "2.0.6",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -820,6 +824,11 @@
     "groups": [
       {
         "ids": [
+          "GHSA-g4mx-q9vg-27p4",
+          "PYSEC-2023-212"
+        ],
+        "aliases": [
+          "CVE-2023-45803",
           "GHSA-g4mx-q9vg-27p4",
           "PYSEC-2023-212"
         ]

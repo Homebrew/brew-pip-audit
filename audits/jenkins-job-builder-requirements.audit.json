@@ -3,8 +3,7 @@
     "package": {
       "name": "urllib3",
       "version": "2.0.6",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -398,6 +397,11 @@
     "groups": [
       {
         "ids": [
+          "GHSA-g4mx-q9vg-27p4",
+          "PYSEC-2023-212"
+        ],
+        "aliases": [
+          "CVE-2023-45803",
           "GHSA-g4mx-q9vg-27p4",
           "PYSEC-2023-212"
         ]

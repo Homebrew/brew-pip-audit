@@ -3,8 +3,7 @@
     "package": {
       "name": "pypdf",
       "version": "3.16.4",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -111,6 +110,10 @@
     "groups": [
       {
         "ids": [
+          "GHSA-wjcc-cq79-p63f"
+        ],
+        "aliases": [
+          "CVE-2023-46250",
           "GHSA-wjcc-cq79-p63f"
         ]
       }

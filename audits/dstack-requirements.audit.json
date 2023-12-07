@@ -3,8 +3,7 @@
     "package": {
       "name": "git-url-parse",
       "version": "1.2.2",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -101,6 +100,10 @@
     "groups": [
       {
         "ids": [
+          "GHSA-4xqq-73wg-5mjp"
+        ],
+        "aliases": [
+          "CVE-2023-32758",
           "GHSA-4xqq-73wg-5mjp"
         ]
       }

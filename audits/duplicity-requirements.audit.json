@@ -3,8 +3,7 @@
     "package": {
       "name": "pydrive2",
       "version": "1.17.0",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -143,6 +142,10 @@
     "groups": [
       {
         "ids": [
+          "GHSA-v5f6-hjmf-9mc5"
+        ],
+        "aliases": [
+          "CVE-2023-49297",
           "GHSA-v5f6-hjmf-9mc5"
         ]
       }

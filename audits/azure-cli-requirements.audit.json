@@ -3,8 +3,7 @@
     "package": {
       "name": "cryptography",
       "version": "41.0.4",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -132,6 +131,10 @@
     "groups": [
       {
         "ids": [
+          "GHSA-jfhm-5ghh-2f97"
+        ],
+        "aliases": [
+          "CVE-2023-49083",
           "GHSA-jfhm-5ghh-2f97"
         ]
       }

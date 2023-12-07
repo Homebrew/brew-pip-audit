@@ -3,8 +3,7 @@
     "package": {
       "name": "pypdf2",
       "version": "2.12.1",
-      "ecosystem": "PyPI",
-      "commit": ""
+      "ecosystem": "PyPI"
     },
     "vulnerabilities": [
       {
@@ -163,6 +162,10 @@
     "groups": [
       {
         "ids": [
+          "GHSA-4vvm-4w3v-6mr8"
+        ],
+        "aliases": [
+          "CVE-2023-36464",
           "GHSA-4vvm-4w3v-6mr8"
         ]
       }
