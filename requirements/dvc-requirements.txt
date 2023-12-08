@@ -39,12 +39,12 @@ distro==1.8.0
 dpath==2.1.6
 dulwich==0.21.7
 dvc-azure==2.23.0
-dvc-data==2.22.5
+dvc-data==2.22.6
 dvc-gdrive==2.20.0
 dvc-gs==2.22.1
 dvc-hdfs==2.19.0
 dvc-http==2.31.0
-dvc-objects==1.4.8
+dvc-objects==1.4.9
 dvc-oss==2.22.0
 dvc-render==1.0.0
 dvc-s3==2.23.0
