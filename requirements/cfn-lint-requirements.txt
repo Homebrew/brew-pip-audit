@@ -1,7 +1,7 @@
 annotated-types==0.6.0
-aws-sam-translator==1.81.0
-boto3==1.33.6
-botocore==1.33.6
+aws-sam-translator==1.82.0
+boto3==1.33.11
+botocore==1.33.11
 jmespath==1.0.1
 jschema-to-python==1.2.3
 jsonpatch==1.33
@@ -12,7 +12,7 @@ jsonschema-specifications==2023.11.2
 junit-xml==1.9
 pydantic==2.5.2
 pydantic-core==2.14.5
-referencing==0.31.1
+referencing==0.32.0
 regex==2023.10.3
 rpds-py==0.13.2
 s3transfer==0.8.2
