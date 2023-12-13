@@ -1,6 +1,6 @@
 attrs==23.1.0
 autopage==0.5.2
-babel==2.13.1
+babel==2.14.0
 charset-normalizer==3.3.2
 cliff==4.4.0
 cmd2==2.4.3
