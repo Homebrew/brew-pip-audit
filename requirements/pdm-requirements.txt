@@ -1,8 +1,9 @@
 blinker==1.7.0
 cachecontrol==0.13.1
 charset-normalizer==3.3.2
-findpython==0.4.0
-idna==3.4
+dep-logic==0.0.3
+findpython==0.4.1
+idna==3.6
 installer==0.7.0
 markdown-it-py==3.0.0
 mdurl==0.1.2
@@ -17,4 +18,4 @@ tomlkit==0.12.3
 truststore==0.8.0
 unearth==0.12.1
 urllib3==2.1.0
-wheel==0.41.3
+wheel==0.42.0
