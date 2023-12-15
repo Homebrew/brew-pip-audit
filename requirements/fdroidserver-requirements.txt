@@ -21,5 +21,6 @@ qrcode==7.4.2
 requests==2.31.0
 ruamel-yaml==0.18.5
 ruamel-yaml-clib==0.2.8
+sdkmanager==0.6.5
 smmap==5.0.1
 urllib3==2.0.7
