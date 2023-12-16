@@ -7,7 +7,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-12-05T23:58:16Z",
+        "modified": "2023-12-16T03:45:59Z",
         "published": "2023-12-05T23:43:07Z",
         "schema_version": "1.6.0",
         "id": "GHSA-v5f6-hjmf-9mc5",
@@ -126,6 +126,14 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/iterative/PyDrive2"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/CYR5SJKOFSSXFV3E3D2SLXBUBA5WMJJG/"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/K34YWTDKBAYWZPOAKBYDM72WIFL5CAYW/"
           }
         ],
         "database_specific": {
