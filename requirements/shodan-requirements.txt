@@ -1,10 +1,10 @@
-charset-normalizer==3.3.0
+charset-normalizer==3.3.2
 click-plugins==1.1.1
 colorama==0.4.6
-filelock==3.12.4
-idna==3.4
+filelock==3.13.1
+idna==3.6
 requests==2.31.0
 requests-file==1.5.1
-tldextract==5.0.1
-urllib3==2.0.7
-xlsxwriter==3.1.8
+tldextract==5.1.1
+urllib3==2.1.0
+xlsxwriter==3.1.9

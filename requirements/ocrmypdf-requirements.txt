@@ -4,5 +4,4 @@ markdown-it-py==3.0.0
 mdurl==0.1.2
 pdfminer-six==20221105
 pluggy==1.3.0
-reportlab==4.0.7
 rich==13.7.0
