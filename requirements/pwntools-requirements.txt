@@ -1,8 +1,8 @@
-bcrypt==4.0.1
+bcrypt==4.1.2
 capstone==5.0.1
 colored-traceback==0.3.0
 intervaltree==3.1.0
-paramiko==3.3.1
+paramiko==3.4.0
 plumbum==1.8.2
 pyelftools==0.30
 pynacl==1.5.0
