@@ -28,8 +28,6 @@ SKIP_FORMULA = [
   "recon-ng",
   # update_python_resources! doesn't handle git root resources
   "snapcraft",
-  # https://github.com/Homebrew/homebrew-core/blob/master/Formula/theharvester.rb#L33-L38
-  "theharvester",
   # Installable packages are in a sub-directory
   "azure-cli",
 ]
