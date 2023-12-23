@@ -5,9 +5,9 @@ jedi==0.19.1
 matplotlib-inline==0.1.6
 parso==0.8.3
 pexpect==4.9.0
-prompt-toolkit==3.0.41
+prompt-toolkit==3.0.43
 ptyprocess==0.7.0
 pure-eval==0.2.2
 stack-data==0.6.3
-traitlets==5.13.0
+traitlets==5.14.0
 wcwidth==0.2.12
