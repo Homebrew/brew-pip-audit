@@ -35,11 +35,11 @@ crcmod==1.7
 decorator==5.1.1
 dictdiffer==0.9.0
 diskcache==5.6.3
-distro==1.8.0
+distro==1.9.0
 dpath==2.1.6
 dulwich==0.21.7
 dvc-azure==3.0.1
-dvc-data==3.3.0
+dvc-data==3.5.0
 dvc-gdrive==3.0.0
 dvc-gs==3.0.1
 dvc-hdfs==3.0.0
@@ -52,7 +52,7 @@ dvc-ssh==3.0.0
 dvc-studio-client==0.18.0
 dvc-task==0.3.0
 dvc-webdav==3.0.0
-dvc-webhdfs==3.0.0
+dvc-webhdfs==3.1.0
 entrypoints==0.4
 filelock==3.13.1
 flatten-dict==0.4.2
@@ -104,7 +104,7 @@ portalocker==2.8.2
 prompt-toolkit==3.0.43
 pyasn1==0.5.1
 pyasn1-modules==0.3.0
-pycryptodome==3.19.0
+pycryptodome==3.19.1
 pydantic==2.5.3
 pydantic-core==2.14.6
 pydot==1.4.2
