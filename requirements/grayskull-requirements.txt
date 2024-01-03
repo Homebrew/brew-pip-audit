@@ -6,7 +6,7 @@ idna==3.6
 pkginfo==1.9.6
 progressbar2==4.3.2
 python-utils==3.8.1
-rapidfuzz==3.6.0
+rapidfuzz==3.6.1
 requests==2.31.0
 ruamel-yaml==0.18.5
 ruamel-yaml-clib==0.2.8

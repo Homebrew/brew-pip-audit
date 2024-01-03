@@ -7,7 +7,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2023-12-29T18:41:39Z",
+        "modified": "2024-01-02T15:28:50Z",
         "published": "2023-12-28T21:30:37Z",
         "schema_version": "1.6.0",
         "id": "GHSA-jpvw-p8pr-9g2x",
@@ -420,7 +420,9 @@
           }
         ],
         "database_specific": {
-          "cwe_ids": [],
+          "cwe_ids": [
+            "CWE-22"
+          ],
           "github_reviewed": true,
           "github_reviewed_at": "2023-12-29T18:19:35Z",
           "nvd_published_at": "2023-12-18T14:15:10Z",
