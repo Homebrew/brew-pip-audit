@@ -14,7 +14,7 @@ anyio==4.2.0
 appdirs==1.4.4
 asyncssh==2.14.2
 atpublic==4.0
-attrs==23.1.0
+attrs==23.2.0
 azure-core==1.29.6
 azure-datalake-store==0.0.53
 azure-identity==1.15.0
@@ -39,12 +39,12 @@ distro==1.9.0
 dpath==2.1.6
 dulwich==0.21.7
 dvc-azure==3.0.1
-dvc-data==3.5.0
+dvc-data==3.7.0
 dvc-gdrive==3.0.0
 dvc-gs==3.0.1
 dvc-hdfs==3.0.0
 dvc-http==2.32.0
-dvc-objects==3.0.0
+dvc-objects==3.0.3
 dvc-oss==3.0.0
 dvc-render==1.0.0
 dvc-s3==3.0.1
@@ -64,8 +64,8 @@ gcsfs==2023.12.2.post1
 gitdb==4.0.11
 gitpython==3.1.40
 google-api-core==2.15.0
-google-api-python-client==2.111.0
-google-auth==2.25.2
+google-api-python-client==2.112.0
+google-auth==2.26.1
 google-auth-httplib2==0.2.0
 google-auth-oauthlib==1.2.0
 google-cloud-core==2.4.1
@@ -107,8 +107,8 @@ pyasn1-modules==0.3.0
 pycryptodome==3.19.1
 pydantic==2.5.3
 pydantic-core==2.14.6
-pydot==1.4.2
-pydrive2==1.18.1
+pydot==2.0.0
+pydrive2==1.19.0
 pygtrie==2.5.0
 pyjwt==2.8.0
 pyopenssl==23.3.0
@@ -132,7 +132,7 @@ sshfs==2023.10.0
 tomlkit==0.12.3
 tqdm==4.66.1
 typer==0.9.0
-tzdata==2023.3
+tzdata==2023.4
 uritemplate==4.1.1
 urllib3==2.0.7
 vine==5.1.0
