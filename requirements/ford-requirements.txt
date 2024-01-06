@@ -6,7 +6,7 @@ markdown-it-py==3.0.0
 mdurl==0.1.2
 pcpp==1.30
 python-markdown-math==0.8
-rich==13.6.0
+rich==13.7.0
 soupsieve==2.5
 toposort==1.7
 tqdm==4.64.1

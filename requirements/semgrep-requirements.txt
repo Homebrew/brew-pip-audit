@@ -14,7 +14,7 @@ jsonschema-specifications==2023.12.1
 markdown-it-py==3.0.0
 mdurl==0.1.2
 peewee==3.17.0
-referencing==0.32.0
+referencing==0.32.1
 requests==2.31.0
 rich==13.7.0
 rpds-py==0.16.2
