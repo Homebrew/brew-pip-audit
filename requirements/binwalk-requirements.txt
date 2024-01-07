@@ -1,9 +1,9 @@
 capstone==5.0.1
 contourpy==1.2.0
 cycler==0.12.1
-fonttools==4.44.3
+fonttools==4.47.0
 gnupg==2.3.1
 kiwisolver==1.4.5
-matplotlib==3.8.1
-pycryptodome==3.19.0
+matplotlib==3.8.2
+pycryptodome==3.19.1
 python-dateutil==2.8.2

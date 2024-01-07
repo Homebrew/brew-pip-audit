@@ -1,9 +1,9 @@
-attrs==23.1.0
+attrs==23.2.0
 capstone==5.0.1
-jsonschema==4.19.1
-jsonschema-specifications==2023.7.1
+jsonschema==4.20.0
+jsonschema-specifications==2023.12.1
 pefile==2023.2.7
-pycryptodome==3.19.0
-referencing==0.30.2
-rpds-py==0.10.3
+pycryptodome==3.19.1
+referencing==0.32.1
+rpds-py==0.16.2
 yara-python==4.3.1
