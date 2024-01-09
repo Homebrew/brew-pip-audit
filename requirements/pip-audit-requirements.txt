@@ -1,7 +1,7 @@
 boolean-py==4.0
 cachecontrol==0.13.1
 charset-normalizer==3.3.2
-cyclonedx-python-lib==5.2.0
+cyclonedx-python-lib==6.3.0
 defusedxml==0.7.1
 filelock==3.13.1
 html5lib==1.1
@@ -10,10 +10,10 @@ license-expression==30.2.0
 markdown-it-py==3.0.0
 mdurl==0.1.2
 msgpack==1.0.7
-packageurl-python==0.13.1
+packageurl-python==0.13.3
 pip-api==0.0.30
 pip-requirements-parser==32.0.1
-py-serializable==0.15.0
+py-serializable==0.17.1
 requests==2.31.0
 rich==13.7.0
 sortedcontainers==2.4.0
