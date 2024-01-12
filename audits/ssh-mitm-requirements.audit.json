@@ -7,7 +7,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2024-01-11T03:46:11Z",
+        "modified": "2024-01-11T15:46:16Z",
         "published": "2023-12-18T19:22:09Z",
         "schema_version": "1.6.0",
         "id": "GHSA-45x7-px36-x8w8",
@@ -467,6 +467,10 @@
           },
           {
             "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/33XHJUB6ROFUOH2OQNENFROTVH6MHSHA/"
+          },
+          {
+            "type": "WEB",
             "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/3CAYYW35MUTNO65RVAELICTNZZFMT2XS/"
           },
           {
@@ -476,6 +480,10 @@
           {
             "type": "WEB",
             "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/APYIXIQOVDCRWLHTGB4VYMAUIAQLKYJ3/"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/BL5KTLOSLH2KHRN4HCXJPK3JUVLDGEL6/"
           },
           {
             "type": "WEB",

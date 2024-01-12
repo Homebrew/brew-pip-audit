@@ -7,7 +7,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2024-01-10T16:27:00Z",
+        "modified": "2024-01-11T15:46:30Z",
         "published": "2024-01-10T15:46:00Z",
         "schema_version": "1.6.0",
         "id": "GHSA-2mqj-m65w-jghx",
@@ -148,6 +148,10 @@
             "url": "https://github.com/gitpython-developers/GitPython/security/advisories/GHSA-2mqj-m65w-jghx"
           },
           {
+            "type": "ADVISORY",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-22190"
+          },
+          {
             "type": "WEB",
             "url": "https://github.com/gitpython-developers/GitPython/pull/1792"
           },
@@ -166,7 +170,7 @@
           ],
           "github_reviewed": true,
           "github_reviewed_at": "2024-01-10T15:46:00Z",
-          "nvd_published_at": null,
+          "nvd_published_at": "2024-01-11T02:15:48Z",
           "severity": "HIGH"
         }
       }

@@ -10,7 +10,7 @@ license-expression==30.2.0
 markdown-it-py==3.0.0
 mdurl==0.1.2
 msgpack==1.0.7
-packageurl-python==0.13.3
+packageurl-python==0.13.4
 pip-api==0.0.30
 pip-requirements-parser==32.0.1
 py-serializable==0.17.1
