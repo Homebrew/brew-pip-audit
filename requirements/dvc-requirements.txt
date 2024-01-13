@@ -121,7 +121,7 @@ ruamel-yaml==0.18.5
 ruamel-yaml-clib==0.2.8
 s3fs==2023.12.2
 s3transfer==0.8.2
-scmrepo==2.0.2
+scmrepo==2.0.3
 semver==3.0.2
 shortuuid==1.0.11
 shtab==1.6.5

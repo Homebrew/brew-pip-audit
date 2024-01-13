@@ -1,11 +1,12 @@
-charset-normalizer==3.3.0
+charset-normalizer==3.3.2
 defusedxml==0.7.1
-idna==3.4
+idna==3.6
 markdown-it-py==3.0.0
 mdurl==0.1.2
 multidict==6.0.4
 pysocks==1.7.1
 requests==2.31.0
 requests-toolbelt==1.0.0
-rich==13.6.0
-urllib3==2.0.7
+rich==13.7.0
+setuptools==69.0.3
+urllib3==2.1.0

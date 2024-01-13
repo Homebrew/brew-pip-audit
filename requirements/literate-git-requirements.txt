@@ -1,5 +1,9 @@
+cffi==1.16.0
 docopt==0.6.2
-Jinja2==2.11.3
-markdown2==2.4.3
-MarkupSafe==1.1.1
-Pygments==2.5.2
+jinja2==2.11.3
+markdown2==2.4.12
+markupsafe==2.0.1
+pycparser==2.21
+pygit2==1.13.3
+pygments==2.5.2
+setuptools==69.0.3

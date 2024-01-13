@@ -1,3 +1,4 @@
-greenlet==3.0.2
+greenlet==3.0.3
 msgpack==1.0.7
 pynvim==0.5.0
+setuptools==69.0.3

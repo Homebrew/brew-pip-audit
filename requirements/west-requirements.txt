@@ -1,4 +1,5 @@
 colorama==0.4.6
 pykwalify==1.8.0
-ruamel-yaml==0.17.35
+ruamel-yaml==0.18.5
 ruamel-yaml-clib==0.2.8
+setuptools==69.0.3
