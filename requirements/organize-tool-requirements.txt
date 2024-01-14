@@ -11,5 +11,5 @@ python-dateutil==2.8.2
 rich==13.7.0
 send2trash==1.8.2
 simplematch==1.4
-types-python-dateutil==2.8.19.14
+types-python-dateutil==2.8.19.20240106
 typing-extensions==4.9.0
