@@ -26,8 +26,6 @@ SKIP_FORMULA = [
   "pypy", "pypy3.9", "pypy3.10", "python@3.8", "python@3.11", "python@3.12",
   # No setup.py.
   "recon-ng",
-  # update_python_resources! doesn't handle git root resources
-  "snapcraft",
   # Installable packages are in a sub-directory
   "azure-cli",
 ]
