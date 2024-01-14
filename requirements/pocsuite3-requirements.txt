@@ -3,9 +3,11 @@ charset-normalizer==3.3.0
 colorama==0.4.6
 colorlog==6.7.0
 dacite==1.8.0
+docker==7.0.0
 faker==19.11.0
 idna==3.4
 jq==1.6.0
+packaging==23.2
 prettytable==3.9.0
 pycryptodomex==3.19.0
 pyopenssl==23.2.0
