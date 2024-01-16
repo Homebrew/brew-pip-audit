@@ -20,11 +20,11 @@ jupyter-core==5.7.1
 nbformat==5.9.2
 plac==1.4.2
 platformdirs==4.1.0
-pulp==2.7.0
+pulp==2.8.0
 referencing==0.32.1
 requests==2.31.0
 reretry==0.11.8
-rpds-py==0.16.2
+rpds-py==0.17.1
 smart-open==6.4.0
 smmap==5.0.1
 snakemake-interface-common==1.15.0
