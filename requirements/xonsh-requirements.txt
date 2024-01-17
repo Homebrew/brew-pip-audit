@@ -1,4 +1,4 @@
-prompt-toolkit==3.0.41
+prompt-toolkit==3.0.43
 pyperclip==1.8.2
 setproctitle==1.3.3
-wcwidth==0.2.12
+wcwidth==0.2.13

@@ -16,6 +16,6 @@ rich==13.7.0
 shellingham==1.5.4
 tomlkit==0.12.3
 truststore==0.8.0
-unearth==0.12.1
+unearth==0.14.0
 urllib3==2.1.0
 wheel==0.42.0
