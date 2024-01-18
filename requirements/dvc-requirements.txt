@@ -1,5 +1,5 @@
 adlfs==2023.12.0
-aiobotocore==2.9.0
+aiobotocore==2.9.1
 aiohttp==3.9.1
 aiohttp-retry==2.8.3
 aioitertools==0.11.0
@@ -64,7 +64,7 @@ gcsfs==2023.12.2.post1
 gitdb==4.0.11
 gitpython==3.1.41
 google-api-core==2.15.0
-google-api-python-client==2.113.0
+google-api-python-client==2.114.0
 google-auth==2.26.2
 google-auth-httplib2==0.2.0
 google-auth-oauthlib==1.2.0
@@ -85,7 +85,7 @@ isodate==0.6.1
 iterative-telemetry==0.0.8
 jmespath==0.10.0
 knack==0.11.0
-kombu==5.3.4
+kombu==5.3.5
 markdown-it-py==3.0.0
 mdurl==0.1.2
 msal==1.26.0

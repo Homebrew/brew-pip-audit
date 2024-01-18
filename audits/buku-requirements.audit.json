@@ -5,6 +5,9 @@
       "version": "2.3.6",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "buku-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2023-11-24T09:49:21Z",

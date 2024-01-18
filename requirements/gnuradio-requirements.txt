@@ -1,2 +1,2 @@
-cheetah3==3.2.6
+cheetah3==3.2.6.post1
 click-plugins==1.1.1

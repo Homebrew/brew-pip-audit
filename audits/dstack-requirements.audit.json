@@ -5,6 +5,9 @@
       "version": "1.2.2",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "dstack-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2023-11-08T04:12:36Z",

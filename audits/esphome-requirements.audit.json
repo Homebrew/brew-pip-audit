@@ -5,6 +5,9 @@
       "version": "4.6.2",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "esphome-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2023-11-15T18:49:10Z",

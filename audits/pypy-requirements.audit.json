@@ -5,6 +5,9 @@
       "version": "20.3.4",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "pypy-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2023-12-06T01:01:18Z",
@@ -790,6 +793,9 @@
       "version": "44.1.1",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "pypy-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2023-12-06T01:02:35Z",

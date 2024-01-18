@@ -5,6 +5,9 @@
       "version": "22.10.0",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "scrapy-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2023-11-08T04:13:41Z",

@@ -5,6 +5,9 @@
       "version": "22.3.1",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "charm-tools-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2023-12-06T01:03:17Z",
@@ -432,6 +435,9 @@
       "version": "2.0.6",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "charm-tools-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2023-11-08T04:13:39Z",

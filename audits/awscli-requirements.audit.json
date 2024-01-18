@@ -5,6 +5,9 @@
       "version": "40.0.1",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "awscli-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2023-11-09T05:40:01Z",

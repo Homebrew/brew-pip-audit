@@ -5,6 +5,9 @@
       "version": "1.26.16",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "gyb-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2023-11-08T04:13:39Z",

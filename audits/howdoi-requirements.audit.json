@@ -5,6 +5,9 @@
       "version": "2.10.1",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "howdoi-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2023-11-08T04:09:20Z",

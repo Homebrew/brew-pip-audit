@@ -5,6 +5,9 @@
       "version": "23.8.0",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "magic-wormhole-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2023-11-08T04:13:41Z",

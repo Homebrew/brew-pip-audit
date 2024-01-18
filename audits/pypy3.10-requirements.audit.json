@@ -5,6 +5,9 @@
       "version": "59.8.0",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "pypy3.10-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2023-12-06T01:02:35Z",

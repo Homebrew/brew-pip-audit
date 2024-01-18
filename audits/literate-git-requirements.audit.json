@@ -5,6 +5,9 @@
       "version": "2.11.3",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "literate-git-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2024-01-11T15:41:33Z",
@@ -148,6 +151,9 @@
       "version": "2.5.2",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "literate-git-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2023-11-08T04:04:36Z",

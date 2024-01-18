@@ -5,6 +5,9 @@
       "version": "3.2.2",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "http-prompt-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2023-11-22T18:19:11Z",

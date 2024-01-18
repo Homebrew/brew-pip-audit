@@ -5,6 +5,9 @@
       "version": "2.11.3",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "cloudiscovery-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2024-01-11T15:41:33Z",

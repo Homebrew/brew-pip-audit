@@ -5,6 +5,9 @@
       "version": "5.0.8",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "mycli-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2023-11-08T04:11:58Z",

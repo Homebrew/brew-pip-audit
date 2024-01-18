@@ -5,14 +5,18 @@
       "version": "3.15.0",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "textract-requirements"
+    ],
     "vulnerabilities": [
       {
-        "modified": "2024-01-05T17:42:16Z",
+        "modified": "2024-01-17T11:41:25Z",
         "published": "2024-01-05T06:30:19Z",
         "schema_version": "1.6.0",
         "id": "GHSA-j225-cvw7-qrx7",
         "aliases": [
-          "CVE-2023-52323"
+          "CVE-2023-52323",
+          "PYSEC-2024-3"
         ],
         "summary": "PyCryptodome and pycryptodomex side-channel leakage for OAEP decryption",
         "details": "PyCryptodome and pycryptodomex before 3.19.1 allow side-channel leakage for OAEP decryption, exploitable for a Manger attack.",
@@ -213,7 +217,8 @@
         ],
         "aliases": [
           "CVE-2023-52323",
-          "GHSA-j225-cvw7-qrx7"
+          "GHSA-j225-cvw7-qrx7",
+          "PYSEC-2024-3"
         ]
       }
     ]

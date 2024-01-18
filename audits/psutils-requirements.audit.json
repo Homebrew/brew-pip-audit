@@ -5,6 +5,9 @@
       "version": "3.16.4",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "psutils-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2023-11-09T05:29:46Z",

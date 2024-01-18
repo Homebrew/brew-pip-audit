@@ -5,6 +5,9 @@
       "version": "2.2.2",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "recon-ng-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2023-11-08T04:12:28Z",
@@ -349,6 +352,9 @@
       "version": "3.1.2",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "recon-ng-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2024-01-11T15:41:33Z",
@@ -492,6 +498,9 @@
       "version": "4.4.0",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "recon-ng-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2023-11-08T04:12:15Z",
@@ -1022,6 +1031,9 @@
       "version": "2.28.1",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "recon-ng-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2023-11-11T05:29:19Z",
@@ -1345,6 +1357,9 @@
       "version": "1.26.13",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "recon-ng-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2023-11-08T04:13:39Z",
@@ -2139,6 +2154,9 @@
       "version": "2.2.2",
       "ecosystem": "PyPI"
     },
+    "dependency_groups": [
+      "recon-ng-requirements"
+    ],
     "vulnerabilities": [
       {
         "modified": "2023-11-24T09:49:21Z",
