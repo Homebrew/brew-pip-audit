@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-01-17T11:41:25Z",
+        "modified": "2024-01-19T19:46:52Z",
         "published": "2024-01-05T06:30:19Z",
         "schema_version": "1.6.0",
         "id": "GHSA-j225-cvw7-qrx7",
@@ -193,6 +193,10 @@
           {
             "type": "WEB",
             "url": "https://github.com/Legrandin/pycryptodome/blob/master/Changelog.rst"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/pypa/advisory-database/tree/main/vulns/pycryptodomex/PYSEC-2024-3.yaml"
           },
           {
             "type": "WEB",
