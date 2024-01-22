@@ -7,12 +7,12 @@ graphql-core==3.2.3
 h11==0.14.0
 httpcore==1.0.2
 httpx==0.26.0
-hypothesis==6.93.0
+hypothesis==6.96.2
 hypothesis-graphql==0.11.0
 hypothesis-jsonschema==0.23.0
 idna==3.6
 iniconfig==2.0.0
-jsonschema==4.20.0
+jsonschema==4.21.1
 jsonschema-specifications==2023.12.1
 junit-xml==1.9
 multidict==6.0.4
