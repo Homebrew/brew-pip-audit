@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-01-23T03:46:03Z",
+        "modified": "2024-01-23T21:47:04Z",
         "published": "2024-01-11T15:20:48Z",
         "schema_version": "1.6.0",
         "id": "GHSA-h5c8-rqwp-cp95",
@@ -120,6 +120,10 @@
           {
             "type": "WEB",
             "url": "https://github.com/pallets/jinja/releases/tag/3.1.3"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.debian.org/debian-lts-announce/2024/01/msg00010.html"
           },
           {
             "type": "WEB",
