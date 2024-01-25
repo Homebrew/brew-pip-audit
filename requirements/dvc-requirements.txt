@@ -39,7 +39,7 @@ distro==1.9.0
 dpath==2.1.6
 dulwich==0.21.7
 dvc-azure==3.0.1
-dvc-data==3.7.0
+dvc-data==3.8.0
 dvc-gdrive==3.0.1
 dvc-gs==3.0.1
 dvc-hdfs==3.0.0
@@ -64,7 +64,7 @@ gcsfs==2023.12.2.post1
 gitdb==4.0.11
 gitpython==3.1.41
 google-api-core==2.15.0
-google-api-python-client==2.114.0
+google-api-python-client==2.115.0
 google-auth==2.26.2
 google-auth-httplib2==0.2.0
 google-auth-oauthlib==1.2.0
@@ -121,7 +121,7 @@ ruamel-yaml==0.18.5
 ruamel-yaml-clib==0.2.8
 s3fs==2023.12.2
 s3transfer==0.10.0
-scmrepo==2.0.3
+scmrepo==2.0.4
 semver==3.0.2
 shortuuid==1.0.11
 shtab==1.6.5

@@ -100,7 +100,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-01-19T19:34:59Z",
+        "modified": "2024-01-25T06:46:07Z",
         "published": "2023-12-18T19:22:09Z",
         "schema_version": "1.6.0",
         "id": "GHSA-45x7-px36-x8w8",
@@ -557,6 +557,14 @@
           {
             "type": "WEB",
             "url": "https://lists.debian.org/debian-lts-announce/2023/12/msg00017.html"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.debian.org/debian-lts-announce/2024/01/msg00013.html"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.debian.org/debian-lts-announce/2024/01/msg00014.html"
           },
           {
             "type": "WEB",
