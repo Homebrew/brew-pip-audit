@@ -1,6 +1,6 @@
 courlan==0.9.5
 dateparser==1.2.0
-htmldate==1.6.1
+htmldate==1.7.0
 justext==3.0.0
 langcodes==3.3.0
 regex==2023.12.25
