@@ -34,6 +34,6 @@ stopit==1.1.2
 throttler==1.2.2
 toposort==1.10
 traitlets==5.14.1
-urllib3==2.1.0
+urllib3==2.2.0
 wrapt==1.16.0
 yte==1.5.4
