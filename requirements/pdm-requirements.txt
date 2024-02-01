@@ -8,7 +8,7 @@ installer==0.7.0
 markdown-it-py==3.0.0
 mdurl==0.1.2
 msgpack==1.0.7
-python-dotenv==1.0.0
+python-dotenv==1.0.1
 requests==2.31.0
 requests-toolbelt==1.0.0
 resolvelib==1.0.1
@@ -17,5 +17,5 @@ shellingham==1.5.4
 tomlkit==0.12.3
 truststore==0.8.0
 unearth==0.14.0
-urllib3==2.1.0
+urllib3==2.2.0
 wheel==0.42.0
