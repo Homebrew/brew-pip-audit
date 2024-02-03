@@ -115,7 +115,7 @@
         }
       },
       {
-        "modified": "2023-12-05T01:33:21Z",
+        "modified": "2024-02-02T22:16:01Z",
         "published": "2023-11-28T20:46:46Z",
         "schema_version": "1.6.0",
         "id": "GHSA-jfhm-5ghh-2f97",
@@ -190,6 +190,12 @@
             ],
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/11/GHSA-jfhm-5ghh-2f97/GHSA-jfhm-5ghh-2f97.json"
+            },
+            "ecosystem_specific": {
+              "affected_functions": [
+                "cryptography.hazmat.primitives.serialization.pkcs7.load_der_pkcs7_certificates",
+                "cryptography.hazmat.primitives.serialization.pkcs7.load_pem_pkcs7_certificates"
+              ]
             }
           }
         ],
