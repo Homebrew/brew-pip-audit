@@ -43,15 +43,22 @@ jobs:
           cask: false
           test-bot: false
 
+      - name: Cache Homebrew Bundler RubyGems
+        id: cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ steps.set-up-homebrew.outputs.gems-path }}
+          key: ${{ runner.os }}-rubygems-${{ steps.set-up-homebrew.outputs.gems-hash }}
+          restore-keys: ${{ runner.os }}-rubygems-
+
+      - name: Install Homebrew Bundler RubyGems
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: brew install-bundler-gems --groups=all
+
       - name: Configure git
         uses: Homebrew/actions/git-user-config@master
         with:
           username: BrewTestBot
-
-      - name: Install Homebrew's bundler gems
-        run: brew install-bundler-gems --groups=all
-
-      - run: brew install --overwrite python
 
       - name: Generate Pull Requests
         run: brew ruby generate-prs.rb
