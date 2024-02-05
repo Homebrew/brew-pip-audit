@@ -51,6 +51,13 @@ jobs:
           key: ${{ runner.os }}-rubygems-${{ steps.set-up-homebrew.outputs.gems-hash }}
           restore-keys: ${{ runner.os }}-rubygems-
 
+      - name: Fix runner Python
+        if: runner.os != 'Linux'
+        run: |
+          # Workaround GitHub Actions Python issues
+          # Copied from: https://github.com/Homebrew/brew/blob/6170b6297c61ef0b68814c708eeff2199d8b0d11/.github/workflows/tests.yml#L353
+          brew unlink python && brew link --overwrite python
+
       - name: Install Homebrew Bundler RubyGems
         if: steps.cache.outputs.cache-hit != 'true'
         run: brew install-bundler-gems --groups=all
