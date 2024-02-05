@@ -1,7 +1,7 @@
 blinker==1.7.0
 charset-normalizer==3.3.2
 configargparse==1.7
-flask==3.0.1
+flask==3.0.2
 flask-cors==4.0.0
 flask-login==0.6.3
 gevent==23.9.1
@@ -15,7 +15,7 @@ pyzmq==25.1.2
 requests==2.31.0
 roundrobin==0.0.4
 setuptools==69.0.3
-urllib3==2.1.0
+urllib3==2.2.0
 werkzeug==3.0.1
 zope-event==5.0
 zope-interface==6.1

@@ -7,4 +7,4 @@ jsonpointer==2.4
 requests==2.31.0
 schema==0.7.5
 tqdm==4.66.1
-urllib3==2.1.0
+urllib3==2.2.0

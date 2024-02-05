@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-01-30T16:26:05Z",
+        "modified": "2024-02-05T03:46:53Z",
         "published": "2024-01-29T22:31:03Z",
         "schema_version": "1.6.0",
         "id": "GHSA-5h86-8mv2-jq9f",
@@ -213,6 +213,10 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/aio-libs/aiohttp"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XXWVZIVAYWEBHNRIILZVB3R3SDQNNAA7/"
           }
         ],
         "database_specific": {
@@ -226,7 +230,7 @@
         }
       },
       {
-        "modified": "2024-01-30T16:19:28Z",
+        "modified": "2024-02-05T03:47:10Z",
         "published": "2024-01-29T22:30:07Z",
         "schema_version": "1.6.0",
         "id": "GHSA-8qpw-xqxj-h4r2",
@@ -526,6 +530,10 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/aio-libs/aiohttp"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/XXWVZIVAYWEBHNRIILZVB3R3SDQNNAA7/"
           }
         ],
         "database_specific": {

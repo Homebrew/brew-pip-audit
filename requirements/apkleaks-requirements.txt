@@ -1,2 +1,2 @@
 asn1crypto==1.5.1
-pyaxmlparser==0.3.28
+pyaxmlparser==0.3.30

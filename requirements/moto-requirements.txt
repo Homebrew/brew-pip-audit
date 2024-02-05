@@ -3,7 +3,7 @@ blinker==1.7.0
 charset-normalizer==3.3.2
 docker==7.0.0
 ecdsa==0.18.0
-flask==3.0.1
+flask==3.0.2
 flask-cors==4.0.0
 graphql-core==3.2.3
 idna==3.6
@@ -16,7 +16,7 @@ multipart==0.2.4
 openapi-schema-validator==0.6.2
 openapi-spec-validator==0.7.1
 pathable==0.4.3
-py-partiql-parser==0.5.0
+py-partiql-parser==0.5.1
 pyasn1==0.5.1
 python-jose==3.3.0
 requests==2.31.0
