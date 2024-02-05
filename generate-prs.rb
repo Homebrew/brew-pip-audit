@@ -118,7 +118,7 @@ for path in Dir.entries("audits").sort
     PyPI.update_python_resources!(formula)
   rescue SystemExit => e
     opoo "#{formula_name} update_python_resources! failed: suppressing the previous exit and skipping"
-    results.push({formula: formula_name, updated: false, reason: "`update_python_resources!` failed"})
+    results.push({formula: formula_name, updated: false, reason: "`update_python_resources!` failed: #{e}"})
     next
   end
 
