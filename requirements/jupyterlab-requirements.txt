@@ -13,8 +13,11 @@ debugpy==1.8.0
 defusedxml==0.7.1
 fastjsonschema==2.19.1
 fqdn==1.5.1
+h11==0.14.0
 hatch-jupyter-builder==0.8.3
 hatch-nodejs-version==0.3.2
+httpcore==1.0.2
+httpx==0.26.0
 ipykernel==6.29.0
 isoduration==20.11.0
 json5==0.9.14

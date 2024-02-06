@@ -1,4 +1,4 @@
-linkify-it-py==2.0.2
+linkify-it-py==2.0.3
 markdown-it-py==3.0.0
 mdit-py-plugins==0.4.0
 mdurl==0.1.2
@@ -6,6 +6,6 @@ myloginpath==0.0.4
 plotext==5.2.8
 pymysql==1.1.0
 rich==13.7.0
-textual==0.47.1
+textual==0.48.2
 textual-autocomplete==2.1.0b0
 uc-micro-py==1.0.2

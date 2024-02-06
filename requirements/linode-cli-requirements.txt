@@ -1,9 +1,9 @@
 charset-normalizer==3.3.2
 idna==3.6
-linode-metadata==0.1.0
+linode-metadata==0.2.0
 markdown-it-py==3.0.0
 mdurl==0.1.2
 openapi3==1.8.2
 requests==2.31.0
 rich==13.7.0
-urllib3==2.1.0
+urllib3==2.2.0
