@@ -2,4 +2,4 @@ appdirs==1.4.4
 jedi==0.19.1
 parso==0.8.3
 prompt-toolkit==3.0.43
-wcwidth==0.2.12
+wcwidth==0.2.13
