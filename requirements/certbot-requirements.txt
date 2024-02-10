@@ -1,6 +1,6 @@
-acme==2.8.0
-certbot-apache==2.8.0
-certbot-nginx==2.8.0
+acme==2.9.0
+certbot-apache==2.9.0
+certbot-nginx==2.9.0
 charset-normalizer==3.3.2
 configargparse==1.7
 configobj==5.0.8
@@ -8,8 +8,8 @@ distro==1.9.0
 idna==3.6
 josepy==1.14.0
 parsedatetime==2.6
-pyopenssl==23.3.0
+pyopenssl==24.0.0
 pyrfc3339==1.1
 python-augeas==1.1.0
 requests==2.31.0
-urllib3==2.1.0
+urllib3==2.2.0
