@@ -1,3 +1,4 @@
 cfgv==3.4.0
 identify==2.5.33
 nodeenv==1.8.0
+setuptools==69.0.3
