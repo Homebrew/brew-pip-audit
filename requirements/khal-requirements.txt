@@ -2,8 +2,10 @@ atomicwrites==1.4.1
 click==8.1.7
 click-log==0.4.0
 configobj==5.0.8
-icalendar==5.0.10
+icalendar==5.0.11
 python-dateutil==2.8.2
 pyxdg==0.28
-tzlocal==5.1
-urwid==2.2.2
+typing-extensions==4.9.0
+tzlocal==5.2
+urwid==2.5.3
+wcwidth==0.2.13

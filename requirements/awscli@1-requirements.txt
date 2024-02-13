@@ -1,4 +1,4 @@
-botocore==1.34.30
+botocore==1.34.40
 colorama==0.4.4
 jmespath==1.0.1
 pyasn1==0.5.1
