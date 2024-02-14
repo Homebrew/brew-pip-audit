@@ -730,12 +730,13 @@
         }
       },
       {
-        "modified": "2024-02-08T00:46:45Z",
+        "modified": "2024-02-14T07:56:38Z",
         "published": "2024-02-06T12:30:31Z",
         "schema_version": "1.6.0",
         "id": "GHSA-h24r-m9qc-pvpg",
         "aliases": [
-          "CVE-2024-0690"
+          "CVE-2024-0690",
+          "PYSEC-2024-36"
         ],
         "summary": "Ansible-core information disclosure flaw",
         "details": "An information disclosure flaw was found in ansible-core due to a failure to respect the `ANSIBLE_NO_LOG` configuration in some scenarios. It was discovered that information is still included in the output in certain tasks, such as loop items. Depending on the task, this issue may include sensitive information, such as decrypted secret values.",
@@ -1243,7 +1244,8 @@
         ],
         "aliases": [
           "CVE-2024-0690",
-          "GHSA-h24r-m9qc-pvpg"
+          "GHSA-h24r-m9qc-pvpg",
+          "PYSEC-2024-36"
         ]
       },
       {
@@ -1268,7 +1270,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-01-27T03:49:21Z",
+        "modified": "2024-02-14T05:32:56Z",
         "published": "2024-01-11T15:20:48Z",
         "schema_version": "1.6.0",
         "id": "GHSA-h5c8-rqwp-cp95",
@@ -1385,15 +1387,15 @@
           },
           {
             "type": "WEB",
-            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5XCWZD464AJJJUBOO7CMPXQ4ROBC6JX2/"
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5XCWZD464AJJJUBOO7CMPXQ4ROBC6JX2"
           },
           {
             "type": "WEB",
-            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DELCVUUYX75I5K4Q5WMJG4MUZJA6VAIP/"
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/DELCVUUYX75I5K4Q5WMJG4MUZJA6VAIP"
           },
           {
             "type": "WEB",
-            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/O7YWRBX6JQCWC2XXCTZ55C7DPMGICCN3/"
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/O7YWRBX6JQCWC2XXCTZ55C7DPMGICCN3"
           }
         ],
         "database_specific": {
