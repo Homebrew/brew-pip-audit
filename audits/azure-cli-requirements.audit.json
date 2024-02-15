@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-02-05T23:28:34Z",
+        "modified": "2024-02-14T21:47:44Z",
         "published": "2024-02-05T21:30:31Z",
         "schema_version": "1.6.0",
         "id": "GHSA-3ww4-gg4f-jr7f",
@@ -197,6 +197,7 @@
         ],
         "database_specific": {
           "cwe_ids": [
+            "CWE-203",
             "CWE-208"
           ],
           "github_reviewed": true,

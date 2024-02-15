@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-02-05T23:28:34Z",
+        "modified": "2024-02-14T21:47:44Z",
         "published": "2024-02-05T21:30:31Z",
         "schema_version": "1.6.0",
         "id": "GHSA-3ww4-gg4f-jr7f",
@@ -197,6 +197,7 @@
         ],
         "database_specific": {
           "cwe_ids": [
+            "CWE-203",
             "CWE-208"
           ],
           "github_reviewed": true,
@@ -206,7 +207,7 @@
         }
       },
       {
-        "modified": "2023-11-09T05:40:01Z",
+        "modified": "2024-02-15T05:32:36Z",
         "published": "2023-07-14T21:31:08Z",
         "schema_version": "1.6.0",
         "id": "GHSA-cf7p-gm2m-833m",
@@ -289,7 +290,7 @@
           },
           {
             "type": "WEB",
-            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NMCCTYY3CSNQBFFYYC5DAV6KATHWCUZK/"
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NMCCTYY3CSNQBFFYYC5DAV6KATHWCUZK"
           },
           {
             "type": "WEB",
@@ -297,7 +298,7 @@
           },
           {
             "type": "WEB",
-            "url": "https://security.netapp.com/advisory/ntap-20230824-0010/"
+            "url": "https://security.netapp.com/advisory/ntap-20230824-0010"
           }
         ],
         "database_specific": {
