@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2023-11-09T05:29:46Z",
+        "modified": "2024-02-16T08:11:59Z",
         "published": "2023-10-31T22:22:50Z",
         "schema_version": "1.6.0",
         "id": "GHSA-wjcc-cq79-p63f",

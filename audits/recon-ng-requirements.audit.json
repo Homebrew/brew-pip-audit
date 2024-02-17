@@ -357,7 +357,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-02-14T05:32:56Z",
+        "modified": "2024-02-16T08:18:43Z",
         "published": "2024-01-11T15:20:48Z",
         "schema_version": "1.6.0",
         "id": "GHSA-h5c8-rqwp-cp95",
@@ -519,7 +519,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2023-11-08T04:12:15Z",
+        "modified": "2024-02-16T08:24:33Z",
         "published": "2023-03-26T21:30:23Z",
         "schema_version": "1.6.0",
         "id": "GHSA-24wv-mv5m-xv4h",
@@ -688,7 +688,7 @@
         }
       },
       {
-        "modified": "2023-11-08T04:12:15Z",
+        "modified": "2024-02-16T08:08:55Z",
         "published": "2023-03-26T21:30:23Z",
         "schema_version": "1.6.0",
         "id": "GHSA-8fww-64cx-x8p5",
@@ -1052,7 +1052,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-02-16T05:20:39Z",
+        "modified": "2024-02-16T08:09:04Z",
         "published": "2023-05-22T20:36:32Z",
         "schema_version": "1.6.0",
         "id": "GHSA-j8r2-6x86-q33q",
@@ -1378,7 +1378,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2023-11-08T04:13:39Z",
+        "modified": "2024-02-16T08:10:31Z",
         "published": "2023-10-17T20:15:25Z",
         "schema_version": "1.6.0",
         "id": "GHSA-g4mx-q9vg-27p4",
@@ -2175,7 +2175,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2023-11-24T09:49:21Z",
+        "modified": "2024-02-16T08:12:37Z",
         "published": "2023-10-25T14:22:59Z",
         "schema_version": "1.6.0",
         "id": "GHSA-hrfv-mqp8-q5rw",
@@ -2389,7 +2389,7 @@
         }
       },
       {
-        "modified": "2023-11-08T04:11:43Z",
+        "modified": "2024-02-17T05:35:00Z",
         "published": "2023-02-15T15:37:03Z",
         "schema_version": "1.6.0",
         "id": "GHSA-px8h-6qxv-m22q",
@@ -2540,7 +2540,7 @@
           },
           {
             "type": "WEB",
-            "url": "https://security.netapp.com/advisory/ntap-20230818-0003/"
+            "url": "https://security.netapp.com/advisory/ntap-20230818-0003"
           },
           {
             "type": "WEB",
@@ -2558,7 +2558,7 @@
         }
       },
       {
-        "modified": "2024-02-16T08:03:26Z",
+        "modified": "2024-02-17T05:16:27Z",
         "published": "2023-02-15T15:36:26Z",
         "schema_version": "1.6.0",
         "id": "GHSA-xg9f-g7g7-2323",
@@ -2709,7 +2709,7 @@
           },
           {
             "type": "WEB",
-            "url": "https://security.netapp.com/advisory/ntap-20230818-0003/"
+            "url": "https://security.netapp.com/advisory/ntap-20230818-0003"
           },
           {
             "type": "WEB",

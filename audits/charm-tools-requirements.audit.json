@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2023-12-06T01:03:17Z",
+        "modified": "2024-02-16T08:16:40Z",
         "published": "2023-10-25T18:32:26Z",
         "schema_version": "1.6.0",
         "id": "GHSA-mq26-g339-26xf",
@@ -440,7 +440,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2023-11-08T04:13:39Z",
+        "modified": "2024-02-16T08:10:31Z",
         "published": "2023-10-17T20:15:25Z",
         "schema_version": "1.6.0",
         "id": "GHSA-g4mx-q9vg-27p4",

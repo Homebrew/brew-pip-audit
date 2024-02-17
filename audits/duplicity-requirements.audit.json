@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-01-23T00:46:00Z",
+        "modified": "2024-02-16T08:13:36Z",
         "published": "2024-01-22T21:35:27Z",
         "schema_version": "1.6.0",
         "id": "GHSA-wj6h-64fc-37mp",

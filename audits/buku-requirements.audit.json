@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2023-11-24T09:49:21Z",
+        "modified": "2024-02-16T08:12:37Z",
         "published": "2023-10-25T14:22:59Z",
         "schema_version": "1.6.0",
         "id": "GHSA-hrfv-mqp8-q5rw",

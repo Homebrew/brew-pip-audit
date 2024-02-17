@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2023-11-08T04:11:58Z",
+        "modified": "2024-02-16T08:11:38Z",
         "published": "2023-04-03T06:30:19Z",
         "schema_version": "1.6.0",
         "id": "GHSA-c33w-24p9-8m24",

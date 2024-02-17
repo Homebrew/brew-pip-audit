@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-02-14T05:32:56Z",
+        "modified": "2024-02-16T08:18:43Z",
         "published": "2024-01-11T15:20:48Z",
         "schema_version": "1.6.0",
         "id": "GHSA-h5c8-rqwp-cp95",
@@ -172,7 +172,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2023-11-08T04:04:36Z",
+        "modified": "2024-02-16T08:10:21Z",
         "published": "2021-04-20T16:35:47Z",
         "schema_version": "1.6.0",
         "id": "GHSA-9w8r-397f-prfh",
@@ -285,7 +285,7 @@
         }
       },
       {
-        "modified": "2024-02-14T05:21:11Z",
+        "modified": "2024-02-16T08:22:13Z",
         "published": "2023-07-19T15:30:26Z",
         "schema_version": "1.6.0",
         "id": "GHSA-mrwq-x4v8-fh7p",
@@ -444,7 +444,7 @@
         }
       },
       {
-        "modified": "2023-11-08T04:05:24Z",
+        "modified": "2024-02-16T08:16:19Z",
         "published": "2021-03-29T16:33:03Z",
         "schema_version": "1.6.0",
         "id": "GHSA-pq64-v7f5-gqh8",

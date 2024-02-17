@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-01-02T15:28:50Z",
+        "modified": "2024-02-16T08:08:28Z",
         "published": "2023-12-28T21:30:37Z",
         "schema_version": "1.6.0",
         "id": "GHSA-jpvw-p8pr-9g2x",
@@ -456,7 +456,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2023-12-20T20:57:57Z",
+        "modified": "2024-02-16T08:21:46Z",
         "published": "2023-12-13T00:30:37Z",
         "schema_version": "1.6.0",
         "id": "GHSA-7j69-qfc3-2fq9",
@@ -730,7 +730,7 @@
         }
       },
       {
-        "modified": "2024-02-14T15:11:38Z",
+        "modified": "2024-02-16T08:15:12Z",
         "published": "2024-02-06T12:30:31Z",
         "schema_version": "1.6.0",
         "id": "GHSA-h24r-m9qc-pvpg",
@@ -1022,7 +1022,7 @@
         }
       },
       {
-        "modified": "2023-11-18T12:46:01Z",
+        "modified": "2024-02-16T08:30:57Z",
         "published": "2023-10-04T15:30:35Z",
         "schema_version": "1.6.0",
         "id": "GHSA-ww3m-ffrm-qvqv",
@@ -1149,6 +1149,11 @@
               "2.14.10rc1",
               "2.14.11",
               "2.14.11rc1",
+              "2.14.12",
+              "2.14.12rc1",
+              "2.14.13",
+              "2.14.14",
+              "2.14.14rc1",
               "2.14.1rc1",
               "2.14.2",
               "2.14.2rc1",
@@ -1267,7 +1272,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-02-14T05:32:56Z",
+        "modified": "2024-02-16T08:18:43Z",
         "published": "2024-01-11T15:20:48Z",
         "schema_version": "1.6.0",
         "id": "GHSA-h5c8-rqwp-cp95",
@@ -1429,7 +1434,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-01-19T19:46:52Z",
+        "modified": "2024-02-16T08:21:19Z",
         "published": "2024-01-05T06:30:19Z",
         "schema_version": "1.6.0",
         "id": "GHSA-j225-cvw7-qrx7",

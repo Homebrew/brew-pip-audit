@@ -7,7 +7,10 @@ idna==3.4
 incremental==22.10.0
 mock==5.1.0
 python-magic==0.4.27
+setuptools==69.1.0
+six==1.16.0
 twisted==23.8.0
+typing-extensions==4.9.0
 urwid==2.2.3
 urwidtrees==1.0.3
 zope-interface==6.1
