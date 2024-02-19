@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-02-16T08:13:36Z",
+        "modified": "2024-02-19T05:32:07Z",
         "published": "2024-01-22T21:35:27Z",
         "schema_version": "1.6.0",
         "id": "GHSA-wj6h-64fc-37mp",
@@ -96,11 +96,11 @@
           },
           {
             "type": "WEB",
-            "url": "https://minerva.crocs.fi.muni.cz/"
+            "url": "https://minerva.crocs.fi.muni.cz"
           },
           {
             "type": "WEB",
-            "url": "https://securitypitfalls.wordpress.com/2018/08/03/constant-time-compare-in-python/"
+            "url": "https://securitypitfalls.wordpress.com/2018/08/03/constant-time-compare-in-python"
           }
         ],
         "database_specific": {
