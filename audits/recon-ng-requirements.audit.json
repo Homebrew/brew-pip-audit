@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-02-16T08:02:27Z",
+        "modified": "2024-02-20T05:25:16Z",
         "published": "2023-05-01T19:22:20Z",
         "schema_version": "1.6.0",
         "id": "GHSA-m2qf-hxjv-5gpq",
@@ -180,7 +180,7 @@
           },
           {
             "type": "WEB",
-            "url": "https://security.netapp.com/advisory/ntap-20230818-0006/"
+            "url": "https://security.netapp.com/advisory/ntap-20230818-0006"
           },
           {
             "type": "WEB",

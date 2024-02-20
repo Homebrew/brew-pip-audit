@@ -5,12 +5,13 @@ aiostream==0.4.5
 atomicwrites==1.4.1
 attrs==23.2.0
 charset-normalizer==3.3.2
+click==8.1.7
 click-log==0.4.0
 frozenlist==1.4.1
 idna==3.6
-multidict==6.0.4
+multidict==6.0.5
 oauthlib==3.2.2
 requests==2.31.0
 requests-toolbelt==1.0.0
-urllib3==2.1.0
+urllib3==2.2.1
 yarl==1.9.4

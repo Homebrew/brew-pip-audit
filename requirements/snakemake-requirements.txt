@@ -27,9 +27,9 @@ reretry==0.11.8
 rpds-py==0.18.0
 smart-open==6.4.0
 smmap==5.0.1
-snakemake-interface-common==1.16.0
+snakemake-interface-common==1.17.0
 snakemake-interface-executor-plugins==8.2.0
-snakemake-interface-storage-plugins==3.0.0
+snakemake-interface-storage-plugins==3.1.0
 stopit==1.1.2
 throttler==1.2.2
 toposort==1.10
