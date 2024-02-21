@@ -1,7 +1,8 @@
-boto3==1.34.34
-botocore==1.34.34
+boto3==1.34.46
+botocore==1.34.46
 jmespath==0.10.0
 python-dateutil==2.8.2
 s3transfer==0.10.0
+six==1.16.0
 termcolor==2.4.0
 urllib3==2.0.7

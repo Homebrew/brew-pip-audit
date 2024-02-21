@@ -11,9 +11,12 @@ requests==2.31.0
 ruamel-yaml==0.18.5
 ruamel-yaml-clib==0.2.8
 ruamel-yaml-jinja2==0.2.7
+packaging==23.2
 semver==3.0.2
+setuptools==69.1.0
 soupsieve==2.5
 stdlib-list==0.10.0
 tomli==2.0.1
 tomli-w==1.0.0
+typing-extensions==4.9.0
 urllib3==2.1.0

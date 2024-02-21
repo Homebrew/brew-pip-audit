@@ -1,8 +1,12 @@
 appdirs==1.4.4
-charset-normalizer==3.3.0
+charset-normalizer==3.3.2
 cssselect==1.2.0
-idna==3.4
-lxml==4.9.3
+idna==3.6
+jaraco-classes==3.3.1
+keyring==24.3.0
+lxml==5.1.0
 minidb==2.0.7
+more-itertools==10.2.0
+pyyaml==6.0.1
 requests==2.31.0
-urllib3==2.0.7
+urllib3==2.2.1

@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-02-16T08:16:40Z",
+        "modified": "2024-02-21T05:33:12Z",
         "published": "2023-10-25T18:32:26Z",
         "schema_version": "1.6.0",
         "id": "GHSA-mq26-g339-26xf",
@@ -211,7 +211,7 @@
           },
           {
             "type": "WEB",
-            "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/F4PL35U6X4VVHZ5ILJU3PWUWN7H7LZXL/"
+            "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/F4PL35U6X4VVHZ5ILJU3PWUWN7H7LZXL"
           }
         ],
         "database_specific": {
@@ -440,7 +440,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-02-16T08:10:31Z",
+        "modified": "2024-02-21T05:25:29Z",
         "published": "2023-10-17T20:15:25Z",
         "schema_version": "1.6.0",
         "id": "GHSA-g4mx-q9vg-27p4",
@@ -634,15 +634,15 @@
           },
           {
             "type": "WEB",
-            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4R2Y5XK3WALSR3FNAGN7JBYV2B343ZKB/"
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/4R2Y5XK3WALSR3FNAGN7JBYV2B343ZKB"
           },
           {
             "type": "WEB",
-            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5F5CUBAN5XMEBVBZPHFITBLMJV5FIJJ5/"
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/5F5CUBAN5XMEBVBZPHFITBLMJV5FIJJ5"
           },
           {
             "type": "WEB",
-            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PPDPLM6UUMN55ESPQWJFLLIZY4ZKCNRX/"
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PPDPLM6UUMN55ESPQWJFLLIZY4ZKCNRX"
           },
           {
             "type": "WEB",

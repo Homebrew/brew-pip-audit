@@ -4,7 +4,9 @@ click-log==0.4.0
 configobj==5.0.8
 icalendar==5.0.11
 python-dateutil==2.8.2
+pytz==2024.1
 pyxdg==0.28
+six==1.16.0
 typing-extensions==4.9.0
 tzlocal==5.2
 urwid==2.5.3

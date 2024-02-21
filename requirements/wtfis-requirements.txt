@@ -15,4 +15,4 @@ rich==13.4.2
 shodan==1.29.1
 typing-extensions==4.9.0
 urllib3==2.2.1
-xlsxwriter==3.1.9
+xlsxwriter==3.2.0

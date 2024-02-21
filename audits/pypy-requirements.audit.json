@@ -205,7 +205,7 @@
         }
       },
       {
-        "modified": "2024-02-16T08:16:40Z",
+        "modified": "2024-02-21T05:33:12Z",
         "published": "2023-10-25T18:32:26Z",
         "schema_version": "1.6.0",
         "id": "GHSA-mq26-g339-26xf",
@@ -406,7 +406,7 @@
           },
           {
             "type": "WEB",
-            "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/F4PL35U6X4VVHZ5ILJU3PWUWN7H7LZXL/"
+            "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/F4PL35U6X4VVHZ5ILJU3PWUWN7H7LZXL"
           }
         ],
         "database_specific": {

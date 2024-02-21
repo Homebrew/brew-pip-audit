@@ -1,6 +1,10 @@
 beautifulsoup4==4.12.2
 bracex==2.4
 html5lib==1.1
+lxml==5.1.0
+markdown==3.5.2
+six==1.16.0
 soupsieve==2.5
+pyyaml==6.0.1
 wcmatch==8.5
 webencodings==0.5.1
