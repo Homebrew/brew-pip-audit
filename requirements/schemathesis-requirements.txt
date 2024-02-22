@@ -5,9 +5,9 @@ charset-normalizer==3.3.2
 colorama==0.4.6
 graphql-core==3.2.3
 h11==0.14.0
-httpcore==1.0.2
-httpx==0.26.0
-hypothesis==6.98.4
+httpcore==1.0.4
+httpx==0.27.0
+hypothesis==6.98.9
 hypothesis-graphql==0.11.0
 hypothesis-jsonschema==0.23.0
 idna==3.6
@@ -18,7 +18,7 @@ junit-xml==1.9
 multidict==6.0.5
 pluggy==1.4.0
 pyrate-limiter==2.10.0
-pytest==8.0.0
+pytest==8.0.1
 pytest-subtests==0.7.0
 referencing==0.33.0
 requests==2.31.0
@@ -29,6 +29,6 @@ starlette==0.37.1
 starlette-testclient==0.3.0
 tomli==2.0.1
 tomli-w==1.0.0
-urllib3==2.2.0
+urllib3==2.2.1
 werkzeug==3.0.1
 yarl==1.9.4

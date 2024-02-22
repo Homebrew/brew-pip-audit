@@ -1,7 +1,13 @@
 atomicwrites==1.4.1
+click==8.1.7
 click-log==0.4.0
-humanize==4.8.0
+humanize==4.9.0
 icalendar==5.0.11
 parsedatetime==2.6
+python-dateutil==2.8.2
+pytz==2024.1
 pyxdg==0.28
-urwid==2.2.3
+six==1.16.0
+typing-extensions==4.9.0
+urwid==2.6.4
+wcwidth==0.2.13

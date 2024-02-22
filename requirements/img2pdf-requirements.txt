@@ -1,3 +1,5 @@
 deprecated==1.2.14
-pikepdf==8.10.1
+lxml==5.1.0
+packaging==23.2
+pikepdf==8.13.0
 wrapt==1.16.0

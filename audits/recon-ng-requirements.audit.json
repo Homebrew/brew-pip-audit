@@ -2175,7 +2175,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-02-16T08:12:37Z",
+        "modified": "2024-02-22T05:33:55Z",
         "published": "2023-10-25T14:22:59Z",
         "schema_version": "1.6.0",
         "id": "GHSA-hrfv-mqp8-q5rw",
@@ -2374,7 +2374,7 @@
           },
           {
             "type": "WEB",
-            "url": "https://security.netapp.com/advisory/ntap-20231124-0008/"
+            "url": "https://security.netapp.com/advisory/ntap-20231124-0008"
           }
         ],
         "database_specific": {
