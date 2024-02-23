@@ -1,3 +1,6 @@
-attrs==23.1.0
-construct==2.10.68
+attrs==23.2.0
+click==8.1.7
+construct==2.10.70
 inflection==0.5.1
+pytz==2024.1
+tabulate==0.9.0

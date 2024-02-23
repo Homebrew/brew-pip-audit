@@ -1,2 +1,4 @@
 ansicolor==0.3.2
-chardet==5.0.0
+chardet==5.2.0
+pyyaml==6.0.1
+setuptools==69.1.0

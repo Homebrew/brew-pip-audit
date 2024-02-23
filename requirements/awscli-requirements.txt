@@ -1,11 +1,15 @@
 awscrt==0.19.19
+cffi==1.16.0
 colorama==0.4.6
 cryptography==40.0.1
 distro==1.8.0
+docutils==0.19
 jmespath==1.0.1
 prompt-toolkit==3.0.38
+pycparser==2.21
 python-dateutil==2.8.2
 ruamel-yaml==0.17.21
 ruamel-yaml-clib==0.2.7
+six==1.16.0
 urllib3==1.26.18
 wcwidth==0.2.13
