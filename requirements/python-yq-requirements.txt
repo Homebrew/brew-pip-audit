@@ -1,2 +1,4 @@
-tomlkit==0.12.1
+argcomplete==3.2.2
+pyyaml==6.0.1
+tomlkit==0.12.3
 xmltodict==0.13.0

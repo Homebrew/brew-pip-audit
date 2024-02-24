@@ -1,5 +1,6 @@
-astroid==3.0.1
-dill==0.3.7
+astroid==3.0.3
+dill==0.3.8
+isort==5.13.2
 mccabe==0.7.0
-platformdirs==4.1.0
+platformdirs==4.2.0
 tomlkit==0.12.3

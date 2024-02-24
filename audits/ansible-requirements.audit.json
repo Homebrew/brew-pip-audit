@@ -10,12 +10,13 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2023-11-08T03:57:53Z",
+        "modified": "2024-02-23T21:13:18Z",
         "published": "2017-08-25T18:29:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2017-49",
         "aliases": [
           "CVE-2015-3206",
+          "GHSA-mffc-9gx5-99g3",
           "PYSEC-2017-66"
         ],
         "details": "The checkPassword function in python-kerberos does not authenticate the KDC it attempts to communicate with, which allows remote attackers to cause a denial of service (bad response), or have other unspecified impact by performing a man-in-the-middle attack.",
@@ -83,6 +84,7 @@
         ],
         "aliases": [
           "CVE-2015-3206",
+          "GHSA-mffc-9gx5-99g3",
           "PYSEC-2017-49",
           "PYSEC-2017-66"
         ]

@@ -1,6 +1,8 @@
-bitarray==2.8.5
+bitarray==2.9.2
 bitstring==4.1.4
 ecdsa==0.18.0
 intelhex==2.3.0
 pyserial==3.5
+pyyaml==6.0.1
 reedsolo==1.7.0
+six==1.16.0

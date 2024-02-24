@@ -1,7 +1,9 @@
-charset-normalizer==3.3.0
-idna==3.4
-prometheus-client==0.17.1
+charset-normalizer==3.3.2
+idna==3.6
+prometheus-client==0.20.0
 pysocks==1.7.1
+pyyaml==6.0.1
 requests==2.31.0
+six==1.16.0
 stem==1.8.2
-urllib3==2.0.7
+urllib3==2.2.1
