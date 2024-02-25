@@ -30,11 +30,12 @@ referencing==0.33.0
 requests==2.31.0
 reretry==0.11.8
 rpds-py==0.18.0
-setuptools==69.1.0
+setuptools==69.1.1
 smart-open==6.4.0
 smmap==5.0.1
 snakemake-interface-common==1.17.1
 snakemake-interface-executor-plugins==8.2.0
+snakemake-interface-report-plugins==1.0.0
 snakemake-interface-storage-plugins==3.1.0
 stopit==1.1.2
 tabulate==0.9.0

@@ -5,12 +5,17 @@ iniconfig==2.0.0
 interchange==2021.0.4
 loguru==0.7.2
 monotonic==1.6
+packaging==23.2
 pansi==2020.7.3
 pluggy==1.3.0
 py2neo==2021.2.4
+pygments==2.17.2
 pytest==7.4.4
+pytz==2023.3.post1
+pyyaml==6.0.1
 redis==5.0.1
 requests==2.31.0
+six==1.16.0
 slack-sdk==3.26.2
 tqdm==4.66.1
 urllib3==2.1.0
