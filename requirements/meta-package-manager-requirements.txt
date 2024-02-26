@@ -4,7 +4,7 @@ boltons==23.1.1
 bracex==2.4
 charset-normalizer==3.3.2
 click==8.1.7
-click-extra==4.7.3
+click-extra==4.7.4
 cloup==3.0.4
 commentjson==0.9.0
 docutils==0.20.1

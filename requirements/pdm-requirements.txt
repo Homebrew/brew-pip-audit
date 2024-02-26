@@ -1,7 +1,7 @@
 blinker==1.7.0
 cachecontrol==0.14.0
 charset-normalizer==3.3.2
-dep-logic==0.0.4
+dep-logic==0.2.0
 distlib==0.3.8
 filelock==3.13.1
 findpython==0.4.1
@@ -23,6 +23,6 @@ shellingham==1.5.4
 tomlkit==0.12.3
 truststore==0.8.0
 unearth==0.14.0
-urllib3==2.2.0
-virtualenv==20.25.0
+urllib3==2.2.1
+virtualenv==20.25.1
 wheel==0.42.0
