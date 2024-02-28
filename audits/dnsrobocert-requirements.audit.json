@@ -6,7 +6,7 @@
       "ecosystem": "PyPI"
     },
     "dependency_groups": [
-      "dvc-requirements"
+      "dnsrobocert-requirements"
     ],
     "vulnerabilities": [
       {

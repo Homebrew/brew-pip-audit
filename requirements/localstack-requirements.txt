@@ -1,4 +1,4 @@
-cachetools==5.3.2
+cachetools==5.3.3
 charset-normalizer==3.3.2
 click==8.1.7
 dill==0.3.6
@@ -6,8 +6,8 @@ dnslib==0.9.24
 dnspython==2.6.1
 ecdsa==0.18.0
 idna==3.6
-localstack-core==3.1.0
-localstack-ext==3.1.0
+localstack-core==3.2.0
+localstack-ext==3.2.0
 markdown-it-py==3.0.0
 mdurl==0.1.2
 packaging==23.2
