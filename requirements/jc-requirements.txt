@@ -1,3 +1,4 @@
+pygments==2.17.2
 ruamel-yaml==0.18.6
 ruamel-yaml-clib==0.2.8
 xmltodict==0.13.0
