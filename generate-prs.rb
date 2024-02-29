@@ -16,8 +16,6 @@ SKIP_FORMULA = [
   # setup.py requires another package to be pre-installed. Should really use pyproject.toml.
   # https://github.com/OfflineIMAP/offlineimap3/pull/157
   "offlineimap",
-  # Not a Python package
-  "pypy", "pypy3.9", "pypy3.10", "python@3.8", "python@3.11", "python@3.12",
   # No setup.py.
   "recon-ng",
   # Installable packages are in a sub-directory
