@@ -47,6 +47,7 @@ qrcode==7.4.2
 requests==2.31.0
 ruamel-yaml==0.18.6
 ruamel-yaml-clib==0.2.8
+sdkmanager==0.6.6
 six==1.16.0
 smmap==5.0.1
 stack-data==0.6.3
