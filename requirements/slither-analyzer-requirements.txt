@@ -8,12 +8,12 @@ crytic-compile==0.3.6
 cytoolz==0.12.3
 eth-abi==5.0.0
 eth-account==0.11.0
-eth-hash==0.6.0
-eth-keyfile==0.7.0
+eth-hash==0.7.0
+eth-keyfile==0.8.0
 eth-keys==0.5.0
 eth-rlp==1.0.1
 eth-typing==4.0.0
-eth-utils==3.0.0
+eth-utils==4.0.0
 frozenlist==1.4.1
 hexbytes==0.3.1
 idna==3.6
@@ -34,7 +34,7 @@ rlp==4.0.0
 rpds-py==0.18.0
 solc-select==1.0.4
 toolz==0.12.1
-typing-extensions==4.9.0
+typing-extensions==4.10.0
 urllib3==2.2.1
 wcwidth==0.2.13
 web3==6.15.1
