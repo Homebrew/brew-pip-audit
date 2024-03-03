@@ -1,4 +1,4 @@
-build==1.0.3
+build==1.1.1
 cachecontrol==0.14.0
 cffi==1.16.0
 charset-normalizer==3.3.2
@@ -11,9 +11,9 @@ filelock==3.13.1
 idna==3.6
 installer==0.7.0
 jaraco-classes==3.3.1
-keyring==24.3.0
+keyring==24.3.1
 more-itertools==10.2.0
-msgpack==1.0.7
+msgpack==1.0.8
 packaging==23.2
 pexpect==4.9.0
 pkginfo==1.9.6
@@ -27,7 +27,7 @@ rapidfuzz==3.6.1
 requests==2.31.0
 requests-toolbelt==1.0.0
 shellingham==1.5.4
-tomlkit==0.12.3
+tomlkit==0.12.4
 trove-classifiers==2024.2.23
 urllib3==2.2.1
 virtualenv==20.25.1
