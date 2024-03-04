@@ -4,4 +4,4 @@ distlib==0.3.8
 filelock==3.13.1
 packaging==23.2
 platformdirs==4.2.0
-virtualenv==20.25.0
+virtualenv==20.25.1
