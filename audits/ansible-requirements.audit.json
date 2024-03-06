@@ -87,7 +87,8 @@
           "GHSA-mffc-9gx5-99g3",
           "PYSEC-2017-49",
           "PYSEC-2017-66"
-        ]
+        ],
+        "max_severity": ""
       }
     ]
   }

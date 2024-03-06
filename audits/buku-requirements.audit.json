@@ -399,7 +399,8 @@
           "CVE-2023-46136",
           "GHSA-hrfv-mqp8-q5rw",
           "PYSEC-2023-221"
-        ]
+        ],
+        "max_severity": "7.5"
       }
     ]
   }

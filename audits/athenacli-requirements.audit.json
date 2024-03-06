@@ -119,7 +119,8 @@
         "aliases": [
           "CVE-2023-26112",
           "GHSA-c33w-24p9-8m24"
-        ]
+        ],
+        "max_severity": "3.7"
       }
     ]
   },
@@ -412,7 +413,8 @@
           "CVE-2022-40896",
           "GHSA-mrwq-x4v8-fh7p",
           "PYSEC-2023-117"
-        ]
+        ],
+        "max_severity": "5.5"
       }
     ]
   }

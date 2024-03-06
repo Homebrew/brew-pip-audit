@@ -516,7 +516,8 @@
           "GHSA-93gm-qmq6-w238",
           "GHSA-qf9m-vfgh-m389",
           "PYSEC-2024-38"
-        ]
+        ],
+        "max_severity": "7.5"
       }
     ]
   }

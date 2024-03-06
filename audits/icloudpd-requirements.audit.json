@@ -246,7 +246,8 @@
           "CVE-2023-37920",
           "GHSA-xqr8-7jwr-rhp7",
           "PYSEC-2023-135"
-        ]
+        ],
+        "max_severity": "7.5"
       }
     ]
   },
@@ -1032,7 +1033,8 @@
           "CVE-2023-45803",
           "GHSA-g4mx-q9vg-27p4",
           "PYSEC-2023-212"
-        ]
+        ],
+        "max_severity": "4.2"
       },
       {
         "ids": [
@@ -1043,7 +1045,8 @@
           "CVE-2023-43804",
           "GHSA-v845-jxx5-vc9f",
           "PYSEC-2023-192"
-        ]
+        ],
+        "max_severity": "8.1"
       }
     ]
   }

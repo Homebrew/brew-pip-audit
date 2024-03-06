@@ -157,7 +157,8 @@
         "aliases": [
           "CVE-2024-22195",
           "GHSA-h5c8-rqwp-cp95"
-        ]
+        ],
+        "max_severity": "5.4"
       }
     ]
   }

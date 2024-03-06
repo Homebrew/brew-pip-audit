@@ -441,7 +441,8 @@
         "aliases": [
           "CVE-2023-5115",
           "GHSA-jpvw-p8pr-9g2x"
-        ]
+        ],
+        "max_severity": "6.3"
       }
     ]
   },
@@ -672,7 +673,8 @@
         "aliases": [
           "CVE-2023-4237",
           "GHSA-ww3m-ffrm-qvqv"
-        ]
+        ],
+        "max_severity": "6.5"
       }
     ]
   }

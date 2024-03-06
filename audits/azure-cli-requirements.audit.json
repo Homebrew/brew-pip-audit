@@ -542,7 +542,8 @@
         "aliases": [
           "CVE-2023-50782",
           "GHSA-3ww4-gg4f-jr7f"
-        ]
+        ],
+        "max_severity": "7.5"
       },
       {
         "ids": [
@@ -551,7 +552,8 @@
         "aliases": [
           "CVE-2024-26130",
           "GHSA-6vqw-3v5j-54x4"
-        ]
+        ],
+        "max_severity": "7.5"
       },
       {
         "ids": [
@@ -560,7 +562,8 @@
         "aliases": [
           "CVE-2024-0727",
           "GHSA-9v9h-cgj8-h64p"
-        ]
+        ],
+        "max_severity": "5.5"
       }
     ]
   }

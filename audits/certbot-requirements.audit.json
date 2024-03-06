@@ -119,7 +119,8 @@
         "aliases": [
           "CVE-2023-26112",
           "GHSA-c33w-24p9-8m24"
-        ]
+        ],
+        "max_severity": "3.7"
       }
     ]
   }

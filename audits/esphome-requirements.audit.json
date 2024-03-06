@@ -124,7 +124,8 @@
         "aliases": [
           "CVE-2024-23342",
           "GHSA-wj6h-64fc-37mp"
-        ]
+        ],
+        "max_severity": "7.4"
       }
     ]
   },
@@ -244,7 +245,8 @@
           "CVE-2023-46894",
           "GHSA-3f38-96qm-r3fw",
           "PYSEC-2023-234"
-        ]
+        ],
+        "max_severity": "7.5"
       }
     ]
   },
@@ -765,7 +767,8 @@
           "GHSA-93gm-qmq6-w238",
           "GHSA-qf9m-vfgh-m389",
           "PYSEC-2024-38"
-        ]
+        ],
+        "max_severity": "7.5"
       }
     ]
   }

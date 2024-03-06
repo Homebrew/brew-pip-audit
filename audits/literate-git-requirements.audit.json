@@ -157,7 +157,8 @@
         "aliases": [
           "CVE-2024-22195",
           "GHSA-h5c8-rqwp-cp95"
-        ]
+        ],
+        "max_severity": "5.4"
       }
     ]
   },
@@ -906,7 +907,8 @@
           "CVE-2021-20270",
           "GHSA-9w8r-397f-prfh",
           "PYSEC-2021-140"
-        ]
+        ],
+        "max_severity": "7.5"
       },
       {
         "ids": [
@@ -917,7 +919,8 @@
           "CVE-2022-40896",
           "GHSA-mrwq-x4v8-fh7p",
           "PYSEC-2023-117"
-        ]
+        ],
+        "max_severity": "5.5"
       },
       {
         "ids": [
@@ -928,7 +931,8 @@
           "CVE-2021-27291",
           "GHSA-pq64-v7f5-gqh8",
           "PYSEC-2021-141"
-        ]
+        ],
+        "max_severity": "7.5"
       }
     ]
   }

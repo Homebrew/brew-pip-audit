@@ -1000,7 +1000,8 @@
           "CVE-2024-22190",
           "GHSA-2mqj-m65w-jghx",
           "PYSEC-2024-4"
-        ]
+        ],
+        "max_severity": "7.8"
       },
       {
         "ids": [
@@ -1011,7 +1012,8 @@
           "CVE-2023-41040",
           "GHSA-cwvm-v4w8-q58c",
           "PYSEC-2023-165"
-        ]
+        ],
+        "max_severity": "6.5"
       },
       {
         "ids": [
@@ -1022,7 +1024,8 @@
           "CVE-2023-40590",
           "GHSA-wfm5-v35h-vwf4",
           "PYSEC-2023-161"
-        ]
+        ],
+        "max_severity": "7.8"
       }
     ]
   },
@@ -1808,7 +1811,8 @@
           "CVE-2023-45803",
           "GHSA-g4mx-q9vg-27p4",
           "PYSEC-2023-212"
-        ]
+        ],
+        "max_severity": "4.2"
       },
       {
         "ids": [
@@ -1819,7 +1823,8 @@
           "CVE-2023-43804",
           "GHSA-v845-jxx5-vc9f",
           "PYSEC-2023-192"
-        ]
+        ],
+        "max_severity": "8.1"
       }
     ]
   }
