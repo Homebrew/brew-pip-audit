@@ -31,6 +31,8 @@ PR_LIMIT = ENV.fetch("HOMEBREW_AUTO_PR_LIMIT", 25).to_i
 # triggered runs.
 DRY_RUN = ENV.fetch("HOMEBREW_AUTO_PR_DRY_RUN", "false") == "true"
 
+NO_FORK = ENV.fetch("HOMEBREW_AUTO_PR_NO_FORK", "false") == "true"
+
 SUMMARY_PATH = ENV.fetch("GITHUB_STEP_SUMMARY", nil)
 
 ohai "generate-prs running with DRY_RUN=#{DRY_RUN}, PR_LIMIT=#{PR_LIMIT}, SUMMARY_PATH=#{SUMMARY_PATH}"
@@ -170,7 +172,7 @@ for path in Dir.entries("audits").sort
     tap:              formula.tap,
     pr_message:       PR_MESSAGE % {old_urls: old_resource_urls.join("\n"), new_urls: vulns_patched.join("\n")},
   }
-  GitHub.create_bump_pr(info, args: OpenStruct.new)
+  GitHub.create_bump_pr(info, args: OpenStruct.new(:no_fork? => NO_FORK))
   prs_sent += 1
   results.push({formula: formula_name, updated: true, reason: ""})
   if prs_sent == PR_LIMIT
