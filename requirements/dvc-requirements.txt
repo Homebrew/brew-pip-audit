@@ -1,11 +1,11 @@
 adlfs==2024.2.0
-aiobotocore==2.12.0
+aiobotocore==2.12.1
 aiohttp==3.9.3
 aiohttp-retry==2.8.3
 aioitertools==0.11.0
 aiooss2==0.2.9
 aiosignal==1.3.1
-aliyun-python-sdk-core==2.14.0
+aliyun-python-sdk-core==2.15.0
 aliyun-python-sdk-kms==2.16.2
 amqp==5.2.0
 annotated-types==0.6.0
@@ -19,7 +19,7 @@ attrs==23.2.0
 azure-core==1.30.1
 azure-datalake-store==0.0.53
 azure-identity==1.15.0
-azure-storage-blob==12.19.0
+azure-storage-blob==12.19.1
 bcrypt==4.1.2
 billiard==4.2.0
 boto3==1.34.51
@@ -41,7 +41,7 @@ distro==1.9.0
 dpath==2.1.6
 dulwich==0.21.7
 dvc-azure==3.1.0
-dvc-data==3.14.0
+dvc-data==3.14.1
 dvc-gdrive==3.0.1
 dvc-gs==3.0.1
 dvc-hdfs==3.0.0
@@ -66,7 +66,7 @@ gcsfs==2024.2.0
 gitdb==4.0.11
 gitpython==3.1.42
 google-api-core==2.17.1
-google-api-python-client==2.120.0
+google-api-python-client==2.121.0
 google-auth==2.28.1
 google-auth-httplib2==0.2.0
 google-auth-oauthlib==1.2.0
@@ -118,7 +118,7 @@ pygments==2.17.2
 pygtrie==2.5.0
 pyjwt==2.8.0
 pyopenssl==24.0.0
-pyparsing==3.1.1
+pyparsing==3.1.2
 python-dateutil==2.9.0.post0
 pyyaml==6.0.1
 requests==2.31.0
