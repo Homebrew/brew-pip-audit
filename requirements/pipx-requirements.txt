@@ -1,5 +1,5 @@
-argcomplete==3.2.2
+argcomplete==3.2.3
 click==8.1.7
 packaging==23.2
 platformdirs==4.2.0
-userpath==1.9.1
+userpath==1.9.2

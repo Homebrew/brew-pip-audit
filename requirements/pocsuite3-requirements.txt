@@ -4,7 +4,7 @@ colorama==0.4.6
 colorlog==6.8.2
 dacite==1.8.0
 docker==7.0.0
-faker==23.2.1
+faker==24.1.0
 idna==3.6
 jq==1.6.0
 lxml==5.1.0
@@ -14,12 +14,13 @@ prettytable==3.10.0
 pycryptodomex==3.20.0
 pyopenssl==24.0.0
 pysocks==1.7.1
-python-dateutil==2.8.2
+python-dateutil==2.9.0.post0
 pyyaml==6.0.1
 requests==2.31.0
 requests-toolbelt==1.0.0
 scapy==2.5.0
 six==1.16.0
+setuptools==69.1.1
 termcolor==2.4.0
 urllib3==2.2.1
 wcwidth==0.2.13
