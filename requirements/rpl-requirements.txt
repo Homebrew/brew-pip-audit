@@ -1,3 +1,3 @@
 chainstream==1.0.1
 chardet==5.2.0
-regex==2023.10.3
+regex==2023.12.25
