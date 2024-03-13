@@ -67,6 +67,9 @@ jobs:
         with:
           username: BrewTestBot
 
+      - name: Install dependencies
+        run: brew install augeas autoconf
+
       - name: Generate Pull Requests
         run: brew ruby generate-prs.rb
         env:
