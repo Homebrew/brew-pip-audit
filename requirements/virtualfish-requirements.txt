@@ -1,6 +1,6 @@
 distlib==0.3.8
 filelock==3.13.1
-packaging==23.2
+packaging==24.0
 pkgconfig==1.5.5
 platformdirs==4.2.0
 psutil==5.9.8
