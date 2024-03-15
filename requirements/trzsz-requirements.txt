@@ -1,4 +1,5 @@
 iterm2==2.7
+protobuf==5.26.0
 trzsz-iterm2==1.1.5
 trzsz-libs==1.1.5
 trzsz-svr==1.1.5

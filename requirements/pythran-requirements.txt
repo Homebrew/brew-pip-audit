@@ -1,2 +1,4 @@
 beniget==0.4.1
 gast==0.5.4
+ply==3.11
+setuptools==69.2.0
