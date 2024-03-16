@@ -19,7 +19,7 @@ jsonschema==4.21.1
 jsonschema-specifications==2023.12.1
 jupyter-core==5.7.2
 markupsafe==2.1.5
-nbformat==5.10.2
+nbformat==5.10.3
 packaging==24.0
 plac==1.4.3
 platformdirs==4.2.0
@@ -31,7 +31,7 @@ requests==2.31.0
 reretry==0.11.8
 rpds-py==0.18.0
 setuptools==69.2.0
-smart-open==6.4.0
+smart-open==7.0.1
 smmap==5.0.1
 snakemake-interface-common==1.17.1
 snakemake-interface-executor-plugins==9.0.0
