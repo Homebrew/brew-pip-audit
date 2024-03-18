@@ -10,6 +10,7 @@ olefile==0.47
 pdfminer-six==20191110
 pycryptodome==3.20.0
 python-pptx==0.6.23
+six==1.16.0
 sortedcontainers==2.4.0
 soupsieve==2.5
 tzlocal==5.2

@@ -1,5 +1,0 @@
-editables==0.5
-packaging==23.2
-pathspec==0.12.1
-pluggy==1.4.0
-trove-classifiers==2024.1.8
