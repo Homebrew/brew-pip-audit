@@ -1,4 +1,11 @@
-packaging==23.2
-pyparsing==3.1.1
+contourpy==1.2.0
+cycler==0.12.1
+fonttools==4.50.0
+kiwisolver==1.4.5
+matplotlib==3.8.3
+packaging==24.0
+pyparsing==3.1.2
+python-dateutil==2.9.0.post0
+setuptools==69.2.0
 six==1.16.0
 zstandard==0.22.0
