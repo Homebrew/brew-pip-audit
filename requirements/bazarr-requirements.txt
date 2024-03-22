@@ -1,1 +1,2 @@
+lxml==5.1.0
 webrtcvad-wheels==2.0.11.post1
