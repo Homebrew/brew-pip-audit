@@ -5,8 +5,8 @@ azure-core==1.30.1
 azure-storage-blob==12.19.1
 b2sdk==1.33.0
 bcrypt==4.1.2
-boto3==1.34.64
-botocore==1.34.64
+boto3==1.34.69
+botocore==1.34.69
 boxsdk==3.9.2
 cachetools==5.3.3
 chardet==5.2.0
@@ -17,9 +17,9 @@ dropbox==11.36.2
 ecdsa==0.18.0
 fasteners==0.19
 gdata-python3==3.0.1
-google-api-core==2.17.1
-google-api-python-client==2.122.0
-google-auth==2.28.2
+google-api-core==2.18.0
+google-api-python-client==2.123.0
+google-auth==2.29.0
 google-auth-httplib2==0.2.0
 google-auth-oauthlib==1.2.0
 googleapis-common-protos==1.63.0
@@ -52,6 +52,7 @@ paramiko==3.4.0
 pbr==6.0.0
 pexpect==4.9.0
 ply==3.11
+proto-plus==1.23.0
 protobuf==4.25.3
 ptyprocess==0.7.0
 pyasn1==0.5.1
@@ -66,7 +67,7 @@ python-keystoneclient==5.4.0
 python-swiftclient==4.5.0
 pyyaml==6.0.1
 requests==2.31.0
-requests-oauthlib==1.4.0
+requests-oauthlib==2.0.0
 requests-toolbelt==1.0.0
 rfc3986==2.0.0
 rsa==4.9
