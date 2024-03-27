@@ -1,4 +1,4 @@
-anytree==2.12.0
+anytree==2.12.1
 chardet==5.2.0
 commonmark==0.9.1
 deprecated==1.2.14
@@ -9,5 +9,5 @@ rich==12.6.0
 rich-argparse-plus==0.3.1.4
 six==1.16.0
 wrapt==1.16.0
-yara-python==4.2.3
-yaralyzer==0.9.3
+yara-python==4.5.0
+yaralyzer==0.9.4
