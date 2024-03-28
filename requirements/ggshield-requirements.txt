@@ -6,7 +6,7 @@ marshmallow==3.18.0
 marshmallow-dataclass==8.5.14
 mypy-extensions==1.0.0
 oauthlib==3.2.2
-packaging==23.2
+packaging==24.0
 platformdirs==3.0.0
 pygitguardian==1.14.0
 pygments==2.17.2
