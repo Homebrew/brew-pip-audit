@@ -1,2 +1,2 @@
-msgpack==1.0.7
-packaging==23.2
+msgpack==1.0.8
+packaging==24.0
