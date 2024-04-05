@@ -6,9 +6,9 @@ click==8.1.7
 colorama==0.4.6
 graphql-core==3.2.3
 h11==0.14.0
-httpcore==1.0.4
+httpcore==1.0.5
 httpx==0.27.0
-hypothesis==6.99.11
+hypothesis==6.100.0
 hypothesis-graphql==0.11.0
 hypothesis-jsonschema==0.23.1
 idna==3.6
@@ -35,5 +35,5 @@ starlette-testclient==0.3.0
 tomli==2.0.1
 tomli-w==1.0.0
 urllib3==2.2.1
-werkzeug==3.0.1
+werkzeug==3.0.2
 yarl==1.9.4
