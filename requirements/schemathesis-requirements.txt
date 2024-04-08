@@ -20,7 +20,7 @@ markupsafe==2.1.5
 multidict==6.0.5
 packaging==24.0
 pluggy==1.4.0
-pyrate-limiter==2.10.0
+pyrate-limiter==3.6.0
 pytest==8.1.1
 pytest-subtests==0.7.0
 pyyaml==6.0.1
