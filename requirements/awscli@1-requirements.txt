@@ -1,8 +1,8 @@
-botocore==1.34.70
+botocore==1.34.80
 colorama==0.4.4
 docutils==0.16
 jmespath==1.0.1
-pyasn1==0.5.1
+pyasn1==0.6.0
 python-dateutil==2.9.0.post0
 pyyaml==6.0.1
 rsa==4.7.2
