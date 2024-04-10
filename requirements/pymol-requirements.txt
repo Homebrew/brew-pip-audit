@@ -1,2 +1,2 @@
-msgpack==1.0.3
-mmtf-python==1.1.2
+msgpack==1.0.8
+mmtf-python==1.1.3
