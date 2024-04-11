@@ -206,7 +206,7 @@
         }
       },
       {
-        "modified": "2024-04-03T15:26:43Z",
+        "modified": "2024-04-11T00:46:03Z",
         "published": "2024-04-03T03:30:30Z",
         "schema_version": "1.6.0",
         "id": "GHSA-44wm-f244-xhp3",
@@ -356,6 +356,14 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/python-pillow/Pillow"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.debian.org/debian-lts-announce/2024/04/msg00008.html"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/4XLPUT3VK4GQ6EVY525TT2QNUIXNRU5M"
           },
           {
             "type": "WEB",

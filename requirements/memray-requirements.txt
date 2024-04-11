@@ -5,7 +5,7 @@ markupsafe==2.1.5
 mdit-py-plugins==0.4.0
 mdurl==0.1.2
 pygments==2.17.2
-rich==13.7.0
-textual==0.52.1
-typing-extensions==4.9.0
+rich==13.7.1
+textual==0.56.4
+typing-extensions==4.11.0
 uc-micro-py==1.0.3

@@ -8,7 +8,7 @@ attrs==23.2.0
 bc-detect-secrets==1.5.5
 bc-jsonpath-ng==1.6.1
 bc-python-hcl2==0.4.2
-beartype==0.17.2
+beartype==0.18.2
 beautifulsoup4==4.12.3
 boolean-py==4.0
 boto3==1.34.25
@@ -50,9 +50,9 @@ openai==0.28.1
 packageurl-python==0.13.4
 packaging==23.2
 ply==3.11
-policy-sentry==0.12.10
+policy-sentry==0.12.11
 prettytable==3.10.0
-py-serializable==1.0.2
+py-serializable==1.0.3
 pycares==4.4.0
 pycep-parser==0.4.1
 pycparser==2.22
@@ -78,7 +78,7 @@ spdx-tools==0.8.2
 tabulate==0.9.0
 termcolor==2.3.0
 tqdm==4.66.2
-typing-extensions==4.10.0
+typing-extensions==4.11.0
 unidiff==0.7.5
 uritools==4.0.2
 urllib3==2.0.7
