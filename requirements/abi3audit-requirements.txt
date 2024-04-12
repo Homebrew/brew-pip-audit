@@ -1,9 +1,9 @@
-abi3info==2024.3.26
+abi3info==2024.4.10
 attrs==23.2.0
 cattrs==23.2.3
 certifi==2024.2.2
 charset-normalizer==3.3.2
-idna==3.6
+idna==3.7
 kaitaistruct==0.10
 markdown-it-py==3.0.0
 mdurl==0.1.2

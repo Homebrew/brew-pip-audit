@@ -5,7 +5,7 @@ charset-normalizer==3.3.2
 configargparse==1.7
 configobj==5.0.8
 distro==1.9.0
-idna==3.6
+idna==3.7
 josepy==1.14.0
 parsedatetime==2.6
 pyopenssl==24.1.0

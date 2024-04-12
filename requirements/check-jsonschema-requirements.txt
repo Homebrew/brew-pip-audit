@@ -3,7 +3,7 @@ attrs==23.2.0
 charset-normalizer==3.3.2
 click==8.1.7
 fqdn==1.5.1
-idna==3.6
+idna==3.7
 isoduration==20.11.0
 jsonpointer==2.4
 jsonschema==4.21.1

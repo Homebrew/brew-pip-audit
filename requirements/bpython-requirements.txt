@@ -3,7 +3,7 @@ charset-normalizer==3.3.2
 curtsies==0.4.2
 cwcwidth==0.1.9
 greenlet==3.0.3
-idna==3.6
+idna==3.7
 pygments==2.17.2
 pyxdg==0.28
 requests==2.31.0

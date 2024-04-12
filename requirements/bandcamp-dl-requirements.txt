@@ -3,8 +3,7 @@ chardet==5.1.0
 charset-normalizer==3.3.2
 demjson3==3.0.6
 docopt-ng==0.8.1
-idna==3.6
-lxml==5.1.0
+idna==3.7
 mutagen==1.46.0
 pysocks==1.7.1
 requests==2.31.0
