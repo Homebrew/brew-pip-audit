@@ -1,5 +1,5 @@
 charset-normalizer==3.3.2
-idna==3.4
-libvirt-python==9.9.0
+idna==3.7
+libvirt-python==10.2.0
 requests==2.31.0
-urllib3==1.26.18
+urllib3==2.2.1
