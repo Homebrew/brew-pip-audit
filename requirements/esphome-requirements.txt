@@ -16,7 +16,7 @@ esphome-dashboard==20240319.0
 esptool==4.7.0
 h11==0.14.0
 icmplib==3.0.4
-idna==3.6
+idna==3.7
 ifaddr==0.2.0
 intelhex==2.3.0
 kconfiglib==13.7.1

@@ -1,9 +1,9 @@
 charset-normalizer==3.3.2
 dnspython==2.6.1
 expiringdict==1.2.2
-idna==3.6
-publicsuffixlist==0.10.0.20240214
-pyleri==1.4.2
+idna==3.7
+publicsuffixlist==0.10.0.20240412
+pyleri==1.4.3
 requests==2.31.0
 timeout-decorator==0.5.0
 urllib3==2.2.1
