@@ -2,7 +2,7 @@ charset-normalizer==3.3.2
 click==8.1.7
 defusedxml==0.7.1
 httpie==3.2.2
-idna==3.6
+idna==3.7
 markdown-it-py==3.0.0
 mdurl==0.1.2
 multidict==6.0.5
@@ -14,8 +14,8 @@ pyyaml==6.0.1
 regex==2023.12.25
 requests==2.31.0
 requests-toolbelt==1.0.0
-rich==13.7.0
-setuptools==69.1.1
+rich==13.7.1
+setuptools==69.3
 six==1.16.0
 urllib3==2.2.1
 wcwidth==0.2.13

@@ -1,7 +1,7 @@
 charset-normalizer==3.3.2
 contextlib2==21.6.0
 docopt==0.6.2
-idna==3.6
+idna==3.7
 jsonpatch==1.33
 jsonpointer==2.4
 requests==2.31.0
