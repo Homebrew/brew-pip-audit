@@ -1,12 +1,11 @@
 ajsonrpc==1.2.0
 anyio==4.3.0
 bottle==0.12.25
-chardet==5.2.0
 charset-normalizer==3.3.2
 click==8.1.7
 colorama==0.4.6
 h11==0.14.0
-idna==3.6
+idna==3.7
 marshmallow==3.21.1
 packaging==24.0
 pyelftools==0.31

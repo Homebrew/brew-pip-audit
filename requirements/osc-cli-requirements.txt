@@ -1,11 +1,11 @@
 charset-normalizer==3.3.2
 defusedxml==0.7.1
-fire==0.5.0
-idna==3.6
+fire==0.6.0
+idna==3.7
 requests==2.31.0
-setuptools==69.1.0
+setuptools==69.4
 six==1.16.0
 termcolor==2.4.0
-typing-extensions==4.9.0
+typing-extensions==4.11.0
 urllib3==2.2.1
 xmltodict==0.13.0

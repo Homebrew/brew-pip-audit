@@ -4,11 +4,11 @@ bech32==1.2.0
 charset-normalizer==3.3.2
 click==8.1.7
 configargparse==1.7
-docutils==0.20.1
+docutils==0.21.1
 ecdsa==0.19.0
 fido2==0.9.3
 hidapi==0.14.0
-idna==3.6
+idna==3.7
 intelhex==2.3.0
 lib-agent==1.0.6
 lockfile==0.12.2
@@ -24,7 +24,7 @@ python-daemon==3.0.1
 pyusb==1.2.1
 requests==2.31.0
 semver==3.0.2
-setuptools==69.2.0
+setuptools==69.4
 six==1.16.0
 unidecode==1.3.8
 urllib3==2.2.1

@@ -6,7 +6,7 @@ dill==0.3.6
 dnslib==0.9.24
 dnspython==2.6.1
 ecdsa==0.19.0
-idna==3.6
+idna==3.7
 localstack-core==3.3.0
 localstack-ext==3.3.0
 markdown-it-py==3.0.0

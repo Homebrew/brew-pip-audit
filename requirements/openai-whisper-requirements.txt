@@ -1,8 +1,8 @@
 charset-normalizer==3.3.2
-idna==3.6
+idna==3.7
 llvmlite==0.42.0
 more-itertools==10.2.0
-numba==0.59.0
+numba==0.59.1
 regex==2023.12.25
 requests==2.31.0
 tiktoken==0.6.0

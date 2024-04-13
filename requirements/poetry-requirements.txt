@@ -7,8 +7,8 @@ crashtest==0.4.1
 distlib==0.3.8
 dulwich==0.21.7
 fastjsonschema==2.19.1
-filelock==3.13.3
-idna==3.6
+filelock==3.13.4
+idna==3.7
 installer==0.7.0
 jaraco-classes==3.4.0
 keyring==24.3.1
@@ -23,12 +23,12 @@ poetry-plugin-export==1.7.1
 ptyprocess==0.7.0
 pycparser==2.22
 pyproject-hooks==1.0.0
-rapidfuzz==3.7.0
+rapidfuzz==3.8.1
 requests==2.31.0
 requests-toolbelt==1.0.0
 shellingham==1.5.4
 tomlkit==0.12.4
-trove-classifiers==2024.3.25
+trove-classifiers==2024.4.10
 urllib3==2.2.1
 virtualenv==20.25.1
 xattr==1.1.0
