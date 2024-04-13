@@ -4,11 +4,11 @@ click==8.1.7
 decorator==5.1.1
 deprecated==1.2.14
 fabric==3.2.2
-filelock==3.13.1
-idna==3.6
+filelock==3.13.4
+idna==3.7
 invoke==2.2.0
 jinja2==3.1.2
-jsonpickle==3.0.3
+jsonpickle==3.0.4
 markupsafe==2.1.5
 packaging==23.1
 paramiko==3.3.1

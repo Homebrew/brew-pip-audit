@@ -6,12 +6,12 @@ click==8.1.7
 configargparse==1.7
 construct==2.10.70
 construct-classes==0.1.2
-docutils==0.20.1
+docutils==0.21.1
 ecdsa==0.19.0
 ecpy==1.2.5
 future==1.0.0
 hidapi==0.14.0
-idna==3.6
+idna==3.7
 keepkey==6.3.1
 keepkey-agent==0.9.0
 ledger-agent==0.9.0
