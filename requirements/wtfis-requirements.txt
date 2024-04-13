@@ -3,7 +3,7 @@ charset-normalizer==3.3.2
 click==8.1.7
 click-plugins==1.1.1
 colorama==0.4.6
-idna==3.6
+idna==3.7
 markdown-it-py==3.0.0
 mdurl==0.1.2
 pydantic==2.0.3
@@ -13,6 +13,6 @@ python-dotenv==1.0.1
 requests==2.31.0
 rich==13.4.2
 shodan==1.29.1
-typing-extensions==4.9.0
+typing-extensions==4.11.0
 urllib3==2.2.1
 xlsxwriter==3.2.0
