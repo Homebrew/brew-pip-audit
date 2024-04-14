@@ -6,7 +6,7 @@ cloup==2.1.2
 cython==3.0.10
 decorator==5.1.1
 glcontext==2.5.0
-idna==3.6
+idna==3.7
 isosurfaces==0.1.0
 manimpango==0.5.0
 mapbox-earcut==1.0.1
