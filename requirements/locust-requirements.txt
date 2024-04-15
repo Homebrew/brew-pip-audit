@@ -18,7 +18,7 @@ psutil==5.9.8
 pyzmq==25.1.2
 requests==2.31.0
 roundrobin==0.0.4
-setuptools==69.4
+setuptools==69.5.1
 urllib3==2.2.1
 werkzeug==3.0.2
 zope-event==5.0

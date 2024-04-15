@@ -1,4 +1,4 @@
-argcomplete==3.2.2
+argcomplete==3.2.3
 pyyaml==6.0.1
-tomlkit==0.12.3
+tomlkit==0.12.4
 xmltodict==0.13.0

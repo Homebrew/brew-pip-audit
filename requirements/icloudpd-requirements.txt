@@ -3,8 +3,7 @@ charset-normalizer==3.3.2
 click==8.1.6
 contextlib2==21.6.0
 idna==3.6
-importlib-metadata==7.0.1
-jaraco-classes==3.3.0
+jaraco-classes==3.4.0
 keyring==23.13.1
 keyrings-alt==4.2.0
 more-itertools==10.2.0
@@ -16,7 +15,6 @@ requests==2.31.0
 schema==0.7.5
 six==1.16.0
 tqdm==4.66.0
-tzdata==2023.4
+tzdata==2024.1
 tzlocal==4.3.1
 urllib3==1.26.16
-zipp==3.17.0
