@@ -1,7 +1,7 @@
-argcomplete==3.2.2
+argcomplete==3.3.0
 colorlog==6.8.2
 distlib==0.3.8
-filelock==3.13.1
-packaging==23.2
+filelock==3.13.4
+packaging==24.0
 platformdirs==4.2.0
 virtualenv==20.25.1
