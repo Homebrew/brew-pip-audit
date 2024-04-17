@@ -1,8 +1,8 @@
-aioesphomeapi==23.1.1
+aioesphomeapi==23.2.0
 aiohappyeyeballs==2.3.2
 ajsonrpc==1.2.0
 anyio==4.3.0
-argcomplete==3.2.3
+argcomplete==3.3.0
 async-interrupt==1.1.1
 bitarray==2.9.2
 bitstring==4.1.4
@@ -12,7 +12,7 @@ charset-normalizer==3.3.2
 click==8.1.7
 colorama==0.4.6
 ecdsa==0.19.0
-esphome-dashboard==20240319.0
+esphome-dashboard==20240412.0
 esptool==4.7.0
 h11==0.14.0
 icmplib==3.0.4
