@@ -1,4 +1,4 @@
-packaging==23.2
+packaging==24.0
 platformdirs==4.2.0
 pycurl==7.45.3
 structlog==24.1.0

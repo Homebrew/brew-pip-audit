@@ -8,11 +8,11 @@ idna==3.7
 iniconfig==2.0.0
 packaging==24.0
 pluggy==1.4.0
-pytest==7.4.4
+pytest==8.1.1
 pyyaml==6.0.1
 rapidfuzz==3.8.1
 requests==2.31.0
 six==1.16.0
 smmap==5.0.1
-thefuzz==0.20.0
+thefuzz==0.22.1
 urllib3==2.2.1
