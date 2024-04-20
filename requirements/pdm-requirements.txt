@@ -3,9 +3,9 @@ blinker==1.7.0
 dep-logic==0.2.0
 distlib==0.3.8
 filelock==3.13.4
-findpython==0.6.0
+findpython==0.6.1
 h11==0.14.0
-hishel==0.0.25
+hishel==0.0.26
 httpcore==1.0.5
 httpx==0.27.0
 idna==3.7
@@ -27,7 +27,7 @@ socksio==1.0.0
 tomlkit==0.12.4
 truststore==0.8.0
 typing-extensions==4.11.0
-unearth==0.15.1
-virtualenv==20.25.1
+unearth==0.15.2
+virtualenv==20.25.3
 wheel==0.43.0
 zstandard==0.22.0
