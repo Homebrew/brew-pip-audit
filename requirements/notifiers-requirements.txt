@@ -7,5 +7,4 @@ jsonschema-specifications==2023.12.1
 referencing==0.34.0
 requests==2.31.0
 rpds-py==0.18.0
-setuptools==69.4
 urllib3==2.2.1
