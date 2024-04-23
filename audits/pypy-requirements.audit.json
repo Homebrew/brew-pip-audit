@@ -205,7 +205,7 @@
         }
       },
       {
-        "modified": "2024-02-21T05:33:12Z",
+        "modified": "2024-04-22T15:12:43Z",
         "published": "2023-10-25T18:32:26Z",
         "schema_version": "1.6.0",
         "id": "GHSA-mq26-g339-26xf",
@@ -403,6 +403,10 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/pypa/pip"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/YBSB3SUPQ3VIFYUMHPO3MEQI4BJAXKCZ"
           },
           {
             "type": "WEB",
