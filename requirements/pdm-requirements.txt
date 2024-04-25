@@ -15,7 +15,7 @@ mdurl==0.1.2
 msgpack==1.0.8
 packaging==24.0
 pbs-installer==2024.4.1
-platformdirs==4.2.0
+platformdirs==4.2.1
 pygments==2.17.2
 pyproject-hooks==1.0.0
 python-dotenv==1.0.1
@@ -28,6 +28,6 @@ tomlkit==0.12.4
 truststore==0.8.0
 typing-extensions==4.11.0
 unearth==0.15.2
-virtualenv==20.25.3
+virtualenv==20.26.0
 wheel==0.43.0
 zstandard==0.22.0

@@ -1,2 +1,2 @@
 mypy-extensions==1.0.0
-typing-extensions==4.10.0
+typing-extensions==4.11.0
