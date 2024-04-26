@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-04-15T18:28:40Z",
+        "modified": "2024-04-26T03:46:39Z",
         "published": "2024-04-15T03:31:00Z",
         "schema_version": "1.6.0",
         "id": "GHSA-mr82-8j83-vxmv",
@@ -209,6 +209,10 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/pydantic/pydantic"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/6JBZLMSH4GAZOVBMT2JUO2LXHY7M2ALI"
           }
         ],
         "database_specific": {

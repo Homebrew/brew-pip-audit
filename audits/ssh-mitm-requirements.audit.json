@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-03-14T22:02:47Z",
+        "modified": "2024-04-26T00:46:03Z",
         "published": "2023-12-18T19:22:09Z",
         "schema_version": "1.6.0",
         "id": "GHSA-45x7-px36-x8w8",
@@ -407,6 +407,10 @@
           },
           {
             "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y"
+          },
+          {
+            "type": "WEB",
             "url": "https://github.com/rapier1/hpn-ssh/releases"
           },
           {
@@ -503,10 +507,6 @@
           },
           {
             "type": "WEB",
-            "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/F7EYCFQCTSGJXWO3ZZ44MGKFC5HA7G3Y"
-          },
-          {
-            "type": "WEB",
             "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/CHHITS4PUOZAKFIUBQAQZC7JWXMOYE4B"
           },
           {
@@ -540,6 +540,10 @@
           {
             "type": "WEB",
             "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/33XHJUB6ROFUOH2OQNENFROTVH6MHSHA"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.debian.org/debian-lts-announce/2024/04/msg00016.html"
           },
           {
             "type": "WEB",

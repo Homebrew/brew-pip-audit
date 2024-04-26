@@ -25,7 +25,7 @@ billiard==4.2.0
 boto3==1.34.69
 botocore==1.34.69
 cachetools==5.3.3
-celery==5.3.6
+celery==5.4.0
 charset-normalizer==3.3.2
 click==8.1.7
 click-didyoumean==0.3.1
@@ -39,7 +39,7 @@ dictdiffer==0.9.0
 diskcache==5.6.3
 distro==1.9.0
 dpath==2.1.6
-dulwich==0.21.7
+dulwich==0.22.1
 dvc-azure==3.1.0
 dvc-data==3.15.1
 dvc-gdrive==3.0.1
@@ -66,7 +66,7 @@ gcsfs==2024.3.1
 gitdb==4.0.11
 gitpython==3.1.43
 google-api-core==2.18.0
-google-api-python-client==2.126.0
+google-api-python-client==2.127.0
 google-auth==2.29.0
 google-auth-httplib2==0.2.0
 google-auth-oauthlib==1.2.0
@@ -108,12 +108,12 @@ prompt-toolkit==3.0.43
 proto-plus==1.23.0
 protobuf==4.25.3
 psutil==5.9.8
-pyarrow==15.0.2
+pyarrow==16.0.0
 pyasn1==0.6.0
 pyasn1-modules==0.4.0
 pycryptodome==3.20.0
-pydantic==2.7.0
-pydantic-core==2.18.1
+pydantic==2.7.1
+pydantic-core==2.18.2
 pydot==2.0.0
 pydrive2==1.19.0
 pygit2==1.14.1
@@ -132,7 +132,7 @@ ruamel-yaml==0.18.6
 ruamel-yaml-clib==0.2.8
 s3fs==2024.3.1
 s3transfer==0.10.1
-scmrepo==3.3.1
+scmrepo==3.3.2
 semver==3.0.2
 setuptools==69.5.1
 shellingham==1.5.4
@@ -142,7 +142,7 @@ six==1.16.0
 smmap==5.0.1
 sniffio==1.3.1
 sqltrie==0.11.0
-sshfs==2023.10.0
+sshfs==2024.4.1
 tabulate==0.9.0
 tomlkit==0.12.4
 tqdm==4.66.2
