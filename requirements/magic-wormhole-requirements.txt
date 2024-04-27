@@ -14,7 +14,7 @@ pyasn1-modules==0.4.0
 pynacl==1.5.0
 pyopenssl==24.1.0
 service-identity==24.1.0
-setuptools==69.4
+setuptools==69.5.1
 six==1.16.0
 spake2==0.8
 tqdm==4.66.2
@@ -22,6 +22,5 @@ twisted==24.3.0
 txaio==23.1.1
 txtorcon==23.11.0
 typing-extensions==4.11.0
-wheel==0.43.0
 zipstream-ng==1.7.1
 zope-interface==6.3

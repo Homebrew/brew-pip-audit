@@ -29,5 +29,4 @@ truststore==0.8.0
 typing-extensions==4.11.0
 unearth==0.15.2
 virtualenv==20.26.0
-wheel==0.43.0
 zstandard==0.22.0

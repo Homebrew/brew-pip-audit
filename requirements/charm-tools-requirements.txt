@@ -20,7 +20,7 @@ path==16.14.0
 path-py==12.5.0
 pathspec==0.10.3
 pip==22.3.1
-platformdirs==4.2.0
+platformdirs==4.2.1
 pyrsistent==0.20.0
 pyyaml==6.0.1
 requests==2.31.0
@@ -28,12 +28,11 @@ requirements-parser==0.5.0
 ruamel-yaml==0.17.40
 ruamel-yaml-clib==0.2.8
 secretstorage==3.3.3
-setuptools==69.2.0
+setuptools==69.5.1
 six==1.16.0
 stuf==0.9.16
 translationstring==1.4
-types-setuptools==69.2.0.20240317
+types-setuptools==69.5.0.20240423
 urllib3==2.2.1
 vergit==1.0.2
-virtualenv==20.25.1
-wheel==0.43.0
+virtualenv==20.26.0
