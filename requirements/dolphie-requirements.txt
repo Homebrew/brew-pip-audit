@@ -1,4 +1,6 @@
+cffi==1.16.0
 charset-normalizer==3.3.2
+cython==3.0.10
 idna==3.7
 linkify-it-py==2.0.3
 markdown-it-py==3.0.0
@@ -7,13 +9,16 @@ mdurl==0.1.2
 myloginpath==0.0.4
 packaging==24.0
 plotext==5.2.8
-pygments==2.17.2
+pycparser==2.22
+Pygments==2.17.2
 pymysql==1.1.0
 requests==2.31.0
 rich==13.7.1
+setuptools==69.5.1
 sqlparse==0.4.4
-textual==0.56.4
+textual==0.57.1
 textual-autocomplete==2.1.0b0
+tree-sitter==0.20.4
 typing-extensions==4.11.0
 uc-micro-py==1.0.3
 urllib3==2.2.1
