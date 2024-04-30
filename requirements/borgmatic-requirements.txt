@@ -5,7 +5,7 @@ idna==3.7
 jsonschema==4.21.1
 jsonschema-specifications==2023.12.1
 packaging==24.0
-referencing==0.34.0
+referencing==0.35.0
 requests==2.31.0
 rpds-py==0.18.0
 ruamel-yaml==0.18.6

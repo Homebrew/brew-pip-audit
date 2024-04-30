@@ -9,5 +9,5 @@ tomlkit==0.12.4
 typing-extensions==4.11.0
 urllib3==2.2.1
 urwid==2.6.10
-urwidgets==0.1.1
+urwidgets==0.2.0
 wcwidth==0.2.13

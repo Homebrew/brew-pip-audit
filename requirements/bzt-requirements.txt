@@ -1,5 +1,5 @@
 aiodogstatsd==0.16.0.post0
-aiohttp==3.9.4
+aiohttp==3.9.5
 aiosignal==1.3.1
 astunparse==1.6.3
 attrs==23.2.0
@@ -15,7 +15,7 @@ h11==0.14.0
 hdrpy==0.3.3
 humanize==4.9.0
 idna==3.7
-influxdb==5.3.1
+influxdb==5.3.2
 lxml==5.2.1
 molotov==2.6
 msgpack==1.0.8
@@ -39,7 +39,7 @@ terminaltables==3.1.10
 urllib3==1.26.17
 urwid==2.1.2
 wcwidth==0.2.13
-websocket-client==1.7.0
+websocket-client==1.8.0
 wheel==0.43.0
 wsproto==1.2.0
 yarl==1.9.4
