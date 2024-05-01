@@ -114,14 +114,14 @@
         }
       },
       {
-        "modified": "2024-04-26T17:12:07Z",
+        "modified": "2024-05-01T07:45:59Z",
         "published": "2024-04-26T00:30:35Z",
         "schema_version": "1.6.0",
         "id": "GHSA-cjwg-qfpm-7377",
         "aliases": [
           "CVE-2024-33664"
         ],
-        "summary": "python-jose denial of service via compressed JWT tokens",
+        "summary": "python-jose denial of service via compressed JWE content",
         "details": "python-jose through 3.3.0 allows attackers to cause a denial of service (resource consumption) during a decode via a crafted JSON Web Encryption (JWE) token with a high compression ratio, aka a \"JWT bomb.\" This is similar to CVE-2024-21319.",
         "affected": [
           {

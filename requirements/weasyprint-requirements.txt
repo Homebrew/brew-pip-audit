@@ -1,12 +1,12 @@
 brotli==1.1.0
 cffi==1.16.0
 cssselect2==0.7.0
-fonttools==4.49.0
+fonttools==4.51.0
 html5lib==1.1
-pycparser==2.21
-pydyf==0.9.0
-pyphen==0.14.0
+pycparser==2.22
+pydyf==0.10.0
+pyphen==0.15.0
 six==1.16.0
-tinycss2==1.2.1
+tinycss2==1.3.0
 webencodings==0.5.1
 zopfli==0.2.3
