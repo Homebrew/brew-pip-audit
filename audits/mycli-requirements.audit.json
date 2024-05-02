@@ -135,7 +135,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-05-01T02:11:46Z",
+        "modified": "2024-05-01T11:15:56Z",
         "published": "2024-04-15T20:21:25Z",
         "schema_version": "1.6.0",
         "id": "GHSA-2m57-hf25-phgg",
@@ -220,12 +220,20 @@
             "url": "https://github.com/andialbrecht/sqlparse/security/advisories/GHSA-2m57-hf25-phgg"
           },
           {
+            "type": "ADVISORY",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-4340"
+          },
+          {
             "type": "WEB",
             "url": "https://github.com/andialbrecht/sqlparse/commit/b4a39d9850969b4e1d6940d32094ee0b42a2cf03"
           },
           {
             "type": "PACKAGE",
             "url": "https://github.com/andialbrecht/sqlparse"
+          },
+          {
+            "type": "WEB",
+            "url": "https://research.jfrog.com/vulnerabilities/sqlparse-stack-exhaustion-dos-jfsa-2024-001031292"
           }
         ],
         "database_specific": {

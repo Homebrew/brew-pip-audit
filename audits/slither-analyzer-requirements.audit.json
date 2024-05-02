@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-04-18T16:49:31Z",
+        "modified": "2024-05-02T03:49:07Z",
         "published": "2024-04-18T13:45:21Z",
         "schema_version": "1.6.0",
         "id": "GHSA-7gpw-8wmc-pm8g",
@@ -305,6 +305,18 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/aio-libs/aiohttp"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/2EXRGTN2WG7VZLUZ7WOXU5GQJKCPPHKP"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/NWEI6NIHZ3G7DURDZVMRK7ZEFC2BTD3U"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZIVBMPEY7WWOFMC3CWXFBRQPFECV4SW3"
           }
         ],
         "database_specific": {
