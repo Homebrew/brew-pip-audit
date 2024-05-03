@@ -305,7 +305,7 @@
         }
       },
       {
-        "modified": "2024-02-16T21:11:52Z",
+        "modified": "2024-05-02T13:32:49Z",
         "published": "2024-01-26T09:30:23Z",
         "schema_version": "1.6.0",
         "id": "GHSA-9v9h-cgj8-h64p",
@@ -523,6 +523,10 @@
           {
             "type": "WEB",
             "url": "https://www.openssl.org/news/secadv/20240125.txt"
+          },
+          {
+            "type": "WEB",
+            "url": "http://www.openwall.com/lists/oss-security/2024/03/11/1"
           }
         ],
         "database_specific": {

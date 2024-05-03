@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-04-26T00:46:03Z",
+        "modified": "2024-05-02T13:32:02Z",
         "published": "2023-12-18T19:22:09Z",
         "schema_version": "1.6.0",
         "id": "GHSA-45x7-px36-x8w8",
@@ -620,6 +620,14 @@
           {
             "type": "WEB",
             "url": "http://www.openwall.com/lists/oss-security/2023/12/20/3"
+          },
+          {
+            "type": "WEB",
+            "url": "http://www.openwall.com/lists/oss-security/2024/03/06/3"
+          },
+          {
+            "type": "WEB",
+            "url": "http://www.openwall.com/lists/oss-security/2024/04/17/8"
           }
         ],
         "database_specific": {
