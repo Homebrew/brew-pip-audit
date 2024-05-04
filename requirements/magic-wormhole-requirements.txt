@@ -17,7 +17,7 @@ service-identity==24.1.0
 setuptools==69.5.1
 six==1.16.0
 spake2==0.8
-tqdm==4.66.2
+tqdm==4.66.4
 twisted==24.3.0
 txaio==23.1.1
 txtorcon==23.11.0

@@ -5,9 +5,9 @@ dnspython==2.6.1
 gssapi==1.8.3
 ldap3==2.9.1
 oscrypto==1.3.0
-pyasn1==0.5.1
+pyasn1==0.6.0
 pycryptodome==3.20.0
 pycryptodomex==3.20.0
 six==1.16.0
 termcolor==2.4.0
-tqdm==4.66.2
+tqdm==4.66.4

@@ -4,8 +4,8 @@ attrs==23.2.0
 azure-core==1.30.1
 azure-identity==1.16.0
 azure-monitor-ingestion==1.0.3
-boto3==1.34.87
-botocore==1.34.87
+boto3==1.34.98
+botocore==1.34.98
 cachetools==5.3.3
 charset-normalizer==3.3.2
 dateparser==1.2.0
@@ -15,8 +15,8 @@ elasticsearch-dsl==7.4.0
 expiringdict==1.2.2
 frozenlist==1.4.1
 geoip2==4.8.0
-google-api-core==2.18.0
-google-api-python-client==2.126.0
+google-api-core==2.19.0
+google-api-python-client==2.127.0
 google-auth==2.29.0
 google-auth-httplib2==0.2.0
 google-auth-oauthlib==1.2.0
@@ -43,14 +43,14 @@ portalocker==2.8.2
 proto-plus==1.23.0
 protobuf==4.25.3
 publicsuffix2==2.20191221
-publicsuffixlist==0.10.0.20240416
+publicsuffixlist==0.10.0.20240503
 pyasn1==0.6.0
 pyasn1-modules==0.4.0
 pyjwt==2.8.0
 pyparsing==3.1.2
 python-dateutil==2.9.0.post0
 pytz==2024.1
-regex==2024.4.16
+regex==2024.4.28
 requests==2.31.0
 requests-oauthlib==2.0.0
 rsa==4.9
@@ -58,7 +58,7 @@ s3transfer==0.10.1
 setuptools==69.5.1
 simplejson==3.19.2
 six==1.16.0
-tqdm==4.66.2
+tqdm==4.66.4
 typing-extensions==4.11.0
 tzlocal==5.2
 uritemplate==4.1.1

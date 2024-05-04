@@ -3,8 +3,8 @@ idna==3.7
 llvmlite==0.42.0
 more-itertools==10.2.0
 numba==0.59.1
-regex==2023.12.25
+regex==2024.4.28
 requests==2.31.0
 tiktoken==0.6.0
-tqdm==4.66.2
+tqdm==4.66.4
 urllib3==2.2.1

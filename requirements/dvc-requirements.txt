@@ -20,7 +20,7 @@ azure-core==1.30.1
 azure-datalake-store==0.0.53
 azure-identity==1.16.0
 azure-storage-blob==12.19.1
-bcrypt==4.1.2
+bcrypt==4.1.3
 billiard==4.2.0
 boto3==1.34.69
 botocore==1.34.69
@@ -56,7 +56,7 @@ dvc-task==0.4.0
 dvc-webdav==3.0.0
 dvc-webhdfs==3.1.0
 entrypoints==0.4
-filelock==3.13.4
+filelock==3.14.0
 flatten-dict==0.4.2
 flufl-lock==7.1.1
 frozenlist==1.4.1
@@ -65,7 +65,7 @@ funcy==2.0
 gcsfs==2024.3.1
 gitdb==4.0.11
 gitpython==3.1.43
-google-api-core==2.18.0
+google-api-core==2.19.0
 google-api-python-client==2.127.0
 google-auth==2.29.0
 google-auth-httplib2==0.2.0
@@ -97,7 +97,7 @@ networkx==3.3
 oauth2client==4.1.3
 oauthlib==3.2.2
 omegaconf==2.3.0
-orjson==3.10.1
+orjson==3.10.3
 oss2==2.18.1
 ossfs==2023.12.0
 packaging==24.0
@@ -145,7 +145,7 @@ sqltrie==0.11.0
 sshfs==2024.4.1
 tabulate==0.9.0
 tomlkit==0.12.4
-tqdm==4.66.2
+tqdm==4.66.4
 typer==0.12.3
 typing-extensions==4.11.0
 tzdata==2024.1

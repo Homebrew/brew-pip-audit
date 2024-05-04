@@ -12,6 +12,6 @@ requests==2.31.0
 rst2ansi==0.1.5
 six==1.16.0
 tabulate==0.9.0
-tqdm==4.66.2
+tqdm==4.66.4
 types-python-dateutil==2.9.0.20240316
 urllib3==2.2.1
