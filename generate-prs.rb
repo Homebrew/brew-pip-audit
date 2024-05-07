@@ -20,6 +20,8 @@ SKIP_FORMULA = [
   "recon-ng",
   # Installable packages are in a sub-directory
   "azure-cli",
+  # source tarball doesn't work with this, due to setuptools_scm issues
+  "charmcraft",
 ]
 
 PR_LIMIT = ENV.fetch("HOMEBREW_AUTO_PR_LIMIT", 25).to_i
