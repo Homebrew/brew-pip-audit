@@ -4,10 +4,10 @@ attrs==23.2.0
 aws-lambda-builders==1.49.0
 aws-sam-translator==1.87.0
 binaryornot==0.4.4
-blinker==1.8.1
-boto3==1.34.97
+blinker==1.8.2
+boto3==1.34.99
 boto3-stubs==1.34.92
-botocore==1.34.97
+botocore==1.34.99
 botocore-stubs==1.34.94
 cfn-lint==0.86.4
 chardet==5.2.0
@@ -20,7 +20,7 @@ docker==7.0.0
 flask==3.0.3
 idna==3.7
 itsdangerous==2.2.0
-jinja2==3.1.3
+jinja2==3.1.4
 jmespath==1.0.1
 jschema-to-python==1.2.3
 jsonpatch==1.33
@@ -52,7 +52,7 @@ packaging==24.0
 pbr==6.0.0
 pydantic==2.7.1
 pydantic-core==2.18.2
-pygments==2.17.2
+pygments==2.18.0
 pyopenssl==24.1.0
 python-dateutil==2.9.0.post0
 python-slugify==8.0.4
@@ -62,7 +62,7 @@ referencing==0.35.1
 regex==2024.4.28
 requests==2.31.0
 rich==13.7.1
-rpds-py==0.18.0
+rpds-py==0.18.1
 ruamel-yaml==0.18.6
 ruamel-yaml-clib==0.2.8
 s3transfer==0.10.1
@@ -79,5 +79,5 @@ typing-extensions==4.11.0
 tzlocal==5.2
 urllib3==2.2.1
 watchdog==4.0.0
-werkzeug==3.0.2
+werkzeug==3.0.3
 wheel==0.43.0

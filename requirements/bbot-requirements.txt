@@ -1,7 +1,7 @@
 aioconsole==0.6.2
 annotated-types==0.6.0
 ansible==7.7.0
-ansible-core==2.14.15
+ansible-core==2.14.16
 ansible-runner==2.3.6
 antlr4-python3-runtime==4.9.3
 anyio==4.3.0
@@ -11,13 +11,13 @@ charset-normalizer==3.3.2
 cloudcheck==2.2.0.203
 deepdiff==6.7.1
 dnspython==2.6.1
-docutils==0.21.1
-filelock==3.13.4
+docutils==0.21.2
+filelock==3.14.0
 h11==0.14.0
 httpcore==1.0.5
 httpx==0.26.0
 idna==3.7
-jinja2==3.1.3
+jinja2==3.1.4
 lockfile==0.12.2
 lxml==4.9.4
 markupsafe==2.1.5
@@ -28,8 +28,8 @@ pexpect==4.9.0
 psutil==5.9.8
 ptyprocess==0.7.0
 pycryptodome==3.20.0
-pydantic==2.7.0
-pydantic-core==2.18.1
+pydantic==2.7.1
+pydantic-core==2.18.2
 pyjwt==2.8.0
 python-daemon==3.0.1
 pyyaml==6.0.1
