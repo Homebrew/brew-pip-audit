@@ -1,5 +1,5 @@
-botocore==1.34.90
-colorama==0.4.4
+botocore==1.34.100
+colorama==0.4.6
 docutils==0.16
 jmespath==1.0.1
 pyasn1==0.6.0
