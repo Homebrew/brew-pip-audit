@@ -111,7 +111,7 @@ for path in Dir.entries("audits").sort
   # TODO: Updating Python resources automatically can fail for myriad reasons;
   # we should try and handle some of them.
   begin
-    PyPI.update_python_resources!(formula)
+    PyPI.update_python_resources!(formula, verbose: true)
   rescue SystemExit => e
     opoo "#{formula_name} update_python_resources! failed: suppressing the previous exit and skipping"
     results.push({formula: formula_name, updated: false, reason: "`update_python_resources!` failed: #{e}"})
