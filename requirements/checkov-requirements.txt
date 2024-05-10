@@ -65,7 +65,7 @@ rdflib==7.0.0
 referencing==0.35.1
 regex==2024.4.28
 requests==2.31.0
-rpds-py==0.18.0
+rpds-py==0.18.1
 rustworkx==0.13.2
 s3transfer==0.10.1
 schema==0.7.5
