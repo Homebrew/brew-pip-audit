@@ -1,9 +1,9 @@
 cfgv==3.4.0
 distlib==0.3.8
-filelock==3.13.1
-identify==2.5.35
+filelock==3.14.0
+identify==2.5.36
 nodeenv==1.8.0
-platformdirs==4.2.0
+platformdirs==4.2.1
 pyyaml==6.0.1
-setuptools==69.2.0
-virtualenv==20.25.1
+setuptools==69.5.1
+virtualenv==20.26.1

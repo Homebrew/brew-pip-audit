@@ -1,2 +1,2 @@
-json5==0.9.14
-packaging==23.2
+json5==0.9.25
+packaging==24.0
