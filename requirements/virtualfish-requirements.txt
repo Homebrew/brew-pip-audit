@@ -1,7 +1,7 @@
 distlib==0.3.8
-filelock==3.13.4
+filelock==3.14.0
 packaging==24.0
 pkgconfig==1.5.5
 platformdirs==4.2.1
 psutil==5.9.8
-virtualenv==20.26.0
+virtualenv==20.26.1
