@@ -1,2 +1,2 @@
-graphviz==0.20.1
-setuptools==69.2.0
+graphviz==0.20.3
+packaging==24.0
