@@ -1,6 +1,5 @@
 click==8.1.7
 cloup==3.0.5
-cython==3.0.10
 decorator==5.1.1
 glcontext==2.5.0
 isosurfaces==0.1.2
@@ -12,8 +11,6 @@ moderngl==5.10.0
 moderngl-window==2.4.5
 multipledispatch==1.0.0
 networkx==3.3
-pillow==10.0.1
-pycairo==1.26.0
 pydub==0.25.1
 pyglet==2.0.15
 pygments==2.17.2
@@ -21,7 +18,6 @@ pyobjc-core==10.2
 pyobjc-framework-cocoa==10.2
 pyrr==0.10.3
 rich==13.7.1
-scipy==1.13.0
 screeninfo==0.8.1
 skia-pathops==0.8.0.post1
 srt==3.5.3
