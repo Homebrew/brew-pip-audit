@@ -5,7 +5,7 @@ cheetah3==3.2.6.post1
 colander==1.8.3
 dict2colander==0.2
 distlib==0.3.8
-filelock==3.13.4
+filelock==3.14.0
 idna==3.7
 iso8601==2.1.0
 jaraco-classes==3.4.0
@@ -20,10 +20,10 @@ path==16.14.0
 path-py==12.5.0
 pathspec==0.10.3
 pip==22.3.1
-platformdirs==4.2.1
+platformdirs==4.2.2
 pyrsistent==0.20.0
 pyyaml==6.0.1
-requests==2.31.0
+requests==2.32.1
 requirements-parser==0.5.0
 ruamel-yaml==0.17.40
 ruamel-yaml-clib==0.2.8
@@ -32,7 +32,7 @@ setuptools==69.5.1
 six==1.16.0
 stuf==0.9.16
 translationstring==1.4
-types-setuptools==69.5.0.20240423
+types-setuptools==69.5.0.20240519
 urllib3==2.2.1
 vergit==1.0.2
-virtualenv==20.26.0
+virtualenv==20.26.2
