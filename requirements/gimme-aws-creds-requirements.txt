@@ -3,8 +3,8 @@ aiohttp==3.9.5
 aiosignal==1.3.1
 attrs==23.2.0
 beautifulsoup4==4.12.3
-boto3==1.34.103
-botocore==1.34.103
+boto3==1.34.109
+botocore==1.34.109
 charset-normalizer==3.3.2
 ctap-keyring-device==1.0.6
 ecdsa==0.19.0
@@ -18,7 +18,7 @@ jaraco-classes==3.4.0
 jaraco-context==5.3.0
 jaraco-functools==4.0.1
 jmespath==1.0.1
-keyring==25.2.0
+keyring==25.2.1
 more-itertools==10.2.0
 multidict==6.0.5
 okta==2.9.6
@@ -34,7 +34,7 @@ pyobjc-framework-security==10.2
 python-dateutil==2.9.0.post0
 python-jose==3.3.0
 pyyaml==6.0.1
-requests==2.31.0
+requests==2.32.1
 rsa==4.9
 s3transfer==0.10.1
 six==1.16.0

@@ -10,6 +10,6 @@ markdown==3.6
 markupsafe==2.1.5
 path-and-address==2.0.1
 pygments==2.18.0
-requests==2.31.0
+requests==2.32.1
 urllib3==2.2.1
 werkzeug==3.0.3

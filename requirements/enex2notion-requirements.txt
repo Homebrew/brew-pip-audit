@@ -12,7 +12,7 @@ python-dateutil==2.9.0.post0
 python-slugify==6.1.2
 pytz-deprecation-shim==0.1.0.post0
 ratelimit==2.2.1
-requests==2.31.0
+requests==2.32.1
 six==1.16.0
 soupsieve==2.5
 text-unidecode==1.3
