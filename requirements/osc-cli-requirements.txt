@@ -2,8 +2,8 @@ charset-normalizer==3.3.2
 defusedxml==0.7.1
 fire==0.6.0
 idna==3.7
-requests==2.31.0
-setuptools==69.4
+requests==2.32.2
+setuptools==70.0.0
 six==1.16.0
 termcolor==2.4.0
 typing-extensions==4.11.0
