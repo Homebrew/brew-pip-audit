@@ -17,8 +17,8 @@ netdisco==3.0.0
 ply==3.11
 python-dateutil==2.9.0.post0
 pytz==2024.1
-regex==2024.4.28
-requests==2.31.0
+regex==2024.5.15
+requests==2.32.2
 ruamel-yaml==0.17.40
 ruamel-yaml-clib==0.2.8
 six==1.16.0

@@ -1,10 +1,10 @@
 charset-normalizer==3.3.2
 filelock==3.14.0
-fsspec==2024.3.1
+fsspec==2024.5.0
 idna==3.7
 packaging==24.0
 pyyaml==6.0.1
-requests==2.31.0
+requests==2.32.1
 tqdm==4.66.4
 typing-extensions==4.11.0
 urllib3==2.2.1

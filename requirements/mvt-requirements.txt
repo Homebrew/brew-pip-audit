@@ -12,9 +12,9 @@ packaging==24.0
 pyahocorasick==2.1.0
 pyasn1==0.6.0
 pycryptodome==3.20.0
-pygments==2.17.2
+pygments==2.18.0
 pyyaml==6.0.1
-requests==2.31.0
+requests==2.32.2
 rich==13.7.1
 rsa==4.9
 simplejson==3.19.2

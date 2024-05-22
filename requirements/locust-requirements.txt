@@ -1,4 +1,4 @@
-blinker==1.8.1
+blinker==1.8.2
 brotli==1.1.0
 charset-normalizer==3.3.2
 click==8.1.7
@@ -16,9 +16,9 @@ markupsafe==2.1.5
 msgpack==1.0.8
 psutil==5.9.8
 pyzmq==26.0.3
-requests==2.31.0
-setuptools==69.5.1
+requests==2.32.2
+setuptools==70.0.0
 urllib3==2.2.1
 werkzeug==3.0.3
 zope-event==5.0
-zope-interface==6.3
+zope-interface==6.4
