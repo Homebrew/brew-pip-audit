@@ -8,7 +8,7 @@ graphql-core==3.2.3
 h11==0.14.0
 httpcore==1.0.5
 httpx==0.27.0
-hypothesis==6.100.6
+hypothesis==6.102.4
 hypothesis-graphql==0.11.0
 hypothesis-jsonschema==0.23.1
 idna==3.7
@@ -21,11 +21,11 @@ multidict==6.0.5
 packaging==24.0
 pluggy==1.5.0
 pyrate-limiter==3.6.1
-pytest==8.2.0
+pytest==8.2.1
 pytest-subtests==0.7.0
 pyyaml==6.0.1
 referencing==0.35.1
-requests==2.31.0
+requests==2.32.2
 rpds-py==0.18.1
 six==1.16.0
 sniffio==1.3.1

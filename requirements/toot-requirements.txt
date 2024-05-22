@@ -2,12 +2,12 @@ beautifulsoup4==4.12.3
 charset-normalizer==3.3.2
 click==8.1.7
 idna==3.7
-requests==2.31.0
+requests==2.32.2
 soupsieve==2.5
 term-image==0.7.0
-tomlkit==0.12.4
+tomlkit==0.12.5
 typing-extensions==4.11.0
 urllib3==2.2.1
-urwid==2.6.10
-urwidgets==0.2.0
+urwid==2.6.12
+urwidgets==0.1.1
 wcwidth==0.2.13

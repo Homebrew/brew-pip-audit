@@ -1,4 +1,4 @@
-annotated-types==0.6.0
+annotated-types==0.7.0
 argon2-cffi==23.1.0
 argon2-cffi-bindings==21.2.0
 asciitree==0.3.3
@@ -22,11 +22,11 @@ pycryptodome==3.20.0
 pydantic==2.7.1
 pydantic-core==2.18.2
 referencing==0.35.1
-requests==2.31.0
-rpds-py==0.18.0
+requests==2.32.2
+rpds-py==0.18.1
 ruamel-yaml==0.17.40
 ruamel-yaml-clib==0.2.8
-setuptools==69.5.1
+setuptools==70.0.0
 six==1.16.0
 sodapy==2.2.0
 splitgraph-pipelinewise-target-postgres==2.1.0

@@ -1,4 +1,4 @@
-annotated-types==0.6.0
+annotated-types==0.7.0
 betterproto==2.0.0b6
 charset-normalizer==3.3.2
 dnspython==2.6.1
@@ -20,7 +20,7 @@ pygments==2.18.0
 pyjwt==2.8.0
 pyopenssl==24.1.0
 python-dateutil==2.9.0.post0
-requests==2.31.0
+requests==2.32.2
 rfc8785==0.1.2
 rich==13.7.1
 securesystemslib==1.0.0

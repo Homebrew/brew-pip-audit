@@ -9,7 +9,7 @@ markupsafe==2.1.5
 numpydoc==1.7.0
 packaging==24.0
 pygments==2.18.0
-requests==2.31.0
+requests==2.32.2
 snowballstemmer==2.2.0
 sphinxcontrib-applehelp==1.0.8
 sphinxcontrib-devhelp==1.0.6

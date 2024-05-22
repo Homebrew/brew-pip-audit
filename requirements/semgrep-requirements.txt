@@ -18,7 +18,7 @@ packaging==24.0
 peewee==3.17.5
 pygments==2.18.0
 referencing==0.35.1
-requests==2.31.0
+requests==2.32.2
 rich==13.7.1
 rpds-py==0.18.1
 ruamel-yaml==0.17.40
