@@ -6,7 +6,7 @@ dacite==1.8.0
 docker==7.0.0
 faker==24.1.0
 idna==3.6
-jq==1.6.0
+jq==1.7.0
 lxml==5.1.0
 mmh3==4.1.0
 packaging==23.2
