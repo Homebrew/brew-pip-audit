@@ -40,10 +40,3 @@ updates:
       interval: daily
     allow:
       - dependency-type: all
-
-  - package-ecosystem: pip
-    directory: /
-    schedule:
-      interval: daily
-    allow:
-      - dependency-type: all
