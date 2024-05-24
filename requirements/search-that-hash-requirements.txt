@@ -7,7 +7,7 @@ coloredlogs==15.0.1
 commonmark==0.9.1
 humanfriendly==10.0
 idna==3.7
-loguru==0.5.3
+loguru==0.7.2
 name-that-hash==1.10.0
 pygments==2.18.0
 pyparsing==3.1.2
