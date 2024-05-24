@@ -10,9 +10,8 @@ packaging==24.0
 pathspec==0.12.1
 pluggy==1.5.0
 pygments==2.18.0
-pytest==8.2.0
+pytest==8.2.1
 pyyaml==6.0.1
-regex==2024.4.28
+regex==2024.5.15
 tblib==3.0.0
 tqdm==4.66.4
-typing-extensions==4.11.0
