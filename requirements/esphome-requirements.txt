@@ -25,14 +25,14 @@ noiseprotocol==0.3.1
 packaging==24.0
 paho-mqtt==1.6.1
 platformio==6.1.15
-protobuf==5.26.1
+protobuf==5.27.0
 pyelftools==0.31
 pyparsing==3.1.2
 pyserial==3.5
 python-magic==0.4.27
 pyyaml==6.0.1
 reedsolo==1.7.0
-requests==2.32.1
+requests==2.32.2
 ruamel-yaml==0.18.6
 ruamel-yaml-clib==0.2.8
 semantic-version==2.10.0
