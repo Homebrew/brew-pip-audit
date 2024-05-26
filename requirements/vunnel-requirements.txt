@@ -27,7 +27,7 @@ ruff==0.4.5
 six==1.16.0
 sqlalchemy==1.4.52
 toposort==1.10
-typing-extensions==4.11.0
+typing-extensions==4.12.0
 untokenize==0.1.1
 urllib3==2.2.1
 xsdata==24.5
