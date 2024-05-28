@@ -1,11 +1,11 @@
 aioesphomeapi==24.3.0
 aiohappyeyeballs==2.3.2
 ajsonrpc==1.2.0
-anyio==4.3.0
+anyio==4.4.0
 argcomplete==3.3.0
 async-interrupt==1.1.1
 bitarray==2.9.2
-bitstring==4.2.2
+bitstring==4.2.3
 bottle==0.12.25
 chacha20poly1305-reuseable==0.12.1
 charset-normalizer==3.3.2

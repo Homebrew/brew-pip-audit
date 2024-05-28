@@ -4,7 +4,7 @@ fsspec==2024.5.0
 idna==3.7
 packaging==24.0
 pyyaml==6.0.1
-requests==2.32.1
+requests==2.32.2
 tqdm==4.66.4
-typing-extensions==4.11.0
+typing-extensions==4.12.0
 urllib3==2.2.1
