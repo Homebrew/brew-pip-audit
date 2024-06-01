@@ -64,7 +64,7 @@ pyyaml==6.0.1
 rdflib==7.0.0
 referencing==0.35.1
 regex==2024.5.15
-requests==2.32.2
+requests==2.32.3
 rpds-py==0.18.1
 rustworkx==0.13.2
 s3transfer==0.10.1
