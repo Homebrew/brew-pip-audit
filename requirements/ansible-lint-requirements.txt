@@ -1,5 +1,5 @@
-ansible-compat==24.5.1
-ansible-core==2.16.6
+ansible-compat==24.6.0
+ansible-core==2.16.7
 attrs==23.2.0
 black==24.4.2
 bracex==2.4
@@ -27,4 +27,4 @@ ruamel-yaml-clib==0.2.8
 subprocess-tee==0.4.1
 wcmatch==8.5.2
 yamllint==1.35.1
-zipp==3.18.1
+zipp==3.19.1
