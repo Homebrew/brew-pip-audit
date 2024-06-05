@@ -1,4 +1,4 @@
-annotated-types==0.6.0
+annotated-types==0.7.0
 charset-normalizer==3.3.2
 click==8.1.7
 click-plugins==1.1.1
@@ -7,15 +7,15 @@ filelock==3.14.0
 idna==3.7
 markdown-it-py==3.0.0
 mdurl==0.1.2
-pydantic==2.7.1
-pydantic-core==2.18.2
+pydantic==2.7.3
+pydantic-core==2.18.4
 pygments==2.18.0
 python-dotenv==1.0.1
-requests==2.31.0
-requests-file==2.0.0
+requests==2.32.3
+requests-file==2.1.0
 rich==13.7.1
 shodan==1.31.0
 tldextract==5.1.2
-typing-extensions==4.11.0
+typing-extensions==4.12.1
 urllib3==2.2.1
 xlsxwriter==3.2.0
