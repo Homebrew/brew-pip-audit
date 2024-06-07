@@ -1,30 +1,30 @@
 [
   {
     "package": {
-      "name": "esptool",
-      "version": "4.7.0",
+      "name": "jupyter-server",
+      "version": "2.14.0",
       "ecosystem": "PyPI"
     },
     "dependency_groups": [
-      "esphome-requirements"
+      "jupyterlab-requirements"
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-01-02T13:04:16Z",
-        "published": "2023-11-09T16:15:00Z",
+        "modified": "2024-06-06T21:57:14Z",
+        "published": "2024-06-06T21:26:53Z",
         "schema_version": "1.6.0",
-        "id": "PYSEC-2023-234",
+        "id": "GHSA-hrw6-wg82-cm62",
         "aliases": [
-          "CVE-2023-46894",
-          "GHSA-3f38-96qm-r3fw"
+          "CVE-2024-35178"
         ],
-        "details": "An issue discovered in esptool 4.6.2 allows attackers to view sensitive information via weak cryptographic algorithm.",
+        "summary": "Jupyter server on Windows discloses Windows user password hash",
+        "details": "### Summary\n\nJupyter Server on Windows has a vulnerability that lets unauthenticated attackers leak the NTLMv2 password hash of the Windows user running the Jupyter server. An attacker can crack this password to gain access to the Windows machine hosting the Jupyter server, or access other network-accessible machines or 3rd party services using that credential. Or an attacker perform an NTLM relay attack without cracking the credential to gain access to other network-accessible machines.\n\n",
         "affected": [
           {
             "package": {
               "ecosystem": "PyPI",
-              "name": "esptool",
-              "purl": "pkg:pypi/esptool"
+              "name": "jupyter-server",
+              "purl": "pkg:pypi/jupyter-server"
             },
             "ranges": [
               {
@@ -32,63 +32,168 @@
                 "events": [
                   {
                     "introduced": "0"
+                  },
+                  {
+                    "fixed": "2.14.1"
                   }
                 ]
               }
             ],
             "versions": [
+              "0.0.0",
+              "0.0.1",
+              "0.0.2",
+              "0.0.3",
+              "0.0.4",
+              "0.0.5",
+              "0.1.0",
+              "0.1.1",
+              "0.2.0",
+              "0.2.1",
+              "0.3.0",
               "1.0.0",
+              "1.0.0rc0",
+              "1.0.0rc1",
+              "1.0.0rc10",
+              "1.0.0rc11",
+              "1.0.0rc12",
+              "1.0.0rc13",
+              "1.0.0rc14",
+              "1.0.0rc15",
+              "1.0.0rc16",
+              "1.0.0rc2",
+              "1.0.0rc3",
+              "1.0.0rc4",
+              "1.0.0rc5",
+              "1.0.0rc6",
+              "1.0.0rc7",
+              "1.0.0rc8",
+              "1.0.0rc9",
               "1.0.1",
-              "1.1",
-              "1.2",
+              "1.0.10",
+              "1.0.11",
+              "1.0.2",
+              "1.0.3",
+              "1.0.4",
+              "1.0.5",
+              "1.0.6",
+              "1.0.7",
+              "1.0.8",
+              "1.0.9",
+              "1.1.0",
+              "1.1.1",
+              "1.1.2",
+              "1.1.3",
+              "1.1.4",
+              "1.10.0",
+              "1.10.1",
+              "1.10.2",
+              "1.11.0",
+              "1.11.1",
+              "1.11.2",
+              "1.12.0",
+              "1.12.1",
+              "1.13.0",
+              "1.13.1",
+              "1.13.2",
+              "1.13.3",
+              "1.13.4",
+              "1.13.5",
+              "1.15.0",
+              "1.15.1",
+              "1.15.2",
+              "1.15.3",
+              "1.15.4",
+              "1.15.5",
+              "1.15.6",
+              "1.16.0",
+              "1.17.0",
+              "1.17.1",
+              "1.18.0",
+              "1.18.1",
+              "1.19.0",
+              "1.19.1",
+              "1.2.0",
               "1.2.1",
-              "1.3",
-              "2.0",
+              "1.2.2",
+              "1.2.3",
+              "1.21.0",
+              "1.23.0",
+              "1.23.1",
+              "1.23.2",
+              "1.23.3",
+              "1.23.4",
+              "1.23.5",
+              "1.23.6",
+              "1.24.0",
+              "1.3.0",
+              "1.4.0",
+              "1.4.1",
+              "1.5.0",
+              "1.5.1",
+              "1.6.0",
+              "1.6.1",
+              "1.6.2",
+              "1.6.3",
+              "1.6.4",
+              "1.7.0",
+              "1.7.0a1",
+              "1.7.0a2",
+              "1.8.0",
+              "1.9.0",
+              "2.0.0",
+              "2.0.0a0",
+              "2.0.0a1",
+              "2.0.0a2",
+              "2.0.0b0",
+              "2.0.0b1",
+              "2.0.0rc0",
+              "2.0.0rc1",
+              "2.0.0rc2",
+              "2.0.0rc3",
+              "2.0.0rc4",
+              "2.0.0rc5",
+              "2.0.0rc6",
+              "2.0.0rc7",
+              "2.0.0rc8",
               "2.0.1",
-              "2.1",
-              "2.2",
+              "2.0.2",
+              "2.0.3",
+              "2.0.4",
+              "2.0.5",
+              "2.0.6",
+              "2.0.7",
+              "2.1.0",
+              "2.10.0",
+              "2.10.1",
+              "2.11.0",
+              "2.11.1",
+              "2.11.2",
+              "2.12.0",
+              "2.12.1",
+              "2.12.2",
+              "2.12.3",
+              "2.12.4",
+              "2.12.5",
+              "2.13.0",
+              "2.14.0",
+              "2.2.0",
               "2.2.1",
-              "2.3",
-              "2.3.1",
+              "2.3.0",
               "2.4.0",
-              "2.4.1",
               "2.5.0",
-              "2.5.1",
-              "2.6",
-              "2.7",
-              "2.8",
-              "3.0",
-              "3.1",
-              "3.2",
-              "3.3",
-              "3.3.1",
-              "3.3.2",
-              "3.3.3",
-              "4.0",
-              "4.0.1",
-              "4.1",
-              "4.2",
-              "4.2.1",
-              "4.3",
-              "4.4",
-              "4.5",
-              "4.5.1",
-              "4.5.dev0",
-              "4.5.dev1",
-              "4.5.dev2",
-              "4.5.dev3",
-              "4.6",
-              "4.6.1",
-              "4.6.2",
-              "4.6.dev1",
-              "4.7.dev1",
-              "4.7.dev2",
-              "4.7.dev3",
-              "4.7.0",
-              "4.8.dev1"
+              "2.6.0",
+              "2.7.0",
+              "2.7.1",
+              "2.7.2",
+              "2.7.3",
+              "2.8.0",
+              "2.9.0",
+              "2.9.1"
             ],
             "database_specific": {
-              "source": "https://github.com/pypa/advisory-database/blob/main/vulns/esptool/PYSEC-2023-234.yaml"
+              "last_known_affected_version_range": "<= 2.14.0",
+              "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/06/GHSA-hrw6-wg82-cm62/GHSA-hrw6-wg82-cm62.json"
             }
           }
         ],
@@ -100,21 +205,41 @@
         ],
         "references": [
           {
-            "type": "EVIDENCE",
-            "url": "https://github.com/espressif/esptool/issues/926"
+            "type": "WEB",
+            "url": "https://github.com/jupyter-server/jupyter_server/security/advisories/GHSA-hrw6-wg82-cm62"
+          },
+          {
+            "type": "ADVISORY",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-35178"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/jupyter-server/jupyter_server/commit/79fbf801c5908f4d1d9bc90004b74cfaaeeed2df"
+          },
+          {
+            "type": "PACKAGE",
+            "url": "https://github.com/jupyter-server/jupyter_server"
           }
-        ]
+        ],
+        "database_specific": {
+          "cwe_ids": [
+            "CWE-200"
+          ],
+          "github_reviewed": true,
+          "github_reviewed_at": "2024-06-06T21:26:53Z",
+          "nvd_published_at": "2024-06-06T16:15:11Z",
+          "severity": "HIGH"
+        }
       }
     ],
     "groups": [
       {
         "ids": [
-          "PYSEC-2023-234"
+          "GHSA-hrw6-wg82-cm62"
         ],
         "aliases": [
-          "CVE-2023-46894",
-          "GHSA-3f38-96qm-r3fw",
-          "PYSEC-2023-234"
+          "CVE-2024-35178",
+          "GHSA-hrw6-wg82-cm62"
         ],
         "max_severity": "7.5"
       }
@@ -127,7 +252,7 @@
       "ecosystem": "PyPI"
     },
     "dependency_groups": [
-      "esphome-requirements"
+      "jupyterlab-requirements"
     ],
     "vulnerabilities": [
       {
