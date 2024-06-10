@@ -1,6 +1,6 @@
-acme==2.10.0
-certbot-apache==2.10.0
-certbot-nginx==2.10.0
+acme==2.11.0
+certbot-apache==2.11.0
+certbot-nginx==2.11.0
 charset-normalizer==3.3.2
 configargparse==1.7
 configobj==5.0.8
@@ -13,7 +13,7 @@ pyparsing==3.1.2
 pyrfc3339==1.1
 python-augeas==1.1.0
 pytz==2024.1
-requests==2.32.1
-setuptools==69.5.1
+requests==2.32.3
+setuptools==70.0.0
 six==1.16.0
 urllib3==2.2.1
