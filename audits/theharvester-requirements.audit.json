@@ -792,7 +792,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-05-20T22:16:05Z",
+        "modified": "2024-06-10T18:54:59Z",
         "published": "2024-05-20T20:15:00Z",
         "schema_version": "1.6.0",
         "id": "GHSA-9wx4-h78v-vm56",
@@ -1005,6 +1005,14 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/psf/requests"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/IYLSNK5TL46Q6XPRVMHVWS63MVJQOK4Q"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/N7WP6EYDSUOCOJYHDK5NX43PYZ4SNHGZ"
           }
         ],
         "database_specific": {

@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-05-03T21:06:54Z",
+        "modified": "2024-06-10T18:54:23Z",
         "published": "2024-04-11T15:30:48Z",
         "schema_version": "1.6.0",
         "id": "GHSA-3rq5-2g8h-59hc",
@@ -210,7 +210,15 @@
           },
           {
             "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/NLRKR57IFVKQC2GCXZBFLCLBAWBWL3F6"
+          },
+          {
+            "type": "WEB",
             "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/VOHJOO3OM65UIUUUVDEXMCTXNM6LXZEH"
+          },
+          {
+            "type": "WEB",
+            "url": "https://security.netapp.com/advisory/ntap-20240510-0001"
           },
           {
             "type": "WEB",
@@ -395,7 +403,7 @@
         }
       },
       {
-        "modified": "2024-05-06T16:34:48Z",
+        "modified": "2024-06-10T19:01:19Z",
         "published": "2024-05-06T14:20:59Z",
         "schema_version": "1.6.0",
         "id": "GHSA-h75v-3vvj-5mfj",
@@ -502,6 +510,22 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/pallets/jinja"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/567XIGSZMABG6TSMYWD7MIYNJSUQQRUC"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GCLF44KY43BSVMTE6S53B4V5WP3FRRSE"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SSCBHIL6BYKR5NRCBXP4XMP2CEEKGFVS"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZALNWE3TXPPHVPSI3AZ5CTMSTAVN5UMS"
           }
         ],
         "database_specific": {
@@ -549,7 +573,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-05-06T16:52:13Z",
+        "modified": "2024-06-10T19:01:03Z",
         "published": "2024-05-06T14:21:27Z",
         "schema_version": "1.6.0",
         "id": "GHSA-2g68-c3qc-8985",
@@ -700,6 +724,14 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/pallets/werkzeug"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/H4SH32AM3CTPMAAEOIDAN7VU565LO4IR"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/HFERFN7PINV4MOGMGA3DPIXJPDCYOEJZ"
           }
         ],
         "database_specific": {

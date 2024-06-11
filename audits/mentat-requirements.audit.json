@@ -511,7 +511,7 @@
         }
       },
       {
-        "modified": "2024-05-06T16:34:48Z",
+        "modified": "2024-06-10T19:01:19Z",
         "published": "2024-05-06T14:20:59Z",
         "schema_version": "1.6.0",
         "id": "GHSA-h75v-3vvj-5mfj",
@@ -618,6 +618,22 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/pallets/jinja"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/567XIGSZMABG6TSMYWD7MIYNJSUQQRUC"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GCLF44KY43BSVMTE6S53B4V5WP3FRRSE"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/SSCBHIL6BYKR5NRCBXP4XMP2CEEKGFVS"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/ZALNWE3TXPPHVPSI3AZ5CTMSTAVN5UMS"
           }
         ],
         "database_specific": {
@@ -665,7 +681,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-05-03T19:56:54Z",
+        "modified": "2024-06-10T19:03:48Z",
         "published": "2024-05-03T19:33:28Z",
         "schema_version": "1.6.0",
         "id": "GHSA-g7vv-2v7x-gj9p",
@@ -845,6 +861,18 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/tqdm/tqdm"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PA3GIGHPWAHCTT4UF57LTPZGWHAX3GW6"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRECVQCCESHBS3UJOWNXQUIX725TKNY6"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VA337CYUS4SLRFV2P6MX6MZ2LKFURKJC"
           }
         ],
         "database_specific": {
