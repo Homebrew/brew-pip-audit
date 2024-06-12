@@ -1,7 +1,11 @@
 colorama==0.4.6
+housekeeping==1.1
+importlib-metadata==7.1.0
+importlib-resources==6.4.0
+packaging==24.0
 pydiffx==1.1
-setuptools==69.5.1
 six==1.16.0
 texttable==1.7.0
 tqdm==4.66.4
-typing-extensions==4.11.0
+typing-extensions==4.12.1
+zipp==3.19.2
