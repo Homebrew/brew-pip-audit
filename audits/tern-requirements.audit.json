@@ -1156,11 +1156,12 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-10T18:54:59Z",
+        "modified": "2024-06-12T08:14:32Z",
         "published": "2024-05-20T20:15:00Z",
         "schema_version": "1.6.0",
         "id": "GHSA-9wx4-h78v-vm56",
         "aliases": [
+          "CGA-77h5-pgh2-r2fg",
           "CVE-2024-35195"
         ],
         "summary": "Requests `Session` object does not verify requests after making first request with verify=False",
@@ -1396,6 +1397,7 @@
           "GHSA-9wx4-h78v-vm56"
         ],
         "aliases": [
+          "CGA-77h5-pgh2-r2fg",
           "CVE-2024-35195",
           "GHSA-9wx4-h78v-vm56"
         ],
