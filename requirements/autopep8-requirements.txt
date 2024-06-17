@@ -1,1 +1,1 @@
-pycodestyle==2.11.1
+pycodestyle==2.12.0
