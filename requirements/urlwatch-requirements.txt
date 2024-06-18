@@ -8,7 +8,7 @@ jaraco-functools==4.0.1
 keyring==25.2.1
 lxml==5.2.2
 minidb==2.0.8
-more-itertools==10.2.0
+more-itertools==10.3.0
 pyyaml==6.0.1
-requests==2.32.2
-urllib3==2.2.1
+requests==2.32.3
+urllib3==2.2.2

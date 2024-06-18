@@ -1,6 +1,6 @@
 babel==2.15.0
 charset-normalizer==3.3.2
-courlan==1.1.0
+courlan==1.2.0
 dateparser==1.2.0
 htmldate==1.8.1
 justext==3.0.1
@@ -12,4 +12,4 @@ regex==2024.5.15
 six==1.16.0
 tld==0.13
 tzlocal==5.2
-urllib3==2.2.1
+urllib3==2.2.2

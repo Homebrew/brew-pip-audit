@@ -29,4 +29,4 @@ semver==3.0.2
 six==1.16.0
 tabulate==0.9.0
 tailer==0.4.1
-urllib3==2.2.1
+urllib3==2.2.2

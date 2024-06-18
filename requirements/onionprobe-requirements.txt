@@ -5,4 +5,4 @@ pysocks==1.7.1
 pyyaml==6.0.1
 requests==2.32.3
 stem==1.8.2
-urllib3==2.2.1
+urllib3==2.2.2

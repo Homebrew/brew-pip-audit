@@ -2,7 +2,7 @@ annotated-types==0.7.0
 betterproto==2.0.0b6
 charset-normalizer==3.3.2
 dnspython==2.6.1
-email-validator==2.1.1
+email-validator==2.1.2
 grpclib==0.4.7
 h2==4.1.0
 hpack==4.0.0
@@ -29,4 +29,4 @@ sigstore-rekor-types==0.0.13
 six==1.16.0
 tuf==5.0.0
 typing-extensions==4.12.2
-urllib3==2.2.1
+urllib3==2.2.2
