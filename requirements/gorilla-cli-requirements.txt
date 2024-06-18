@@ -3,10 +3,10 @@ colorama==0.4.6
 halo==0.0.31
 idna==3.7
 log-symbols==0.0.14
-prompt-toolkit==3.0.43
-requests==2.32.1
+prompt-toolkit==3.0.47
+requests==2.32.3
 six==1.16.0
 spinners==0.0.24
 termcolor==2.4.0
-urllib3==2.2.1
+urllib3==2.2.2
 wcwidth==0.2.13

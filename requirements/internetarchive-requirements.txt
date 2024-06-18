@@ -2,8 +2,8 @@ charset-normalizer==3.3.2
 docopt==0.6.2
 idna==3.7
 jsonpatch==1.33
-jsonpointer==2.4
-requests==2.32.2
+jsonpointer==3.0.0
+requests==2.32.3
 schema==0.7.7
 tqdm==4.66.4
-urllib3==2.2.1
+urllib3==2.2.2

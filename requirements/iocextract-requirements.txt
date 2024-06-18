@@ -1,5 +1,5 @@
 charset-normalizer==3.3.2
 idna==3.7
 regex==2024.5.15
-requests==2.32.2
-urllib3==2.2.1
+requests==2.32.3
+urllib3==2.2.2

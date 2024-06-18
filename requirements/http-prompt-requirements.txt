@@ -12,10 +12,10 @@ pygments==2.18.0
 pysocks==1.7.1
 pyyaml==6.0.1
 regex==2024.5.15
-requests==2.32.2
+requests==2.32.3
 requests-toolbelt==1.0.0
 rich==13.7.1
 setuptools==70.0.0
 six==1.16.0
-urllib3==2.2.1
+urllib3==2.2.2
 wcwidth==0.2.13
