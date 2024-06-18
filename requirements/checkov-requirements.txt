@@ -3,7 +3,7 @@ aiohttp==3.9.5
 aiomultiprocess==0.9.1
 aiosignal==1.3.1
 annotated-types==0.7.0
-argcomplete==3.3.0
+argcomplete==3.4.0
 attrs==23.2.0
 bc-detect-secrets==1.5.11
 bc-jsonpath-ng==1.6.1
@@ -56,7 +56,7 @@ py-serializable==1.0.3
 pycares==4.4.0
 pycep-parser==0.4.1
 pycparser==2.22
-pydantic==2.7.3
+pydantic==2.7.4
 pydantic-core==2.18.4
 pyparsing==3.1.2
 python-dateutil==2.9.0.post0
@@ -81,7 +81,7 @@ tqdm==4.66.4
 typing-extensions==4.12.2
 unidiff==0.7.5
 uritools==4.0.3
-urllib3==1.26.18
+urllib3==1.26.19
 wcwidth==0.2.13
 xmltodict==0.13.0
 yarl==1.9.4

@@ -2,6 +2,6 @@ charset-normalizer==3.3.2
 docutils==0.21.2
 flit-core==3.9.0
 idna==3.7
-requests==2.32.1
+requests==2.32.3
 tomli-w==1.0.0
-urllib3==2.2.1
+urllib3==2.2.2
