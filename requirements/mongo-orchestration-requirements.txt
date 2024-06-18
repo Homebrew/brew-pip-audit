@@ -4,7 +4,7 @@ cheroot==10.0.1
 dnspython==2.6.1
 idna==3.7
 jaraco-functools==4.0.1
-more-itertools==10.2.0
-pymongo==4.7.2
-requests==2.32.2
-urllib3==2.2.1
+more-itertools==10.3.0
+pymongo==4.7.3
+requests==2.32.3
+urllib3==2.2.2
