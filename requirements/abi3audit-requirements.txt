@@ -1,7 +1,7 @@
-abi3info==2024.4.10
+abi3info==2024.4.25
 attrs==23.2.0
 cattrs==23.2.3
-certifi==2024.2.2
+certifi==2024.6.2
 charset-normalizer==3.3.2
 idna==3.7
 kaitaistruct==0.10
@@ -9,12 +9,12 @@ markdown-it-py==3.0.0
 mdurl==0.1.2
 packaging==23.2
 pefile==2023.2.7
-platformdirs==4.2.0
+platformdirs==4.2.2
 pyelftools==0.31
-pygments==2.17.2
+pygments==2.18.0
 requests==2.31.0
 requests-cache==1.2.0
 rich==13.7.1
 six==1.16.0
 url-normalize==1.4.3
-urllib3==2.2.1
+urllib3==2.2.2

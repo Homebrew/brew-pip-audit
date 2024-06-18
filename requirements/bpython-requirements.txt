@@ -6,7 +6,7 @@ greenlet==3.0.3
 idna==3.7
 pygments==2.18.0
 pyxdg==0.28
-requests==2.32.1
+requests==2.32.3
 six==1.16.0
-urllib3==2.2.1
+urllib3==2.2.2
 wcwidth==0.2.13
