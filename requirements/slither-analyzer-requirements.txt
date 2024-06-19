@@ -13,7 +13,7 @@ eth-hash==0.7.0
 eth-keyfile==0.8.1
 eth-keys==0.5.1
 eth-rlp==1.0.1
-eth-typing==4.2.3
+eth-typing==4.3.1
 eth-utils==4.1.1
 frozenlist==1.4.1
 hexbytes==0.3.1
@@ -22,10 +22,10 @@ jsonschema==4.22.0
 jsonschema-specifications==2023.12.1
 lru-dict==1.2.0
 multidict==6.0.5
-packaging==24.0
+packaging==24.1
 parsimonious==0.10.0
 prettytable==3.10.0
-protobuf==5.27.0
+protobuf==5.27.1
 pycryptodome==3.20.0
 pyunormalize==15.1.0
 referencing==0.35.1
@@ -35,8 +35,8 @@ rlp==4.0.1
 rpds-py==0.18.1
 solc-select==1.0.4
 toolz==0.12.1
-typing-extensions==4.12.1
-urllib3==2.2.1
+typing-extensions==4.12.2
+urllib3==2.2.2
 wcwidth==0.2.13
 web3==6.19.0
 websockets==12.0

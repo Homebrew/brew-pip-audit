@@ -667,11 +667,16 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-17T22:12:25Z",
+        "modified": "2024-06-19T07:44:27Z",
         "published": "2024-06-17T21:37:20Z",
         "schema_version": "1.6.0",
         "id": "GHSA-34jh-p97f-mpxf",
         "aliases": [
+          "CGA-5v3j-934q-gj4m",
+          "CGA-grjq-jh3q-2p7g",
+          "CGA-h28r-8q2c-xq96",
+          "CGA-j235-35vq-wrm8",
+          "CGA-rqhm-766h-p289",
           "CVE-2024-37891"
         ],
         "summary": "urllib3's Proxy-Authorization request header isn't stripped during cross-origin redirects ",
@@ -865,6 +870,11 @@
           "GHSA-34jh-p97f-mpxf"
         ],
         "aliases": [
+          "CGA-5v3j-934q-gj4m",
+          "CGA-grjq-jh3q-2p7g",
+          "CGA-h28r-8q2c-xq96",
+          "CGA-j235-35vq-wrm8",
+          "CGA-rqhm-766h-p289",
           "CVE-2024-37891",
           "GHSA-34jh-p97f-mpxf"
         ],

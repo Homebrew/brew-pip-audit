@@ -3,6 +3,6 @@ charset-normalizer==3.3.2
 idna==3.7
 mutagen==1.47.0
 pycryptodomex==3.20.0
-requests==2.32.2
-urllib3==2.2.1
+requests==2.32.3
+urllib3==2.2.2
 websockets==12.0

@@ -5,7 +5,6 @@ colorlog==6.8.2
 cvss==3.1
 defusedxml==0.7.1
 docformatter==1.5.0
-greenlet==3.0.3
 idna==3.7
 ijson==2.6.1
 importlib-metadata==7.1.0
@@ -14,9 +13,9 @@ iso8601==2.1.0
 jinja2==3.1.4
 lxml==5.2.2
 markupsafe==2.1.5
-mashumaro==3.13
+mashumaro==3.13.1
 mergedeep==1.3.4
-orjson==3.10.4
+orjson==3.10.5
 packaging==24.1
 pluggy==1.5.0
 pytest==8.2.2
@@ -30,7 +29,7 @@ tomli==2.0.1
 toposort==1.10
 typing-extensions==4.12.2
 untokenize==0.1.1
-urllib3==2.2.1
+urllib3==2.2.2
 xsdata==22.12
 xxhash==3.4.1
 zipp==3.19.2

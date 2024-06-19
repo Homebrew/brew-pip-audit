@@ -286,12 +286,13 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-12T08:14:32Z",
+        "modified": "2024-06-19T07:44:25Z",
         "published": "2024-05-20T20:15:00Z",
         "schema_version": "1.6.0",
         "id": "GHSA-9wx4-h78v-vm56",
         "aliases": [
           "CGA-77h5-pgh2-r2fg",
+          "CGA-v542-whj6-7mj4",
           "CVE-2024-35195"
         ],
         "summary": "Requests `Session` object does not verify requests after making first request with verify=False",
@@ -528,6 +529,7 @@
         ],
         "aliases": [
           "CGA-77h5-pgh2-r2fg",
+          "CGA-v542-whj6-7mj4",
           "CVE-2024-35195",
           "GHSA-9wx4-h78v-vm56"
         ],
@@ -775,11 +777,16 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-17T22:12:25Z",
+        "modified": "2024-06-19T07:44:27Z",
         "published": "2024-06-17T21:37:20Z",
         "schema_version": "1.6.0",
         "id": "GHSA-34jh-p97f-mpxf",
         "aliases": [
+          "CGA-5v3j-934q-gj4m",
+          "CGA-grjq-jh3q-2p7g",
+          "CGA-h28r-8q2c-xq96",
+          "CGA-j235-35vq-wrm8",
+          "CGA-rqhm-766h-p289",
           "CVE-2024-37891"
         ],
         "summary": "urllib3's Proxy-Authorization request header isn't stripped during cross-origin redirects ",
@@ -973,6 +980,11 @@
           "GHSA-34jh-p97f-mpxf"
         ],
         "aliases": [
+          "CGA-5v3j-934q-gj4m",
+          "CGA-grjq-jh3q-2p7g",
+          "CGA-h28r-8q2c-xq96",
+          "CGA-j235-35vq-wrm8",
+          "CGA-rqhm-766h-p289",
           "CVE-2024-37891",
           "GHSA-34jh-p97f-mpxf"
         ],

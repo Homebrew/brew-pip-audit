@@ -7,8 +7,8 @@ configargparse==1.7
 connection-pool==0.0.3
 datrie==0.8.2
 docutils==0.21.2
-dpath==2.1.6
-fastjsonschema==2.19.1
+dpath==2.2.0
+fastjsonschema==2.20.0
 gitdb==4.0.11
 gitpython==3.1.43
 humanfriendly==10.0
@@ -41,6 +41,6 @@ tabulate==0.9.0
 throttler==1.2.2
 toposort==1.10
 traitlets==5.14.3
-urllib3==2.2.1
+urllib3==2.2.2
 wrapt==1.16.0
 yte==1.5.4

