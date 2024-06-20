@@ -747,7 +747,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-19T07:44:27Z",
+        "modified": "2024-06-19T18:14:21Z",
         "published": "2024-06-17T21:37:20Z",
         "schema_version": "1.6.0",
         "id": "GHSA-34jh-p97f-mpxf",
@@ -756,6 +756,7 @@
           "CGA-grjq-jh3q-2p7g",
           "CGA-h28r-8q2c-xq96",
           "CGA-j235-35vq-wrm8",
+          "CGA-mrr8-97mj-749q",
           "CGA-rqhm-766h-p289",
           "CVE-2024-37891"
         ],
@@ -954,6 +955,7 @@
           "CGA-grjq-jh3q-2p7g",
           "CGA-h28r-8q2c-xq96",
           "CGA-j235-35vq-wrm8",
+          "CGA-mrr8-97mj-749q",
           "CGA-rqhm-766h-p289",
           "CVE-2024-37891",
           "GHSA-34jh-p97f-mpxf"

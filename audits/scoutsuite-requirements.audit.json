@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-13T19:05:32Z",
+        "modified": "2024-06-19T17:45:47Z",
         "published": "2024-06-11T18:30:50Z",
         "schema_version": "1.6.0",
         "id": "GHSA-m5vv-6r4h-3vj9",
@@ -284,7 +284,7 @@
                     "introduced": "4.49.1"
                   },
                   {
-                    "fixed": "4.61.3"
+                    "fixed": "4.60.4"
                   }
                 ]
               }
@@ -309,10 +309,7 @@
               "4.60.0-netonly",
               "4.60.1",
               "4.60.2",
-              "4.60.3",
-              "4.61.0",
-              "4.61.1",
-              "4.61.2"
+              "4.60.3"
             ],
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/06/GHSA-m5vv-6r4h-3vj9/GHSA-m5vv-6r4h-3vj9.json"
@@ -419,6 +416,34 @@
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/06/GHSA-m5vv-6r4h-3vj9/GHSA-m5vv-6r4h-3vj9.json"
             }
+          },
+          {
+            "package": {
+              "ecosystem": "NuGet",
+              "name": "Microsoft.Identity.Client",
+              "purl": "pkg:nuget/Microsoft.Identity.Client"
+            },
+            "ranges": [
+              {
+                "type": "ECOSYSTEM",
+                "events": [
+                  {
+                    "introduced": "4.61.0"
+                  },
+                  {
+                    "fixed": "4.61.3"
+                  }
+                ]
+              }
+            ],
+            "versions": [
+              "4.61.0",
+              "4.61.1",
+              "4.61.2"
+            ],
+            "database_specific": {
+              "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/06/GHSA-m5vv-6r4h-3vj9/GHSA-m5vv-6r4h-3vj9.json"
+            }
           }
         ],
         "severity": [
@@ -431,6 +456,10 @@
           {
             "type": "ADVISORY",
             "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-35255"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/AzureAD/microsoft-authentication-library-for-dotnet/issues/4806#issuecomment-2178960340"
           },
           {
             "type": "WEB",
@@ -753,7 +782,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-19T07:44:27Z",
+        "modified": "2024-06-19T18:14:21Z",
         "published": "2024-06-17T21:37:20Z",
         "schema_version": "1.6.0",
         "id": "GHSA-34jh-p97f-mpxf",
@@ -762,6 +791,7 @@
           "CGA-grjq-jh3q-2p7g",
           "CGA-h28r-8q2c-xq96",
           "CGA-j235-35vq-wrm8",
+          "CGA-mrr8-97mj-749q",
           "CGA-rqhm-766h-p289",
           "CVE-2024-37891"
         ],
@@ -960,6 +990,7 @@
           "CGA-grjq-jh3q-2p7g",
           "CGA-h28r-8q2c-xq96",
           "CGA-j235-35vq-wrm8",
+          "CGA-mrr8-97mj-749q",
           "CGA-rqhm-766h-p289",
           "CVE-2024-37891",
           "GHSA-34jh-p97f-mpxf"

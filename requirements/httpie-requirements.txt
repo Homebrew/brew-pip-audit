@@ -10,4 +10,4 @@ requests==2.32.2
 requests-toolbelt==1.0.0
 rich==13.7.1
 setuptools==70.0.0
-urllib3==2.2.1
+urllib3==2.2.2
