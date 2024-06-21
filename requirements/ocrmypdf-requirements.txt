@@ -5,10 +5,10 @@ img2pdf==0.5.1
 lxml==5.2.2
 markdown-it-py==3.0.0
 mdurl==0.1.2
-packaging==24.0
+packaging==24.1
 pdfminer-six==20231228
 pi-heif==0.16.0
-pikepdf==8.15.1
+pikepdf==9.0.0
 pluggy==1.5.0
 pygments==2.18.0
 rich==13.7.1

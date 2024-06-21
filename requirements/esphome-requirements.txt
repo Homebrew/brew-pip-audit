@@ -12,7 +12,7 @@ charset-normalizer==3.3.2
 click==8.1.7
 colorama==0.4.6
 ecdsa==0.19.0
-esphome-dashboard==20240613.0
+esphome-dashboard==20240620.0
 esptool==4.7.0
 h11==0.14.0
 icmplib==3.0.4

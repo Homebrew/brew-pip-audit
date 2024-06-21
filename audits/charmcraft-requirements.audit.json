@@ -432,12 +432,15 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-19T18:14:21Z",
+        "modified": "2024-06-20T16:29:27Z",
         "published": "2024-06-17T21:37:20Z",
         "schema_version": "1.6.0",
         "id": "GHSA-34jh-p97f-mpxf",
         "aliases": [
+          "CGA-32mf-hm7c-cqmg",
+          "CGA-3ggr-w55x-hf5j",
           "CGA-5v3j-934q-gj4m",
+          "CGA-8f64-fgpv-jxj2",
           "CGA-grjq-jh3q-2p7g",
           "CGA-h28r-8q2c-xq96",
           "CGA-j235-35vq-wrm8",
@@ -636,7 +639,10 @@
           "GHSA-34jh-p97f-mpxf"
         ],
         "aliases": [
+          "CGA-32mf-hm7c-cqmg",
+          "CGA-3ggr-w55x-hf5j",
           "CGA-5v3j-934q-gj4m",
+          "CGA-8f64-fgpv-jxj2",
           "CGA-grjq-jh3q-2p7g",
           "CGA-h28r-8q2c-xq96",
           "CGA-j235-35vq-wrm8",
