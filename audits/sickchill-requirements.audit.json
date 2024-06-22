@@ -251,12 +251,13 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-19T07:44:25Z",
+        "modified": "2024-06-21T16:29:28Z",
         "published": "2024-05-20T20:15:00Z",
         "schema_version": "1.6.0",
         "id": "GHSA-9wx4-h78v-vm56",
         "aliases": [
           "CGA-77h5-pgh2-r2fg",
+          "CGA-p79x-5pxg-f77m",
           "CGA-v542-whj6-7mj4",
           "CVE-2024-35195"
         ],
@@ -494,6 +495,7 @@
         ],
         "aliases": [
           "CGA-77h5-pgh2-r2fg",
+          "CGA-p79x-5pxg-f77m",
           "CGA-v542-whj6-7mj4",
           "CVE-2024-35195",
           "GHSA-9wx4-h78v-vm56"
@@ -827,20 +829,23 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-20T16:29:27Z",
+        "modified": "2024-06-21T20:12:22Z",
         "published": "2024-06-17T21:37:20Z",
         "schema_version": "1.6.0",
         "id": "GHSA-34jh-p97f-mpxf",
         "aliases": [
+          "CGA-2vvm-h2g8-jrwc",
           "CGA-32mf-hm7c-cqmg",
           "CGA-3ggr-w55x-hf5j",
           "CGA-5v3j-934q-gj4m",
+          "CGA-69g4-mv22-46cq",
           "CGA-8f64-fgpv-jxj2",
           "CGA-grjq-jh3q-2p7g",
           "CGA-h28r-8q2c-xq96",
           "CGA-j235-35vq-wrm8",
           "CGA-mrr8-97mj-749q",
           "CGA-rqhm-766h-p289",
+          "CGA-w3h9-h7jv-6q22",
           "CVE-2024-37891"
         ],
         "summary": "urllib3's Proxy-Authorization request header isn't stripped during cross-origin redirects ",
@@ -1034,15 +1039,18 @@
           "GHSA-34jh-p97f-mpxf"
         ],
         "aliases": [
+          "CGA-2vvm-h2g8-jrwc",
           "CGA-32mf-hm7c-cqmg",
           "CGA-3ggr-w55x-hf5j",
           "CGA-5v3j-934q-gj4m",
+          "CGA-69g4-mv22-46cq",
           "CGA-8f64-fgpv-jxj2",
           "CGA-grjq-jh3q-2p7g",
           "CGA-h28r-8q2c-xq96",
           "CGA-j235-35vq-wrm8",
           "CGA-mrr8-97mj-749q",
           "CGA-rqhm-766h-p289",
+          "CGA-w3h9-h7jv-6q22",
           "CVE-2024-37891",
           "GHSA-34jh-p97f-mpxf"
         ],

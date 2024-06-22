@@ -319,11 +319,12 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-05-02T13:32:02Z",
+        "modified": "2024-06-22T00:13:14Z",
         "published": "2023-12-18T19:22:09Z",
         "schema_version": "1.6.0",
         "id": "GHSA-45x7-px36-x8w8",
         "aliases": [
+          "CGA-f9g2-26qr-3m89",
           "CVE-2023-48795",
           "GO-2023-2402"
         ],
@@ -957,6 +958,7 @@
           "GHSA-45x7-px36-x8w8"
         ],
         "aliases": [
+          "CGA-f9g2-26qr-3m89",
           "CVE-2023-48795",
           "GHSA-45x7-px36-x8w8",
           "GO-2023-2402"
@@ -976,12 +978,13 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-19T07:44:25Z",
+        "modified": "2024-06-21T16:29:28Z",
         "published": "2024-05-20T20:15:00Z",
         "schema_version": "1.6.0",
         "id": "GHSA-9wx4-h78v-vm56",
         "aliases": [
           "CGA-77h5-pgh2-r2fg",
+          "CGA-p79x-5pxg-f77m",
           "CGA-v542-whj6-7mj4",
           "CVE-2024-35195"
         ],
@@ -1219,6 +1222,7 @@
         ],
         "aliases": [
           "CGA-77h5-pgh2-r2fg",
+          "CGA-p79x-5pxg-f77m",
           "CGA-v542-whj6-7mj4",
           "CVE-2024-35195",
           "GHSA-9wx4-h78v-vm56"
