@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-10T18:54:06Z",
+        "modified": "2024-06-24T03:45:44Z",
         "published": "2024-05-21T18:31:23Z",
         "schema_version": "1.6.0",
         "id": "GHSA-v9hf-5j83-6xpp",
@@ -114,6 +114,10 @@
           {
             "type": "WEB",
             "url": "https://lists.debian.org/debian-lts-announce/2024/05/msg00017.html"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.fedoraproject.org/archives/list/package-announce%40lists.fedoraproject.org/message/35VOJS3SRJNLQIO7YTZFNM6RWHIHWTMK"
           }
         ],
         "database_specific": {

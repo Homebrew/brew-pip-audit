@@ -10,5 +10,5 @@ requests==2.32.3
 rpds-py==0.18.1
 ruamel-yaml==0.18.6
 ruamel-yaml-clib==0.2.8
-setuptools==70.0.0
+setuptools==70.1.0
 urllib3==2.2.2
