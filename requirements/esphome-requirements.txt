@@ -3,7 +3,7 @@ aiohappyeyeballs==2.3.2
 ajsonrpc==1.2.0
 anyio==4.4.0
 argcomplete==3.4.0
-async-interrupt==1.1.1
+async-interrupt==1.1.2
 bitarray==2.9.2
 bitstring==4.2.3
 bottle==0.12.25
