@@ -1,0 +1,2 @@
+openvino-telemetry==2023.2.1
+packaging==24.0
