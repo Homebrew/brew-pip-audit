@@ -25,7 +25,7 @@ noiseprotocol==0.3.1
 packaging==24.1
 paho-mqtt==1.6.1
 platformio==6.1.15
-protobuf==5.27.1
+protobuf==5.27.2
 pyelftools==0.31
 pyparsing==3.1.2
 pyserial==3.5

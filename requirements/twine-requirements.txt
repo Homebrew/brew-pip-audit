@@ -1,7 +1,7 @@
 charset-normalizer==3.3.2
 docutils==0.21.2
 idna==3.7
-importlib-metadata==7.1.0
+importlib-metadata==8.0.0
 jaraco-classes==3.4.0
 jaraco-context==5.3.0
 jaraco-functools==4.0.1
@@ -10,7 +10,7 @@ markdown-it-py==3.0.0
 mdurl==0.1.2
 more-itertools==10.3.0
 nh3==0.2.17
-pkginfo==1.11.1
+pkginfo==1.10.0
 pygments==2.18.0
 readme-renderer==43.0
 requests==2.32.3
