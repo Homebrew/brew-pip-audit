@@ -9,8 +9,8 @@ packaging==24.1
 pathspec==0.12.1
 plumbum==1.8.3
 prompt-toolkit==3.0.36
-pydantic==2.7.4
-pydantic-core==2.18.4
+pydantic==2.8.2
+pydantic-core==2.20.1
 pygments==2.18.0
 pyyaml==6.0.1
 questionary==2.0.1
