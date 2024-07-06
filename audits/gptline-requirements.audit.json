@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-28T21:29:29Z",
+        "modified": "2024-07-05T18:02:56Z",
         "published": "2024-06-28T00:33:31Z",
         "schema_version": "1.6.0",
         "id": "GHSA-cgvx-9447-vcch",
@@ -135,6 +135,7 @@
         ],
         "database_specific": {
           "cwe_ids": [
+            "CWE-300",
             "CWE-502"
           ],
           "github_reviewed": true,

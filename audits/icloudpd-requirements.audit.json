@@ -10,6 +10,96 @@
     ],
     "vulnerabilities": [
       {
+        "modified": "2024-07-05T21:58:21Z",
+        "published": "2024-07-05T20:06:40Z",
+        "schema_version": "1.6.0",
+        "id": "GHSA-248v-346w-9cwc",
+        "aliases": [
+          "CVE-2024-39689"
+        ],
+        "summary": "Certifi removes GLOBALTRUST root certificate",
+        "details": "Certifi 2024.07.04 removes root certificates from \"GLOBALTRUST\" from the root store. These are in the process of being removed from Mozilla's trust store.\n\nGLOBALTRUST's root certificates are being removed pursuant to an investigation which identified \"long-running and unresolved compliance issues\". Conclusions of Mozilla's investigation can be found [here]( https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/XpknYMPO8dI).",
+        "affected": [
+          {
+            "package": {
+              "ecosystem": "PyPI",
+              "name": "certifi",
+              "purl": "pkg:pypi/certifi"
+            },
+            "ranges": [
+              {
+                "type": "ECOSYSTEM",
+                "events": [
+                  {
+                    "introduced": "2021.05.30"
+                  },
+                  {
+                    "fixed": "2024.07.04"
+                  }
+                ]
+              }
+            ],
+            "versions": [
+              "2021.10.8",
+              "2021.5.30",
+              "2022.12.7",
+              "2022.5.18",
+              "2022.5.18.1",
+              "2022.6.15",
+              "2022.6.15.1",
+              "2022.6.15.2",
+              "2022.9.14",
+              "2022.9.24",
+              "2023.11.17",
+              "2023.5.7",
+              "2023.7.22",
+              "2024.2.2",
+              "2024.6.2"
+            ],
+            "database_specific": {
+              "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/07/GHSA-248v-346w-9cwc/GHSA-248v-346w-9cwc.json"
+            }
+          }
+        ],
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
+          }
+        ],
+        "references": [
+          {
+            "type": "WEB",
+            "url": "https://github.com/certifi/python-certifi/security/advisories/GHSA-248v-346w-9cwc"
+          },
+          {
+            "type": "ADVISORY",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-39689"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/certifi/python-certifi/commit/bd8153872e9c6fc98f4023df9c2deaffea2fa463"
+          },
+          {
+            "type": "PACKAGE",
+            "url": "https://github.com/certifi/python-certifi"
+          },
+          {
+            "type": "WEB",
+            "url": "https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/XpknYMPO8dI"
+          }
+        ],
+        "database_specific": {
+          "cwe_ids": [
+            "CWE-345"
+          ],
+          "github_reviewed": true,
+          "github_reviewed_at": "2024-07-05T20:06:40Z",
+          "nvd_published_at": "2024-07-05T19:15:10Z",
+          "severity": "HIGH"
+        }
+      },
+      {
         "modified": "2024-02-16T08:23:44Z",
         "published": "2023-07-25T14:43:53Z",
         "schema_version": "1.6.0",
@@ -237,6 +327,16 @@
       }
     ],
     "groups": [
+      {
+        "ids": [
+          "GHSA-248v-346w-9cwc"
+        ],
+        "aliases": [
+          "CVE-2024-39689",
+          "GHSA-248v-346w-9cwc"
+        ],
+        "max_severity": "7.5"
+      },
       {
         "ids": [
           "GHSA-xqr8-7jwr-rhp7",
@@ -512,235 +612,6 @@
           "GHSA-9wx4-h78v-vm56"
         ],
         "max_severity": "5.6"
-      }
-    ]
-  },
-  {
-    "package": {
-      "name": "tqdm",
-      "version": "4.66.0",
-      "ecosystem": "PyPI"
-    },
-    "dependency_groups": [
-      "icloudpd-requirements"
-    ],
-    "vulnerabilities": [
-      {
-        "modified": "2024-06-10T19:03:48Z",
-        "published": "2024-05-03T19:33:28Z",
-        "schema_version": "1.6.0",
-        "id": "GHSA-g7vv-2v7x-gj9p",
-        "aliases": [
-          "CVE-2024-34062"
-        ],
-        "summary": "tqdm CLI arguments injection attack",
-        "details": "### Impact\nAny optional non-boolean CLI arguments (e.g. `--delim`, `--buf-size`, `--manpath`) are passed through python's `eval`, allowing arbitrary code execution. Example:\n\n```sh\npython -m tqdm --manpath=\"\\\" + str(exec(\\\"import os\\nos.system('echo hi && killall python3')\\\")) + \\\"\"\n```\n\n### Patches\nhttps://github.com/tqdm/tqdm/commit/4e613f84ed2ae029559f539464df83fa91feb316 released in `tqdm>=4.66.3`\n\n### Workarounds\nNone\n\n### References\n- https://github.com/tqdm/tqdm/releases/tag/v4.66.3",
-        "affected": [
-          {
-            "package": {
-              "ecosystem": "PyPI",
-              "name": "tqdm",
-              "purl": "pkg:pypi/tqdm"
-            },
-            "ranges": [
-              {
-                "type": "ECOSYSTEM",
-                "events": [
-                  {
-                    "introduced": "4.4.0"
-                  },
-                  {
-                    "fixed": "4.66.3"
-                  }
-                ]
-              }
-            ],
-            "versions": [
-              "4.10.0",
-              "4.11.0",
-              "4.11.1",
-              "4.11.2",
-              "4.12.0",
-              "4.13.0",
-              "4.14.0",
-              "4.15.0",
-              "4.16.0",
-              "4.17.0",
-              "4.17.1",
-              "4.18.0",
-              "4.19.1",
-              "4.19.1.post1",
-              "4.19.2",
-              "4.19.4",
-              "4.19.5",
-              "4.19.6",
-              "4.19.7",
-              "4.19.8",
-              "4.19.9",
-              "4.20.0",
-              "4.21.0",
-              "4.22.0",
-              "4.23.0",
-              "4.23.1",
-              "4.23.2",
-              "4.23.3",
-              "4.23.4",
-              "4.24.0",
-              "4.25.0",
-              "4.26.0",
-              "4.27.0",
-              "4.28.0",
-              "4.28.1",
-              "4.29.0",
-              "4.29.1",
-              "4.30.0",
-              "4.31.0",
-              "4.31.1",
-              "4.32.0",
-              "4.32.1",
-              "4.32.2",
-              "4.33.0",
-              "4.34.0",
-              "4.35.0",
-              "4.36.0",
-              "4.36.1",
-              "4.37.0",
-              "4.38.0",
-              "4.39.0",
-              "4.4.0",
-              "4.4.1",
-              "4.4.3",
-              "4.40.0",
-              "4.40.1",
-              "4.40.2",
-              "4.41.0",
-              "4.41.1",
-              "4.42.0",
-              "4.42.1",
-              "4.43.0",
-              "4.44.0",
-              "4.44.1",
-              "4.45.0",
-              "4.46.0",
-              "4.46.1",
-              "4.47.0",
-              "4.48.0",
-              "4.48.1",
-              "4.48.2",
-              "4.49.0",
-              "4.5.0",
-              "4.5.2",
-              "4.50.0",
-              "4.50.1",
-              "4.50.2",
-              "4.51.0",
-              "4.52.0",
-              "4.53.0",
-              "4.54.0",
-              "4.54.1",
-              "4.55.0",
-              "4.55.1",
-              "4.55.2",
-              "4.56.0",
-              "4.56.1",
-              "4.56.2",
-              "4.57.0",
-              "4.58.0",
-              "4.59.0",
-              "4.6.1",
-              "4.6.2",
-              "4.60.0",
-              "4.61.0",
-              "4.61.1",
-              "4.61.2",
-              "4.62.0",
-              "4.62.1",
-              "4.62.2",
-              "4.62.3",
-              "4.63.0",
-              "4.63.1",
-              "4.63.2",
-              "4.64.0",
-              "4.64.1",
-              "4.65.0",
-              "4.65.1",
-              "4.65.2",
-              "4.66.0",
-              "4.66.1",
-              "4.66.2",
-              "4.7.0",
-              "4.7.1",
-              "4.7.2",
-              "4.7.4",
-              "4.7.6",
-              "4.8.1",
-              "4.8.2",
-              "4.8.3",
-              "4.8.4",
-              "4.9.0"
-            ],
-            "database_specific": {
-              "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/05/GHSA-g7vv-2v7x-gj9p/GHSA-g7vv-2v7x-gj9p.json"
-            }
-          }
-        ],
-        "severity": [
-          {
-            "type": "CVSS_V3",
-            "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N"
-          }
-        ],
-        "references": [
-          {
-            "type": "WEB",
-            "url": "https://github.com/tqdm/tqdm/security/advisories/GHSA-g7vv-2v7x-gj9p"
-          },
-          {
-            "type": "ADVISORY",
-            "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-34062"
-          },
-          {
-            "type": "WEB",
-            "url": "https://github.com/tqdm/tqdm/commit/4e613f84ed2ae029559f539464df83fa91feb316"
-          },
-          {
-            "type": "PACKAGE",
-            "url": "https://github.com/tqdm/tqdm"
-          },
-          {
-            "type": "WEB",
-            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PA3GIGHPWAHCTT4UF57LTPZGWHAX3GW6"
-          },
-          {
-            "type": "WEB",
-            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/QRECVQCCESHBS3UJOWNXQUIX725TKNY6"
-          },
-          {
-            "type": "WEB",
-            "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/VA337CYUS4SLRFV2P6MX6MZ2LKFURKJC"
-          }
-        ],
-        "database_specific": {
-          "cwe_ids": [
-            "CWE-74"
-          ],
-          "github_reviewed": true,
-          "github_reviewed_at": "2024-05-03T19:33:28Z",
-          "nvd_published_at": "2024-05-03T10:15:08Z",
-          "severity": "LOW"
-        }
-      }
-    ],
-    "groups": [
-      {
-        "ids": [
-          "GHSA-g7vv-2v7x-gj9p"
-        ],
-        "aliases": [
-          "CVE-2024-34062",
-          "GHSA-g7vv-2v7x-gj9p"
-        ],
-        "max_severity": "3.9"
       }
     ]
   },
