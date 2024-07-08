@@ -13,8 +13,8 @@ mdurl==0.1.2
 natsort==8.4.0
 pdfminer-six==20231228
 platformdirs==4.2.2
-pydantic==2.7.4
-pydantic-core==2.18.4
+pydantic==2.8.2
+pydantic-core==2.20.1
 pygments==2.18.0
 pyobjc-core==10.3.1
 pyobjc-framework-cocoa==10.3.1

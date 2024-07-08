@@ -10,11 +10,12 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-07-05T21:58:21Z",
+        "modified": "2024-07-07T21:27:51Z",
         "published": "2024-07-05T20:06:40Z",
         "schema_version": "1.6.0",
         "id": "GHSA-248v-346w-9cwc",
         "aliases": [
+          "CGA-r3c7-44cm-2pr4",
           "CVE-2024-39689"
         ],
         "summary": "Certifi removes GLOBALTRUST root certificate",
@@ -332,6 +333,7 @@
           "GHSA-248v-346w-9cwc"
         ],
         "aliases": [
+          "CGA-r3c7-44cm-2pr4",
           "CVE-2024-39689",
           "GHSA-248v-346w-9cwc"
         ],
