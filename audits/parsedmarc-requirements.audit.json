@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-25T02:30:37Z",
+        "modified": "2024-07-08T15:00:15Z",
         "published": "2024-06-11T18:30:50Z",
         "schema_version": "1.6.0",
         "id": "GHSA-m5vv-6r4h-3vj9",
@@ -450,6 +450,10 @@
           {
             "type": "CVSS_V3",
             "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+          },
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
           }
         ],
         "references": [
@@ -505,7 +509,7 @@
         "aliases": [
           "GHSA-m5vv-6r4h-3vj9"
         ],
-        "max_severity": "5.5"
+        "max_severity": "6.8"
       }
     ]
   },

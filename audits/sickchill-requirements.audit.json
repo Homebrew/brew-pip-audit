@@ -135,7 +135,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-04-11T21:56:51Z",
+        "modified": "2024-07-08T14:59:03Z",
         "published": "2024-04-11T21:32:40Z",
         "schema_version": "1.6.0",
         "id": "GHSA-jjg7-2v4v-x38h",
@@ -204,6 +204,10 @@
           {
             "type": "CVSS_V3",
             "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
           }
         ],
         "references": [
@@ -212,8 +216,20 @@
             "url": "https://github.com/kjd/idna/security/advisories/GHSA-jjg7-2v4v-x38h"
           },
           {
+            "type": "ADVISORY",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-3651"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/kjd/idna/commit/1d365e17e10d72d0b7876316fc7b9ca0eebdd38d"
+          },
+          {
             "type": "PACKAGE",
             "url": "https://github.com/kjd/idna"
+          },
+          {
+            "type": "WEB",
+            "url": "https://huntr.com/bounties/93d78d07-d791-4b39-a845-cbfabc44aadb"
           }
         ],
         "database_specific": {
@@ -222,7 +238,7 @@
           ],
           "github_reviewed": true,
           "github_reviewed_at": "2024-04-11T21:32:40Z",
-          "nvd_published_at": null,
+          "nvd_published_at": "2024-07-07T18:15:09Z",
           "severity": "MODERATE"
         }
       }
@@ -236,7 +252,7 @@
           "CVE-2024-3651",
           "GHSA-jjg7-2v4v-x38h"
         ],
-        "max_severity": "6.2"
+        "max_severity": "6.9"
       }
     ]
   },

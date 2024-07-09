@@ -10,12 +10,21 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-07-07T21:27:51Z",
+        "modified": "2024-07-08T23:29:36Z",
         "published": "2024-07-05T20:06:40Z",
         "schema_version": "1.6.0",
         "id": "GHSA-248v-346w-9cwc",
         "aliases": [
+          "CGA-6v56-8m7g-x649",
+          "CGA-8493-6499-2mc5",
+          "CGA-8qgh-gj56-2mhf",
+          "CGA-f5h2-p64r-hgpf",
+          "CGA-h96w-2q45-hmp9",
+          "CGA-hv83-mq7r-r58m",
+          "CGA-m8x2-jj4x-r82h",
+          "CGA-mgvx-56mp-qxp4",
           "CGA-r3c7-44cm-2pr4",
+          "CGA-wgrc-28p5-r64q",
           "CVE-2024-39689"
         ],
         "summary": "Certifi removes GLOBALTRUST root certificate",
@@ -62,12 +71,6 @@
             }
           }
         ],
-        "severity": [
-          {
-            "type": "CVSS_V3",
-            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N"
-          }
-        ],
         "references": [
           {
             "type": "WEB",
@@ -97,7 +100,7 @@
           "github_reviewed": true,
           "github_reviewed_at": "2024-07-05T20:06:40Z",
           "nvd_published_at": "2024-07-05T19:15:10Z",
-          "severity": "HIGH"
+          "severity": "LOW"
         }
       },
       {
@@ -333,11 +336,20 @@
           "GHSA-248v-346w-9cwc"
         ],
         "aliases": [
+          "CGA-6v56-8m7g-x649",
+          "CGA-8493-6499-2mc5",
+          "CGA-8qgh-gj56-2mhf",
+          "CGA-f5h2-p64r-hgpf",
+          "CGA-h96w-2q45-hmp9",
+          "CGA-hv83-mq7r-r58m",
+          "CGA-m8x2-jj4x-r82h",
+          "CGA-mgvx-56mp-qxp4",
           "CGA-r3c7-44cm-2pr4",
+          "CGA-wgrc-28p5-r64q",
           "CVE-2024-39689",
           "GHSA-248v-346w-9cwc"
         ],
-        "max_severity": "7.5"
+        "max_severity": ""
       },
       {
         "ids": [
