@@ -2,7 +2,7 @@ attrs==23.2.0
 avro==1.11.3
 charset-normalizer==3.3.2
 click==8.1.7
-confluent-kafka==2.4.0
+confluent-kafka==2.5.0
 fastavro==1.9.5
 idna==3.7
 jsonschema==4.23.0

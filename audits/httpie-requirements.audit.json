@@ -6,7 +6,7 @@
       "ecosystem": "PyPI"
     },
     "dependency_groups": [
-      "snapcraft-requirements"
+      "httpie-requirements"
     ],
     "vulnerabilities": [
       {
