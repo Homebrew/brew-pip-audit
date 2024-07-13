@@ -7,12 +7,12 @@ idna==3.7
 kaitaistruct==0.10
 markdown-it-py==3.0.0
 mdurl==0.1.2
-packaging==23.2
+packaging==24.1
 pefile==2023.2.7
 platformdirs==4.2.2
 pyelftools==0.31
 pygments==2.18.0
-requests==2.31.0
+requests==2.32.3
 requests-cache==1.2.1
 rich==13.7.1
 six==1.16.0
