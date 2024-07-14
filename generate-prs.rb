@@ -22,6 +22,8 @@ SKIP_FORMULA = [
   "azure-cli",
   # source tarball doesn't work with this, due to setuptools_scm issues
   "charmcraft",
+  # Hopelessly complicated build
+  "pytorch",
 ]
 
 PR_LIMIT = ENV.fetch("HOMEBREW_AUTO_PR_LIMIT", 25).to_i
