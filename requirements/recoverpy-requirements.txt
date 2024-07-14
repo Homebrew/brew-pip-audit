@@ -4,6 +4,6 @@ mdit-py-plugins==0.4.1
 mdurl==0.1.2
 pygments==2.18.0
 rich==13.7.1
-textual==0.65.2
+textual==0.72.0
 typing-extensions==4.12.2
 uc-micro-py==1.0.3
