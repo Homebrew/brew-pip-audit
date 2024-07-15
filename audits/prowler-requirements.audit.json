@@ -14,6 +14,9 @@
         "published": "2024-06-11T18:30:50Z",
         "schema_version": "1.6.0",
         "id": "GHSA-m5vv-6r4h-3vj9",
+        "related": [
+          "CGA-x8q8-gpj4-r44c"
+        ],
         "summary": "Azure Identity Libraries and Microsoft Authentication Library Elevation of Privilege Vulnerability",
         "details": "Azure Identity Libraries and Microsoft Authentication Library Elevation of Privilege Vulnerability.",
         "affected": [
