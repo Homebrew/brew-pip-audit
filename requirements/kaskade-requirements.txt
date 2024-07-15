@@ -2,6 +2,7 @@ attrs==23.2.0
 avro==1.11.3
 charset-normalizer==3.3.2
 click==8.1.7
+cloup==3.0.5
 confluent-kafka==2.5.0
 fastavro==1.9.5
 idna==3.7
