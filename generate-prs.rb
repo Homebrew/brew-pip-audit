@@ -18,6 +18,7 @@ SKIP_FORMULA = [
   "offlineimap",
   # No setup.py.
   "recon-ng",
+  "gnuradio",
   # Installable packages are in a sub-directory
   "azure-cli",
   # source tarball doesn't work with this, due to setuptools_scm issues
