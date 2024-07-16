@@ -10,22 +10,28 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-07-08T23:29:36Z",
+        "modified": "2024-07-15T22:12:28Z",
         "published": "2024-07-05T20:06:40Z",
         "schema_version": "1.6.0",
         "id": "GHSA-248v-346w-9cwc",
         "aliases": [
+          "CVE-2024-39689"
+        ],
+        "related": [
+          "CGA-2ph7-wp75-g3rf",
+          "CGA-3727-xg6m-m6g6",
           "CGA-6v56-8m7g-x649",
           "CGA-8493-6499-2mc5",
           "CGA-8qgh-gj56-2mhf",
+          "CGA-c75v-5wrv-rvg2",
           "CGA-f5h2-p64r-hgpf",
+          "CGA-fhg8-gq72-6xvf",
           "CGA-h96w-2q45-hmp9",
           "CGA-hv83-mq7r-r58m",
           "CGA-m8x2-jj4x-r82h",
           "CGA-mgvx-56mp-qxp4",
           "CGA-r3c7-44cm-2pr4",
-          "CGA-wgrc-28p5-r64q",
-          "CVE-2024-39689"
+          "CGA-wgrc-28p5-r64q"
         ],
         "summary": "Certifi removes GLOBALTRUST root certificate",
         "details": "Certifi 2024.07.04 removes root certificates from \"GLOBALTRUST\" from the root store. These are in the process of being removed from Mozilla's trust store.\n\nGLOBALTRUST's root certificates are being removed pursuant to an investigation which identified \"long-running and unresolved compliance issues\". Conclusions of Mozilla's investigation can be found [here]( https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/XpknYMPO8dI).",
@@ -110,16 +116,6 @@
           "GHSA-248v-346w-9cwc"
         ],
         "aliases": [
-          "CGA-6v56-8m7g-x649",
-          "CGA-8493-6499-2mc5",
-          "CGA-8qgh-gj56-2mhf",
-          "CGA-f5h2-p64r-hgpf",
-          "CGA-h96w-2q45-hmp9",
-          "CGA-hv83-mq7r-r58m",
-          "CGA-m8x2-jj4x-r82h",
-          "CGA-mgvx-56mp-qxp4",
-          "CGA-r3c7-44cm-2pr4",
-          "CGA-wgrc-28p5-r64q",
           "CVE-2024-39689",
           "GHSA-248v-346w-9cwc"
         ],

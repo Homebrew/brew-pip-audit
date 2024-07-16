@@ -19,6 +19,10 @@
           "CVE-2023-5752",
           "PYSEC-2023-228"
         ],
+        "related": [
+          "CGA-5f7v-h34j-fh9f",
+          "CGA-fj24-33pw-hx4q"
+        ],
         "summary": "Command Injection in pip when used with Mercurial",
         "details": "When installing a package from a Mercurial VCS URL, e.g. `pip install hg+...`, with pip prior to v23.3, the specified Mercurial revision could be used to inject arbitrary configuration options to the `hg clone` call (e.g. `--config`). Controlling the Mercurial configuration can modify how and which repository is installed. This vulnerability does not affect users who aren't installing from Mercurial.",
         "affected": [

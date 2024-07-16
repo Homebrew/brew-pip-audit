@@ -18,6 +18,25 @@
           "CVE-2024-3651",
           "PYSEC-2024-60"
         ],
+        "related": [
+          "CGA-4vmg-xwqh-6xfw",
+          "CGA-4w25-8r45-gxwf",
+          "CGA-6445-8x27-cghw",
+          "CGA-7cvw-824f-57qj",
+          "CGA-7xfm-q24p-px8c",
+          "CGA-85gv-65g3-483h",
+          "CGA-9fj4-pj3g-gm6q",
+          "CGA-ccwr-5f2w-9q24",
+          "CGA-fgmr-v3f3-pxpw",
+          "CGA-hph5-hcwv-q9mm",
+          "CGA-mcgj-mc29-crgj",
+          "CGA-mq4p-ggpx-5vxw",
+          "CGA-q4wf-4rwg-334h",
+          "CGA-rmvf-7794-q3gg",
+          "CGA-v584-967x-qgpm",
+          "CGA-v6qx-945c-jj8w",
+          "CGA-xpcj-g2x8-wcc9"
+        ],
         "summary": "Internationalized Domain Names in Applications (IDNA) vulnerable to denial of service from specially crafted inputs to idna.encode",
         "details": "### Impact\nA specially crafted argument to the `idna.encode()` function could consume significant resources. This may lead to a denial-of-service.\n\n### Patches\nThe function has been refined to reject such strings without the associated resource consumption in version 3.7.\n\n### Workarounds\nDomain names cannot exceed 253 characters in length, if this length limit is enforced prior to passing the domain to the `idna.encode()` function it should no longer consume significant resources. This is triggered by arbitrarily large inputs that would not occur in normal usage, but may be passed to the library assuming there is no preliminary input validation by the higher-level application.\n\n### References\n* https://huntr.com/bounties/93d78d07-d791-4b39-a845-cbfabc44aadb",
         "affected": [
@@ -157,6 +176,9 @@
                 "events": [
                   {
                     "introduced": "0.1"
+                  },
+                  {
+                    "fixed": "3.7"
                   }
                 ]
               }
@@ -247,6 +269,15 @@
         "id": "GHSA-h75v-3vvj-5mfj",
         "aliases": [
           "CVE-2024-34064"
+        ],
+        "related": [
+          "CGA-3h69-x6cf-g5c9",
+          "CGA-8hp4-mxq9-cfjp",
+          "CGA-j4qq-j23r-522f",
+          "CGA-ph4r-hmw2-vp9r",
+          "CGA-rwrm-vm7r-mrmj",
+          "CGA-w4rq-c3cf-82f3",
+          "CGA-x9j2-vg55-h4p4"
         ],
         "summary": "Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter",
         "details": "The `xmlattr` filter in affected versions of Jinja accepts keys containing non-attribute characters. XML/HTML attributes cannot contain spaces, `/`, `>`, or `=`, as each would then be interpreted as starting a separate attribute. If an application accepts keys (as opposed to only values) as user input, and renders these in pages that other users see as well, an attacker could use this to inject other attributes and perform XSS. The fix for the previous GHSA-h5c8-rqwp-cp95 CVE-2024-22195 only addressed spaces but not other characters.\n\nAccepting keys as user input is now explicitly considered an unintended use case of the `xmlattr` filter, and code that does so without otherwise validating the input should be flagged as insecure, regardless of Jinja version. Accepting _values_ as user input continues to be safe.",
@@ -401,15 +432,33 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-21T16:29:28Z",
+        "modified": "2024-07-15T22:12:27Z",
         "published": "2024-05-20T20:15:00Z",
         "schema_version": "1.6.0",
         "id": "GHSA-9wx4-h78v-vm56",
         "aliases": [
-          "CGA-77h5-pgh2-r2fg",
-          "CGA-p79x-5pxg-f77m",
-          "CGA-v542-whj6-7mj4",
           "CVE-2024-35195"
+        ],
+        "related": [
+          "CGA-2qh2-jp77-wp2x",
+          "CGA-32qh-xq5g-9xq4",
+          "CGA-432x-3phh-56c7",
+          "CGA-4354-v6cq-3f5f",
+          "CGA-4xx2-v3vc-q5x8",
+          "CGA-6rf6-59qq-87jc",
+          "CGA-6v4c-f9mw-8ghc",
+          "CGA-74xp-46xv-7q3v",
+          "CGA-77h5-pgh2-r2fg",
+          "CGA-8mx8-8v5r-99xg",
+          "CGA-hf9v-fwg4-2jvw",
+          "CGA-hhrg-5mf5-r2p5",
+          "CGA-jcgc-jpw2-xpqq",
+          "CGA-p79x-5pxg-f77m",
+          "CGA-rrq3-6489-25cv",
+          "CGA-v263-vf6g-w8hh",
+          "CGA-v542-whj6-7mj4",
+          "CGA-whqq-jwxh-vf92",
+          "CGA-x395-8f45-7j43"
         ],
         "summary": "Requests `Session` object does not verify requests after making first request with verify=False",
         "details": "When making requests through a Requests `Session`, if the first request is made with `verify=False` to disable cert verification, all subsequent requests to the same origin will continue to ignore cert verification regardless of changes to the value of `verify`. This behavior will continue for the lifecycle of the connection in the connection pool.\n\n### Remediation\nAny of these options can be used to remediate the current issue, we highly recommend upgrading as the preferred mitigation.\n\n* Upgrade to `requests>=2.32.0`.\n* For `requests<2.32.0`, avoid setting `verify=False` for the first request to a host while using a Requests Session.\n* For `requests<2.32.0`, call `close()` on `Session` objects to clear existing connections if `verify=False` is used.\n\n### Related Links\n* https://github.com/psf/requests/pull/6655",
@@ -644,9 +693,6 @@
           "GHSA-9wx4-h78v-vm56"
         ],
         "aliases": [
-          "CGA-77h5-pgh2-r2fg",
-          "CGA-p79x-5pxg-f77m",
-          "CGA-v542-whj6-7mj4",
           "CVE-2024-35195",
           "GHSA-9wx4-h78v-vm56"
         ],
@@ -671,6 +717,10 @@
         "id": "GHSA-g7vv-2v7x-gj9p",
         "aliases": [
           "CVE-2024-34062"
+        ],
+        "related": [
+          "CGA-5g34-q98x-rv72",
+          "CGA-wprj-p696-fg4q"
         ],
         "summary": "tqdm CLI arguments injection attack",
         "details": "### Impact\nAny optional non-boolean CLI arguments (e.g. `--delim`, `--buf-size`, `--manpath`) are passed through python's `eval`, allowing arbitrary code execution. Example:\n\n```sh\npython -m tqdm --manpath=\"\\\" + str(exec(\\\"import os\\nos.system('echo hi && killall python3')\\\")) + \\\"\"\n```\n\n### Patches\nhttps://github.com/tqdm/tqdm/commit/4e613f84ed2ae029559f539464df83fa91feb316 released in `tqdm>=4.66.3`\n\n### Workarounds\nNone\n\n### References\n- https://github.com/tqdm/tqdm/releases/tag/v4.66.3",
@@ -894,25 +944,33 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-25T02:48:33Z",
+        "modified": "2024-07-15T22:12:28Z",
         "published": "2024-06-17T21:37:20Z",
         "schema_version": "1.6.0",
         "id": "GHSA-34jh-p97f-mpxf",
         "aliases": [
+          "CVE-2024-37891"
+        ],
+        "related": [
           "CGA-2vvm-h2g8-jrwc",
           "CGA-32mf-hm7c-cqmg",
+          "CGA-37xg-qrch-w8h8",
           "CGA-3ggr-w55x-hf5j",
           "CGA-5v3j-934q-gj4m",
+          "CGA-64rf-gm8h-pg8g",
           "CGA-69g4-mv22-46cq",
           "CGA-8f64-fgpv-jxj2",
+          "CGA-8hq8-2689-rc8h",
           "CGA-grjq-jh3q-2p7g",
           "CGA-gwpm-7fhq-3wh2",
           "CGA-h28r-8q2c-xq96",
           "CGA-j235-35vq-wrm8",
+          "CGA-jqq5-p5w5-hr5j",
+          "CGA-m9q6-p3c8-wp58",
           "CGA-mrr8-97mj-749q",
           "CGA-rqhm-766h-p289",
-          "CGA-w3h9-h7jv-6q22",
-          "CVE-2024-37891"
+          "CGA-vgvj-86h2-mvw3",
+          "CGA-w3h9-h7jv-6q22"
         ],
         "summary": "urllib3's Proxy-Authorization request header isn't stripped during cross-origin redirects ",
         "details": "When using urllib3's proxy support with `ProxyManager`, the `Proxy-Authorization` header is only sent to the configured proxy, as expected.\n\nHowever, when sending HTTP requests *without* using urllib3's proxy support, it's possible to accidentally configure the `Proxy-Authorization` header even though it won't have any effect as the request is not using a forwarding proxy or a tunneling proxy. In those cases, urllib3 doesn't treat the `Proxy-Authorization` HTTP header as one carrying authentication material and thus doesn't strip the header on cross-origin redirects.\n\nBecause this is a highly unlikely scenario, we believe the severity of this vulnerability is low for almost all users. Out of an abundance of caution urllib3 will automatically strip the `Proxy-Authorization` header during cross-origin redirects to avoid the small chance that users are doing this on accident.\n\nUsers should use urllib3's proxy support or disable automatic redirects to achieve safe processing of the `Proxy-Authorization` header, but we still decided to strip the header by default in order to further protect users who aren't using the correct approach.\n\n## Affected usages\n\nWe believe the number of usages affected by this advisory is low. It requires all of the following to be true to be exploited:\n\n* Setting the `Proxy-Authorization` header without using urllib3's built-in proxy support.\n* Not disabling HTTP redirects.\n* Either not using an HTTPS origin server or for the proxy or target origin to redirect to a malicious origin.\n\n## Remediation\n\n* Using the `Proxy-Authorization` header with urllib3's `ProxyManager`.\n* Disabling HTTP redirects using `redirects=False` when sending requests.\n* Not using the `Proxy-Authorization` header.",
@@ -1105,19 +1163,6 @@
           "GHSA-34jh-p97f-mpxf"
         ],
         "aliases": [
-          "CGA-2vvm-h2g8-jrwc",
-          "CGA-32mf-hm7c-cqmg",
-          "CGA-3ggr-w55x-hf5j",
-          "CGA-5v3j-934q-gj4m",
-          "CGA-69g4-mv22-46cq",
-          "CGA-8f64-fgpv-jxj2",
-          "CGA-grjq-jh3q-2p7g",
-          "CGA-gwpm-7fhq-3wh2",
-          "CGA-h28r-8q2c-xq96",
-          "CGA-j235-35vq-wrm8",
-          "CGA-mrr8-97mj-749q",
-          "CGA-rqhm-766h-p289",
-          "CGA-w3h9-h7jv-6q22",
           "CVE-2024-37891",
           "GHSA-34jh-p97f-mpxf"
         ],
@@ -1142,6 +1187,13 @@
         "id": "GHSA-2g68-c3qc-8985",
         "aliases": [
           "CVE-2024-34069"
+        ],
+        "related": [
+          "CGA-3r85-33vp-g92x",
+          "CGA-4j52-qrxr-72wj",
+          "CGA-mmv2-q2vv-5j43",
+          "CGA-v7pm-fgrf-j9wg",
+          "CGA-x38f-2x56-r747"
         ],
         "summary": "Werkzeug debugger vulnerable to remote execution when interacting with attacker controlled domain",
         "details": "The debugger in affected versions of Werkzeug can allow an attacker to execute code on a developer's machine under some circumstances. This requires the attacker to get the developer to interact with a domain and subdomain they control, and enter the debugger PIN, but if they are successful it allows access to the debugger even if it is only running on localhost. This also requires the attacker to guess a URL in the developer's application that will trigger the debugger.",

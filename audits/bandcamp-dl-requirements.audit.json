@@ -10,15 +10,33 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-21T16:29:28Z",
+        "modified": "2024-07-15T22:12:27Z",
         "published": "2024-05-20T20:15:00Z",
         "schema_version": "1.6.0",
         "id": "GHSA-9wx4-h78v-vm56",
         "aliases": [
-          "CGA-77h5-pgh2-r2fg",
-          "CGA-p79x-5pxg-f77m",
-          "CGA-v542-whj6-7mj4",
           "CVE-2024-35195"
+        ],
+        "related": [
+          "CGA-2qh2-jp77-wp2x",
+          "CGA-32qh-xq5g-9xq4",
+          "CGA-432x-3phh-56c7",
+          "CGA-4354-v6cq-3f5f",
+          "CGA-4xx2-v3vc-q5x8",
+          "CGA-6rf6-59qq-87jc",
+          "CGA-6v4c-f9mw-8ghc",
+          "CGA-74xp-46xv-7q3v",
+          "CGA-77h5-pgh2-r2fg",
+          "CGA-8mx8-8v5r-99xg",
+          "CGA-hf9v-fwg4-2jvw",
+          "CGA-hhrg-5mf5-r2p5",
+          "CGA-jcgc-jpw2-xpqq",
+          "CGA-p79x-5pxg-f77m",
+          "CGA-rrq3-6489-25cv",
+          "CGA-v263-vf6g-w8hh",
+          "CGA-v542-whj6-7mj4",
+          "CGA-whqq-jwxh-vf92",
+          "CGA-x395-8f45-7j43"
         ],
         "summary": "Requests `Session` object does not verify requests after making first request with verify=False",
         "details": "When making requests through a Requests `Session`, if the first request is made with `verify=False` to disable cert verification, all subsequent requests to the same origin will continue to ignore cert verification regardless of changes to the value of `verify`. This behavior will continue for the lifecycle of the connection in the connection pool.\n\n### Remediation\nAny of these options can be used to remediate the current issue, we highly recommend upgrading as the preferred mitigation.\n\n* Upgrade to `requests>=2.32.0`.\n* For `requests<2.32.0`, avoid setting `verify=False` for the first request to a host while using a Requests Session.\n* For `requests<2.32.0`, call `close()` on `Session` objects to clear existing connections if `verify=False` is used.\n\n### Related Links\n* https://github.com/psf/requests/pull/6655",
@@ -253,9 +271,6 @@
           "GHSA-9wx4-h78v-vm56"
         ],
         "aliases": [
-          "CGA-77h5-pgh2-r2fg",
-          "CGA-p79x-5pxg-f77m",
-          "CGA-v542-whj6-7mj4",
           "CVE-2024-35195",
           "GHSA-9wx4-h78v-vm56"
         ],

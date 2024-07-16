@@ -17,6 +17,9 @@
         "aliases": [
           "CVE-2023-26112"
         ],
+        "related": [
+          "CGA-9r88-r9jr-p44c"
+        ],
         "summary": "configobj ReDoS exploitable by developer using values in a server-side configuration file",
         "details": "All versions of the package configobj are vulnerable to Regular Expression Denial of Service (ReDoS) via the validate function, using (.+?)\\((.*)\\). **Note:** This is only exploitable in the case of a developer, putting the offending value in a server side configuration file.",
         "affected": [

@@ -10,22 +10,28 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-07-08T23:29:36Z",
+        "modified": "2024-07-15T22:12:28Z",
         "published": "2024-07-05T20:06:40Z",
         "schema_version": "1.6.0",
         "id": "GHSA-248v-346w-9cwc",
         "aliases": [
+          "CVE-2024-39689"
+        ],
+        "related": [
+          "CGA-2ph7-wp75-g3rf",
+          "CGA-3727-xg6m-m6g6",
           "CGA-6v56-8m7g-x649",
           "CGA-8493-6499-2mc5",
           "CGA-8qgh-gj56-2mhf",
+          "CGA-c75v-5wrv-rvg2",
           "CGA-f5h2-p64r-hgpf",
+          "CGA-fhg8-gq72-6xvf",
           "CGA-h96w-2q45-hmp9",
           "CGA-hv83-mq7r-r58m",
           "CGA-m8x2-jj4x-r82h",
           "CGA-mgvx-56mp-qxp4",
           "CGA-r3c7-44cm-2pr4",
-          "CGA-wgrc-28p5-r64q",
-          "CVE-2024-39689"
+          "CGA-wgrc-28p5-r64q"
         ],
         "summary": "Certifi removes GLOBALTRUST root certificate",
         "details": "Certifi 2024.07.04 removes root certificates from \"GLOBALTRUST\" from the root store. These are in the process of being removed from Mozilla's trust store.\n\nGLOBALTRUST's root certificates are being removed pursuant to an investigation which identified \"long-running and unresolved compliance issues\". Conclusions of Mozilla's investigation can be found [here]( https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/XpknYMPO8dI).",
@@ -111,6 +117,10 @@
         "aliases": [
           "CVE-2023-37920",
           "PYSEC-2023-135"
+        ],
+        "related": [
+          "CGA-3crq-3vh2-hxpf",
+          "CGA-vxhq-hwj6-cr7h"
         ],
         "summary": "Removal of e-Tugra root certificate",
         "details": "Certifi 2023.07.22 removes root certificates from \"e-Tugra\" from the root store. These are in the process of being removed from Mozilla's trust store.\n\n e-Tugra's root certificates are being removed pursuant to an investigation prompted by reporting of security issues in their systems. Conclusions of Mozilla's investigation can be found [here](https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/C-HrP1SEq1A).",
@@ -336,16 +346,6 @@
           "GHSA-248v-346w-9cwc"
         ],
         "aliases": [
-          "CGA-6v56-8m7g-x649",
-          "CGA-8493-6499-2mc5",
-          "CGA-8qgh-gj56-2mhf",
-          "CGA-f5h2-p64r-hgpf",
-          "CGA-h96w-2q45-hmp9",
-          "CGA-hv83-mq7r-r58m",
-          "CGA-m8x2-jj4x-r82h",
-          "CGA-mgvx-56mp-qxp4",
-          "CGA-r3c7-44cm-2pr4",
-          "CGA-wgrc-28p5-r64q",
           "CVE-2024-39689",
           "GHSA-248v-346w-9cwc"
         ],
@@ -376,15 +376,33 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-21T16:29:28Z",
+        "modified": "2024-07-15T22:12:27Z",
         "published": "2024-05-20T20:15:00Z",
         "schema_version": "1.6.0",
         "id": "GHSA-9wx4-h78v-vm56",
         "aliases": [
-          "CGA-77h5-pgh2-r2fg",
-          "CGA-p79x-5pxg-f77m",
-          "CGA-v542-whj6-7mj4",
           "CVE-2024-35195"
+        ],
+        "related": [
+          "CGA-2qh2-jp77-wp2x",
+          "CGA-32qh-xq5g-9xq4",
+          "CGA-432x-3phh-56c7",
+          "CGA-4354-v6cq-3f5f",
+          "CGA-4xx2-v3vc-q5x8",
+          "CGA-6rf6-59qq-87jc",
+          "CGA-6v4c-f9mw-8ghc",
+          "CGA-74xp-46xv-7q3v",
+          "CGA-77h5-pgh2-r2fg",
+          "CGA-8mx8-8v5r-99xg",
+          "CGA-hf9v-fwg4-2jvw",
+          "CGA-hhrg-5mf5-r2p5",
+          "CGA-jcgc-jpw2-xpqq",
+          "CGA-p79x-5pxg-f77m",
+          "CGA-rrq3-6489-25cv",
+          "CGA-v263-vf6g-w8hh",
+          "CGA-v542-whj6-7mj4",
+          "CGA-whqq-jwxh-vf92",
+          "CGA-x395-8f45-7j43"
         ],
         "summary": "Requests `Session` object does not verify requests after making first request with verify=False",
         "details": "When making requests through a Requests `Session`, if the first request is made with `verify=False` to disable cert verification, all subsequent requests to the same origin will continue to ignore cert verification regardless of changes to the value of `verify`. This behavior will continue for the lifecycle of the connection in the connection pool.\n\n### Remediation\nAny of these options can be used to remediate the current issue, we highly recommend upgrading as the preferred mitigation.\n\n* Upgrade to `requests>=2.32.0`.\n* For `requests<2.32.0`, avoid setting `verify=False` for the first request to a host while using a Requests Session.\n* For `requests<2.32.0`, call `close()` on `Session` objects to clear existing connections if `verify=False` is used.\n\n### Related Links\n* https://github.com/psf/requests/pull/6655",
@@ -619,9 +637,6 @@
           "GHSA-9wx4-h78v-vm56"
         ],
         "aliases": [
-          "CGA-77h5-pgh2-r2fg",
-          "CGA-p79x-5pxg-f77m",
-          "CGA-v542-whj6-7mj4",
           "CVE-2024-35195",
           "GHSA-9wx4-h78v-vm56"
         ],
@@ -640,25 +655,33 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-25T02:48:33Z",
+        "modified": "2024-07-15T22:12:28Z",
         "published": "2024-06-17T21:37:20Z",
         "schema_version": "1.6.0",
         "id": "GHSA-34jh-p97f-mpxf",
         "aliases": [
+          "CVE-2024-37891"
+        ],
+        "related": [
           "CGA-2vvm-h2g8-jrwc",
           "CGA-32mf-hm7c-cqmg",
+          "CGA-37xg-qrch-w8h8",
           "CGA-3ggr-w55x-hf5j",
           "CGA-5v3j-934q-gj4m",
+          "CGA-64rf-gm8h-pg8g",
           "CGA-69g4-mv22-46cq",
           "CGA-8f64-fgpv-jxj2",
+          "CGA-8hq8-2689-rc8h",
           "CGA-grjq-jh3q-2p7g",
           "CGA-gwpm-7fhq-3wh2",
           "CGA-h28r-8q2c-xq96",
           "CGA-j235-35vq-wrm8",
+          "CGA-jqq5-p5w5-hr5j",
+          "CGA-m9q6-p3c8-wp58",
           "CGA-mrr8-97mj-749q",
           "CGA-rqhm-766h-p289",
-          "CGA-w3h9-h7jv-6q22",
-          "CVE-2024-37891"
+          "CGA-vgvj-86h2-mvw3",
+          "CGA-w3h9-h7jv-6q22"
         ],
         "summary": "urllib3's Proxy-Authorization request header isn't stripped during cross-origin redirects ",
         "details": "When using urllib3's proxy support with `ProxyManager`, the `Proxy-Authorization` header is only sent to the configured proxy, as expected.\n\nHowever, when sending HTTP requests *without* using urllib3's proxy support, it's possible to accidentally configure the `Proxy-Authorization` header even though it won't have any effect as the request is not using a forwarding proxy or a tunneling proxy. In those cases, urllib3 doesn't treat the `Proxy-Authorization` HTTP header as one carrying authentication material and thus doesn't strip the header on cross-origin redirects.\n\nBecause this is a highly unlikely scenario, we believe the severity of this vulnerability is low for almost all users. Out of an abundance of caution urllib3 will automatically strip the `Proxy-Authorization` header during cross-origin redirects to avoid the small chance that users are doing this on accident.\n\nUsers should use urllib3's proxy support or disable automatic redirects to achieve safe processing of the `Proxy-Authorization` header, but we still decided to strip the header by default in order to further protect users who aren't using the correct approach.\n\n## Affected usages\n\nWe believe the number of usages affected by this advisory is low. It requires all of the following to be true to be exploited:\n\n* Setting the `Proxy-Authorization` header without using urllib3's built-in proxy support.\n* Not disabling HTTP redirects.\n* Either not using an HTTPS origin server or for the proxy or target origin to redirect to a malicious origin.\n\n## Remediation\n\n* Using the `Proxy-Authorization` header with urllib3's `ProxyManager`.\n* Disabling HTTP redirects using `redirects=False` when sending requests.\n* Not using the `Proxy-Authorization` header.",
@@ -852,6 +875,14 @@
         "aliases": [
           "CVE-2023-45803",
           "PYSEC-2023-212"
+        ],
+        "related": [
+          "CGA-2mh2-vjwv-24h5",
+          "CGA-9mxq-c62w-h5rv",
+          "CGA-cjqx-w66g-47qw",
+          "CGA-mvfr-2q7x-4qfj",
+          "CGA-qmpr-qhrc-f7m6",
+          "CGA-vrf3-m7hm-2jfq"
         ],
         "summary": "urllib3's request body not stripped after redirect from 303 status changes request method to GET",
         "details": "urllib3 previously wouldn't remove the HTTP request body when an HTTP redirect response using status 303 \"See Other\" after the request had its method changed from one that could accept a request body (like `POST`) to `GET` as is required by HTTP RFCs. Although the behavior of removing the request body is not specified in the section for redirects, it can be inferred by piecing together information from different sections and we have observed the behavior in other major HTTP client implementations like curl and web browsers.\n\nFrom [RFC 9110 Section 9.3.1](https://www.rfc-editor.org/rfc/rfc9110.html#name-get):\n\n> A client SHOULD NOT generate content in a GET request unless it is made directly to an origin server that has previously indicated, in or out of band, that such a request has a purpose and will be adequately supported.\n\n## Affected usages\n\nBecause the vulnerability requires a previously trusted service to become compromised in order to have an impact on confidentiality we believe the exploitability of this vulnerability is low. Additionally, many users aren't putting sensitive data in HTTP request bodies, if this is the case then this vulnerability isn't exploitable.\n\nBoth of the following conditions must be true to be affected by this vulnerability:\n\n* If you're using urllib3 and submitting sensitive information in the HTTP request body (such as form data or JSON)\n* The origin service is compromised and starts redirecting using 303 to a malicious peer or the redirected-to service becomes compromised.\n\n## Remediation\n\nYou can remediate this vulnerability with any of the following steps:\n\n* Upgrade to a patched version of urllib3 (v1.26.18 or v2.0.7)\n* Disable redirects for services that you aren't expecting to respond with redirects with `redirects=False`.\n* Disable automatic redirects with `redirects=False` and handle 303 redirects manually by stripping the HTTP request body.\n",
@@ -1072,6 +1103,15 @@
         "aliases": [
           "CVE-2023-43804",
           "PYSEC-2023-192"
+        ],
+        "related": [
+          "CGA-56g7-689g-xp6r",
+          "CGA-7c9w-c64m-rwq2",
+          "CGA-f5jj-vcxx-v8m8",
+          "CGA-h89x-4j9m-pw85",
+          "CGA-hwhv-g3qw-gfgp",
+          "CGA-jj8v-vhq7-m6wh",
+          "CGA-mqx7-jxgh-vrfr"
         ],
         "summary": "`Cookie` HTTP header isn't stripped on cross-origin redirects",
         "details": "urllib3 doesn't treat the `Cookie` HTTP header special or provide any helpers for managing cookies over HTTP, that is the responsibility of the user. However, it is possible for a user to specify a `Cookie` header and unknowingly leak information via HTTP redirects to a different origin if that user doesn't disable redirects explicitly.\n\nUsers **must** handle redirects themselves instead of relying on urllib3's automatic redirects to achieve safe processing of the `Cookie` header, thus we decided to strip the header by default in order to further protect users who aren't using the correct approach.\n\n## Affected usages\n\nWe believe the number of usages affected by this advisory is low. It requires all of the following to be true to be exploited:\n\n* Using an affected version of urllib3 (patched in v1.26.17 and v2.0.6)\n* Using the `Cookie` header on requests, which is mostly typical for impersonating a browser.\n* Not disabling HTTP redirects\n* Either not using HTTPS or for the origin server to redirect to a malicious origin.\n\n## Remediation\n\n* Upgrading to at least urllib3 v1.26.17 or v2.0.6\n* Disabling HTTP redirects using `redirects=False` when sending requests.\n* Not using the `Cookie` header.",
@@ -1612,19 +1652,6 @@
           "GHSA-34jh-p97f-mpxf"
         ],
         "aliases": [
-          "CGA-2vvm-h2g8-jrwc",
-          "CGA-32mf-hm7c-cqmg",
-          "CGA-3ggr-w55x-hf5j",
-          "CGA-5v3j-934q-gj4m",
-          "CGA-69g4-mv22-46cq",
-          "CGA-8f64-fgpv-jxj2",
-          "CGA-grjq-jh3q-2p7g",
-          "CGA-gwpm-7fhq-3wh2",
-          "CGA-h28r-8q2c-xq96",
-          "CGA-j235-35vq-wrm8",
-          "CGA-mrr8-97mj-749q",
-          "CGA-rqhm-766h-p289",
-          "CGA-w3h9-h7jv-6q22",
           "CVE-2024-37891",
           "GHSA-34jh-p97f-mpxf"
         ],

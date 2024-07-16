@@ -10,15 +10,33 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-21T16:29:28Z",
+        "modified": "2024-07-15T22:12:27Z",
         "published": "2024-05-20T20:15:00Z",
         "schema_version": "1.6.0",
         "id": "GHSA-9wx4-h78v-vm56",
         "aliases": [
-          "CGA-77h5-pgh2-r2fg",
-          "CGA-p79x-5pxg-f77m",
-          "CGA-v542-whj6-7mj4",
           "CVE-2024-35195"
+        ],
+        "related": [
+          "CGA-2qh2-jp77-wp2x",
+          "CGA-32qh-xq5g-9xq4",
+          "CGA-432x-3phh-56c7",
+          "CGA-4354-v6cq-3f5f",
+          "CGA-4xx2-v3vc-q5x8",
+          "CGA-6rf6-59qq-87jc",
+          "CGA-6v4c-f9mw-8ghc",
+          "CGA-74xp-46xv-7q3v",
+          "CGA-77h5-pgh2-r2fg",
+          "CGA-8mx8-8v5r-99xg",
+          "CGA-hf9v-fwg4-2jvw",
+          "CGA-hhrg-5mf5-r2p5",
+          "CGA-jcgc-jpw2-xpqq",
+          "CGA-p79x-5pxg-f77m",
+          "CGA-rrq3-6489-25cv",
+          "CGA-v263-vf6g-w8hh",
+          "CGA-v542-whj6-7mj4",
+          "CGA-whqq-jwxh-vf92",
+          "CGA-x395-8f45-7j43"
         ],
         "summary": "Requests `Session` object does not verify requests after making first request with verify=False",
         "details": "When making requests through a Requests `Session`, if the first request is made with `verify=False` to disable cert verification, all subsequent requests to the same origin will continue to ignore cert verification regardless of changes to the value of `verify`. This behavior will continue for the lifecycle of the connection in the connection pool.\n\n### Remediation\nAny of these options can be used to remediate the current issue, we highly recommend upgrading as the preferred mitigation.\n\n* Upgrade to `requests>=2.32.0`.\n* For `requests<2.32.0`, avoid setting `verify=False` for the first request to a host while using a Requests Session.\n* For `requests<2.32.0`, call `close()` on `Session` objects to clear existing connections if `verify=False` is used.\n\n### Related Links\n* https://github.com/psf/requests/pull/6655",
@@ -254,6 +272,9 @@
         "aliases": [
           "CVE-2023-32681",
           "PYSEC-2023-74"
+        ],
+        "related": [
+          "CGA-jw5m-ghm3-2mhw"
         ],
         "summary": "Unintended leak of Proxy-Authorization header in requests",
         "details": "### Impact\n\nSince Requests v2.3.0, Requests has been vulnerable to potentially leaking `Proxy-Authorization` headers to destination servers, specifically during redirects to an HTTPS origin. This is a product of how `rebuild_proxies` is used to recompute and [reattach the `Proxy-Authorization` header](https://github.com/psf/requests/blob/f2629e9e3c7ce3c3c8c025bcd8db551101cbc773/requests/sessions.py#L319-L328) to requests when redirected. Note this behavior has _only_ been observed to affect proxied requests when credentials are supplied in the URL user information component (e.g. `https://username:password@proxy:8080`).\n\n**Current vulnerable behavior(s):**\n\n1. HTTP \u2192 HTTPS: **leak**\n2. HTTPS \u2192 HTTP: **no leak**\n3. HTTPS \u2192 HTTPS: **leak**\n4. HTTP \u2192 HTTP: **no leak**\n\nFor HTTP connections sent through the proxy, the proxy will identify the header in the request itself and remove it prior to forwarding to the destination server. However when sent over HTTPS, the `Proxy-Authorization` header must be sent in the CONNECT request as the proxy has no visibility into further tunneled requests. This results in Requests forwarding the header to the destination server unintentionally, allowing a malicious actor to potentially exfiltrate those credentials.\n\nThe reason this currently works for HTTPS connections in Requests is the `Proxy-Authorization` header is also handled by urllib3 with our usage of the ProxyManager in adapters.py with [`proxy_manager_for`](https://github.com/psf/requests/blob/f2629e9e3c7ce3c3c8c025bcd8db551101cbc773/requests/adapters.py#L199-L235). This will compute the required proxy headers in `proxy_headers` and pass them to the Proxy Manager, avoiding attaching them directly to the Request object. This will be our preferred option going forward for default usage.\n\n### Patches\nStarting in Requests v2.31.0, Requests will no longer attach this header to redirects with an HTTPS destination. This should have no negative impacts on the default behavior of the library as the proxy credentials are already properly being handled by urllib3's ProxyManager.\n\nFor users with custom adapters, this _may_ be potentially breaking if you were already working around this behavior. The previous functionality of `rebuild_proxies` doesn't make sense in any case, so we would encourage any users impacted to migrate any handling of Proxy-Authorization directly into their custom adapter.\n\n### Workarounds\nFor users who are not able to update Requests immediately, there is one potential workaround.\n\nYou may disable redirects by setting `allow_redirects` to `False` on all calls through Requests top-level APIs. Note that if you're currently relying on redirect behaviors, you will need to capture the 3xx response codes and ensure a new request is made to the redirect destination.\n```\nimport requests\nr = requests.get('http://github.com/', allow_redirects=False)\n```\n\n### Credits\n\nThis vulnerability was discovered and disclosed by the following individuals.\n\nDennis Brinkrolf, Haxolot (https://haxolot.com/)\nTobias Funke, (tobiasfunke93@gmail.com)",
@@ -554,9 +575,6 @@
           "GHSA-9wx4-h78v-vm56"
         ],
         "aliases": [
-          "CGA-77h5-pgh2-r2fg",
-          "CGA-p79x-5pxg-f77m",
-          "CGA-v542-whj6-7mj4",
           "CVE-2024-35195",
           "GHSA-9wx4-h78v-vm56"
         ],
