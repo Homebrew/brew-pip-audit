@@ -398,6 +398,9 @@
         "aliases": [
           "CVE-2024-6345"
         ],
+        "related": [
+          "CGA-c79m-39cv-2j6g"
+        ],
         "summary": "setuptools vulnerable to Command Injection via package URL",
         "details": "A vulnerability in the `package_index` module of pypa/setuptools versions up to 69.1.1 allows for remote code execution via its download functions. These functions, which are used to download packages from URLs provided by users or retrieved from package index servers, are susceptible to code injection. If these functions are exposed to user-controlled inputs, such as package URLs, they can execute arbitrary commands on the system. The issue is fixed in version 70.0.",
         "affected": [
