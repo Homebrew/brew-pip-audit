@@ -16,6 +16,7 @@ SKIP_FORMULA = [
   # setup.py requires another package to be pre-installed. Should really use pyproject.toml.
   # https://github.com/OfflineIMAP/offlineimap3/pull/157
   "offlineimap",
+  "zim",
   # No setup.py.
   "recon-ng",
   "gnuradio",
