@@ -466,6 +466,7 @@
           "CVE-2024-6345"
         ],
         "related": [
+          "CGA-c5cf-23gj-ccmf",
           "CGA-c79m-39cv-2j6g"
         ],
         "summary": "setuptools vulnerable to Command Injection via package URL",

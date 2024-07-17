@@ -1,2 +1,1 @@
 click==8.1.7
-setuptools==69.1.0

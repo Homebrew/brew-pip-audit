@@ -3,4 +3,4 @@ crcmod==1.7
 docopt==0.6.2
 hidapi==0.14.0
 pyusb==1.2.1
-setuptools==69.2.0
+setuptools==70.3.0
