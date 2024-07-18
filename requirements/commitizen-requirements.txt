@@ -1,8 +1,7 @@
-argcomplete==3.3.0
+argcomplete==3.4.0
 charset-normalizer==3.3.2
 colorama==0.4.6
 decli==0.6.2
-importlib-metadata==7.2.1
 jinja2==3.1.4
 markupsafe==2.1.5
 packaging==24.1
@@ -10,6 +9,5 @@ prompt-toolkit==3.0.36
 pyyaml==6.0.1
 questionary==2.0.1
 termcolor==2.4.0
-tomlkit==0.12.5
+tomlkit==0.13.0
 wcwidth==0.2.13
-zipp==3.19.2
