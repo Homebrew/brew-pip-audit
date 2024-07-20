@@ -2,5 +2,5 @@ pyqt6-3d==6.7.0
 pyqt6-charts==6.7.0
 pyqt6-datavisualization==6.7.0
 pyqt6-networkauth==6.7.0
-pyqt6-sip==13.6.0
+pyqt6-sip==13.8.0
 pyqt6-webengine==6.7.0
