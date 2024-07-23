@@ -9,7 +9,7 @@ h11==0.14.0
 harfile==0.3.0
 httpcore==1.0.5
 httpx==0.27.0
-hypothesis==6.108.2
+hypothesis==6.108.3
 hypothesis-graphql==0.11.0
 hypothesis-jsonschema==0.23.1
 idna==3.7
@@ -22,7 +22,7 @@ multidict==6.0.5
 packaging==24.1
 pluggy==1.5.0
 pyrate-limiter==3.6.1
-pytest==8.3.0
+pytest==8.3.1
 pytest-subtests==0.7.0
 pyyaml==6.0.1
 referencing==0.35.1
