@@ -1,6 +1,7 @@
 decorator==5.1.1
-distro==1.8.0
-gssapi==1.8.2
+distro==1.9.0
+gssapi==1.8.3
 imaplib2==3.6
-portalocker==2.6.0
+portalocker==2.10.1
 rfc6555==0.1.0
+urllib3==1.25.11
