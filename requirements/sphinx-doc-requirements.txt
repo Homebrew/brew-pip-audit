@@ -1,4 +1,4 @@
-alabaster==0.7.16
+alabaster==1.0.0
 babel==2.15.0
 charset-normalizer==3.3.2
 docutils==0.21.2
@@ -11,11 +11,11 @@ packaging==24.1
 pygments==2.18.0
 requests==2.32.3
 snowballstemmer==2.2.0
-sphinxcontrib-applehelp==1.0.8
-sphinxcontrib-devhelp==1.0.6
-sphinxcontrib-htmlhelp==2.0.6
+sphinxcontrib-applehelp==2.0.0
+sphinxcontrib-devhelp==2.0.0
+sphinxcontrib-htmlhelp==2.1.0
 sphinxcontrib-jsmath==1.0.1
-sphinxcontrib-qthelp==1.0.8
-sphinxcontrib-serializinghtml==1.1.10
+sphinxcontrib-qthelp==2.0.0
+sphinxcontrib-serializinghtml==2.0.0
 tabulate==0.9.0
 urllib3==2.2.2
