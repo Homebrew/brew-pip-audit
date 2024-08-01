@@ -1,5 +1,5 @@
 aioesphomeapi==24.3.0
-aiohappyeyeballs==2.3.2
+aiohappyeyeballs==2.3.4
 ajsonrpc==1.2.0
 anyio==4.4.0
 argcomplete==3.4.0
@@ -8,7 +8,6 @@ bitarray==2.9.2
 bitstring==4.2.3
 bottle==0.12.25
 chacha20poly1305-reuseable==0.12.2
-chardet==5.2.0
 charset-normalizer==3.3.2
 click==8.1.7
 colorama==0.4.6
@@ -26,7 +25,7 @@ noiseprotocol==0.3.1
 packaging==24.1
 paho-mqtt==1.6.1
 platformio==6.1.15
-protobuf==5.27.2
+protobuf==5.27.3
 pyelftools==0.31
 pyparsing==3.1.2
 pyserial==3.5

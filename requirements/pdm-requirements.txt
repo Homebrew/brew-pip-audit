@@ -1,6 +1,6 @@
 anyio==4.4.0
 blinker==1.8.2
-dep-logic==0.4.3
+dep-logic==0.4.4
 distlib==0.3.8
 filelock==3.15.4
 findpython==0.6.1
