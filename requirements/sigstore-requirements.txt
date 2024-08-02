@@ -2,7 +2,7 @@ annotated-types==0.7.0
 betterproto==2.0.0b6
 charset-normalizer==3.3.2
 dnspython==2.6.1
-email-validator==2.1.2
+email-validator==2.2.0
 grpclib==0.4.7
 h2==4.1.0
 hpack==4.0.0
@@ -14,11 +14,11 @@ mdurl==0.1.2
 multidict==6.0.5
 platformdirs==4.2.2
 pyasn1==0.6.0
-pydantic==2.7.4
-pydantic-core==2.18.4
+pydantic==2.8.2
+pydantic-core==2.20.1
 pygments==2.18.0
 pyjwt==2.8.0
-pyopenssl==24.1.0
+pyopenssl==24.2.1
 python-dateutil==2.9.0.post0
 requests==2.32.3
 rfc8785==0.1.3
