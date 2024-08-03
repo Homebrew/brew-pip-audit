@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-04-26T17:12:07Z",
+        "modified": "2024-08-02T16:07:42Z",
         "published": "2024-04-26T00:30:35Z",
         "schema_version": "1.6.0",
         "id": "GHSA-6c5p-j8vq-pqhj",
@@ -87,6 +87,10 @@
           {
             "type": "CVSS_V3",
             "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N"
+          },
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N"
           }
         ],
         "references": [
@@ -231,7 +235,7 @@
           "CVE-2024-33663",
           "GHSA-6c5p-j8vq-pqhj"
         ],
-        "max_severity": "7.4"
+        "max_severity": "9.3"
       },
       {
         "ids": [
