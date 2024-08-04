@@ -179,11 +179,12 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-07-15T16:42:32Z",
+        "modified": "2024-08-03T08:11:47Z",
         "published": "2024-07-15T03:30:57Z",
         "schema_version": "1.6.0",
         "id": "GHSA-cx63-2mw6-8hw5",
         "aliases": [
+          "BIT-setuptools-2024-6345",
           "CVE-2024-6345"
         ],
         "related": [
@@ -827,6 +828,7 @@
           "GHSA-cx63-2mw6-8hw5"
         ],
         "aliases": [
+          "BIT-setuptools-2024-6345",
           "CVE-2024-6345",
           "GHSA-cx63-2mw6-8hw5"
         ],
