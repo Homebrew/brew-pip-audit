@@ -43,6 +43,8 @@ Formula.all.sort.each do |f|
                  ".tar.gz"
                elsif path.end_with? ".tar.bz2"
                  ".tar.bz2"
+               elsif path.ends_with? "-py3-none-any.whl"
+                 "-py3-none-any.whl"
                else
                  abort "barf: unexpected suffix in #{path}"
                end
