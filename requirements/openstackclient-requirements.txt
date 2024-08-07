@@ -1,4 +1,4 @@
-attrs==24.1.0
+attrs==24.2.0
 autopage==0.5.2
 babel==2.15.0
 charset-normalizer==3.3.2
@@ -51,15 +51,14 @@ python-magnumclient==4.6.0
 python-manilaclient==4.9.1
 python-mistralclient==5.2.0
 python-neutronclient==11.3.1
-python-novaclient==18.6.0
 python-octaviaclient==3.7.0
 python-swiftclient==4.6.0
-pyyaml==6.0.1
+pyyaml==6.0.2
 referencing==0.35.1
 requests==2.32.3
 requestsexceptions==1.4.0
 rfc3986==2.0.0
-rpds-py==0.19.1
+rpds-py==0.20.0
 setuptools==72.1.0
 simplejson==3.19.2
 six==1.16.0
