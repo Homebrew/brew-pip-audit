@@ -1,4 +1,4 @@
-argcomplete==3.4.0
+argcomplete==3.5.0
 libarchive-c==5.1
 progressbar==2.5
 python-magic==0.4.27
