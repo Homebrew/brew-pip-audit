@@ -18,7 +18,7 @@ setuptools==72.1.0
 six==1.16.0
 spake2==0.8
 tqdm==4.66.5
-twisted==24.3.0
+twisted==24.7.0
 txaio==23.1.1
 txtorcon==23.11.0
 typing-extensions==4.12.2

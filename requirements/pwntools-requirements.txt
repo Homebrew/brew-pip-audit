@@ -1,5 +1,5 @@
 bcrypt==4.2.0
-capstone==5.0.1
+capstone==5.0.2
 charset-normalizer==3.3.2
 colored-traceback==0.4.2
 idna==3.7

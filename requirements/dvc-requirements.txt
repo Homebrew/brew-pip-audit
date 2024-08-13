@@ -1,7 +1,7 @@
 adlfs==2024.7.0
 aiobotocore==2.13.2
 aiohappyeyeballs==2.3.5
-aiohttp==3.10.2
+aiohttp==3.10.3
 aiohttp-retry==2.8.3
 aioitertools==0.11.0
 aiooss2==0.2.10

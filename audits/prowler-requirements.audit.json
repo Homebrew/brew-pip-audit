@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-08-09T17:26:57Z",
+        "modified": "2024-08-12T16:21:23Z",
         "published": "2024-08-09T16:49:58Z",
         "schema_version": "1.6.0",
         "id": "GHSA-jwhx-xcg6-8xhj",
@@ -300,6 +300,10 @@
             "url": "https://github.com/aio-libs/aiohttp/security/advisories/GHSA-jwhx-xcg6-8xhj"
           },
           {
+            "type": "ADVISORY",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-42367"
+          },
+          {
             "type": "WEB",
             "url": "https://github.com/aio-libs/aiohttp/pull/8653"
           },
@@ -310,6 +314,14 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/aio-libs/aiohttp"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/aio-libs/aiohttp/blob/e0ff5246e1d29b7710ab1a2bbc972b48169f1c05/aiohttp/web_fileresponse.py#L177"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/aio-libs/aiohttp/blob/e0ff5246e1d29b7710ab1a2bbc972b48169f1c05/aiohttp/web_urldispatcher.py#L674"
           }
         ],
         "database_specific": {
@@ -318,7 +330,7 @@
           ],
           "github_reviewed": true,
           "github_reviewed_at": "2024-08-09T16:49:58Z",
-          "nvd_published_at": null,
+          "nvd_published_at": "2024-08-12T13:38:34Z",
           "severity": "MODERATE"
         }
       }

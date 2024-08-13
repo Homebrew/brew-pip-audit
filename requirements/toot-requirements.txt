@@ -4,10 +4,10 @@ click==8.1.7
 idna==3.7
 requests==2.32.3
 soupsieve==2.5
-term-image==0.7.0
-tomlkit==0.12.5
+term-image==0.7.2
+tomlkit==0.13.0
 typing-extensions==4.12.2
 urllib3==2.2.2
-urwid==2.6.14
-urwidgets==0.1.1
+urwid==2.6.15
+urwidgets==0.2.0
 wcwidth==0.2.13
