@@ -19,8 +19,8 @@ azure-mgmt-network==26.0.0
 azure-mgmt-resource==23.1.1
 azure-mgmt-subscription==3.1.1
 bcrypt==4.2.0
-boto3==1.34.158
-botocore==1.34.158
+boto3==1.34.159
+botocore==1.34.159
 cached-classproperty==1.0.1
 cachetools==5.4.0
 charset-normalizer==3.3.2
@@ -114,7 +114,7 @@ typing-extensions==4.12.2
 tzlocal==5.2
 uritemplate==4.1.1
 urllib3==2.2.2
-uvicorn==0.30.5
+uvicorn==0.30.6
 watchfiles==0.23.0
 websocket-client==1.8.0
 wrapt==1.16.0

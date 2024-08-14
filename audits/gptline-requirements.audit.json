@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-07-05T18:02:56Z",
+        "modified": "2024-08-13T13:41:27Z",
         "published": "2024-06-28T00:33:31Z",
         "schema_version": "1.6.0",
         "id": "GHSA-cgvx-9447-vcch",
@@ -34,7 +34,7 @@
                     "introduced": "0"
                   },
                   {
-                    "last_affected": "3.8.1"
+                    "fixed": "3.8.2"
                   }
                 ]
               }
@@ -101,6 +101,7 @@
               "3.8.1"
             ],
             "database_specific": {
+              "last_known_affected_version_range": "<= 3.8.1",
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/06/GHSA-cgvx-9447-vcch/GHSA-cgvx-9447-vcch.json"
             }
           }
@@ -127,6 +128,10 @@
           {
             "type": "WEB",
             "url": "https://github.com/nltk/nltk/issues/3266"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/nltk/nltk/commit/441aecb7d33014bd08672232c6c8bb69c2ceaba2"
           },
           {
             "type": "PACKAGE",
