@@ -17,7 +17,7 @@ msgpack==1.0.8
 psutil==6.0.0
 pyzmq==26.1.0
 requests==2.32.3
-setuptools==72.1.0
+setuptools==72.2.0
 urllib3==2.2.2
 werkzeug==3.0.3
 zope-event==5.0
