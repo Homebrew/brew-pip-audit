@@ -1,12 +1,12 @@
-ansible-core==2.17.2
+ansible-core==2.17.3
 ansible-pylibssh==1.2.2
 apache-libcloud==3.8.0
 attrs==24.2.0
 autopage==0.5.2
 bcrypt==4.2.0
-boto3==1.34.158
-botocore==1.34.158
-cachetools==5.4.0
+boto3==1.35.0
+botocore==1.35.0
+cachetools==5.5.0
 charset-normalizer==3.3.2
 cliff==4.7.0
 cmd2==2.4.3
@@ -45,7 +45,7 @@ oslo-config==9.5.0
 oslo-context==5.5.0
 oslo-i18n==6.3.0
 oslo-log==6.1.1
-oslo-serialization==5.4.0
+oslo-serialization==5.5.0
 oslo-utils==7.2.0
 packaging==24.1
 paramiko==3.4.1
@@ -53,7 +53,7 @@ passlib==1.7.4
 pbr==6.0.0
 pexpect==4.9.0
 platformdirs==4.2.2
-prettytable==3.10.2
+prettytable==3.11.0
 proxmoxer==2.1.0
 ptyprocess==0.7.0
 pyasn1==0.6.0
@@ -81,7 +81,7 @@ rfc3986==2.0.0
 rsa==4.9
 s3transfer==0.10.2
 scp==0.15.0
-setuptools==72.1.0
+setuptools==72.2.0
 shade==1.33.0
 six==1.16.0
 stevedore==5.2.0
