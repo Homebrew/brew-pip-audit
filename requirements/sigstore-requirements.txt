@@ -17,7 +17,7 @@ pyasn1==0.6.0
 pydantic==2.8.2
 pydantic-core==2.20.1
 pygments==2.18.0
-pyjwt==2.8.0
+pyjwt==2.9.0
 pyopenssl==24.2.1
 python-dateutil==2.9.0.post0
 requests==2.32.3

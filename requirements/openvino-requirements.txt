@@ -1,2 +1,2 @@
-openvino-telemetry==2023.2.1
-packaging==24.0
+openvino-telemetry==2024.1.0
+packaging==24.1

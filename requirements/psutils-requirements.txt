@@ -1,2 +1,2 @@
-puremagic==1.26
+puremagic==1.27
 pypdf==4.3.1
