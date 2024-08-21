@@ -1,4 +1,4 @@
 mako==1.3.5
 markupsafe==2.1.5
 packaging==24.1
-pygments==2.18.0
+ply==3.11
