@@ -17,6 +17,9 @@
         "aliases": [
           "CVE-2024-39705"
         ],
+        "related": [
+          "CGA-4rpm-rh56-9fq5"
+        ],
         "summary": "ntlk unsafe deserialization vulnerability",
         "details": "NLTK through 3.8.1 allows remote code execution if untrusted packages have pickled Python code, and the integrated data package download functionality is used. This affects, for example, averaged_perceptron_tagger and punkt.",
         "affected": [

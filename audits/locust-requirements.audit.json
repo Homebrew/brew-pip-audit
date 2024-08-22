@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-08-20T21:41:59Z",
+        "modified": "2024-08-21T15:10:38Z",
         "published": "2024-08-18T21:31:07Z",
         "schema_version": "1.6.0",
         "id": "GHSA-hxwh-jpp2-84pm",
@@ -95,11 +95,11 @@
         "severity": [
           {
             "type": "CVSS_V3",
-            "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N"
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
           },
           {
             "type": "CVSS_V4",
-            "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
+            "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
           }
         ],
         "references": [
@@ -113,6 +113,10 @@
           },
           {
             "type": "WEB",
+            "url": "https://github.com/pypa/advisory-database/tree/main/vulns/flask-cors/PYSEC-2024-71.yaml"
+          },
+          {
+            "type": "WEB",
             "url": "https://huntr.com/bounties/a42935fc-6f57-4818-bca4-3d528235df4d"
           }
         ],
@@ -123,7 +127,7 @@
           "github_reviewed": true,
           "github_reviewed_at": "2024-08-19T18:25:39Z",
           "nvd_published_at": "2024-08-18T19:15:04Z",
-          "severity": "MODERATE"
+          "severity": "HIGH"
         }
       },
       {
@@ -230,7 +234,7 @@
           "GHSA-hxwh-jpp2-84pm",
           "PYSEC-2024-71"
         ],
-        "max_severity": "7.5"
+        "max_severity": "8.7"
       }
     ]
   }
