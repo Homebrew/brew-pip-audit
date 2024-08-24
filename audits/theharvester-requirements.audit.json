@@ -658,6 +658,7 @@
           "CVE-2024-42367"
         ],
         "related": [
+          "CGA-4pvr-9jgj-4vq4",
           "CGA-hc9m-rgpj-x5m5"
         ],
         "summary": "In aiohttp, compressed files as symlinks are not protected from path traversal",
