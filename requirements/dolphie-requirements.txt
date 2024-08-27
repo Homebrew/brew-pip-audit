@@ -1,6 +1,6 @@
 charset-normalizer==3.3.2
 cython==3.0.11
-idna==3.7
+idna==3.8
 linkify-it-py==2.0.3
 loguru==0.7.2
 markdown-it-py==3.0.0
@@ -13,10 +13,10 @@ plotext==5.2.8
 pygments==2.18.0
 pymysql==1.1.1
 requests==2.32.3
-rich==13.7.1
+rich==13.8.0
 setuptools==73.0.1
 sqlparse==0.5.1
-textual==0.75.0
+textual==0.77.0
 textual-autocomplete==2.1.0b0
 tree-sitter==0.20.4
 typing-extensions==4.12.2

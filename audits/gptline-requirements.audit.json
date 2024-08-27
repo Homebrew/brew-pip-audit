@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-08-20T16:20:41Z",
+        "modified": "2024-08-26T19:20:32Z",
         "published": "2024-06-28T00:33:31Z",
         "schema_version": "1.6.0",
         "id": "GHSA-cgvx-9447-vcch",
@@ -139,6 +139,10 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/nltk/nltk"
+          },
+          {
+            "type": "WEB",
+            "url": "https://www.vicarius.io/vsociety/posts/rce-in-python-nltk-cve-2024-39705-39706"
           }
         ],
         "database_specific": {
