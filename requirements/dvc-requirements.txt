@@ -1,5 +1,5 @@
 adlfs==2024.7.0
-aiobotocore==2.13.3
+aiobotocore==2.14.0
 aiohappyeyeballs==2.4.0
 aiohttp==3.10.5
 aiohttp-retry==2.8.3
@@ -23,8 +23,8 @@ azure-identity==1.17.1
 azure-storage-blob==12.22.0
 bcrypt==4.2.0
 billiard==4.2.0
-boto3==1.34.162
-botocore==1.34.162
+boto3==1.35.7
+botocore==1.35.7
 cachetools==5.5.0
 celery==5.4.0
 charset-normalizer==3.3.2
@@ -67,7 +67,7 @@ gcsfs==2024.6.1
 gitdb==4.0.11
 gitpython==3.1.43
 google-api-core==2.19.2
-google-api-python-client==2.142.0
+google-api-python-client==2.143.0
 google-auth==2.34.0
 google-auth-httplib2==0.2.0
 google-auth-oauthlib==1.2.1
@@ -107,7 +107,7 @@ platformdirs==3.11.0
 portalocker==2.10.1
 prompt-toolkit==3.0.47
 proto-plus==1.24.0
-protobuf==5.27.4
+protobuf==5.28.0
 psutil==6.0.0
 pyarrow==17.0.0
 pyasn1==0.6.0
