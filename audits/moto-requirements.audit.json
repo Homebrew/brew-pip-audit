@@ -131,7 +131,7 @@
         }
       },
       {
-        "modified": "2024-08-20T21:41:59Z",
+        "modified": "2024-08-31T00:54:30Z",
         "published": "2024-08-18T19:15:00Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2024-71",
@@ -202,7 +202,9 @@
               "3.0.9",
               "4.0.0",
               "4.0.0a0",
-              "4.0.1"
+              "4.0.1",
+              "4.0.2",
+              "5.0.0"
             ],
             "database_specific": {
               "source": "https://github.com/pypa/advisory-database/blob/main/vulns/flask-cors/PYSEC-2024-71.yaml"

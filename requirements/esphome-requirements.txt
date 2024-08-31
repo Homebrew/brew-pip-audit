@@ -1,5 +1,5 @@
-aioesphomeapi==24.3.0
-aiohappyeyeballs==2.3.4
+aioesphomeapi==24.6.2
+aiohappyeyeballs==2.4.0
 ajsonrpc==1.2.0
 anyio==4.4.0
 argcomplete==3.4.0
@@ -7,7 +7,7 @@ async-interrupt==1.1.2
 bitarray==2.9.2
 bitstring==4.2.3
 bottle==0.12.25
-chacha20poly1305-reuseable==0.12.2
+chacha20poly1305-reuseable==0.13.2
 charset-normalizer==3.3.2
 click==8.1.7
 colorama==0.4.6

@@ -7,7 +7,7 @@ parso==0.8.4
 pexpect==4.9.0
 prompt-toolkit==3.0.47
 ptyprocess==0.7.0
-pure-eval==0.2.2
+pure-eval==0.2.3
 pygments==2.18.0
 six==1.16.0
 stack-data==0.6.3
