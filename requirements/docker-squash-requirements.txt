@@ -1,6 +1,6 @@
 charset-normalizer==3.3.2
 docker==7.1.0
-idna==3.7
+idna==3.8
 packaging==24.1
 requests==2.32.3
 urllib3==2.2.2
