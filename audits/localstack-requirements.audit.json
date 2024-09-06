@@ -122,7 +122,7 @@
         }
       },
       {
-        "modified": "2024-05-01T07:45:59Z",
+        "modified": "2024-09-05T18:45:47Z",
         "published": "2024-04-26T00:30:35Z",
         "schema_version": "1.6.0",
         "id": "GHSA-cjwg-qfpm-7377",
@@ -217,6 +217,10 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/mpdavis/python-jose"
+          },
+          {
+            "type": "WEB",
+            "url": "https://www.vicarius.io/vsociety/posts/jwt-bomb-in-python-jose-cve-2024-33664"
           }
         ],
         "database_specific": {
