@@ -14,6 +14,9 @@
         "published": "2024-09-03T21:59:48Z",
         "schema_version": "1.6.0",
         "id": "GHSA-h4gh-qq45-vh27",
+        "related": [
+          "CGA-6vrp-xf34-j7xv"
+        ],
         "summary": "pyca/cryptography has a vulnerable OpenSSL included in cryptography wheels",
         "details": "pyca/cryptography's wheels include a statically linked copy of OpenSSL. The versions of OpenSSL included in cryptography 37.0.0-43.0.0 are vulnerable to a security issue. More details about the vulnerability itself can be found in https://openssl-library.org/news/secadv/20240903.txt.\n\nIf you are building cryptography source (\"sdist\") then you are responsible for upgrading your copy of OpenSSL. Only users installing from wheels built by the cryptography project (i.e., those distributed on PyPI) need to update their cryptography versions.\n",
         "affected": [

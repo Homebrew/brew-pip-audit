@@ -7,8 +7,8 @@ dnslib==0.9.25
 dnspython==2.6.1
 ecdsa==0.19.0
 idna==3.8
-localstack-core==3.7.1
-localstack-ext==3.7.1
+localstack-core==3.7.2
+localstack-ext==3.7.2
 markdown-it-py==3.0.0
 mdurl==0.1.2
 packaging==24.1
