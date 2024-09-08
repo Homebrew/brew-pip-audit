@@ -2,3 +2,4 @@ cassandra-driver==3.29.1
 click==8.1.7
 geomet==0.2.1.post1
 six==1.16.0
+wcwidth==0.2.13
