@@ -22,7 +22,7 @@ markupsafe==2.1.5
 nbformat==5.10.4
 packaging==24.1
 plac==1.4.3
-platformdirs==4.3.1
+platformdirs==4.3.2
 psutil==6.0.0
 pulp==2.8.0
 pyyaml==6.0.2
