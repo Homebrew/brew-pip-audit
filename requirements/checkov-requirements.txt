@@ -16,7 +16,7 @@ boto3==1.34.25
 botocore==1.34.25
 cached-property==1.5.2
 cachetools==5.5.0
-cffi==1.17.0
+cffi==1.17.1
 charset-normalizer==3.3.2
 click==8.1.7
 click-option-group==0.5.6
@@ -45,7 +45,7 @@ lark==1.2.2
 license-expression==30.3.1
 markdown==3.7
 markupsafe==2.1.5
-multidict==6.0.5
+multidict==6.1.0
 networkx==2.6.3
 openai==0.28.1
 packageurl-python==0.13.4
@@ -57,8 +57,8 @@ py-serializable==1.1.0
 pycares==4.4.0
 pycep-parser==0.4.1
 pycparser==2.22
-pydantic==2.8.2
-pydantic-core==2.20.1
+pydantic==2.9.1
+pydantic-core==2.23.3
 pyparsing==3.1.4
 python-dateutil==2.9.0.post0
 pyyaml==6.0.2
@@ -85,5 +85,5 @@ uritools==4.0.3
 urllib3==2.0.7
 wcwidth==0.2.13
 xmltodict==0.13.0
-yarl==1.9.6
+yarl==1.11.1
 zipp==3.20.1
