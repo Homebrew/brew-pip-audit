@@ -1,5 +1,5 @@
 distlib==0.3.8
-filelock==3.14.0
-platformdirs==4.2.2
-setuptools==70.0.0
-virtualenv==20.26.2
+filelock==3.16.0
+platformdirs==4.3.2
+setuptools==74.1.2
+virtualenv==20.26.4
