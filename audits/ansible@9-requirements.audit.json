@@ -2,7 +2,7 @@
   {
     "package": {
       "name": "ansible-core",
-      "version": "2.16.9",
+      "version": "2.16.11",
       "ecosystem": "PyPI"
     },
     "dependency_groups": [
