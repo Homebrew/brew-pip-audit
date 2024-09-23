@@ -1,7 +1,7 @@
 aioesphomeapi==24.6.2
 aiohappyeyeballs==2.4.0
 ajsonrpc==1.2.0
-anyio==4.4.0
+anyio==4.6.0
 argcomplete==3.5.0
 async-interrupt==1.2.0
 bitarray==2.9.2

@@ -1,10 +1,10 @@
 click==8.1.7
-configobj==5.0.8
+configobj==5.0.9
 mistune==3.0.2
 packaging==23.2
-prompt-toolkit==3.0.43
-pygments==2.17.2
+prompt-toolkit==3.0.47
+pygments==2.18.0
 python-dateutil==2.9.0.post0
-redis==5.0.3
+redis==5.0.8
 six==1.16.0
 wcwidth==0.1.9

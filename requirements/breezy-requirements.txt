@@ -1,10 +1,9 @@
-configobj==5.0.8
+configobj==5.0.9
 dulwich==0.22.1
 fastbencode==0.3.1
 merge3==0.0.15
 patiencediff==0.2.15
-pyyaml==6.0.1
-setuptools==70.1.1
-six==1.16.0
+pyyaml==6.0.2
+setuptools==75.1.0
 tzlocal==5.2
-urllib3==2.2.2
+urllib3==2.2.3
