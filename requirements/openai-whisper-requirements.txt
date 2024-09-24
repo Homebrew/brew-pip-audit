@@ -1,8 +1,8 @@
 charset-normalizer==3.3.2
-idna==3.7
-more-itertools==10.4.0
-regex==2024.7.24
+idna==3.10
+more-itertools==10.5.0
+regex==2024.9.11
 requests==2.32.3
 tiktoken==0.7.0
 tqdm==4.66.5
-urllib3==2.2.2
+urllib3==2.2.3
