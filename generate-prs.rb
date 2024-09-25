@@ -152,7 +152,7 @@ for path in Dir.entries("audits").sort
   end
 
   begin
-    GitHub.check_for_duplicate_pull_requests(formula.name, formula.tap.remote_repo,
+    GitHub.check_for_duplicate_pull_requests(formula.name, formula.tap.remote_repository,
                                             state: "open",
                                             file: formula.path.relative_path_from(formula.tap.path).to_s,
                                             quiet: false)
