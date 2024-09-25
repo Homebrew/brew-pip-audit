@@ -19,9 +19,16 @@
           "CVE-2024-6345"
         ],
         "related": [
+          "CGA-374g-f8mr-whvm",
           "CGA-4mw5-xqpj-q4mq",
           "CGA-c5cf-23gj-ccmf",
-          "CGA-c79m-39cv-2j6g"
+          "CGA-c79m-39cv-2j6g",
+          "CGA-f2p4-hwhx-72xc",
+          "CGA-h655-78w4-797j",
+          "CGA-qmjx-gwcv-4p8x",
+          "CGA-rjmx-vqfq-f7rh",
+          "CGA-x22r-fp37-7vh6",
+          "CGA-xrq9-4hfh-g5jh"
         ],
         "summary": "setuptools vulnerable to Command Injection via package URL",
         "details": "A vulnerability in the `package_index` module of pypa/setuptools versions up to 69.1.1 allows for remote code execution via its download functions. These functions, which are used to download packages from URLs provided by users or retrieved from package index servers, are susceptible to code injection. If these functions are exposed to user-controlled inputs, such as package URLs, they can execute arbitrary commands on the system. The issue is fixed in version 70.0.",
@@ -692,9 +699,11 @@
           "CGA-3ggr-w55x-hf5j",
           "CGA-5v3j-934q-gj4m",
           "CGA-64rf-gm8h-pg8g",
+          "CGA-688x-4mm6-g5vm",
           "CGA-69g4-mv22-46cq",
           "CGA-8f64-fgpv-jxj2",
           "CGA-8hq8-2689-rc8h",
+          "CGA-cx62-9vw2-mmpq",
           "CGA-grjq-jh3q-2p7g",
           "CGA-gwpm-7fhq-3wh2",
           "CGA-h28r-8q2c-xq96",
@@ -704,6 +713,7 @@
           "CGA-mrr8-97mj-749q",
           "CGA-rqhm-766h-p289",
           "CGA-vgvj-86h2-mvw3",
+          "CGA-vwcx-7fqm-jggq",
           "CGA-w3h9-h7jv-6q22"
         ],
         "summary": "urllib3's Proxy-Authorization request header isn't stripped during cross-origin redirects ",

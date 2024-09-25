@@ -1,4 +1,4 @@
-astroid==3.3.3
+astroid==3.3.4
 dill==0.3.8
 isort==5.13.2
 mccabe==0.7.0

