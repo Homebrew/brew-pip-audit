@@ -38,7 +38,7 @@ rpds-py==0.20.0
 six==1.16.0
 sniffio==1.3.1
 sortedcontainers==2.4.0
-starlette==0.38.6
+starlette==0.39.1
 starlette-testclient==0.4.1
 tomli==2.0.1
 tomli-w==1.0.0
@@ -47,4 +47,4 @@ uri-template==1.3.0
 urllib3==2.2.3
 webcolors==24.8.0
 werkzeug==3.0.4
-yarl==1.11.1
+yarl==1.13.0
