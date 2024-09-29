@@ -1,5 +1,5 @@
 annotated-types==0.7.0
-anyio==4.4.0
+anyio==4.6.0
 click==8.1.7
 click-repl==0.2.0
 h11==0.14.0
@@ -9,10 +9,10 @@ idna==3.10
 markdown-it-py==3.0.0
 mdurl==0.1.2
 packaging==24.1
-platformdirs==4.3.3
-prompt-toolkit==3.0.47
-pydantic==2.9.1
-pydantic-core==2.23.3
+platformdirs==4.3.6
+prompt-toolkit==3.0.48
+pydantic==2.9.2
+pydantic-core==2.23.4
 Pygments==2.18.0
 rich==13.8.1
 shellingham==1.5.4
