@@ -14,7 +14,7 @@ pyjwt==2.9.0
 python-dateutil==2.9.0.post0
 pyyaml==6.0.2
 requests==2.32.3
-sentry-sdk==2.14.0
+sentry-sdk==2.15.0
 six==1.16.0
 smmap==5.0.1
 texttable==1.7.0
