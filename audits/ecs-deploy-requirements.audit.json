@@ -584,8 +584,8 @@
       },
       {
         "ids": [
-          "GHSA-j8r2-6x86-q33q",
-          "PYSEC-2023-74"
+          "PYSEC-2023-74",
+          "GHSA-j8r2-6x86-q33q"
         ],
         "aliases": [
           "CVE-2023-32681",

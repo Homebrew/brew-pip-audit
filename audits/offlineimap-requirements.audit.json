@@ -1253,8 +1253,8 @@
       },
       {
         "ids": [
-          "GHSA-g4mx-q9vg-27p4",
-          "PYSEC-2023-212"
+          "PYSEC-2023-212",
+          "GHSA-g4mx-q9vg-27p4"
         ],
         "aliases": [
           "CVE-2023-45803",
@@ -1265,8 +1265,8 @@
       },
       {
         "ids": [
-          "GHSA-q2q7-5pp4-w6pg",
-          "PYSEC-2021-108"
+          "PYSEC-2021-108",
+          "GHSA-q2q7-5pp4-w6pg"
         ],
         "aliases": [
           "CVE-2021-33503",
@@ -1277,8 +1277,8 @@
       },
       {
         "ids": [
-          "GHSA-v845-jxx5-vc9f",
-          "PYSEC-2023-192"
+          "PYSEC-2023-192",
+          "GHSA-v845-jxx5-vc9f"
         ],
         "aliases": [
           "CVE-2023-43804",

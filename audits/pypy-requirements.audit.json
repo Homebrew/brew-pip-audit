@@ -791,8 +791,8 @@
     "groups": [
       {
         "ids": [
-          "GHSA-5xp3-jfq3-5q8x",
-          "PYSEC-2021-437"
+          "PYSEC-2021-437",
+          "GHSA-5xp3-jfq3-5q8x"
         ],
         "aliases": [
           "BIT-pip-2021-3572",
@@ -804,8 +804,8 @@
       },
       {
         "ids": [
-          "GHSA-mq26-g339-26xf",
-          "PYSEC-2023-228"
+          "PYSEC-2023-228",
+          "GHSA-mq26-g339-26xf"
         ],
         "aliases": [
           "BIT-pip-2023-5752",
@@ -2710,8 +2710,8 @@
       },
       {
         "ids": [
-          "GHSA-r9hx-vwmv-q579",
-          "PYSEC-2022-43012"
+          "PYSEC-2022-43012",
+          "GHSA-r9hx-vwmv-q579"
         ],
         "aliases": [
           "BIT-setuptools-2022-40897",

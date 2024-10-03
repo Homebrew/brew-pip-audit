@@ -241,8 +241,8 @@
     "groups": [
       {
         "ids": [
-          "GHSA-jjg7-2v4v-x38h",
-          "PYSEC-2024-60"
+          "PYSEC-2024-60",
+          "GHSA-jjg7-2v4v-x38h"
         ],
         "aliases": [
           "CVE-2024-3651",

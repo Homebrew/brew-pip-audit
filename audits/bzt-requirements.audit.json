@@ -634,8 +634,8 @@
       },
       {
         "ids": [
-          "GHSA-g4mx-q9vg-27p4",
-          "PYSEC-2023-212"
+          "PYSEC-2023-212",
+          "GHSA-g4mx-q9vg-27p4"
         ],
         "aliases": [
           "CVE-2023-45803",

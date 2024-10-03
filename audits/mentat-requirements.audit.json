@@ -353,8 +353,8 @@
     "groups": [
       {
         "ids": [
-          "GHSA-2mqj-m65w-jghx",
-          "PYSEC-2024-4"
+          "PYSEC-2024-4",
+          "GHSA-2mqj-m65w-jghx"
         ],
         "aliases": [
           "CVE-2024-22190",

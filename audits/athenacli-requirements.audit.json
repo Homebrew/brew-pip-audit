@@ -285,8 +285,8 @@
     "groups": [
       {
         "ids": [
-          "GHSA-mrwq-x4v8-fh7p",
-          "PYSEC-2023-117"
+          "PYSEC-2023-117",
+          "GHSA-mrwq-x4v8-fh7p"
         ],
         "aliases": [
           "CVE-2022-40896",

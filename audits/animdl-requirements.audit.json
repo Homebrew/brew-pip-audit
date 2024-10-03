@@ -320,8 +320,8 @@
     "groups": [
       {
         "ids": [
-          "GHSA-j225-cvw7-qrx7",
-          "PYSEC-2024-3"
+          "PYSEC-2024-3",
+          "GHSA-j225-cvw7-qrx7"
         ],
         "aliases": [
           "CVE-2023-52323",

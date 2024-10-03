@@ -1008,8 +1008,8 @@
     "groups": [
       {
         "ids": [
-          "GHSA-2mqj-m65w-jghx",
-          "PYSEC-2024-4"
+          "PYSEC-2024-4",
+          "GHSA-2mqj-m65w-jghx"
         ],
         "aliases": [
           "CVE-2024-22190",
@@ -1020,8 +1020,8 @@
       },
       {
         "ids": [
-          "GHSA-cwvm-v4w8-q58c",
-          "PYSEC-2023-165"
+          "PYSEC-2023-165",
+          "GHSA-cwvm-v4w8-q58c"
         ],
         "aliases": [
           "CVE-2023-41040",
@@ -1032,8 +1032,8 @@
       },
       {
         "ids": [
-          "GHSA-wfm5-v35h-vwf4",
-          "PYSEC-2023-161"
+          "PYSEC-2023-161",
+          "GHSA-wfm5-v35h-vwf4"
         ],
         "aliases": [
           "CVE-2023-40590",
@@ -1286,8 +1286,8 @@
     "groups": [
       {
         "ids": [
-          "GHSA-jjg7-2v4v-x38h",
-          "PYSEC-2024-60"
+          "PYSEC-2024-60",
+          "GHSA-jjg7-2v4v-x38h"
         ],
         "aliases": [
           "CVE-2024-3651",
@@ -3272,8 +3272,8 @@
       },
       {
         "ids": [
-          "GHSA-g4mx-q9vg-27p4",
-          "PYSEC-2023-212"
+          "PYSEC-2023-212",
+          "GHSA-g4mx-q9vg-27p4"
         ],
         "aliases": [
           "CVE-2023-45803",
@@ -3284,8 +3284,8 @@
       },
       {
         "ids": [
-          "GHSA-v845-jxx5-vc9f",
-          "PYSEC-2023-192"
+          "PYSEC-2023-192",
+          "GHSA-v845-jxx5-vc9f"
         ],
         "aliases": [
           "CVE-2023-43804",

@@ -1176,8 +1176,8 @@
       },
       {
         "ids": [
-          "GHSA-hrfv-mqp8-q5rw",
-          "PYSEC-2023-221"
+          "PYSEC-2023-221",
+          "GHSA-hrfv-mqp8-q5rw"
         ],
         "aliases": [
           "CVE-2023-46136",

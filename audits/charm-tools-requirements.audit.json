@@ -441,8 +441,8 @@
     "groups": [
       {
         "ids": [
-          "GHSA-mq26-g339-26xf",
-          "PYSEC-2023-228"
+          "PYSEC-2023-228",
+          "GHSA-mq26-g339-26xf"
         ],
         "aliases": [
           "BIT-pip-2023-5752",

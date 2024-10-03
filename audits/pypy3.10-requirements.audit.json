@@ -1892,8 +1892,8 @@
       },
       {
         "ids": [
-          "GHSA-r9hx-vwmv-q579",
-          "PYSEC-2022-43012"
+          "PYSEC-2022-43012",
+          "GHSA-r9hx-vwmv-q579"
         ],
         "aliases": [
           "BIT-setuptools-2022-40897",
