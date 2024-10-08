@@ -33,6 +33,7 @@ jobs:
         run: |
           brew developer on
           brew install osv-scanner
+          brew untap hashicorp/tap || true
 
       - run: brew ruby formula2requirements.rb
         env:
