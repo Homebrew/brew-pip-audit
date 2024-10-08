@@ -1,0 +1,13 @@
+click==8.1.7
+colorama==0.4.6
+cssbeautifier==1.15.1
+editorconfig==0.12.4
+html-tag-names==0.1.2
+html-void-elements==0.1.0
+jsbeautifier==1.15.1
+json5==0.9.25
+pathspec==0.12.1
+pyyaml==6.0.2
+regex==2024.9.11
+six==1.16.0
+tqdm==4.66.5

@@ -2,7 +2,7 @@ brotli==1.1.0
 charset-normalizer==3.3.2
 idna==3.10
 mutagen==1.47.0
-pycryptodomex==3.20.0
+pycryptodomex==3.21.0
 requests==2.32.3
 urllib3==2.2.3
 websockets==13.1
