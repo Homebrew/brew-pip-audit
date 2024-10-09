@@ -15,7 +15,7 @@ jsonpath-rw==1.4.0
 jsonpath-rw-ext==1.2.2
 jsonpointer==3.0.0
 jsonschema==4.23.0
-jsonschema-specifications==2023.12.1
+jsonschema-specifications==2024.10.1
 keystoneauth-websso==0.1.1
 keystoneauth1==5.8.0
 msgpack==1.1.0
