@@ -1,4 +1,4 @@
 defusedxml==0.7.1
-orjson==3.10.6
+orjson==3.10.7
 packaging==24.1
 psutil==6.0.0
