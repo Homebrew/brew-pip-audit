@@ -3,7 +3,7 @@ autobahn==24.4.2
 automat==24.8.1
 click==8.1.7
 constantly==23.10.4
-humanize==4.10.0
+humanize==4.11.0
 hyperlink==21.0.0
 idna==3.10
 incremental==24.7.2

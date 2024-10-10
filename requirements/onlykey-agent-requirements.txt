@@ -1,7 +1,7 @@
 aenum==3.1.15
 backports-shutil-which==3.5.2
 bech32==1.2.0
-charset-normalizer==3.3.2
+charset-normalizer==3.4.0
 click==8.1.7
 configargparse==1.7
 cython==3.0.11

@@ -1,7 +1,7 @@
 attrs==24.2.0
 autopage==0.5.2
 babel==2.16.0
-charset-normalizer==3.3.2
+charset-normalizer==3.4.0
 cliff==4.7.0
 cmd2==2.4.3
 debtcollector==3.0.0

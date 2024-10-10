@@ -1,6 +1,6 @@
 appdirs==1.4.4
 jedi==0.19.1
 parso==0.8.4
-prompt-toolkit==3.0.47
+prompt-toolkit==3.0.48
 pygments==2.18.0
 wcwidth==0.2.13

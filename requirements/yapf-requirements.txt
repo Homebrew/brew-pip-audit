@@ -1,4 +1,4 @@
-importlib-metadata==8.0.0
-platformdirs==4.2.2
-tomli==2.0.1
-zipp==3.19.2
+importlib-metadata==8.5.0
+platformdirs==4.3.6
+tomli==2.0.2
+zipp==3.20.2

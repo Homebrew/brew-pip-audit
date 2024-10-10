@@ -1,3 +1,3 @@
 colorama==0.4.6
-prompt-toolkit==3.0.43
+prompt-toolkit==3.0.48
 wcwidth==0.2.13

@@ -1,5 +1,5 @@
 cfgv==3.4.0
-distlib==0.3.8
+distlib==0.3.9
 filelock==3.16.1
 identify==2.6.1
 nodeenv==1.9.1
