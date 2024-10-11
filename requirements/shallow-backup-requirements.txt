@@ -4,8 +4,8 @@ colorama==0.4.6
 editor==1.6.6
 gitdb==4.0.11
 gitpython==3.1.43
-inquirer==3.3.0
-readchar==4.1.0
+inquirer==3.4.0
+readchar==4.2.0
 runs==1.2.2
 six==1.16.0
 smmap==5.0.1

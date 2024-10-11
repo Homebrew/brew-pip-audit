@@ -2,12 +2,13 @@ atomicwrites==1.4.1
 click==8.1.7
 click-log==0.4.0
 configobj==5.0.9
-icalendar==5.0.13
+icalendar==6.0.0
 python-dateutil==2.9.0.post0
 pytz==2024.2
 pyxdg==0.28
 six==1.16.0
 typing-extensions==4.12.2
+tzdata==2024.2
 tzlocal==5.2
 urwid==2.6.15
 wcwidth==0.2.13
