@@ -1,2 +1,0 @@
-nanobind==any.whl
-setuptools==74.1.1

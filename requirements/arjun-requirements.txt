@@ -1,6 +1,6 @@
-charset-normalizer==3.3.2
+charset-normalizer==3.4.0
 dicttoxml==1.7.16
-idna==3.7
+idna==3.10
 ratelimit==2.2.1
 requests==2.32.3
-urllib3==2.2.2
+urllib3==2.2.3

@@ -1,12 +1,12 @@
 blessed==1.20.0
-charset-normalizer==3.3.2
+charset-normalizer==3.4.0
 curtsies==0.4.2
 cwcwidth==0.1.9
-greenlet==3.0.3
-idna==3.7
+greenlet==3.1.1
+idna==3.10
 pygments==2.18.0
 pyxdg==0.28
 requests==2.32.3
 six==1.16.0
-urllib3==2.2.2
+urllib3==2.2.3
 wcwidth==0.2.13

@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-25T02:34:21Z",
+        "modified": "2024-10-11T21:33:20Z",
         "published": "2021-11-15T17:45:01Z",
         "schema_version": "1.6.0",
         "id": "GHSA-5xp3-jfq3-5q8x",
@@ -154,6 +154,10 @@
           {
             "type": "CVSS_V3",
             "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:N"
+          },
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N"
           }
         ],
         "references": [
@@ -176,6 +180,14 @@
           {
             "type": "WEB",
             "url": "https://bugzilla.redhat.com/show_bug.cgi?id=1962856"
+          },
+          {
+            "type": "ADVISORY",
+            "url": "https://github.com/advisories/GHSA-5xp3-jfq3-5q8x"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/pypa/advisory-database/tree/main/vulns/pip/PYSEC-2021-437.yaml"
           },
           {
             "type": "PACKAGE",
@@ -205,7 +217,7 @@
           "github_reviewed": true,
           "github_reviewed_at": "2021-11-12T19:41:47Z",
           "nvd_published_at": "2021-11-10T18:15:00Z",
-          "severity": "MODERATE"
+          "severity": "HIGH"
         }
       },
       {
@@ -800,7 +812,7 @@
           "GHSA-5xp3-jfq3-5q8x",
           "PYSEC-2021-437"
         ],
-        "max_severity": "5.7"
+        "max_severity": "7.1"
       },
       {
         "ids": [
