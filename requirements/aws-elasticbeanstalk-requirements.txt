@@ -1,7 +1,7 @@
 blessed==1.20.0
-botocore==1.35.19
+botocore==1.35.39
 cement==2.10.14
-charset-normalizer==3.3.2
+charset-normalizer==3.4.0
 colorama==0.4.6
 idna==3.10
 jmespath==1.0.1
@@ -12,6 +12,6 @@ requests==2.32.3
 semantic-version==2.10.0
 setuptools==75.1.0
 six==1.16.0
-termcolor==2.4.0
+termcolor==2.5.0
 urllib3==1.26.20
 wcwidth==0.2.13

@@ -3,7 +3,7 @@ babel==2.16.0
 beancount==2.3.6
 beautifulsoup4==4.12.3
 blinker==1.8.2
-bottle==0.13.1
+bottle==0.13.2
 cachetools==5.5.0
 chardet==5.2.0
 charset-normalizer==3.4.0

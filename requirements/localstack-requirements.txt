@@ -1,6 +1,6 @@
 build==1.2.2.post1
 cachetools==5.5.0
-charset-normalizer==3.3.2
+charset-normalizer==3.4.0
 click==8.1.7
 dill==0.3.6
 dnslib==0.9.25

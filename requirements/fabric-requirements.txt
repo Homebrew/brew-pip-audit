@@ -2,6 +2,6 @@ bcrypt==4.2.0
 decorator==5.1.1
 deprecated==1.2.14
 invoke==2.2.0
-paramiko==3.4.1
+paramiko==3.5.0
 pynacl==1.5.0
 wrapt==1.16.0

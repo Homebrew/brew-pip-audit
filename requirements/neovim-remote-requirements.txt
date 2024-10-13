@@ -1,5 +1,5 @@
-greenlet==3.0.3
-msgpack==1.0.8
+greenlet==3.1.1
+msgpack==1.1.0
 psutil==6.0.0
 pynvim==0.5.0
-setuptools==70.3.0
+setuptools==75.1.0

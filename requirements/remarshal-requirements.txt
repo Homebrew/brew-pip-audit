@@ -6,5 +6,5 @@ pygments==2.18.0
 rich==13.9.2
 rich-argparse==1.5.2
 ruamel-yaml==0.18.6
-tomlkit==0.12.5
+tomlkit==0.13.2
 u-msgpack-python==2.8.0

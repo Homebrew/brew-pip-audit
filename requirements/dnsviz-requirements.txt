@@ -1,2 +1,2 @@
 dnspython==2.6.1
-pygraphviz==1.13
+pygraphviz==1.14

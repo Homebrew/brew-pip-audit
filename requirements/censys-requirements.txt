@@ -1,10 +1,10 @@
-argcomplete==3.5.0
+argcomplete==3.5.1
 backoff==2.2.1
-charset-normalizer==3.3.2
-idna==3.8
+charset-normalizer==3.4.0
+idna==3.10
 markdown-it-py==3.0.0
 mdurl==0.1.2
 pygments==2.18.0
 requests==2.32.3
-rich==13.8.1
-urllib3==2.2.2
+rich==13.9.2
+urllib3==2.2.3

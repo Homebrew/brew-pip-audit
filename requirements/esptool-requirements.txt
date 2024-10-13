@@ -1,5 +1,5 @@
-argcomplete==3.5.0
-bitarray==2.9.2
+argcomplete==3.5.1
+bitarray==2.9.3
 bitstring==4.2.3
 ecdsa==0.19.0
 intelhex==2.3.0
