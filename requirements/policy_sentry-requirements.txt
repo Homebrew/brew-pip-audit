@@ -1,10 +1,10 @@
 beautifulsoup4==4.12.3
-charset-normalizer==3.3.2
+charset-normalizer==3.4.0
 click==8.1.7
-idna==3.7
-orjson==3.10.6
-pyyaml==6.0.1
+idna==3.10
+orjson==3.10.7
+pyyaml==6.0.2
 requests==2.32.3
 schema==0.7.7
-soupsieve==2.5
-urllib3==2.2.2
+soupsieve==2.6
+urllib3==2.2.3

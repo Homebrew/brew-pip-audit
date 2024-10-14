@@ -37,7 +37,7 @@ ply==3.11
 py-partiql-parser==0.5.6
 pydantic==2.9.2
 pydantic-core==2.23.4
-pyparsing==3.1.4
+pyparsing==3.2.0
 python-dateutil==2.9.0.post0
 pyyaml==6.0.2
 referencing==0.35.1

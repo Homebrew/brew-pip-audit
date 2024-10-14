@@ -1,2 +1,4 @@
 tasklib==2.5.1
-urwid==2.2.2
+typing-extensions==4.12.2
+urwid==2.6.15
+wcwidth==0.2.13

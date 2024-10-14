@@ -1,5 +1,5 @@
 beautifulsoup4==4.12.3
-charset-normalizer==3.3.2
+charset-normalizer==3.4.0
 click==8.1.7
 idna==3.10
 requests==2.32.3
