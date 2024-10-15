@@ -16,9 +16,9 @@ pymysql==1.1.1
 requests==2.32.3
 rich==13.9.2
 setuptools==75.1.0
-sqlparse==0.4.4
-textual==0.56.4
-textual-autocomplete==2.1.0b0
+sqlparse==0.5.1
+textual==0.83.0
+textual-autocomplete==3.0.0a12
 tree-sitter==0.23.1
 typing-extensions==4.12.2
 uc-micro-py==1.0.3

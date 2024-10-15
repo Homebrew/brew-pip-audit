@@ -7,7 +7,7 @@ prompt-toolkit==3.0.43
 pyopenssl==24.2.1
 python-dateutil==2.9.0.post0
 pytz==2024.2
-pyyaml==6.0.1
+pyyaml==6.0.2
 six==1.16.0
 terminaltables==3.1.10
 types-python-dateutil==2.9.0.20241003

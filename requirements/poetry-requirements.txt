@@ -16,9 +16,9 @@ more-itertools==10.5.0
 msgpack==1.1.0
 packaging==24.1
 pexpect==4.9.0
-pkginfo==1.11.1
+pkginfo==1.11.2
 platformdirs==4.3.6
-poetry-core==1.9.0
+poetry-core==1.9.1
 poetry-plugin-export==1.8.0
 ptyprocess==0.7.0
 pyproject-hooks==1.2.0
@@ -28,7 +28,7 @@ requests-toolbelt==1.0.0
 secretstorage==3.3.3
 shellingham==1.5.4
 tomlkit==0.13.2
-trove-classifiers==2024.9.12
+trove-classifiers==2024.10.13
 urllib3==2.2.3
 virtualenv==20.26.6
 xattr==1.1.0

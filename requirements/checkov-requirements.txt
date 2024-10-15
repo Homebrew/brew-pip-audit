@@ -20,7 +20,7 @@ cffi==1.17.1
 charset-normalizer==3.4.0
 click==8.1.7
 click-option-group==0.5.6
-cloudsplaining==0.6.3
+cloudsplaining==0.7.0
 colorama==0.4.6
 configargparse==1.7
 contextlib2==21.6.0
@@ -48,10 +48,11 @@ markupsafe==3.0.1
 multidict==6.1.0
 networkx==2.6.3
 openai==0.28.1
+orjson==3.10.7
 packageurl-python==0.13.4
 packaging==23.2
 ply==3.11
-policy-sentry==0.12.15
+policy-sentry==0.13.1
 prettytable==3.11.0
 propcache==0.2.0
 py-serializable==1.1.2
@@ -60,7 +61,7 @@ pycep-parser==0.4.1
 pycparser==2.22
 pydantic==2.9.2
 pydantic-core==2.23.4
-pyparsing==3.1.4
+pyparsing==3.2.0
 python-dateutil==2.9.0.post0
 pyyaml==6.0.2
 rdflib==7.0.0
@@ -86,5 +87,5 @@ uritools==4.0.3
 urllib3==2.0.7
 wcwidth==0.2.13
 xmltodict==0.14.1
-yarl==1.15.0
+yarl==1.15.2
 zipp==3.20.2

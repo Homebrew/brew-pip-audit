@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-10-11T21:33:20Z",
+        "modified": "2024-10-14T18:44:16Z",
         "published": "2021-11-15T17:45:01Z",
         "schema_version": "1.6.0",
         "id": "GHSA-5xp3-jfq3-5q8x",
@@ -221,7 +221,7 @@
         }
       },
       {
-        "modified": "2024-06-10T18:52:40Z",
+        "modified": "2024-10-14T21:33:14Z",
         "published": "2023-10-25T18:32:26Z",
         "schema_version": "1.6.0",
         "id": "GHSA-mq26-g339-26xf",
@@ -401,6 +401,10 @@
           {
             "type": "CVSS_V3",
             "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
+          },
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N"
           }
         ],
         "references": [
@@ -825,7 +829,7 @@
           "GHSA-mq26-g339-26xf",
           "PYSEC-2023-228"
         ],
-        "max_severity": "5.5"
+        "max_severity": "6.8"
       }
     ]
   },
