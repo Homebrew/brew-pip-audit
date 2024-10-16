@@ -1,12 +1,12 @@
-charset-normalizer==3.3.2
+charset-normalizer==3.4.0
 colorama==0.4.6
 halo==0.0.31
-idna==3.7
+idna==3.10
 log-symbols==0.0.14
-prompt-toolkit==3.0.47
+prompt-toolkit==3.0.48
 requests==2.32.3
 six==1.16.0
 spinners==0.0.24
-termcolor==2.4.0
-urllib3==2.2.2
+termcolor==2.5.0
+urllib3==2.2.3
 wcwidth==0.2.13

@@ -1,7 +1,7 @@
-anyio==4.6.0
+anyio==4.6.2.post1
 click==8.1.7
 h11==0.14.0
-httptools==0.6.1
+httptools==0.6.2
 idna==3.10
 python-dotenv==1.0.1
 pyyaml==6.0.2
