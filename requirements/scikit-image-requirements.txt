@@ -1,5 +1,5 @@
-imageio==2.34.1
+imageio==2.36.0
 lazy-loader==0.4
-networkx==3.3
+networkx==3.4.1
 packaging==24.1
-tifffile==2024.6.18
+tifffile==2024.9.20
