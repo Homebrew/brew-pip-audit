@@ -27,7 +27,7 @@ opentelemetry-sdk==1.25.0
 opentelemetry-semantic-conventions==0.46b0
 opentelemetry-util-http==0.46b0
 packaging==24.1
-peewee==3.17.6
+peewee==3.17.7
 protobuf==4.25.5
 pygments==2.18.0
 referencing==0.35.1
@@ -35,7 +35,7 @@ requests==2.32.3
 rich==13.5.3
 rpds-py==0.20.0
 ruamel-yaml==0.17.40
-setuptools==75.1.0
+setuptools==75.2.0
 tomli==2.0.2
 typing-extensions==4.12.2
 urllib3==2.2.3
