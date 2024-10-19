@@ -23,7 +23,7 @@ nbformat==5.10.4
 packaging==24.1
 plac==1.4.3
 platformdirs==4.3.6
-psutil==6.0.0
+psutil==6.1.0
 pulp==2.9.0
 pyyaml==6.0.2
 referencing==0.35.1
