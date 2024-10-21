@@ -1,4 +1,4 @@
 asn1crypto==1.5.1
 click==8.1.7
-lxml==5.2.2
+lxml==5.3.0
 pyaxmlparser==0.3.31
