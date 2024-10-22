@@ -48,4 +48,4 @@ uri-template==1.3.0
 urllib3==2.2.3
 webcolors==24.8.0
 werkzeug==3.0.4
-yarl==1.15.5
+yarl==1.16.0

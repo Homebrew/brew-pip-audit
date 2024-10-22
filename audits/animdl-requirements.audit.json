@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-02-16T08:21:19Z",
+        "modified": "2024-10-21T21:02:02Z",
         "published": "2024-01-05T06:30:19Z",
         "schema_version": "1.6.0",
         "id": "GHSA-j225-cvw7-qrx7",
@@ -178,6 +178,10 @@
           {
             "type": "CVSS_V3",
             "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N"
+          },
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
           }
         ],
         "references": [
@@ -213,7 +217,7 @@
           "github_reviewed": true,
           "github_reviewed_at": "2024-01-05T17:25:46Z",
           "nvd_published_at": "2024-01-05T04:15:07Z",
-          "severity": "MODERATE"
+          "severity": "HIGH"
         }
       },
       {
@@ -328,7 +332,7 @@
           "GHSA-j225-cvw7-qrx7",
           "PYSEC-2024-3"
         ],
-        "max_severity": "5.9"
+        "max_severity": "7.1"
       }
     ]
   },

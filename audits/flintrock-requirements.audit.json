@@ -10,11 +10,15 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-07-15T22:00:20Z",
+        "modified": "2024-10-22T05:29:02Z",
         "published": "2023-12-18T19:22:09Z",
         "schema_version": "1.6.0",
         "id": "GHSA-45x7-px36-x8w8",
         "aliases": [
+          "CGA-q6qg-q8q4-44x7",
+          "CGA-v7c4-rcx6-g4vr",
+          "CGA-wvh7-h2xx-5852",
+          "CGA-xx28-qv2j-6r3q",
           "CVE-2023-48795",
           "GO-2023-2402"
         ],
@@ -935,6 +939,10 @@
           "GHSA-45x7-px36-x8w8"
         ],
         "aliases": [
+          "CGA-q6qg-q8q4-44x7",
+          "CGA-v7c4-rcx6-g4vr",
+          "CGA-wvh7-h2xx-5852",
+          "CGA-xx28-qv2j-6r3q",
           "CVE-2023-48795",
           "GHSA-45x7-px36-x8w8",
           "GO-2023-2402"

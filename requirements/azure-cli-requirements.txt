@@ -110,7 +110,6 @@ msrestazure==0.6.4
 oauthlib==3.2.2
 packaging==23.2
 paramiko==3.4.0
-pip==24.2
 pkginfo==1.8.2
 portalocker==2.3.2
 psutil==6.0.0
