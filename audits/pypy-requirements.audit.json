@@ -1494,7 +1494,7 @@
         }
       },
       {
-        "modified": "2024-06-25T02:34:30Z",
+        "modified": "2024-10-23T18:52:00Z",
         "published": "2022-12-23T00:30:23Z",
         "schema_version": "1.6.0",
         "id": "GHSA-r9hx-vwmv-q579",
@@ -2064,6 +2064,10 @@
           {
             "type": "WEB",
             "url": "https://github.com/pypa/setuptools/commit/43a9c9bfa6aa626ec2a22540bea28d2ca77964be"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/pypa/advisory-database/tree/main/vulns/setuptools/PYSEC-2022-43012.yaml"
           },
           {
             "type": "WEB",
