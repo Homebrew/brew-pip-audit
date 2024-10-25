@@ -5,8 +5,8 @@ attrs==24.2.0
 azure-core==1.31.0
 azure-identity==1.19.0
 azure-monitor-ingestion==1.0.4
-boto3==1.35.39
-botocore==1.35.39
+boto3==1.35.48
+botocore==1.35.48
 cachetools==5.5.0
 charset-normalizer==3.4.0
 dateparser==1.2.0
@@ -15,7 +15,7 @@ elasticsearch==7.13.4
 elasticsearch-dsl==7.4.0
 events==any.whl
 expiringdict==1.2.2
-frozenlist==1.4.1
+frozenlist==1.5.0
 geoip2==4.8.0
 google-api-core==2.21.0
 google-api-python-client==2.149.0
@@ -32,7 +32,7 @@ jmespath==1.0.1
 kafka-python-ng==2.2.3
 lxml==5.3.0
 mail-parser==3.15.0
-mailsuite==1.9.17
+mailsuite==1.9.18
 maxminddb==2.6.2
 msal==1.31.0
 msal-extensions==1.2.0
@@ -42,15 +42,15 @@ oauthlib==3.2.2
 opensearch-py==2.7.1
 portalocker==2.10.1
 propcache==0.2.0
-proto-plus==1.24.0
-protobuf==5.28.2
+proto-plus==1.25.0
+protobuf==5.28.3
 publicsuffix2==2.20191221
-publicsuffixlist==1.0.2.20241010
+publicsuffixlist==1.0.2.20241023
 pyasn1==0.6.1
 pyasn1-modules==0.4.1
 pygelf==0.4.2
 pyjwt==2.9.0
-pyparsing==3.1.4
+pyparsing==3.2.0
 python-dateutil==2.9.0.post0
 pytz==2024.2
 regex==2024.9.11
@@ -58,7 +58,7 @@ requests==2.32.3
 requests-oauthlib==2.0.0
 rsa==4.9
 s3transfer==0.10.3
-setuptools==75.1.0
+setuptools==75.2.0
 simplejson==3.19.3
 six==1.16.0
 tqdm==4.66.5
@@ -66,5 +66,5 @@ typing-extensions==4.12.2
 tzlocal==5.2
 uritemplate==4.1.1
 urllib3==1.26.20
-xmltodict==0.14.1
-yarl==1.15.1
+xmltodict==0.14.2
+yarl==1.16.0

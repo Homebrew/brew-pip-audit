@@ -9,6 +9,7 @@ beautifulsoup4==4.12.3
 charset-normalizer==3.3.2
 click==8.1.7
 configargparse==1.7
+cython==3.0.11
 diff-match-patch==20230430
 diskcache==5.6.3
 distro==1.9.0
@@ -61,6 +62,7 @@ regex==2024.9.11
 requests==2.32.3
 rich==13.8.1
 rpds-py==0.20.0
+setuptools==75.1.0
 smmap==5.0.1
 sniffio==1.3.1
 sounddevice==0.5.0

@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-03-28T13:31:02Z",
+        "modified": "2024-10-24T22:27:47Z",
         "published": "2023-07-19T15:30:26Z",
         "schema_version": "1.6.0",
         "id": "GHSA-mrwq-x4v8-fh7p",
@@ -100,13 +100,6 @@
             ],
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/07/GHSA-mrwq-x4v8-fh7p/GHSA-mrwq-x4v8-fh7p.json"
-            },
-            "ecosystem_specific": {
-              "affected_functions": [
-                "pygments.lexers.templates.SqlJinjaLexer.analyse_text",
-                "pygments.lexers.smithy.SmithyLexer",
-                "pygments.lexers.configs.PropertiesLexer"
-              ]
             }
           }
         ],
@@ -114,6 +107,10 @@
           {
             "type": "CVSS_V3",
             "score": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+          },
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
           }
         ],
         "references": [
@@ -293,7 +290,7 @@
           "GHSA-mrwq-x4v8-fh7p",
           "PYSEC-2023-117"
         ],
-        "max_severity": "5.5"
+        "max_severity": "6.8"
       }
     ]
   },
