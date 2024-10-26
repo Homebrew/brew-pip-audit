@@ -33,12 +33,12 @@ pyobjc-framework-cocoa==10.3.1
 pyobjc-framework-corebluetooth==10.3.1
 pyobjc-framework-libdispatch==10.3.1
 pyserial==3.5
-python-daemon==3.0.1
+python-daemon==3.1.0
 python-gnupg==0.5.3
 python-u2flib-host==3.0.3
 requests==2.32.3
 semver==3.0.2
-setuptools==75.1.0
+setuptools==75.2.0
 six==1.16.0
 trezor==0.13.9
 typing-extensions==4.12.2
