@@ -2,7 +2,7 @@ anytree==2.12.1
 chardet==5.2.0
 commonmark==0.9.1
 pygments==2.18.0
-pypdf2==2.12.1
+pypdf==5.0.1
 python-dotenv==0.21.1
 rich==12.6.0
 rich-argparse-plus==0.3.1.4

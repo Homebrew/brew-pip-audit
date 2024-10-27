@@ -48,7 +48,7 @@ durationpy==0.9
 email-validator==2.1.1
 filelock==3.16.1
 flask==3.0.3
-frozenlist==1.4.1
+frozenlist==1.5.0
 google-api-core==2.21.0
 google-api-python-client==2.147.0
 google-auth==2.35.0
@@ -96,8 +96,8 @@ pendulum==3.0.0
 plotly==5.24.1
 portalocker==2.10.1
 propcache==0.2.0
-proto-plus==1.24.0
-protobuf==5.28.2
+proto-plus==1.25.0
+protobuf==5.28.3
 py-ocsf-models==0.1.1
 pyasn1==0.6.1
 pyasn1-modules==0.4.1
@@ -132,8 +132,8 @@ tzlocal==5.2
 uritemplate==4.1.1
 urllib3==2.2.3
 websocket-client==1.8.0
-werkzeug==3.0.4
+werkzeug==3.0.6
 wrapt==1.16.0
 xlsxwriter==3.2.0
-yarl==1.15.5
+yarl==1.16.0
 zipp==3.20.2
