@@ -1692,5 +1692,254 @@
         "max_severity": "8.1"
       }
     ]
+  },
+  {
+    "package": {
+      "name": "waitress",
+      "version": "3.0.0",
+      "ecosystem": "PyPI"
+    },
+    "dependency_groups": [
+      "icloudpd-requirements"
+    ],
+    "vulnerabilities": [
+      {
+        "modified": "2024-10-29T20:09:57Z",
+        "published": "2024-10-29T14:33:00Z",
+        "schema_version": "1.6.0",
+        "id": "GHSA-3f84-rpwh-47g6",
+        "aliases": [
+          "CVE-2024-49769"
+        ],
+        "summary": "Waitress vulnerable to DoS leading to high CPU usage/resource exhaustion",
+        "details": "### Impact\n\nWhen a remote client closes the connection before waitress has had the opportunity to call `getpeername()` waitress won't correctly clean up the connection leading to the main thread attempting to write to a socket that no longer exists, but not removing it from the list of sockets to attempt to process. This leads to a busy-loop calling the write function.\n\nA remote attacker could run waitress out of available sockets with very little resources required.\n\n### Patches\n\nWaitress 3.0.1 contains fixes that remove the race condition.\n\n### Workarounds\n\nNo work-around.\n\n### References\n\n- https://github.com/Pylons/waitress/issues/418\n- https://github.com/Pylons/waitress/pull/435\n",
+        "affected": [
+          {
+            "package": {
+              "ecosystem": "PyPI",
+              "name": "waitress",
+              "purl": "pkg:pypi/waitress"
+            },
+            "ranges": [
+              {
+                "type": "ECOSYSTEM",
+                "events": [
+                  {
+                    "introduced": "0"
+                  },
+                  {
+                    "fixed": "3.0.1"
+                  }
+                ]
+              }
+            ],
+            "versions": [
+              "0.1",
+              "0.2",
+              "0.3",
+              "0.4",
+              "0.5",
+              "0.6",
+              "0.6.1",
+              "0.7",
+              "0.8",
+              "0.8.1",
+              "0.8.10",
+              "0.8.11b0",
+              "0.8.2",
+              "0.8.3",
+              "0.8.4",
+              "0.8.5",
+              "0.8.6",
+              "0.8.7",
+              "0.8.8",
+              "0.8.9",
+              "0.9.0",
+              "0.9.0b0",
+              "0.9.0b1",
+              "1.0.0",
+              "1.0.1",
+              "1.0.2",
+              "1.0a1",
+              "1.0a2",
+              "1.1.0",
+              "1.2.0",
+              "1.2.0b1",
+              "1.2.0b2",
+              "1.2.0b3",
+              "1.2.1",
+              "1.3.0",
+              "1.3.0b0",
+              "1.3.1",
+              "1.4.0",
+              "1.4.1",
+              "1.4.2",
+              "1.4.3",
+              "1.4.4",
+              "2.0.0",
+              "2.0.0b0",
+              "2.0.0b1",
+              "2.1.0",
+              "2.1.0b0",
+              "2.1.1",
+              "2.1.2",
+              "3.0.0"
+            ],
+            "database_specific": {
+              "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/10/GHSA-3f84-rpwh-47g6/GHSA-3f84-rpwh-47g6.json"
+            }
+          }
+        ],
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
+          }
+        ],
+        "references": [
+          {
+            "type": "WEB",
+            "url": "https://github.com/Pylons/waitress/security/advisories/GHSA-3f84-rpwh-47g6"
+          },
+          {
+            "type": "ADVISORY",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-49769"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/Pylons/waitress/issues/418"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/Pylons/waitress/pull/435"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/Pylons/waitress/commit/1ae4e894c9f76543bee06584001583fc6fa8c95c"
+          },
+          {
+            "type": "PACKAGE",
+            "url": "https://github.com/Pylons/waitress"
+          }
+        ],
+        "database_specific": {
+          "cwe_ids": [
+            "CWE-772"
+          ],
+          "github_reviewed": true,
+          "github_reviewed_at": "2024-10-29T14:33:00Z",
+          "nvd_published_at": "2024-10-29T15:15:12Z",
+          "severity": "HIGH"
+        }
+      },
+      {
+        "modified": "2024-10-29T20:09:06Z",
+        "published": "2024-10-29T14:45:03Z",
+        "schema_version": "1.6.0",
+        "id": "GHSA-9298-4cf8-g4wj",
+        "aliases": [
+          "CVE-2024-49768"
+        ],
+        "summary": "Waitress has request processing race condition in HTTP pipelining with invalid first request",
+        "details": "### Impact\n\nA remote client may send a request that is exactly `recv_bytes` (defaults to 8192) long, followed by a secondary request using HTTP pipelining.\n\nWhen request lookahead is disabled (default) we won't read any more requests, and when the first request fails due to a parsing error, we simply close the connection.\n\nHowever when request lookahead is enabled, it is possible to process and receive the first request, start sending the error message back to the client while we read the next request and queue it. This will allow the secondary request to be serviced by the worker thread while the connection should be closed.\n\n### Patches\n\nWaitress 3.0.1 fixes the race condition.\n\n### Workarounds\n\nDisable  `channel_request_lookahead`, this is set to `0` by default disabling this feature. For this vulnerability this value is required to be changed from the default.\n\n### For more information\n\nIf you have any questions or comments about this advisory:\n* Open an issue in https://github.com/Pylons/waitress/issues (if not sensitive or security related)\n* email the Pylons Security mailing list: [pylons-project-security@googlegroups.com](mailto:pylons-project-security@googlegroups.com) (if security related)\n\n### Thanks\n\n- m4yfly and urn1ce From TianGong Team of Legendsec at Qi'anxin Group.",
+        "affected": [
+          {
+            "package": {
+              "ecosystem": "PyPI",
+              "name": "waitress",
+              "purl": "pkg:pypi/waitress"
+            },
+            "ranges": [
+              {
+                "type": "ECOSYSTEM",
+                "events": [
+                  {
+                    "introduced": "2.0.0"
+                  },
+                  {
+                    "fixed": "3.0.1"
+                  }
+                ]
+              }
+            ],
+            "versions": [
+              "2.0.0",
+              "2.1.0",
+              "2.1.0b0",
+              "2.1.1",
+              "2.1.2",
+              "3.0.0"
+            ],
+            "database_specific": {
+              "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/10/GHSA-9298-4cf8-g4wj/GHSA-9298-4cf8-g4wj.json"
+            }
+          }
+        ],
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N"
+          },
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N"
+          }
+        ],
+        "references": [
+          {
+            "type": "WEB",
+            "url": "https://github.com/Pylons/waitress/security/advisories/GHSA-9298-4cf8-g4wj"
+          },
+          {
+            "type": "ADVISORY",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-49768"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/Pylons/waitress/commit/e4359018537af376cf24bd13616d861e2fb76f65"
+          },
+          {
+            "type": "PACKAGE",
+            "url": "https://github.com/Pylons/waitress"
+          }
+        ],
+        "database_specific": {
+          "cwe_ids": [
+            "CWE-367",
+            "CWE-444"
+          ],
+          "github_reviewed": true,
+          "github_reviewed_at": "2024-10-29T14:45:03Z",
+          "nvd_published_at": "2024-10-29T15:15:11Z",
+          "severity": "CRITICAL"
+        }
+      }
+    ],
+    "groups": [
+      {
+        "ids": [
+          "GHSA-3f84-rpwh-47g6"
+        ],
+        "aliases": [
+          "CVE-2024-49769",
+          "GHSA-3f84-rpwh-47g6"
+        ],
+        "max_severity": "8.7"
+      },
+      {
+        "ids": [
+          "GHSA-9298-4cf8-g4wj"
+        ],
+        "aliases": [
+          "CVE-2024-49768",
+          "GHSA-9298-4cf8-g4wj"
+        ],
+        "max_severity": "9.3"
+      }
+    ]
   }
 ]
