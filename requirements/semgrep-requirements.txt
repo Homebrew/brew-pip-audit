@@ -35,7 +35,7 @@ requests==2.32.3
 rich==13.5.3
 rpds-py==0.20.0
 ruamel-yaml==0.17.40
-setuptools==75.2.0
+setuptools==75.3.0
 tomli==2.0.2
 typing-extensions==4.12.2
 urllib3==2.2.3
