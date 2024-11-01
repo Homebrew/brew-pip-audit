@@ -24,7 +24,7 @@ omegaconf==2.3.0
 ordered-set==4.1.0
 packaging==24.1
 pexpect==4.9.0
-psutil==5.9.8
+psutil==6.1.0
 ptyprocess==0.7.0
 pycryptodome==3.21.0
 pydantic==2.9.2
@@ -39,7 +39,7 @@ requests==2.32.3
 requests-file==2.1.0
 resolvelib==1.0.1
 setproctitle==1.3.3
-setuptools==75.2.0
+setuptools==75.3.0
 sniffio==1.3.1
 socksio==1.0.0
 soupsieve==2.6

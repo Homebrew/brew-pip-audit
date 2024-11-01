@@ -1,6 +1,6 @@
 charset-normalizer==3.4.0
 docutils==0.21.2
-flit-core==3.9.0
+flit-core==3.10.0
 idna==3.10
 requests==2.32.3
 tomli-w==1.1.0
