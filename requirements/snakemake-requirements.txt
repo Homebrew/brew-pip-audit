@@ -29,7 +29,7 @@ pyyaml==6.0.2
 referencing==0.35.1
 requests==2.32.3
 reretry==0.11.8
-rpds-py==0.20.0
+rpds-py==0.20.1
 smart-open==7.0.5
 smmap==5.0.1
 snakemake-interface-common==1.17.4

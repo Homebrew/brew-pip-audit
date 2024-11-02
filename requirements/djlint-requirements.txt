@@ -11,3 +11,4 @@ pyyaml==6.0.2
 regex==2024.9.11
 six==1.16.0
 tqdm==4.66.6
+typing-extensions==4.12.2
