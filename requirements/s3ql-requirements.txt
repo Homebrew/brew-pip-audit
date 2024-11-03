@@ -1,4 +1,4 @@
-apsw==3.46.0.1
+apsw==3.46.1.0
 async-generator==1.10
 attrs==24.2.0
 cffi==1.17.1

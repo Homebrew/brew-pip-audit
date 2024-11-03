@@ -3,7 +3,7 @@ dnspython==2.7.0
 expiringdict==1.2.2
 idna==3.10
 pem==23.1.0
-publicsuffixlist==1.0.2.20241029
+publicsuffixlist==1.0.2.20241102
 pyleri==1.4.3
 pyopenssl==24.2.1
 requests==2.32.3
