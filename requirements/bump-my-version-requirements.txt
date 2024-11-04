@@ -6,11 +6,11 @@ mdurl==0.1.2
 prompt-toolkit==3.0.36
 pydantic==2.9.2
 pydantic-core==2.23.4
-pydantic-settings==2.5.2
+pydantic-settings==2.6.1
 pygments==2.18.0
 python-dotenv==1.0.1
 questionary==2.0.1
-rich==13.9.2
+rich==13.9.4
 rich-click==1.8.3
 tomlkit==0.13.2
 typing-extensions==4.12.2
