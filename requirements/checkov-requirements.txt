@@ -47,12 +47,12 @@ markupsafe==3.0.2
 multidict==6.1.0
 networkx==2.6.3
 openai==0.28.1
-orjson==3.10.10
+orjson==3.10.11
 packageurl-python==0.13.4
 packaging==23.2
 ply==3.11
 policy-sentry==0.13.1
-prettytable==3.11.0
+prettytable==3.12.0
 propcache==0.2.0
 py-serializable==1.1.2
 pycares==4.4.0
@@ -67,7 +67,7 @@ rdflib==7.1.1
 referencing==0.35.1
 regex==2024.9.11
 requests==2.32.3
-rpds-py==0.20.0
+rpds-py==0.20.1
 rustworkx==0.13.2
 s3transfer==0.10.3
 schema==0.7.5
@@ -86,5 +86,5 @@ uritools==4.0.3
 urllib3==2.0.7
 wcwidth==0.2.13
 xmltodict==0.14.2
-yarl==1.16.0
+yarl==1.17.1
 zipp==3.20.2
