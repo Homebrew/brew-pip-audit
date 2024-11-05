@@ -5,15 +5,20 @@ on:
     inputs:
       pr-limit:
         required: true
-        default: "5"
+        default: 5
         type: number
       dry-run:
         required: true
         default: true
         type: boolean
-  workflow_run:
-    workflows: ["pip-audit brew packages"]
-    types: [completed]
+  workflow_call:
+    inputs:
+      pr-limit:
+        default: 5
+        type: number
+      dry-run:
+        default: false # don't dry-run by default when called from another workflow
+        type: boolean
 
 jobs:
   auto-pr:
@@ -34,6 +39,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          persist-credentials: false
 
       - name: Set up Homebrew
         id: set-up-homebrew
