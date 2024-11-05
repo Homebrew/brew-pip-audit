@@ -16,6 +16,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          # credentials intentionally persisted for git operations below
+          persist-credentials: true
 
       - uses: actions/setup-python@v5
         with:
@@ -51,3 +53,8 @@ jobs:
           timestamp=$(date -u)
           git commit -m "Latest data: ${timestamp}" || exit 0
           git push
+
+  auto-pr:
+    needs: [audit]
+    uses: ./.github/workflows/auto-pr.yml
+    secrets: inherit
