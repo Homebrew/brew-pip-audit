@@ -1179,7 +1179,7 @@
         }
       },
       {
-        "modified": "2024-10-25T21:45:09Z",
+        "modified": "2024-11-05T22:01:42Z",
         "published": "2024-10-25T19:44:43Z",
         "schema_version": "1.6.0",
         "id": "GHSA-q34m-jh98-gwm2",
@@ -1405,8 +1405,12 @@
         ],
         "severity": [
           {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          {
             "type": "CVSS_V4",
-            "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N"
+            "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:U"
           }
         ],
         "references": [
@@ -1653,7 +1657,7 @@
           "CVE-2024-49767",
           "GHSA-q34m-jh98-gwm2"
         ],
-        "max_severity": "6.9"
+        "max_severity": "7.5"
       }
     ]
   }
