@@ -24,7 +24,6 @@ jobs:
   auto-pr:
     runs-on: macos-latest
     timeout-minutes: 120
-    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'workflow_run' && github.event.workflow_run.conclusion == 'success')
 
     steps:
       - name: Display inputs
