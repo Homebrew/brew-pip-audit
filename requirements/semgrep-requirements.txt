@@ -8,7 +8,7 @@ colorama==0.4.6
 defusedxml==0.7.1
 deprecated==1.2.14
 exceptiongroup==1.2.2
-face==22.0.0
+face==24.0.0
 glom==22.1.0
 googleapis-common-protos==1.65.0
 idna==3.10
@@ -33,7 +33,7 @@ pygments==2.18.0
 referencing==0.35.1
 requests==2.32.3
 rich==13.5.3
-rpds-py==0.20.1
+rpds-py==0.21.0
 ruamel-yaml==0.17.40
 setuptools==75.3.0
 tomli==2.0.2
