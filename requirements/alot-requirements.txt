@@ -9,6 +9,7 @@ mock==5.1.0
 python-magic==0.4.27
 setuptools==74.1.2
 six==1.16.0
+standard-mailcap==3.13.0
 twisted==24.7.0
 typing-extensions==4.12.2
 urwid==2.6.15
