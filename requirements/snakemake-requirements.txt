@@ -20,7 +20,7 @@ jsonschema-specifications==2024.10.1
 jupyter-core==5.7.2
 markupsafe==3.0.2
 nbformat==5.10.4
-packaging==24.1
+packaging==24.2
 plac==1.4.3
 platformdirs==4.3.6
 psutil==6.1.0
@@ -29,7 +29,7 @@ pyyaml==6.0.2
 referencing==0.35.1
 requests==2.32.3
 reretry==0.11.8
-rpds-py==0.20.1
+rpds-py==0.21.0
 smart-open==7.0.5
 smmap==5.0.1
 snakemake-interface-common==1.17.4
