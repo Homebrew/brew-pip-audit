@@ -7,7 +7,7 @@ idna==3.10
 kaitaistruct==0.10
 markdown-it-py==3.0.0
 mdurl==0.1.2
-packaging==24.1
+packaging==24.2
 pefile==2024.8.26
 platformdirs==4.3.6
 pyelftools==0.31
