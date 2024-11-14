@@ -1,4 +1,4 @@
-ansible-compat==24.9.1
+ansible-compat==24.10.0
 ansible-core==2.17.6
 attrs==24.2.0
 black==24.10.0
@@ -13,7 +13,7 @@ markdown-it-py==3.0.0
 markupsafe==3.0.2
 mdurl==0.1.2
 mypy-extensions==1.0.0
-packaging==24.1
+packaging==24.2
 pathspec==0.12.1
 platformdirs==4.3.6
 pygments==2.18.0
@@ -27,4 +27,4 @@ ruamel-yaml-clib==0.2.12
 subprocess-tee==0.4.2
 wcmatch==10.0
 yamllint==1.35.1
-zipp==3.20.2
+zipp==3.21.0

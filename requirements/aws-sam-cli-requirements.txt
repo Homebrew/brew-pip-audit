@@ -5,11 +5,11 @@ aws-lambda-builders==1.51.0
 aws-sam-translator==1.92.0
 binaryornot==0.4.4
 blinker==1.9.0
-boto3==1.35.59
+boto3==1.35.60
 boto3-stubs==1.35.56
-botocore==1.35.59
-botocore-stubs==1.35.59
-cfn-lint==1.18.4
+botocore==1.35.60
+botocore-stubs==1.35.60
+cfn-lint==1.19.0
 chardet==5.2.0
 charset-normalizer==3.4.0
 chevron==0.14.0
@@ -60,7 +60,7 @@ rich==13.9.4
 rpds-py==0.21.0
 ruamel-yaml==0.18.6
 s3transfer==0.10.3
-setuptools==75.4.0
+setuptools==75.5.0
 six==1.16.0
 sympy==1.13.3
 text-unidecode==1.3
