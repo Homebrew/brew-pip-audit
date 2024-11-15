@@ -19,6 +19,7 @@
         ],
         "related": [
           "CGA-386h-56mx-h78g",
+          "CGA-rxxc-wrc4-x6r3",
           "CGA-wr84-3crr-hf7w"
         ],
         "summary": "Werkzeug safe_join not safe on Windows",
@@ -195,7 +196,8 @@
         ],
         "related": [
           "CGA-3m9h-7wmp-p5r3",
-          "CGA-4gfj-4gfq-284g"
+          "CGA-4gfj-4gfq-284g",
+          "CGA-p5gp-26hq-j5rc"
         ],
         "summary": "Werkzeug possible resource exhaustion when parsing file data in forms",
         "details": "Applications using Werkzeug to parse `multipart/form-data` requests are vulnerable to resource exhaustion. A specially crafted form body can bypass the `Request.max_form_memory_size` setting.\n\nThe `Request.max_content_length` setting, as well as resource limits provided by deployment software and platforms, are also available to limit the resources used during a request. This vulnerability does not affect those settings. All three types of limits should be considered and set appropriately when deploying an application.",

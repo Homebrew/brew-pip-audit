@@ -1,0 +1,4 @@
+colorama==0.4.6
+setuptools==75.5.0
+types-colorama==0.4.15.20240311
+types-setuptools==57.4.18

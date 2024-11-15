@@ -8,6 +8,6 @@ term-image==0.7.2
 tomlkit==0.13.2
 typing-extensions==4.12.2
 urllib3==2.2.3
-urwid==2.6.15
+urwid==2.6.16
 urwidgets==0.2.1
 wcwidth==0.2.13
