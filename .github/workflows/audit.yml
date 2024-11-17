@@ -13,13 +13,13 @@ jobs:
       contents: write
     steps:
       - name: Check out this repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
         with:
           fetch-depth: 0
           # credentials intentionally persisted for git operations below
           persist-credentials: true
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b # v5
         with:
           python-version: "3.x"
 
