@@ -9,9 +9,9 @@ fqdn==1.5.1
 graphql-core==3.2.5
 h11==0.14.0
 harfile==0.3.0
-httpcore==1.0.6
+httpcore==1.0.7
 httpx==0.27.2
-hypothesis==6.118.8
+hypothesis==6.119.1
 hypothesis-graphql==0.11.1
 hypothesis-jsonschema==0.23.1
 idna==3.10
