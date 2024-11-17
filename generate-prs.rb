@@ -26,6 +26,10 @@ SKIP_FORMULA = [
   "charmcraft",
   # Hopelessly complicated build
   "pytorch",
+  # ansible-lint depends on ansible, which can be handled when ansible got updated
+  # and there is also complexity if the vulnerability is in ansible-core, which would cause
+  # ansible-core version discrepancy between ansible and ansible-lint
+  "ansible-lint",
 ]
 
 PR_LIMIT = ENV.fetch("HOMEBREW_AUTO_PR_LIMIT", 25).to_i
