@@ -11,6 +11,8 @@ jobs:
     permissions:
       # NOTE: Needed to push to the repository.
       contents: write
+    outputs:
+      auto-pr-ref: ${{ steps.commit.auto-pr-ref }}
     steps:
       - name: Check out this repo
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4
@@ -46,15 +48,22 @@ jobs:
       - run: python3 pip-audit-bulk
 
       - name: Commit and push if it changed
+        id: commit
         run: |-
           git config user.name "github.actions"
           git config user.email "actions@users.noreply.github.com"
           git add -A
           timestamp=$(date -u)
           git commit -m "Latest data: ${timestamp}" || exit 0
+          echo "auto-pr-ref=$(git rev-parse HEAD)" >> "${GITHUB_OUTPUT}"
           git push
 
   auto-pr:
     needs: [audit]
     uses: ./.github/workflows/auto-pr.yml
     secrets: inherit
+    with:
+      # NOTE: Without this, the reusable workflow will checkout
+      # the GITHUB_REF from the caller workflow, i.e. the commit
+      # right before our push above.
+      ref: ${{ needs.audit.outputs.auto-pr-ref }}
