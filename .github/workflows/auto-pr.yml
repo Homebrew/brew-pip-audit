@@ -11,6 +11,10 @@ on:
         required: true
         default: true
         type: boolean
+      ref:
+        required: false
+        default: ''
+        type: string
   workflow_call:
     inputs:
       pr-limit:
@@ -19,6 +23,9 @@ on:
       dry-run:
         default: false # don't dry-run by default when called from another workflow
         type: boolean
+      ref:
+        default: ${{ github.ref }}
+        type: string
 
 jobs:
   auto-pr:
@@ -39,6 +46,8 @@ jobs:
         with:
           fetch-depth: 0
           persist-credentials: false
+          # will expand to '' when unset in workflow_dispatch, i.e. default branch
+          ref: ${{ inputs.ref }}
 
       - name: Set up Homebrew
         id: set-up-homebrew
