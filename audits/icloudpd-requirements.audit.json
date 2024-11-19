@@ -879,7 +879,7 @@
         }
       },
       {
-        "modified": "2024-02-21T05:25:29Z",
+        "modified": "2024-11-18T23:24:20Z",
         "published": "2023-10-17T20:15:25Z",
         "schema_version": "1.6.0",
         "id": "GHSA-g4mx-q9vg-27p4",
@@ -1040,6 +1040,10 @@
           {
             "type": "CVSS_V3",
             "score": "CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N"
+          },
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:A/AC:L/AT:P/PR:H/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
           }
         ],
         "references": [
@@ -1107,7 +1111,7 @@
         }
       },
       {
-        "modified": "2024-02-18T05:30:37Z",
+        "modified": "2024-11-18T23:23:04Z",
         "published": "2023-10-02T23:27:05Z",
         "schema_version": "1.6.0",
         "id": "GHSA-v845-jxx5-vc9f",
@@ -1267,6 +1271,10 @@
           {
             "type": "CVSS_V3",
             "score": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N"
+          },
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N"
           }
         ],
         "references": [
@@ -1318,7 +1326,7 @@
           "github_reviewed": true,
           "github_reviewed_at": "2023-10-02T23:27:05Z",
           "nvd_published_at": "2023-10-04T17:15:10Z",
-          "severity": "MODERATE"
+          "severity": "HIGH"
         }
       },
       {
@@ -1678,7 +1686,7 @@
           "GHSA-g4mx-q9vg-27p4",
           "PYSEC-2023-212"
         ],
-        "max_severity": "4.2"
+        "max_severity": "5.7"
       },
       {
         "ids": [

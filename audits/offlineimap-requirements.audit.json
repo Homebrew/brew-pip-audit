@@ -227,7 +227,7 @@
         }
       },
       {
-        "modified": "2024-02-21T05:25:29Z",
+        "modified": "2024-11-18T23:24:20Z",
         "published": "2023-10-17T20:15:25Z",
         "schema_version": "1.6.0",
         "id": "GHSA-g4mx-q9vg-27p4",
@@ -388,6 +388,10 @@
           {
             "type": "CVSS_V3",
             "score": "CVSS:3.1/AV:A/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N"
+          },
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:A/AC:L/AT:P/PR:H/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
           }
         ],
         "references": [
@@ -455,7 +459,7 @@
         }
       },
       {
-        "modified": "2024-02-16T08:11:19Z",
+        "modified": "2024-11-18T23:12:19Z",
         "published": "2021-06-01T21:19:32Z",
         "schema_version": "1.6.0",
         "id": "GHSA-q2q7-5pp4-w6pg",
@@ -509,6 +513,10 @@
           {
             "type": "CVSS_V3",
             "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
           }
         ],
         "references": [
@@ -529,8 +537,8 @@
             "url": "https://github.com/urllib3/urllib3/commit/5b047b645f5f93900d5e2fc31230848c25eb1f5f#diff-52026d639119bf1e0364836b4e8a18bd9ed3c95c6ba39b26534a5057a65e35bbR65"
           },
           {
-            "type": "ADVISORY",
-            "url": "https://github.com/advisories/GHSA-q2q7-5pp4-w6pg"
+            "type": "WEB",
+            "url": "https://github.com/pypa/advisory-database/tree/main/vulns/urllib3/PYSEC-2021-108.yaml"
           },
           {
             "type": "PACKAGE",
@@ -564,7 +572,7 @@
         }
       },
       {
-        "modified": "2024-02-18T05:30:37Z",
+        "modified": "2024-11-18T23:23:04Z",
         "published": "2023-10-02T23:27:05Z",
         "schema_version": "1.6.0",
         "id": "GHSA-v845-jxx5-vc9f",
@@ -724,6 +732,10 @@
           {
             "type": "CVSS_V3",
             "score": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N"
+          },
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N"
           }
         ],
         "references": [
@@ -775,7 +787,7 @@
           "github_reviewed": true,
           "github_reviewed_at": "2023-10-02T23:27:05Z",
           "nvd_published_at": "2023-10-04T17:15:10Z",
-          "severity": "MODERATE"
+          "severity": "HIGH"
         }
       },
       {
@@ -1262,7 +1274,7 @@
           "GHSA-g4mx-q9vg-27p4",
           "PYSEC-2023-212"
         ],
-        "max_severity": "4.2"
+        "max_severity": "5.7"
       },
       {
         "ids": [
@@ -1274,7 +1286,7 @@
           "GHSA-q2q7-5pp4-w6pg",
           "PYSEC-2021-108"
         ],
-        "max_severity": "7.5"
+        "max_severity": "8.7"
       },
       {
         "ids": [
