@@ -2,11 +2,11 @@
   {
     "package": {
       "name": "ansible-core",
-      "version": "2.18.0",
+      "version": "2.17.6",
       "ecosystem": "PyPI"
     },
     "dependency_groups": [
-      "ansible-requirements"
+      "ansible@10-requirements"
     ],
     "vulnerabilities": [
       {
@@ -317,7 +317,7 @@
       "ecosystem": "PyPI"
     },
     "dependency_groups": [
-      "ansible-requirements"
+      "ansible@10-requirements"
     ],
     "vulnerabilities": [
       {
