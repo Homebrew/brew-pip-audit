@@ -60,6 +60,7 @@ ptyprocess==0.7.0
 pyasn1==0.6.1
 pyasn1-modules==0.4.1
 pynacl==1.5.0
+pynetbox==7.4.1
 pyparsing==3.2.0
 pyperclip==1.9.0
 pyserial==3.5
@@ -70,6 +71,7 @@ python-dateutil==2.9.0.post0
 python-keystoneclient==5.5.0
 python-neutronclient==11.3.1
 python-string-utils==1.0.0
+pytz==2024.2
 pywinrm==0.5.0
 pyyaml==6.0.2
 requests==2.32.3

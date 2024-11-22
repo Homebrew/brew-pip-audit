@@ -297,7 +297,7 @@
         }
       },
       {
-        "modified": "2024-11-06T21:50:20Z",
+        "modified": "2024-11-21T21:46:09Z",
         "published": "2024-09-16T14:37:26Z",
         "schema_version": "1.6.0",
         "id": "GHSA-jpxc-vmjf-9fcj",
@@ -554,6 +554,10 @@
           },
           {
             "type": "WEB",
+            "url": "https://access.redhat.com/errata/RHSA-2024:9894"
+          },
+          {
+            "type": "WEB",
             "url": "https://access.redhat.com/security/cve/CVE-2024-8775"
           },
           {
@@ -572,7 +576,7 @@
           "github_reviewed": true,
           "github_reviewed_at": "2024-09-16T22:49:05Z",
           "nvd_published_at": "2024-09-14T03:15:08Z",
-          "severity": "MODERATE"
+          "severity": "HIGH"
         }
       }
     ],
