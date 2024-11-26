@@ -6,10 +6,10 @@ boolean-py==4.0
 bracex==2.5.post1
 charset-normalizer==3.4.0
 click==8.1.7
-click-extra==4.11.3
+click-extra==4.11.5
 cloup==3.0.5
 commentjson==0.9.0
-cyclonedx-python-lib==8.4.0
+cyclonedx-python-lib==8.5.0
 defusedxml==0.7.1
 distro==1.9.0
 extra-platforms==1.6.0
