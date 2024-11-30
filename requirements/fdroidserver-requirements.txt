@@ -5,6 +5,7 @@ args==0.1.0
 asn1crypto==1.5.1
 asttokens==2.4.1
 bcrypt==4.2.1
+biplist==1.0.3
 charset-normalizer==3.4.0
 click==8.1.7
 clint==0.5.1
@@ -19,7 +20,7 @@ future==1.0.0
 gitdb==4.0.11
 gitpython==3.1.43
 idna==3.10
-ipython==8.29.0
+ipython==8.30.0
 jedi==0.19.2
 kiwisolver==1.4.7
 looseversion==1.3.0
@@ -38,6 +39,7 @@ prompt-toolkit==3.0.48
 ptyprocess==0.7.0
 pure-eval==0.2.3
 puremagic==1.28
+pycountry==24.6.1
 pydot==3.0.2
 pygments==2.18.0
 pynacl==1.5.0
@@ -49,7 +51,6 @@ qrcode==8.0
 requests==2.32.3
 ruamel-yaml==0.17.21
 sdkmanager==0.6.10
-setuptools==75.6.0
 six==1.16.0
 smmap==5.0.1
 stack-data==0.6.3
