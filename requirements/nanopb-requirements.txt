@@ -1,2 +1,2 @@
-protobuf==5.28.2
-setuptools==75.1.0
+protobuf==5.29.0
+setuptools==75.6.0

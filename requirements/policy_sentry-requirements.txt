@@ -2,7 +2,7 @@ beautifulsoup4==4.12.3
 charset-normalizer==3.4.0
 click==8.1.7
 idna==3.10
-orjson==3.10.7
+orjson==3.10.12
 pyyaml==6.0.2
 requests==2.32.3
 schema==0.7.7

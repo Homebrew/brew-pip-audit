@@ -7,7 +7,7 @@ markdown-it-py==3.0.0
 mdit-py-plugins==0.4.2
 mdurl==0.1.2
 myloginpath==0.0.4
-orjson==3.10.10
+orjson==3.10.12
 packaging==24.2
 platformdirs==4.3.6
 plotext==5.3.2
@@ -18,8 +18,8 @@ requests==2.32.3
 rich==13.9.4
 setuptools==75.5.0
 sqlparse==0.4.4
-textual==0.84.0
-textual-autocomplete==3.0.0a12
+textual==0.88.1
+textual-autocomplete==3.0.0a13
 tree-sitter==0.23.1
 typing-extensions==4.12.2
 uc-micro-py==1.0.3

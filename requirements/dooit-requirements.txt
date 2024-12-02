@@ -11,7 +11,7 @@ pyyaml==6.0.2
 rich==13.9.4
 six==1.16.0
 sqlalchemy==2.0.36
-textual==0.86.1
+textual==0.87.1
 typing-extensions==4.12.2
 tzlocal==5.2
 uc-micro-py==1.0.3
