@@ -18,7 +18,7 @@ on:
   workflow_call:
     inputs:
       pr-limit:
-        default: 5
+        default: 25
         type: number
       dry-run:
         default: false # don't dry-run by default when called from another workflow
