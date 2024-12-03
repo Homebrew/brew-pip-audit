@@ -38,13 +38,13 @@ platformdirs==4.3.6
 prompt-toolkit==3.0.48
 ptyprocess==0.7.0
 pure-eval==0.2.3
-puremagic==1.28
 pycountry==24.6.1
 pydot==3.0.2
 pygments==2.18.0
 pynacl==1.5.0
 pyparsing==3.2.0
 python-dateutil==2.9.0.post0
+python-magic==0.4.27
 python-vagrant==1.0.0
 pyyaml==6.0.2
 qrcode==8.0

@@ -391,7 +391,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-06-06T21:46:24Z",
+        "modified": "2024-12-03T06:01:14Z",
         "published": "2024-06-06T21:41:20Z",
         "schema_version": "1.6.0",
         "id": "GHSA-753j-mpmx-qq6g",
@@ -680,7 +680,7 @@
         }
       },
       {
-        "modified": "2024-06-06T22:04:10Z",
+        "modified": "2024-12-03T05:59:33Z",
         "published": "2024-06-06T21:46:31Z",
         "schema_version": "1.6.0",
         "id": "GHSA-w235-7p84-xx57",

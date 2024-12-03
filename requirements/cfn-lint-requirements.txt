@@ -1,8 +1,8 @@
 annotated-types==0.7.0
 attrs==24.2.0
 aws-sam-translator==1.94.0
-boto3==1.35.70
-botocore==1.35.70
+boto3==1.35.72
+botocore==1.35.72
 jmespath==1.0.1
 jsonpatch==1.33
 jsonpointer==3.0.0
@@ -16,7 +16,7 @@ python-dateutil==2.9.0.post0
 pyyaml==6.0.2
 referencing==0.35.1
 regex==2024.11.6
-rpds-py==0.21.0
+rpds-py==0.22.0
 s3transfer==0.10.4
 six==1.16.0
 sympy==1.13.3

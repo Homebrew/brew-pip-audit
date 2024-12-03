@@ -20,7 +20,7 @@ setuptools==75.5.0
 sqlparse==0.4.4
 textual==0.88.1
 textual-autocomplete==3.0.0a13
-tree-sitter==0.23.1
+tree-sitter==0.23.2
 typing-extensions==4.12.2
 uc-micro-py==1.0.3
 urllib3==2.2.3
