@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-11-12T21:57:15Z",
+        "modified": "2024-12-04T03:37:18Z",
         "published": "2024-11-12T00:30:36Z",
         "schema_version": "1.6.0",
         "id": "GHSA-99w6-3xph-cx78",
@@ -31,10 +31,81 @@
                 "type": "ECOSYSTEM",
                 "events": [
                   {
+                    "introduced": "2.18.0b1"
+                  },
+                  {
+                    "fixed": "2.18.1rc1"
+                  }
+                ]
+              }
+            ],
+            "versions": [
+              "2.18.0",
+              "2.18.0b1",
+              "2.18.0rc1",
+              "2.18.0rc2"
+            ],
+            "database_specific": {
+              "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/11/GHSA-99w6-3xph-cx78/GHSA-99w6-3xph-cx78.json"
+            }
+          },
+          {
+            "package": {
+              "ecosystem": "PyPI",
+              "name": "ansible-core",
+              "purl": "pkg:pypi/ansible-core"
+            },
+            "ranges": [
+              {
+                "type": "ECOSYSTEM",
+                "events": [
+                  {
+                    "introduced": "2.17.0b1"
+                  },
+                  {
+                    "fixed": "2.17.7rc1"
+                  }
+                ]
+              }
+            ],
+            "versions": [
+              "2.17.0",
+              "2.17.0b1",
+              "2.17.0rc1",
+              "2.17.0rc2",
+              "2.17.1",
+              "2.17.1rc1",
+              "2.17.2",
+              "2.17.2rc1",
+              "2.17.2rc2",
+              "2.17.3",
+              "2.17.3rc1",
+              "2.17.4",
+              "2.17.4rc1",
+              "2.17.5",
+              "2.17.5rc1",
+              "2.17.6",
+              "2.17.6rc1"
+            ],
+            "database_specific": {
+              "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/11/GHSA-99w6-3xph-cx78/GHSA-99w6-3xph-cx78.json"
+            }
+          },
+          {
+            "package": {
+              "ecosystem": "PyPI",
+              "name": "ansible-core",
+              "purl": "pkg:pypi/ansible-core"
+            },
+            "ranges": [
+              {
+                "type": "ECOSYSTEM",
+                "events": [
+                  {
                     "introduced": "0"
                   },
                   {
-                    "last_affected": "2.18.0"
+                    "fixed": "2.16.14rc1"
                   }
                 ]
               }
@@ -226,28 +297,7 @@
               "2.16.8",
               "2.16.8rc1",
               "2.16.9",
-              "2.16.9rc1",
-              "2.17.0",
-              "2.17.0b1",
-              "2.17.0rc1",
-              "2.17.0rc2",
-              "2.17.1",
-              "2.17.1rc1",
-              "2.17.2",
-              "2.17.2rc1",
-              "2.17.2rc2",
-              "2.17.3",
-              "2.17.3rc1",
-              "2.17.4",
-              "2.17.4rc1",
-              "2.17.5",
-              "2.17.5rc1",
-              "2.17.6",
-              "2.17.6rc1",
-              "2.18.0",
-              "2.18.0b1",
-              "2.18.0rc1",
-              "2.18.0rc2"
+              "2.16.9rc1"
             ],
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/11/GHSA-99w6-3xph-cx78/GHSA-99w6-3xph-cx78.json"
@@ -275,6 +325,26 @@
           },
           {
             "type": "WEB",
+            "url": "https://github.com/ansible/ansible/pull/84339"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/ansible/ansible/commit/2936b80dbbc7efb889934aeec80f6142c10266ce"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/ansible/ansible/commit/70e83e72b43e05e57eb42a6d52d01a4d9768f510"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/ansible/ansible/commit/98774d15d7748ebaaaf2e83942cc7e8d39f7280e"
+          },
+          {
+            "type": "WEB",
+            "url": "https://access.redhat.com/errata/RHSA-2024:10770"
+          },
+          {
+            "type": "WEB",
             "url": "https://access.redhat.com/security/cve/CVE-2024-11079"
           },
           {
@@ -284,6 +354,10 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/ansible/ansible"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/ansible/ansible/blob/v2.18.1/changelogs/CHANGELOG-v2.18.rst#security-fixes"
           }
         ],
         "database_specific": {
@@ -297,7 +371,7 @@
         }
       },
       {
-        "modified": "2024-11-21T21:46:09Z",
+        "modified": "2024-12-03T18:49:47Z",
         "published": "2024-09-16T14:37:26Z",
         "schema_version": "1.6.0",
         "id": "GHSA-jpxc-vmjf-9fcj",
@@ -499,6 +573,8 @@
               "2.16.12rc1",
               "2.16.13",
               "2.16.13rc1",
+              "2.16.14",
+              "2.16.14rc1",
               "2.16.1rc1",
               "2.16.2",
               "2.16.3",
@@ -547,6 +623,10 @@
           {
             "type": "ADVISORY",
             "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-8775"
+          },
+          {
+            "type": "WEB",
+            "url": "https://access.redhat.com/errata/RHSA-2024:10762"
           },
           {
             "type": "WEB",
@@ -600,110 +680,6 @@
           "GHSA-jpxc-vmjf-9fcj"
         ],
         "max_severity": "7.1"
-      }
-    ]
-  },
-  {
-    "package": {
-      "name": "pyjwt",
-      "version": "2.10.0",
-      "ecosystem": "PyPI"
-    },
-    "dependency_groups": [
-      "bbot-requirements"
-    ],
-    "vulnerabilities": [
-      {
-        "modified": "2024-12-02T18:57:24Z",
-        "published": "2024-12-02T18:34:11Z",
-        "schema_version": "1.6.0",
-        "id": "GHSA-75c5-xw7c-p5pm",
-        "aliases": [
-          "CVE-2024-53861"
-        ],
-        "summary": "PyJWT Issuer field partial matches allowed",
-        "details": "### Summary\nThe wrong string if check is run for `iss` checking, resulting in `\"acb\"` being accepted for `\"_abc_\"`.\n\n### Details\nThis is a bug introduced in version [2.10.0](https://github.com/jpadilla/pyjwt/commit/1570e708672aa9036bc772476beae8bfa48f4131#diff-6893ad4a1c5a36b8af3028db8c8bc3b62418149843fc382faf901eaab008e380R366): checking the \"iss\" claim\nchanged from `isinstance(issuer, list)` to `isinstance(issuer,\nSequence)`.\n\n```diff\n-        if isinstance(issuer, list):\n+        if isinstance(issuer, Sequence):\n            if payload[\"iss\"] not in issuer:\n                raise InvalidIssuerError(\"Invalid issuer\")\n        else:\n```\n\nSince str is a Sequnce, but not a list, `in` is also used for string\ncomparison. This results in `if \"abc\" not in \"__abcd__\":` being\nchecked instead of `if \"abc\" != \"__abc__\":`.\n### PoC\nCheck out the unit tests added here: https://github.com/jpadilla/pyjwt-ghsa-75c5-xw7c-p5pm\n```python\n        issuer = \"urn:expected\"\n\n        payload = {\"iss\": \"urn:\"}\n\n        token = jwt.encode(payload, \"secret\")\n\n        # decode() succeeds, even though `\"urn:\" != \"urn:expected\". No exception is raised.\n        with pytest.raises(InvalidIssuerError):\n            jwt.decode(token, \"secret\", issuer=issuer, algorithms=[\"HS256\"])\n```\n\n\n### Impact\n\nI would say the real world impact is not that high, seeing as the signature still has to match. We should still fix it.\n",
-        "affected": [
-          {
-            "package": {
-              "ecosystem": "PyPI",
-              "name": "pyjwt",
-              "purl": "pkg:pypi/pyjwt"
-            },
-            "ranges": [
-              {
-                "type": "ECOSYSTEM",
-                "events": [
-                  {
-                    "introduced": "2.10.0"
-                  },
-                  {
-                    "fixed": "2.10.1"
-                  }
-                ]
-              }
-            ],
-            "versions": [
-              "2.10.0"
-            ],
-            "database_specific": {
-              "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/12/GHSA-75c5-xw7c-p5pm/GHSA-75c5-xw7c-p5pm.json"
-            }
-          }
-        ],
-        "severity": [
-          {
-            "type": "CVSS_V3",
-            "score": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:N"
-          },
-          {
-            "type": "CVSS_V4",
-            "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N"
-          }
-        ],
-        "references": [
-          {
-            "type": "WEB",
-            "url": "https://github.com/jpadilla/pyjwt/security/advisories/GHSA-75c5-xw7c-p5pm"
-          },
-          {
-            "type": "ADVISORY",
-            "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53861"
-          },
-          {
-            "type": "WEB",
-            "url": "https://github.com/jpadilla/pyjwt/commit/1570e708672aa9036bc772476beae8bfa48f4131#diff-6893ad4a1c5a36b8af3028db8c8bc3b62418149843fc382faf901eaab008e380R366"
-          },
-          {
-            "type": "WEB",
-            "url": "https://github.com/jpadilla/pyjwt/commit/33022c25525c1020869c71ce2a4109e44ae4ced1"
-          },
-          {
-            "type": "PACKAGE",
-            "url": "https://github.com/jpadilla/pyjwt"
-          }
-        ],
-        "database_specific": {
-          "cwe_ids": [
-            "CWE-697"
-          ],
-          "github_reviewed": true,
-          "github_reviewed_at": "2024-12-02T18:34:11Z",
-          "nvd_published_at": "2024-11-29T19:15:09Z",
-          "severity": "LOW"
-        }
-      }
-    ],
-    "groups": [
-      {
-        "ids": [
-          "GHSA-75c5-xw7c-p5pm"
-        ],
-        "aliases": [
-          "CVE-2024-53861",
-          "GHSA-75c5-xw7c-p5pm"
-        ],
-        "max_severity": "2.2"
       }
     ]
   }

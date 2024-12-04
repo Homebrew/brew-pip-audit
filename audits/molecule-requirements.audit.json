@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-11-12T21:57:15Z",
+        "modified": "2024-12-04T03:37:18Z",
         "published": "2024-11-12T00:30:36Z",
         "schema_version": "1.6.0",
         "id": "GHSA-99w6-3xph-cx78",
@@ -31,10 +31,81 @@
                 "type": "ECOSYSTEM",
                 "events": [
                   {
+                    "introduced": "2.18.0b1"
+                  },
+                  {
+                    "fixed": "2.18.1rc1"
+                  }
+                ]
+              }
+            ],
+            "versions": [
+              "2.18.0",
+              "2.18.0b1",
+              "2.18.0rc1",
+              "2.18.0rc2"
+            ],
+            "database_specific": {
+              "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/11/GHSA-99w6-3xph-cx78/GHSA-99w6-3xph-cx78.json"
+            }
+          },
+          {
+            "package": {
+              "ecosystem": "PyPI",
+              "name": "ansible-core",
+              "purl": "pkg:pypi/ansible-core"
+            },
+            "ranges": [
+              {
+                "type": "ECOSYSTEM",
+                "events": [
+                  {
+                    "introduced": "2.17.0b1"
+                  },
+                  {
+                    "fixed": "2.17.7rc1"
+                  }
+                ]
+              }
+            ],
+            "versions": [
+              "2.17.0",
+              "2.17.0b1",
+              "2.17.0rc1",
+              "2.17.0rc2",
+              "2.17.1",
+              "2.17.1rc1",
+              "2.17.2",
+              "2.17.2rc1",
+              "2.17.2rc2",
+              "2.17.3",
+              "2.17.3rc1",
+              "2.17.4",
+              "2.17.4rc1",
+              "2.17.5",
+              "2.17.5rc1",
+              "2.17.6",
+              "2.17.6rc1"
+            ],
+            "database_specific": {
+              "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/11/GHSA-99w6-3xph-cx78/GHSA-99w6-3xph-cx78.json"
+            }
+          },
+          {
+            "package": {
+              "ecosystem": "PyPI",
+              "name": "ansible-core",
+              "purl": "pkg:pypi/ansible-core"
+            },
+            "ranges": [
+              {
+                "type": "ECOSYSTEM",
+                "events": [
+                  {
                     "introduced": "0"
                   },
                   {
-                    "last_affected": "2.18.0"
+                    "fixed": "2.16.14rc1"
                   }
                 ]
               }
@@ -226,28 +297,7 @@
               "2.16.8",
               "2.16.8rc1",
               "2.16.9",
-              "2.16.9rc1",
-              "2.17.0",
-              "2.17.0b1",
-              "2.17.0rc1",
-              "2.17.0rc2",
-              "2.17.1",
-              "2.17.1rc1",
-              "2.17.2",
-              "2.17.2rc1",
-              "2.17.2rc2",
-              "2.17.3",
-              "2.17.3rc1",
-              "2.17.4",
-              "2.17.4rc1",
-              "2.17.5",
-              "2.17.5rc1",
-              "2.17.6",
-              "2.17.6rc1",
-              "2.18.0",
-              "2.18.0b1",
-              "2.18.0rc1",
-              "2.18.0rc2"
+              "2.16.9rc1"
             ],
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/11/GHSA-99w6-3xph-cx78/GHSA-99w6-3xph-cx78.json"
@@ -275,6 +325,26 @@
           },
           {
             "type": "WEB",
+            "url": "https://github.com/ansible/ansible/pull/84339"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/ansible/ansible/commit/2936b80dbbc7efb889934aeec80f6142c10266ce"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/ansible/ansible/commit/70e83e72b43e05e57eb42a6d52d01a4d9768f510"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/ansible/ansible/commit/98774d15d7748ebaaaf2e83942cc7e8d39f7280e"
+          },
+          {
+            "type": "WEB",
+            "url": "https://access.redhat.com/errata/RHSA-2024:10770"
+          },
+          {
+            "type": "WEB",
             "url": "https://access.redhat.com/security/cve/CVE-2024-11079"
           },
           {
@@ -284,6 +354,10 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/ansible/ansible"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/ansible/ansible/blob/v2.18.1/changelogs/CHANGELOG-v2.18.rst#security-fixes"
           }
         ],
         "database_specific": {
