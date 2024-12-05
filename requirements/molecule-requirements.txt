@@ -1,5 +1,5 @@
-ansible-compat==24.9.1
-ansible-core==2.18.0
+ansible-compat==24.10.0
+ansible-core==2.18.1
 attrs==24.2.0
 bracex==2.5.post1
 charset-normalizer==3.4.0
@@ -17,7 +17,7 @@ markdown-it-py==3.0.0
 markupsafe==3.0.2
 mdurl==0.1.2
 molecule-vagrant==2.0.0
-packaging==24.1
+packaging==24.2
 pluggy==1.5.0
 pygments==2.18.0
 python-vagrant==1.0.0
@@ -26,7 +26,7 @@ referencing==0.35.1
 requests==2.32.3
 resolvelib==1.0.1
 rich==13.9.4
-rpds-py==0.21.0
+rpds-py==0.22.1
 selinux==0.3.0
 six==1.16.0
 subprocess-tee==0.4.2
