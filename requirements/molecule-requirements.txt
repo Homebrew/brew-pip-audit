@@ -26,9 +26,9 @@ referencing==0.35.1
 requests==2.32.3
 resolvelib==1.0.1
 rich==13.9.4
-rpds-py==0.22.1
+rpds-py==0.22.3
 selinux==0.3.0
-six==1.16.0
+six==1.17.0
 subprocess-tee==0.4.2
 urllib3==2.2.3
 wcmatch==10.0

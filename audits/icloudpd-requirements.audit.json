@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-07-15T22:12:28Z",
+        "modified": "2024-12-06T05:24:56Z",
         "published": "2024-07-05T20:06:40Z",
         "schema_version": "1.6.0",
         "id": "GHSA-248v-346w-9cwc",
