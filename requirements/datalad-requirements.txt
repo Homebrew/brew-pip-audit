@@ -1,5 +1,5 @@
 annexremote==1.6.6
-argcomplete==3.5.1
+argcomplete==3.5.2
 boto3==1.35.64
 botocore==1.35.64
 chardet==5.2.0

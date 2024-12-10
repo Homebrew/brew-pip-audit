@@ -1,4 +1,4 @@
-argcomplete==3.5.1
+argcomplete==3.5.2
 charset-normalizer==3.4.0
 colorama==0.4.6
 decli==0.6.2

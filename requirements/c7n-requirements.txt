@@ -1,4 +1,4 @@
-argcomplete==3.5.1
+argcomplete==3.5.2
 attrs==24.2.0
 boto3==1.35.60
 botocore==1.35.60

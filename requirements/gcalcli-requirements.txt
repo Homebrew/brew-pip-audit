@@ -1,5 +1,5 @@
 annotated-types==0.7.0
-argcomplete==3.5.1
+argcomplete==3.5.2
 babel==2.16.0
 cachetools==5.5.0
 charset-normalizer==3.4.0

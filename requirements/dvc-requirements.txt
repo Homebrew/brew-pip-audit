@@ -13,7 +13,7 @@ annotated-types==0.7.0
 antlr4-python3-runtime==4.9.3
 anyio==4.6.2.post1
 appdirs==1.4.4
-argcomplete==3.5.1
+argcomplete==3.5.2
 asyncssh==2.18.0
 atpublic==5.0
 attrs==24.2.0

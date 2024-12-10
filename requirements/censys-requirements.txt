@@ -1,4 +1,4 @@
-argcomplete==3.5.1
+argcomplete==3.5.2
 backoff==2.2.1
 charset-normalizer==3.4.0
 idna==3.10

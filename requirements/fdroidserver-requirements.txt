@@ -1,6 +1,6 @@
 androguard==3.3.5
 apache-libcloud==3.8.0
-argcomplete==3.5.1
+argcomplete==3.5.2
 args==0.1.0
 asn1crypto==1.5.1
 asttokens==2.4.1
