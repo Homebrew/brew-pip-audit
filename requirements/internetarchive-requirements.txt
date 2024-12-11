@@ -3,6 +3,5 @@ idna==3.10
 jsonpatch==1.33
 jsonpointer==3.0.0
 requests==2.32.3
-schema==0.7.7
-tqdm==4.67.0
+tqdm==4.67.1
 urllib3==2.2.3

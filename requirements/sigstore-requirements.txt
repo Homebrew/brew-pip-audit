@@ -9,9 +9,10 @@ grpclib==0.4.7
 h2==4.1.0
 hpack==4.0.0
 hyperframe==6.0.1
-id==1.4.0
+id==1.5.0
 idna==3.10
 markdown-it-py==3.0.0
+maturin==1.7.8
 mdurl==0.1.2
 multidict==6.1.0
 platformdirs==4.3.6
@@ -24,12 +25,13 @@ pyjwt==2.10.1
 pyopenssl==24.3.0
 python-dateutil==2.9.0.post0
 requests==2.32.3
+rfc3161-client==0.0.4
 rfc8785==0.1.4
 rich==13.9.4
 securesystemslib==1.2.0
 sigstore-protobuf-specs==0.3.2
-sigstore-rekor-types==0.0.13
-six==1.16.0
+sigstore-rekor-types==0.0.18
+six==1.17.0
 tuf==5.1.0
 typing-extensions==4.12.2
 urllib3==2.2.3
