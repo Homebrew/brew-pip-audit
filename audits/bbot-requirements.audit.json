@@ -18,6 +18,7 @@
           "CVE-2024-11079"
         ],
         "related": [
+          "CGA-hfc9-2rfv-hrhw",
           "CGA-hpwx-ww96-68r9"
         ],
         "summary": "Ansible-Core vulnerable to content protections bypass",
