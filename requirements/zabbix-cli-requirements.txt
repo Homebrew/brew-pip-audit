@@ -1,9 +1,9 @@
 annotated-types==0.7.0
-anyio==4.6.2.post1
+anyio==4.7.0
 click==8.1.7
 h11==0.14.0
 httpcore==1.0.7
-httpx==0.28.0
+httpx==0.28.1
 idna==3.10
 markdown-it-py==3.0.0
 mdurl==0.1.2
@@ -20,6 +20,6 @@ socksio==1.0.0
 strenum==0.4.15
 tomli==2.2.1
 tomli-w==1.1.0
-typer==0.15.0
+typer==0.15.1
 typing-extensions==4.12.2
 wcwidth==0.2.13

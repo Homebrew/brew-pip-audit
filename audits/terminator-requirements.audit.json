@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-02-18T05:29:13Z",
+        "modified": "2024-12-16T23:01:16Z",
         "published": "2023-04-03T06:30:19Z",
         "schema_version": "1.6.0",
         "id": "GHSA-c33w-24p9-8m24",
@@ -37,7 +37,7 @@
                     "introduced": "0"
                   },
                   {
-                    "last_affected": "5.0.8"
+                    "fixed": "5.0.9"
                   }
                 ]
               }
@@ -83,6 +83,10 @@
             "url": "https://github.com/DiffSK/configobj/issues/232"
           },
           {
+            "type": "WEB",
+            "url": "https://github.com/DiffSK/configobj/commit/7c618b0bbaff6ecaca51a6f05b29795d1377a4a5"
+          },
+          {
             "type": "PACKAGE",
             "url": "https://github.com/DiffSK/configobj"
           },
@@ -97,6 +101,10 @@
           {
             "type": "WEB",
             "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/PYU4IHVLOTYMFPH7KDOJGKZQR4GKWPFK"
+          },
+          {
+            "type": "WEB",
+            "url": "https://pypi.org/project/configobj/5.0.9"
           },
           {
             "type": "WEB",
