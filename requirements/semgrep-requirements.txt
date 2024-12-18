@@ -1,4 +1,4 @@
-attrs==24.2.0
+attrs==24.3.0
 boltons==21.0.0
 bracex==2.5.post1
 charset-normalizer==3.4.0

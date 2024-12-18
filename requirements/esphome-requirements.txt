@@ -5,7 +5,7 @@ anyio==4.7.0
 appdirs==1.4.4
 argcomplete==3.5.2
 async-interrupt==1.2.0
-attrs==24.2.0
+attrs==24.3.0
 bitarray==2.9.3
 bitstring==4.2.3
 bottle==0.13.2
@@ -15,9 +15,9 @@ click==8.1.7
 colorama==0.4.6
 defcon==0.10.3
 ecdsa==0.19.0
-esphome-dashboard==20241120.0
+esphome-dashboard==20241217.1
 esptool==4.7.0
-fonttools==4.55.2
+fonttools==4.55.3
 freetype-py==2.5.1
 fs==2.4.16
 gflanguages==0.7.1
