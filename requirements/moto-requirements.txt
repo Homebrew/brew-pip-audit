@@ -1,12 +1,12 @@
 annotated-types==0.7.0
 antlr4-python3-runtime==4.13.2
-attrs==24.2.0
+attrs==24.3.0
 aws-sam-translator==1.94.0
 aws-xray-sdk==2.14.0
 blinker==1.9.0
-boto3==1.35.81
-botocore==1.35.81
-cfn-lint==1.22.1
+boto3==1.35.84
+botocore==1.35.84
+cfn-lint==1.22.2
 charset-normalizer==3.4.0
 click==8.1.7
 docker==7.1.0
@@ -35,8 +35,8 @@ openapi-spec-validator==0.7.1
 pathable==0.4.3
 ply==3.11
 py-partiql-parser==0.5.6
-pydantic==2.10.3
-pydantic-core==2.27.1
+pydantic==2.10.4
+pydantic-core==2.27.2
 pyparsing==3.2.0
 python-dateutil==2.9.0.post0
 pyyaml==6.0.2

@@ -12,7 +12,6 @@ marshmallow==3.22.0
 mdurl==0.1.2
 packaging==24.2
 patch-ng==1.18.1
-pathspec==0.12.1
 pygments==2.18.0
 pyjwt==2.10.1
 python-dateutil==2.9.0.post0
