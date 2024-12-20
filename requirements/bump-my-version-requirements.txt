@@ -4,8 +4,8 @@ click==8.1.7
 markdown-it-py==3.0.0
 mdurl==0.1.2
 prompt-toolkit==3.0.36
-pydantic==2.10.3
-pydantic-core==2.27.1
+pydantic==2.10.4
+pydantic-core==2.27.2
 pydantic-settings==2.7.0
 pygments==2.18.0
 python-dotenv==1.0.1
