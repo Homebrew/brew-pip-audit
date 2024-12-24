@@ -65,6 +65,54 @@ MSG
 prs_sent = 0
 results = []
 
+# Helper: Insert or bump the `revision` stanza so that it appears
+# after any `license` stanza but before any `head` stanza.
+def manually_bump_revision(formula, next_revision)
+  formula_ast = Utils::AST::FormulaAST.new(formula.path.read)
+  tree_rewriter = formula_ast.send(:tree_rewriter)
+
+  # See if there's already a "revision" stanza
+  existing_revision = formula_ast.stanza(:revision)
+
+  if existing_revision
+    formula_ast.replace_stanza(:revision, next_revision)
+  else
+    license_node = formula_ast.stanza(:license)
+    head_node    = formula_ast.stanza(:head)
+
+    if license_node
+      insert_after_node(tree_rewriter: tree_rewriter,
+                        node: license_node,
+                        name: :revision,
+                        value: next_revision)
+    elsif head_node
+      insert_before_node(tree_rewriter: tree_rewriter,
+                         node: head_node,
+                         name: :revision,
+                         value: next_revision)
+    else
+      # Fallback if neither license nor head stanzas are found
+      formula_ast.add_stanza(:revision, next_revision)
+    end
+  end
+
+  formula.path.atomic_write(formula_ast.process)
+end
+
+# Helper to insert a stanza AFTER an existing node
+def insert_after_node(tree_rewriter:, node:, name:, value:)
+  node_expr = node.location.expression
+  stanza_str = "\n  #{name} #{value}"
+  tree_rewriter.insert_after(node_expr, stanza_str)
+end
+
+# Helper to insert a stanza BEFORE an existing node
+def insert_before_node(tree_rewriter:, node:, name:, value:)
+  node_expr = node.location.expression
+  stanza_str = "  #{name} #{value}\n"
+  tree_rewriter.insert_before(node_expr, stanza_str)
+end
+
 for path in Dir.entries("audits").sort
   if !path.end_with?("-requirements.audit.json")
     next
@@ -104,17 +152,7 @@ for path in Dir.entries("audits").sort
   end
 
   # Bump the formula's revision as well; adapted from `brew bump-revision`.
-  current_revision = formula.revision
-  next_revision = current_revision + 1
-  ohai "#{formula_name}: marking as revision #{next_revision}"
-
-  formula_ast = Utils::AST::FormulaAST.new(formula.path.read)
-  if current_revision.zero?
-    formula_ast.add_stanza(:revision, next_revision)
-  else
-    formula_ast.replace_stanza(:revision, next_revision)
-  end
-  formula.path.atomic_write(formula_ast.process)
+  manually_bump_revision(formula, formula.revision + 1)
 
   ohai "#{formula.name}: updating Python resources"
   # TODO: Updating Python resources automatically can fail for myriad reasons;
