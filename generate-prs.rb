@@ -1,5 +1,6 @@
 require "json"
 require "formula"
+require "ostruct"
 require "utils/ast"
 require "utils/pypi"
 
