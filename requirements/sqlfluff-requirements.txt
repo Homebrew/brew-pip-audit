@@ -1,9 +1,9 @@
 chardet==5.2.0
-click==8.1.7
+click==8.1.8
 colorama==0.4.6
-diff-cover==9.2.0
+diff-cover==9.2.1
 iniconfig==2.0.0
-jinja2==3.1.4
+jinja2==3.1.5
 markupsafe==3.0.2
 packaging==24.2
 pathspec==0.12.1

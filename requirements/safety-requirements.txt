@@ -1,11 +1,11 @@
 annotated-types==0.7.0
 authlib==1.4.0
 charset-normalizer==3.4.0
-click==8.1.7
+click==8.1.8
 dparse==0.6.4
 filelock==3.16.1
 idna==3.10
-jinja2==3.1.4
+jinja2==3.1.5
 markdown-it-py==3.0.0
 markupsafe==3.0.2
 marshmallow==3.23.2
@@ -23,4 +23,4 @@ setuptools==75.6.0
 shellingham==1.5.4
 typer==0.15.1
 typing-extensions==4.12.2
-urllib3==2.2.3
+urllib3==2.3.0
