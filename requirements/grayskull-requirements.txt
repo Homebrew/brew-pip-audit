@@ -1,5 +1,5 @@
 beautifulsoup4==4.12.3
-charset-normalizer==3.4.0
+charset-normalizer==3.4.1
 colorama==0.4.6
 conda-souschef==2.2.3
 idna==3.10
@@ -11,7 +11,6 @@ rapidfuzz==3.11.0
 requests==2.32.3
 ruamel-yaml==0.18.6
 ruamel-yaml-jinja2==0.2.7
-semver==3.0.2
 setuptools==75.6.0
 soupsieve==2.6
 stdlib-list==0.11.0
