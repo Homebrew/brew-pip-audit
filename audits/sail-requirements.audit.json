@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-12-23T21:02:04Z",
+        "modified": "2024-12-26T20:27:33Z",
         "published": "2024-12-23T17:54:12Z",
         "schema_version": "1.6.0",
         "id": "GHSA-gmj6-6f8f-6699",
@@ -18,6 +18,7 @@
           "CVE-2024-56201"
         ],
         "related": [
+          "CGA-2589-9xpr-fmp7",
           "CGA-gvvw-7w3r-7m54",
           "CGA-mvqg-6j62-4pjm",
           "CGA-whf8-42p9-686q"
@@ -104,6 +105,10 @@
         ],
         "severity": [
           {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+          },
+          {
             "type": "CVSS_V4",
             "score": "CVSS:4.0/AV:L/AC:L/AT:P/PR:L/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
           }
@@ -145,7 +150,7 @@
         }
       },
       {
-        "modified": "2024-12-23T21:00:55Z",
+        "modified": "2024-12-26T20:27:49Z",
         "published": "2024-12-23T17:56:08Z",
         "schema_version": "1.6.0",
         "id": "GHSA-q2x7-8rv6-6q7h",
@@ -155,7 +160,8 @@
         "related": [
           "CGA-79fr-pvjg-j9xm",
           "CGA-crfr-r549-cvmg",
-          "CGA-gm37-p355-3fq6"
+          "CGA-gm37-p355-3fq6",
+          "CGA-h3v9-xgx5-mrgr"
         ],
         "summary": "Jinja has a sandbox breakout through indirect reference to format method",
         "details": "An oversight in how the Jinja sandboxed environment detects calls to `str.format` allows an attacker that controls the content of a template to execute arbitrary Python code.\n\nTo exploit the vulnerability, an attacker needs to control the content of a template. Whether that is the case depends on the type of application using Jinja. This vulnerability impacts users of applications which execute untrusted templates.\n\nJinja's sandbox does catch calls to `str.format` and ensures they don't escape the sandbox. However, it's possible to store a reference to a malicious string's `format` method, then pass that to a filter that calls it. No such filters are built-in to Jinja, but could be present through custom filters in an application. After the fix, such indirect calls are also handled by the sandbox.",
@@ -239,6 +245,10 @@
         ],
         "severity": [
           {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+          },
+          {
             "type": "CVSS_V4",
             "score": "CVSS:4.0/AV:L/AC:L/AT:P/PR:L/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
           }
@@ -285,7 +295,7 @@
           "CVE-2024-56201",
           "GHSA-gmj6-6f8f-6699"
         ],
-        "max_severity": "5.4"
+        "max_severity": "8.8"
       },
       {
         "ids": [
@@ -295,7 +305,7 @@
           "CVE-2024-56326",
           "GHSA-q2x7-8rv6-6q7h"
         ],
-        "max_severity": "5.4"
+        "max_severity": "10.0"
       }
     ]
   }
