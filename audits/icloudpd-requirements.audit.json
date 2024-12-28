@@ -525,7 +525,7 @@
         }
       },
       {
-        "modified": "2024-12-26T20:27:49Z",
+        "modified": "2024-12-27T19:24:19Z",
         "published": "2024-12-23T17:56:08Z",
         "schema_version": "1.6.0",
         "id": "GHSA-q2x7-8rv6-6q7h",
@@ -621,7 +621,7 @@
         "severity": [
           {
             "type": "CVSS_V3",
-            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+            "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
           },
           {
             "type": "CVSS_V4",
@@ -680,7 +680,7 @@
           "CVE-2024-56326",
           "GHSA-q2x7-8rv6-6q7h"
         ],
-        "max_severity": "10.0"
+        "max_severity": "7.8"
       }
     ]
   },

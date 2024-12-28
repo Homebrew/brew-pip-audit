@@ -703,7 +703,7 @@
         }
       },
       {
-        "modified": "2024-12-26T20:27:49Z",
+        "modified": "2024-12-27T19:24:19Z",
         "published": "2024-12-23T17:56:08Z",
         "schema_version": "1.6.0",
         "id": "GHSA-q2x7-8rv6-6q7h",
@@ -799,7 +799,7 @@
         "severity": [
           {
             "type": "CVSS_V3",
-            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H"
+            "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
           },
           {
             "type": "CVSS_V4",
@@ -879,7 +879,7 @@
           "CVE-2024-56326",
           "GHSA-q2x7-8rv6-6q7h"
         ],
-        "max_severity": "10.0"
+        "max_severity": "7.8"
       }
     ]
   },
@@ -1466,7 +1466,7 @@
         }
       },
       {
-        "modified": "2024-11-05T22:01:42Z",
+        "modified": "2024-12-27T22:09:03Z",
         "published": "2024-10-25T19:44:43Z",
         "schema_version": "1.6.0",
         "id": "GHSA-q34m-jh98-gwm2",
@@ -1479,7 +1479,7 @@
           "CGA-p5gp-26hq-j5rc"
         ],
         "summary": "Werkzeug possible resource exhaustion when parsing file data in forms",
-        "details": "Applications using Werkzeug to parse `multipart/form-data` requests are vulnerable to resource exhaustion. A specially crafted form body can bypass the `Request.max_form_memory_size` setting.\n\nThe `Request.max_content_length` setting, as well as resource limits provided by deployment software and platforms, are also available to limit the resources used during a request. This vulnerability does not affect those settings. All three types of limits should be considered and set appropriately when deploying an application.",
+        "details": "Applications using Werkzeug to parse `multipart/form-data` requests are vulnerable to resource exhaustion. A specially crafted form body can bypass the `Request.max_form_memory_size` setting.\n\n\nThe `Request.max_content_length` setting, as well as resource limits provided by deployment software and platforms, are also available to limit the resources used during a request. This vulnerability does not affect those settings. All three types of limits should be considered and set appropriately when deploying an application.",
         "affected": [
           {
             "package": {
@@ -1617,7 +1617,7 @@
                     "introduced": "0"
                   },
                   {
-                    "fixed": "0.19.7"
+                    "fixed": "0.20.0"
                   }
                 ]
               }
@@ -1655,6 +1655,9 @@
               "0.19.4",
               "0.19.5",
               "0.19.6",
+              "0.19.7",
+              "0.19.8",
+              "0.19.9",
               "0.2.0",
               "0.3.0",
               "0.3.1",
@@ -1686,7 +1689,6 @@
               "0.9.1"
             ],
             "database_specific": {
-              "last_known_affected_version_range": "<= 0.19.6",
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/10/GHSA-q34m-jh98-gwm2/GHSA-q34m-jh98-gwm2.json"
             }
           }
@@ -1698,7 +1700,7 @@
           },
           {
             "type": "CVSS_V4",
-            "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N/E:U"
+            "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N"
           }
         ],
         "references": [
@@ -1713,6 +1715,10 @@
           {
             "type": "WEB",
             "url": "https://github.com/pallets/quart/commit/5e78c4169b8eb66b91ead3e62d44721b9e1644ee"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/pallets/quart/commit/abb04a512496206de279225340ed022852fbf51f"
           },
           {
             "type": "WEB",
