@@ -75,7 +75,7 @@ sounddevice==0.5.1
 soundfile==0.12.1
 soupsieve==2.6
 tiktoken==0.8.0
-tokenizers==0.19.1
+tokenizers==0.21.0
 tqdm==4.67.1
 tree-sitter==0.21.3
 typing-extensions==4.12.2
