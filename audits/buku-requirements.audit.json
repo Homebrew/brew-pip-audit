@@ -371,7 +371,7 @@
         }
       },
       {
-        "modified": "2024-12-27T22:09:03Z",
+        "modified": "2025-01-03T12:35:07Z",
         "published": "2024-10-25T19:44:43Z",
         "schema_version": "1.6.0",
         "id": "GHSA-q34m-jh98-gwm2",
@@ -636,6 +636,10 @@
           {
             "type": "WEB",
             "url": "https://github.com/pallets/werkzeug/releases/tag/3.0.6"
+          },
+          {
+            "type": "WEB",
+            "url": "https://security.netapp.com/advisory/ntap-20250103-0007"
           }
         ],
         "database_specific": {
