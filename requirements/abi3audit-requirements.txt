@@ -1,8 +1,8 @@
 abi3info==2024.10.26
-attrs==24.2.0
+attrs==24.3.0
 cattrs==24.1.2
-certifi==2024.8.30
-charset-normalizer==3.4.0
+certifi==2024.12.14
+charset-normalizer==3.4.1
 idna==3.10
 kaitaistruct==0.10
 markdown-it-py==3.0.0
@@ -11,10 +11,10 @@ packaging==24.2
 pefile==2024.8.26
 platformdirs==4.3.6
 pyelftools==0.31
-pygments==2.18.0
+pygments==2.19.1
 requests==2.32.3
 requests-cache==1.2.1
 rich==13.9.4
-six==1.16.0
+six==1.17.0
 url-normalize==1.4.3
-urllib3==2.2.3
+urllib3==2.3.0
