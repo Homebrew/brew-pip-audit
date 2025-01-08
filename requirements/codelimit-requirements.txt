@@ -11,7 +11,7 @@ mdurl==0.1.2
 multidict==6.1.0
 pathspec==0.12.1
 propcache==0.2.1
-pygments==2.18.0
+pygments==2.19.1
 pyperclip==1.9.0
 pyyaml==6.0.2
 requests==2.32.3
