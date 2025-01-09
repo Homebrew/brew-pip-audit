@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-12-26T20:27:33Z",
+        "modified": "2025-01-08T16:26:10Z",
         "published": "2024-12-23T17:54:12Z",
         "schema_version": "1.6.0",
         "id": "GHSA-gmj6-6f8f-6699",
@@ -22,6 +22,8 @@
           "CGA-372m-j842-xpmm",
           "CGA-9x7g-9rfp-4xhm",
           "CGA-gvvw-7w3r-7m54",
+          "CGA-h79h-32w2-7vmp",
+          "CGA-jjj9-fv4h-c9cv",
           "CGA-mvqg-6j62-4pjm",
           "CGA-vj5f-6mc5-q329",
           "CGA-whf8-42p9-686q"
@@ -40,7 +42,7 @@
                 "type": "ECOSYSTEM",
                 "events": [
                   {
-                    "introduced": "0"
+                    "introduced": "3.0.0"
                   },
                   {
                     "fixed": "3.1.5"
@@ -49,48 +51,7 @@
               }
             ],
             "versions": [
-              "2.0",
-              "2.0rc1",
-              "2.1",
-              "2.1.1",
-              "2.10",
-              "2.10.1",
-              "2.10.2",
-              "2.10.3",
-              "2.11.0",
-              "2.11.1",
-              "2.11.2",
-              "2.11.3",
-              "2.2",
-              "2.2.1",
-              "2.3",
-              "2.3.1",
-              "2.4",
-              "2.4.1",
-              "2.5",
-              "2.5.1",
-              "2.5.2",
-              "2.5.3",
-              "2.5.4",
-              "2.5.5",
-              "2.6",
-              "2.7",
-              "2.7.1",
-              "2.7.2",
-              "2.7.3",
-              "2.8",
-              "2.8.1",
-              "2.9",
-              "2.9.1",
-              "2.9.2",
-              "2.9.3",
-              "2.9.4",
-              "2.9.5",
-              "2.9.6",
               "3.0.0",
-              "3.0.0a1",
-              "3.0.0rc1",
-              "3.0.0rc2",
               "3.0.1",
               "3.0.2",
               "3.0.3",
@@ -162,12 +123,14 @@
         ],
         "related": [
           "CGA-48m9-g63w-3pmj",
+          "CGA-6g29-xf5c-xrq4",
           "CGA-79fr-pvjg-j9xm",
           "CGA-crfr-r549-cvmg",
           "CGA-f7wq-crqm-v76f",
           "CGA-gm37-p355-3fq6",
           "CGA-h3v9-xgx5-mrgr",
-          "CGA-p9v5-jpj2-q3ww"
+          "CGA-p9v5-jpj2-q3ww",
+          "CGA-rx48-pgcw-gx64"
         ],
         "summary": "Jinja has a sandbox breakout through indirect reference to format method",
         "details": "An oversight in how the Jinja sandboxed environment detects calls to `str.format` allows an attacker that controls the content of a template to execute arbitrary Python code.\n\nTo exploit the vulnerability, an attacker needs to control the content of a template. Whether that is the case depends on the type of application using Jinja. This vulnerability impacts users of applications which execute untrusted templates.\n\nJinja's sandbox does catch calls to `str.format` and ensures they don't escape the sandbox. However, it's possible to store a reference to a malicious string's `format` method, then pass that to a filter that calls it. No such filters are built-in to Jinja, but could be present through custom filters in an application. After the fix, such indirect calls are also handled by the sandbox.",
