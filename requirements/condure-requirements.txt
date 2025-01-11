@@ -1,4 +1,0 @@
-packaging==23.2
-pyzmq==25.1.2
-setuptools==69.1.1
-tnetstring3==0.3.1

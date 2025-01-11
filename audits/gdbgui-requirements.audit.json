@@ -282,13 +282,17 @@
         "related": [
           "CGA-2589-9xpr-fmp7",
           "CGA-372m-j842-xpmm",
+          "CGA-5jxw-7gv5-jv29",
+          "CGA-9fmg-5576-4h3w",
           "CGA-9x7g-9rfp-4xhm",
+          "CGA-f7cf-h8jg-fwmv",
           "CGA-gvvw-7w3r-7m54",
           "CGA-h79h-32w2-7vmp",
           "CGA-jjj9-fv4h-c9cv",
           "CGA-jr6g-xxjr-rgc8",
           "CGA-mvqg-6j62-4pjm",
           "CGA-vj5f-6mc5-q329",
+          "CGA-vm55-cfmf-jr9r",
           "CGA-w9xc-2j9j-8rrv",
           "CGA-whf8-42p9-686q"
         ],
@@ -677,9 +681,11 @@
           "CVE-2024-56326"
         ],
         "related": [
+          "CGA-3cj4-2jg2-4qm3",
           "CGA-48m9-g63w-3pmj",
           "CGA-6g29-xf5c-xrq4",
           "CGA-79fr-pvjg-j9xm",
+          "CGA-8r3m-hvvj-88ff",
           "CGA-crfr-r549-cvmg",
           "CGA-f7wq-crqm-v76f",
           "CGA-gm37-p355-3fq6",
@@ -687,7 +693,9 @@
           "CGA-hvm4-vp8w-6q8r",
           "CGA-p9v5-jpj2-q3ww",
           "CGA-rx48-pgcw-gx64",
-          "CGA-w2xv-8gr2-xp8m"
+          "CGA-v3rh-g84v-9h7h",
+          "CGA-w2xv-8gr2-xp8m",
+          "CGA-wxqh-34vm-g4hv"
         ],
         "summary": "Jinja has a sandbox breakout through indirect reference to format method",
         "details": "An oversight in how the Jinja sandboxed environment detects calls to `str.format` allows an attacker that controls the content of a template to execute arbitrary Python code.\n\nTo exploit the vulnerability, an attacker needs to control the content of a template. Whether that is the case depends on the type of application using Jinja. This vulnerability impacts users of applications which execute untrusted templates.\n\nJinja's sandbox does catch calls to `str.format` and ensures they don't escape the sandbox. However, it's possible to store a reference to a malicious string's `format` method, then pass that to a filter that calls it. No such filters are built-in to Jinja, but could be present through custom filters in an application. After the fix, such indirect calls are also handled by the sandbox.",
