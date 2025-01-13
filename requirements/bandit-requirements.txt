@@ -1,7 +1,7 @@
 markdown-it-py==3.0.0
 mdurl==0.1.2
 pbr==6.1.0
-pygments==2.18.0
+pygments==2.19.1
 pyyaml==6.0.2
 rich==13.9.4
 stevedore==5.4.0
