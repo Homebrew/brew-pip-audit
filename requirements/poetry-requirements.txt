@@ -1,5 +1,5 @@
 build==1.2.2.post1
-cachecontrol==0.14.1
+cachecontrol==0.14.2
 charset-normalizer==3.4.1
 cleo==2.1.0
 crashtest==0.4.1
@@ -19,7 +19,7 @@ msgpack==1.1.0
 packaging==24.2
 pkginfo==1.12.0
 platformdirs==4.3.6
-poetry-core==2.0.0
+poetry-core==2.0.1
 pyproject-hooks==1.2.0
 rapidfuzz==3.11.0
 requests==2.32.3
@@ -27,7 +27,7 @@ requests-toolbelt==1.0.0
 secretstorage==3.3.3
 shellingham==1.5.4
 tomlkit==0.13.2
-trove-classifiers==2024.10.21.16
+trove-classifiers==2025.1.10.15
 urllib3==2.3.0
 virtualenv==20.28.1
-xattr==1.1.0
+xattr==1.1.4
