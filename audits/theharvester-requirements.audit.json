@@ -660,6 +660,7 @@
           "CVE-2024-52304"
         ],
         "related": [
+          "CGA-cfj5-h64x-v2xx",
           "CGA-hc89-w3pf-6cxj",
           "CGA-x336-fvxc-v695"
         ],
@@ -1368,6 +1369,7 @@
           "CVE-2024-35195"
         ],
         "related": [
+          "CGA-26vv-f9rg-3gr8",
           "CGA-2qh2-jp77-wp2x",
           "CGA-32qh-xq5g-9xq4",
           "CGA-432x-3phh-56c7",
@@ -1658,6 +1660,7 @@
           "CGA-h655-78w4-797j",
           "CGA-qmjx-gwcv-4p8x",
           "CGA-rjmx-vqfq-f7rh",
+          "CGA-wvx6-p8cc-2629",
           "CGA-x22r-fp37-7vh6",
           "CGA-xrq9-4hfh-g5jh"
         ],
