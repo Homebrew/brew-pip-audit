@@ -1,10 +1,10 @@
 annotated-types==0.7.0
 anthropic==0.42.0
-anyio==4.7.0
+anyio==4.8.0
 asttokens==3.0.0
 bashlex==0.18
-charset-normalizer==3.4.0
-click==8.1.7
+charset-normalizer==3.4.1
+click==8.1.8
 decorator==5.1.1
 distro==1.9.0
 executing==2.1.0
@@ -21,7 +21,7 @@ markdown-it-py==3.0.0
 matplotlib-inline==0.1.7
 mdurl==0.1.2
 multiprocessing-logging==any.whl
-openai==1.58.1
+openai==1.59.7
 parso==0.8.4
 pexpect==4.9.0
 pick==2.4.0
@@ -29,9 +29,9 @@ platformdirs==4.3.6
 prompt-toolkit==3.0.48
 ptyprocess==0.7.0
 pure-eval==0.2.3
-pydantic==2.10.4
+pydantic==2.10.5
 pydantic-core==2.27.2
-pygments==2.18.0
+pygments==2.19.1
 python-dotenv==1.0.1
 python-xlib==0.33
 regex==2024.11.6
@@ -46,5 +46,5 @@ tomlkit==0.13.2
 tqdm==4.67.1
 traitlets==5.14.3
 typing-extensions==4.12.2
-urllib3==2.2.3
+urllib3==2.3.0
 wcwidth==0.2.13

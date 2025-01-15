@@ -542,7 +542,8 @@
           "CVE-2024-52804"
         ],
         "related": [
-          "CGA-qpm7-q69q-w66w"
+          "CGA-qpm7-q69q-w66w",
+          "CVE-2024-52804"
         ],
         "summary": "Tornado has an HTTP cookie parsing DoS vulnerability",
         "details": "The algorithm used for parsing HTTP cookies in Tornado versions prior to 6.4.2 sometimes has quadratic complexity, leading to excessive CPU consumption when parsing maliciously-crafted cookie headers. This parsing occurs in the event loop thread and may block the processing of other requests.\n\nSee also CVE-2024-7592 for a similar vulnerability in cpython.",

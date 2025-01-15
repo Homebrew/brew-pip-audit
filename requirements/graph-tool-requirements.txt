@@ -6,6 +6,6 @@ matplotlib==3.10.0
 packaging==24.2
 pyparsing==3.2.1
 python-dateutil==2.9.0.post0
-setuptools==75.7.0
+setuptools==75.8.0
 six==1.17.0
 zstandard==0.23.0

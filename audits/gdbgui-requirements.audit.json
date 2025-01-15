@@ -542,7 +542,8 @@
           "CGA-ph4r-hmw2-vp9r",
           "CGA-rwrm-vm7r-mrmj",
           "CGA-w4rq-c3cf-82f3",
-          "CGA-x9j2-vg55-h4p4"
+          "CGA-x9j2-vg55-h4p4",
+          "CVE-2024-34064"
         ],
         "summary": "Jinja vulnerable to HTML attribute injection when passing user input as keys to xmlattr filter",
         "details": "The `xmlattr` filter in affected versions of Jinja accepts keys containing non-attribute characters. XML/HTML attributes cannot contain spaces, `/`, `>`, or `=`, as each would then be interpreted as starting a separate attribute. If an application accepts keys (as opposed to only values) as user input, and renders these in pages that other users see as well, an attacker could use this to inject other attributes and perform XSS. The fix for the previous GHSA-h5c8-rqwp-cp95 CVE-2024-22195 only addressed spaces but not other characters.\n\nAccepting keys as user input is now explicitly considered an unintended use case of the `xmlattr` filter, and code that does so without otherwise validating the input should be flagged as insecure, regardless of Jinja version. Accepting _values_ as user input continues to be safe.",
@@ -888,7 +889,8 @@
           "CGA-4j52-qrxr-72wj",
           "CGA-mmv2-q2vv-5j43",
           "CGA-v7pm-fgrf-j9wg",
-          "CGA-x38f-2x56-r747"
+          "CGA-x38f-2x56-r747",
+          "CVE-2024-34069"
         ],
         "summary": "Werkzeug debugger vulnerable to remote execution when interacting with attacker controlled domain",
         "details": "The debugger in affected versions of Werkzeug can allow an attacker to execute code on a developer's machine under some circumstances. This requires the attacker to get the developer to interact with a domain and subdomain they control, and enter the debugger PIN, but if they are successful it allows access to the debugger even if it is only running on localhost. This also requires the attacker to guess a URL in the developer's application that will trigger the debugger.",
@@ -1249,7 +1251,8 @@
           "CGA-359g-9qp6-mwmm",
           "CGA-362w-xpjf-5557",
           "CGA-3xrx-g66v-9vhw",
-          "CGA-v94x-q6m7-qgqv"
+          "CGA-v94x-q6m7-qgqv",
+          "CVE-2023-46136"
         ],
         "summary": "Werkzeug DoS: High resource usage when parsing multipart/form-data containing a large part with CR/LF character at the beginning",
         "details": "Werkzeug multipart data parser needs to find a boundary that may be between consecutive chunks. That's why parsing is based on looking for newline characters. Unfortunately, code looking for partial boundary in the buffer is written inefficiently, so if we upload a file that starts with CR or LF and then is followed by megabytes of data without these characters: all of these bytes are appended chunk by chunk into internal bytearray and lookup for boundary is performed on growing buffer.\n\nThis allows an attacker to cause a denial of service by sending crafted multipart data to an endpoint that will parse it. The amount of CPU time required can block worker processes from handling legitimate requests. The amount of RAM required can trigger an out of memory kill of the process. If many concurrent requests are sent continuously, this can exhaust or kill all available workers.\n",
