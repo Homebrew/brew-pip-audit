@@ -1,4 +1,4 @@
-botocore==1.35.99
+botocore==1.36.0
 colorama==0.4.6
 docutils==0.16
 jmespath==1.0.1
@@ -6,6 +6,6 @@ pyasn1==0.6.1
 python-dateutil==2.9.0.post0
 pyyaml==6.0.2
 rsa==4.7.2
-s3transfer==0.10.4
+s3transfer==0.11.0
 six==1.17.0
 urllib3==2.3.0

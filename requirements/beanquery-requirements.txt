@@ -1,0 +1,6 @@
+beancount==3.0.0
+click==8.1.8
+python-dateutil==2.9.0.post0
+regex==2024.11.6
+six==1.17.0
+tatsu==5.7.4
