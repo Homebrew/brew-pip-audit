@@ -1,6 +1,6 @@
 babel==2.16.0
 certifi==2024.12.14
-charset-normalizer==3.4.0
+charset-normalizer==3.4.1
 click==8.1.8
 colorama==0.4.6
 ghp-import==2.1.0
@@ -16,8 +16,8 @@ packaging==24.2
 paginate==0.5.7
 pathspec==0.12.1
 platformdirs==4.3.6
-pygments==2.18.0
-pymdown-extensions==10.13
+pygments==2.19.1
+pymdown-extensions==10.14
 python-dateutil==2.9.0.post0
 pyyaml==6.0.2
 pyyaml-env-tag==0.1

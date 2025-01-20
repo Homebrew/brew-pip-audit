@@ -22,7 +22,7 @@ platformdirs==4.3.6
 protobuf==5.29.3
 pygments==2.19.1
 pyrsistent==0.20.0
-referencing==0.35.1
+referencing==0.36.1
 requests==2.32.3
 rich==13.9.4
 rpds-py==0.22.3
