@@ -2,7 +2,7 @@ ansible-compat==24.10.0
 ansible-core==2.18.1
 attrs==24.3.0
 bracex==2.5.post1
-charset-normalizer==3.4.0
+charset-normalizer==3.4.1
 click==8.1.8
 click-help-colors==0.9.4
 distro==1.9.0
@@ -19,10 +19,10 @@ mdurl==0.1.2
 molecule-vagrant==2.0.0
 packaging==24.2
 pluggy==1.5.0
-pygments==2.18.0
+pygments==2.19.1
 python-vagrant==1.0.0
 pyyaml==6.0.2
-referencing==0.35.1
+referencing==0.36.1
 requests==2.32.3
 resolvelib==1.0.1
 rich==13.9.4
