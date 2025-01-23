@@ -391,6 +391,7 @@
         ],
         "related": [
           "CGA-493q-4x4c-mfjv",
+          "CGA-557c-34r4-4q66",
           "CGA-f27q-c9f6-2v7h",
           "CGA-hgvf-wwm9-3343"
         ],
@@ -696,7 +697,8 @@
           "CGA-rx48-pgcw-gx64",
           "CGA-v3rh-g84v-9h7h",
           "CGA-w2xv-8gr2-xp8m",
-          "CGA-wxqh-34vm-g4hv"
+          "CGA-wxqh-34vm-g4hv",
+          "CGA-x4cq-2pgw-pj4r"
         ],
         "summary": "Jinja has a sandbox breakout through indirect reference to format method",
         "details": "An oversight in how the Jinja sandboxed environment detects calls to `str.format` allows an attacker that controls the content of a template to execute arbitrary Python code.\n\nTo exploit the vulnerability, an attacker needs to control the content of a template. Whether that is the case depends on the type of application using Jinja. This vulnerability impacts users of applications which execute untrusted templates.\n\nJinja's sandbox does catch calls to `str.format` and ensures they don't escape the sandbox. However, it's possible to store a reference to a malicious string's `format` method, then pass that to a filter that calls it. No such filters are built-in to Jinja, but could be present through custom filters in an application. After the fix, such indirect calls are also handled by the sandbox.",
@@ -1070,6 +1072,7 @@
         ],
         "related": [
           "CGA-386h-56mx-h78g",
+          "CGA-p5f2-4rj7-w47h",
           "CGA-rxxc-wrc4-x6r3",
           "CGA-wr84-3crr-hf7w"
         ],
@@ -1252,6 +1255,7 @@
           "CGA-362w-xpjf-5557",
           "CGA-3xrx-g66v-9vhw",
           "CGA-v94x-q6m7-qgqv",
+          "CGA-xm82-6r9q-w4j8",
           "CVE-2023-46136"
         ],
         "summary": "Werkzeug DoS: High resource usage when parsing multipart/form-data containing a large part with CR/LF character at the beginning",
@@ -1460,6 +1464,7 @@
         "related": [
           "CGA-3m9h-7wmp-p5r3",
           "CGA-4gfj-4gfq-284g",
+          "CGA-cwvc-2mhw-gmxh",
           "CGA-p5gp-26hq-j5rc"
         ],
         "summary": "Werkzeug possible resource exhaustion when parsing file data in forms",

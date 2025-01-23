@@ -30,7 +30,7 @@ packaging==24.2
 peewee==3.17.8
 protobuf==4.25.5
 pygments==2.19.1
-referencing==0.35.1
+referencing==0.36.1
 requests==2.32.3
 rich==13.5.3
 rpds-py==0.22.3
