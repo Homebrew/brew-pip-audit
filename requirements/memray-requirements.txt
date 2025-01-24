@@ -5,7 +5,7 @@ markupsafe==3.0.2
 mdit-py-plugins==0.4.2
 mdurl==0.1.2
 platformdirs==4.3.6
-pygments==2.18.0
+pygments==2.19.1
 rich==13.9.4
 textual==1.0.0
 typing-extensions==4.12.2
