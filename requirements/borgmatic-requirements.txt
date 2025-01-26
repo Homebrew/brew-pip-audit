@@ -1,10 +1,10 @@
-attrs==24.3.0
+attrs==25.1.0
 charset-normalizer==3.4.1
 idna==3.10
 jsonschema==4.23.0
 jsonschema-specifications==2024.10.1
 packaging==24.2
-referencing==0.36.1
+referencing==0.36.2
 requests==2.32.3
 rpds-py==0.22.3
 ruamel-yaml==0.18.10
