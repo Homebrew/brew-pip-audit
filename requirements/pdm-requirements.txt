@@ -2,7 +2,7 @@ anyio==4.8.0
 blinker==1.9.0
 dep-logic==0.4.10
 distlib==0.3.9
-filelock==3.16.1
+filelock==3.17.0
 findpython==0.6.2
 h11==0.14.0
 hishel==0.1.1
@@ -27,4 +27,4 @@ socksio==1.0.0
 tomlkit==0.13.2
 truststore==0.10.0
 unearth==0.17.2
-virtualenv==20.28.1
+virtualenv==20.29.1
