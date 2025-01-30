@@ -1,4 +1,4 @@
-attrs==24.3.0
+attrs==25.1.0
 boltons==21.0.0
 bracex==2.5.post1
 charset-normalizer==3.4.1
@@ -6,7 +6,7 @@ click==8.1.8
 click-option-group==0.5.6
 colorama==0.4.6
 defusedxml==0.7.1
-deprecated==1.2.15
+deprecated==1.2.18
 exceptiongroup==1.2.2
 face==24.0.0
 glom==22.1.0
@@ -28,9 +28,9 @@ opentelemetry-semantic-conventions==0.46b0
 opentelemetry-util-http==0.46b0
 packaging==24.2
 peewee==3.17.8
-protobuf==4.25.5
+protobuf==4.25.6
 pygments==2.19.1
-referencing==0.36.1
+referencing==0.36.2
 requests==2.32.3
 rich==13.5.3
 rpds-py==0.22.3
