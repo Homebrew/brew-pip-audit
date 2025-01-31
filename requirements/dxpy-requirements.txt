@@ -1,5 +1,5 @@
-argcomplete==3.5.2
-psutil==6.1.0
+argcomplete==3.5.3
+psutil==6.1.1
 python-dateutil==2.9.0.post0
 six==1.17.0
 urllib3==2.1.0

@@ -34,7 +34,7 @@ pydantic-core==2.27.2
 pyjwt==2.10.1
 python-daemon==3.1.2
 pyyaml==6.0.2
-pyzmq==26.2.0
+pyzmq==26.2.1
 radixtarget==3.0.15
 regex==2024.11.6
 requests==2.32.3
