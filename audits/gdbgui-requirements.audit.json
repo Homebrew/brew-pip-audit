@@ -1063,7 +1063,7 @@
         }
       },
       {
-        "modified": "2024-10-25T21:42:39Z",
+        "modified": "2025-01-31T15:37:27Z",
         "published": "2024-10-25T19:43:41Z",
         "schema_version": "1.6.0",
         "id": "GHSA-f9vj-2wh5-fj8j",
@@ -1228,6 +1228,10 @@
           {
             "type": "WEB",
             "url": "https://github.com/pallets/werkzeug/releases/tag/3.0.6"
+          },
+          {
+            "type": "WEB",
+            "url": "https://security.netapp.com/advisory/ntap-20250131-0005"
           }
         ],
         "database_specific": {
