@@ -6,12 +6,12 @@ charset-normalizer==3.4.1
 click==8.1.8
 colorama==0.4.6
 fqdn==1.5.1
-graphql-core==3.2.5
+graphql-core==3.2.6
 h11==0.14.0
 harfile==0.3.0
 httpcore==1.0.7
 httpx==0.28.1
-hypothesis==6.124.5
+hypothesis==6.124.9
 hypothesis-graphql==0.11.1
 hypothesis-jsonschema==0.23.1
 idna==3.10
