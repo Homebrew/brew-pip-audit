@@ -74,6 +74,12 @@ jobs:
         with:
           username: BrewTestBot
 
+      - name: Set up commit signing
+        uses: Homebrew/actions/setup-commit-signing@master
+        with:
+          ssh: true
+          signing_key: ${{ secrets.BREWTESTBOT_SSH_SIGNING_KEY }}
+
       - name: Install dependencies
         run: brew install augeas autoconf
 
