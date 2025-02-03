@@ -39,6 +39,17 @@ jobs:
           brew install osv-scanner
           brew untap --force hashicorp/tap || true
 
+      - name: Configure git
+        uses: Homebrew/actions/git-user-config@master
+        with:
+          username: BrewTestBot
+
+      - name: Set up commit signing
+        uses: Homebrew/actions/setup-commit-signing@master
+        with:
+          ssh: true
+          signing_key: ${{ secrets.BREWTESTBOT_SSH_SIGNING_KEY }}
+
       - run: brew ruby formula2requirements.rb
         env:
           HOMEBREW_NO_AUTO_UPDATE: 1
@@ -50,8 +61,6 @@ jobs:
       - name: Commit and push if it changed
         id: commit
         run: |-
-          git config user.name "github.actions"
-          git config user.email "actions@users.noreply.github.com"
           git add -A
           timestamp=$(date -u)
           git commit -m "Latest data: ${timestamp}" || exit 0
