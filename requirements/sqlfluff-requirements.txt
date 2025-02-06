@@ -1,7 +1,7 @@
 chardet==5.2.0
 click==8.1.8
 colorama==0.4.6
-diff-cover==9.2.1
+diff-cover==9.2.2
 iniconfig==2.0.0
 jinja2==3.1.5
 markupsafe==3.0.2
@@ -9,7 +9,7 @@ packaging==24.2
 pathspec==0.12.1
 platformdirs==4.3.6
 pluggy==1.5.0
-pygments==2.18.0
+pygments==2.19.1
 pytest==8.3.4
 pyyaml==6.0.2
 regex==2024.11.6
