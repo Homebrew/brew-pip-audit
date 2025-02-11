@@ -1,5 +1,5 @@
 coverage==5.5
 deprecation==2.1.0
 filetype==1.2.0
-packaging==24.1
+packaging==24.2
 toml==0.10.2

@@ -765,7 +765,7 @@
         }
       },
       {
-        "modified": "2024-12-03T18:49:47Z",
+        "modified": "2025-02-10T21:59:16Z",
         "published": "2024-09-16T14:37:26Z",
         "schema_version": "1.6.0",
         "id": "GHSA-jpxc-vmjf-9fcj",
@@ -1032,11 +1032,19 @@
           },
           {
             "type": "WEB",
+            "url": "https://access.redhat.com/errata/RHSA-2025:1249"
+          },
+          {
+            "type": "WEB",
             "url": "https://access.redhat.com/security/cve/CVE-2024-8775"
           },
           {
             "type": "WEB",
             "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2312119"
+          },
+          {
+            "type": "ADVISORY",
+            "url": "https://github.com/advisories/GHSA-jpxc-vmjf-9fcj"
           },
           {
             "type": "PACKAGE",
