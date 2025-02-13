@@ -1,2 +1,2 @@
-cwcwidth==0.1.9
-lxml==5.3.0
+cwcwidth==0.1.10
+lxml==5.3.1
