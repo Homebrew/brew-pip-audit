@@ -1,0 +1,11 @@
+cffi==1.17.1
+fast-zip-decryption==3.0.0
+indexed-gzip==1.9.4
+indexed-zstd==1.6.1
+libarchive-c==5.1
+pycparser==2.22
+pygit2==1.17.0
+python-xz==0.4.0
+rapidgzip==0.14.3
+rarfile==4.2
+ratarmountcore==0.8.0
