@@ -1,5 +1,5 @@
-deprecated==1.2.14
-lxml==5.3.0
-packaging==24.1
-pikepdf==9.3.0
-wrapt==1.16.0
+deprecated==1.2.18
+lxml==5.3.1
+packaging==24.2
+pikepdf==9.5.2
+wrapt==1.17.2
