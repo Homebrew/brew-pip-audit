@@ -20,7 +20,8 @@
         "related": [
           "CGA-6fw6-fxv7-m2q7",
           "CGA-q4mw-ppf7-87j4",
-          "CGA-w3ff-99rx-3485"
+          "CGA-w3ff-99rx-3485",
+          "CGA-wr2h-pmrh-2wwh"
         ],
         "summary": "Vulnerable OpenSSL included in cryptography wheels",
         "details": "pyca/cryptography's wheels include a statically linked copy of OpenSSL. The versions of OpenSSL included in cryptography 42.0.0-44.0.0 are vulnerable to a security issue. More details about the vulnerability itself can be found in https://openssl-library.org/news/secadv/20250211.txt.\n\nIf you are building cryptography source (\"sdist\") then you are responsible for upgrading your copy of OpenSSL. Only users installing from wheels built by the cryptography project (i.e., those distributed on PyPI) need to update their cryptography versions.",
