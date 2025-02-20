@@ -13,14 +13,14 @@ markdown-it-py==3.0.0
 mdurl==0.1.2
 packaging==24.2
 plux==1.12.1
-psutil==6.1.1
-pyasn1==0.6.1
+psutil==7.0.0
+pyasn1==0.4.8
 pygments==2.19.1
 pyotp==2.9.0
 pyproject-hooks==1.2.0
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
-python-jose==3.3.0
+python-jose==3.4.0
 pyyaml==6.0.2
 requests==2.32.3
 rich==13.9.4

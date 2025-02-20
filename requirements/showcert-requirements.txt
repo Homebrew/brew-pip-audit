@@ -1,2 +1,2 @@
 pem==23.1.0
-pyopenssl==24.3.0
+pyopenssl==25.0.0
