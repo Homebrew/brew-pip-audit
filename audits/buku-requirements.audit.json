@@ -10,7 +10,7 @@
     ],
     "vulnerabilities": [
       {
-        "modified": "2024-10-22T05:28:59Z",
+        "modified": "2025-02-21T21:22:53Z",
         "published": "2024-05-06T14:21:27Z",
         "schema_version": "1.6.0",
         "id": "GHSA-2g68-c3qc-8985",
@@ -170,6 +170,10 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/pallets/werkzeug"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.debian.org/debian-lts-announce/2025/02/msg00026.html"
           },
           {
             "type": "WEB",

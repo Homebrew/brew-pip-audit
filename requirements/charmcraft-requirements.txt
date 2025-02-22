@@ -4,13 +4,13 @@ attrs==25.1.0
 boolean-py==4.0
 chardet==5.2.0
 charset-normalizer==3.4.1
-craft-application==4.8.3
+craft-application==4.9.1
 craft-archives==2.0.2
 craft-cli==2.15.0
 craft-grammar==2.0.1
-craft-parts==2.6.0
-craft-platforms==0.5.0
-craft-providers==2.1.0
+craft-parts==2.6.2
+craft-platforms==0.6.0
+craft-providers==2.2.0
 craft-store==3.2.1
 distro==1.9.0
 docker==7.1.0
@@ -18,7 +18,7 @@ h11==0.14.0
 httpcore==1.0.7
 httplib2==0.22.0
 httpx==0.28.1
-humanize==4.11.0
+humanize==4.12.1
 idna==3.10
 jaraco-classes==3.4.0
 jaraco-context==6.0.1
@@ -55,7 +55,7 @@ referencing==0.36.2
 requests==2.32.3
 requests-toolbelt==1.0.0
 requests-unixsocket2==0.4.2
-rpds-py==0.22.3
+rpds-py==0.23.1
 secretstorage==3.3.3
 setuptools==75.8.0
 six==1.17.0
