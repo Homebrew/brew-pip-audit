@@ -6,6 +6,6 @@ jsonschema-specifications==2024.10.1
 packaging==24.2
 referencing==0.36.2
 requests==2.32.3
-rpds-py==0.22.3
+rpds-py==0.23.1
 ruamel-yaml==0.18.10
 urllib3==2.3.0
