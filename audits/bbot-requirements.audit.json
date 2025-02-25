@@ -765,7 +765,7 @@
         }
       },
       {
-        "modified": "2025-02-10T21:59:16Z",
+        "modified": "2025-02-24T15:41:38Z",
         "published": "2024-09-16T14:37:26Z",
         "schema_version": "1.6.0",
         "id": "GHSA-jpxc-vmjf-9fcj",
@@ -786,10 +786,51 @@
                 "type": "ECOSYSTEM",
                 "events": [
                   {
+                    "introduced": "2.17.0b1"
+                  },
+                  {
+                    "fixed": "2.17.6"
+                  }
+                ]
+              }
+            ],
+            "versions": [
+              "2.17.0",
+              "2.17.0b1",
+              "2.17.0rc1",
+              "2.17.0rc2",
+              "2.17.1",
+              "2.17.1rc1",
+              "2.17.2",
+              "2.17.2rc1",
+              "2.17.2rc2",
+              "2.17.3",
+              "2.17.3rc1",
+              "2.17.4",
+              "2.17.4rc1",
+              "2.17.5",
+              "2.17.5rc1",
+              "2.17.6rc1"
+            ],
+            "database_specific": {
+              "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/09/GHSA-jpxc-vmjf-9fcj/GHSA-jpxc-vmjf-9fcj.json"
+            }
+          },
+          {
+            "package": {
+              "ecosystem": "PyPI",
+              "name": "ansible-core",
+              "purl": "pkg:pypi/ansible-core"
+            },
+            "ranges": [
+              {
+                "type": "ECOSYSTEM",
+                "events": [
+                  {
                     "introduced": "0"
                   },
                   {
-                    "last_affected": "2.17.4"
+                    "fixed": "2.16.13"
                   }
                 ]
               }
@@ -965,10 +1006,7 @@
               "2.16.11rc1",
               "2.16.12",
               "2.16.12rc1",
-              "2.16.13",
               "2.16.13rc1",
-              "2.16.14",
-              "2.16.14rc1",
               "2.16.1rc1",
               "2.16.2",
               "2.16.3",
@@ -983,20 +1021,7 @@
               "2.16.8",
               "2.16.8rc1",
               "2.16.9",
-              "2.16.9rc1",
-              "2.17.0",
-              "2.17.0b1",
-              "2.17.0rc1",
-              "2.17.0rc2",
-              "2.17.1",
-              "2.17.1rc1",
-              "2.17.2",
-              "2.17.2rc1",
-              "2.17.2rc2",
-              "2.17.3",
-              "2.17.3rc1",
-              "2.17.4",
-              "2.17.4rc1"
+              "2.16.9rc1"
             ],
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/09/GHSA-jpxc-vmjf-9fcj/GHSA-jpxc-vmjf-9fcj.json"
@@ -1017,6 +1042,10 @@
           {
             "type": "ADVISORY",
             "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-8775"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/ansible/ansible/commit/8a87e1c5d37422bc99d27ad4237d185cc233e035"
           },
           {
             "type": "WEB",
@@ -1049,6 +1078,14 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/ansible/ansible"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/ansible/ansible/blob/v2.16.13/changelogs/CHANGELOG-v2.16.rst#security-fixes"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/ansible/ansible/blob/v2.17.6/changelogs/CHANGELOG-v2.17.rst#security-fixes"
           }
         ],
         "database_specific": {
