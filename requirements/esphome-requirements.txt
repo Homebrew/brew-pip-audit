@@ -1,9 +1,9 @@
-aioesphomeapi==29.1.0
+aioesphomeapi==29.1.1
 aiohappyeyeballs==2.4.6
 ajsonrpc==1.2.0
 anyio==4.8.0
 argcomplete==3.5.3
-async-interrupt==1.2.1
+async-interrupt==1.2.2
 bitarray==3.0.0
 bitstring==4.3.0
 bottle==0.13.2
@@ -29,7 +29,7 @@ paho-mqtt==1.6.1
 platformio==6.1.16
 protobuf==5.29.3
 puremagic==1.27
-pyelftools==0.31
+pyelftools==0.32
 pyparsing==3.2.1
 pyserial==3.5
 pyyaml==6.0.2

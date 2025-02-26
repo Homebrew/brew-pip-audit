@@ -3,9 +3,9 @@ dnspython==2.7.0
 expiringdict==1.2.2
 idna==3.10
 pem==23.1.0
-publicsuffixlist==1.0.2.20241225
+publicsuffixlist==1.0.2.20250225
 pyleri==1.4.3
-pyopenssl==24.3.0
+pyopenssl==25.0.0
 requests==2.32.3
 timeout-decorator==0.5.0
 urllib3==2.3.0

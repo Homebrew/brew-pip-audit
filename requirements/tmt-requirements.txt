@@ -20,7 +20,7 @@ pydantic-core==2.27.2
 pygments==2.19.1
 referencing==0.36.2
 requests==2.32.3
-rpds-py==0.22.3
+rpds-py==0.23.1
 ruamel-yaml==0.18.10
 typing-extensions==4.12.2
 urllib3==2.3.0
