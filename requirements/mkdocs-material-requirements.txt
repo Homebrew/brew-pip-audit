@@ -1,4 +1,5 @@
 babel==2.17.0
+backrefs==5.8
 certifi==2025.1.31
 charset-normalizer==3.4.1
 click==8.1.8
@@ -21,7 +22,6 @@ pymdown-extensions==10.14.3
 python-dateutil==2.9.0.post0
 pyyaml==6.0.2
 pyyaml-env-tag==0.1
-regex==2024.11.6
 requests==2.32.3
 six==1.17.0
 urllib3==2.3.0
