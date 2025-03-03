@@ -12,7 +12,7 @@ mdurl==0.1.2
 prompt-toolkit==3.0.50
 pydantic==2.10.6
 pydantic-core==2.27.2
-pydantic-settings==2.8.0
+pydantic-settings==2.8.1
 pygments==2.19.1
 python-dotenv==1.0.1
 questionary==2.1.0

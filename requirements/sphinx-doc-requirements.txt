@@ -10,7 +10,7 @@ numpydoc==1.8.0
 packaging==24.2
 pygments==2.19.1
 requests==2.32.3
-roman-numerals-py==3.0.0
+roman-numerals-py==3.1.0
 snowballstemmer==2.2.0
 sphinxcontrib-applehelp==2.0.0
 sphinxcontrib-devhelp==2.0.0
