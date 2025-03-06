@@ -1,0 +1,149 @@
+[
+  {
+    "package": {
+      "name": "jinja2",
+      "version": "3.1.5",
+      "ecosystem": "PyPI"
+    },
+    "dependency_groups": [
+      "conan@1-requirements"
+    ],
+    "vulnerabilities": [
+      {
+        "modified": "2025-03-05T22:10:11Z",
+        "published": "2025-03-05T20:40:14Z",
+        "schema_version": "1.6.0",
+        "id": "GHSA-cpwx-vrp4-4pq7",
+        "aliases": [
+          "CVE-2025-27516"
+        ],
+        "summary": "Jinja2 vulnerable to sandbox breakout through attr filter selecting format method",
+        "details": "An oversight in how the Jinja sandboxed environment interacts with the `|attr` filter allows an attacker that controls the content of a template to execute arbitrary Python code.\n\nTo exploit the vulnerability, an attacker needs to control the content of a template. Whether that is the case depends on the type of application using Jinja. This vulnerability impacts users of applications which execute untrusted templates.\n\nJinja's sandbox does catch calls to `str.format` and ensures they don't escape the sandbox. However, it's possible to use the `|attr` filter to get a reference to a string's plain format method, bypassing the sandbox. After the fix, the `|attr` filter no longer bypasses the environment's attribute lookup.",
+        "affected": [
+          {
+            "package": {
+              "ecosystem": "PyPI",
+              "name": "jinja2",
+              "purl": "pkg:pypi/jinja2"
+            },
+            "ranges": [
+              {
+                "type": "ECOSYSTEM",
+                "events": [
+                  {
+                    "introduced": "0"
+                  },
+                  {
+                    "fixed": "3.1.6"
+                  }
+                ]
+              }
+            ],
+            "versions": [
+              "2.0",
+              "2.0rc1",
+              "2.1",
+              "2.1.1",
+              "2.10",
+              "2.10.1",
+              "2.10.2",
+              "2.10.3",
+              "2.11.0",
+              "2.11.1",
+              "2.11.2",
+              "2.11.3",
+              "2.2",
+              "2.2.1",
+              "2.3",
+              "2.3.1",
+              "2.4",
+              "2.4.1",
+              "2.5",
+              "2.5.1",
+              "2.5.2",
+              "2.5.3",
+              "2.5.4",
+              "2.5.5",
+              "2.6",
+              "2.7",
+              "2.7.1",
+              "2.7.2",
+              "2.7.3",
+              "2.8",
+              "2.8.1",
+              "2.9",
+              "2.9.1",
+              "2.9.2",
+              "2.9.3",
+              "2.9.4",
+              "2.9.5",
+              "2.9.6",
+              "3.0.0",
+              "3.0.0a1",
+              "3.0.0rc1",
+              "3.0.0rc2",
+              "3.0.1",
+              "3.0.2",
+              "3.0.3",
+              "3.1.0",
+              "3.1.1",
+              "3.1.2",
+              "3.1.3",
+              "3.1.4",
+              "3.1.5"
+            ],
+            "database_specific": {
+              "last_known_affected_version_range": "<= 3.1.5",
+              "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/03/GHSA-cpwx-vrp4-4pq7/GHSA-cpwx-vrp4-4pq7.json"
+            }
+          }
+        ],
+        "severity": [
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:L/AC:L/AT:P/PR:L/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+          }
+        ],
+        "references": [
+          {
+            "type": "WEB",
+            "url": "https://github.com/pallets/jinja/security/advisories/GHSA-cpwx-vrp4-4pq7"
+          },
+          {
+            "type": "ADVISORY",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-27516"
+          },
+          {
+            "type": "WEB",
+            "url": "https://github.com/pallets/jinja/commit/90457bbf33b8662926ae65cdde4c4c32e756e403"
+          },
+          {
+            "type": "PACKAGE",
+            "url": "https://github.com/pallets/jinja"
+          }
+        ],
+        "database_specific": {
+          "cwe_ids": [
+            "CWE-1336"
+          ],
+          "github_reviewed": true,
+          "github_reviewed_at": "2025-03-05T20:40:14Z",
+          "nvd_published_at": "2025-03-05T21:15:20Z",
+          "severity": "MODERATE"
+        }
+      }
+    ],
+    "groups": [
+      {
+        "ids": [
+          "GHSA-cpwx-vrp4-4pq7"
+        ],
+        "aliases": [
+          "CVE-2025-27516",
+          "GHSA-cpwx-vrp4-4pq7"
+        ],
+        "max_severity": "5.4"
+      }
+    ]
+  }
+]
