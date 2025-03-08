@@ -1,0 +1,8 @@
+pyobjc-core==10.3.2
+pyobjc-framework-cocoa==10.3.2
+click==8.1.8
+cython==3.0.12
+platformdirs==4.3.6
+scenedetect==0.6.5.2
+screeninfo==0.8.1
+tqdm==4.67.1
