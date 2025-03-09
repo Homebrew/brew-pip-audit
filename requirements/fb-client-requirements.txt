@@ -1,2 +1,2 @@
-pycurl==7.45.3
+pycurl==7.45.6
 pyxdg==0.28
