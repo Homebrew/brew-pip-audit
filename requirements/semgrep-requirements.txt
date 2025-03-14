@@ -1,4 +1,4 @@
-attrs==25.1.0
+attrs==25.3.0
 boltons==21.0.0
 bracex==2.5.post1
 charset-normalizer==3.4.1
@@ -10,7 +10,7 @@ deprecated==1.2.18
 exceptiongroup==1.2.2
 face==24.0.0
 glom==22.1.0
-googleapis-common-protos==1.69.0
+googleapis-common-protos==1.69.1
 idna==3.10
 importlib-metadata==7.1.0
 jsonschema==4.23.0
@@ -35,7 +35,7 @@ requests==2.32.3
 rich==13.5.3
 rpds-py==0.23.1
 ruamel-yaml==0.18.10
-setuptools==75.8.2
+setuptools==76.0.0
 tomli==2.0.2
 typing-extensions==4.12.2
 urllib3==2.3.0
