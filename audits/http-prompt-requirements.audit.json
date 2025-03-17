@@ -5,9 +5,6 @@
       "version": "3.2.4",
       "ecosystem": "PyPI"
     },
-    "dependency_groups": [
-      "http-prompt-requirements"
-    ],
     "vulnerabilities": [
       {
         "modified": "2023-11-22T03:11:27Z",
@@ -19,6 +16,12 @@
           "GHSA-8r96-8889-qg2x"
         ],
         "details": "Missing SSL certificate validation in HTTPie v3.2.2 allows attackers to eavesdrop on communications between the host and server via a man-in-the-middle attack.",
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N"
+          }
+        ],
         "affected": [
           {
             "package": {
@@ -94,12 +97,6 @@
             "database_specific": {
               "source": "https://github.com/pypa/advisory-database/blob/main/vulns/httpie/PYSEC-2023-242.yaml"
             }
-          }
-        ],
-        "severity": [
-          {
-            "type": "CVSS_V3",
-            "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N"
           }
         ],
         "references": [

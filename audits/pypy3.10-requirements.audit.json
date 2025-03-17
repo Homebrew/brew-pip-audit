@@ -5,9 +5,6 @@
       "version": "59.8.0",
       "ecosystem": "PyPI"
     },
-    "dependency_groups": [
-      "pypy3.10-requirements"
-    ],
     "vulnerabilities": [
       {
         "modified": "2024-08-03T08:11:47Z",
@@ -34,6 +31,16 @@
         ],
         "summary": "setuptools vulnerable to Command Injection via package URL",
         "details": "A vulnerability in the `package_index` module of pypa/setuptools versions up to 69.1.1 allows for remote code execution via its download functions. These functions, which are used to download packages from URLs provided by users or retrieved from package index servers, are susceptible to code injection. If these functions are exposed to user-controlled inputs, such as package URLs, they can execute arbitrary commands on the system. The issue is fixed in version 70.0.",
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+          },
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:A/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+          }
+        ],
         "affected": [
           {
             "package": {
@@ -619,16 +626,6 @@
             }
           }
         ],
-        "severity": [
-          {
-            "type": "CVSS_V3",
-            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
-          },
-          {
-            "type": "CVSS_V4",
-            "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:A/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
-          }
-        ],
         "references": [
           {
             "type": "ADVISORY",
@@ -676,6 +673,16 @@
         ],
         "summary": "pypa/setuptools vulnerable to Regular Expression Denial of Service (ReDoS)",
         "details": "Python Packaging Authority (PyPA)'s setuptools is a library designed to facilitate packaging Python projects. Setuptools version 65.5.0 and earlier could allow remote attackers to cause a denial of service by fetching malicious HTML from a PyPI package or custom PackageIndex page due to a vulnerable Regular Expression in `package_index`. This has been patched in version 65.5.1.",
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          },
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:L/SI:L/SA:N"
+          }
+        ],
         "affected": [
           {
             "package": {
@@ -1215,16 +1222,6 @@
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2022/12/GHSA-r9hx-vwmv-q579/GHSA-r9hx-vwmv-q579.json"
             }
-          }
-        ],
-        "severity": [
-          {
-            "type": "CVSS_V3",
-            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
-          },
-          {
-            "type": "CVSS_V4",
-            "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:L/SI:L/SA:N"
           }
         ],
         "references": [

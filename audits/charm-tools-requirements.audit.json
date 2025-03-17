@@ -5,9 +5,6 @@
       "version": "22.3.1",
       "ecosystem": "PyPI"
     },
-    "dependency_groups": [
-      "charm-tools-requirements"
-    ],
     "vulnerabilities": [
       {
         "modified": "2025-02-13T19:36:51Z",
@@ -26,6 +23,16 @@
         ],
         "summary": "Command Injection in pip when used with Mercurial",
         "details": "When installing a package from a Mercurial VCS URL, e.g. `pip install hg+...`, with pip prior to v23.3, the specified Mercurial revision could be used to inject arbitrary configuration options to the `hg clone` call (e.g. `--config`). Controlling the Mercurial configuration can modify how and which repository is installed. This vulnerability does not affect users who aren't installing from Mercurial.",
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
+          },
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N"
+          }
+        ],
         "affected": [
           {
             "package": {
@@ -187,16 +194,6 @@
             }
           }
         ],
-        "severity": [
-          {
-            "type": "CVSS_V3",
-            "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
-          },
-          {
-            "type": "CVSS_V4",
-            "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N"
-          }
-        ],
         "references": [
           {
             "type": "ADVISORY",
@@ -264,6 +261,12 @@
           "GHSA-mq26-g339-26xf"
         ],
         "details": "When installing a package from a Mercurial VCS URL  (ie \"pip install \nhg+...\") with pip prior to v23.3, the specified Mercurial revision could\n be used to inject arbitrary configuration options to the \"hg clone\" \ncall (ie \"--config\"). Controlling the Mercurial configuration can modify\n how and which repository is installed. This vulnerability does not \naffect users who aren't installing from Mercurial.\n",
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N"
+          }
+        ],
         "affected": [
           {
             "package": {
@@ -423,12 +426,6 @@
             "database_specific": {
               "source": "https://github.com/pypa/advisory-database/blob/main/vulns/pip/PYSEC-2023-228.yaml"
             }
-          }
-        ],
-        "severity": [
-          {
-            "type": "CVSS_V3",
-            "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N"
           }
         ],
         "references": [

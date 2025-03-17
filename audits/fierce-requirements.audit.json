@@ -5,9 +5,6 @@
       "version": "1.16.0",
       "ecosystem": "PyPI"
     },
-    "dependency_groups": [
-      "fierce-requirements"
-    ],
     "vulnerabilities": [
       {
         "modified": "2024-06-26T03:47:06Z",
@@ -23,6 +20,12 @@
         ],
         "summary": "Potential DoS via the Tudoor mechanism in eventlet and dnspython",
         "details": "eventlet before 0.35.2, as used in dnspython before 2.6.0, allows remote attackers to interfere with DNS name resolution by quickly sending an invalid packet from the expected IP address and source port, aka a \"TuDoor\" attack. In other words, dnspython does not have the preferred behavior in which the DNS name resolution algorithm would proceed, within the full time window, in order to wait for a valid packet. NOTE: dnspython 2.6.0 is unusable for a different reason that was addressed in 2.6.1.",
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
+          }
+        ],
         "affected": [
           {
             "package": {
@@ -171,12 +174,6 @@
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/04/GHSA-3rq5-2g8h-59hc/GHSA-3rq5-2g8h-59hc.json"
             }
-          }
-        ],
-        "severity": [
-          {
-            "type": "CVSS_V3",
-            "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
           }
         ],
         "references": [

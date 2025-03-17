@@ -5,9 +5,6 @@
       "version": "1.5.0",
       "ecosystem": "PyPI"
     },
-    "dependency_groups": [
-      "scoutsuite-requirements"
-    ],
     "vulnerabilities": [
       {
         "modified": "2024-07-15T22:27:04Z",
@@ -158,6 +155,16 @@
         ],
         "summary": "Azure Identity Libraries and Microsoft Authentication Library Elevation of Privilege Vulnerability",
         "details": "Azure Identity Libraries and Microsoft Authentication Library Elevation of Privilege Vulnerability.",
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
+          },
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
+          }
+        ],
         "affected": [
           {
             "package": {
@@ -588,16 +595,6 @@
             }
           }
         ],
-        "severity": [
-          {
-            "type": "CVSS_V3",
-            "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N"
-          },
-          {
-            "type": "CVSS_V4",
-            "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
-          }
-        ],
         "references": [
           {
             "type": "ADVISORY",
@@ -663,9 +660,6 @@
       "version": "2.1.0",
       "ecosystem": "PyPI"
     },
-    "dependency_groups": [
-      "scoutsuite-requirements"
-    ],
     "vulnerabilities": [
       {
         "modified": "2024-09-18T22:49:50Z",
@@ -677,6 +671,16 @@
         ],
         "summary": "sqlitedict insecure deserialization vulnerability",
         "details": "Insecure deserialization in sqlitedict up to v2.1.0 allows attackers to execute arbitrary code.",
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+          },
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+          }
+        ],
         "affected": [
           {
             "package": {
@@ -723,16 +727,6 @@
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/09/GHSA-g4r7-86gm-pgqc/GHSA-g4r7-86gm-pgqc.json"
             }
-          }
-        ],
-        "severity": [
-          {
-            "type": "CVSS_V3",
-            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
-          },
-          {
-            "type": "CVSS_V4",
-            "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:A/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
           }
         ],
         "references": [

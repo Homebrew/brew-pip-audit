@@ -5,9 +5,6 @@
       "version": "3.14.1",
       "ecosystem": "PyPI"
     },
-    "dependency_groups": [
-      "animdl-requirements"
-    ],
     "vulnerabilities": [
       {
         "modified": "2024-10-21T21:02:02Z",
@@ -23,6 +20,16 @@
         ],
         "summary": "PyCryptodome and pycryptodomex side-channel leakage for OAEP decryption",
         "details": "PyCryptodome and pycryptodomex before 3.19.1 allow side-channel leakage for OAEP decryption, exploitable for a Manger attack.",
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N"
+          },
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
+          }
+        ],
         "affected": [
           {
             "package": {
@@ -174,16 +181,6 @@
             }
           }
         ],
-        "severity": [
-          {
-            "type": "CVSS_V3",
-            "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N"
-          },
-          {
-            "type": "CVSS_V4",
-            "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
-          }
-        ],
         "references": [
           {
             "type": "ADVISORY",
@@ -230,6 +227,12 @@
           "GHSA-j225-cvw7-qrx7"
         ],
         "details": "PyCryptodome and pycryptodomex before 3.19.1 allow side-channel leakage for OAEP decryption, exploitable for a Manger attack.",
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
+          }
+        ],
         "affected": [
           {
             "package": {
@@ -303,12 +306,6 @@
             }
           }
         ],
-        "severity": [
-          {
-            "type": "CVSS_V3",
-            "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N"
-          }
-        ],
         "references": [
           {
             "type": "WEB",
@@ -342,9 +339,6 @@
       "version": "4.65.2",
       "ecosystem": "PyPI"
     },
-    "dependency_groups": [
-      "animdl-requirements"
-    ],
     "vulnerabilities": [
       {
         "modified": "2024-06-10T19:03:48Z",
@@ -361,6 +355,12 @@
         ],
         "summary": "tqdm CLI arguments injection attack",
         "details": "### Impact\nAny optional non-boolean CLI arguments (e.g. `--delim`, `--buf-size`, `--manpath`) are passed through python's `eval`, allowing arbitrary code execution. Example:\n\n```sh\npython -m tqdm --manpath=\"\\\" + str(exec(\\\"import os\\nos.system('echo hi && killall python3')\\\")) + \\\"\"\n```\n\n### Patches\nhttps://github.com/tqdm/tqdm/commit/4e613f84ed2ae029559f539464df83fa91feb316 released in `tqdm>=4.66.3`\n\n### Workarounds\nNone\n\n### References\n- https://github.com/tqdm/tqdm/releases/tag/v4.66.3",
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N"
+          }
+        ],
         "affected": [
           {
             "package": {
@@ -508,12 +508,6 @@
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/05/GHSA-g7vv-2v7x-gj9p/GHSA-g7vv-2v7x-gj9p.json"
             }
-          }
-        ],
-        "severity": [
-          {
-            "type": "CVSS_V3",
-            "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N"
           }
         ],
         "references": [

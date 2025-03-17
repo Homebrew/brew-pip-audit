@@ -5,9 +5,6 @@
       "version": "5.0.8",
       "ecosystem": "PyPI"
     },
-    "dependency_groups": [
-      "terminator-requirements"
-    ],
     "vulnerabilities": [
       {
         "modified": "2024-12-16T23:01:16Z",
@@ -22,6 +19,12 @@
         ],
         "summary": "configobj ReDoS exploitable by developer using values in a server-side configuration file",
         "details": "All versions of the package configobj are vulnerable to Regular Expression Denial of Service (ReDoS) via the validate function, using (.+?)\\((.*)\\). **Note:** This is only exploitable in the case of a developer, putting the offending value in a server side configuration file.",
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L"
+          }
+        ],
         "affected": [
           {
             "package": {
@@ -65,12 +68,6 @@
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/04/GHSA-c33w-24p9-8m24/GHSA-c33w-24p9-8m24.json"
             }
-          }
-        ],
-        "severity": [
-          {
-            "type": "CVSS_V3",
-            "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L"
           }
         ],
         "references": [
@@ -141,9 +138,6 @@
       "version": "69.1.1",
       "ecosystem": "PyPI"
     },
-    "dependency_groups": [
-      "terminator-requirements"
-    ],
     "vulnerabilities": [
       {
         "modified": "2024-08-03T08:11:47Z",
@@ -170,6 +164,16 @@
         ],
         "summary": "setuptools vulnerable to Command Injection via package URL",
         "details": "A vulnerability in the `package_index` module of pypa/setuptools versions up to 69.1.1 allows for remote code execution via its download functions. These functions, which are used to download packages from URLs provided by users or retrieved from package index servers, are susceptible to code injection. If these functions are exposed to user-controlled inputs, such as package URLs, they can execute arbitrary commands on the system. The issue is fixed in version 70.0.",
+        "severity": [
+          {
+            "type": "CVSS_V3",
+            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+          },
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:A/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+          }
+        ],
         "affected": [
           {
             "package": {
@@ -753,16 +757,6 @@
             "database_specific": {
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/07/GHSA-cx63-2mw6-8hw5/GHSA-cx63-2mw6-8hw5.json"
             }
-          }
-        ],
-        "severity": [
-          {
-            "type": "CVSS_V3",
-            "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
-          },
-          {
-            "type": "CVSS_V4",
-            "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:A/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
           }
         ],
         "references": [

@@ -5,9 +5,6 @@
       "version": "3.1.5",
       "ecosystem": "PyPI"
     },
-    "dependency_groups": [
-      "charmcraft-requirements"
-    ],
     "vulnerabilities": [
       {
         "modified": "2025-03-05T22:10:11Z",
@@ -19,6 +16,12 @@
         ],
         "summary": "Jinja2 vulnerable to sandbox breakout through attr filter selecting format method",
         "details": "An oversight in how the Jinja sandboxed environment interacts with the `|attr` filter allows an attacker that controls the content of a template to execute arbitrary Python code.\n\nTo exploit the vulnerability, an attacker needs to control the content of a template. Whether that is the case depends on the type of application using Jinja. This vulnerability impacts users of applications which execute untrusted templates.\n\nJinja's sandbox does catch calls to `str.format` and ensures they don't escape the sandbox. However, it's possible to use the `|attr` filter to get a reference to a string's plain format method, bypassing the sandbox. After the fix, the `|attr` filter no longer bypasses the environment's attribute lookup.",
+        "severity": [
+          {
+            "type": "CVSS_V4",
+            "score": "CVSS:4.0/AV:L/AC:L/AT:P/PR:L/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
+          }
+        ],
         "affected": [
           {
             "package": {
@@ -96,12 +99,6 @@
               "last_known_affected_version_range": "<= 3.1.5",
               "source": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/03/GHSA-cpwx-vrp4-4pq7/GHSA-cpwx-vrp4-4pq7.json"
             }
-          }
-        ],
-        "severity": [
-          {
-            "type": "CVSS_V4",
-            "score": "CVSS:4.0/AV:L/AC:L/AT:P/PR:L/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
           }
         ],
         "references": [
