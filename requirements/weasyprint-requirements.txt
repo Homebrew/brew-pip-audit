@@ -1,6 +1,6 @@
 brotli==1.1.0
 cffi==1.17.1
-cssselect2==0.7.0
+cssselect2==0.8.0
 fonttools==4.56.0
 pycparser==2.22
 pydyf==0.11.0
