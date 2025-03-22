@@ -1,3 +1,2 @@
-anytree==2.12.1
-lxml==5.3.0
-pygments==2.18.0
+lxml==5.3.1
+pygments==2.19.1
