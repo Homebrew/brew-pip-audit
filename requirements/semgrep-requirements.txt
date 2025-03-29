@@ -3,7 +3,7 @@ boltons==21.0.0
 bracex==2.5.post1
 charset-normalizer==3.4.1
 click==8.1.8
-click-option-group==0.5.6
+click-option-group==0.5.7
 colorama==0.4.6
 defusedxml==0.7.1
 deprecated==1.2.18
@@ -33,11 +33,11 @@ pygments==2.19.1
 referencing==0.36.2
 requests==2.32.3
 rich==13.5.3
-rpds-py==0.23.1
+rpds-py==0.24.0
 ruamel-yaml==0.18.10
-setuptools==77.0.3
+setuptools==78.1.0
 tomli==2.0.2
-typing-extensions==4.12.2
+typing-extensions==4.13.0
 urllib3==2.3.0
 wcmatch==8.5.2
 wrapt==1.17.2
