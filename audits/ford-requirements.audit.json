@@ -17,6 +17,7 @@
         "related": [
           "CGA-5g34-q98x-rv72",
           "CGA-wprj-p696-fg4q",
+          "CGA-xpv5-vjqh-pf5h",
           "CVE-2024-34062"
         ],
         "summary": "tqdm CLI arguments injection attack",

@@ -14,6 +14,22 @@
         "aliases": [
           "CVE-2025-27516"
         ],
+        "related": [
+          "CGA-2h34-36gr-7wjw",
+          "CGA-3whm-xmcr-46qf",
+          "CGA-3x3w-qq6c-vp29",
+          "CGA-54q9-cvjw-rr77",
+          "CGA-7vqx-6v2v-7gxr",
+          "CGA-8fg5-vxmw-77p6",
+          "CGA-8gfh-2mj5-27qq",
+          "CGA-ch38-hm3p-vqfx",
+          "CGA-hw4r-mxqv-7jj9",
+          "CGA-p346-mccf-rp28",
+          "CGA-pxmx-r998-7p4j",
+          "CGA-q74h-cfpr-qvcv",
+          "CGA-rc3c-cv49-w8jw",
+          "CGA-v9x5-9f3j-vh44"
+        ],
         "summary": "Jinja2 vulnerable to sandbox breakout through attr filter selecting format method",
         "details": "An oversight in how the Jinja sandboxed environment interacts with the `|attr` filter allows an attacker that controls the content of a template to execute arbitrary Python code.\n\nTo exploit the vulnerability, an attacker needs to control the content of a template. Whether that is the case depends on the type of application using Jinja. This vulnerability impacts users of applications which execute untrusted templates.\n\nJinja's sandbox does catch calls to `str.format` and ensures they don't escape the sandbox. However, it's possible to use the `|attr` filter to get a reference to a string's plain format method, bypassing the sandbox. After the fix, the `|attr` filter no longer bypasses the environment's attribute lookup.",
         "severity": [

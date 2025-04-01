@@ -1,10 +1,10 @@
+beautifulsoup4==4.13.3
 charset-normalizer==3.4.1
 filelock==3.18.0
-fsspec==2025.3.2
 idna==3.10
-packaging==24.2
-pyyaml==6.0.2
+pysocks==1.7.1
 requests==2.32.3
+soupsieve==2.6
 tqdm==4.67.1
 typing-extensions==4.13.0
 urllib3==2.3.0

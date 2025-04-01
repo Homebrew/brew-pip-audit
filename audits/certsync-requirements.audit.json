@@ -14,6 +14,22 @@
         "aliases": [
           "CVE-2025-27516"
         ],
+        "related": [
+          "CGA-2h34-36gr-7wjw",
+          "CGA-3whm-xmcr-46qf",
+          "CGA-3x3w-qq6c-vp29",
+          "CGA-54q9-cvjw-rr77",
+          "CGA-7vqx-6v2v-7gxr",
+          "CGA-8fg5-vxmw-77p6",
+          "CGA-8gfh-2mj5-27qq",
+          "CGA-ch38-hm3p-vqfx",
+          "CGA-hw4r-mxqv-7jj9",
+          "CGA-p346-mccf-rp28",
+          "CGA-pxmx-r998-7p4j",
+          "CGA-q74h-cfpr-qvcv",
+          "CGA-rc3c-cv49-w8jw",
+          "CGA-v9x5-9f3j-vh44"
+        ],
         "summary": "Jinja2 vulnerable to sandbox breakout through attr filter selecting format method",
         "details": "An oversight in how the Jinja sandboxed environment interacts with the `|attr` filter allows an attacker that controls the content of a template to execute arbitrary Python code.\n\nTo exploit the vulnerability, an attacker needs to control the content of a template. Whether that is the case depends on the type of application using Jinja. This vulnerability impacts users of applications which execute untrusted templates.\n\nJinja's sandbox does catch calls to `str.format` and ensures they don't escape the sandbox. However, it's possible to use the `|attr` filter to get a reference to a string's plain format method, bypassing the sandbox. After the fix, the `|attr` filter no longer bypasses the environment's attribute lookup.",
         "severity": [
@@ -141,6 +157,7 @@
           "CGA-2589-9xpr-fmp7",
           "CGA-372m-j842-xpmm",
           "CGA-5jxw-7gv5-jv29",
+          "CGA-6pvq-6ww4-f29g",
           "CGA-9fmg-5576-4h3w",
           "CGA-9x7g-9rfp-4xhm",
           "CGA-f7cf-h8jg-fwmv",
@@ -253,6 +270,7 @@
           "CGA-6g29-xf5c-xrq4",
           "CGA-79fr-pvjg-j9xm",
           "CGA-8r3m-hvvj-88ff",
+          "CGA-98jf-gjq4-76gh",
           "CGA-crfr-r549-cvmg",
           "CGA-f7wq-crqm-v76f",
           "CGA-gm37-p355-3fq6",
@@ -439,6 +457,7 @@
         "related": [
           "CGA-386h-56mx-h78g",
           "CGA-p5f2-4rj7-w47h",
+          "CGA-p754-wwqq-7x2w",
           "CGA-rxxc-wrc4-x6r3",
           "CGA-wr84-3crr-hf7w"
         ],
@@ -621,6 +640,7 @@
         "related": [
           "CGA-3m9h-7wmp-p5r3",
           "CGA-4gfj-4gfq-284g",
+          "CGA-5qqw-78qf-xfwg",
           "CGA-cwvc-2mhw-gmxh",
           "CGA-p5gp-26hq-j5rc"
         ],
