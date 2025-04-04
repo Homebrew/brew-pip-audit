@@ -1,4 +1,4 @@
-ansible-compat==25.1.4
+ansible-compat==25.1.5
 ansible-core==2.18.4
 attrs==25.3.0
 black==25.1.0
