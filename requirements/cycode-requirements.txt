@@ -18,7 +18,7 @@ python-dateutil==2.9.0.post0
 pyyaml==6.0.2
 requests==2.32.3
 rich==13.9.4
-sentry-sdk==2.24.1
+sentry-sdk==2.25.1
 six==1.17.0
 smmap==5.0.2
 texttable==1.7.0

@@ -20,7 +20,7 @@ jupyter-core==5.7.2
 markupsafe==3.0.2
 nbformat==5.10.4
 packaging==24.2
-plac==1.4.3
+plac==1.4.5
 platformdirs==4.3.7
 psutil==7.0.0
 pulp==3.0.2
