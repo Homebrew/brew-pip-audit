@@ -1,2 +1,2 @@
 docopt==0.6.2
-psutil==6.0.0
+psutil==7.0.0

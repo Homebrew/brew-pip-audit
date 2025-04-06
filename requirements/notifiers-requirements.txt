@@ -1,10 +1,10 @@
-attrs==24.2.0
-charset-normalizer==3.4.0
-click==8.1.7
+attrs==25.3.0
+charset-normalizer==3.4.1
+click==8.1.8
 idna==3.10
 jsonschema==4.23.0
 jsonschema-specifications==2024.10.1
-referencing==0.35.1
+referencing==0.36.2
 requests==2.32.3
-rpds-py==0.20.0
-urllib3==2.2.3
+rpds-py==0.24.0
+urllib3==2.3.0
