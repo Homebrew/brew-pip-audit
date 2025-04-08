@@ -1,11 +1,11 @@
-boto3==1.36.7
-botocore==1.36.7
+boto3==1.37.28
+botocore==1.37.28
 jmespath==1.0.1
 lark==1.2.2
-localstack-client==2.7
+localstack-client==2.10
 packaging==24.2
 python-dateutil==2.9.0.post0
-python-hcl2==6.1.0
-s3transfer==0.11.2
+python-hcl2==7.0.1
+s3transfer==0.11.4
 six==1.17.0
 urllib3==2.3.0
