@@ -7,8 +7,7 @@ jmespath==1.0.1
 prompt-toolkit==3.0.38
 python-dateutil==2.9.0
 ruamel-yaml==0.17.21
-ruamel-yaml-clib==0.2.8
+ruamel-yaml-clib==0.2.12
 six==1.17.0
 urllib3==1.26.20
 wcwidth==0.2.13
-zipp==3.20.2
