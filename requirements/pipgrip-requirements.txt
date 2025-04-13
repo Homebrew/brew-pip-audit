@@ -1,6 +1,5 @@
-anytree==2.12.1
-click==8.1.7
+anytree==2.13.0
+click==8.1.8
 packaging==24.2
-setuptools==75.6.0
-six==1.16.0
+setuptools==78.1.0
 wheel==0.45.1
