@@ -7,13 +7,13 @@ packaging==24.2
 pkginfo==1.12.1.2
 progressbar2==4.5.0
 python-utils==3.9.1
-rapidfuzz==3.12.2
+rapidfuzz==3.13.0
 requests==2.32.3
 ruamel-yaml==0.18.10
 ruamel-yaml-jinja2==0.2.7
-setuptools==76.0.0
+setuptools==78.1.0
 soupsieve==2.6
 stdlib-list==0.11.1
 tomli-w==1.2.0
-typing-extensions==4.12.2
-urllib3==2.3.0
+typing-extensions==4.13.2
+urllib3==2.4.0
