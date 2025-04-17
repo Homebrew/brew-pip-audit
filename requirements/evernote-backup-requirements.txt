@@ -1,10 +1,13 @@
 charset-normalizer==3.4.1
 click==8.1.8
 click-option-group==0.5.7
-evernote3==1.25.14
+evernote-plus==1.28.1.dev1
 idna==3.10
 oauthlib==3.2.2
 requests==2.32.3
 requests-oauthlib==1.3.1
-urllib3==2.3.0
+requests-sse==0.5.1
+six==1.17.0
+thrift==0.21.0
+urllib3==2.4.0
 xmltodict==0.13.0
