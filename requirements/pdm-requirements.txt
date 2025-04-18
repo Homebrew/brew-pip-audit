@@ -1,13 +1,13 @@
 anyio==4.9.0
 blinker==1.9.0
 charset-normalizer==3.4.1
-dep-logic==0.4.11
+dep-logic==0.5.0
 distlib==0.3.9
 filelock==3.18.0
 findpython==0.6.3
 h11==0.14.0
 hishel==0.1.2
-httpcore==1.0.7
+httpcore==1.0.8
 httpx==0.28.1
 id==1.5.0
 idna==3.10
@@ -16,7 +16,7 @@ markdown-it-py==3.0.0
 mdurl==0.1.2
 msgpack==1.1.0
 packaging==24.2
-pbs-installer==2025.3.17
+pbs-installer==2025.4.9
 platformdirs==4.3.7
 pygments==2.19.1
 pyproject-hooks==1.2.0
@@ -30,5 +30,5 @@ socksio==1.0.0
 tomlkit==0.13.2
 truststore==0.10.1
 unearth==0.17.5
-urllib3==2.3.0
+urllib3==2.4.0
 virtualenv==20.30.0
