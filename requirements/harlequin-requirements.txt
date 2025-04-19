@@ -1,6 +1,6 @@
 click==8.1.8
 cython==3.0.12
-duckdb==1.2.1
+duckdb==1.2.2
 harlequin-mysql==1.1.0
 harlequin-odbc==0.3.1
 harlequin-postgres==1.2.0
@@ -10,8 +10,8 @@ markdown-it-py==3.0.0
 markupsafe==3.0.2
 mdit-py-plugins==0.4.2
 mdurl==0.1.2
-platformdirs==4.3.6
-prompt-toolkit==3.0.50
+platformdirs==4.3.7
+prompt-toolkit==3.0.51
 psycopg==3.2.6
 psycopg-c==3.2.6
 psycopg-pool==3.2.6
@@ -20,9 +20,9 @@ pygments==2.19.1
 pyodbc==5.2.0
 pyperclip==1.9.0
 questionary==2.1.0
-rich==13.9.4
+rich==14.0.0
 rich-click==1.8.8
-setuptools==76.1.0
+setuptools==78.1.0
 shandy-sqlfmt==0.26.0
 textual==0.89.1
 textual-fastdatatable==0.12.0
@@ -30,6 +30,6 @@ textual-textarea==0.15.0
 tomlkit==0.13.2
 tqdm==4.67.1
 tree-sitter==0.20.4
-typing-extensions==4.12.2
+typing-extensions==4.13.2
 uc-micro-py==1.0.3
 wcwidth==0.2.13

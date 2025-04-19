@@ -16,7 +16,7 @@ prompt-toolkit==3.0.51
 psutil==7.0.0
 pydantic==2.11.3
 pydantic-core==2.33.1
-pydantic-settings==2.8.1
+pydantic-settings==2.9.0
 pygments==2.19.1
 python-dotenv==1.1.0
 requests==2.32.3
