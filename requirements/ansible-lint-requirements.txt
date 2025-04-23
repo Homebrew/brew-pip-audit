@@ -1,5 +1,5 @@
 ansible-compat==25.1.5
-ansible-core==2.18.4
+ansible-core==2.18.5
 attrs==25.3.0
 black==25.1.0
 bracex==2.5.post1
@@ -10,8 +10,8 @@ jinja2==3.1.6
 jsonschema==4.23.0
 jsonschema-specifications==2024.10.1
 markupsafe==3.0.2
-mypy-extensions==1.0.0
-packaging==24.2
+mypy-extensions==1.1.0
+packaging==25.0
 pathspec==0.12.1
 platformdirs==4.3.7
 pyyaml==6.0.2
