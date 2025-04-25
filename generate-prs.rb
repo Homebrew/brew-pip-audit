@@ -213,11 +213,15 @@ for path in Dir.entries("audits").sort
   end
 
   info = {
-    sourcefile_path:  formula.path,
-    branch_name:      "brew-pip-audit-#{formula.name}-#{Time.now.to_i}",
-    commit_message:   "#{formula.name}: bump python resources",
-    tap:              formula.tap,
-    pr_message:       PR_MESSAGE % {old_urls: old_resource_urls.join("\n"), new_urls: vulns_patched.join("\n")},
+    branch_name: "brew-pip-audit-#{formula.name}-#{Time.now.to_i}",
+    tap:         formula.tap,
+    pr_message:  PR_MESSAGE % {old_urls: old_resource_urls.join("\n"), new_urls: vulns_patched.join("\n")},
+    commits:     [
+      {
+        sourcefile_path:  formula.path,
+        commit_message:   "#{formula.name}: bump python resources",
+      }
+    ],
   }
   GitHub.create_bump_pr(info, args: OpenStruct.new(:no_fork? => NO_FORK))
   prs_sent += 1
