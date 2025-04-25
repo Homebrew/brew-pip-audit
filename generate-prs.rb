@@ -151,6 +151,8 @@ for path in Dir.entries("audits").sort
     `git reset --hard HEAD`
   end
 
+  old_contents = File.read(formula.path)
+
   # Bump the formula's revision as well; adapted from `brew bump-revision`.
   manually_bump_revision(formula, formula.revision + 1)
 
