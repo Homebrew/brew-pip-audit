@@ -220,6 +220,7 @@ for path in Dir.entries("audits").sort
       {
         sourcefile_path:  formula.path,
         commit_message:   "#{formula.name}: bump python resources",
+        old_contents:,
       }
     ],
   }
