@@ -6,7 +6,7 @@ jedi==0.19.2
 matplotlib-inline==0.1.7
 parso==0.8.4
 pexpect==4.9.0
-prompt-toolkit==3.0.50
+prompt-toolkit==3.0.51
 ptyprocess==0.7.0
 pure-eval==0.2.3
 pygments==2.19.1
