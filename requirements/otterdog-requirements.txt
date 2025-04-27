@@ -1,6 +1,6 @@
 aiofiles==24.1.0
 aiohappyeyeballs==2.6.1
-aiohttp==3.11.16
+aiohttp==3.11.18
 aiohttp-client-cache==0.13.0
 aiohttp-retry==2.9.1
 aioshutil==1.5
@@ -12,7 +12,7 @@ attrs==25.3.0
 charset-normalizer==3.4.1
 chevron==0.14.0
 click==8.1.8
-frozenlist==1.5.0
+frozenlist==1.6.0
 gitdb==4.0.12
 gitpython==3.1.44
 idna==3.10
@@ -21,12 +21,12 @@ itsdangerous==2.2.0
 jsonata-python==0.5.3
 jsonbender==0.9.3
 jsonschema==4.23.0
-jsonschema-specifications==2024.10.1
+jsonschema-specifications==2025.4.1
 jwt==any.whl
 markdown-it-py==3.0.0
 mdurl==0.1.2
 mintotp==0.3.0
-multidict==6.4.2
+multidict==6.4.3
 propcache==0.3.1
 pygments==2.19.1
 pynacl==1.5.0
@@ -38,5 +38,5 @@ rpds-py==0.24.0
 smmap==5.0.2
 sniffio==1.3.1
 url-normalize==2.2.0
-urllib3==2.3.0
-yarl==1.19.0
+urllib3==2.4.0
+yarl==1.20.0
