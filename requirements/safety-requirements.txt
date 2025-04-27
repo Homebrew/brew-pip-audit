@@ -5,8 +5,8 @@ charset-normalizer==3.4.1
 click==8.1.8
 dparse==0.6.4
 filelock==3.16.1
-h11==0.14.0
-httpcore==1.0.8
+h11==0.16.0
+httpcore==1.0.9
 httpx==0.28.1
 idna==3.10
 jinja2==3.1.6

@@ -7,11 +7,11 @@ click==8.1.8
 colorama==0.4.6
 fqdn==1.5.1
 graphql-core==3.2.6
-h11==0.14.0
+h11==0.16.0
 harfile==0.3.0
-httpcore==1.0.8
+httpcore==1.0.9
 httpx==0.28.1
-hypothesis==6.131.6
+hypothesis==6.131.9
 hypothesis-graphql==0.11.1
 hypothesis-jsonschema==0.23.1
 idna==3.10
@@ -19,7 +19,7 @@ iniconfig==2.1.0
 isoduration==20.11.0
 jsonpointer==3.0.0
 jsonschema==4.23.0
-jsonschema-specifications==2024.10.1
+jsonschema-specifications==2025.4.1
 junit-xml==1.9
 markupsafe==3.0.2
 multidict==6.4.3
