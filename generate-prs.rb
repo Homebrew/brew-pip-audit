@@ -151,8 +151,6 @@ for path in Dir.entries("audits").sort
     `git reset --hard HEAD`
   end
 
-  old_contents = File.read(formula.path)
-
   # Bump the formula's revision as well; adapted from `brew bump-revision`.
   manually_bump_revision(formula, formula.revision + 1)
 
@@ -214,17 +212,21 @@ for path in Dir.entries("audits").sort
     $?.success?
   end
 
+  commit_message = "#{formula.name}: bump python resources"
+  old_contents = File.read(formula.path)
+
   info = {
-    branch_name: "brew-pip-audit-#{formula.name}-#{Time.now.to_i}",
-    tap:         formula.tap,
-    pr_message:  PR_MESSAGE % {old_urls: old_resource_urls.join("\n"), new_urls: vulns_patched.join("\n")},
     commits:     [
       {
         sourcefile_path:  formula.path,
-        commit_message:   "#{formula.name}: bump python resources",
+        commit_message:,
         old_contents:,
       }
     ],
+    branch_name: "brew-pip-audit-#{formula.name}-#{Time.now.to_i}",
+    pr_message:  PR_MESSAGE % {old_urls: old_resource_urls.join("\n"), new_urls: vulns_patched.join("\n")},
+    tap:         formula.tap,
+    pr_title:    commit_message
   }
   GitHub.create_bump_pr(info, args: OpenStruct.new(:no_fork? => NO_FORK))
   prs_sent += 1
