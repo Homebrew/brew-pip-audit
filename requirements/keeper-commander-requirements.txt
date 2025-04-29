@@ -1,4 +1,4 @@
-aioice==0.10.0
+aioice==0.10.1
 aiortc==1.11.0
 annotated-types==0.7.0
 asciitree==0.3.3
@@ -11,9 +11,9 @@ fido2==1.2.0
 google-crc32c==1.7.1
 idna==3.10
 ifaddr==0.2.0
-importlib-metadata==8.6.1
+importlib-metadata==8.7.0
 keeper-secrets-manager-core==16.6.6
-prompt-toolkit==3.0.50
+prompt-toolkit==3.0.51
 protobuf==6.30.2
 pycryptodomex==3.22.0
 pydantic==2.11.3

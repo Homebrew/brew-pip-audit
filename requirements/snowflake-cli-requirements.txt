@@ -15,8 +15,8 @@ keyring==25.6.0
 markdown-it-py==3.0.0
 markupsafe==3.0.2
 mdurl==0.1.2
-more-itertools==10.6.0
-packaging==24.2
+more-itertools==10.7.0
+packaging==25.0
 platformdirs==4.3.7
 pluggy==1.5.0
 pydantic==2.11.2
@@ -37,7 +37,7 @@ snowflake-connector-python==3.14.0
 sortedcontainers==2.4.0
 tomlkit==0.13.2
 typer==0.15.2
-types-setuptools==78.1.0.20250329
+types-setuptools==79.0.0.20250422
 typing-extensions==4.13.2
 typing-inspection==0.4.0
 urllib3==2.3.0
