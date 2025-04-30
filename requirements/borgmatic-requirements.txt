@@ -2,7 +2,7 @@ attrs==25.3.0
 charset-normalizer==3.4.1
 idna==3.10
 jsonschema==4.23.0
-jsonschema-specifications==2024.10.1
+jsonschema-specifications==2025.4.1
 packaging==25.0
 referencing==0.36.2
 requests==2.32.3
