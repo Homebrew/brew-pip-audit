@@ -1,4 +1,4 @@
-argcomplete==3.6.1
+argcomplete==3.6.2
 crc32c==2.7.1
 psutil==7.0.0
 python-dateutil==2.9.0.post0

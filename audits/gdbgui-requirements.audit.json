@@ -274,6 +274,7 @@
           "CVE-2025-43859"
         ],
         "related": [
+          "CGA-4gc2-jvqg-rhhf",
           "CGA-6568-886h-p4m7",
           "CGA-7qwr-ggrp-xcp2"
         ],
@@ -375,7 +376,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2025-03-05T22:10:11Z",
+        "modified": "2025-05-01T04:08:20Z",
         "published": "2025-03-05T20:40:14Z",
         "schema_version": "1.6.0",
         "id": "GHSA-cpwx-vrp4-4pq7",
@@ -501,6 +502,10 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/pallets/jinja"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.debian.org/debian-lts-announce/2025/04/msg00045.html"
           }
         ],
         "database_specific": {

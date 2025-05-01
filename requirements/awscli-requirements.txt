@@ -1,4 +1,4 @@
-awscrt==0.25.4
+awscrt==0.26.1
 colorama==0.4.6
 distro==1.8.0
 docutils==0.19
