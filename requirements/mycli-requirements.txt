@@ -7,7 +7,7 @@ pyfzf==0.3.1
 pygments==2.19.1
 pymysql==1.1.1
 pyperclip==1.9.0
-sqlglot==26.16.2
+sqlglot==26.16.3
 sqlparse==0.5.3
 tabulate==0.9.0
 wcwidth==0.2.13
