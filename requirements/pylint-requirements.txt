@@ -1,5 +1,5 @@
 astroid==3.3.9
-dill==0.3.9
+dill==0.4.0
 isort==6.0.1
 mccabe==0.7.0
 platformdirs==4.3.7
