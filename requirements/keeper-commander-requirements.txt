@@ -4,7 +4,7 @@ annotated-types==0.7.0
 asciitree==0.3.3
 av==14.2.0
 bcrypt==4.3.0
-charset-normalizer==3.4.1
+charset-normalizer==3.4.2
 colorama==0.4.6
 dnspython==2.7.0
 fido2==1.2.0
@@ -16,8 +16,8 @@ keeper-secrets-manager-core==16.6.6
 prompt-toolkit==3.0.51
 protobuf==6.30.2
 pycryptodomex==3.22.0
-pydantic==2.11.3
-pydantic-core==2.33.1
+pydantic==2.11.4
+pydantic-core==2.34.1
 pyee==13.0.0
 pylibsrtp==0.12.0
 pyopenssl==25.0.0

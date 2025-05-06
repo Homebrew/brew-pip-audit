@@ -1,7 +1,7 @@
 bidict==0.23.1
 blinker==1.9.0
 brotli==1.1.0
-charset-normalizer==3.4.1
+charset-normalizer==3.4.2
 click==8.1.8
 configargparse==1.7
 flask==3.1.0
@@ -14,7 +14,7 @@ h11==0.16.0
 idna==3.10
 itsdangerous==2.2.0
 jinja2==3.1.6
-locust-cloud==any.whl
+locust-cloud==1.21.1
 markupsafe==3.0.2
 msgpack==1.1.0
 platformdirs==4.3.7
@@ -23,7 +23,7 @@ python-engineio==4.12.0
 python-socketio==5.13.0
 pyzmq==26.4.0
 requests==2.32.3
-setuptools==79.0.1
+setuptools==80.3.1
 simple-websocket==1.1.0
 urllib3==2.4.0
 websocket-client==1.8.0
