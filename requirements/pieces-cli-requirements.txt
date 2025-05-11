@@ -1,0 +1,17 @@
+aenum==3.1.15
+markdown-it-py==3.0.0
+mdurl==0.1.2
+pieces-os-client==4.2.0
+platformdirs==4.3.8
+prompt-toolkit==3.0.51
+pydantic==1.10.22
+pygments==2.19.1
+pyperclip==1.9.0
+python-dateutil==2.9.0.post0
+pyyaml==6.0.2
+rich==13.9.4
+six==1.17.0
+typing-extensions==4.13.2
+urllib3==2.4.0
+wcwidth==0.2.13
+websocket-client==1.8.0
