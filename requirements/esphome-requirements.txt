@@ -4,11 +4,11 @@ ajsonrpc==1.2.0
 anyio==4.9.0
 argcomplete==3.6.2
 async-interrupt==1.2.2
-bitarray==3.3.1
+bitarray==3.4.0
 bitstring==4.3.1
 bottle==0.13.3
 chacha20poly1305-reuseable==0.13.2
-charset-normalizer==3.4.1
+charset-normalizer==3.4.2
 click==8.1.7
 colorama==0.4.6
 ecdsa==0.19.1
