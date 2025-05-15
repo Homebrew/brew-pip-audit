@@ -1,5 +1,5 @@
 attrs==25.3.0
-charset-normalizer==3.4.1
+charset-normalizer==3.4.2
 idna==3.10
 jsonschema==4.23.0
 jsonschema-specifications==2025.4.1
