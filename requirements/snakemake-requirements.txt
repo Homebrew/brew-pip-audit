@@ -28,10 +28,10 @@ pyyaml==6.0.2
 referencing==0.36.2
 requests==2.32.3
 reretry==0.11.8
-rpds-py==0.24.0
+rpds-py==0.25.0
 smart-open==7.1.0
 smmap==5.0.2
-snakemake-interface-common==1.17.4
+snakemake-interface-common==1.18.0
 snakemake-interface-executor-plugins==9.3.5
 snakemake-interface-logger-plugins==1.2.3
 snakemake-interface-report-plugins==1.1.0
