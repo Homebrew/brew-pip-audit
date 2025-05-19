@@ -1,0 +1,17 @@
+certifi==2025.4.26
+charset-normalizer==3.4.2
+configargparse==1.7
+google-i18n-address==any.whl
+idna==3.10
+intervaltree==3.1.0
+jinja2==3.1.6
+lxml==5.4.0
+markupsafe==3.0.2
+platformdirs==4.3.8
+pycountry==24.6.1
+pyyaml==6.0.2
+requests==2.32.3
+setuptools==80.7.1
+sortedcontainers==2.4.0
+urllib3==2.4.0
+wcwidth==0.2.13
