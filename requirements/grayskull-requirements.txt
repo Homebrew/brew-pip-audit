@@ -1,9 +1,9 @@
-beautifulsoup4==4.13.3
-charset-normalizer==3.4.1
+beautifulsoup4==4.13.4
+charset-normalizer==3.4.2
 colorama==0.4.6
 conda-souschef==2.2.3
 idna==3.10
-packaging==24.2
+packaging==25.0
 pkginfo==1.12.1.2
 progressbar2==4.5.0
 python-utils==3.9.1
@@ -11,8 +11,8 @@ rapidfuzz==3.13.0
 requests==2.32.3
 ruamel-yaml==0.18.10
 ruamel-yaml-jinja2==0.2.7
-setuptools==78.1.0
-soupsieve==2.6
+setuptools==80.7.1
+soupsieve==2.7
 stdlib-list==0.11.1
 tomli-w==1.2.0
 typing-extensions==4.13.2
