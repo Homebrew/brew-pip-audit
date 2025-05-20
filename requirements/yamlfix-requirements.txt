@@ -1,10 +1,11 @@
 annotated-types==0.7.0
-click==8.1.8
+click==8.2.0
 distro==1.9.0
 maison==2.0.0
-pydantic==2.10.6
-pydantic-core==2.27.2
+pydantic==2.11.4
+pydantic-core==2.33.2
 ruyaml==0.91.0
-setuptools==75.8.0
+setuptools==80.7.1
 toml==0.10.2
-typing-extensions==4.12.2
+typing-extensions==4.13.2
+typing-inspection==0.4.0
