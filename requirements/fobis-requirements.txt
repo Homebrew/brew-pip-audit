@@ -1,2 +1,2 @@
-configparser==7.1.0
+configparser==7.2.0
 future==1.0.0

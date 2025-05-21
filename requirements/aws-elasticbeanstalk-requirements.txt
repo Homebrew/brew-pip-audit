@@ -18,7 +18,7 @@ python-dateutil==2.9.0.post0
 pyyaml==6.0.2
 requests==2.32.3
 semantic-version==2.10.0
-setuptools==80.7.1
+setuptools==80.8.0
 six==1.17.0
 termcolor==2.5.0
 urllib3==1.26.20

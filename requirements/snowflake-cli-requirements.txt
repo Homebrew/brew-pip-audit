@@ -1,7 +1,7 @@
 annotated-types==0.7.0
 asn1crypto==1.5.1
-boto3==1.38.17
-botocore==1.38.17
+boto3==1.38.19
+botocore==1.38.19
 charset-normalizer==3.4.2
 click==8.1.8
 filelock==3.18.0
@@ -27,7 +27,7 @@ pydantic==2.11.4
 pydantic-core==2.33.2
 pygments==2.19.1
 pyjwt==2.10.1
-pyopenssl==25.0.0
+pyopenssl==25.1.0
 python-dateutil==2.9.0.post0
 pytz==2025.2
 pyyaml==6.0.2
@@ -40,8 +40,8 @@ setuptools==80.3.1
 shellingham==1.5.4
 six==1.17.0
 smmap==5.0.2
-snowflake-core==1.5.0
 snowflake-connector-python==3.15.0
+snowflake-core==1.4.0
 sortedcontainers==2.4.0
 tomlkit==0.13.2
 typer==0.15.2

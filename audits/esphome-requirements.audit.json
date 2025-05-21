@@ -135,7 +135,8 @@
         "related": [
           "CGA-2qc3-wm36-87fc",
           "CGA-7x5v-v62c-qg8g",
-          "CGA-c7px-5x43-f7h5"
+          "CGA-c7px-5x43-f7h5",
+          "CGA-qg24-ggf8-2fq7"
         ],
         "summary": "Tornado vulnerable to excessive logging caused by malformed multipart form data",
         "details": "### Summary\n\nWhen Tornado's ``multipart/form-data`` parser encounters certain errors, it logs a warning but continues trying to parse the remainder of the data. This allows remote attackers to generate an extremely high volume of logs, constituting a DoS attack. This DoS is compounded by the fact that the logging subsystem is synchronous.\n\n### Affected versions\n\nAll versions of Tornado prior to 6.5.0 are affected. The vulnerable parser is enabled by default.\n\n### Solution\n\nUpgrade to Tornado version 6.5. In the meantime, risk can be mitigated by blocking `Content-Type: multipart/form-data` in a proxy.",
