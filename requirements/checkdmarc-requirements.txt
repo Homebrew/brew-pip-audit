@@ -4,9 +4,9 @@ expiringdict==1.2.2
 idna==3.10
 importlib-resources==6.5.2
 pem==23.1.0
-publicsuffixlist==1.0.2.20250509
+publicsuffixlist==1.0.2.20250521
 pyleri==1.4.3
-pyopenssl==25.0.0
+pyopenssl==25.1.0
 requests==2.32.3
 timeout-decorator==0.5.0
 urllib3==2.4.0

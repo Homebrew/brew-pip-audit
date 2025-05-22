@@ -1,4 +1,4 @@
-configobj==5.0.8
-psutil==5.9.8
-setuptools==69.1.1
-six==1.16.0
+configobj==5.0.9
+psutil==7.0.0
+setuptools==80.8.0
+six==1.17.0
