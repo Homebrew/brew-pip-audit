@@ -10,7 +10,7 @@ attrs==25.3.0
 bc-detect-secrets==1.5.41
 bc-jsonpath-ng==1.6.1
 bc-python-hcl2==0.4.2
-beartype==0.20.2
+beartype==0.21.0
 beautifulsoup4==4.13.4
 boolean-py==5.0
 boto3==1.35.49
@@ -19,7 +19,7 @@ cached-property==2.0.1
 cachetools==5.5.2
 cffi==1.17.1
 charset-normalizer==3.4.2
-click==8.2.0
+click==8.2.1
 click-option-group==0.5.7
 cloudsplaining==0.7.0
 colorama==0.4.6
@@ -45,7 +45,7 @@ lark==1.2.2
 license-expression==30.4.1
 markdown==3.8
 markupsafe==3.0.2
-multidict==6.4.3
+multidict==6.4.4
 networkx==2.6.3
 orjson==3.10.18
 packageurl-python==0.13.4
@@ -67,7 +67,7 @@ rdflib==7.1.4
 referencing==0.36.2
 regex==2024.11.6
 requests==2.32.3
-rpds-py==0.24.0
+rpds-py==0.25.1
 rustworkx==0.16.0
 s3transfer==0.10.4
 schema==0.7.5
@@ -81,7 +81,7 @@ tabulate==0.9.0
 termcolor==2.3.0
 tqdm==4.67.1
 typing-extensions==4.13.2
-typing-inspection==0.4.0
+typing-inspection==0.4.1
 unidiff==0.7.5
 uritools==5.0.0
 urllib3==2.4.0

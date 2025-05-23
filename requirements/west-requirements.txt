@@ -5,5 +5,4 @@ pykwalify==1.8.0
 python-dateutil==2.9.0.post0
 pyyaml==6.0.2
 ruamel-yaml==0.18.10
-setuptools==80.7.1
 six==1.17.0
