@@ -4,7 +4,7 @@ h11==0.16.0
 httpcore==1.0.9
 httpx==0.28.1
 idna==3.10
-linode-metadata==0.3.0
+linode-metadata==0.3.1
 markdown-it-py==3.0.0
 mdurl==0.1.2
 openapi3==1.8.2
