@@ -1,2 +1,2 @@
-packaging==24.2
+packaging==25.0
 pyelftools==0.32

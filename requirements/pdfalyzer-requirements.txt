@@ -1,11 +1,10 @@
-anytree==2.12.1
+anytree==2.13.0
 chardet==5.2.0
 commonmark==0.9.1
-pygments==2.18.0
-pypdf==5.0.1
+pygments==2.19.1
+pypdf==5.5.0
 python-dotenv==0.21.1
 rich==12.6.0
 rich-argparse-plus==0.3.1.4
-six==1.16.0
-yara-python==4.5.1
-yaralyzer==0.9.4
+yara-python==4.5.2
+yaralyzer==0.9.6
