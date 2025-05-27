@@ -109,7 +109,7 @@ propcache==0.3.1
 proto-plus==1.26.1
 protobuf==6.30.2
 psutil==7.0.0
-pyarrow==19.0.1
+pyarrow==20.0.0
 pyasn1==0.6.1
 pyasn1-modules==0.4.2
 pycryptodome==3.22.0

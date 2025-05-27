@@ -1,6 +1,6 @@
 charset-normalizer==3.4.2
 filelock==3.18.0
-fsspec==2025.5.0
+fsspec==2025.5.1
 hf-xet==1.1.2
 idna==3.10
 inquirerpy==0.3.4

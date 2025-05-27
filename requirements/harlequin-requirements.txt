@@ -15,7 +15,7 @@ prompt-toolkit==3.0.51
 psycopg==3.2.6
 psycopg-c==3.2.6
 psycopg-pool==3.2.6
-pyarrow==19.0.1
+pyarrow==20.0.0
 pygments==2.19.1
 pyodbc==5.2.0
 pyperclip==1.9.0

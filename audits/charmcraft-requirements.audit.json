@@ -18,7 +18,8 @@
           "CGA-4gc2-jvqg-rhhf",
           "CGA-6568-886h-p4m7",
           "CGA-7qwr-ggrp-xcp2",
-          "CGA-ggwp-jf43-x8c8"
+          "CGA-ggwp-jf43-x8c8",
+          "CGA-gv9p-2wx7-82mw"
         ],
         "summary": "h11 accepts some malformed Chunked-Encoding bodies",
         "details": "### Impact\n\nA leniency in h11's parsing of line terminators in chunked-coding message bodies can lead to request smuggling vulnerabilities under certain conditions.\n\n### Details\n\nHTTP/1.1 Chunked-Encoding bodies are formatted as a sequence of \"chunks\", each of which consists of:\n\n- chunk length\n- `\\r\\n`\n- `length` bytes of content\n- `\\r\\n`\n\nIn versions of h11 up to 0.14.0, h11 instead parsed them as:\n\n- chunk length\n- `\\r\\n`\n- `length` bytes of content\n- any two bytes\n\ni.e. it did not validate that the trailing `\\r\\n` bytes were correct, and if you put 2 bytes of garbage there it would be accepted, instead of correctly rejecting the body as malformed.\n\nBy itself this is harmless. However, suppose you have a proxy or reverse-proxy that tries to analyze HTTP requests, and your proxy has a _different_ bug in parsing Chunked-Encoding, acting as if the format is:\n\n- chunk length\n- `\\r\\n`\n- `length` bytes of content\n- more bytes of content, as many as it takes until you find a `\\r\\n`\n\nFor example, [pound](https://github.com/graygnuorg/pound/pull/43) had this bug -- it can happen if an implementer uses a generic \"read until end of line\" helper to consumes the trailing `\\r\\n`.\n\nIn this case, h11 and your proxy may both accept the same stream of bytes, but interpret them differently. For example, consider the following HTTP request(s) (assume all line breaks are `\\r\\n`):\n\n```\nGET /one HTTP/1.1\nHost: localhost\nTransfer-Encoding: chunked\n\n5\nAAAAAXX2\n45\n0\n\nGET /two HTTP/1.1\nHost: localhost\nTransfer-Encoding: chunked\n\n0\n```\n\nHere h11 will interpret it as two requests, one with body `AAAAA45` and one with an empty body, while our hypothetical buggy proxy will interpret it as a single request, with body `AAAAXX20\\r\\n\\r\\nGET /two ...`. And any time two HTTP processors both accept the same string of bytes but interpret them differently, you have the conditions for a \"request smuggling\" attack. For example, if `/two` is a dangerous endpoint and the job of the reverse proxy is to stop requests from getting there, then an attacker could use a bytestream like the above to circumvent this protection.\n\nEven worse, if our buggy reverse proxy receives two requests from different users:\n\n```\nGET /one HTTP/1.1\nHost: localhost\nTransfer-Encoding: chunked\n\n5\nAAAAAXX999\n0\n```\n\n```\nGET /two HTTP/1.1\nHost: localhost\nCookie: SESSION_KEY=abcdef...\n```\n\n...it will consider the first request to be complete and valid, and send both on to the h11-based web server over the same socket. The server will then see the two concatenated requests, and interpret them as _one_ request to `/one` whose body includes `/two`'s session key, potentially allowing one user to steal another's credentials.\n\n### Patches\n\nFixed in h11 0.15.0.\n\n### Workarounds\n\nSince exploitation requires the combination of buggy h11 with a buggy (reverse) proxy, fixing either component is sufficient to mitigate this issue.\n\n### Credits\n\nReported by Jeppe Bonde Weikop on 2025-01-09.",
@@ -135,6 +136,7 @@
           "CGA-8gfh-2mj5-27qq",
           "CGA-ch38-hm3p-vqfx",
           "CGA-hw4r-mxqv-7jj9",
+          "CGA-m6wh-c9m7-3g8v",
           "CGA-p346-mccf-rp28",
           "CGA-pxmx-r998-7p4j",
           "CGA-q74h-cfpr-qvcv",
@@ -288,6 +290,11 @@
         "id": "GHSA-5rjg-fvgr-3xxf",
         "aliases": [
           "CVE-2025-47273"
+        ],
+        "related": [
+          "CGA-992q-7hm3-rgc2",
+          "CGA-p2x9-4whh-95j4",
+          "CGA-vvv9-2jj9-5qmf"
         ],
         "summary": "setuptools has a path traversal vulnerability in PackageIndex.download that leads to Arbitrary File Write",
         "details": "### Summary \nA path traversal vulnerability in `PackageIndex` was fixed in setuptools version 78.1.1\n\n### Details\n```\n    def _download_url(self, url, tmpdir):\n        # Determine download filename\n        #\n        name, _fragment = egg_info_for_url(url)\n        if name:\n            while '..' in name:\n                name = name.replace('..', '.').replace('\\\\', '_')\n        else:\n            name = \"__downloaded__\"  # default if URL has no path contents\n\n        if name.endswith('.[egg.zip](http://egg.zip/)'):\n            name = name[:-4]  # strip the extra .zip before download\n\n -->       filename = os.path.join(tmpdir, name)\n```\n\nHere: https://github.com/pypa/setuptools/blob/6ead555c5fb29bc57fe6105b1bffc163f56fd558/setuptools/package_index.py#L810C1-L825C88\n\n`os.path.join()` discards the first argument `tmpdir` if the second begins with a slash or drive letter.\n`name` is derived from a URL without sufficient sanitization. While there is some attempt to sanitize by replacing instances of '..' with '.', it is insufficient.\n\n### Risk Assessment\nAs easy_install and package_index are deprecated, the exploitation surface is reduced.\nHowever, it seems this could be exploited in a similar fashion like https://github.com/advisories/GHSA-r9hx-vwmv-q579, and as described by POC 4 in https://github.com/advisories/GHSA-cx63-2mw6-8hw5 report: via malicious URLs present on the pages of a package index.\n\n### Impact\nAn attacker would be allowed to write files to arbitrary locations on the filesystem with the permissions of the process running the Python code, which could escalate to RCE depending on the context.\n\n### References\nhttps://huntr.com/bounties/d6362117-ad57-4e83-951f-b8141c6e7ca5\nhttps://github.com/pypa/setuptools/issues/4946",
