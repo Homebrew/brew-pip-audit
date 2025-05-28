@@ -4,7 +4,7 @@ ajsonrpc==1.2.0
 anyio==4.9.0
 argcomplete==3.6.2
 async-interrupt==1.2.2
-bitarray==3.4.1
+bitarray==3.4.2
 bitstring==4.3.1
 bottle==0.13.3
 cairocffi==1.7.1
