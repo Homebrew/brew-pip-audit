@@ -125,7 +125,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2025-05-23T17:37:33Z",
+        "modified": "2025-05-29T06:55:40Z",
         "published": "2025-05-16T14:12:40Z",
         "schema_version": "1.6.0",
         "id": "GHSA-7cx3-6m66-7c5m",
@@ -266,6 +266,10 @@
           {
             "type": "PACKAGE",
             "url": "https://github.com/tornadoweb/tornado"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00038.html"
           }
         ],
         "database_specific": {

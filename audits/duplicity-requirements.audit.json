@@ -143,7 +143,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2025-05-19T17:02:42Z",
+        "modified": "2025-05-28T16:29:34Z",
         "published": "2025-05-19T16:52:43Z",
         "schema_version": "1.6.0",
         "id": "GHSA-5rjg-fvgr-3xxf",
@@ -815,6 +815,10 @@
           {
             "type": "WEB",
             "url": "https://github.com/pypa/setuptools/blob/6ead555c5fb29bc57fe6105b1bffc163f56fd558/setuptools/package_index.py#L810C1-L825C88"
+          },
+          {
+            "type": "WEB",
+            "url": "https://lists.debian.org/debian-lts-announce/2025/05/msg00035.html"
           }
         ],
         "database_specific": {
