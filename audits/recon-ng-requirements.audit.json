@@ -454,7 +454,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2025-05-28T05:58:05Z",
+        "modified": "2025-06-02T11:48:06Z",
         "published": "2023-07-15T23:15:09Z",
         "schema_version": "1.6.0",
         "id": "PYSEC-2023-312",
@@ -657,7 +657,8 @@
               "6.0.0",
               "6.0.0b1",
               "6.0.0b2",
-              "6.1.0"
+              "6.1.0",
+              "6.1.1"
             ],
             "database_specific": {
               "source": "https://github.com/pypa/advisory-database/blob/main/vulns/redis/PYSEC-2023-312.yaml"

@@ -2,4 +2,4 @@ packaging==25.0
 platformdirs==4.3.8
 pycurl==7.45.6
 structlog==25.3.0
-tornado==6.5
+tornado==6.5.1
