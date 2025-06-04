@@ -2,4 +2,4 @@ altgraph==0.17.4
 macholib==1.16.3
 packaging==25.0
 pyinstaller-hooks-contrib==2025.4
-setuptools==80.7.1
+setuptools==80.9.0

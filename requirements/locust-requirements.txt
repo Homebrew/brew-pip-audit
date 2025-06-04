@@ -14,7 +14,7 @@ h11==0.16.0
 idna==3.10
 itsdangerous==2.2.0
 jinja2==3.1.6
-locust-cloud==1.21.9
+locust-cloud==1.23.0
 markupsafe==3.0.2
 msgpack==1.1.0
 platformdirs==4.3.8
