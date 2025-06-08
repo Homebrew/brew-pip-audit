@@ -9,7 +9,7 @@ flask-cors==6.0.0
 flask-login==0.6.3
 gevent==25.5.1
 geventhttpclient==2.3.3
-greenlet==3.2.2
+greenlet==3.2.3
 h11==0.16.0
 idna==3.10
 itsdangerous==2.2.0
