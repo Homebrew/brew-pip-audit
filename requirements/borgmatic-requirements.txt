@@ -1,11 +1,12 @@
 attrs==25.3.0
 charset-normalizer==3.4.2
 idna==3.10
-jsonschema==4.23.0
+jsonschema==4.24.0
 jsonschema-specifications==2025.4.1
 packaging==25.0
 referencing==0.36.2
-requests==2.32.3
-rpds-py==0.24.0
-ruamel-yaml==0.18.10
+requests==2.32.4
+rpds-py==0.25.1
+ruamel-yaml==0.18.14
+ruamel-yaml-clib==0.2.12
 urllib3==2.4.0

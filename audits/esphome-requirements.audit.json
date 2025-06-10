@@ -132,6 +132,9 @@
         "aliases": [
           "CVE-2024-47081"
         ],
+        "related": [
+          "CGA-24q3-6wm3-783c"
+        ],
         "summary": "Requests vulnerable to .netrc credentials leak via malicious URLs",
         "details": "### Impact\n\nDue to a URL parsing issue, Requests releases prior to 2.32.4 may leak .netrc credentials to third parties for specific maliciously-crafted URLs.\n\n### Workarounds\nFor older versions of Requests, use of the .netrc file can be disabled with `trust_env=False` on your Requests Session ([docs](https://requests.readthedocs.io/en/latest/api/#requests.Session.trust_env)).\n\n### References\nhttps://github.com/psf/requests/pull/6965\nhttps://seclists.org/fulldisclosure/2025/Jun/2",
         "severity": [
@@ -417,7 +420,8 @@
           "CGA-6qhf-xpv9-p6xw",
           "CGA-7x5v-v62c-qg8g",
           "CGA-c7px-5x43-f7h5",
-          "CGA-qg24-ggf8-2fq7"
+          "CGA-qg24-ggf8-2fq7",
+          "CGA-vx49-fm46-cjjp"
         ],
         "summary": "Tornado vulnerable to excessive logging caused by malformed multipart form data",
         "details": "### Summary\n\nWhen Tornado's ``multipart/form-data`` parser encounters certain errors, it logs a warning but continues trying to parse the remainder of the data. This allows remote attackers to generate an extremely high volume of logs, constituting a DoS attack. This DoS is compounded by the fact that the logging subsystem is synchronous.\n\n### Affected versions\n\nAll versions of Tornado prior to 6.5 are affected. The vulnerable parser is enabled by default.\n\n### Solution\n\nUpgrade to Tornado version 6.5. In the meantime, risk can be mitigated by blocking `Content-Type: multipart/form-data` in a proxy.",

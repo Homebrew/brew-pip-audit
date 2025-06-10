@@ -461,6 +461,9 @@
         "aliases": [
           "CVE-2024-47081"
         ],
+        "related": [
+          "CGA-24q3-6wm3-783c"
+        ],
         "summary": "Requests vulnerable to .netrc credentials leak via malicious URLs",
         "details": "### Impact\n\nDue to a URL parsing issue, Requests releases prior to 2.32.4 may leak .netrc credentials to third parties for specific maliciously-crafted URLs.\n\n### Workarounds\nFor older versions of Requests, use of the .netrc file can be disabled with `trust_env=False` on your Requests Session ([docs](https://requests.readthedocs.io/en/latest/api/#requests.Session.trust_env)).\n\n### References\nhttps://github.com/psf/requests/pull/6965\nhttps://seclists.org/fulldisclosure/2025/Jun/2",
         "severity": [
@@ -744,6 +747,7 @@
           "CGA-386h-56mx-h78g",
           "CGA-p5f2-4rj7-w47h",
           "CGA-p754-wwqq-7x2w",
+          "CGA-rffr-3gww-cc9j",
           "CGA-rxxc-wrc4-x6r3",
           "CGA-wr84-3crr-hf7w"
         ],
@@ -927,6 +931,7 @@
           "CGA-3m9h-7wmp-p5r3",
           "CGA-4gfj-4gfq-284g",
           "CGA-5qqw-78qf-xfwg",
+          "CGA-c62x-7p7g-hqvm",
           "CGA-cwvc-2mhw-gmxh",
           "CGA-p5gp-26hq-j5rc"
         ],

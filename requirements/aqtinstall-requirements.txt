@@ -15,9 +15,9 @@ pybcj==1.0.6
 pycryptodomex==3.23.0
 pyppmd==1.2.0
 pyzstd==0.17.0
-requests==2.32.3
+requests==2.32.4
 semantic-version==2.10.0
 soupsieve==2.7
 texttable==1.7.0
-typing-extensions==4.13.2
+typing-extensions==4.14.0
 urllib3==2.4.0
