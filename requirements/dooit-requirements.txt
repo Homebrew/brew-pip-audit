@@ -1,5 +1,5 @@
-click==8.2.0
-greenlet==3.2.2
+click==8.2.1
+greenlet==3.2.3
 linkify-it-py==2.0.3
 markdown-it-py==3.0.0
 mdit-py-plugins==0.4.2
@@ -11,8 +11,8 @@ python-dateutil==2.9.0.post0
 pyyaml==6.0.2
 rich==14.0.0
 six==1.17.0
-sqlalchemy==2.0.40
-textual==3.2.0
-typing-extensions==4.13.2
+sqlalchemy==2.0.41
+textual==3.3.0
+typing-extensions==4.14.0
 tzlocal==5.3.1
 uc-micro-py==1.0.3

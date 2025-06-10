@@ -1,7 +1,7 @@
 annotated-types==0.7.0
 asn1crypto==1.5.1
-boto3==1.38.25
-botocore==1.38.25
+boto3==1.38.32
+botocore==1.38.32
 charset-normalizer==3.4.2
 click==8.1.8
 filelock==3.18.0
@@ -46,7 +46,7 @@ sortedcontainers==2.4.0
 tomlkit==0.13.2
 typer==0.15.2
 types-setuptools==80.9.0.20250529
-typing-extensions==4.13.2
+typing-extensions==4.14.0
 typing-inspection==0.4.1
 urllib3==2.4.0
 wcwidth==0.2.13
