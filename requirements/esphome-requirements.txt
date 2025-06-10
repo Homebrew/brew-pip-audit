@@ -10,6 +10,7 @@ bottle==0.13.3
 cairocffi==1.7.1
 cairosvg==2.7.1
 chacha20poly1305-reuseable==0.13.2
+chardet==5.2.0
 charset-normalizer==3.4.2
 click==8.1.7
 colorama==0.4.6
@@ -38,7 +39,7 @@ pyparsing==3.2.3
 pyserial==3.5
 pyyaml==6.0.2
 reedsolo==1.7.0
-requests==2.32.3
+requests==2.32.4
 ruamel-yaml==0.18.10
 semantic-version==2.10.0
 six==1.17.0

@@ -16,7 +16,7 @@ pygments==2.19.1
 pyjwt==2.10.1
 python-dateutil==2.9.0.post0
 pyyaml==6.0.2
-requests==2.32.3
+requests==2.32.4
 rich==13.9.4
 sentry-sdk==2.29.1
 shellingham==1.5.4
@@ -25,5 +25,5 @@ smmap==5.0.2
 tenacity==9.0.0
 typer==0.15.4
 types-python-dateutil==2.9.0.20250516
-typing-extensions==4.13.2
+typing-extensions==4.14.0
 urllib3==1.26.19

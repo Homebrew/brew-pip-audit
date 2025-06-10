@@ -1,5 +1,5 @@
 bottle==0.12.25
-charset-normalizer==3.4.1
+charset-normalizer==3.4.2
 colorama==0.4.6
 distro==1.9.0
 fasteners==0.19
@@ -13,7 +13,7 @@ pygments==2.19.1
 pyjwt==2.10.1
 python-dateutil==2.9.0.post0
 pyyaml==6.0.2
-requests==2.32.3
+requests==2.32.4
 six==1.16.0
 tqdm==4.67.1
 urllib3==1.26.20

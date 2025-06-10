@@ -4,7 +4,7 @@ click==8.2.1
 idna==3.10
 ijson==3.4.0
 pyyaml==6.0.2
-requests==2.32.3
+requests==2.32.4
 responses==0.21.0
 sentry-sdk==2.29.1
 test-results-parser==0.5.4

@@ -1,7 +1,7 @@
 adlfs==2024.12.0
 aiobotocore==2.22.0
 aiohappyeyeballs==2.6.1
-aiohttp==3.12.9
+aiohttp==3.12.12
 aiohttp-retry==2.9.1
 aioitertools==0.12.0
 aiooss2==0.2.11
@@ -50,7 +50,7 @@ dvc-http==2.32.0
 dvc-objects==5.1.1
 dvc-oss==3.0.0
 dvc-render==1.0.2
-dvc-s3==3.2.0
+dvc-s3==3.2.1
 dvc-ssh==4.2.1
 dvc-studio-client==0.21.0
 dvc-task==0.40.2
@@ -60,14 +60,14 @@ entrypoints==0.4
 filelock==3.18.0
 flatten-dict==0.4.2
 flufl-lock==8.2.0
-frozenlist==1.6.2
+frozenlist==1.7.0
 fsspec==2025.5.1
 funcy==2.0
 gcsfs==2025.5.1
 gitdb==4.0.12
 gitpython==3.1.44
 google-api-core==2.25.0
-google-api-python-client==2.171.0
+google-api-python-client==2.172.0
 google-auth==2.40.3
 google-auth-httplib2==0.2.0
 google-auth-oauthlib==1.2.2
@@ -105,7 +105,7 @@ packaging==25.0
 pathspec==0.12.1
 platformdirs==4.3.8
 prompt-toolkit==3.0.51
-propcache==0.3.1
+propcache==0.3.2
 proto-plus==1.26.1
 protobuf==6.31.1
 psutil==7.0.0
@@ -124,11 +124,11 @@ pyopenssl==24.2.1
 pyparsing==3.2.3
 python-dateutil==2.9.0.post0
 pyyaml==6.0.2
-requests==2.32.3
+requests==2.32.4
 requests-oauthlib==2.0.0
 rich==14.0.0
 rsa==4.9.1
-ruamel-yaml==0.18.12
+ruamel-yaml==0.18.14
 ruamel-yaml-clib==0.2.12
 s3fs==2025.5.1
 s3transfer==0.11.3
@@ -157,5 +157,5 @@ voluptuous==0.15.2
 wcwidth==0.2.13
 webdav4==0.10.0
 wrapt==1.17.2
-yarl==1.20.0
+yarl==1.20.1
 zc-lockfile==3.0.post1
