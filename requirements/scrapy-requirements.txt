@@ -20,7 +20,7 @@ pyasn1-modules==0.4.2
 pydispatcher==2.0.7
 pyopenssl==25.1.0
 queuelib==1.8.0
-requests==2.32.3
+requests==2.32.4
 requests-file==2.1.0
 service-identity==24.2.0
 setuptools==80.9.0
