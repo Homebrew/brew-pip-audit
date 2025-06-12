@@ -26,7 +26,7 @@ psutil==7.0.0
 pulp==3.1.1
 pyyaml==6.0.2
 referencing==0.36.2
-requests==2.32.3
+requests==2.32.4
 reretry==0.11.8
 rpds-py==0.25.1
 smart-open==7.1.0
@@ -41,4 +41,4 @@ throttler==1.2.2
 traitlets==5.14.3
 urllib3==2.4.0
 wrapt==1.17.2
-yte==1.7.0
+yte==1.8.1

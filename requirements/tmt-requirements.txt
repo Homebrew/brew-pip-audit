@@ -19,9 +19,9 @@ pydantic==2.11.5
 pydantic-core==2.33.2
 pygments==2.19.1
 referencing==0.36.2
-requests==2.32.3
+requests==2.32.4
 rpds-py==0.25.1
-ruamel-yaml==0.18.12
+ruamel-yaml==0.18.14
 ruamel-yaml-clib==0.2.12
 typing-extensions==4.14.0
 typing-inspection==0.4.1
