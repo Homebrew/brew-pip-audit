@@ -5,7 +5,7 @@ charset-normalizer==3.4.2
 click==8.2.1
 configargparse==1.7.1
 flask==3.1.1
-flask-cors==6.0.0
+flask-cors==6.0.1
 flask-login==0.6.3
 gevent==25.5.1
 geventhttpclient==2.3.3
@@ -22,7 +22,7 @@ psutil==7.0.0
 python-engineio==4.12.2
 python-socketio==5.13.0
 pyzmq==26.4.0
-requests==2.32.3
+requests==2.32.4
 setuptools==80.9.0
 simple-websocket==1.1.0
 urllib3==2.4.0

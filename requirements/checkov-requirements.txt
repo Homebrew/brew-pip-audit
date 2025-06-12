@@ -7,7 +7,7 @@ annotated-types==0.7.0
 argcomplete==3.6.2
 asteval==1.0.5
 attrs==25.3.0
-bc-detect-secrets==1.5.41
+bc-detect-secrets==1.5.44
 bc-jsonpath-ng==1.6.1
 bc-python-hcl2==0.4.2
 beartype==0.21.0
@@ -84,7 +84,7 @@ typing-extensions==4.14.0
 typing-inspection==0.4.1
 unidiff==0.7.5
 uritools==5.0.0
-urllib3==2.4.0
+urllib3==1.26.20
 wcwidth==0.2.13
 xmltodict==0.14.2
 yarl==1.20.1

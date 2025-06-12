@@ -20,7 +20,7 @@ pyproject-hooks==1.2.0
 python-dateutil==2.9.0.post0
 python-dotenv==1.1.0
 pyyaml==6.0.2
-requests==2.32.3
+requests==2.32.4
 rich==14.0.0
 semver==3.0.4
 six==1.17.0
