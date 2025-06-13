@@ -1,3 +1,4 @@
+# This file is synced from the `.github` repository, do not modify it directly.
 name: Manage stale issues
 
 on:
@@ -79,3 +80,4 @@ jobs:
           exempt-pr-labels: "help wanted,in progress"
           any-of-labels: "bump-formula-pr,bump-cask-pr"
           delete-branch: true
+
