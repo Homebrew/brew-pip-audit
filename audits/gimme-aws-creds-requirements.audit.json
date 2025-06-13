@@ -118,8 +118,14 @@
         "related": [
           "CGA-24q3-6wm3-783c",
           "CGA-398v-hm2p-xw79",
+          "CGA-4754-mrr3-695h",
           "CGA-57rv-3w6v-vfm6",
+          "CGA-cvpx-m598-wh5q",
+          "CGA-h2m6-v7c4-gf9v",
+          "CGA-hf94-r6q8-78mp",
           "CGA-j4pw-wrph-m6cg",
+          "CGA-jgvj-g2p4-w9wq",
+          "CGA-jmr7-vvhv-6h2m",
           "CGA-mm5x-7qfp-q7fp"
         ],
         "summary": "Requests vulnerable to .netrc credentials leak via malicious URLs",

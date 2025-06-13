@@ -14,9 +14,8 @@ idna==3.10
 installer==0.7.0
 markdown-it-py==3.0.0
 mdurl==0.1.2
-msgpack==1.1.0
 packaging==25.0
-pbs-installer==2025.6.10
+pbs-installer==2025.6.12
 platformdirs==4.3.8
 pygments==2.19.1
 pyproject-hooks==1.2.0
