@@ -4,5 +4,5 @@ pbr==6.1.1
 pygments==2.19.1
 pyyaml==6.0.2
 rich==14.0.0
-setuptools==80.7.1
+setuptools==80.9.0
 stevedore==5.4.1

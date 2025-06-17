@@ -1,6 +1,6 @@
 annotated-types==0.7.0
 anyio==4.9.0
-certifi==2025.4.26
+certifi==2025.6.15
 charset-normalizer==3.4.2
 click==8.2.1
 deprecated==1.2.18
@@ -11,11 +11,11 @@ httpx==0.28.1
 httpx-sse==0.4.0
 idna==3.10
 markdown-it-py==3.0.0
-mcp==1.9.3
+mcp==1.9.4
 mdurl==0.1.2
 prompt-toolkit==3.0.51
 psutil==7.0.0
-pydantic==2.11.5
+pydantic==2.11.7
 pydantic-core==2.33.2
 pydantic-settings==2.9.1
 pygments==2.19.1
@@ -32,6 +32,6 @@ typing-extensions==4.14.0
 typing-inspection==0.4.1
 urllib3==2.4.0
 uvicorn==0.34.3
-watchfiles==1.0.5
+watchfiles==1.1.0
 wcwidth==0.2.13
 wrapt==1.17.2
