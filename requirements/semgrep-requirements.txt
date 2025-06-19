@@ -39,7 +39,7 @@ ruamel-yaml-clib==0.2.12
 setuptools==80.9.0
 tomli==2.0.2
 typing-extensions==4.14.0
-urllib3==2.4.0
+urllib3==2.5.0
 wcmatch==8.5.2
 wrapt==1.17.2
 zipp==3.23.0
