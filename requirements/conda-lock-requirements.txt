@@ -24,11 +24,11 @@ jinja2==3.1.6
 keyring==25.6.0
 markupsafe==3.0.2
 more-itertools==10.7.0
-msgpack==1.1.0
+msgpack==1.1.1
 packaging==25.0
 pkginfo==1.12.1.2
 platformdirs==4.3.8
-pydantic==2.11.5
+pydantic==2.11.7
 pydantic-core==2.33.2
 pyproject-hooks==1.2.0
 pyyaml==6.0.2
@@ -45,6 +45,7 @@ tomlkit==0.13.3
 trove-classifiers==2025.5.9.12
 typing-extensions==4.14.0
 typing-inspection==0.4.1
-urllib3==2.4.0
+urllib3==2.5.0
 virtualenv==20.31.2
+xattr==1.1.4
 zstandard==0.23.0

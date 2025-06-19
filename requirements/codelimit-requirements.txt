@@ -1,5 +1,5 @@
 aiohappyeyeballs==2.6.1
-aiohttp==3.12.12
+aiohttp==3.12.13
 aiosignal==1.3.2
 attrs==25.3.0
 charset-normalizer==3.4.2
@@ -8,7 +8,7 @@ frozenlist==1.7.0
 idna==3.10
 markdown-it-py==3.0.0
 mdurl==0.1.2
-multidict==6.4.4
+multidict==6.5.0
 pathspec==0.12.1
 propcache==0.3.2
 pygments==2.19.1
@@ -19,5 +19,5 @@ rich==13.9.4
 sh==2.2.2
 typer==0.9.4
 typing-extensions==4.14.0
-urllib3==2.4.0
+urllib3==2.5.0
 yarl==1.20.1

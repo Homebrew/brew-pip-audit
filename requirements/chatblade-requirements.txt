@@ -10,7 +10,7 @@ markdown-it-py==3.0.0
 mdurl==0.1.2
 openai==1.35.15
 platformdirs==4.2.2
-pydantic==2.11.5
+pydantic==2.11.7
 pydantic-core==2.33.2
 pygments==2.19.1
 pylatexenc==2.10
@@ -23,4 +23,4 @@ tiktoken==0.8.0
 tqdm==4.67.1
 typing-extensions==4.14.0
 typing-inspection==0.4.1
-urllib3==2.4.0
+urllib3==2.5.0

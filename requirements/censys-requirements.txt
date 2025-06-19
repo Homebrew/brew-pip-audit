@@ -7,4 +7,4 @@ mdurl==0.1.2
 pygments==2.19.1
 requests==2.32.4
 rich==14.0.0
-urllib3==2.4.0
+urllib3==2.5.0

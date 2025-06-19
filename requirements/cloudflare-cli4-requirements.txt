@@ -1,8 +1,8 @@
 attrs==25.3.0
-certifi==2025.4.26
+certifi==2025.6.15
 charset-normalizer==3.4.2
 idna==3.10
 jsonlines==4.0.0
 pyyaml==6.0.2
 requests==2.32.4
-urllib3==2.4.0
+urllib3==2.5.0

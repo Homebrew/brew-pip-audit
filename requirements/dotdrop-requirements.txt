@@ -10,4 +10,4 @@ requests==2.32.4
 ruamel-yaml==0.18.14
 ruamel-yaml-clib==0.2.12
 tomli-w==1.2.0
-urllib3==2.4.0
+urllib3==2.5.0
