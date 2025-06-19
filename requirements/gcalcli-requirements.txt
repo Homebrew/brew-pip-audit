@@ -3,7 +3,7 @@ argcomplete==3.6.2
 babel==2.17.0
 cachetools==5.5.2
 charset-normalizer==3.4.2
-google-api-core==2.25.0
+google-api-core==2.25.1
 google-api-python-client==2.172.0
 google-auth==2.40.3
 google-auth-httplib2==0.2.0
@@ -11,14 +11,14 @@ google-auth-oauthlib==1.2.2
 googleapis-common-protos==1.70.0
 httplib2==0.22.0
 idna==3.10
-oauthlib==3.2.2
+oauthlib==3.3.0
 parsedatetime==2.6
 platformdirs==4.3.8
 proto-plus==1.26.1
 protobuf==6.31.1
 pyasn1==0.6.1
 pyasn1-modules==0.4.2
-pydantic==2.11.5
+pydantic==2.11.7
 pydantic-core==2.33.2
 pyparsing==3.2.3
 python-dateutil==2.9.0.post0
@@ -30,4 +30,4 @@ truststore==0.10.1
 typing-extensions==4.14.0
 typing-inspection==0.4.1
 uritemplate==4.2.0
-urllib3==2.4.0
+urllib3==2.5.0

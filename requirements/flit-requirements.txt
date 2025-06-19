@@ -4,4 +4,4 @@ flit-core==3.12.0
 idna==3.10
 requests==2.32.4
 tomli-w==1.2.0
-urllib3==2.4.0
+urllib3==2.5.0

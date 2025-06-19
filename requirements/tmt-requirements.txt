@@ -15,7 +15,7 @@ markupsafe==3.0.2
 packaging==25.0
 pint==0.24.4
 platformdirs==4.3.8
-pydantic==2.11.5
+pydantic==2.11.7
 pydantic-core==2.33.2
 pygments==2.19.1
 referencing==0.36.2
@@ -25,4 +25,4 @@ ruamel-yaml==0.18.14
 ruamel-yaml-clib==0.2.12
 typing-extensions==4.14.0
 typing-inspection==0.4.1
-urllib3==2.4.0
+urllib3==2.5.0

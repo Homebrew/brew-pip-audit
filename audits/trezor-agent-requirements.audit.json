@@ -2049,7 +2049,7 @@
     },
     "vulnerabilities": [
       {
-        "modified": "2025-06-18T18:27:18Z",
+        "modified": "2025-06-19T16:04:50Z",
         "published": "2025-06-18T17:50:11Z",
         "schema_version": "1.6.0",
         "id": "GHSA-48p4-8xcf-vxj5",
@@ -2199,6 +2199,10 @@
             "url": "https://github.com/urllib3/urllib3/security/advisories/GHSA-48p4-8xcf-vxj5"
           },
           {
+            "type": "ADVISORY",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-50182"
+          },
+          {
             "type": "WEB",
             "url": "https://github.com/urllib3/urllib3/commit/7eb4a2aafe49a279c29b6d1f0ed0f42e9736194f"
           },
@@ -2213,12 +2217,12 @@
           ],
           "github_reviewed": true,
           "github_reviewed_at": "2025-06-18T17:50:11Z",
-          "nvd_published_at": null,
+          "nvd_published_at": "2025-06-19T02:15:17Z",
           "severity": "MODERATE"
         }
       },
       {
-        "modified": "2025-06-18T18:27:18Z",
+        "modified": "2025-06-19T16:15:11Z",
         "published": "2025-06-18T17:50:00Z",
         "schema_version": "1.6.0",
         "id": "GHSA-pq67-6m6q-mj2v",
@@ -2368,6 +2372,10 @@
             "url": "https://github.com/urllib3/urllib3/security/advisories/GHSA-pq67-6m6q-mj2v"
           },
           {
+            "type": "ADVISORY",
+            "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-50181"
+          },
+          {
             "type": "WEB",
             "url": "https://github.com/urllib3/urllib3/commit/f05b1329126d5be6de501f9d1e3e36738bc08857"
           },
@@ -2382,7 +2390,7 @@
           ],
           "github_reviewed": true,
           "github_reviewed_at": "2025-06-18T17:50:00Z",
-          "nvd_published_at": null,
+          "nvd_published_at": "2025-06-19T01:15:24Z",
           "severity": "MODERATE"
         }
       }

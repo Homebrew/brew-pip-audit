@@ -15,6 +15,6 @@ pywidevine==1.8.0
 pyyaml==6.0.2
 requests==2.32.4
 unidecode==1.4.0
-urllib3==2.4.0
+urllib3==2.5.0
 wcwidth==0.2.13
 yt-dlp==2025.6.9
