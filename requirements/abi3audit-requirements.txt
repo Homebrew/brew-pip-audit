@@ -1,7 +1,7 @@
 abi3info==2025.4.29
 attrs==25.3.0
 cattrs==25.1.1
-certifi==2025.4.26
+certifi==2025.6.15
 charset-normalizer==3.4.2
 idna==3.10
 kaitaistruct==0.10
@@ -17,4 +17,4 @@ requests-cache==1.2.1
 rich==13.9.4
 typing-extensions==4.14.0
 url-normalize==2.2.1
-urllib3==2.4.0
+urllib3==2.5.0

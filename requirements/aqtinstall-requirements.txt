@@ -1,7 +1,7 @@
 beautifulsoup4==4.13.4
 brotli==1.1.0
 bs4==0.0.2
-certifi==2025.4.26
+certifi==2025.6.15
 charset-normalizer==3.4.2
 defusedxml==0.7.1
 humanize==4.12.3
@@ -20,4 +20,4 @@ semantic-version==2.10.0
 soupsieve==2.7
 texttable==1.7.0
 typing-extensions==4.14.0
-urllib3==2.4.0
+urllib3==2.5.0

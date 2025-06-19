@@ -9,4 +9,4 @@ soupsieve==2.7
 typing-extensions==4.14.0
 unicode-slugify==0.1.5
 unidecode==1.4.0
-urllib3==2.4.0
+urllib3==2.5.0

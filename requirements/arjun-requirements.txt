@@ -3,4 +3,4 @@ dicttoxml==1.7.16
 idna==3.10
 ratelimit==2.2.1
 requests==2.32.4
-urllib3==2.4.0
+urllib3==2.5.0
