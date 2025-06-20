@@ -17,4 +17,4 @@ requests==2.32.4
 requests-toolbelt==1.0.0
 rfc3986==2.0.0
 rich==14.0.0
-urllib3==2.4.0
+urllib3==2.5.0

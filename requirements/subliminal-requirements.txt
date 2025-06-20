@@ -30,4 +30,4 @@ stevedore==5.4.1
 tomlkit==0.13.3
 trakit==0.2.2
 typing-extensions==4.14.0
-urllib3==2.4.0
+urllib3==2.5.0

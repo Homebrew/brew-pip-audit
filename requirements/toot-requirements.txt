@@ -9,7 +9,7 @@ soupsieve==2.7
 term-image==0.7.2
 tomlkit==0.13.3
 typing-extensions==4.14.0
-urllib3==2.4.0
+urllib3==2.5.0
 urwid==2.6.16
 urwidgets==0.2.1
 wcwidth==0.2.13

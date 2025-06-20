@@ -12,9 +12,9 @@ httpx-sse==0.4.0
 idna==3.10
 jiter==0.10.0
 mcp==1.9.4
-openai==1.86.0
-openai-agents==0.0.17
-pydantic==2.11.5
+openai==1.88.0
+openai-agents==0.0.19
+pydantic==2.11.7
 pydantic-core==2.33.2
 pydantic-settings==2.9.1
 python-dotenv==1.1.0
@@ -27,5 +27,5 @@ tqdm==4.67.1
 types-requests==2.32.4.20250611
 typing-extensions==4.14.0
 typing-inspection==0.4.1
-urllib3==2.4.0
+urllib3==2.5.0
 uvicorn==0.34.3

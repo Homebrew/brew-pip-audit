@@ -16,4 +16,4 @@ requests-toolbelt==1.0.0
 rich==9.13.0
 toml==0.10.2
 typing-extensions==3.10.0.2
-urllib3==2.4.0
+urllib3==2.5.0

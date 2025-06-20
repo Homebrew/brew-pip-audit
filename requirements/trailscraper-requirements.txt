@@ -8,8 +8,8 @@ pytz==2025.1
 regex==2024.11.6
 ruamel-yaml==0.18.10
 s3transfer==0.11.5
-setuptools==80.7.1
+setuptools==80.9.0
 six==1.17.0
 toolz==1.0.0
 tzlocal==5.3.1
-urllib3==2.4.0
+urllib3==2.5.0

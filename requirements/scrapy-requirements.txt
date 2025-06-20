@@ -27,6 +27,6 @@ setuptools==80.9.0
 tldextract==5.3.0
 twisted==25.5.0
 typing-extensions==4.14.0
-urllib3==2.4.0
+urllib3==2.5.0
 w3lib==2.3.1
 zope-interface==7.2

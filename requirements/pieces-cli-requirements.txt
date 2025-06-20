@@ -12,7 +12,7 @@ mcp==1.8.0
 mdurl==0.1.2
 platformdirs==4.3.8
 prompt-toolkit==3.0.51
-pydantic==2.11.5
+pydantic==2.11.7
 pydantic-core==2.33.2
 pydantic-settings==2.9.1
 pygments==2.19.1
@@ -28,7 +28,7 @@ sse-starlette==2.3.6
 starlette==0.47.0
 typing-extensions==4.14.0
 typing-inspection==0.4.1
-urllib3==2.4.0
+urllib3==2.5.0
 uvicorn==0.34.3
 wcwidth==0.2.13
 websocket-client==1.8.0

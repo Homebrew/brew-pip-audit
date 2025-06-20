@@ -12,4 +12,4 @@ requests-futures==1.0.2
 six==1.17.0
 stem==1.8.2
 tzdata==2025.2
-urllib3==2.4.0
+urllib3==2.5.0

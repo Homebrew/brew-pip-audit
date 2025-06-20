@@ -13,12 +13,12 @@ plotext==5.3.2
 psutil==7.0.0
 pygments==2.19.1
 pymysql==1.1.1
-requests==2.32.3
+requests==2.32.4
 rich==14.0.0
 sqlparse==0.5.3
-textual==3.2.0
+textual==3.4.0
 tree-sitter==0.24.0
-typing-extensions==4.13.2
+typing-extensions==4.14.0
 uc-micro-py==1.0.3
-urllib3==2.4.0
+urllib3==2.5.0
 zstandard==0.23.0

@@ -11,5 +11,5 @@ pysigma==0.11.23
 pysigma-backend-sqlite==0.2.0
 pyyaml==6.0.2
 requests==2.32.4
-urllib3==2.4.0
+urllib3==2.5.0
 wcwidth==0.2.13

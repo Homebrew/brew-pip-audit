@@ -11,4 +11,4 @@ setuptools==80.9.0
 six==1.17.0
 toml==0.10.2
 tqdm==4.55.1
-urllib3==2.4.0
+urllib3==2.5.0
