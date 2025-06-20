@@ -13,5 +13,5 @@ pyyaml==6.0.2
 requests==2.32.4
 setuptools==80.9.0
 sortedcontainers==2.4.0
-urllib3==2.4.0
+urllib3==2.5.0
 wcwidth==0.2.13
