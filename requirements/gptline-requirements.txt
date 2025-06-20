@@ -21,9 +21,9 @@ lxml==5.4.0
 lxml-html-clean==0.4.2
 newspaper3k==0.2.8
 nltk==3.9.1
-openai==1.86.0
+openai==1.88.0
 prompt-toolkit==3.0.51
-pydantic==2.11.5
+pydantic==2.11.7
 pydantic-core==2.33.2
 pygments==2.19.1
 python-dateutil==2.9.0.post0
@@ -42,5 +42,5 @@ tldextract==5.3.0
 tqdm==4.67.1
 typing-extensions==4.14.0
 typing-inspection==0.4.1
-urllib3==2.4.0
+urllib3==2.5.0
 wcwidth==0.2.13

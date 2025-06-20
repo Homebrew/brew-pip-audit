@@ -8,5 +8,5 @@ jsonschema-specifications==2025.4.1
 referencing==0.36.2
 requests==2.32.4
 rpds-py==0.25.1
-urllib3==2.4.0
+urllib3==2.5.0
 zipp==3.23.0

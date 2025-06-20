@@ -29,5 +29,5 @@ socksio==1.0.0
 tomlkit==0.13.3
 truststore==0.10.1
 unearth==0.17.5
-urllib3==2.4.0
+urllib3==2.5.0
 virtualenv==20.31.2

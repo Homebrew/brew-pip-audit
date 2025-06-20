@@ -30,7 +30,7 @@ ply==3.11
 py-serializable==2.0.0
 pygments==2.19.1
 pyparsing==3.2.3
-pytest==8.4.0
+pytest==8.4.1
 python-dateutil==2.9.0.post0
 pyyaml==6.0.2
 rdflib==7.1.4
@@ -48,7 +48,7 @@ tomli-w==1.2.0
 types-python-dateutil==2.9.0.20250516
 uri-template==1.3.0
 uritools==5.0.0
-urllib3==2.4.0
+urllib3==2.5.0
 wcmatch==10.0
 wcwidth==0.2.13
 webcolors==24.11.1

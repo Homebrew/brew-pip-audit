@@ -19,7 +19,7 @@ readchar==4.2.1
 requests==2.32.4
 sentry-sdk==2.30.0
 six==1.17.0
-urllib3==2.4.0
+urllib3==2.5.0
 xmpppy==0.7.1
 yarl==1.20.1
 yt-dlp==2025.6.9

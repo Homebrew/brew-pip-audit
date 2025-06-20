@@ -5,4 +5,4 @@ gitpython==3.1.44
 jupyter-server-mathjax==0.2.6
 requests==2.32.4
 smmap==5.0.2
-urllib3==2.4.0
+urllib3==2.5.0

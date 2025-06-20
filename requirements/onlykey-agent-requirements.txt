@@ -1,4 +1,4 @@
-aenum==any.whl
+aenum==3.1.15
 backports-shutil-which==3.5.2
 bech32==1.2.0
 charset-normalizer==3.4.2
@@ -28,6 +28,6 @@ semver==3.0.4
 setuptools==80.9.0
 six==1.17.0
 unidecode==1.4.0
-urllib3==2.4.0
+urllib3==2.5.0
 wcwidth==0.2.13
 wheel==0.45.1

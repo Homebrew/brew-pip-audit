@@ -6,7 +6,7 @@ dacite==1.9.2
 docker==7.1.0
 faker==37.4.0
 idna==3.10
-jq==1.8.0
+jq==1.9.1
 lxml==5.4.0
 mmh3==5.1.0
 packaging==25.0
@@ -20,5 +20,5 @@ requests-toolbelt==1.0.0
 scapy==2.6.1
 termcolor==3.1.0
 tzdata==2025.2
-urllib3==2.4.0
+urllib3==2.5.0
 wcwidth==0.2.13

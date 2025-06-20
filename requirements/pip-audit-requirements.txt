@@ -8,7 +8,7 @@ idna==3.10
 license-expression==30.4.1
 markdown-it-py==3.0.0
 mdurl==0.1.2
-msgpack==1.1.0
+msgpack==1.1.1
 packageurl-python==0.17.1
 packaging==25.0
 pip-api==0.0.34
@@ -21,4 +21,4 @@ requests==2.32.4
 rich==14.0.0
 sortedcontainers==2.4.0
 toml==0.10.2
-urllib3==2.4.0
+urllib3==2.5.0
