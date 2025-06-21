@@ -21,7 +21,7 @@ pyjwt==2.10.1
 pyopenssl==25.1.0
 python-dateutil==2.9.0.post0
 requests==2.32.4
-rfc3161-client==1.0.2
+rfc3161-client==1.0.3
 rfc8785==0.1.4
 rich==14.0.0
 securesystemslib==1.3.0
