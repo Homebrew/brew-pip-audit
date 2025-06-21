@@ -23,8 +23,6 @@ SKIP_FORMULA = [
   "gnuradio",
   # Installable packages are in a sub-directory
   "azure-cli",
-  # source tarball doesn't work with this, due to setuptools_scm issues
-  "charmcraft",
   # Hopelessly complicated build
   "pytorch",
   # ansible-lint depends on ansible, which can be handled when ansible got updated
