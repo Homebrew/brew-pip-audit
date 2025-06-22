@@ -1,7 +1,7 @@
 annotated-types==0.7.0
 asn1crypto==1.5.1
-boto3==1.38.32
-botocore==1.38.32
+boto3==1.38.41
+botocore==1.38.41
 charset-normalizer==3.4.2
 click==8.1.8
 filelock==3.18.0
@@ -11,7 +11,6 @@ idna==3.10
 jaraco-classes==3.4.0
 jaraco-context==6.0.1
 jaraco-functools==4.1.0
-jeepney==0.9.0
 jinja2==3.1.6
 jmespath==1.0.1
 keyring==25.6.0
@@ -25,7 +24,7 @@ pluggy==1.6.0
 prompt-toolkit==3.0.51
 pydantic==2.11.4
 pydantic-core==2.33.2
-pygments==2.19.1
+pygments==2.19.2
 pyjwt==2.10.1
 pyopenssl==25.1.0
 python-dateutil==2.9.0.post0
@@ -35,7 +34,6 @@ requests==2.32.3
 requirements-parser==0.11.0
 rich==14.0.0
 s3transfer==0.13.0
-secretstorage==3.3.3
 setuptools==80.3.1
 shellingham==1.5.4
 six==1.17.0
@@ -48,5 +46,5 @@ typer==0.15.2
 types-setuptools==80.9.0.20250529
 typing-extensions==4.14.0
 typing-inspection==0.4.1
-urllib3==2.4.0
+urllib3==2.5.0
 wcwidth==0.2.13
