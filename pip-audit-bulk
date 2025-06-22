@@ -27,7 +27,7 @@ _AUDITS_JSON = _SITE / "formula-audits.json"
 audits = {
     "vulnerable": {},
     "failures": [],
-    "skipped": [],
+    "skipped": [],  # NOTE: currently unused
 }
 
 if "CI" in os.environ:
@@ -61,7 +61,7 @@ for formula, requirements in _REQUIREMENTS.items():
     # If we don't see anything on stdout, osv-scanner probably failed.
     # Log it as an error.
     if not result.stdout:
-        print(f"\t>:( osv-scanner failed: {result.stderr}")
+        print(f"\t>:( osv-scanner failed: {result.stderr}", file=sys.stderr)
         audits["failures"].append(formula)
         continue
 

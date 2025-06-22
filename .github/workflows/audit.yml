@@ -9,10 +9,12 @@ jobs:
   audit:
     runs-on: macos-latest
     permissions:
-      # NOTE: Needed to push to the repository.
-      contents: write
-    outputs:
-      auto-pr-ref: ${{ steps.commit.outputs.auto-pr-ref }}
+      contents: read # reading repo contents
+      pages: write # writing to GitHub Pages
+      id-token: write # authentication for GitHub Pages
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Check out this repo
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
@@ -57,21 +59,21 @@ jobs:
 
       - run: python3 pip-audit-bulk
 
-      - name: Commit and push if it changed
-        id: commit
-        run: |-
-          git add -A
-          timestamp=$(date -u)
-          git commit -m "Latest data: ${timestamp}" || exit 0
-          echo "auto-pr-ref=$(git rev-parse HEAD)" >> "${GITHUB_OUTPUT}"
-          git push
+      - name: Setup Pages
+        if: github.repository_owner == 'Homebrew'
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5.0.0
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3.0.1
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        if: github.repository_owner == 'Homebrew'
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4.0.5
 
   auto-pr:
     needs: [audit]
     uses: ./.github/workflows/auto-pr.yml
     secrets: inherit
-    with:
-      # NOTE: Without this, the reusable workflow will checkout
-      # the GITHUB_REF from the caller workflow, i.e. the commit
-      # right before our push above.
-      ref: ${{ needs.audit.outputs.auto-pr-ref }}
