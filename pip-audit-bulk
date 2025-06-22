@@ -9,57 +9,66 @@ import shutil
 import subprocess
 import sys
 from pathlib import Path
+from tempfile import NamedTemporaryFile
 
 # This entire script is path-sensitive.
 _HERE = Path(__file__).resolve().parent
+_SITE = _HERE / "site"
 
-_REQUIREMENTS = _HERE / "requirements"
-assert _REQUIREMENTS.is_dir(), "missing requirements to audit (wrong dir?)"
+assert _SITE.is_dir(), "missing site dir (wrong dir?)"
 
-_OUT = _HERE / "audits"
-_OUT.mkdir(exist_ok=True)
+# formula-name -> [requirements]
+_REQUIREMENTS_JSON = _SITE / "formula-requirements.json"
 
-_FAILURES = _HERE / "failures"
-_FAILURES.unlink(missing_ok=True)
+_REQUIREMENTS = json.loads(_REQUIREMENTS_JSON.read_text())
 
-_SKIPPED = _HERE / "skipped"
-_SKIPPED.unlink(missing_ok=True)
+_AUDITS_JSON = _SITE / "formula-audits.json"
 
-_SUMMARY = Path(os.environ["GITHUB_STEP_SUMMARY"])
+audits = {
+    "vulnerable": {},
+    "failures": [],
+    "skipped": [],
+}
+
+if "CI" in os.environ:
+    _SUMMARY = Path(os.environ["GITHUB_STEP_SUMMARY"])
+else:
+    _SUMMARY = None
+
 # {(dependency, CVE): [list of formula]}
 _SUMMARY_RESULTS = collections.defaultdict(list)
 
 assert shutil.which("osv-scanner"), "missing osv-scanner"
 
-# First pass: actually run the audits.
-for req in sorted(_REQUIREMENTS.glob("*.txt")):
-    print(f"[+] auditing: {req.name}", file=sys.stderr)
-    result = subprocess.run(
-        [
-            "osv-scanner",
-            "--lockfile",
-            f"requirements.txt:{req}",
-            "--format=json",
-            "--config=osv-scanner-config.toml",
-        ],
-        capture_output=True,
-        text=True,
-    )
+for formula, requirements in _REQUIREMENTS.items():
+    # osv-scanner wants a requirements.txt file, so we make a temporary one.
+    with NamedTemporaryFile(mode="w") as req_file:
+        req_file.write("\n".join(requirements))
+        req_file.flush()
 
-    # If we don't see anything on stdout, pip-audit probably failed.
+        result = subprocess.run(
+            [
+                "osv-scanner",
+                "--lockfile",
+                f"requirements.txt:{req_file.name}",
+                "--format=json",
+                "--config=osv-scanner-config.toml",
+            ],
+            capture_output=True,
+            text=True,
+        )
+
+    # If we don't see anything on stdout, osv-scanner probably failed.
     # Log it as an error.
     if not result.stdout:
-        print(f"\t>:( pip-audit failed: {result.stderr}")
-        with _FAILURES.open(mode="at") as failures:
-            print(req.name, file=failures)
+        print(f"\t>:( osv-scanner failed: {result.stderr}")
+        audits["failures"].append(formula)
         continue
 
-    # Reduce the audit to only dependencies that include vulnerabilities
     audit = json.loads(result.stdout)
     results = audit["results"]
 
     # If we're left with anything, dump it as a result.
-    out = _OUT / req.with_suffix(".audit.json").name
     if results:
         assert len(results) == 1
         vulnerable_packages = results[0]["packages"]
@@ -67,28 +76,14 @@ for req in sorted(_REQUIREMENTS.glob("*.txt")):
         for p in vulnerable_packages:
             vuln_count += len(p["groups"])
             for v in p["groups"]:
-                _SUMMARY_RESULTS[(p["package"]["name"], v["ids"][0])].append(
-                    req.name.rsplit("-", 1)[0]
-                )
-        print(
-            f"\t:-( found {vuln_count} vulnerabilities in {req.name}",
-            file=sys.stderr,
-        )
-        out.write_text(json.dumps(vulnerable_packages, indent=2))
+                _SUMMARY_RESULTS[(p["package"]["name"], v["ids"][0])].append(formula)
+        print(f"\t:-( found {vuln_count} vulnerabilities in {formula}", file=sys.stderr)
+        audits["vulnerable"][formula] = vulnerable_packages
     else:
-        out.unlink(missing_ok=True)
-        print(f"\t:-) no vulnerabilities found in {req.name}", file=sys.stderr)
+        print(f"\t:-) no vulnerabilities found in {formula}", file=sys.stderr)
 
 
-# Second pass: clean up any audits that don't have corresponding
-# requirement files, from a previous run of this script.
-# This is nasty, and should probably go somewhere else.
-for audit in _OUT.glob("*.json"):
-    req = _REQUIREMENTS / audit.with_suffix("").with_suffix(".txt").name
-    if not req.is_file():
-        print(f":-O {audit.name} orphaned ({req.name}), deleting")
-        audit.unlink()
-
+_AUDITS_JSON.write_text(json.dumps(audits, indent=2))
 
 render = """Identified the following vulnerabilities:
 
@@ -100,5 +95,6 @@ for (dep, vuln), formulas in sorted(_SUMMARY_RESULTS.items()):
     formulas_rendered = ", ".join(f"`{f}`" for f in formulas)
     render += f"| `{dep}` | [`{vuln}`](https://osv.dev/vulnerability/{vuln}) | {formulas_rendered} |\n"
 
-with _SUMMARY.open(mode="a") as io:
-    print(render, file=io)
+if _SUMMARY:
+    with _SUMMARY.open(mode="a") as io:
+        print(render, file=io)
