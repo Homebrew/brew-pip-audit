@@ -2,9 +2,11 @@ attrs==25.3.0
 future==1.0.0
 jsonschema==4.24.0
 jsonschema-specifications==2025.4.1
+lxml==5.4.0
 markupsafe==3.0.2
 pyproj==3.7.1
 pyyaml==6.0.2
 referencing==0.36.2
 rpds-py==0.25.1
+shapely==2.1.1
 werkzeug==3.1.3
