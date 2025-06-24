@@ -27,21 +27,17 @@ The following things can be found in this repository:
   files.
 - `generate-prs.rb`: Automatically generates PRs against
   `Homebrew/homebrew-core` for formulae with vulnerable dependencies.
-- `requirements/`: The extracted `requirements.txt` file for each Homebrew
-  formula.
-- `audits/`: The result of `osv-scanner` for each Homebrew formula. There will
-  only be a file present if vulnerabilities were found.
 
-`requirements/` and `audits/` are automatically refreshed on a daily basis by
-Github Actions.
+See the generated [GitHub Pages site] for more information, including
+generated dependency sets and audits.
+
+[GitHub Pages site]: https://homebrew.github.io/brew-pip-audit/
 
 ## Contributing
 
 This repository is automated, but the automation isn't perfect. You can help
 out by:
 
-- Looking at the `skipped` file, and trying to figure out why a particular
-  dependency's audit was skipped.
 - Looking at the [incoming PRs] against `Homebrew/homebrew-core`, and helping
   debug ones that fail.
 - Improving the performance of our automation (it's currently very slow).
