@@ -1,6 +1,0 @@
-affine==2.4.0
-attrs==25.3.0
-click==8.1.8
-click-plugins==1.1.1
-cligj==0.7.2
-pyparsing==3.2.1

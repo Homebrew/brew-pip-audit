@@ -1,7 +1,0 @@
-pyqt3d==5.15.7
-pyqt5-sip==12.17.0
-pyqtchart==5.15.7
-pyqtdatavisualization==5.15.6
-pyqtnetworkauth==5.15.6
-pyqtpurchasing==5.15.6
-pyqtwebengine==5.15.7

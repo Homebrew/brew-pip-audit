@@ -1,7 +1,0 @@
-configobj==5.0.9
-dulwich==0.22.8
-fastbencode==0.3.2
-merge3==0.0.15
-patiencediff==0.2.15
-pyyaml==6.0.2
-urllib3==2.5.0

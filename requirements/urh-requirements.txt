@@ -1,4 +1,0 @@
-cython==3.0.11
-numpy==1.26.4
-psutil==6.1.1
-setuptools==75.8.0

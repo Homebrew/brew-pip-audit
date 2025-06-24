@@ -1,4 +1,0 @@
-absl-py==1.4.0
-ply==3.11
-pyyaml==6.0.2
-typing-extensions==4.14.0

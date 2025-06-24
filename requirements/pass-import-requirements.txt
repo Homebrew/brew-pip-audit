@@ -1,7 +1,0 @@
-charset-normalizer==3.4.2
-idna==3.10
-pyaml==25.5.0
-pyyaml==6.0.2
-requests==2.32.4
-urllib3==2.5.0
-zxcvbn==4.5.0

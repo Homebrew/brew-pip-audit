@@ -1,4 +1,0 @@
-cbor2==5.6.5
-packaging==25.0
-pycryptodome==3.22.0
-solc-select==1.1.0

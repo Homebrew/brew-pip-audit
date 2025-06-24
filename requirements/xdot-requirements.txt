@@ -1,2 +1,0 @@
-graphviz==0.20.3
-packaging==24.1

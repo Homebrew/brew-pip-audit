@@ -1,5 +1,0 @@
-click==7.1.2
-colorama==0.4.6
-commonmark==0.9.1
-pygments==2.18.0
-rich==10.16.2

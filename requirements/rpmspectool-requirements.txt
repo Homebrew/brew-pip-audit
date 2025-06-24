@@ -1,2 +1,0 @@
-argcomplete==3.5.2
-pycurl==7.45.3

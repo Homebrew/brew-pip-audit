@@ -1,6 +1,0 @@
-bleach==6.1.0
-docutils==0.21.2
-pygments==2.18.0
-readme-renderer==36.0
-six==1.16.0
-webencodings==0.5.1

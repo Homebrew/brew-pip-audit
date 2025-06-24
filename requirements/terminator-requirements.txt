@@ -1,4 +1,0 @@
-configobj==5.0.9
-psutil==7.0.0
-setuptools==80.8.0
-six==1.17.0

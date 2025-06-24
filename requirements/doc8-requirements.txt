@@ -1,6 +1,0 @@
-docutils==0.21.2
-pbr==6.1.1
-pygments==2.19.1
-restructuredtext-lint==1.4.0
-setuptools==80.9.0
-stevedore==5.4.1

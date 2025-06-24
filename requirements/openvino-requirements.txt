@@ -1,2 +1,0 @@
-openvino-telemetry==2024.1.0
-packaging==24.1

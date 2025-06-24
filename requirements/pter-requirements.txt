@@ -1,2 +1,0 @@
-cursedspace==1.5.2
-pytodotxt==3.0.0

@@ -1,4 +1,0 @@
-beniget==0.4.2.post1
-gast==0.6.0
-ply==3.11
-setuptools==80.8.0

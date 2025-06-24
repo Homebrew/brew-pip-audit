@@ -1,2 +1,0 @@
-kppy==1.5.2
-pycryptodomex==3.21.0

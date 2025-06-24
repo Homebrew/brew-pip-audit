@@ -1,5 +1,0 @@
-anytree==2.13.0
-click==8.2.0
-packaging==25.0
-setuptools==80.7.1
-wheel==0.45.1

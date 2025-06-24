@@ -1,3 +1,0 @@
-beautifulsoup4==4.12.3
-markdown==3.5.2
-soupsieve==2.5

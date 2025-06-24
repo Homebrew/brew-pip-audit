@@ -1,6 +1,0 @@
-commonmark==0.9.1
-flatbuffers==23.5.26
-pygments==2.18.0
-rich==12.6.0
-touca-fbs==0.0.3
-urllib3==1.26.20

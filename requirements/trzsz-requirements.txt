@@ -1,6 +1,0 @@
-iterm2==2.10
-protobuf==6.31.1
-trzsz-iterm2==1.1.5
-trzsz-libs==1.1.5
-trzsz-svr==1.1.5
-websockets==15.0.1

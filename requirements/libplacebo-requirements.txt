@@ -1,3 +1,0 @@
-glad2==2.0.8
-jinja2==3.1.6
-markupsafe==3.0.2

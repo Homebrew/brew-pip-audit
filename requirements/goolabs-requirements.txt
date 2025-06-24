@@ -1,6 +1,0 @@
-charset-normalizer==3.4.2
-click==8.2.1
-idna==3.10
-requests==2.32.4
-six==1.17.0
-urllib3==2.5.0
