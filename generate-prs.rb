@@ -2,11 +2,14 @@ require "json"
 require "formula"
 require "ostruct"
 require "utils/ast"
+require "utils/curl"
 require "utils/pypi"
 
 # Don't buffer stdout; with buffering, some of our stdout/stderr
 # logging below gets interleaved incorrectly.
 $stdout.sync = true
+
+AUDIT_JSON_URL = "https://homebrew.github.io/brew-pip-audit/formula-audits.json"
 
 # TODO: Support grabbing these from the environment.
 ONLY_FORMULA = []
@@ -111,21 +114,17 @@ def insert_before_node(tree_rewriter:, node:, name:, value:)
   tree_rewriter.insert_before(node_expr, stanza_str)
 end
 
-for path in Dir.entries("audits").sort
-  if !path.end_with?("-requirements.audit.json")
-    next
-  end
+result = ::Utils::Curl.curl_output("--fail", "--silent", "--location", AUDIT_JSON_URL)
+result.assert_success!
 
-  formula_name = path.delete_suffix("-requirements.audit.json")
-  vulnerable_deps = begin
-    audit = JSON.parse File.read("audits/#{path}")
+audit_json = JSON.parse(result.stdout)
 
-    audit.map { |dep| dep["package"]["name"] }
-  end
+audit_json["vulnerable"].each do |formula_name, audit|
+  vulnerable_deps = audit.map { |dep| dep["package"]["name"] }
 
   ohai "#{formula_name}: attempting to patch deps: #{vulnerable_deps.join(", ")}"
 
-  formula = Formula[path.delete_suffix("-requirements.audit.json")]
+  formula = Formula[formula_name]
   if SKIP_FORMULA.include?(formula.name) || (!ONLY_FORMULA.empty? && !ONLY_FORMULA.include?(formula.name))
     ohai "#{formula.name}: skipping"
     results.push({formula: formula_name, updated: false, reason: "Skipped because of SKIP_FORMULA/ONLY_FORMULA"})

@@ -2,18 +2,14 @@
 
 require "fileutils"
 require "uri"
+require "json"
 
 require "formulary"
 require "formula"
 
-OUT = "#{__dir__}/requirements"
+OUT = "#{__dir__}/site/formula-requirements.json"
 
-# Completely blow away the existing requirements dir, and then re-create it:
-# this clears out any requirements files that have been orphaned by upstream
-# formula deletion.
-FileUtils.rm_rf OUT
-FileUtils.mkdir_p OUT
-
+collected_requirements = Hash.new { |h, k| h[k] = [] }
 Formula.all.sort.each do |f|
   # Skip formulae that aren't in homebrew/core.
   next unless f.tap.name == "homebrew/core"
@@ -25,35 +21,33 @@ Formula.all.sort.each do |f|
   # Skip deprecated and disabled formulae.
   next if f.deprecated? || f.disabled?
 
-  requirement_file = "#{OUT}/#{f.name}-requirements.txt"
-
   puts f.name
-  File.open requirement_file, "w" do |io|
-    python_resources.each do |pr|
-      # Each pythonhosted resource URL looks something like this:
-      # https://files.pythonhosted.org/packages/PREFIX/PREFIX/LONG_BLAKE_HASH/PKGNAME-X.Y.Z.ext
-      #
-      # The only things we care about from the URL itself are
-      # the version (X.Y.Z) and the extension (and we only care about the
-      # latter so we can strip it correctly).
-      path = URI::parse(pr.url).path
-      suffix = if path.end_with? ".zip"
-                 ".zip"
-               elsif path.end_with? ".tar.gz"
-                 ".tar.gz"
-               elsif path.end_with? ".tar.bz2"
-                 ".tar.bz2"
-               elsif path.end_with? "-py3-none-any.whl"
-                 "-py3-none-any.whl"
-               elsif path.end_with? "-py2.py3-none-any.whl"
-                 "-py2.py3-none-any.whl"
-               else
-                 abort "barf: unexpected suffix in #{path}"
-               end
+  python_resources.each do |pr|
+    # Each pythonhosted resource URL looks something like this:
+    # https://files.pythonhosted.org/packages/PREFIX/PREFIX/LONG_BLAKE_HASH/PKGNAME-X.Y.Z.ext
+    #
+    # The only things we care about from the URL itself are
+    # the version (X.Y.Z) and the extension (and we only care about the
+    # latter so we can strip it correctly).
+    path = URI::parse(pr.url).path
+    suffix = if path.end_with? ".zip"
+                ".zip"
+              elsif path.end_with? ".tar.gz"
+                ".tar.gz"
+              elsif path.end_with? ".tar.bz2"
+                ".tar.bz2"
+              elsif path.end_with? "-py3-none-any.whl"
+                "-py3-none-any.whl"
+              elsif path.end_with? "-py2.py3-none-any.whl"
+                "-py2.py3-none-any.whl"
+              else
+                abort "barf: unexpected suffix in #{path}"
+              end
 
-      version = path.rpartition("-").last.delete_suffix suffix
+    version = path.rpartition("-").last.delete_suffix suffix
 
-      io.puts "#{pr.name}==#{version}"
-    end
+    collected_requirements[f.name] << "#{pr.name}==#{version}"
   end
 end
+
+File.write(OUT, JSON.pretty_generate(collected_requirements))
