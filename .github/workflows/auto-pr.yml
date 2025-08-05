@@ -13,7 +13,7 @@ on:
         type: boolean
       ref:
         required: false
-        default: ''
+        default: ""
         type: string
   workflow_call:
     inputs:
@@ -26,6 +26,8 @@ on:
       ref:
         default: ${{ github.ref }}
         type: string
+
+permissions: {}
 
 jobs:
   auto-pr:
