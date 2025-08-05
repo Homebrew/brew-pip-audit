@@ -15,7 +15,7 @@ Formula.all.sort.each do |f|
   next unless f.tap.name == "homebrew/core"
 
   # Look for formulae that have PyPI resources; skip those that don't.
-  python_resources = f.resources.select { |r| r.url =~ /files\.pythonhosted\.org/ }
+  python_resources = f.resources.select { |r| URI.parse(r.url).host == "files.pythonhosted.org" }
   next if python_resources.empty?
 
   # Skip deprecated and disabled formulae.
