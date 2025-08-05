@@ -26,6 +26,11 @@ on:
       ref:
         default: ${{ github.ref }}
         type: string
+    secrets:
+      BREWTESTBOT_SSH_SIGNING_KEY:
+        required: true
+      BREW_PIP_AUDIT_GH_TOKEN:
+        required: true
 
 permissions: {}
 

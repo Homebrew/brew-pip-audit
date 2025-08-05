@@ -78,4 +78,6 @@ jobs:
   auto-pr:
     needs: [audit]
     uses: ./.github/workflows/auto-pr.yml
-    secrets: inherit
+    secrets:
+      BREWTESTBOT_SSH_SIGNING_KEY: ${{ secrets.BREWTESTBOT_SSH_SIGNING_KEY }}
+      BREW_PIP_AUDIT_GH_TOKEN: ${{ secrets.BREW_PIP_AUDIT_GH_TOKEN }}
