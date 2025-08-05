@@ -138,7 +138,7 @@ audit_json["vulnerable"].each do |formula_name, audit|
   end
 
   old_resource_urls = formula.resources.map do |r|
-    r.url if vulnerable_deps.include?(PyPI.normalize_python_package r.name) && r.url =~ /files\.pythonhosted\.org/
+    r.url if vulnerable_deps.include?(PyPI.normalize_python_package r.name) && r.url =~ /\Ahttps?:\/\/files\.pythonhosted\.org\//
   end.compact
 
   ohai "#{formula_name}: vulnerable dist URLs: #{old_resource_urls.join(", ")}"
