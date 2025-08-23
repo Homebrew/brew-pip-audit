@@ -3,6 +3,7 @@ require "formula"
 require "ostruct"
 require "utils/ast"
 require "utils/curl"
+require "utils/output"
 require "utils/pypi"
 
 # Don't buffer stdout; with buffering, some of our stdout/stderr
@@ -122,17 +123,17 @@ audit_json = JSON.parse(result.stdout)
 audit_json["vulnerable"].each do |formula_name, audit|
   vulnerable_deps = audit.map { |dep| dep["package"]["name"] }
 
-  ohai "#{formula_name}: attempting to patch deps: #{vulnerable_deps.join(", ")}"
+  Utils::Output.ohai "#{formula_name}: attempting to patch deps: #{vulnerable_deps.join(", ")}"
 
   formula = Formula[formula_name]
   if SKIP_FORMULA.include?(formula.name) || (!ONLY_FORMULA.empty? && !ONLY_FORMULA.include?(formula.name))
-    ohai "#{formula.name}: skipping"
+    Utils::Output.ohai "#{formula.name}: skipping"
     results.push({formula: formula_name, updated: false, reason: "Skipped because of SKIP_FORMULA/ONLY_FORMULA"})
     next
   end
 
   if formula.deprecated? || formula.disabled?
-    opoo "#{formula.name}: skipping deprecated/disabled formula"
+    Utils::Output.opoo "#{formula.name}: skipping deprecated/disabled formula"
     results.push({formula: formula_name, updated: false, reason: "Skipped because deprecated or disabled"})
     next
   end
@@ -141,7 +142,7 @@ audit_json["vulnerable"].each do |formula_name, audit|
     r.url if vulnerable_deps.include?(PyPI.normalize_python_package r.name) && r.url =~ /\Ahttps?:\/\/files\.pythonhosted\.org\//
   end.compact
 
-  ohai "#{formula_name}: vulnerable dist URLs: #{old_resource_urls.join(", ")}"
+  Utils::Output.ohai "#{formula_name}: vulnerable dist URLs: #{old_resource_urls.join(", ")}"
 
   # HACK: Clean up the last step's update.
   formula.path.parent.cd do
@@ -151,13 +152,13 @@ audit_json["vulnerable"].each do |formula_name, audit|
   # Bump the formula's revision as well; adapted from `brew bump-revision`.
   manually_bump_revision(formula, formula.revision + 1)
 
-  ohai "#{formula.name}: updating Python resources"
+  Utils::Output.ohai "#{formula.name}: updating Python resources"
   # TODO: Updating Python resources automatically can fail for myriad reasons;
   # we should try and handle some of them.
   begin
     PyPI.update_python_resources!(formula, verbose: true)
   rescue SystemExit => e
-    opoo "#{formula_name} update_python_resources! failed: suppressing the previous exit and skipping"
+    Utils::Output.opoo "#{formula_name} update_python_resources! failed: suppressing the previous exit and skipping"
     results.push({formula: formula_name, updated: false, reason: "`update_python_resources!` failed: #{e}"})
     next
   end
@@ -170,7 +171,7 @@ audit_json["vulnerable"].each do |formula_name, audit|
     r.url if vulnerable_deps.include?(PyPI.normalize_python_package r.name) && r.url =~ /\Ahttps?:\/\/files\.pythonhosted\.org\//
   end.compact
 
-  ohai "#{formula_name}: patched dist URLs: #{new_resource_urls.join(", ")}"
+  Utils::Output.ohai "#{formula_name}: patched dist URLs: #{new_resource_urls.join(", ")}"
 
   # If we haven't changed any of the relevant resource URLs, then our resource
   # update only updated non-vulnerable dependencies.
@@ -178,15 +179,15 @@ audit_json["vulnerable"].each do |formula_name, audit|
   # of updating non-vulnerable dependencies.
   vulns_patched = old_resource_urls - new_resource_urls
   if vulns_patched.empty?
-    opoo "#{formula_name}: no vulnerabilities patched; skipping this PR"
+    Utils::Output.opoo "#{formula_name}: no vulnerabilities patched; skipping this PR"
     results.push({formula: formula_name, updated: false, reason: "No vulnerabilities patched. Vulnerable dependencies: #{old_resource_urls.map { |s| "`#{s}`" }.join(", ") }"})
     next
   else
-    ohai "#{formula_name}: patched: #{vulns_patched.join(", ")}"
+    Utils::Output.ohai "#{formula_name}: patched: #{vulns_patched.join(", ")}"
   end
 
   if DRY_RUN
-    ohai "#{formula_name}: not issuing PR due to dry run"
+    Utils::Output.ohai "#{formula_name}: not issuing PR due to dry run"
     results.push({formula: formula_name, updated: false, reason: "Dry run"})
     next
   end
@@ -198,7 +199,7 @@ audit_json["vulnerable"].each do |formula_name, audit|
                                             quiet: false,
                                             strict: true)
   rescue SystemExit => e
-    opoo "#{formula_name} PR dupe check failed: suppressing the previous exit and skipping"
+    Utils::Output.opoo "#{formula_name} PR dupe check failed: suppressing the previous exit and skipping"
     results.push({formula: formula_name, updated: false, reason: "Existing PR for this formula"})
     next
   end
@@ -230,7 +231,7 @@ audit_json["vulnerable"].each do |formula_name, audit|
   prs_sent += 1
   results.push({formula: formula_name, updated: true, reason: ""})
   if prs_sent == PR_LIMIT
-    ohai "generate-prs: Reached maximum limit of #{PR_LIMIT} PRs sent per run"
+    Utils::Output.ohai "generate-prs: Reached maximum limit of #{PR_LIMIT} PRs sent per run"
     break
   end
 end
