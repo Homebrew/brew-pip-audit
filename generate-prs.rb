@@ -46,7 +46,7 @@ NO_FORK = ENV.fetch("HOMEBREW_AUTO_PR_NO_FORK", "false") == "true"
 
 SUMMARY_PATH = ENV.fetch("GITHUB_STEP_SUMMARY", nil)
 
-ohai "generate-prs running with DRY_RUN=#{DRY_RUN}, PR_LIMIT=#{PR_LIMIT}, SUMMARY_PATH=#{SUMMARY_PATH}"
+Utils::Output.ohai "generate-prs running with DRY_RUN=#{DRY_RUN}, PR_LIMIT=#{PR_LIMIT}, SUMMARY_PATH=#{SUMMARY_PATH}"
 
 PR_MESSAGE = <<~MSG
   Created by `brew-pip-audit`.
