@@ -62,7 +62,6 @@ jobs:
         with:
           core: true
           cask: false
-          test-bot: false
 
       - name: Cache Homebrew Bundler RubyGems
         id: cache
