@@ -35,7 +35,6 @@ jobs:
         with:
           core: true
           cask: false
-          test-bot: false
 
       - name: Configure Homebrew, install dependencies
         run: |
