@@ -33,6 +33,10 @@ SKIP_FORMULA = [
   # and there is also complexity if the vulnerability is in ansible-core, which would cause
   # ansible-core version discrepancy between ansible and ansible-lint
   "ansible-lint",
+  # Can't determine metadata from git repo. We'd ideally use a pure-Python
+  # wheel from PyPI but my initial attempt to support that in Homebrew
+  # was an exercise in frustration.
+  "icloudpd",
 ]
 
 PR_LIMIT = ENV.fetch("HOMEBREW_AUTO_PR_LIMIT", 25).to_i
