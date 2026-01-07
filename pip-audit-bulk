@@ -70,8 +70,13 @@ for formula, requirements in _REQUIREMENTS.items():
 
     # If we're left with anything, dump it as a result.
     if results:
-        assert len(results) == 1
-        vulnerable_packages = results[0]["packages"]
+        seen_packages = {}
+        for r in results:
+            for p in r["packages"]:
+                seen_packages.setdefault(
+                    (p["package"]["name"], p["package"]["version"]), p
+                )
+        vulnerable_packages = seen_packages.values()
         vuln_count = 0
         for p in vulnerable_packages:
             vuln_count += len(p["groups"])
