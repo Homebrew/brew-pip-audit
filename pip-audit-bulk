@@ -76,7 +76,7 @@ for formula, requirements in _REQUIREMENTS.items():
                 seen_packages.setdefault(
                     (p["package"]["name"], p["package"]["version"]), p
                 )
-        vulnerable_packages = seen_packages.values()
+        vulnerable_packages = list(seen_packages.values())
         vuln_count = 0
         for p in vulnerable_packages:
             vuln_count += len(p["groups"])
