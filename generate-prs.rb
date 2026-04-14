@@ -1,6 +1,6 @@
 require "json"
 require "formula"
-require "ostruct"
+require "bump"
 require "utils/ast"
 require "utils/curl"
 require "utils/output"
@@ -190,12 +190,6 @@ audit_json["vulnerable"].each do |formula_name, audit|
     Utils::Output.ohai "#{formula_name}: patched: #{vulns_patched.join(", ")}"
   end
 
-  if DRY_RUN
-    Utils::Output.ohai "#{formula_name}: not issuing PR due to dry run"
-    results.push({formula: formula_name, updated: false, reason: "Dry run"})
-    next
-  end
-
   begin
     GitHub.check_for_duplicate_pull_requests(formula.name, formula.tap.remote_repository,
                                             state: "open",
@@ -218,22 +212,27 @@ audit_json["vulnerable"].each do |formula_name, audit|
   commit_message = "#{formula.name}: bump python resources"
   old_contents = File.read(formula.path)
 
-  info = {
+  info = Homebrew::Bump::BumpInfo.new(
     commits:     [
-      {
+      Homebrew::Bump::Commit.new(
         sourcefile_path:  formula.path,
         commit_message:,
         old_contents:,
-      }
+      ),
     ],
     branch_name: "brew-pip-audit-#{formula.name}-#{Time.now.to_i}",
     pr_message:  PR_MESSAGE % {old_urls: old_resource_urls.join("\n"), new_urls: vulns_patched.join("\n")},
-    tap:         formula.tap,
-    pr_title:    commit_message
-  }
-  GitHub.create_bump_pr(info, args: OpenStruct.new(:no_fork? => NO_FORK))
+    package_tap: formula.tap,
+    pr_title:    commit_message,
+  )
+  url = Homebrew::Bump.create_pr(info, no_fork: NO_FORK, dry_run: DRY_RUN)
   prs_sent += 1
-  results.push({formula: formula_name, updated: true, reason: ""})
+  if DRY_RUN
+    Utils::Output.ohai "#{formula_name}: not issuing PR due to dry run"
+    results.push({formula: formula_name, updated: false, reason: "Dry run"})
+  else
+    results.push({formula: formula_name, updated: true, reason: url})
+  end
   if prs_sent == PR_LIMIT
     Utils::Output.ohai "generate-prs: Reached maximum limit of #{PR_LIMIT} PRs sent per run"
     break

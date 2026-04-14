@@ -62,6 +62,7 @@ jobs:
         with:
           core: true
           cask: false
+          stable: false
 
       - name: Cache Homebrew Bundler RubyGems
         id: cache
