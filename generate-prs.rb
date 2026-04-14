@@ -48,10 +48,11 @@ DRY_RUN = ENV.fetch("HOMEBREW_AUTO_PR_DRY_RUN", "false") == "true"
 
 NO_FORK = ENV.fetch("HOMEBREW_AUTO_PR_NO_FORK", "false") == "true"
 
+QUICK_RUN = ENV.fetch("HOMEBREW_AUTO_PR_QUICK_RUN", "false") == "true"
+
 SUMMARY_PATH = ENV.fetch("GITHUB_STEP_SUMMARY", nil)
 
-Utils::Output.ohai "generate-prs running with DRY_RUN=#{DRY_RUN}, PR_LIMIT=#{PR_LIMIT}, SUMMARY_PATH=#{SUMMARY_PATH}"
-
+Utils::Output.ohai "generate-prs running with DRY_RUN=#{DRY_RUN}, PR_LIMIT=#{PR_LIMIT}, QUICK_RUN=#{QUICK_RUN}, SUMMARY_PATH=#{SUMMARY_PATH}"
 PR_MESSAGE = <<~MSG
   Created by `brew-pip-audit`.
 
@@ -124,7 +125,12 @@ result.assert_success!
 
 audit_json = JSON.parse(result.stdout)
 
-audit_json["vulnerable"].each do |formula_name, audit|
+audit_json["vulnerable"].each_with_index do |(formula_name, audit), i|
+  if QUICK_RUN && i >= 10
+    Utils::Output.ohai "generate-prs: quick run enabled, skipping remaining formulae"
+    break
+  end
+
   vulnerable_deps = audit.map { |dep| dep["package"]["name"] }
 
   Utils::Output.ohai "#{formula_name}: attempting to patch deps: #{vulnerable_deps.join(", ")}"

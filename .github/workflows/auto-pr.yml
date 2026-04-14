@@ -28,9 +28,9 @@ on:
         type: string
     secrets:
       BREWTESTBOT_SSH_SIGNING_KEY:
-        required: true
+        required: false
       BREW_PIP_AUDIT_GH_TOKEN:
-        required: true
+        required: false
 
 permissions: {}
 
@@ -77,11 +77,13 @@ jobs:
         run: brew install-bundler-gems --groups=all
 
       - name: Configure git
+        if: ${{ !inputs.dry-run }}
         uses: Homebrew/actions/git-user-config@main
         with:
           username: BrewTestBot
 
       - name: Set up commit signing
+        if: ${{ !inputs.dry-run }}
         uses: Homebrew/actions/setup-commit-signing@main
         with:
           signing_key: ${{ secrets.BREWTESTBOT_SSH_SIGNING_KEY }}
@@ -95,6 +97,7 @@ jobs:
           HOMEBREW_GITHUB_API_TOKEN: ${{ secrets.BREW_PIP_AUDIT_GH_TOKEN }}
           HOMEBREW_AUTO_PR_DRY_RUN: ${{ inputs.dry-run }}
           HOMEBREW_AUTO_PR_NO_FORK: true
+          HOMEBREW_AUTO_PR_QUICK_RUN: ${{ github.event_name == 'pull_request' }}
           HOMEBREW_AUTO_PR_LIMIT: ${{ inputs.pr-limit }}
           HOMEBREW_NO_INSTALL_FROM_API: 1
           HOMEBREW_EVAL_ALL: 1
