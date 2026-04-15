@@ -4,6 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 8 * * *"
+  pull_request:
 
 permissions: {}
 
@@ -12,18 +13,12 @@ jobs:
     runs-on: macos-latest
     permissions:
       contents: read # reading repo contents
-      pages: write # writing to GitHub Pages
-      id-token: write # authentication for GitHub Pages
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Check out this repo
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
           fetch-depth: 0
-          # credentials intentionally persisted for git operations below
-          persist-credentials: true
+          persist-credentials: false
 
       - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
         with:
@@ -42,16 +37,6 @@ jobs:
           brew install osv-scanner
           brew untap --force hashicorp/tap || true
 
-      - name: Configure git
-        uses: Homebrew/actions/git-user-config@main
-        with:
-          username: BrewTestBot
-
-      - name: Set up commit signing
-        uses: Homebrew/actions/setup-commit-signing@main
-        with:
-          signing_key: ${{ secrets.BREWTESTBOT_SSH_SIGNING_KEY }}
-
       - run: brew ruby formula2requirements.rb
         env:
           HOMEBREW_NO_AUTO_UPDATE: 1
@@ -59,24 +44,35 @@ jobs:
           HOMEBREW_EVAL_ALL: 1
 
       - run: python3 pip-audit-bulk
-
-      - name: Setup Pages
-        if: github.repository_owner == 'Homebrew'
-        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+        env:
+          QUICK_RUN: ${{ github.event_name == 'pull_request' }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4.0.0
         with:
           path: site
 
+  deploy:
+    if: github.repository_owner == 'Homebrew' && github.event_name != 'pull_request'
+    needs: [audit]
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write # writing to GitHub Pages
+      id-token: write # authentication for GitHub Pages
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
       - name: Deploy to GitHub Pages
-        if: github.repository_owner == 'Homebrew'
         id: deployment
         uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0
 
   auto-pr:
-    needs: [audit]
+    if: always() && needs.audit.result == 'success' && (needs.deploy.result == 'success' || needs.deploy.result == 'skipped')
+    needs: [audit, deploy]
     uses: ./.github/workflows/auto-pr.yml
+    with:
+      dry-run: ${{ github.event_name == 'pull_request' }}
     secrets:
       BREWTESTBOT_SSH_SIGNING_KEY: ${{ secrets.BREWTESTBOT_SSH_SIGNING_KEY }}
       BREW_PIP_AUDIT_GH_TOKEN: ${{ secrets.BREW_PIP_AUDIT_GH_TOKEN }}

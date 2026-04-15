@@ -35,12 +35,18 @@ if "CI" in os.environ:
 else:
     _SUMMARY = None
 
+_QUICK_RUN = os.environ.get("QUICK_RUN", "false") == "true"
+
 # {(dependency, CVE): [list of formula]}
 _SUMMARY_RESULTS = collections.defaultdict(list)
 
 assert shutil.which("osv-scanner"), "missing osv-scanner"
 
-for formula, requirements in _REQUIREMENTS.items():
+for i, (formula, requirements) in enumerate(_REQUIREMENTS.items()):
+    if _QUICK_RUN and i >= 10:
+        print("\t⏱ quick run, skipping remaining formulae", file=sys.stderr)
+        break
+
     # osv-scanner wants a requirements.txt file, so we make a temporary one.
     with NamedTemporaryFile(mode="w") as req_file:
         req_file.write("\n".join(requirements))
