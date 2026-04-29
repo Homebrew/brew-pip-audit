@@ -3,11 +3,13 @@
 # pip-audit-bulk: run pip-audit in bulk, saving (reduced) reports in JSON
 
 import collections
+import concurrent.futures
 import json
 import os
 import shutil
 import subprocess
 import sys
+from itertools import islice
 from pathlib import Path
 from tempfile import NamedTemporaryFile
 
@@ -37,22 +39,21 @@ else:
 
 _QUICK_RUN = os.environ.get("QUICK_RUN", "false") == "true"
 
+_JOBS = 4
+
 # {(dependency, CVE): [list of formula]}
 _SUMMARY_RESULTS = collections.defaultdict(list)
 
 assert shutil.which("osv-scanner"), "missing osv-scanner"
 
-for i, (formula, requirements) in enumerate(_REQUIREMENTS.items()):
-    if _QUICK_RUN and i >= 10:
-        print("\t⏱ quick run, skipping remaining formulae", file=sys.stderr)
-        break
 
+def _audit_formula(formula, requirements):
     # osv-scanner wants a requirements.txt file, so we make a temporary one.
     with NamedTemporaryFile(mode="w") as req_file:
         req_file.write("\n".join(requirements))
         req_file.flush()
 
-        result = subprocess.run(
+        return formula, subprocess.run(
             [
                 "osv-scanner",
                 "--lockfile",
@@ -64,34 +65,50 @@ for i, (formula, requirements) in enumerate(_REQUIREMENTS.items()):
             text=True,
         )
 
-    # If we don't see anything on stdout, osv-scanner probably failed.
-    # Log it as an error.
-    if not result.stdout:
-        print(f"\t>:( osv-scanner failed: {result.stderr}", file=sys.stderr)
-        audits["failures"].append(formula)
-        continue
 
-    audit = json.loads(result.stdout)
-    results = audit["results"]
+_items = _REQUIREMENTS.items()
+if _QUICK_RUN:
+    _items = islice(_items, 10)
 
-    # If we're left with anything, dump it as a result.
-    if results:
-        seen_packages = {}
-        for r in results:
-            for p in r["packages"]:
-                seen_packages.setdefault(
-                    (p["package"]["name"], p["package"]["version"]), p
-                )
-        vulnerable_packages = list(seen_packages.values())
-        vuln_count = 0
-        for p in vulnerable_packages:
-            vuln_count += len(p["groups"])
-            for v in p["groups"]:
-                _SUMMARY_RESULTS[(p["package"]["name"], v["ids"][0])].append(formula)
-        print(f"\t:-( found {vuln_count} vulnerabilities in {formula}", file=sys.stderr)
-        audits["vulnerable"][formula] = vulnerable_packages
-    else:
-        print(f"\t:-) no vulnerabilities found in {formula}", file=sys.stderr)
+with concurrent.futures.ThreadPoolExecutor(max_workers=_JOBS) as pool:
+    futures = [pool.submit(_audit_formula, f, r) for f, r in _items]
+    n_total = len(futures)
+    width = len(str(n_total))
+    for n_complete, fut in enumerate(concurrent.futures.as_completed(futures), start=1):
+        formula, result = fut.result()
+        prefix = f"[{n_complete:>{width}}/{n_total}]"
+
+        # If we don't see anything on stdout, osv-scanner probably failed.
+        # Log it as an error.
+        if not result.stdout:
+            print(f"\t{prefix} >:( osv-scanner failed: {result.stderr}", file=sys.stderr)
+            audits["failures"].append(formula)
+            continue
+
+        audit = json.loads(result.stdout)
+        results = audit["results"]
+
+        # If we're left with anything, dump it as a result.
+        if results:
+            seen_packages = {}
+            for r in results:
+                for p in r["packages"]:
+                    seen_packages.setdefault(
+                        (p["package"]["name"], p["package"]["version"]), p
+                    )
+            vulnerable_packages = list(seen_packages.values())
+            vuln_count = 0
+            for p in vulnerable_packages:
+                vuln_count += len(p["groups"])
+                for v in p["groups"]:
+                    _SUMMARY_RESULTS[(p["package"]["name"], v["ids"][0])].append(formula)
+            print(f"\t{prefix} :-( found {vuln_count} vulnerabilities in {formula}", file=sys.stderr)
+            audits["vulnerable"][formula] = vulnerable_packages
+        else:
+            print(f"\t{prefix} :-) no vulnerabilities found in {formula}", file=sys.stderr)
+
+if _QUICK_RUN:
+    print("\t⏱ quick run, skipped remaining formulae", file=sys.stderr)
 
 
 _AUDITS_JSON.write_text(json.dumps(audits, indent=2))
