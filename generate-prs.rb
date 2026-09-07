@@ -171,6 +171,13 @@ audit_json["vulnerable"].each_with_index do |(formula_name, audit), i|
     Utils::Output.opoo "#{formula_name} update_python_resources! failed: suppressing the previous exit and skipping"
     results.push({formula: formula_name, updated: false, reason: "`update_python_resources!` failed: #{e}"})
     next
+  rescue StandardError => e
+    # `update_python_resources!` can also raise (e.g. `ArgumentError` when
+    # `pip` can't resolve the main package's metadata); don't let one
+    # formula's failure abort the whole run.
+    Utils::Output.onoe "#{formula_name} update_python_resources! raised #{e.class}: #{e.message}"
+    results.push({formula: formula_name, updated: false, reason: "`update_python_resources!` raised `#{e.class}`: #{e.message}"})
+    next
   end
 
   # Re-load the formula to have the newly updated Python resources take effect.
