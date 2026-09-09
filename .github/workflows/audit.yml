@@ -30,6 +30,12 @@ jobs:
         with:
           core: true
           cask: false
+          stable: false
+
+      - name: Set up Ruby
+        uses: Homebrew/actions/setup-ruby@3cdb78d0f62ad29dd32de765782654f4eedea607 # 2026.08.31.1
+        with:
+          portable-ruby: true
 
       - name: Configure Homebrew, install dependencies
         run: |
@@ -37,11 +43,10 @@ jobs:
           brew install osv-scanner
           brew untap --force hashicorp/tap || true
 
-      - run: brew ruby formula2requirements.rb
+      - run: ruby formula2requirements.rb
         env:
           HOMEBREW_NO_AUTO_UPDATE: 1
           HOMEBREW_NO_INSTALL_FROM_API: 1
-          HOMEBREW_EVAL_ALL: 1
           HOMEBREW_REQUIRE_TAP_TRUST: 1
 
       - run: python3 pip-audit-bulk

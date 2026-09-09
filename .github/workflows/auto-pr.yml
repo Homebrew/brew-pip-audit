@@ -64,6 +64,11 @@ jobs:
           cask: false
           stable: false
 
+      - name: Set up Ruby
+        uses: Homebrew/actions/setup-ruby@3cdb78d0f62ad29dd32de765782654f4eedea607 # 2026.08.31.1
+        with:
+          portable-ruby: true
+
       - name: Cache Homebrew Bundler RubyGems
         id: cache
         uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
@@ -92,7 +97,7 @@ jobs:
         run: brew install augeas autoconf
 
       - name: Generate Pull Requests
-        run: brew ruby generate-prs.rb
+        run: ruby generate-prs.rb
         env:
           HOMEBREW_GITHUB_API_TOKEN: ${{ secrets.BREW_PIP_AUDIT_GH_TOKEN }}
           HOMEBREW_AUTO_PR_DRY_RUN: ${{ inputs.dry-run }}
