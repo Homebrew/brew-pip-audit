@@ -26,14 +26,14 @@ jobs:
 
       - name: Set up Homebrew
         id: set-up-homebrew
-        uses: Homebrew/actions/setup-homebrew@f8d4222eb633e65c2a0157383cf80861fc7fae7f # 2026.09.07.1
+        uses: Homebrew/actions/setup-homebrew@1e34f2e2acaa766b7efacb8c26352e6abbb023f9 # 2026.09.13.1
         with:
           core: true
           cask: false
           stable: false
 
       - name: Set up Ruby
-        uses: Homebrew/actions/setup-ruby@f8d4222eb633e65c2a0157383cf80861fc7fae7f # 2026.09.07.1
+        uses: Homebrew/actions/setup-ruby@1e34f2e2acaa766b7efacb8c26352e6abbb023f9 # 2026.09.13.1
         with:
           portable-ruby: true
 
