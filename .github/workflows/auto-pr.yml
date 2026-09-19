@@ -105,4 +105,3 @@ jobs:
           HOMEBREW_AUTO_PR_QUICK_RUN: ${{ github.event_name == 'pull_request' }}
           HOMEBREW_AUTO_PR_LIMIT: ${{ inputs.pr-limit }}
           HOMEBREW_NO_INSTALL_FROM_API: 1
-          HOMEBREW_EVAL_ALL: 1
