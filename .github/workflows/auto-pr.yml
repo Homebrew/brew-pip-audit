@@ -38,6 +38,8 @@ jobs:
   auto-pr:
     runs-on: macos-latest
     timeout-minutes: 120
+    env:
+      HOMEBREW_DEVELOPER: 1
 
     steps:
       - name: Display inputs
