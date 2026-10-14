@@ -49,6 +49,8 @@ assert shutil.which("osv-scanner"), "missing osv-scanner"
 
 def _audit_formula(formula, requirements):
     # osv-scanner wants a requirements.txt file, so we make a temporary one.
+    # These are pinned formula resources, including packaged transitive dependencies.
+    # Resolving additional dependencies would scan packages outside that inventory.
     with NamedTemporaryFile(mode="w") as req_file:
         req_file.write("\n".join(requirements))
         req_file.flush()
@@ -58,6 +60,7 @@ def _audit_formula(formula, requirements):
                 "osv-scanner",
                 "--lockfile",
                 f"requirements.txt:{req_file.name}",
+                "--no-resolve",
                 "--format=json",
                 "--config=osv-scanner-config.toml",
             ],
@@ -78,10 +81,14 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=_JOBS) as pool:
         formula, result = fut.result()
         prefix = f"[{n_complete:>{width}}/{n_total}]"
 
-        # If we don't see anything on stdout, osv-scanner probably failed.
-        # Log it as an error.
-        if not result.stdout:
-            print(f"\t{prefix} >:( osv-scanner failed: {result.stderr}", file=sys.stderr)
+        # osv-scanner exits 0 for a clean scan and 1 when it finds vulnerabilities.
+        # Other exits or missing output mean we do not have a complete scan.
+        if result.returncode not in (0, 1) or not result.stdout:
+            print(
+                f"\t{prefix} >:( osv-scanner failed for {formula} "
+                f"(exit {result.returncode}): {result.stderr}",
+                file=sys.stderr,
+            )
             audits["failures"].append(formula)
             continue
 
@@ -123,6 +130,15 @@ for (dep, vuln), formulas in sorted(_SUMMARY_RESULTS.items()):
     formulas_rendered = ", ".join(f"`{f}`" for f in formulas)
     render += f"| `{dep}` | [`{vuln}`](https://osv.dev/vulnerability/{vuln}) | {formulas_rendered} |\n"
 
+if audits["failures"]:
+    failures_rendered = "\n".join(f"- `{f}`" for f in sorted(audits["failures"]))
+    failure_message = f"Audit incomplete: failed to scan {len(audits['failures'])} of {n_total} formulae."
+    render = f"## Audit incomplete\n\n{failure_message}\n\n{failures_rendered}\n\n{render}"
+
 if _SUMMARY:
     with _SUMMARY.open(mode="a") as io:
         print(render, file=io)
+
+if audits["failures"]:
+    print(failure_message, file=sys.stderr)
+    sys.exit(1)
